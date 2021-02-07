@@ -132,7 +132,7 @@ const Typography = createGlobalStyle`
     &:focus {
       border-color: var(--gold);
       &::before {
-        width: 120%;
+        width: 125%;
       }
     }
   }

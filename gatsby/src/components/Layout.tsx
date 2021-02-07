@@ -5,7 +5,7 @@ import Typography from '../styles/Typography';
 import Header from './Header';
 import 'normalize.css';
 
-export default function Layout({ children }) {
+export default function Layout({ children }: any) {
   return (
     <>
       <GlobalStyles />

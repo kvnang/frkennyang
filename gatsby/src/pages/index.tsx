@@ -1,9 +1,51 @@
-import { graphql, Link } from 'gatsby';
+import { graphql, Link, PageProps } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import Img from 'gatsby-image';
+import Img, { FluidObject } from 'gatsby-image';
+import Slider from 'react-slick';
 import { breakpoints } from '../styles/breakpoints';
 import signature from '../assets/images/frk-signature.svg';
+import Social from '../components/Social';
+import formatDate from '../utils/formatDate';
+import toPlainText from '../utils/sanityBlockToPlainText';
+
+type PostProps = {
+  id: number;
+  slug: {
+    current: string;
+  };
+  mainImage: {
+    asset: {
+      fluid: FluidObject;
+    };
+  };
+  title: string;
+  publishedAt: string;
+  body: string;
+};
+
+type IndexQueryProps = {
+  heroImage: {
+    childImageSharp: {
+      fluid: FluidObject;
+    };
+  };
+  contactImage: {
+    childImageSharp: {
+      fluid: FluidObject;
+    };
+  };
+  sampleImage: {
+    childImageSharp: {
+      fluid: FluidObject;
+    };
+  };
+  posts: {
+    nodes: PostProps[];
+  };
+};
+
+type IndexPageProps = PageProps<IndexQueryProps>;
 
 const HeroStyles = styled.div`
   background: radial-gradient(
@@ -152,12 +194,140 @@ const FeaturedStyles = styled.div`
       }
     }
   }
+
+  .posts-wrapper {
+    --width-xs: 12;
+    --width-md: 10;
+    --offset-md: 1;
+    margin-top: 2.5rem;
+  }
+
+  .posts {
+    display: flex;
+    margin: 0 -2.5%;
+  }
+
+  .slick-slider {
+    width: 100%;
+
+    .slick-track {
+      display: flex;
+    }
+
+    .slick-dots {
+      list-style: none;
+      padding-left: 0;
+      text-align: right;
+      margin: 1rem -0.5rem 0;
+
+      li {
+        display: inline-block;
+        padding: 0.5rem;
+
+        button {
+          color: transparent;
+          text-indent: -9999px;
+          height: 0.5rem;
+          width: 0.5rem;
+          background-color: var(--grey);
+          border-radius: 50%;
+          padding: 0;
+          transition: var(--transition);
+
+          &:hover,
+          &:focus {
+            background-color: var(--gold);
+          }
+        }
+
+        &.slick-active {
+          button {
+            background-color: var(--black);
+          }
+        }
+      }
+    }
+  }
+
+  .post {
+    width: 35%;
+    flex: 0 0 35%;
+    padding: 0 calc(2.5 / 105 * 100%);
+
+    .post-inner {
+      display: flex;
+      flex-direction: column;
+
+      &:hover,
+      &:focus {
+        .post-title {
+          color: var(--gold);
+        }
+        .post-img {
+          .gatsby-image-wrapper {
+            transform: translate(-0.5rem, -0.5rem);
+          }
+          &::before {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+
+    .post-img {
+      position: relative;
+
+      .gatsby-image-wrapper {
+        transition: var(--transition);
+      }
+
+      &::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        background: var(--grey);
+        opacity: 0.2;
+        transition: var(--transition);
+      }
+
+      .post-format {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3.5rem;
+        width: 3.5rem;
+        background-color: var(--black);
+      }
+    }
+
+    .post-img,
+    .post-title,
+    .post-excerpt {
+      margin-bottom: 0.5rem;
+    }
+
+    .post-title {
+      transition: var(--transition);
+    }
+
+    .post-excerpt {
+      color: var(--black);
+    }
+  }
 `;
 
 const ContactStyles = styled.div`
   @media ${breakpoints.laptop} {
     background-color: var(--offwhite);
     margin: -1px 0;
+  }
+
+  .container {
+    position: relative;
   }
 
   .inner {
@@ -179,15 +349,28 @@ const ContactStyles = styled.div`
 
   .contact-img {
     display: none;
-    width: calc(30% + 10%);
-    margin-left: -10%;
+    width: calc(30% + 10% + 2.5vw);
+    margin-left: calc(-10% - 2.5vw);
     position: absolute;
     top: var(--section-padding);
     left: 0;
     height: 100%;
+    z-index: 1;
 
     @media ${breakpoints.laptop} {
       display: block;
+    }
+
+    &::before {
+      content: '';
+      height: 100%;
+      width: calc(100% - 20% - 2.5vw);
+      position: absolute;
+      z-index: -1;
+      top: -1rem;
+      right: -1rem;
+      background-color: var(--grey);
+      opacity: 0.25;
     }
 
     .gatsby-image-wrapper {
@@ -249,11 +432,36 @@ const FormStyles = styled.div`
   }
 `;
 
-export default function HomePage({ data }) {
+export default function HomePage({ data }: IndexPageProps) {
+  const posts = data.posts.nodes;
+
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <HeroStyles>
-        <div className="container ">
+        <div className="container">
           <div className="row">
             <div className="hero-text col">
               <img src={signature} alt="Fr. Kenny Ang" className="signature" />
@@ -276,10 +484,11 @@ export default function HomePage({ data }) {
               <Img
                 fluid={data.heroImage.childImageSharp.fluid}
                 alt=""
-                critical="true"
+                loading="eager"
               />
             </div>
           </div>
+          <Social />
         </div>
       </HeroStyles>
       <FeaturedStyles className="bg-light">
@@ -288,6 +497,44 @@ export default function HomePage({ data }) {
             <div className="inner">
               <h2>Featured Contents</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div className="posts-wrapper col">
+            <div className="posts">
+              <Slider {...settings}>
+                {posts.map((post) => (
+                  <div key={post.id} className="post">
+                    <a
+                      href={`/post/${post.slug.current}`}
+                      className="post-inner"
+                    >
+                      <div className="post-img">
+                        {post.mainImage ? (
+                          <Img
+                            fluid={post.mainImage.asset.fluid}
+                            alt={post.title}
+                          />
+                        ) : (
+                          ''
+                        )}
+                        <div className="post-format" />
+                      </div>
+                      <div className="post-details">
+                        <h3 className="post-title h4">{post.title}</h3>
+                        <p className="post-excerpt">
+                          {`${toPlainText(post.body)
+                            .split(' ')
+                            .splice(0, 20)
+                            .join(' ')}\u00A0...`}
+                        </p>
+                        <p className="post-date">
+                          <small>{formatDate(post.publishedAt)}</small>
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                ))}
+              </Slider>
             </div>
           </div>
         </div>
@@ -356,6 +603,7 @@ export default function HomePage({ data }) {
               </div>
             </div>
           </div>
+          <Social dark />
         </div>
       </ContactStyles>
     </>
@@ -376,6 +624,44 @@ export const query = graphql`
         fluid {
           ...GatsbyImageSharpFluid
         }
+      }
+    }
+    sampleImage: file(relativePath: { eq: "sample-img.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    posts: allSanityPost(limit: 9, sort: { fields: publishedAt, order: DESC }) {
+      nodes {
+        id
+        slug {
+          current
+        }
+        title
+        mainImage {
+          asset {
+            fluid(maxWidth: 450, maxHeight: 250) {
+              ...GatsbySanityImageFluid
+            }
+          }
+        }
+        _rawBody(resolveReferences: { maxDepth: 10 })
+        body {
+          _key
+          _rawChildren
+          _type
+          children {
+            marks
+            text
+            _key
+            _type
+          }
+          list
+          style
+        }
+        publishedAt
       }
     }
   }

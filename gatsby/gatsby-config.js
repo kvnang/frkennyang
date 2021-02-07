@@ -18,6 +18,15 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
+      resolve: 'gatsby-source-sanity',
+      options: {
+        projectId: 'rpmhgo5d',
+        dataset: 'production',
+        watchMode: true,
+        token: process.env.SANITY_TOKEN,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-webfonts',
       options: {
         fonts: {

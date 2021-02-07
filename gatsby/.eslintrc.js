@@ -15,6 +15,14 @@ module.exports = {
     jquery: true,
     jest: true,
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        paths: ['src'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
   rules: {
     'no-debugger': 0,
     'no-alert': 0,
@@ -60,6 +68,7 @@ module.exports = {
     'comma-dangle': 0,
     'max-len': 0,
     'import/extensions': 0,
+
     'no-underscore-dangle': 0,
     'consistent-return': 0,
     'react/display-name': 1,
@@ -78,9 +87,15 @@ module.exports = {
     'react/prop-types': 0,
     'react/require-default-props': 0,
     'react/jsx-filename-extension': [
+      2,
+      {
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
+      },
+    ],
+    'react/jsx-props-no-spreading': [
       1,
       {
-        extensions: ['.js', '.jsx'],
+        exceptions: ['Slider'],
       },
     ],
     radix: 0,
@@ -119,6 +134,7 @@ module.exports = {
     ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    '@typescript-eslint/comma-dangle': ['off'],
   },
   plugins: ['html', 'prettier', 'react-hooks'],
 };

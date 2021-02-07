@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import React, { useEffect, useState } from 'react';
+import React, { MouseEvent, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { breakpoints } from '../styles/breakpoints';
 import Logo from './Logo';
@@ -182,7 +182,7 @@ export default function Header() {
     });
   });
 
-  function handleMenuHamburgerClick(e) {
+  function handleMenuHamburgerClick(e : MouseEvent) {
     e.preventDefault();
     setMobileMenuActive(!mobileMenuActive);
   }
@@ -219,7 +219,7 @@ export default function Header() {
               onClick={handleMenuHamburgerClick}
               aria-label="Toggle Mobile Menu"
             >
-              <div className="hamburger" tabIndex="-1">
+              <div className="hamburger" tabIndex={-1}>
                 <span />
                 <span />
                 <span />
