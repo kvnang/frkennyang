@@ -15,7 +15,6 @@
     "serve": "cross-env NODE_OPTIONS=\"-r esm\" gatsby serve",
     "clean": "gatsby clean",
     "netlify": "netlify dev",
-    "prebuild": "netlify-lambda install",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
