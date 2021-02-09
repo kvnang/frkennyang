@@ -37,8 +37,8 @@ const serializers = {
     inlineImage: ({ node }) => {
       const { asset, alt } = node;
       const sanityConfig = {
-        projectId: process.env.SANITY_PROJECT_ID,
-        dataset: process.env.SANITY_DATASET,
+        projectId: process.env.GATSBY_SANITY_PROJECT_ID,
+        dataset: process.env.GATSBY_SANITY_DATASET,
       };
       const fluidProps = getFluidGatsbyImage(
         asset.id,
