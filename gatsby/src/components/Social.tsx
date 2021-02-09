@@ -62,7 +62,7 @@ const SocialStyles = styled.div`
 
 export default function Social({ dark }: SocialProps) {
   return (
-    <SocialStyles className={dark === true ? 'dark' : ''}>
+    <SocialStyles className={dark === true ? 'social dark' : 'social'}>
       <ul>
         <li>
           <a

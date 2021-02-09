@@ -24,23 +24,41 @@ export default {
       to: {type: 'author'},
     },
     {
-      name: 'mainImage',
-      title: 'Main image',
-      type: 'image',
-      options: {
-        hotspot: true,
-      },
-    },
-    {
       name: 'categories',
       title: 'Categories',
       type: 'array',
       of: [{type: 'reference', to: {type: 'category'}}],
     },
     {
+      name: 'format',
+      title: 'Format',
+      type: 'string',
+      validation: Rule => Rule.required(),
+      options: {
+        list: [
+          {title: 'Video', value: 'video'},
+          {title: 'Article', value: 'article'}
+        ]
+      }
+    },
+    {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',
+    },
+    {
+      name: 'mainImage',
+      title: 'Main Image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: 'mediaUrl',
+      title: 'Media URL',
+      type: 'url',
+      description: 'YouTube URL is expected for video format. This will replace the Main Image if defined.',
     },
     {
       name: 'body',

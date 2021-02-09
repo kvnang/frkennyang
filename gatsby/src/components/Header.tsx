@@ -142,10 +142,13 @@ const MobileHeaderStyles = styled.div`
   nav {
     display: flex;
     flex-direction: column;
-    padding-top: 3rem;
+    padding-top: 6rem;
     padding-bottom: 3rem;
+    width: 100%;
 
     a {
+      display: inline-flex;
+      padding: 0.5rem 0;
       &:not(:last-child) {
         margin-bottom: 1rem;
       }
@@ -182,7 +185,7 @@ export default function Header() {
     });
   });
 
-  function handleMenuHamburgerClick(e : MouseEvent) {
+  function handleMenuHamburgerClick(e: MouseEvent) {
     e.preventDefault();
     setMobileMenuActive(!mobileMenuActive);
   }
@@ -195,16 +198,11 @@ export default function Header() {
     <>
       <HeaderStyles>
         <div className="container">
-          <div className="logo">
+          <Link to="/" className="logo">
             <Logo />
-          </div>
+          </Link>
           <MenuStyles>
             <ul>
-              <li>
-                <Link to="/about" className="link-underline">
-                  About
-                </Link>
-              </li>
               <li>
                 <Link to="/about" className="link-underline">
                   About
@@ -231,9 +229,6 @@ export default function Header() {
               <nav>
                 <Link to="/about" onClick={handleMobileMenuClick}>
                   About
-                </Link>
-                <Link to="/contact" onClick={handleMobileMenuClick}>
-                  Contact
                 </Link>
               </nav>
             </div>

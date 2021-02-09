@@ -35,6 +35,7 @@
     "gatsby-source-filesystem": "^2.11.0",
     "gatsby-source-sanity": "^6.0.5",
     "gatsby-transformer-sharp": "^2.12.0",
+    "get-youtube-id": "^1.0.1",
     "isomorphic-fetch": "^3.0.0",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
@@ -42,6 +43,7 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
     "react-slick": "^0.28.0",
+    "react-youtube": "^7.13.1",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {

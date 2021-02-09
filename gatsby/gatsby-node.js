@@ -3,7 +3,7 @@ import fetch from 'isomorphic-fetch';
 
 async function turnPostsIntoPages({ graphql, actions }) {
   // 1. Get a template for this page
-  const postTemplate = path.resolve('./src/templates/SinglePost.js');
+  const postTemplate = path.resolve('./src/templates/SinglePost.tsx');
   // 2. Query all posts
   const { data } = await graphql(`
     query {

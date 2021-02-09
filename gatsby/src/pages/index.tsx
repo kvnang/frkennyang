@@ -3,6 +3,11 @@ import React from 'react';
 import styled from 'styled-components';
 import Img, { FluidObject } from 'gatsby-image';
 import Slider from 'react-slick';
+import {
+  MdFormatAlignLeft,
+  MdInsertDriveFile,
+  MdPlayArrow,
+} from 'react-icons/md';
 import { breakpoints } from '../styles/breakpoints';
 import signature from '../assets/images/frk-signature.svg';
 import Social from '../components/Social';
@@ -22,6 +27,7 @@ type PostProps = {
   title: string;
   publishedAt: string;
   body: string;
+  format: string;
 };
 
 type IndexQueryProps = {
@@ -156,6 +162,16 @@ const HeroStyles = styled.div`
         max-width: 400px;
         transform: translateX(0);
       }
+    }
+  }
+
+  .social {
+    right: auto;
+    left: 0;
+
+    @media ${breakpoints.laptop} {
+      left: auto;
+      right: 0;
     }
   }
 `;
@@ -298,9 +314,16 @@ const FeaturedStyles = styled.div`
         position: absolute;
         bottom: 0;
         left: 0;
-        height: 3.5rem;
-        width: 3.5rem;
+        height: 2.5rem;
+        width: 2.5rem;
         background-color: var(--black);
+        padding: 0.5rem;
+
+        svg {
+          color: var(--white);
+          height: 100%;
+          width: auto;
+        }
       }
     }
 
@@ -324,6 +347,17 @@ const ContactStyles = styled.div`
   @media ${breakpoints.laptop} {
     background-color: var(--offwhite);
     margin: -1px 0;
+  }
+
+  + footer {
+    background-color: var(--offwhite);
+    color: var(--black);
+
+    .col {
+      --width-xs: 12;
+      --width-md: 10;
+      --offset-md: 1;
+    }
   }
 
   .container {
@@ -375,6 +409,14 @@ const ContactStyles = styled.div`
 
     .gatsby-image-wrapper {
       height: 100%;
+    }
+  }
+
+  .social {
+    display: none;
+
+    @media ${breakpoints.laptop} {
+      display: flex;
     }
   }
 `;
@@ -502,38 +544,57 @@ export default function HomePage({ data }: IndexPageProps) {
           <div className="posts-wrapper col">
             <div className="posts">
               <Slider {...settings}>
-                {posts.map((post) => (
-                  <div key={post.id} className="post">
-                    <a
-                      href={`/post/${post.slug.current}`}
-                      className="post-inner"
-                    >
-                      <div className="post-img">
-                        {post.mainImage ? (
-                          <Img
-                            fluid={post.mainImage.asset.fluid}
-                            alt={post.title}
-                          />
-                        ) : (
-                          ''
-                        )}
-                        <div className="post-format" />
-                      </div>
-                      <div className="post-details">
-                        <h3 className="post-title h4">{post.title}</h3>
-                        <p className="post-excerpt">
-                          {`${toPlainText(post.body)
-                            .split(' ')
-                            .splice(0, 20)
-                            .join(' ')}\u00A0...`}
-                        </p>
-                        <p className="post-date">
-                          <small>{formatDate(post.publishedAt)}</small>
-                        </p>
-                      </div>
-                    </a>
-                  </div>
-                ))}
+                {posts.map((post) => {
+                  let icon;
+                  switch (post.format) {
+                    case 'video':
+                      icon = <MdPlayArrow />;
+                      break;
+                    case 'article':
+                      icon = <MdFormatAlignLeft />;
+                      break;
+                    default:
+                      icon = '';
+                  }
+                  return (
+                    <div key={post.id} className="post">
+                      <a
+                        href={`/post/${post.slug.current}`}
+                        className="post-inner"
+                      >
+                        <div className="post-img">
+                          {post.mainImage ? (
+                            <Img
+                              fluid={post.mainImage.asset.fluid}
+                              alt={post.title}
+                            />
+                          ) : (
+                            ''
+                          )}
+                          {post.format ? (
+                            <div className="post-format">{icon}</div>
+                          ) : (
+                            ''
+                          )}
+                        </div>
+                        <div className="post-details">
+                          <h3 className="post-title h4">{post.title}</h3>
+                          <p className="post-excerpt">
+                            {post.body
+                              ? `${toPlainText(post.body)
+                                  .split(' ')
+                                  .splice(0, 20)
+                                  .join(' ')}\u00A0...`
+                              : ''}
+                          </p>
+                          <p className="post-date">
+                            <small>{formatDate(post.publishedAt)}</small>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  );
+                })}
               </Slider>
             </div>
           </div>
@@ -640,6 +701,7 @@ export const query = graphql`
           current
         }
         title
+        format
         mainImage {
           asset {
             fluid(maxWidth: 450, maxHeight: 250) {

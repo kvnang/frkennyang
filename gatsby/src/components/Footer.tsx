@@ -7,8 +7,6 @@ const FooterStyles = styled.footer`
 
   .col {
     --width-xs: 12;
-    --width-md: 10;
-    --offset-md: 1;
   }
 
   p {
@@ -19,7 +17,7 @@ const FooterStyles = styled.footer`
 export default function Footer() {
   return (
     <>
-      <FooterStyles className="bg-light">
+      <FooterStyles>
         <div className="container">
           <div className="row">
             <div className="col">
