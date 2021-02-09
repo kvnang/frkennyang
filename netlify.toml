@@ -1,3 +1,4 @@
 [build]
+  base = "gatsby/"
   publish = "public/"
   command = "echo 'npm run build'"
