@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
 interface Props {
-  children?: any;
+  children?: React.ReactNode;
   location: any;
   description: string;
   title: string;
