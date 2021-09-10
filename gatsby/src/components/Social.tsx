@@ -66,20 +66,11 @@ export default function Social({ dark }: SocialProps) {
       <ul>
         <li>
           <a
-            href="https://www.facebook.com/fatherkennyang/"
+            href="https://www.instagram.com/fatherkennyang/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebookF />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://twitter.com/fatherkennyang"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaTwitter />
+            <FaInstagram />
           </a>
         </li>
         <li>
@@ -102,11 +93,20 @@ export default function Social({ dark }: SocialProps) {
         </li>
         <li>
           <a
-            href="https://www.instagram.com/fatherkennyang/"
+            href="https://www.facebook.com/fatherkennyang/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram />
+            <FaFacebookF />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/fatherkennyang"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter />
           </a>
         </li>
       </ul>

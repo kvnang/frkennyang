@@ -3,7 +3,7 @@ import Footer from './Footer';
 import GlobalStyles from '../styles/GlobalStyles';
 import Typography from '../styles/Typography';
 import Header from './Header';
-import 'normalize.css';
+// import 'normalize.css';
 
 interface Props {
   children: React.ReactNode;

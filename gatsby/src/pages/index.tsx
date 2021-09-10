@@ -1,7 +1,7 @@
 import { graphql, Link, PageProps } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import Img, { FluidObject } from 'gatsby-image';
+import { StaticImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import Slider from 'react-slick';
 import {
   MdFormatAlignLeft,
@@ -13,6 +13,8 @@ import signature from '../assets/images/frk-signature.svg';
 import Social from '../components/Social';
 import formatDate from '../utils/formatDate';
 import toPlainText from '../utils/sanityBlockToPlainText';
+import HomeFeaturedMd from '../components/HomeFeaturedMd';
+import HomeFeatured from '../components/HomeFeatured';
 
 type PostProps = {
   id: number;
@@ -21,7 +23,7 @@ type PostProps = {
   };
   mainImage: {
     asset: {
-      fluid: FluidObject;
+      gatsbyImageData: IGatsbyImageData;
     };
   };
   title: string;
@@ -31,21 +33,6 @@ type PostProps = {
 };
 
 type IndexQueryProps = {
-  heroImage: {
-    childImageSharp: {
-      fluid: FluidObject;
-    };
-  };
-  contactImage: {
-    childImageSharp: {
-      fluid: FluidObject;
-    };
-  };
-  sampleImage: {
-    childImageSharp: {
-      fluid: FluidObject;
-    };
-  };
   posts: {
     nodes: PostProps[];
   };
@@ -172,173 +159,6 @@ const HeroStyles = styled.div`
     @media ${breakpoints.laptop} {
       left: auto;
       right: 0;
-    }
-  }
-`;
-
-const FeaturedStyles = styled.div`
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
-
-  .title {
-    --width-xs: 12;
-    --width-md: 10;
-    --offset-md: 1;
-
-    .inner {
-      @media ${breakpoints.laptop} {
-        padding-left: 50%;
-      }
-
-      h2 {
-        position: relative;
-
-        &::before {
-          content: '';
-          width: calc(100% - 1rem);
-          height: 1px;
-          background: var(--grey);
-          position: absolute;
-          left: -100%;
-          top: 50%;
-          transform: translateY(-50%);
-
-          @media ${breakpoints.laptop} {
-            left: -100%;
-          }
-        }
-      }
-    }
-  }
-
-  .posts-wrapper {
-    --width-xs: 12;
-    --width-md: 10;
-    --offset-md: 1;
-    margin-top: 2.5rem;
-  }
-
-  .posts {
-    display: flex;
-    margin: 0 -2.5%;
-  }
-
-  .slick-slider {
-    width: 100%;
-
-    .slick-track {
-      display: flex;
-    }
-
-    .slick-dots {
-      list-style: none;
-      padding-left: 0;
-      text-align: right;
-      margin: 1rem -0.5rem 0;
-
-      li {
-        display: inline-block;
-        padding: 0.5rem;
-
-        button {
-          color: transparent;
-          text-indent: -9999px;
-          height: 0.5rem;
-          width: 0.5rem;
-          background-color: var(--grey);
-          border-radius: 50%;
-          padding: 0;
-          transition: var(--transition);
-
-          &:hover,
-          &:focus {
-            background-color: var(--gold);
-          }
-        }
-
-        &.slick-active {
-          button {
-            background-color: var(--black);
-          }
-        }
-      }
-    }
-  }
-
-  .post {
-    width: 35%;
-    flex: 0 0 35%;
-    padding: 0 calc(2.5 / 105 * 100%);
-
-    .post-inner {
-      display: flex;
-      flex-direction: column;
-
-      &:hover,
-      &:focus {
-        .post-title {
-          color: var(--gold);
-        }
-        .post-img {
-          .gatsby-image-wrapper {
-            transform: translate(-0.5rem, -0.5rem);
-          }
-          &::before {
-            opacity: 0.7;
-          }
-        }
-      }
-    }
-
-    .post-img {
-      position: relative;
-
-      .gatsby-image-wrapper {
-        transition: var(--transition);
-      }
-
-      &::before {
-        content: '';
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        background: var(--grey);
-        opacity: 0.2;
-        transition: var(--transition);
-      }
-
-      .post-format {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 2.5rem;
-        width: 2.5rem;
-        background-color: var(--black);
-        padding: 0.5rem;
-
-        svg {
-          color: var(--white);
-          height: 100%;
-          width: auto;
-        }
-      }
-    }
-
-    .post-img,
-    .post-title,
-    .post-excerpt {
-      margin-bottom: 0.5rem;
-    }
-
-    .post-title {
-      transition: var(--transition);
-    }
-
-    .post-excerpt {
-      color: var(--black);
     }
   }
 `;
@@ -475,31 +295,6 @@ const FormStyles = styled.div`
 `;
 
 export default function HomePage({ data }: IndexPageProps) {
-  const posts = data.posts.nodes;
-
-  const settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    arrows: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
-
   return (
     <>
       <HeroStyles>
@@ -523,8 +318,8 @@ export default function HomePage({ data }: IndexPageProps) {
               </div>
             </div>
             <div className="hero-image col">
-              <Img
-                fluid={data.heroImage.childImageSharp.fluid}
+              <StaticImage
+                src="../assets/images/frk-halfbody.png"
                 alt=""
                 loading="eager"
               />
@@ -533,79 +328,14 @@ export default function HomePage({ data }: IndexPageProps) {
           <Social />
         </div>
       </HeroStyles>
-      <FeaturedStyles className="bg-light">
-        <div className="container">
-          <div className="title col">
-            <div className="inner">
-              <h2>Featured Contents</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-            </div>
-          </div>
-          <div className="posts-wrapper col">
-            <div className="posts">
-              <Slider {...settings}>
-                {posts.map((post) => {
-                  let icon;
-                  switch (post.format) {
-                    case 'video':
-                      icon = <MdPlayArrow />;
-                      break;
-                    case 'article':
-                      icon = <MdFormatAlignLeft />;
-                      break;
-                    default:
-                      icon = '';
-                  }
-                  return (
-                    <div key={post.id} className="post">
-                      <a
-                        href={`/post/${post.slug.current}`}
-                        className="post-inner"
-                      >
-                        <div className="post-img">
-                          {post.mainImage ? (
-                            <Img
-                              fluid={post.mainImage.asset.fluid}
-                              alt={post.title}
-                            />
-                          ) : (
-                            ''
-                          )}
-                          {post.format ? (
-                            <div className="post-format">{icon}</div>
-                          ) : (
-                            ''
-                          )}
-                        </div>
-                        <div className="post-details">
-                          <h3 className="post-title h4">{post.title}</h3>
-                          <p className="post-excerpt">
-                            {post.body
-                              ? `${toPlainText(post.body)
-                                  .split(' ')
-                                  .splice(0, 20)
-                                  .join(' ')}\u00A0...`
-                              : ''}
-                          </p>
-                          <p className="post-date">
-                            <small>{formatDate(post.publishedAt)}</small>
-                          </p>
-                        </div>
-                      </a>
-                    </div>
-                  );
-                })}
-              </Slider>
-            </div>
-          </div>
-        </div>
-      </FeaturedStyles>
+      <HomeFeaturedMd />
+      <HomeFeatured />
       <ContactStyles>
         <div className="container">
           <div className="row">
             <div className="col inner">
               <div className="contact-img">
-                <Img fluid={data.contactImage.childImageSharp.fluid} alt="" />
+                <StaticImage src="../assets/images/frk-contact.jpg" alt="" />
               </div>
               <div className="form-wrapper">
                 <h2>Contact</h2>
@@ -670,61 +400,3 @@ export default function HomePage({ data }: IndexPageProps) {
     </>
   );
 }
-
-export const query = graphql`
-  query {
-    heroImage: file(relativePath: { eq: "frk-halfbody.png" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_noBase64
-        }
-      }
-    }
-    contactImage: file(relativePath: { eq: "frk-contact.jpg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    sampleImage: file(relativePath: { eq: "sample-img.jpg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    posts: allSanityPost(limit: 9, sort: { fields: publishedAt, order: DESC }) {
-      nodes {
-        id
-        slug {
-          current
-        }
-        title
-        format
-        mainImage {
-          asset {
-            fluid(maxWidth: 450, maxHeight: 250) {
-              ...GatsbySanityImageFluid
-            }
-          }
-        }
-        _rawBody(resolveReferences: { maxDepth: 10 })
-        body {
-          _key
-          _rawChildren
-          _type
-          children {
-            marks
-            text
-            _key
-            _type
-          }
-          list
-          style
-        }
-        publishedAt
-      }
-    }
-  }
-`;

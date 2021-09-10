@@ -59,6 +59,9 @@ const Typography = createGlobalStyle`
 
   h2, .h2 {
     font-size: 2.441rem;
+    &:not(:first-child) {
+      margin-top: 2.5rem;
+    }
     &:not(:last-child) {
       margin-bottom: 1.5rem;
     }
@@ -66,6 +69,12 @@ const Typography = createGlobalStyle`
 
   h3, .h3 {
     font-size: 1.953rem;
+    &:not(:first-child) {
+      margin-top: 2.5rem;
+    }
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
   }
 
   h4, .h4 {
@@ -87,6 +96,20 @@ const Typography = createGlobalStyle`
 
     &:not(:last-child) {
       margin-bottom: 1.5rem;
+    }
+  }
+
+  .title-line {
+    position: relative;
+    &::before {
+      content: '';
+      width: calc(100% - 1rem);
+      height: 1px;
+      background: var(--grey);
+      position: absolute;
+      left: -100%;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
 

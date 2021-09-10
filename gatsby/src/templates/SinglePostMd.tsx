@@ -2,7 +2,6 @@ import { graphql, Link } from 'gatsby';
 import React from 'react';
 import getYouTubeId from 'get-youtube-id';
 import YouTube from 'react-youtube';
-import PortableText from '@sanity/block-content-to-react';
 import styled from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import {
@@ -11,49 +10,9 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from 'react-icons/fa';
-import { getGatsbyImageData } from 'gatsby-source-sanity';
+// import { getGatsbyImageData } from 'gatsby-source-sanity';
 import formatDate from '../utils/formatDate';
 import { breakpoints } from '../styles/breakpoints';
-
-const link = ({ mark, children }) => {
-  const target = mark.blank ? '_blank' : '_self';
-  if (target === '_blank') {
-    return (
-      <a href={mark.href} target={target} rel="noopener noreferrer">
-        {children}
-      </a>
-    );
-  }
-  return <Link to={mark.href}>{children}</Link>;
-};
-
-const serializers = {
-  marks: {
-    link,
-  },
-  types: {
-    youtube: ({ node }) => {
-      const { url } = node;
-      const id = getYouTubeId(url);
-      return (
-        <YouTube videoId={id} containerClassName="youtube-iframe-wrapper" />
-      );
-    },
-    inlineImage: ({ node }) => {
-      const { asset, alt } = node;
-      const sanityConfig = {
-        projectId: process.env.GATSBY_SANITY_PROJECT_ID,
-        dataset: process.env.GATSBY_SANITY_DATASET,
-      };
-      const imageData = getGatsbyImageData(
-        asset.id,
-        { maxWidth: 1024 },
-        sanityConfig
-      );
-      return <GatsbyImage image={imageData} alt={alt} />;
-    },
-  },
-};
 
 const SinglePostStyles = styled.div`
   padding: var(--section-padding) 0;
@@ -167,29 +126,34 @@ const SinglePostStyles = styled.div`
 
 export default function SinglePost({ location, data: { post } }) {
   const url = location.href ? location.href : '';
-  const categories = Object.values(post.categories).map((cat) => cat.title);
-  let featuredImg;
-  if (post.mediaUrl) {
-    featuredImg = (
+  const categories = post.frontmatter.category;
+  let featuredImage;
+  if (post.frontmatter.mediaUrl) {
+    featuredImage = (
       <YouTube
-        videoId={getYouTubeId(post.mediaUrl)}
+        videoId={getYouTubeId(post.frontmatter.mediaUrl)}
         containerClassName="youtube-iframe-wrapper"
       />
     );
-  } else if (post.mainImage) {
-    featuredImg = <GatsbyImage image={post.mainImage.asset.gatsbyImageData} alt={post.title} />;
+  } else if (post.frontmatter.featuredImage) {
+    featuredImage = (
+      <GatsbyImage
+        image={post.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
+        alt={post.frontmatter.title}
+      />
+    );
   } else {
-    featuredImg = '';
+    featuredImage = '';
   }
   const meta = [];
   if (post.publishedAt) meta.push(formatDate(post.publishedAt));
-  if (categories.length) meta.push(categories.join(', '));
+  if (categories?.length) meta.push(categories.join(', '));
   return (
     <SinglePostStyles>
       <div className="container">
         <div className="inner">
           <div className="post-header">
-            <h1 className="h2 post-title">{post.title}</h1>
+            <h1 className="h2 post-title">{post.frontmatter.title}</h1>
             <div className="post-byline">
               <div className="post-meta">
                 <p>
@@ -242,9 +206,10 @@ export default function SinglePost({ location, data: { post } }) {
               </div>
             </div>
           </div>
-          <div className="post-img">{featuredImg}</div>
-          {post._rawBody ? (
-            <PortableText blocks={post._rawBody} serializers={serializers} />
+          <div className="post-img">{featuredImage}</div>
+          <div />
+          {post.html ? (
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
           ) : (
             ''
           )}
@@ -254,26 +219,23 @@ export default function SinglePost({ location, data: { post } }) {
   );
 }
 
-export const query = graphql`
+export const pageQuery = graphql`
   query($slug: String!) {
-    post: sanityPost(slug: { current: { eq: $slug } }) {
+    post: markdownRemark(fields: { slug: { eq: $slug } }) {
       id
-      _rawBody(resolveReferences: { maxDepth: 10 })
-      categories {
-        id
+      html
+      frontmatter {
         title
-      }
-      mainImage {
-        asset {
-          gatsbyImageData
+        format
+        date(formatString: "MMMM D, YYYY")
+        category
+
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData
+          }
         }
       }
-      mediaUrl
-      publishedAt
-      slug {
-        current
-      }
-      title
     }
   }
 `;
