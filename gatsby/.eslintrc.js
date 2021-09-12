@@ -1,19 +1,23 @@
 module.exports = {
-  extends: ['airbnb', 'prettier', 'prettier/react'],
-  parser: 'babel-eslint',
+  extends: ['airbnb', 'prettier'],
+  // parser: '@babel/eslint-parser',
+  // parserOptions: {
+  //   requireConfigFile: false,
+  //   babelOptions: {
+  //     presets: ['@babel/preset-react'],
+  //   },
+  // },
+  parser: '@typescript-eslint/parser',
   parserOptions: {
+    requireConfigFile: false,
     ecmaVersion: 2020,
     // Can I remove these now?
     ecmaFeatures: {
       impliedStrict: true,
       classes: true,
+      jsx: true,
     },
-  },
-  env: {
-    browser: true,
-    node: true,
-    jquery: true,
-    jest: true,
+    sourceType: 'module',
   },
   settings: {
     'import/resolver': {
@@ -22,6 +26,12 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
+  },
+  env: {
+    browser: true,
+    node: true,
+    jquery: true,
+    jest: true,
   },
   rules: {
     'no-debugger': 0,
@@ -68,7 +78,6 @@ module.exports = {
     'comma-dangle': 0,
     'max-len': 0,
     'import/extensions': 0,
-
     'no-underscore-dangle': 0,
     'consistent-return': 0,
     'react/display-name': 1,
@@ -78,24 +87,11 @@ module.exports = {
     'react/forbid-prop-types': 0,
     'react/no-unescaped-entities': 0,
     'jsx-a11y/accessible-emoji': 0,
-    'jsx-a11y/label-has-associated-control': [
-      'error',
-      {
-        assert: 'either',
-      },
-    ],
-    'react/prop-types': 0,
     'react/require-default-props': 0,
     'react/jsx-filename-extension': [
-      2,
-      {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
-      },
-    ],
-    'react/jsx-props-no-spreading': [
       1,
       {
-        exceptions: ['Slider'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
       },
     ],
     radix: 0,
@@ -120,8 +116,8 @@ module.exports = {
         trailingComma: 'es5',
         singleQuote: true,
         printWidth: 80,
-        // below line only for windows users facing CLRF and eslint/prettier error
-        // non windows users feel free to delete it
+        // below line only for window users facing CLRF and eslint/prettier error
+        // non window users feel free to delete it
         endOfLine: 'auto',
       },
     ],
@@ -135,6 +131,10 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     '@typescript-eslint/comma-dangle': ['off'],
+    'react/jsx-props-no-spreading': 'off',
+    // note you must disable the base rule as it can report incorrect errors
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
   },
-  plugins: ['html', 'prettier', 'react-hooks'],
+  plugins: ['html', 'prettier', 'react-hooks', '@typescript-eslint'],
 };

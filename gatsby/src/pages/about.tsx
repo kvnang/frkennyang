@@ -64,11 +64,7 @@ export default function AboutPage() {
           <div className="row">
             <div className="img col">
               <div className="img-inner">
-                <StaticImage
-                  src="../assets/images/frk-bio.jpg"
-                  alt=""
-                  loading="eager"
-                />
+                <StaticImage src="../assets/images/frk-bio.jpg" alt="" />
               </div>
             </div>
             <div className="text col">

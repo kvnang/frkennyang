@@ -220,7 +220,7 @@ export default function SinglePost({ location, data: { post } }) {
 }
 
 export const pageQuery = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     post: markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
@@ -232,7 +232,7 @@ export const pageQuery = graphql`
 
         featuredImage {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(aspectRatio: 1.6667, layout: FULL_WIDTH)
           }
         }
       }

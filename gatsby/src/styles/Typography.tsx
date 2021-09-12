@@ -1,24 +1,17 @@
-import { createGlobalStyle } from 'styled-components';
+import * as styled from 'styled-components';
 import { breakpoints } from './breakpoints';
 
-const Typography = createGlobalStyle`  
+const Typography = styled.createGlobalStyle`
   html {
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: var(--white);
-    font-size: 14px;
-
-    @media ${breakpoints.mobileM} {
-      font-size: 16px;
-    }
-
-    @media ${breakpoints.laptopL} {
-      font-size: 18px;
-    }
+    font-family: var(--font-primary);
+    color: var(--color-p);
+    font-size: 100%;
   }
 
   body {
     font-size: 100%;
-    color: var(--white);
+    line-height: 1.5;
+    color: var(--color-p);
     color-adjust: economy;
     -webkit-print-color-adjust: economy;
     background-color: $white;
@@ -31,10 +24,20 @@ const Typography = createGlobalStyle`
       }
     }
   }
-  
-  h1,h2,h3,h4,h5,h6,
-  .h1,.h2,.h3,.h4,.h5,.h6 {
-    font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    font-family: var(--font-secondary);
     font-weight: normal;
     margin: 0;
     line-height: 1.25;
@@ -53,11 +56,13 @@ const Typography = createGlobalStyle`
     text-align: center;
   }
 
-  h1, .h1 {
+  h1,
+  .h1 {
     font-size: 3.052rem;
   }
 
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 2.441rem;
     &:not(:first-child) {
       margin-top: 2.5rem;
@@ -67,7 +72,8 @@ const Typography = createGlobalStyle`
     }
   }
 
-  h3, .h3 {
+  h3,
+  .h3 {
     font-size: 1.953rem;
     &:not(:first-child) {
       margin-top: 2.5rem;
@@ -77,16 +83,33 @@ const Typography = createGlobalStyle`
     }
   }
 
-  h4, .h4 {
+  h4,
+  .h4 {
     font-size: 1.563rem;
   }
-  
-  h5, .h5 {
-    font-size: 1.25rem;
+
+  h5,
+  .h5 {
+    font-family: var(--font-primary);
+    /* font-size: 1.25rem; */
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+
+    &:not(:last-child) {
+      margin-bottom: 1em;
+    }
   }
 
-  h6, .h6 {
+  h6,
+  .h6 {
+    font-family: var(--font-primary);
     font-size: 0.8rem;
+    line-height: 1.5;
+
+    &:not(:last-child) {
+      margin-bottom: 1em;
+    }
   }
 
   p {
@@ -113,7 +136,8 @@ const Typography = createGlobalStyle`
     }
   }
 
-  small {
+  small,
+  .small {
     font-size: 0.8rem;
   }
 
@@ -128,7 +152,7 @@ const Typography = createGlobalStyle`
 
   .button {
     position: relative;
-    padding: .75rem 1.25rem;
+    padding: 0.75rem 1.25rem;
     border: 1px solid var(--white);
     text-transform: uppercase;
     letter-spacing: var(--letter-spacing);
@@ -170,7 +194,7 @@ const Typography = createGlobalStyle`
       bottom: 0;
       height: 1px;
       transform: translateX(-0.5rem);
-      background: var(--white);
+      background: currentColor;
       transition: var(--transition);
     }
 
@@ -205,7 +229,6 @@ const Typography = createGlobalStyle`
           opacity: 0;
           transform: translateY(1px);
           transition-delay: 0s;
-          
         }
         &::before {
           transition-delay: 0.3s;

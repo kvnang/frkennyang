@@ -5,9 +5,10 @@ import { breakpoints } from '../styles/breakpoints';
 import Logo from './Logo';
 
 const HeaderStyles = styled.header`
-  background-color: var(--black);
   padding-top: 1rem;
   padding-bottom: 1rem;
+  position: relative;
+  z-index: 1;
 
   .container {
     display: flex;
@@ -171,27 +172,11 @@ export default function Header() {
         setMobileMenuActive(false);
       }
     });
-
-    // Let the document know when the mouse is being used
-    document.body.addEventListener('mousedown', () => {
-      document.body.classList.add('is-mouse');
-    });
-
-    // Re-enable focus styling when Tab is pressed
-    document.body.addEventListener('keydown', (e) => {
-      if (e.key === 'Tab') {
-        document.body.classList.remove('is-mouse');
-      }
-    });
   });
 
   function handleMenuHamburgerClick(e: MouseEvent) {
     e.preventDefault();
     setMobileMenuActive(!mobileMenuActive);
-  }
-
-  function handleMobileMenuClick() {
-    setMobileMenuActive(false);
   }
 
   return (
@@ -206,6 +191,11 @@ export default function Header() {
               <li>
                 <Link to="/about" className="link-underline">
                   About
+                </Link>
+              </li>
+              <li>
+                <Link to="/cv" className="link-underline">
+                  CV
                 </Link>
               </li>
             </ul>
@@ -227,7 +217,7 @@ export default function Header() {
           <MobileHeaderStyles className={mobileMenuActive ? `active` : ``}>
             <div className="container">
               <nav>
-                <Link to="/about" onClick={handleMobileMenuClick}>
+                <Link to="/about" onClick={() => setMobileMenuActive(false)}>
                   About
                 </Link>
               </nav>

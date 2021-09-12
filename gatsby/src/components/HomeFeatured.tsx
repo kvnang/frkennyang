@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import Slider from 'react-slick';
-import {GatsbyImage, IGatsbyImageData} from 'gatsby-plugin-image';
+import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import { MdFormatAlignLeft, MdPlayArrow } from 'react-icons/md';
 import toPlainText from '../utils/sanityBlockToPlainText';
 import formatDate from '../utils/formatDate';
@@ -39,7 +39,7 @@ export default function HomeFeatured() {
           format
           mainImage {
             asset {
-              gatsbyImageData
+              gatsbyImageData(aspectRatio: 1.778)
             }
           }
           _rawBody(resolveReferences: { maxDepth: 10 })

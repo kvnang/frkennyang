@@ -1,7 +1,11 @@
 module.exports = {
+  globals: {
+    React: true,
+    JSX: true,
+  },
   extends: [
     'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
-    'prettier/@typescript-eslint', // Use `eslint-config-prettier` to override conflicting rules from `@typescript-eslint/eslint-plugin`
+    // 'prettier/@typescript-eslint'
     'airbnb-typescript',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
@@ -18,6 +22,14 @@ module.exports = {
       'error',
       {
         checksVoidReturn: false,
+      },
+    ],
+    '@typescript-eslint/no-explicit-any': 'off',
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': [
+      'warn',
+      {
+        ignoreDeclarationMerge: true,
       },
     ],
   },

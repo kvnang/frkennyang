@@ -177,7 +177,12 @@ export default function SinglePost({ location, data: { post } }) {
       />
     );
   } else if (post.mainImage) {
-    featuredImg = <GatsbyImage image={post.mainImage.asset.gatsbyImageData} alt={post.title} />;
+    featuredImg = (
+      <GatsbyImage
+        image={post.mainImage.asset.gatsbyImageData}
+        alt={post.title}
+      />
+    );
   } else {
     featuredImg = '';
   }
@@ -255,7 +260,7 @@ export default function SinglePost({ location, data: { post } }) {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     post: sanityPost(slug: { current: { eq: $slug } }) {
       id
       _rawBody(resolveReferences: { maxDepth: 10 })

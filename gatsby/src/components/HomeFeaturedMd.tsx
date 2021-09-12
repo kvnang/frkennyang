@@ -39,9 +39,7 @@ export default function HomeFeaturedMd() {
             date(formatString: "MMMM D, YYYY")
             featuredImage {
               childImageSharp {
-                gatsbyImageData(
-                  aspectRatio: 1.777778
-                )
+                gatsbyImageData(aspectRatio: 1.777778)
               }
             }
           }
@@ -110,9 +108,11 @@ export default function HomeFeaturedMd() {
                       <div className="post-img">
                         {post.frontmatter.featuredImage ? (
                           <GatsbyImage
-                            image={post.frontmatter.featuredImage.childImageSharp.gatsbyImageData}
+                            image={
+                              post.frontmatter.featuredImage.childImageSharp
+                                .gatsbyImageData
+                            }
                             alt={post.frontmatter.title}
-                            
                           />
                         ) : (
                           ''

@@ -264,13 +264,13 @@ const FormStyles = styled.div`
 
   input,
   textarea {
-    background: transparent;
+    /* background: transparent;
     border: 1px solid var(--white);
     padding: 0.75rem 1.25rem;
     color: var(--white);
-    width: 100%;
+    width: 100%; */
 
-    &::placeholder {
+    /* &::placeholder {
       opacity: 1;
       color: var(--white);
       transition: var(--transition);
@@ -280,13 +280,13 @@ const FormStyles = styled.div`
       &::placeholder {
         opacity: 0.5;
       }
-    }
+    } */
   }
 
-  textarea {
+  /* textarea {
     resize: vertical;
     height: 9rem;
-  }
+  } */
 
   button[type='submit'] {
     margin-left: auto;
@@ -312,7 +312,7 @@ export default function HomePage({ data }: IndexPageProps) {
                 <Link to="/about" className="button">
                   Read My Bio
                 </Link>
-                <Link to="/about" className="button">
+                <Link to="/cv" className="button">
                   CV
                 </Link>
               </div>
@@ -329,7 +329,7 @@ export default function HomePage({ data }: IndexPageProps) {
         </div>
       </HeroStyles>
       <HomeFeaturedMd />
-      <HomeFeatured />
+      {/* <HomeFeatured /> */}
       <ContactStyles>
         <div className="container">
           <div className="row">
@@ -353,36 +353,36 @@ export default function HomePage({ data }: IndexPageProps) {
                 <FormStyles>
                   <form action="/">
                     <div className="form-field half">
-                      <label htmlFor="name" className="visually-hidden">
-                        Name
+                      <label htmlFor="name">
+                        <span className="visually-hidden">Name</span>
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          placeholder="Name"
+                        />
                       </label>
-                      <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Name"
-                      />
                     </div>
                     <div className="form-field half">
-                      <label htmlFor="email" className="visually-hidden">
-                        Email
+                      <label htmlFor="email">
+                        <span className="visually-hidden">Email</span>
+                        <input
+                          type="text"
+                          name="email"
+                          id="email"
+                          placeholder="Email"
+                        />
                       </label>
-                      <input
-                        type="text"
-                        name="email"
-                        id="email"
-                        placeholder="Email"
-                      />
                     </div>
                     <div className="form-field">
-                      <label htmlFor="message" className="visually-hidden">
-                        Message
+                      <label htmlFor="message">
+                        <span className="visually-hidden">Message</span>
+                        <textarea
+                          name="message"
+                          id="message"
+                          placeholder="Message"
+                        />
                       </label>
-                      <textarea
-                        name="message"
-                        id="message"
-                        placeholder="Message"
-                      />
                     </div>
                     <div className="form-field">
                       <button type="submit" className="button">
