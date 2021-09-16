@@ -124,6 +124,35 @@ const SinglePostStyles = styled.div`
   }
 `;
 
+const PostContentStyles = styled.div`
+  p,
+  li {
+    line-height: 1.75;
+  }
+
+  ul,
+  ol {
+    li {
+      &:not(:last-child) {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+
+  hr {
+    margin: 1.5rem 0;
+    border-color: var(--grey);
+    border-width: 1px;
+  }
+
+  a.footnote-ref,
+  a.footnote-backref {
+    text-decoration: none;
+    color: var(--gold);
+    font-weight: bold;
+  }
+`;
+
 export default function SinglePost({ location, data: { post } }) {
   const url = location.href ? location.href : '';
   const categories = post.frontmatter.category;
@@ -207,12 +236,13 @@ export default function SinglePost({ location, data: { post } }) {
             </div>
           </div>
           <div className="post-img">{featuredImage}</div>
-          <div />
-          {post.html ? (
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          ) : (
-            ''
-          )}
+          <PostContentStyles>
+            {post.html ? (
+              <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            ) : (
+              ''
+            )}
+          </PostContentStyles>
         </div>
       </div>
     </SinglePostStyles>

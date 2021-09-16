@@ -10,7 +10,7 @@ const Typography = styled.createGlobalStyle`
 
   body {
     font-size: 100%;
-    line-height: 1.5;
+    line-height: 1.75;
     color: var(--color-p);
     color-adjust: economy;
     -webkit-print-color-adjust: economy;
@@ -116,6 +116,15 @@ const Typography = styled.createGlobalStyle`
     font-size: 1rem;
     line-height: 1.5;
     margin: 0;
+
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  blockquote {
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--grey);
 
     &:not(:last-child) {
       margin-bottom: 1.5rem;

@@ -12,7 +12,8 @@ const GlobalStyles = styled.createGlobalStyle`
     --color-p: var(--white);
     --color-p-light: var(--offwhite);
     --color-bg: var(--black);
-    --transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+    --color-accent: var(--gold);
+    --transition: 0.35s cubic-bezier(0.77, 0, 0.175, 1);
     --letter-spacing: 0.1rem;
     --section-padding: 5rem;
     --section-padding-sm: 2.5rem;
@@ -54,6 +55,7 @@ const GlobalStyles = styled.createGlobalStyle`
     font-family: var(--font-primary);
     color: var(--color-p);
     background-color: var(--color-bg);
+    /* overflow-y: hidden; */
 
     .site {
       background-color: var(--color-bg);
@@ -101,6 +103,10 @@ const GlobalStyles = styled.createGlobalStyle`
   }
 
   // Form Styles
+  form {
+    width: 100%;
+  }
+
   input,
   textarea,
   select {
@@ -114,30 +120,132 @@ const GlobalStyles = styled.createGlobalStyle`
   input[type='password'],
   input[type='search'],
   input[type='number'],
+  input[type='date'],
+  .DayPickerInput input,
   textarea,
   select {
-    background: transparent;
-    border: 1px solid var(--color-p);
+    background: var(--dark-grey);
+    border: 1px solid var(--dark-grey);
     padding: 0.75rem 1.25rem;
     color: var(--color-p);
     width: 100%;
+    transition: var(--transition);
+    line-height: 1.5;
 
     &::placeholder {
-      opacity: 1;
+      opacity: 0.6;
       color: var(--color-p);
       transition: var(--transition);
     }
 
     &:focus {
+      /* border-color: var(--color-p); */
+      box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
       &::placeholder {
-        opacity: 0.5;
+        opacity: 0.3;
       }
     }
   }
 
+  /* input[type='date'] {
+    &::-webkit-calendar-picker-indicator {
+    }
+  } */
+
   textarea {
     resize: vertical;
     height: 9rem;
+  }
+
+  fieldset {
+    border: 0;
+    padding: 0;
+  }
+
+  .radio-group {
+    &__radio {
+      display: flex;
+      flex-flow: wrap;
+      margin: -0.5rem;
+
+      > label {
+        padding: 0.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  input[type='radio'] {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+
+    + span {
+      position: relative;
+      padding-left: 1.5em;
+
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        height: 1em;
+        width: 1em;
+        background-color: var(--dark-grey);
+        border-radius: 50%;
+        top: 0.125em;
+        left: 0;
+      }
+
+      &::after {
+        height: 0.6em;
+        width: 0.6em;
+        background-color: var(--white);
+        top: 0.325em;
+        left: 0.2em;
+        opacity: 0;
+        transform: scale(0);
+        transition: var(--transition);
+      }
+    }
+
+    &:checked + span {
+      &::after {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  }
+
+  .form-fields {
+    display: flex;
+    flex-flow: wrap;
+    margin: -0.5rem;
+  }
+
+  .form-field {
+    position: relative;
+    padding: 0.5rem;
+    width: 100%;
+
+    &.half {
+      @media ${breakpoints.tablet} {
+        width: 50%;
+      }
+    }
+
+    &.heading {
+      &:not(:first-of-type) {
+        margin-top: 1.5rem;
+      }
+    }
+
+    &.submit {
+      text-align: right;
+    }
   }
 
   .visually-hidden:not(:focus):not(:active) {

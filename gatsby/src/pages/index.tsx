@@ -244,24 +244,6 @@ const ContactStyles = styled.div`
 const FormStyles = styled.div`
   margin-top: 3.5rem;
 
-  form {
-    display: flex;
-    flex-flow: wrap;
-    margin: -0.5rem;
-  }
-
-  .form-field {
-    position: relative;
-    padding: 0.5rem;
-    width: 100%;
-
-    &.half {
-      @media ${breakpoints.tablet} {
-        width: 50%;
-      }
-    }
-  }
-
   input,
   textarea {
     /* background: transparent;
@@ -352,42 +334,44 @@ export default function HomePage({ data }: IndexPageProps) {
                 </h4>
                 <FormStyles>
                   <form action="/">
-                    <div className="form-field half">
-                      <label htmlFor="name">
-                        <span className="visually-hidden">Name</span>
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          placeholder="Name"
-                        />
-                      </label>
-                    </div>
-                    <div className="form-field half">
-                      <label htmlFor="email">
-                        <span className="visually-hidden">Email</span>
-                        <input
-                          type="text"
-                          name="email"
-                          id="email"
-                          placeholder="Email"
-                        />
-                      </label>
-                    </div>
-                    <div className="form-field">
-                      <label htmlFor="message">
-                        <span className="visually-hidden">Message</span>
-                        <textarea
-                          name="message"
-                          id="message"
-                          placeholder="Message"
-                        />
-                      </label>
-                    </div>
-                    <div className="form-field">
-                      <button type="submit" className="button">
-                        Send
-                      </button>
+                    <div className="form-fields">
+                      <div className="form-field half">
+                        <label htmlFor="name">
+                          <span className="visually-hidden">Name</span>
+                          <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Name"
+                          />
+                        </label>
+                      </div>
+                      <div className="form-field half">
+                        <label htmlFor="email">
+                          <span className="visually-hidden">Email</span>
+                          <input
+                            type="text"
+                            name="email"
+                            id="email"
+                            placeholder="Email"
+                          />
+                        </label>
+                      </div>
+                      <div className="form-field">
+                        <label htmlFor="message">
+                          <span className="visually-hidden">Message</span>
+                          <textarea
+                            name="message"
+                            id="message"
+                            placeholder="Message"
+                          />
+                        </label>
+                      </div>
+                      <div className="form-field submit">
+                        <button type="submit" className="button">
+                          Send
+                        </button>
+                      </div>
                     </div>
                   </form>
                 </FormStyles>

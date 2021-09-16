@@ -1,9 +1,11 @@
+import 'normalize.css';
 import React, { useEffect } from 'react';
 import Footer from './Footer';
 import GlobalStyles from '../styles/GlobalStyles';
 import Typography from '../styles/Typography';
 import Header from './Header';
-import 'normalize.css';
+import { SnackbarProvider } from './SnackbarContext';
+import Snackbar from './Snackbar';
 
 interface Props {
   children: React.ReactNode;
@@ -41,11 +43,14 @@ export default function Layout({ children }: Props) {
     <>
       <GlobalStyles />
       <Typography />
-      <div className="site">
-        <Header />
-        <div className="site-content">{children}</div>
-        <Footer />
-      </div>
+      <SnackbarProvider>
+        <div className="site">
+          <Header />
+          <div className="site-content">{children}</div>
+          <Footer />
+        </div>
+        <Snackbar />
+      </SnackbarProvider>
     </>
   );
 }

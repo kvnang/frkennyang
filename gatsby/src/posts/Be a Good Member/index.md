@@ -6,6 +6,7 @@ date: 2020-02-01
 category:
   - Homily
   - Mass
+excerpt:
 ---
 
 First Reading: Lev 13:1–2; 44–46

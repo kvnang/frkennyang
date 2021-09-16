@@ -1,7 +1,11 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import Slider from 'react-slick';
-import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
+import {
+  GatsbyImage,
+  IGatsbyImageData,
+  StaticImage,
+} from 'gatsby-plugin-image';
 import { MdFormatAlignLeft, MdPlayArrow } from 'react-icons/md';
 import { HomeFeaturedStyles } from '../styles/HomeFeaturedStyles';
 
@@ -115,7 +119,10 @@ export default function HomeFeaturedMd() {
                             alt={post.frontmatter.title}
                           />
                         ) : (
-                          ''
+                          <StaticImage
+                            src="../assets/images/placeholder.jpg"
+                            alt={post.frontmatter.title}
+                          />
                         )}
                         {post.frontmatter.format ? (
                           <div className="post-format">{icon}</div>
