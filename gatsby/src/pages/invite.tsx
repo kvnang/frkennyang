@@ -163,7 +163,11 @@ export default function AboutPage() {
               <h1 className="h2">Invite Fr. Kenny to Speak</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
               <FormStyles>
-                <form action="/" onSubmit={handleSubmit(onSubmit)}>
+                <form
+                  action="/"
+                  onSubmit={handleSubmit(onSubmit)}
+                  data-netlify="true"
+                >
                   <input
                     type="hidden"
                     value="Invite"

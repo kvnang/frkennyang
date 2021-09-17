@@ -31,7 +31,6 @@ module.exports = {
     //     extensions: [`.mdx`, `.md`],
     //   },
     // },
-    
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -53,8 +52,8 @@ module.exports = {
       options: {
         defaults: {
           formats: [`auto`, `webp`, 'avif'],
-        }
-      }
+        },
+      },
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-image',
