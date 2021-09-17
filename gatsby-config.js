@@ -28,13 +28,6 @@ module.exports = {
         path: `${__dirname}/src/posts`,
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-mdx',
-    //   options: {
-    //     // root: __dirname,
-    //     extensions: [`.mdx`, `.md`],
-    //   },
-    // },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
