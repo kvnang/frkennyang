@@ -68,6 +68,12 @@ const MenuStyles = styled.nav`
   @media ${breakpoints.laptop} {
     display: flex;
   }
+
+  .page-cv & {
+    a {
+      color: var(--black);
+    }
+  }
 `;
 
 const MobileMenuStyles = styled.nav`

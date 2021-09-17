@@ -114,8 +114,8 @@ export default function ContactForm() {
 
   return (
     <FormStyles>
-      <form action="/" onSubmit={handleSubmit(onSubmit)} data-netlify="true">
-        <input type="hidden" value="Contact" {...register('form-name')} />
+      <form onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify="true">
+        <input type="hidden" value="contact" {...register('form-name')} />
         <div className="form-fields">
           <div className="form-field half">
             <label htmlFor="name">

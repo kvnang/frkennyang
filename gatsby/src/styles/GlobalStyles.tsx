@@ -367,15 +367,6 @@ const GlobalStyles = styled.createGlobalStyle`
       --offset: var(--offset-lg);
     }
   }
-
-  // Page Specific Styles
-  .page-cv {
-    header nav {
-      ul {
-        color: var(--black);
-      }
-    }
-  }
 `;
 
 export default GlobalStyles;

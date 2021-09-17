@@ -164,13 +164,13 @@ export default function AboutPage() {
               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
               <FormStyles>
                 <form
-                  action="/"
                   onSubmit={handleSubmit(onSubmit)}
+                  method="POST"
                   data-netlify="true"
                 >
                   <input
                     type="hidden"
-                    value="Invite"
+                    value="invite"
                     {...register('form-name')}
                   />
                   <div className="form-fields">
