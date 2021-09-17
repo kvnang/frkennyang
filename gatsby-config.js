@@ -62,15 +62,6 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-image',
     {
-      resolve: 'gatsby-source-sanity',
-      options: {
-        projectId: process.env.GATSBY_SANITY_PROJECT_ID,
-        dataset: process.env.GATSBY_SANITY_DATASET,
-        watchMode: true,
-        token: process.env.SANITY_TOKEN,
-      },
-    },
-    {
       resolve: 'gatsby-plugin-webfonts',
       options: {
         fonts: {
