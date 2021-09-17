@@ -7,9 +7,14 @@ import { SnackbarContext } from '../components/SnackbarContext';
 import { breakpoints } from '../styles/breakpoints';
 import FormSubmitButton from '../components/FormSubmitButton';
 import countries from '../data/countries';
+import { FormMessageTypes } from '../types';
 // import DayPickerStyles from '../styles/DayPickerStyles';
 // import 'react-datepicker/dist/react-datepicker.css';
 // import 'react-day-picker/lib/style.css';
+
+interface Inputs {
+  [key: string]: any;
+}
 
 const BodyStyles = styled.section`
   padding-bottom: var(--section-padding);
@@ -54,7 +59,6 @@ export default function AboutPage() {
     handleSubmit,
     reset,
     formState: { errors },
-    control,
     watch,
     getValues,
   } = useForm();
@@ -100,7 +104,7 @@ export default function AboutPage() {
       .join('&');
   }
 
-  const onSubmit: SubmitHandler<Inputs> = (data, e) => {
+  const onSubmit: SubmitHandler<Inputs> = (data) => {
     console.log(data);
     setLoading(true);
 

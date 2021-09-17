@@ -202,6 +202,7 @@ const GlobalStyles = styled.createGlobalStyle`
 
   input[type='date'],
   input[type='time'] {
+    min-height: 3.25em; // iOS Safari Bug
     &::-webkit-calendar-picker-indicator {
       /* opacity: 0; */
       filter: invert(0.75);
