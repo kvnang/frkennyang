@@ -173,6 +173,7 @@ const GlobalStyles = styled.createGlobalStyle`
   .DayPickerInput input,
   textarea,
   select {
+    appearance: none;
     background: var(--dark-grey);
     border: 1px solid var(--dark-grey);
     padding: 0.75rem 1.25rem;
@@ -201,8 +202,6 @@ const GlobalStyles = styled.createGlobalStyle`
 
   input[type='date'],
   input[type='time'] {
-    appearance: none;
-
     &::-webkit-calendar-picker-indicator {
       /* opacity: 0; */
       filter: invert(0.75);

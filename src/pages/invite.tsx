@@ -186,6 +186,7 @@ export default function AboutPage() {
                           type="date"
                           id="alternate-date"
                           min={todayDate}
+                          placeholder="Date"
                           required
                           aria-invalid={!!errors.alternateDate}
                           {...register('alternateDate', { required: true })}
@@ -199,6 +200,7 @@ export default function AboutPage() {
                           type="date"
                           id="alternate-date"
                           min={todayDate}
+                          placeholder="Alternate Date"
                           {...register('alternateDate')}
                         />
                       </label>
@@ -210,6 +212,7 @@ export default function AboutPage() {
                           type="time"
                           id="start-time"
                           required
+                          placeholder="Start Time"
                           aria-invalid={!!errors.startTime}
                           {...register('startTime', { required: true })}
                         />
@@ -222,6 +225,7 @@ export default function AboutPage() {
                           type="time"
                           id="end-time"
                           required
+                          placeholder="End Time"
                           aria-invalid={!!errors.endTime}
                           {...register('endTime', { required: true })}
                         />
