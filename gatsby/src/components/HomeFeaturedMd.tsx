@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import React from 'react';
+import React, { useContext } from 'react';
 import Slider from 'react-slick';
 import {
   GatsbyImage,
@@ -8,6 +8,8 @@ import {
 } from 'gatsby-plugin-image';
 import { MdFormatAlignLeft, MdPlayArrow } from 'react-icons/md';
 import { HomeFeaturedStyles } from '../styles/HomeFeaturedStyles';
+import { LangContext } from './LangContext';
+import LangSwitcher from './LangSwitcher';
 
 interface PostProps {
   id: number;
@@ -49,15 +51,17 @@ export default function HomeFeaturedMd() {
           }
           fields {
             slug
+            lang
           }
         }
       }
     }
   `);
 
-  console.log(data);
-
-  const posts = data.posts.nodes;
+  // console.log(data);
+  const rawPosts = data.posts.nodes;
+  const { lang, setLang } = useContext(LangContext);
+  const posts = rawPosts.filter((p) => p.fields.lang === lang);
 
   const settings = {
     dots: true,
@@ -89,7 +93,11 @@ export default function HomeFeaturedMd() {
           <div className="title col">
             <div className="inner">
               <h2 className="title-line">Featured Contents</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Content
+                available in English and Bahasa Indonesia.
+              </p>
+              <LangSwitcher shouldNavigate={false} />
             </div>
           </div>
           <div className="posts-wrapper col">

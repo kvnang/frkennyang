@@ -13,9 +13,27 @@ import {
 // import { getGatsbyImageData } from 'gatsby-source-sanity';
 import formatDate from '../utils/formatDate';
 import { breakpoints } from '../styles/breakpoints';
+import LangSwitcher from '../components/LangSwitcher';
+
+const TitleStyles = styled.div`
+  position: relative;
+
+  .language-switcher {
+    margin-bottom: 1rem;
+
+    @media ${breakpoints.tablet} {
+      position: absolute;
+      left: -3rem;
+      top: 0.5rem;
+    }
+  }
+  .post-title {
+    margin-top: 0;
+  }
+`;
 
 const SinglePostStyles = styled.div`
-  padding: var(--section-padding) 0;
+  /* padding: var(--section-padding) 0; */
 
   .inner {
     max-width: 800px;
@@ -154,13 +172,16 @@ const PostContentStyles = styled.div`
 `;
 
 export default function SinglePost({ location, data: { post } }) {
+  // const intl = useIntl();
+  // console.log(intl);
+
   const url = location.href ? location.href : '';
   const categories = post.frontmatter.category;
   let featuredImage;
-  if (post.frontmatter.mediaUrl) {
+  if (post.frontmatter.youtube) {
     featuredImage = (
       <YouTube
-        videoId={getYouTubeId(post.frontmatter.mediaUrl)}
+        videoId={getYouTubeId(post.frontmatter.youtube)}
         containerClassName="youtube-iframe-wrapper"
       />
     );
@@ -178,11 +199,14 @@ export default function SinglePost({ location, data: { post } }) {
   if (post.publishedAt) meta.push(formatDate(post.publishedAt));
   if (categories?.length) meta.push(categories.join(', '));
   return (
-    <SinglePostStyles>
+    <SinglePostStyles className="page-p-t">
       <div className="container">
         <div className="inner">
           <div className="post-header">
-            <h1 className="h2 post-title">{post.frontmatter.title}</h1>
+            <TitleStyles>
+              <LangSwitcher vertical />
+              <h1 className="h2 post-title">{post.frontmatter.title}</h1>
+            </TitleStyles>
             <div className="post-byline">
               <div className="post-meta">
                 <p>
@@ -259,7 +283,7 @@ export const pageQuery = graphql`
         format
         date(formatString: "MMMM D, YYYY")
         category
-
+        youtube
         featuredImage {
           childImageSharp {
             gatsbyImageData(aspectRatio: 1.6667, layout: FULL_WIDTH)

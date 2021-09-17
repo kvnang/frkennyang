@@ -8,3 +8,11 @@ export function slugify(text: string) {
     .replace(/^-+/, '') // Trim - from start of text
     .replace(/-+$/, ''); // Trim - from end of text
 }
+
+export function untrailingSlashIt(str: string) {
+  return str.replace(/\/$/, '');
+}
+
+export function trailingSlashIt(str: string) {
+  return `${untrailingSlashIt(str)}/`;
+}

@@ -2,6 +2,17 @@ import path, { resolve } from 'path';
 import fetch from 'isomorphic-fetch';
 import { createFilePath } from 'gatsby-source-filesystem';
 
+function slugify(text) {
+  return text
+    .toString()
+    .toLowerCase()
+    .replace(/\s+/g, '-') // Replace spaces with -
+    .replace(/[^\w\-]+/g, '') // Remove all non-word chars
+    .replace(/\-\-+/g, '-') // Replace multiple - with single -
+    .replace(/^-+/, '') // Trim - from start of text
+    .replace(/-+$/, ''); // Trim - from end of text
+}
+
 async function turnPostsIntoPages({ graphql, actions }) {
   // 1. Get a template for this page
   const postTemplate = path.resolve('./src/templates/SinglePost.tsx');
@@ -63,6 +74,7 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
       context: {
         // additional data can be passed via context
         slug: post.node.fields.slug,
+        lang: post.node.fields.lang,
       },
     });
   });
@@ -80,13 +92,27 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   if (node.internal.type === `MarkdownRemark`) {
     // if my posts have a slug in the frontmatter, it means I've specified what I want it to be. Otherwise I want to create one automatically
     // This is where we add our own custom fields to each node
-    const generatedSlug = createFilePath({ node, getNode });
+    // const generatedSlug = createFilePath({ node, getNode });
+    const fileName = path.basename(node.fileAbsolutePath, '.md');
+    const lang = fileName.endsWith('.id') ? 'id' : 'en';
+
+    const generatedSlug =
+      lang === 'id'
+        ? `id/post/${slugify(fileName.replace(new RegExp('.id$'), ''))}`
+        : `post/${slugify(fileName)}`;
+
     createNodeField({
       name: `slug`,
       node,
       value: node.frontmatter.slug
-        ? `/${node.frontmatter.slug}/`
-        : `post${generatedSlug}`,
+        ? `/post/${node.frontmatter.slug}/`
+        : `/${generatedSlug}/`,
+    });
+
+    createNodeField({
+      name: `lang`,
+      node,
+      value: lang,
     });
 
     // Add it to a collection

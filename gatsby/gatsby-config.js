@@ -6,6 +6,10 @@ dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 module.exports = {
   siteMetadata: {
     title: 'Fr. Kenny Ang',
+    siteUrl:
+      process.env.NODE_ENV === 'development'
+        ? process.env.URL || 'http://localhost:3000/'
+        : process.env.URL || 'https://frkennyang.netlify.app/',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

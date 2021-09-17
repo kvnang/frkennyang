@@ -6,6 +6,7 @@ import Typography from '../styles/Typography';
 import Header from './Header';
 import { SnackbarProvider } from './SnackbarContext';
 import Snackbar from './Snackbar';
+import { LangProvider } from './LangContext';
 
 interface Props {
   children: React.ReactNode;
@@ -43,14 +44,16 @@ export default function Layout({ children }: Props) {
     <>
       <GlobalStyles />
       <Typography />
-      <SnackbarProvider>
-        <div className="site">
-          <Header />
-          <div className="site-content">{children}</div>
-          <Footer />
-        </div>
-        <Snackbar />
-      </SnackbarProvider>
+      <LangProvider>
+        <SnackbarProvider>
+          <div className="site">
+            <Header />
+            <div className="site-content">{children}</div>
+            <Footer />
+          </div>
+          <Snackbar />
+        </SnackbarProvider>
+      </LangProvider>
     </>
   );
 }

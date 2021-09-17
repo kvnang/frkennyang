@@ -2,6 +2,7 @@ import { Link } from 'gatsby';
 import React, { MouseEvent, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { breakpoints } from '../styles/breakpoints';
+import LangSwitcher from './LangSwitcher';
 import Logo from './Logo';
 import Social from './Social';
 

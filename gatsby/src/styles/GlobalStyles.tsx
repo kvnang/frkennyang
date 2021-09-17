@@ -127,6 +127,19 @@ const GlobalStyles = styled.createGlobalStyle`
     }
   }
 
+  .page-p {
+    padding-top: var(--section-padding-sm);
+    padding-bottom: var(--section-padding-sm);
+
+    &-t {
+      padding-top: var(--section-padding-sm);
+    }
+
+    &-b {
+      padding-bottom: var(--section-padding-sm);
+    }
+  }
+
   // Form Styles
   form {
     width: 100%;
