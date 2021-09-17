@@ -58,13 +58,21 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     // if my posts have a slug in the frontmatter, it means I've specified what I want it to be. Otherwise I want to create one automatically
     // This is where we add our own custom fields to each node
     // const generatedSlug = createFilePath({ node, getNode });
-    const fileName = path.basename(node.fileAbsolutePath, '.md');
+    let fileName = path.basename(node.fileAbsolutePath, '.md');
     const lang = fileName.endsWith('.id') ? 'id' : 'en';
+
+    if (fileName === 'index' || fileName === 'index.id') {
+      const folderName = path.basename(path.dirname(node.fileAbsolutePath));
+      console.log(fileName, folderName);
+      fileName = fileName.replace('index', folderName);
+    }
 
     const generatedSlug =
       lang === 'id'
         ? `id/post/${slugify(fileName.replace(new RegExp('.id$'), ''))}`
         : `post/${slugify(fileName)}`;
+
+    console.log('Generated', generatedSlug);
 
     createNodeField({
       name: `slug`,

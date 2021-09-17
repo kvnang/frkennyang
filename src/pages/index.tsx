@@ -297,7 +297,7 @@ export default function HomePage({ data }: IndexPageProps) {
               <div className="form-wrapper">
                 <h2>Contact</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                <h4>
+                <h3 className="h4" style={{ margin: 0 }}>
                   <a
                     href="mailto:email@example.com"
                     target="_blank"
@@ -306,7 +306,7 @@ export default function HomePage({ data }: IndexPageProps) {
                   >
                     email@example.com
                   </a>
-                </h4>
+                </h3>
                 <ContactForm />
               </div>
             </div>

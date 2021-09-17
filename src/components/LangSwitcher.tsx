@@ -31,11 +31,12 @@ const LangSwitcherStyles = styled.div`
   }
 
   button {
-    opacity: 0.5;
+    opacity: 0.75;
     transition: opacity var(--transition);
 
     &[disabled] {
       opacity: 1;
+      font-weight: 600;
       cursor: default;
     }
 

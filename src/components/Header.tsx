@@ -46,8 +46,8 @@ const MenuListStyles = styled.ul`
     }
 
     a {
-      display: flex;
-      width: 100%;
+      /* display: flex; */
+      /* width: 100%; */
 
       &,
       &:hover,

@@ -77,7 +77,7 @@ export default function Social({ dark }: SocialProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram />
+            <FaInstagram title="Instagram" />
           </a>
         </li>
         <li>
@@ -86,7 +86,7 @@ export default function Social({ dark }: SocialProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaYoutube />
+            <FaYoutube title="YouTube" />
           </a>
         </li>
         <li>
@@ -95,7 +95,7 @@ export default function Social({ dark }: SocialProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedinIn />
+            <FaLinkedinIn title="LinkedIn" />
           </a>
         </li>
         <li>
@@ -104,7 +104,7 @@ export default function Social({ dark }: SocialProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebookF />
+            <FaFacebookF title="Facebook" />
           </a>
         </li>
         <li>
@@ -113,7 +113,7 @@ export default function Social({ dark }: SocialProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter />
+            <FaTwitter title="Twitter" />
           </a>
         </li>
       </ul>
