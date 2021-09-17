@@ -12,6 +12,17 @@ const FooterStyles = styled.footer`
   p {
     text-align: right;
   }
+
+  .page-home & {
+    background-color: var(--offwhite);
+    color: var(--black);
+
+    .col {
+      --width-xs: 12;
+      --width-md: 10;
+      --offset-md: 1;
+    }
+  }
 `;
 
 export default function Footer() {

@@ -8,6 +8,7 @@ import {
   MdInsertDriveFile,
   MdPlayArrow,
 } from 'react-icons/md';
+import { Helmet } from 'react-helmet';
 import { breakpoints } from '../styles/breakpoints';
 import signature from '../assets/images/frk-signature.svg';
 import Social from '../components/Social';
@@ -15,6 +16,7 @@ import formatDate from '../utils/formatDate';
 import toPlainText from '../utils/sanityBlockToPlainText';
 import HomeFeaturedMd from '../components/HomeFeaturedMd';
 import HomeFeatured from '../components/HomeFeatured';
+import ContactForm from '../components/ContactForm';
 
 type PostProps = {
   id: number;
@@ -58,7 +60,7 @@ const HeroStyles = styled.div`
   .hero-text {
     --width-xs: 12;
     --width-sm: 7;
-    --width-md: 3;
+    --width-md: 4;
     --offset-xs: 0;
     --offset-sm: 1;
     --offset-md: 2;
@@ -86,10 +88,15 @@ const HeroStyles = styled.div`
     .button-group {
       display: flex;
       flex-flow: wrap;
-      margin: -0.5rem;
+      margin: -0.5rem -1rem;
+      max-width: 80%;
+
+      @media ${breakpoints.tablet} {
+        max-width: initial;
+      }
 
       .button {
-        margin: 0.5rem;
+        margin: 0.5rem 1rem;
       }
     }
   }
@@ -155,6 +162,11 @@ const HeroStyles = styled.div`
   .social {
     right: auto;
     left: 0;
+    display: none;
+
+    @media ${breakpoints.tablet} {
+      display: flex;
+    }
 
     @media ${breakpoints.laptop} {
       left: auto;
@@ -167,17 +179,6 @@ const ContactStyles = styled.div`
   @media ${breakpoints.laptop} {
     background-color: var(--offwhite);
     margin: -1px 0;
-  }
-
-  + footer {
-    background-color: var(--offwhite);
-    color: var(--black);
-
-    .col {
-      --width-xs: 12;
-      --width-md: 10;
-      --offset-md: 1;
-    }
   }
 
   .container {
@@ -208,11 +209,16 @@ const ContactStyles = styled.div`
     position: absolute;
     top: var(--section-padding);
     left: 0;
-    height: 100%;
+    height: calc(100% - var(--section-padding) + 3.5rem);
     z-index: 1;
 
     @media ${breakpoints.laptop} {
       display: block;
+    }
+
+    @media ${breakpoints.desktop} {
+      width: calc(30% + 5% + 2.5vw);
+      margin-left: calc(-5% - 2.5vw);
     }
 
     &::before {
@@ -241,44 +247,10 @@ const ContactStyles = styled.div`
   }
 `;
 
-const FormStyles = styled.div`
-  margin-top: 3.5rem;
-
-  input,
-  textarea {
-    /* background: transparent;
-    border: 1px solid var(--white);
-    padding: 0.75rem 1.25rem;
-    color: var(--white);
-    width: 100%; */
-
-    /* &::placeholder {
-      opacity: 1;
-      color: var(--white);
-      transition: var(--transition);
-    }
-
-    &:focus {
-      &::placeholder {
-        opacity: 0.5;
-      }
-    } */
-  }
-
-  /* textarea {
-    resize: vertical;
-    height: 9rem;
-  } */
-
-  button[type='submit'] {
-    margin-left: auto;
-    display: block;
-  }
-`;
-
 export default function HomePage({ data }: IndexPageProps) {
   return (
-    <>
+    <main>
+      <Helmet bodyAttributes={{ class: 'page-home' }}> </Helmet>
       <HeroStyles>
         <div className="container">
           <div className="row">
@@ -295,7 +267,7 @@ export default function HomePage({ data }: IndexPageProps) {
                   Read My Bio
                 </Link>
                 <Link to="/cv" className="button">
-                  CV
+                  Curriculum Vitae
                 </Link>
               </div>
             </div>
@@ -304,6 +276,7 @@ export default function HomePage({ data }: IndexPageProps) {
                 src="../assets/images/frk-halfbody.png"
                 alt=""
                 loading="eager"
+                placeholder="none"
               />
             </div>
           </div>
@@ -327,60 +300,18 @@ export default function HomePage({ data }: IndexPageProps) {
                     href="mailto:email@example.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="link-underline link-underline--cta"
+                    className="button"
                   >
                     email@example.com
                   </a>
                 </h4>
-                <FormStyles>
-                  <form action="/">
-                    <div className="form-fields">
-                      <div className="form-field half">
-                        <label htmlFor="name">
-                          <span className="visually-hidden">Name</span>
-                          <input
-                            type="text"
-                            name="name"
-                            id="name"
-                            placeholder="Name"
-                          />
-                        </label>
-                      </div>
-                      <div className="form-field half">
-                        <label htmlFor="email">
-                          <span className="visually-hidden">Email</span>
-                          <input
-                            type="text"
-                            name="email"
-                            id="email"
-                            placeholder="Email"
-                          />
-                        </label>
-                      </div>
-                      <div className="form-field">
-                        <label htmlFor="message">
-                          <span className="visually-hidden">Message</span>
-                          <textarea
-                            name="message"
-                            id="message"
-                            placeholder="Message"
-                          />
-                        </label>
-                      </div>
-                      <div className="form-field submit">
-                        <button type="submit" className="button">
-                          Send
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                </FormStyles>
+                <ContactForm />
               </div>
             </div>
           </div>
           <Social dark />
         </div>
       </ContactStyles>
-    </>
+    </main>
   );
 }

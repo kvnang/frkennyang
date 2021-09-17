@@ -85,67 +85,69 @@ export default function HomeFeaturedMd() {
   return (
     <HomeFeaturedStyles className="bg-light">
       <div className="container">
-        <div className="title col">
-          <div className="inner">
-            <h2 className="title-line">Featured Contents</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+        <div className="row">
+          <div className="title col">
+            <div className="inner">
+              <h2 className="title-line">Featured Contents</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            </div>
           </div>
-        </div>
-        <div className="posts-wrapper col">
-          <div className="posts">
-            <Slider {...settings}>
-              {posts.map((post: PostProps) => {
-                let icon;
-                switch (post.frontmatter.format.toLowerCase()) {
-                  case 'video':
-                    icon = <MdPlayArrow />;
-                    break;
-                  case 'article':
-                    icon = <MdFormatAlignLeft />;
-                    break;
-                  default:
-                    icon = '';
-                }
-                return (
-                  <div key={post.id} className="post">
-                    <a href={`${post.fields.slug}`} className="post-inner">
-                      <div className="post-img">
-                        {post.frontmatter.featuredImage ? (
-                          <GatsbyImage
-                            image={
-                              post.frontmatter.featuredImage.childImageSharp
-                                .gatsbyImageData
-                            }
-                            alt={post.frontmatter.title}
-                          />
-                        ) : (
-                          <StaticImage
-                            src="../assets/images/placeholder.jpg"
-                            alt={post.frontmatter.title}
-                          />
-                        )}
-                        {post.frontmatter.format ? (
-                          <div className="post-format">{icon}</div>
-                        ) : (
-                          ''
-                        )}
-                      </div>
-                      <div className="post-details">
-                        <h3 className="post-title h4">
-                          {post.frontmatter.title}
-                        </h3>
-                        <p className="post-excerpt">
-                          {post.excerpt ? post.excerpt : ''}
-                        </p>
-                        <p className="post-date">
-                          <small>{post.frontmatter.date}</small>
-                        </p>
-                      </div>
-                    </a>
-                  </div>
-                );
-              })}
-            </Slider>
+          <div className="posts-wrapper col">
+            <div className="posts">
+              <Slider {...settings}>
+                {posts.map((post: PostProps) => {
+                  let icon;
+                  switch (post.frontmatter.format.toLowerCase()) {
+                    case 'video':
+                      icon = <MdPlayArrow />;
+                      break;
+                    case 'article':
+                      icon = <MdFormatAlignLeft />;
+                      break;
+                    default:
+                      icon = '';
+                  }
+                  return (
+                    <div key={post.id} className="post">
+                      <a href={`${post.fields.slug}`} className="post-inner">
+                        <div className="post-img">
+                          {post.frontmatter.featuredImage ? (
+                            <GatsbyImage
+                              image={
+                                post.frontmatter.featuredImage.childImageSharp
+                                  .gatsbyImageData
+                              }
+                              alt={post.frontmatter.title}
+                            />
+                          ) : (
+                            <StaticImage
+                              src="../assets/images/placeholder.jpg"
+                              alt={post.frontmatter.title}
+                            />
+                          )}
+                          {post.frontmatter.format ? (
+                            <div className="post-format">{icon}</div>
+                          ) : (
+                            ''
+                          )}
+                        </div>
+                        <div className="post-details">
+                          <h3 className="post-title h4">
+                            {post.frontmatter.title}
+                          </h3>
+                          <p className="post-excerpt">
+                            {post.excerpt ? post.excerpt : ''}
+                          </p>
+                          <p className="post-date">
+                            <small>{post.frontmatter.date}</small>
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  );
+                })}
+              </Slider>
+            </div>
           </div>
         </div>
       </div>

@@ -22,18 +22,20 @@ const SocialStyles = styled.div`
 
   ul {
     display: flex;
+    flex-flow: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     list-style: none;
     padding-left: 0;
-    margin: -0.75rem;
+    margin: -0.875rem;
 
     @media ${breakpoints.laptop} {
       flex-direction: column;
+      justify-content: center;
     }
 
     li {
-      padding: 0.75rem;
+      padding: 0.875rem;
     }
   }
 
@@ -53,6 +55,11 @@ const SocialStyles = styled.div`
   svg {
     color: inherit;
     transition: var(--transition);
+    height: 1.25rem;
+    width: auto;
+
+    @media ${breakpoints.laptop} {
+    }
   }
 
   &.dark a {

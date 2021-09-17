@@ -26,7 +26,7 @@ export const HomeFeaturedStyles = styled.div`
 
   .posts {
     display: flex;
-    margin: 0 -2.5%;
+    margin: 0 -0.5rem;
   }
 
   .slick-slider {
@@ -74,7 +74,7 @@ export const HomeFeaturedStyles = styled.div`
   .post {
     width: 35%;
     flex: 0 0 35%;
-    padding: 0 calc(2.5 / 105 * 100%);
+    padding: 0 0.5rem;
 
     .post-inner {
       display: flex;

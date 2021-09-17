@@ -3,6 +3,7 @@ import React, { MouseEvent, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { breakpoints } from '../styles/breakpoints';
 import Logo from './Logo';
+import Social from './Social';
 
 const HeaderStyles = styled.header`
   padding-top: 1rem;
@@ -21,6 +22,44 @@ const HeaderStyles = styled.header`
   }
 `;
 
+const MenuListStyles = styled.ul`
+  --menu-gap: 1rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: calc(-1 * var(--menu-gap) / 2);
+
+  @media ${breakpoints.laptop} {
+    --menu-gap: 2rem;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  li {
+    font-size: 1.25rem;
+    padding: calc(var(--menu-gap) / 2);
+
+    @media ${breakpoints.laptop} {
+      font-size: 1rem;
+    }
+
+    a {
+      display: flex;
+      width: 100%;
+
+      &[aria-current='page'] {
+        pointer-events: none;
+
+        &::before {
+          width: 100%;
+          transform: translateX(0);
+        }
+      }
+    }
+  }
+`;
+
 const MenuStyles = styled.nav`
   display: none;
   width: 100%;
@@ -29,16 +68,21 @@ const MenuStyles = styled.nav`
   @media ${breakpoints.laptop} {
     display: flex;
   }
+`;
 
-  ul {
-    --menu-gap: 1.5rem;
-    list-style: none;
-    display: flex;
-    margin: calc(-1 * var(--menu-gap) / 2);
+const MobileMenuStyles = styled.nav`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
 
-    li {
-      padding: calc(var(--menu-gap) / 2);
-    }
+  .social {
+    position: static;
+    top: 0;
+    padding: 0;
+    margin-top: 2.5rem;
   }
 `;
 
@@ -139,23 +183,13 @@ const MobileHeaderStyles = styled.div`
     transform: translateX(0);
     visibility: visible;
   }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-    padding-top: 6rem;
-    padding-bottom: 3rem;
-    width: 100%;
-
-    a {
-      display: inline-flex;
-      padding: 0.5rem 0;
-      &:not(:last-child) {
-        margin-bottom: 1rem;
-      }
-    }
-  }
 `;
+
+const menu = [
+  {
+    link: '/about',
+  },
+];
 
 export default function Header() {
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
@@ -187,7 +221,7 @@ export default function Header() {
             <Logo />
           </Link>
           <MenuStyles>
-            <ul>
+            <MenuListStyles>
               <li>
                 <Link to="/about" className="link-underline">
                   About
@@ -195,10 +229,15 @@ export default function Header() {
               </li>
               <li>
                 <Link to="/cv" className="link-underline">
-                  CV
+                  Curriculum Vitae
                 </Link>
               </li>
-            </ul>
+              <li>
+                <Link to="/invite" className="link-underline">
+                  Invite to Speak
+                </Link>
+              </li>
+            </MenuListStyles>
           </MenuStyles>
           <MobileMenuButtonStyles>
             <button
@@ -216,11 +255,38 @@ export default function Header() {
           </MobileMenuButtonStyles>
           <MobileHeaderStyles className={mobileMenuActive ? `active` : ``}>
             <div className="container">
-              <nav>
-                <Link to="/about" onClick={() => setMobileMenuActive(false)}>
-                  About
-                </Link>
-              </nav>
+              <MobileMenuStyles>
+                <MenuListStyles>
+                  <li>
+                    <Link
+                      to="/about"
+                      className="link-underline"
+                      onClick={() => setMobileMenuActive(false)}
+                    >
+                      About
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/cv"
+                      className="link-underline"
+                      onClick={() => setMobileMenuActive(false)}
+                    >
+                      Curriculum Vitae
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/invite"
+                      className="link-underline"
+                      onClick={() => setMobileMenuActive(false)}
+                    >
+                      Invite to Speak
+                    </Link>
+                  </li>
+                </MenuListStyles>
+                <Social />
+              </MobileMenuStyles>
             </div>
           </MobileHeaderStyles>
         </div>

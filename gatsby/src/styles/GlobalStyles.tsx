@@ -8,15 +8,18 @@ const GlobalStyles = styled.createGlobalStyle`
     --gold: #e2a93a;
     --white: #fff;
     --offwhite: #f5f2ed;
+    --offwhite-light: #ddd4c5;
     --grey: #a9a9a9;
-    --color-p: var(--white);
+    --color-p: var(--offwhite);
     --color-p-light: var(--offwhite);
     --color-bg: var(--black);
     --color-accent: var(--gold);
+    --color-error: #f05d5e;
+    --color-success: #7dce82;
     --transition: 0.35s cubic-bezier(0.77, 0, 0.175, 1);
     --letter-spacing: 0.1rem;
-    --section-padding: 5rem;
-    --section-padding-sm: 2.5rem;
+    --section-padding: 2.5rem;
+    --section-padding-sm: 1.25rem;
     --font-primary: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
       Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
       sans-serif;
@@ -30,7 +33,14 @@ const GlobalStyles = styled.createGlobalStyle`
     /* Container Width */
     --container-width: 90vw;
 
+    @media ${breakpoints.tablet} {
+      --section-padding: 4rem;
+      --section-padding-sm: 2rem;
+    }
+
     @media ${breakpoints.laptop} {
+      --section-padding: 5rem;
+      --section-padding-sm: 2.5rem;
       --gutter: 20px;
       --container-width: 95vw;
     }
@@ -95,11 +105,26 @@ const GlobalStyles = styled.createGlobalStyle`
     border: 0;
     background-color: transparent;
     color: inherit;
+    padding: 0;
   }
 
   img,
   figure {
     max-width: 100%;
+  }
+
+  // Spacing Styles
+  .section-p {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+
+    &-t {
+      padding-top: var(--section-padding);
+    }
+
+    &-b {
+      padding-bottom: var(--section-padding);
+    }
   }
 
   // Form Styles
@@ -121,6 +146,7 @@ const GlobalStyles = styled.createGlobalStyle`
   input[type='search'],
   input[type='number'],
   input[type='date'],
+  input[type='time'],
   .DayPickerInput input,
   textarea,
   select {
@@ -145,12 +171,29 @@ const GlobalStyles = styled.createGlobalStyle`
         opacity: 0.3;
       }
     }
+
+    &[aria-invalid='true'] {
+      border: 1px solid var(--color-error);
+    }
   }
 
-  /* input[type='date'] {
+  input[type='date'],
+  input[type='time'] {
     &::-webkit-calendar-picker-indicator {
+      /* opacity: 0; */
+      filter: invert(0.75);
+      cursor: pointer;
+      transition: filter var(--transition);
+
+      &:hover {
+        filter: invert(1);
+      }
     }
-  } */
+  }
+
+  /* ::-webkit-calendar-picker-indicator {
+   filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+} */
 
   textarea {
     resize: vertical;
@@ -160,6 +203,12 @@ const GlobalStyles = styled.createGlobalStyle`
   fieldset {
     border: 0;
     padding: 0;
+
+    &[aria-invalid='true'] {
+      input[type='radio'] + span::before {
+        background-color: var(--color-error);
+      }
+    }
   }
 
   .radio-group {

@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
-import { SubmitHandler, useForm, Controller } from 'react-hook-form';
+import { SubmitHandler, useForm } from 'react-hook-form';
 // import DatePicker from 'react-datepicker';
-import DayPickerInput from 'react-day-picker/DayPickerInput';
+// import DayPickerInput from 'react-day-picker/DayPickerInput';
 import { SnackbarContext } from '../components/SnackbarContext';
-import DayPickerStyles from '../styles/DayPickerStyles';
+import { breakpoints } from '../styles/breakpoints';
+import FormSubmitButton from '../components/FormSubmitButton';
+// import DayPickerStyles from '../styles/DayPickerStyles';
 // import 'react-datepicker/dist/react-datepicker.css';
 // import 'react-day-picker/lib/style.css';
 
@@ -27,11 +28,22 @@ const BodyStyles = styled.section`
 
 const FormStyles = styled.div`
   /* background-color: var(--dark-grey); */
-  border: 1px solid var(--grey);
   /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.32); */
-  padding: 2.5rem;
-  margin: 2.5rem -2.5rem;
   display: flex;
+  padding: 1.5rem 0 0;
+  margin: 2.5rem 0 0;
+  border-top: 1px solid var(--grey);
+
+  @media ${breakpoints.tablet} {
+    border: 1px solid var(--grey);
+    padding: 1.5rem;
+    margin: 2.5rem 0 0;
+  }
+
+  @media ${breakpoints.laptop} {
+    padding: 2.5rem;
+    margin: 2.5rem -2.5rem 0;
+  }
 `;
 
 export default function AboutPage() {
@@ -87,41 +99,20 @@ export default function AboutPage() {
       .join('&');
   }
 
-  // IF the form contains File upload
-  // function encode(data: Inputs) {
-  //   const formData = new FormData();
-  //   Object.keys(data).forEach((key) => {
-  //     if (data[key] instanceof FileList) {
-  //       for (const file of data[key]) {
-  //         formData.append(key, file, file.name);
-  //       }
-  //     } else {
-  //       formData.append(key, data[key]);
-  //     }
-  //   });
-  //   return formData;
-  // }
-
-  console.log(watch('date'));
-
   const onSubmit: SubmitHandler<Inputs> = (data, e) => {
     console.log(data);
-    // setLoading(true);
+    setLoading(true);
 
-    // const formData = encode({
-    //   'form-name': e?.target.getAttribute('name'),
-    //   ...data,
-    // });
+    const formData = encode(data);
 
-    // fetch('/', {
-    //   method: 'POST',
-    //   // IF form contains file uploads, you should NOT use application/x-www-form-urlencoded -- commment this out
-    //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    //   body: formData,
-    // })
-    //   .then((response) => handleResponse(response))
-    //   .catch((error) => console.error(error))
-    //   .then(() => setLoading(false));
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: formData,
+    })
+      .then((response) => handleResponse(response))
+      .catch((error) => console.error(error))
+      .then(() => setLoading(false));
   };
 
   const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
@@ -154,9 +145,9 @@ export default function AboutPage() {
   if (formMessage.open && formMessage.status === 'success') {
     return (
       <>
-        <h3 className="h4">Thank You</h3>
+        <h2 className="h3">Thank You!</h2>
         <p>
-          Your message has been sent. We will respond to your message as soon as
+          Your invitation has been sent. I will get back to you as soon as
           possible.
         </p>
       </>
@@ -173,38 +164,26 @@ export default function AboutPage() {
               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
               <FormStyles>
                 <form action="/" onSubmit={handleSubmit(onSubmit)}>
+                  <input
+                    type="hidden"
+                    value="Invite"
+                    {...register('form-name')}
+                  />
                   <div className="form-fields">
                     <div className="form-field heading">
                       <h2 className="h3">Event Date</h2>
                     </div>
                     <div className="form-field half">
                       <label htmlFor="date">
-                        <span>Proposed Event Date *</span>
-                        <DayPickerStyles>
-                          <Controller
-                            name="date"
-                            control={control}
-                            render={({ field }) => (
-                              <DayPickerInput
-                                value={field.value}
-                                onDayChange={(day) => {
-                                  field.onChange(day);
-                                }}
-                                dayPickerProps={{
-                                  showOutsideDays: true,
-                                  fromMonth: new Date(),
-                                  disabledDays: [
-                                    // new Date(2017, 3, 2),
-                                    {
-                                      // from: new Date(2022, 3, 20),
-                                      before: new Date(),
-                                    },
-                                  ],
-                                }}
-                              />
-                            )}
-                          />
-                        </DayPickerStyles>
+                        <span>Date *</span>
+                        <input
+                          type="date"
+                          id="alternate-date"
+                          min={todayDate}
+                          required
+                          aria-invalid={!!errors.alternateDate}
+                          {...register('alternateDate', { required: true })}
+                        />
                       </label>
                     </div>
                     <div className="form-field half">
@@ -215,6 +194,30 @@ export default function AboutPage() {
                           id="alternate-date"
                           min={todayDate}
                           {...register('alternateDate')}
+                        />
+                      </label>
+                    </div>
+                    <div className="form-field half">
+                      <label htmlFor="start-time">
+                        <span>Start Time *</span>
+                        <input
+                          type="time"
+                          id="start-time"
+                          required
+                          aria-invalid={!!errors.startTime}
+                          {...register('startTime', { required: true })}
+                        />
+                      </label>
+                    </div>
+                    <div className="form-field half">
+                      <label htmlFor="end-time">
+                        <span>End Time *</span>
+                        <input
+                          type="time"
+                          id="end-time"
+                          required
+                          aria-invalid={!!errors.endTime}
+                          {...register('endTime', { required: true })}
                         />
                       </label>
                     </div>
@@ -229,6 +232,7 @@ export default function AboutPage() {
                           id="organization"
                           placeholder="Organization *"
                           required
+                          aria-invalid={!!errors.organization}
                           {...register('organization', { required: true })}
                         />
                       </label>
@@ -241,6 +245,7 @@ export default function AboutPage() {
                           id="name"
                           placeholder="Contact Name *"
                           required
+                          aria-invalid={!!errors.contactName}
                           {...register('contactName', { required: true })}
                         />
                       </label>
@@ -252,6 +257,7 @@ export default function AboutPage() {
                           type="email"
                           id="email"
                           placeholder="Email *"
+                          aria-invalid={!!errors.email}
                           {...register('email', { required: true })}
                         />
                       </label>
@@ -263,6 +269,7 @@ export default function AboutPage() {
                           type="tel"
                           id="phone"
                           placeholder="Phone *"
+                          aria-invalid={!!errors.phone}
                           {...register('phone', { required: true })}
                         />
                       </label>
@@ -273,7 +280,7 @@ export default function AboutPage() {
                     <div className="form-field">
                       <fieldset
                         className="radio-group"
-                        // aria-invalid={!!errors.experience}
+                        aria-invalid={!!errors.eventLocation}
                       >
                         <legend className="radio-group__label visually-hidden">
                           Type of Event
@@ -284,6 +291,7 @@ export default function AboutPage() {
                               type="radio"
                               id="event-location"
                               value="online"
+                              required
                               {...register('eventLocation', { required: true })}
                             />
                             <span>Online Event</span>
@@ -293,6 +301,7 @@ export default function AboutPage() {
                               type="radio"
                               id="event-location"
                               value="physical"
+                              required
                               {...register('eventLocation', { required: true })}
                             />
                             <span>Physical Event</span>
@@ -310,6 +319,7 @@ export default function AboutPage() {
                               id="venue"
                               placeholder="Venue *"
                               required
+                              aria-invalid={!!errors.venue}
                               {...register('venue', {
                                 validate: {
                                   required: (value) =>
@@ -326,7 +336,8 @@ export default function AboutPage() {
                               type="number"
                               id="venue-capacity"
                               placeholder="Venue Capacity"
-                              {...register('venue')}
+                              aria-invalid={!!errors.venueCapacity}
+                              {...register('venueCapacity')}
                             />
                           </label>
                         </div>
@@ -337,6 +348,7 @@ export default function AboutPage() {
                               type="text"
                               id="venue-address-street"
                               placeholder="Street *"
+                              aria-invalid={!!errors.address?.street}
                               {...register('address[street]', {
                                 validate: {
                                   required: (value) =>
@@ -355,6 +367,7 @@ export default function AboutPage() {
                               type="text"
                               id="venue-address-street-2"
                               placeholder="Street Line 2"
+                              aria-invalid={!!errors.address?.street2}
                               {...register('address[street2]')}
                             />
                           </label>
@@ -368,6 +381,7 @@ export default function AboutPage() {
                               type="text"
                               id="venue-address-state"
                               placeholder="State / Province"
+                              aria-invalid={!!errors.address?.state}
                               {...register('address[state]', {
                                 validate: {
                                   required: (value) =>
@@ -386,6 +400,7 @@ export default function AboutPage() {
                               type="text"
                               id="venue-address-zip"
                               placeholder="ZIP / Postal Code"
+                              aria-invalid={!!errors.address?.zip}
                               {...register('address[zip]', {
                                 validate: {
                                   required: (value) =>
@@ -404,6 +419,7 @@ export default function AboutPage() {
                               type="text"
                               id="venue-address-country"
                               placeholder="Country"
+                              aria-invalid={!!errors.address?.country}
                               {...register('address[country]', {
                                 validate: {
                                   required: (value) =>
@@ -422,6 +438,7 @@ export default function AboutPage() {
                               type="text"
                               id="venue-address-airport"
                               placeholder="Nearest Major Airport"
+                              aria-invalid={!!errors.address?.airport}
                               {...register('address[airport]', {
                                 validate: {
                                   required: (value) =>
@@ -441,7 +458,9 @@ export default function AboutPage() {
                           id="attendance"
                           placeholder="Expected Attendance"
                           min="1"
-                          {...register('attendance')}
+                          required
+                          aria-invalid={!!errors.attendance}
+                          {...register('attendance', { required: true })}
                         />
                       </label>
                     </div>
@@ -452,6 +471,8 @@ export default function AboutPage() {
                           type="text"
                           id="diocese"
                           placeholder="Diocese *"
+                          required
+                          aria-invalid={!!errors.diocese}
                           {...register('diocese', { required: true })}
                         />
                       </label>
@@ -463,6 +484,8 @@ export default function AboutPage() {
                         <textarea
                           id="topic"
                           placeholder="Specify the requested topic as best as you can; e.g. “Friendship according to the Bible,” instead of just “Friendship”"
+                          required
+                          aria-invalid={!!errors.topic}
                           {...register('topic', { required: true })}
                         />
                       </label>
@@ -472,9 +495,11 @@ export default function AboutPage() {
                         <span>Event Type *</span>
                         <select
                           id="event-type"
+                          required
+                          aria-invalid={!!errors.eventType}
                           {...register('eventType', { required: true })}
                         >
-                          <option value="">---</option>
+                          <option value="">Select Event Type</option>
                           <option value="talk">Talk</option>
                           <option value="multi-speaker">Multi-Speaker</option>
                           <option value="international">International</option>
@@ -491,7 +516,7 @@ export default function AboutPage() {
                     <div className="form-field">
                       <fieldset
                         className="radio-group"
-                        // aria-invalid={!!errors.experience}
+                        aria-invalid={!!errors.hasSpokenBefore}
                       >
                         <legend className="radio-group__label">
                           Has Fr. Kenny spoken at your event/parish before?
@@ -528,14 +553,16 @@ export default function AboutPage() {
                         <textarea
                           id="details"
                           placeholder="Tell us about your event."
+                          aria-invalid={!!errors.details}
                           {...register('details')}
                         />
                       </label>
                     </div>
                     <div className="form-field submit">
-                      <button type="submit" className="button">
-                        Submit Request
-                      </button>
+                      <FormSubmitButton
+                        loading={loading}
+                        title="Submit Request"
+                      />
                     </div>
                   </div>
                 </form>
