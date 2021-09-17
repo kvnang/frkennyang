@@ -1,21 +1,24 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { useLocation } from '@reach/router'; // eslint-disable-line import/no-unresolved
 import { useStaticQuery, graphql } from 'gatsby';
 
 interface Props {
   children?: React.ReactNode;
-  location: any;
-  description: string;
   title: string;
-  image: string;
+  description?: string;
+  canonical?: string;
+  image?: string;
+  lang?: string;
 }
 
 export default function SEO({
   children,
-  location,
-  description,
   title,
+  description,
+  canonical,
   image,
+  lang = 'en',
 }: Props) {
   const { site } = useStaticQuery(graphql`
     query {
@@ -23,36 +26,94 @@ export default function SEO({
         siteMetadata {
           title
           description
+          keywords
+          siteUrl
         }
       }
     }
   `);
+  const { pathname } = useLocation() || '';
+
+  const metaDescription = description || site.siteMetadata.description;
+  const metaKeywords = site.siteMetadata.keywords.join(', ');
+  const url = `${site.siteMetadata.siteUrl}${pathname}`;
+  const canonicalUrl = canonical
+    ? `${site.siteMetadata.siteUrl}${canonical}`
+    : url;
+
+  const mainFavicon =
+    process.env.NODE_ENV === 'development' ? 'favicon-dev' : 'favicon';
+
+  let cardImage;
+
+  if (image) {
+    cardImage = image.includes('http')
+      ? image
+      : `${site.siteMetadata.siteUrl}${image}`;
+  }
   return (
-    <Helmet titleTemplate={`%s - ${site.siteMetadata.title}`}>
+    <Helmet
+      htmlAttributes={{ lang }}
+      titleTemplate={`%s - ${site.siteMetadata.title}`}
+    >
       <html lang="en" />
-      <title>{title}</title>
-      {/* Fav Icons */}
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-      <link rel="alternate icon" href="/favicon.ico" />
-      {/* Meta Tags */}
+      {/* Primary Meta Tags */}
+      <title>{title || site.siteMetadata.title}</title>
+      <meta name="title" content={title || site.siteMetadata.title} />
+      <meta name="description" content={metaDescription} />
+      <meta name="keywords" content={metaKeywords} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta charSet="utf-8" />
-      <meta name="description" content={site.siteMetadata.description} />
+      {/* Canonical */}
+      <link rel="canonical" href={canonicalUrl} />
+      {/* Favicons */}
+      <link rel="icon" type="image/svg+xml" href={`/${mainFavicon}.svg`} />
+      <link rel="icon" href={`/${mainFavicon}.ico`} sizes="32x32" />
+      <link rel="icon" href="/favicon-128.png" sizes="128x128" />
+      <link rel="icon" href="/favicon-192.png" sizes="192x192" />
+      {/* Android */}
+      <link rel="shortcut icon" href="/favicon-196.png" sizes="196x196" />
+      {/* iOS */}
+      <link rel="apple-touch-icon" href="/favicon-120.png" sizes="120x120" />
+      <link rel="apple-touch-icon" href="/favicon-152.png" sizes="152x152" />
+      <link rel="apple-touch-icon" href="/favicon-180.png" sizes="180x180" />
       {/* Open Graph */}
-      {location && <meta property="og:url" content={location.href} />}
-      <meta property="og:image" content={image || '/logo.svg'} />
-      <meta property="og:title" content={title} key="ogtitle" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={url} key="ogurl" />
+      <meta
+        property="og:image"
+        content={cardImage || `${site.siteMetadata.siteUrl}/opengraph.jpg`}
+        key="ogimage"
+      />
+      <meta
+        property="og:title"
+        content={title || site.siteMetadata.title}
+        key="ogtitle"
+      />
       <meta
         property="og:site_name"
         content={site.siteMetadata.title}
         key="ogsitename"
       />
-      <meta property="og:description" content={description} key="ogdesc" />
-      <meta property="og:type" content="website" />
+      <meta property="og:description" content={metaDescription} key="ogdesc" />
+      <meta property="og:type" content="website" key="ogtype" />
       {/* twitter */}
-      <meta property="twitter:title" content={title} />
-      <meta property="twitter:description" content={description} />
-      <meta property="twitter:card" content="summary" />
+      <meta
+        property="twitter:title"
+        content={title || site.siteMetadata.title}
+      />
+      <meta property="twitter:url" content={url} key="twitterurl" />
+      <meta
+        property="twitter:description"
+        content={metaDescription}
+        key="twitterdesc"
+      />
+      <meta property="twitter:card" content="summary" key="twittercard" />
+      <meta
+        property="twitter:image"
+        content={cardImage || `${site.siteMetadata.siteUrl}/opengraph.jpg`}
+        key="twitterimage"
+      />
       {children}
     </Helmet>
   );

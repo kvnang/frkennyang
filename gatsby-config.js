@@ -5,6 +5,8 @@ dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 module.exports = {
   siteMetadata: {
     title: 'Fr. Kenny Ang',
+    description: `Fr. Kenny Ang's Personal Website`,
+    keywords: ['Catholic', 'priest'],
     siteUrl:
       process.env.NODE_ENV === 'development'
         ? process.env.URL || 'http://localhost:3000/'

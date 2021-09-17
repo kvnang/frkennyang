@@ -111,11 +111,7 @@ export default function LangSwitcher({
     <LangSwitcherStyles
       className={`language-switcher ${vertical ? 'vertical' : ''}`}
     >
-      <Helmet
-        htmlAttributes={{
-          'data-lang': lang,
-        }}
-      >
+      <Helmet>
         <link
           rel="alternate"
           hrefLang={lang === 'id' ? 'en' : 'id'}

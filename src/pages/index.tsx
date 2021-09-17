@@ -17,6 +17,7 @@ import toPlainText from '../utils/sanityBlockToPlainText';
 import HomeFeaturedMd from '../components/HomeFeaturedMd';
 import HomeFeatured from '../components/HomeFeatured';
 import ContactForm from '../components/ContactForm';
+import SEO from '../components/Seo';
 
 type PostProps = {
   id: number;
@@ -250,6 +251,7 @@ const ContactStyles = styled.div`
 export default function HomePage({ data }: IndexPageProps) {
   return (
     <main>
+      <SEO title="A Catholic Priest from Indonesia" />
       <Helmet bodyAttributes={{ class: 'page-home' }}> </Helmet>
       <HeroStyles>
         <div className="container">

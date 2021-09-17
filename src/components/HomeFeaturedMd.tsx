@@ -60,7 +60,8 @@ export default function HomeFeaturedMd() {
 
   // console.log(data);
   const rawPosts = data.posts.nodes;
-  const { lang, setLang } = useContext(LangContext);
+  const { lang } = useContext(LangContext);
+
   const posts = rawPosts.filter((p) => p.fields.lang === lang);
 
   const settings = {
