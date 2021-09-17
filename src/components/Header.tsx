@@ -49,6 +49,12 @@ const MenuListStyles = styled.ul`
       display: flex;
       width: 100%;
 
+      &,
+      &:hover,
+      &:focus {
+        color: var(--color-p);
+      }
+
       &[aria-current='page'] {
         pointer-events: none;
 
@@ -72,7 +78,8 @@ const MenuStyles = styled.nav`
 
   .page-cv & {
     a,
-    a:hover {
+    a:hover,
+    a:focus {
       color: var(--black);
     }
   }
@@ -231,17 +238,17 @@ export default function Header() {
           <MenuStyles>
             <MenuListStyles>
               <li>
-                <Link to="/about" className="link-underline">
+                <Link to="/about/" className="link-underline">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/cv" className="link-underline">
+                <Link to="/cv/" className="link-underline">
                   Curriculum Vitae
                 </Link>
               </li>
               <li>
-                <Link to="/invite" className="link-underline">
+                <Link to="/invite/" className="link-underline">
                   Invite to Speak
                 </Link>
               </li>
@@ -267,7 +274,7 @@ export default function Header() {
                 <MenuListStyles>
                   <li>
                     <Link
-                      to="/about"
+                      to="/about/"
                       className="link-underline"
                       onClick={() => setMobileMenuActive(false)}
                     >
@@ -276,7 +283,7 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      to="/cv"
+                      to="/cv/"
                       className="link-underline"
                       onClick={() => setMobileMenuActive(false)}
                     >
@@ -285,7 +292,7 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
-                      to="/invite"
+                      to="/invite/"
                       className="link-underline"
                       onClick={() => setMobileMenuActive(false)}
                     >

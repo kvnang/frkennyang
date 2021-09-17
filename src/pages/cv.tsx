@@ -9,76 +9,7 @@ import {
   AccordionItemHead,
 } from '../components/Accordions';
 import { breakpoints } from '../styles/breakpoints';
-
-const cv = [
-  {
-    title: 'Education',
-    items: [
-      {
-        title: 'Pontifical University of the Holy Cross',
-        subtitle: 'Licentiate in Dogmatic Theology',
-        meta: '2020 - (in progress), ROME (ITALY)',
-        description: '',
-      },
-      {
-        title: 'University of Navarra',
-        subtitle: 'Baccalaureate in Philosophy',
-        meta: '2013 - 2015, 2018 - 2019, PAMPLONA (SPAIN)',
-        description: '9.87 GPA (out of 10)',
-      },
-      {
-        title: 'University of Navarra',
-        subtitle: 'Baccalaureate in Theology',
-        meta: '2015 - 2018, PAMPLONA (SPAIN)',
-        description: '9.85 GPA (out of 10)',
-      },
-      {
-        title: 'Missouri Western State University',
-        subtitle: '',
-        meta: '2010 - 2012, MISSOURI (USA)',
-        description: 'Music Performance, 4.0 GPA (out of 4)',
-      },
-    ],
-  },
-  {
-    title: 'Languages',
-    items: [
-      {
-        title: 'English',
-        meta: 'Reading / Speaking / Writing',
-      },
-      {
-        title: 'Spanish',
-        meta: 'Reading / Speaking / Writing',
-      },
-      {
-        title: 'Italian',
-        meta: 'Reading / Speaking / Writing',
-      },
-      {
-        title: 'Bahasa Indonesia',
-        meta: 'Reading / Speaking / Writing',
-      },
-      {
-        title: 'Latin',
-        meta: 'Reading',
-      },
-      {
-        title: 'French',
-        meta: 'Reading',
-      },
-    ],
-  },
-  {
-    title: 'Areas of interest',
-    items: [
-      {
-        subtitle:
-          'St. Thomas Aquinas / Medieval Philosophy and Theology / Metaphysics / Apologetics / Theology of Creation / Pipe Organ / Renaissance Art',
-      },
-    ],
-  },
-];
+import cv from '../data/cv';
 
 const IntroStyles = styled.section`
   padding-top: var(--section-padding-sm);
