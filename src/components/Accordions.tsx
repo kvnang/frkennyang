@@ -81,8 +81,8 @@ export function AccordionItemHead({
       }`}
       aria-controls={id}
       aria-expanded={activeAccordionItem === id}
-      onClick={handleClick}
-      onKeyPress={handleClick}
+      onClick={() => handleClick()}
+      onKeyPress={() => handleClick()}
       role="button"
       tabIndex={0}
       style={{ cursor: 'pointer' }}

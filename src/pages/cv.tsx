@@ -195,7 +195,7 @@ export default function AboutPage() {
           <div className="row">
             <div className="col inner">
               {cv.map((cvGroup, i) => (
-                <Accordion>
+                <Accordion key={`accordion-${i}`}>
                   <AccordionItem
                     key={`accordion-cv-${i}`}
                     id={`accordion-cv-${i}`}

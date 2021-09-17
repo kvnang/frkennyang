@@ -258,7 +258,13 @@ export default function HomePage({ data }: IndexPageProps) {
         <div className="container">
           <div className="row">
             <div className="hero-text col">
-              <img src={signature} alt="Fr. Kenny Ang" className="signature" />
+              <img
+                src={signature}
+                alt="Fr. Kenny Ang"
+                className="signature"
+                width="240"
+                height="202"
+              />
               <h1 className="h2 title">Hi, I’m Father Kenny</h1>
               <p>
                 Hi, I’m Father Kenny, a Catholic priest serving in Surabaya,

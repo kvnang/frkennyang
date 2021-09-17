@@ -1,4 +1,4 @@
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import React from 'react';
 import getYouTubeId from 'get-youtube-id';
 import styled from 'styled-components';
@@ -13,6 +13,14 @@ import {
 import { formatDate } from '../utils/helpers';
 import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
+import { PostProps } from '../types';
+
+interface Props {
+  location: Location;
+  data: {
+    post: PostProps;
+  };
+}
 
 const TitleStyles = styled.div`
   position: relative;
@@ -189,7 +197,7 @@ const PostContentStyles = styled.div`
   }
 `;
 
-export default function SinglePost({ location, data: { post } }) {
+export default function SinglePost({ location, data: { post } }: Props) {
   const url = location.href ? location.href : '';
   const categories = post.frontmatter.category;
   let featuredImage;
@@ -220,7 +228,7 @@ export default function SinglePost({ location, data: { post } }) {
     featuredImage = '';
   }
   const meta = [];
-  if (post.publishedAt) meta.push(formatDate(post.publishedAt));
+  if (post.frontmatter.date) meta.push(formatDate(post.frontmatter.date));
   if (categories?.length) meta.push(categories.join(', '));
   return (
     <SinglePostStyles className="page-p-t">
@@ -251,7 +259,7 @@ export default function SinglePost({ location, data: { post } }) {
                   </li>
                   <li>
                     <a
-                      href={`http://twitter.com/share?text=${post.title}&url=${url}`}
+                      href={`http://twitter.com/share?text=${post.frontmatter.title}&url=${url}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Share on Twitter"
@@ -286,6 +294,7 @@ export default function SinglePost({ location, data: { post } }) {
           <div className="post-img">{featuredImage}</div>
           <PostContentStyles>
             {post.html ? (
+              // eslint-disable-next-line react/no-danger
               <div dangerouslySetInnerHTML={{ __html: post.html }} />
             ) : (
               ''

@@ -1,8 +1,17 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import styled from 'styled-components';
+import { FormMessageTypes } from '../types';
 import FormSubmitButton from './FormSubmitButton';
 import { SnackbarContext } from './SnackbarContext';
+
+interface Inputs {
+  [key: string]: string | undefined;
+  'form-name': string;
+  name?: string;
+  email: string;
+  message: string;
+}
 
 const FormStyles = styled.div`
   margin-top: 3.5rem;
@@ -84,7 +93,7 @@ export default function ContactForm() {
       .join('&');
   }
 
-  const onSubmit: SubmitHandler<Inputs> = (data, e) => {
+  const onSubmit: SubmitHandler<Inputs> = (data) => {
     console.log(data);
     setLoading(true);
 
