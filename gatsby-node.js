@@ -63,7 +63,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
     if (fileName === 'index' || fileName === 'index.id') {
       const folderName = path.basename(path.dirname(node.fileAbsolutePath));
-      console.log(fileName, folderName);
       fileName = fileName.replace('index', folderName);
     }
 
@@ -71,8 +70,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       lang === 'id'
         ? `id/post/${slugify(fileName.replace(new RegExp('.id$'), ''))}`
         : `post/${slugify(fileName)}`;
-
-    console.log('Generated', generatedSlug);
 
     createNodeField({
       name: `slug`,
