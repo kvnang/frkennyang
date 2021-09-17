@@ -10,7 +10,7 @@ import {
   FaWhatsapp,
 } from 'react-icons/fa';
 // import { getGatsbyImageData } from 'gatsby-source-sanity';
-import formatDate from '../utils/formatDate';
+import { formatDate } from '../utils/helpers';
 import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
 
@@ -162,6 +162,25 @@ const PostContentStyles = styled.div`
     border-width: 1px;
   }
 
+  // Gatsby Image
+  .gatsby-resp-image-wrapper {
+    max-width: initial !important;
+
+    // Caption
+    & + em {
+      display: block;
+      max-width: 50%;
+      margin-left: auto;
+      text-align: right;
+      font-style: normal;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--grey);
+      font-size: var(--font-size-small);
+    }
+  }
+
+  // Footnote
+
   a.footnote-ref,
   a.footnote-backref {
     text-decoration: none;
@@ -171,9 +190,6 @@ const PostContentStyles = styled.div`
 `;
 
 export default function SinglePost({ location, data: { post } }) {
-  // const intl = useIntl();
-  // console.log(intl);
-
   const url = location.href ? location.href : '';
   const categories = post.frontmatter.category;
   let featuredImage;

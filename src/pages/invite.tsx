@@ -6,6 +6,7 @@ import { SubmitHandler, useForm } from 'react-hook-form';
 import { SnackbarContext } from '../components/SnackbarContext';
 import { breakpoints } from '../styles/breakpoints';
 import FormSubmitButton from '../components/FormSubmitButton';
+import countries from '../data/countries';
 // import DayPickerStyles from '../styles/DayPickerStyles';
 // import 'react-datepicker/dist/react-datepicker.css';
 // import 'react-day-picker/lib/style.css';
@@ -235,7 +236,7 @@ export default function AboutPage() {
                         <input
                           type="text"
                           id="organization"
-                          placeholder="Organization *"
+                          placeholder="Your Organization"
                           required
                           aria-invalid={!!errors.organization}
                           {...register('organization', { required: true })}
@@ -248,7 +249,7 @@ export default function AboutPage() {
                         <input
                           type="text"
                           id="name"
-                          placeholder="Contact Name *"
+                          placeholder="Full Name"
                           required
                           aria-invalid={!!errors.contactName}
                           {...register('contactName', { required: true })}
@@ -261,7 +262,7 @@ export default function AboutPage() {
                         <input
                           type="email"
                           id="email"
-                          placeholder="Email *"
+                          placeholder="email@example.com"
                           aria-invalid={!!errors.email}
                           {...register('email', { required: true })}
                         />
@@ -269,11 +270,11 @@ export default function AboutPage() {
                     </div>
                     <div className="form-field half">
                       <label htmlFor="phone">
-                        <span>Phone *</span>
+                        <span>Phone (WhatsApp) *</span>
                         <input
                           type="tel"
                           id="phone"
-                          placeholder="Phone *"
+                          placeholder="000-000-0000"
                           aria-invalid={!!errors.phone}
                           {...register('phone', { required: true })}
                         />
@@ -322,7 +323,7 @@ export default function AboutPage() {
                             <input
                               type="text"
                               id="venue"
-                              placeholder="Venue *"
+                              placeholder="Venue"
                               required
                               aria-invalid={!!errors.venue}
                               {...register('venue', {
@@ -420,18 +421,28 @@ export default function AboutPage() {
                             <span className="visually-hidden">
                               Venue Country
                             </span>
-                            <input
-                              type="text"
-                              id="venue-address-country"
-                              placeholder="Country"
-                              aria-invalid={!!errors.address?.country}
-                              {...register('address[country]', {
-                                validate: {
-                                  required: (value) =>
-                                    validateIfPhysicalEvent(value),
-                                },
-                              })}
-                            />
+                            <div className="select-wrapper">
+                              <select
+                                id="venue-address-country"
+                                aria-invalid={!!errors.address?.country}
+                                defaultValue="Indonesia"
+                                {...register('address[country]', {
+                                  validate: {
+                                    required: (value) =>
+                                      validateIfPhysicalEvent(value),
+                                  },
+                                })}
+                              >
+                                {Object.values(countries).map((country) => (
+                                  <option
+                                    value={country.name}
+                                    key={country.code}
+                                  >
+                                    {country.name}
+                                  </option>
+                                ))}
+                              </select>
+                            </div>
                           </label>
                         </div>
                         <div className="form-field half">
@@ -475,7 +486,7 @@ export default function AboutPage() {
                         <input
                           type="text"
                           id="diocese"
-                          placeholder="Diocese *"
+                          placeholder="Diocese"
                           required
                           aria-invalid={!!errors.diocese}
                           {...register('diocese', { required: true })}
@@ -498,24 +509,29 @@ export default function AboutPage() {
                     <div className="form-field half">
                       <label htmlFor="event-type">
                         <span>Event Type *</span>
-                        <select
-                          id="event-type"
-                          required
-                          aria-invalid={!!errors.eventType}
-                          {...register('eventType', { required: true })}
-                        >
-                          <option value="">Select Event Type</option>
-                          <option value="talk">Talk</option>
-                          <option value="multi-speaker">Multi-Speaker</option>
-                          <option value="international">International</option>
-                          <option value="small-scale">Small Scale</option>
-                          <option value="virtual">
-                            Virtual Talk / Presentation
-                          </option>
-                          <option value="fundraising">Fundraising</option>
-                          <option value="private">Private</option>
-                          <option value="other">Other</option>
-                        </select>
+                        <div className="select-wrapper">
+                          <select
+                            id="event-type"
+                            required
+                            aria-invalid={!!errors.eventType}
+                            defaultValue=""
+                            {...register('eventType', { required: true })}
+                          >
+                            <option value="" disabled>
+                              Select Event Type
+                            </option>
+                            <option value="talk">Talk</option>
+                            <option value="multi-speaker">Multi-Speaker</option>
+                            <option value="international">International</option>
+                            <option value="small-scale">Small Scale</option>
+                            <option value="virtual">
+                              Virtual Talk / Presentation
+                            </option>
+                            <option value="fundraising">Fundraising</option>
+                            <option value="private">Private</option>
+                            <option value="other">Other</option>
+                          </select>
+                        </div>
                       </label>
                     </div>
                     <div className="form-field">

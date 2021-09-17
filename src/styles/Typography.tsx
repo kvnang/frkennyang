@@ -58,12 +58,21 @@ const Typography = styled.createGlobalStyle`
 
   h1,
   .h1 {
-    font-size: 3.052rem;
+    font-size: 2.488rem;
+
+    @media ${breakpoints.tablet} {
+      font-size: 3.052rem;
+    }
   }
 
   h2,
   .h2 {
-    font-size: 2.441rem;
+    font-size: 2.074rem;
+
+    @media ${breakpoints.tablet} {
+      font-size: 2.441rem;
+    }
+
     &:not(:first-child) {
       margin-top: 2.5rem;
     }
@@ -74,7 +83,12 @@ const Typography = styled.createGlobalStyle`
 
   h3,
   .h3 {
-    font-size: 1.953rem;
+    font-size: 1.728rem;
+
+    @media ${breakpoints.tablet} {
+      font-size: 1.953rem;
+    }
+
     &:not(:first-child) {
       margin-top: 2.5rem;
     }
@@ -85,7 +99,11 @@ const Typography = styled.createGlobalStyle`
 
   h4,
   .h4 {
-    font-size: 1.563rem;
+    font-size: 1.44rem;
+
+    @media ${breakpoints.tablet} {
+      font-size: 1.563rem;
+    }
   }
 
   h5,
@@ -104,7 +122,7 @@ const Typography = styled.createGlobalStyle`
   h6,
   .h6 {
     font-family: var(--font-primary);
-    font-size: 0.8rem;
+    font-size: var(--font-size-small);
     line-height: 1.5;
 
     &:not(:last-child) {
@@ -123,8 +141,34 @@ const Typography = styled.createGlobalStyle`
   }
 
   blockquote {
-    padding-left: 1.5rem;
-    border-left: 2px solid var(--grey);
+    padding-left: 1rem;
+    position: relative;
+
+    @media ${breakpoints.tablet} {
+      padding-left: 1.5rem;
+    }
+
+    > p {
+      /* font-size: 1.25rem; */
+    }
+
+    &::before {
+      content: '“';
+      font-family: var(--font-secondary);
+      font-size: 5rem;
+      font-weight: 600;
+      position: absolute;
+      top: 0;
+      left: 0;
+      line-height: 1;
+      color: var(--color-accent);
+      transform: translate(-66%, -25%);
+      opacity: 0.5;
+
+      @media ${breakpoints.tablet} {
+        font-size: 6.25rem;
+      }
+    }
 
     &:not(:last-child) {
       margin-bottom: 1.5rem;
@@ -147,7 +191,7 @@ const Typography = styled.createGlobalStyle`
 
   small,
   .small {
-    font-size: 0.8rem;
+    font-size: var(--font-size-small);
   }
 
   .bg-light {

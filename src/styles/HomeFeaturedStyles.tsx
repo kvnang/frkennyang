@@ -2,9 +2,6 @@ import styled from 'styled-components';
 import { breakpoints } from './breakpoints';
 
 export const HomeFeaturedStyles = styled.div`
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
-
   .title {
     --width-xs: 12;
     --width-md: 10;

@@ -2,20 +2,20 @@ import { graphql, Link, PageProps } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
 import { StaticImage, IGatsbyImageData } from 'gatsby-plugin-image';
-import Slider from 'react-slick';
-import {
-  MdFormatAlignLeft,
-  MdInsertDriveFile,
-  MdPlayArrow,
-} from 'react-icons/md';
+// import Slider from 'react-slick';
+// import {
+//   MdFormatAlignLeft,
+//   MdInsertDriveFile,
+//   MdPlayArrow,
+// } from 'react-icons/md';
 import { Helmet } from 'react-helmet';
 import { breakpoints } from '../styles/breakpoints';
 import signature from '../assets/images/frk-signature.svg';
 import Social from '../components/Social';
-import formatDate from '../utils/formatDate';
-import toPlainText from '../utils/sanityBlockToPlainText';
+// import { formatDate } from '../utils/helpers';
+// import toPlainText from '../utils/sanityBlockToPlainText';
 import HomeFeaturedMd from '../components/HomeFeaturedMd';
-import HomeFeatured from '../components/HomeFeatured';
+// import HomeFeatured from '../components/HomeFeatured';
 import ContactForm from '../components/ContactForm';
 import SEO from '../components/Seo';
 
@@ -121,6 +121,8 @@ const HeroStyles = styled.div`
   }
 
   .title {
+    margin-top: 0;
+
     @media ${breakpoints.tablet} {
       display: none;
     }
@@ -191,8 +193,7 @@ const ContactStyles = styled.div`
     --width-md: 10;
     --offset-md: 1;
     background-color: var(--black);
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
+
     position: relative;
   }
 
@@ -290,7 +291,7 @@ export default function HomePage({ data }: IndexPageProps) {
       <ContactStyles>
         <div className="container">
           <div className="row">
-            <div className="col inner">
+            <div className="col inner section-p-t section-p-b">
               <div className="contact-img">
                 <StaticImage src="../assets/images/frk-contact.jpg" alt="" />
               </div>

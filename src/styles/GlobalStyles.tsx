@@ -26,7 +26,7 @@ const GlobalStyles = styled.createGlobalStyle`
     --font-secondary: 'Playfair Display', -apple-system, BlinkMacSystemFont,
       'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
       'Helvetica Neue', sans-serif;
-
+    --font-size-small: 0.833rem;
     /* Grid proportions */
     --gutter: 14px;
 
@@ -34,15 +34,21 @@ const GlobalStyles = styled.createGlobalStyle`
     --container-width: 90vw;
 
     @media ${breakpoints.tablet} {
-      --section-padding: 4rem;
-      --section-padding-sm: 2rem;
+      --section-padding: 3rem;
+      --section-padding-sm: 1.5rem;
+      --font-size-small: 0.8rem;
     }
 
     @media ${breakpoints.laptop} {
-      --section-padding: 5rem;
-      --section-padding-sm: 2.5rem;
+      --section-padding: 3rem;
+      --section-padding-sm: 1.5rem;
       --gutter: 20px;
       --container-width: 95vw;
+    }
+
+    @media ${breakpoints.laptopL} {
+      --section-padding: 5rem;
+      --section-padding-sm: 2.5rem;
     }
 
     @media ${breakpoints.desktop} {
@@ -172,8 +178,7 @@ const GlobalStyles = styled.createGlobalStyle`
     line-height: 1.5;
 
     &::placeholder {
-      opacity: 0.6;
-      color: var(--color-p);
+      color: var(--grey);
       transition: var(--transition);
     }
 
@@ -181,7 +186,7 @@ const GlobalStyles = styled.createGlobalStyle`
       /* border-color: var(--color-p); */
       box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
       &::placeholder {
-        opacity: 0.3;
+        opacity: 0.75;
       }
     }
 
@@ -208,6 +213,34 @@ const GlobalStyles = styled.createGlobalStyle`
    filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
 } */
 
+  .select-wrapper {
+    position: relative;
+
+    &::after {
+      content: '';
+      pointer-events: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='%23fff' d='M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z'/%3E%3C/svg%3E");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 1.5rem;
+      width: 1.5rem;
+      position: absolute;
+      top: 50%;
+      right: 0.5rem;
+      transform: translateY(-50%);
+    }
+
+    select {
+      appearance: none;
+      cursor: pointer;
+    }
+  }
+
+  select:invalid {
+    color: var(--grey);
+  }
+
   textarea {
     resize: vertical;
     height: 9rem;
@@ -221,6 +254,10 @@ const GlobalStyles = styled.createGlobalStyle`
       input[type='radio'] + span::before {
         background-color: var(--color-error);
       }
+    }
+
+    legend {
+      line-height: 1.5;
     }
   }
 

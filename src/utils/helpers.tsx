@@ -16,3 +16,16 @@ export function untrailingSlashIt(str: string) {
 export function trailingSlashIt(str: string) {
   return `${untrailingSlashIt(str)}/`;
 }
+
+export function formatDate(
+  date: string,
+  ignoreSameYear: boolean = true,
+  locale: string = 'en-US'
+) {
+  const dateObject = new Date(date);
+  const options =
+    ignoreSameYear && new Date().getFullYear() === dateObject.getFullYear()
+      ? ({ month: 'short', day: 'numeric' } as const)
+      : ({ year: 'numeric', month: 'short', day: 'numeric' } as const);
+  return dateObject.toLocaleDateString(locale, options);
+}

@@ -88,7 +88,7 @@ export default function HomeFeaturedMd() {
   };
 
   return (
-    <HomeFeaturedStyles className="bg-light">
+    <HomeFeaturedStyles className="bg-light section-p-t section-p-b">
       <div className="container">
         <div className="row">
           <div className="title col">
