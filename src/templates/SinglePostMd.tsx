@@ -1,7 +1,6 @@
 import { graphql, Link } from 'gatsby';
 import React from 'react';
 import getYouTubeId from 'get-youtube-id';
-import YouTube from 'react-youtube';
 import styled from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import {
@@ -180,10 +179,19 @@ export default function SinglePost({ location, data: { post } }) {
   let featuredImage;
   if (post.frontmatter.youtube) {
     featuredImage = (
-      <YouTube
-        videoId={getYouTubeId(post.frontmatter.youtube)}
-        containerClassName="youtube-iframe-wrapper"
-      />
+      <div className="youtube-iframe-wrapper">
+        <iframe
+          frameBorder="0"
+          allowFullScreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          title="YouTube video player"
+          width="640"
+          height="360"
+          src={`https://www.youtube-nocookie.com/embed/${getYouTubeId(
+            post.frontmatter.youtube
+          )}`}
+        />
+      </div>
     );
   } else if (post.frontmatter.featuredImage) {
     featuredImage = (

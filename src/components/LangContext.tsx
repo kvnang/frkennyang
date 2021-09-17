@@ -6,17 +6,17 @@ interface LangContextProps {
 }
 
 export const LangContext = createContext<LangContextProps>({
-  lang: undefined,
+  lang: 'en',
   setLang: () => {},
 });
 
 export function LangProvider({ children }: any) {
-  const [lang, rawSetLang] = useState<string | undefined>(undefined);
+  const [lang, rawSetLang] = useState<string>('en');
 
   useEffect(() => {
     const initialLang: string | undefined =
       document.documentElement.dataset.lang;
-    rawSetLang(initialLang);
+    rawSetLang(initialLang || 'en');
   }, []);
 
   function setLang(newLang: string) {
