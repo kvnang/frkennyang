@@ -1,6 +1,6 @@
-import path, { resolve } from 'path';
-import fetch from 'isomorphic-fetch';
-import { createFilePath } from 'gatsby-source-filesystem';
+const path = require('path');
+// const fetch = require('isomorphic-fetch');
+// const { createFilePath } = require('gatsby-source-filesystem');
 
 function slugify(text) {
   return text
@@ -52,13 +52,6 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
   });
 }
 
-export async function createPages(params) {
-  // Create pages dynamically
-  // Wait for all promises to be resolved before finishing this function
-  // await Promise.all([turnPostsIntoPages(params)]);
-  await Promise.all([turnMdPostsIntoPages(params)]);
-}
-
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
@@ -94,4 +87,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: getNode(node.parent).sourceInstanceName,
     });
   }
+};
+
+exports.createPages = async (params) => {
+  // Create pages dynamically
+  // Wait for all promises to be resolved before finishing this function
+  // await Promise.all([turnPostsIntoPages(params)]);
+  await Promise.all([turnMdPostsIntoPages(params)]);
 };
