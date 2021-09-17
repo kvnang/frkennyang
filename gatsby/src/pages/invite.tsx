@@ -166,6 +166,7 @@ export default function AboutPage() {
                 <form
                   onSubmit={handleSubmit(onSubmit)}
                   method="POST"
+                  name="invite"
                   data-netlify="true"
                 >
                   <input

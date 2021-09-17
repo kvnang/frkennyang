@@ -70,7 +70,8 @@ const MenuStyles = styled.nav`
   }
 
   .page-cv & {
-    a {
+    a,
+    a:hover {
       color: var(--black);
     }
   }
