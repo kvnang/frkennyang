@@ -1,6 +1,21 @@
 import * as styled from 'styled-components';
 import { breakpoints } from './breakpoints';
 
+export const titleLine = () => styled.css`
+  position: relative;
+
+  &::before {
+    content: '';
+    width: calc(100% - 1rem);
+    height: 1px;
+    background: var(--grey);
+    position: absolute;
+    left: -100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+`;
+
 const Typography = styled.createGlobalStyle`
   html {
     font-family: var(--font-primary);
@@ -63,37 +78,39 @@ const Typography = styled.createGlobalStyle`
     @media ${breakpoints.tablet} {
       font-size: 3.052rem;
     }
+
+    &:not(:first-child) {
+      margin-top: 1em;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 0.75em;
+    }
   }
 
   h2,
   .h2 {
-    font-size: 2.074rem;
-
-    @media ${breakpoints.tablet} {
-      font-size: 2.441rem;
-    }
+    font-size: var(--font-size-h2);
 
     &:not(:first-child) {
-      margin-top: 2.5rem;
+      margin-top: 1em;
     }
+
     &:not(:last-child) {
-      margin-bottom: 1.5rem;
+      margin-bottom: 0.75em;
     }
   }
 
   h3,
   .h3 {
-    font-size: 1.728rem;
-
-    @media ${breakpoints.tablet} {
-      font-size: 1.953rem;
-    }
+    font-size: var(--font-size-h3);
 
     &:not(:first-child) {
-      margin-top: 2.5rem;
+      margin-top: 1em;
     }
+
     &:not(:last-child) {
-      margin-bottom: 1.5rem;
+      margin-bottom: 0.75em;
     }
   }
 
@@ -148,15 +165,11 @@ const Typography = styled.createGlobalStyle`
       padding-left: 1.5rem;
     }
 
-    > p {
-      /* font-size: 1.25rem; */
-    }
-
     &::before {
       content: '“';
       font-family: var(--font-secondary);
       font-size: 5rem;
-      font-weight: 600;
+      font-weight: 700;
       position: absolute;
       top: 0;
       left: 0;
@@ -176,17 +189,7 @@ const Typography = styled.createGlobalStyle`
   }
 
   .title-line {
-    position: relative;
-    &::before {
-      content: '';
-      width: calc(100% - 1rem);
-      height: 1px;
-      background: var(--grey);
-      position: absolute;
-      left: -100%;
-      top: 50%;
-      transform: translateY(-50%);
-    }
+    ${titleLine()}
   }
 
   small,

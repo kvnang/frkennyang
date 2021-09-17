@@ -1,6 +1,6 @@
 const path = require('path');
+const { createFilePath } = require('gatsby-source-filesystem');
 // const fetch = require('isomorphic-fetch');
-// const { createFilePath } = require('gatsby-source-filesystem');
 
 function slugify(text) {
   return text
@@ -58,32 +58,42 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     // if my posts have a slug in the frontmatter, it means I've specified what I want it to be. Otherwise I want to create one automatically
     // This is where we add our own custom fields to each node
     // const generatedSlug = createFilePath({ node, getNode });
-    let fileName = path.basename(node.fileAbsolutePath, '.md');
-    const lang = fileName.endsWith('.id') ? 'id' : 'en';
 
-    if (fileName === 'index' || fileName === 'index.id') {
-      const folderName = path.basename(path.dirname(node.fileAbsolutePath));
-      fileName = fileName.replace('index', folderName);
+    if (getNode(node.parent).sourceInstanceName === 'post') {
+      let fileName = path.basename(node.fileAbsolutePath, '.md');
+      const lang = fileName.endsWith('.id') ? 'id' : 'en';
+
+      if (fileName === 'index' || fileName === 'index.id') {
+        const folderName = path.basename(path.dirname(node.fileAbsolutePath));
+        fileName = fileName.replace('index', folderName);
+      }
+
+      const generatedSlug =
+        lang === 'id'
+          ? `id/post/${slugify(fileName.replace(new RegExp('.id$'), ''))}`
+          : `post/${slugify(fileName)}`;
+
+      createNodeField({
+        name: `slug`,
+        node,
+        value: node.frontmatter.slug
+          ? `/post/${node.frontmatter.slug}/`
+          : `/${generatedSlug}/`,
+      });
+
+      createNodeField({
+        name: `lang`,
+        node,
+        value: lang,
+      });
+    } else {
+      const slug = createFilePath({ node, getNode });
+      createNodeField({
+        name: `slug`,
+        node,
+        value: slug,
+      });
     }
-
-    const generatedSlug =
-      lang === 'id'
-        ? `id/post/${slugify(fileName.replace(new RegExp('.id$'), ''))}`
-        : `post/${slugify(fileName)}`;
-
-    createNodeField({
-      name: `slug`,
-      node,
-      value: node.frontmatter.slug
-        ? `/post/${node.frontmatter.slug}/`
-        : `/${generatedSlug}/`,
-    });
-
-    createNodeField({
-      name: `lang`,
-      node,
-      value: lang,
-    });
 
     // Add it to a collection
     createNodeField({

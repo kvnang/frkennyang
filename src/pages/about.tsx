@@ -1,6 +1,29 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
+import { graphql } from 'gatsby';
+import { titleLine } from '../styles/Typography';
+
+interface MarkdownProps {
+  html: string;
+}
+interface Props {
+  data: {
+    allMarkdownRemark: {
+      nodes: Array<MarkdownProps>;
+    };
+  };
+}
+
+const AboutStyles = styled.main`
+  h1 {
+    font-size: var(--font-size-h2);
+  }
+  h2 {
+    font-size: var(--font-size-h3);
+    ${titleLine()}
+  }
+`;
 
 const IntroStyles = styled.section`
   padding-top: var(--section-padding-sm);
@@ -56,9 +79,19 @@ const BodyStyles = styled.section`
   }
 `;
 
-export default function AboutPage() {
+export default function AboutPage({ data }: Props) {
+  if (!data.allMarkdownRemark.nodes.length) {
+    return;
+  }
+
+  const { html } = data.allMarkdownRemark.nodes[0];
+  const splitHTML = html.split('<hr>');
+  const introHTML = splitHTML[0];
+  splitHTML.shift(); // Remove intro / first element of the array
+  const bodyHTML = splitHTML.join('');
+
   return (
-    <>
+    <AboutStyles>
       <IntroStyles>
         <div className="container">
           <div className="row">
@@ -68,30 +101,10 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="text col">
-              <h1 className="h2">About Fr. Kenny</h1>
-              <p>
-                Neque rerum consequatur qui laboriosam culpa ipsam. Quia
-                voluptatem modi dolor. In id vero veniam fuga exercitationem et
-                unde architecto. Ad et quis qui veritatis libero.
-              </p>
-              <p>
-                Excepturi temporibus incidunt aut qui non. Iusto doloremque
-                quidem labore vel rerum. Facere aut nam voluptas nulla magnam
-                illo laboriosam praesentium. Atque voluptatem et sit non
-                architecto sunt.
-              </p>
-              <p>
-                Quia sit dolorem eos nisi modi quia. Nisi in est sunt est
-                aliquam voluptas. In porro voluptates sint repellat quaerat
-                sequi sit. Aspernatur nisi voluptates tenetur unde consequatur
-                et. Culpa facere illum ut.
-              </p>
-              <p>
-                Ut ipsa ducimus harum aut sed est et. Tempore possimus placeat
-                officiis eum illo. Itaque optio maiores eaque quia ea
-                accusantium eaque. Qui neque vel qui. Magni sed culpa non est
-                doloribus et earum amet.
-              </p>
+              <div
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{ __html: introHTML }}
+              />
             </div>
           </div>
         </div>
@@ -100,34 +113,29 @@ export default function AboutPage() {
         <div className="container">
           <div className="row">
             <div className="col inner">
-              <h2 className="h3 title-line">Subtitle 123</h2>
-              <p>
-                Neque rerum consequatur qui laboriosam culpa ipsam. Quia
-                voluptatem modi dolor. In id vero veniam fuga exercitationem et
-                unde architecto. Ad et quis qui veritatis libero.
-              </p>
-              <p>
-                Excepturi temporibus incidunt aut qui non. Iusto doloremque
-                quidem labore vel rerum. Facere aut nam voluptas nulla magnam
-                illo laboriosam praesentium. Atque voluptatem et sit non
-                architecto sunt.
-              </p>
-              <h2 className="h3 title-line">Subtitle 123</h2>
-              <p>
-                Neque rerum consequatur qui laboriosam culpa ipsam. Quia
-                voluptatem modi dolor. In id vero veniam fuga exercitationem et
-                unde architecto. Ad et quis qui veritatis libero.
-              </p>
-              <p>
-                Excepturi temporibus incidunt aut qui non. Iusto doloremque
-                quidem labore vel rerum. Facere aut nam voluptas nulla magnam
-                illo laboriosam praesentium. Atque voluptatem et sit non
-                architecto sunt.
-              </p>
+              <div
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{ __html: bodyHTML }}
+              />
             </div>
           </div>
         </div>
       </BodyStyles>
-    </>
+    </AboutStyles>
   );
 }
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(
+      filter: {
+        fields: { collection: { eq: "data" }, slug: { eq: "/about/" } }
+      }
+      limit: 1
+    ) {
+      nodes {
+        html
+      }
+    }
+  }
+`;

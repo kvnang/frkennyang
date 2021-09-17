@@ -27,6 +27,8 @@ const GlobalStyles = styled.createGlobalStyle`
       'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
       'Helvetica Neue', sans-serif;
     --font-size-small: 0.833rem;
+    --font-size-h2: 2.074rem;
+    --font-size-h3: 1.728rem;
     /* Grid proportions */
     --gutter: 14px;
 
@@ -37,6 +39,8 @@ const GlobalStyles = styled.createGlobalStyle`
       --section-padding: 3rem;
       --section-padding-sm: 1.5rem;
       --font-size-small: 0.8rem;
+      --font-size-h2: 2.441rem;
+      --font-size-h3: 1.953rem;
     }
 
     @media ${breakpoints.laptop} {
@@ -197,6 +201,8 @@ const GlobalStyles = styled.createGlobalStyle`
 
   input[type='date'],
   input[type='time'] {
+    appearance: none;
+
     &::-webkit-calendar-picker-indicator {
       /* opacity: 0; */
       filter: invert(0.75);
