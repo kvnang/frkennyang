@@ -199,19 +199,6 @@ export default function InvitePage() {
   const yyyy = today.getFullYear();
   const todayDate = `${yyyy}-${mm}-${dd}`;
 
-  // Thank You Message
-  if (formMessage.open && formMessage.status === 'success') {
-    return (
-      <>
-        <h2 className="h3">Thank You!</h2>
-        <p>
-          Your invitation has been sent. I will get back to you as soon as
-          possible.
-        </p>
-      </>
-    );
-  }
-
   return (
     <>
       <BodyStyles>
@@ -300,7 +287,7 @@ export default function InvitePage() {
                         <h2 className="h3">Contact Information</h2>
                       </div>
                       <div className="form-field half">
-                        <label htmlFor="name">
+                        <label htmlFor="organization">
                           <span>Organization *</span>
                           <input
                             type="text"
