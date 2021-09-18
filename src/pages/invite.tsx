@@ -6,7 +6,7 @@ import { SubmitHandler, useForm } from 'react-hook-form';
 import { SnackbarContext } from '../components/SnackbarContext';
 import { breakpoints } from '../styles/breakpoints';
 import FormSubmitButton from '../components/FormSubmitButton';
-import countries from '../data/countries';
+import countries from '../utils/countries';
 import { FormMessageTypes } from '../types';
 import SEO from '../components/Seo';
 // import DayPickerStyles from '../styles/DayPickerStyles';

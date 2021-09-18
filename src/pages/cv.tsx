@@ -2,6 +2,7 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
+import { graphql } from 'gatsby';
 import {
   Accordion,
   AccordionItem,
@@ -9,14 +10,44 @@ import {
   AccordionItemHead,
 } from '../components/Accordions';
 import { breakpoints } from '../styles/breakpoints';
-import cv from '../data/cv';
 import SEO from '../components/Seo';
 
-interface CvItemProps {
-  title?: string;
-  subtitle?: string;
-  meta?: string;
-  description?: string;
+interface CvArrayProps {
+  title: string;
+  items: Array<{
+    title?: string;
+    subtitle?: string;
+    meta?: string;
+    description?: string;
+  }>;
+}
+
+interface MdElementProps {
+  children?: Array<MdElementProps>;
+  properties?: any;
+  tagName?: string;
+  value?: string;
+  type: string;
+}
+interface Props {
+  data: {
+    cv: {
+      nodes: Array<{
+        html: string;
+      }>;
+    };
+    cvList: {
+      nodes: Array<{
+        htmlAst: {
+          children: Array<MdElementProps>;
+          data: {
+            quirksMode: boolean;
+          };
+          type: string;
+        };
+      }>;
+    };
+  };
 }
 
 const IntroStyles = styled.section`
@@ -95,6 +126,15 @@ const IntroStyles = styled.section`
       }
     }
   }
+
+  h1 {
+    font-size: var(--font-size-h2);
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
 `;
 
 const BodyStyles = styled.section`
@@ -102,20 +142,14 @@ const BodyStyles = styled.section`
 
   .inner {
     --width-xs: 12;
-    --width-md: 6;
-    --offset-md: 3;
+    --width-md: 8;
+    --offset-md: 2;
+    --width-lg: 6;
+    --offset-lg: 3;
   }
 
   .section-title {
     position: relative;
-  }
-`;
-
-const BioDataStyles = styled.ul`
-  list-style: none;
-  padding-left: 0;
-
-  li {
   }
 `;
 
@@ -149,7 +183,65 @@ const CvUListStyles = styled.ul`
   }
 `;
 
-export default function CvPage() {
+export default function CvPage({ data }: Props) {
+  if (!data.cv.nodes.length) {
+    return;
+  }
+
+  const { html } = data.cv.nodes[0];
+  const introHTML = html;
+
+  // CV List
+  const { htmlAst } = data.cvList.nodes[0];
+  const cvArray: Array<CvArrayProps> = [];
+
+  console.log(htmlAst);
+
+  let i = 0;
+  htmlAst.children.forEach((firstLevel) => {
+    if (firstLevel.tagName === 'h2' && firstLevel.children?.length) {
+      cvArray.push({
+        title: firstLevel.children[0].value || '',
+        items: [],
+      });
+    }
+
+    if (firstLevel.tagName === 'ul') {
+      firstLevel.children?.forEach((secondLevel) => {
+        if (secondLevel.tagName === 'li') {
+          let title;
+          let subtitle;
+          let meta;
+          let description;
+
+          secondLevel.children?.forEach((thirdLevel) => {
+            if (thirdLevel.tagName === 'h3' && thirdLevel.children?.length) {
+              title = thirdLevel.children[0].value || '';
+            }
+            if (thirdLevel.tagName === 'h4' && thirdLevel.children?.length) {
+              subtitle = thirdLevel.children[0].value || '';
+            }
+            if (thirdLevel.tagName === 'h5' && thirdLevel.children?.length) {
+              meta = thirdLevel.children[0].value || '';
+            }
+            if (thirdLevel.tagName === 'p' && thirdLevel.children?.length) {
+              description = thirdLevel.children[0].value || '';
+            }
+          });
+          const obj = {
+            title,
+            subtitle,
+            meta,
+            description,
+          };
+
+          cvArray[i].items.push(obj);
+        }
+      });
+      i += 1;
+    }
+  });
+
   return (
     <main>
       <SEO title="Curriculum Vitae" />
@@ -163,38 +255,10 @@ export default function CvPage() {
               </div>
             </div>
             <div className="text col">
-              <h1 className="h2">Curriculum Vitae</h1>
-              <p>
-                Neque rerum consequatur qui laboriosam culpa ipsam. Quia
-                voluptatem modi dolor. In id vero veniam fuga exercitationem et
-                unde architecto. Ad et quis qui veritatis libero.
-              </p>
-              <p>
-                Excepturi temporibus incidunt aut qui non. Iusto doloremque
-                quidem labore vel rerum. Facere aut nam voluptas nulla magnam
-                illo laboriosam praesentium. Atque voluptatem et sit non
-                architecto sunt.
-              </p>
-              <p>
-                Quia sit dolorem eos nisi modi quia. Nisi in est sunt est
-                aliquam voluptas. In porro voluptates sint repellat quaerat
-                sequi sit. Aspernatur nisi voluptates tenetur unde consequatur
-                et. Culpa facere illum ut.
-              </p>
-              <BioDataStyles>
-                <li>
-                  <strong>Nationality</strong> / Indonesian
-                </li>
-                <li>
-                  <strong>Birth</strong> / Jakarta, 16 January 1992
-                </li>
-                <li>
-                  <strong>Priestly Ordination</strong> / Surabaya, 14 May 2019
-                </li>
-                <li>
-                  <strong>Incardination</strong> / Diocese of Surabaya
-                </li>
-              </BioDataStyles>
+              <div
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{ __html: introHTML }}
+              />
             </div>
           </div>
         </div>
@@ -203,19 +267,19 @@ export default function CvPage() {
         <div className="container">
           <div className="row">
             <div className="col inner">
-              {cv.map((cvGroup, i) => (
-                <Accordion key={`accordion-${i}`}>
+              {cvArray.map((cvGroup, j) => (
+                <Accordion key={`accordion-${j}`}>
                   <AccordionItem
-                    key={`accordion-cv-${i}`}
-                    id={`accordion-cv-${i}`}
+                    key={`accordion-cv-${j}`}
+                    id={`accordion-cv-${j}`}
                   >
                     <AccordionItemHead>
-                      <h3>{cvGroup.title}</h3>
+                      <h4>{cvGroup.title}</h4>
                     </AccordionItemHead>
                     <AccordionItemBody>
                       <CvUListStyles>
-                        {cvGroup.items.map((cvItem: CvItemProps, j) => (
-                          <li key={`accordion-cv-li-${j}`}>
+                        {cvGroup.items.map((cvItem, k) => (
+                          <li key={`accordion-cv-li-${k}`}>
                             {(cvItem.title || cvItem.subtitle) && (
                               <h5>
                                 {cvItem.title}
@@ -245,3 +309,26 @@ export default function CvPage() {
     </main>
   );
 }
+
+export const query = graphql`
+  query {
+    cv: allMarkdownRemark(
+      filter: { fields: { collection: { eq: "data" }, slug: { eq: "/cv/" } } }
+      limit: 1
+    ) {
+      nodes {
+        html
+      }
+    }
+    cvList: allMarkdownRemark(
+      filter: {
+        fields: { collection: { eq: "data" }, slug: { eq: "/cvList/" } }
+      }
+      limit: 1
+    ) {
+      nodes {
+        htmlAst
+      }
+    }
+  }
+`;
