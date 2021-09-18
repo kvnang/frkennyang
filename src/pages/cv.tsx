@@ -10,6 +10,14 @@ import {
 } from '../components/Accordions';
 import { breakpoints } from '../styles/breakpoints';
 import cv from '../data/cv';
+import SEO from '../components/Seo';
+
+interface CvItemProps {
+  title?: string;
+  subtitle?: string;
+  meta?: string;
+  description?: string;
+}
 
 const IntroStyles = styled.section`
   padding-top: var(--section-padding-sm);
@@ -141,9 +149,10 @@ const CvUListStyles = styled.ul`
   }
 `;
 
-export default function AboutPage() {
+export default function CvPage() {
   return (
     <main>
+      <SEO title="Curriculum Vitae" />
       <Helmet bodyAttributes={{ class: 'page-cv' }} />
       <IntroStyles>
         <div className="container">
@@ -205,7 +214,7 @@ export default function AboutPage() {
                     </AccordionItemHead>
                     <AccordionItemBody>
                       <CvUListStyles>
-                        {cvGroup.items.map((cvItem, j) => (
+                        {cvGroup.items.map((cvItem: CvItemProps, j) => (
                           <li key={`accordion-cv-li-${j}`}>
                             {(cvItem.title || cvItem.subtitle) && (
                               <h5>

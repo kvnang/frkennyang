@@ -8,6 +8,7 @@ import { breakpoints } from '../styles/breakpoints';
 import FormSubmitButton from '../components/FormSubmitButton';
 import countries from '../data/countries';
 import { FormMessageTypes } from '../types';
+import SEO from '../components/Seo';
 // import DayPickerStyles from '../styles/DayPickerStyles';
 // import 'react-datepicker/dist/react-datepicker.css';
 // import 'react-day-picker/lib/style.css';
@@ -60,7 +61,7 @@ const defaultValues = {
     street2: '',
     state: '',
     zip: '',
-    country: '',
+    country: 'Indonesia',
     airport: '',
   },
   attendance: '',
@@ -201,6 +202,7 @@ export default function InvitePage() {
 
   return (
     <>
+      <SEO title="Invite Fr. Kenny to Speak" />
       <BodyStyles>
         <section className="container page-p-t section-p-b">
           <div className="row">
@@ -209,13 +211,13 @@ export default function InvitePage() {
               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
               <FormStyles>
                 {(formMessage.open && formMessage.status === 'success' && (
-                  <>
+                  <div>
                     <h2 className="h3">Thank You!</h2>
                     <p>
                       Your invitation has been sent. I will get back to you as
                       soon as possible.
                     </p>
-                  </>
+                  </div>
                 )) || (
                   <form
                     onSubmit={handleSubmit(onSubmit)}
@@ -489,7 +491,6 @@ export default function InvitePage() {
                                 <select
                                   // id="venue-address-country"
                                   aria-invalid={!!errors.address?.country}
-                                  defaultValue="Indonesia"
                                   {...register('address.country', {
                                     validate: {
                                       required: (value) =>
@@ -580,7 +581,6 @@ export default function InvitePage() {
                               // id="event-type"
                               required
                               aria-invalid={!!errors.eventType}
-                              defaultValue=""
                               {...register('eventType', { required: true })}
                             >
                               <option value="" disabled>

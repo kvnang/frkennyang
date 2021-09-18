@@ -1,51 +1,33 @@
-import * as React from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
+import styled from 'styled-components';
 
-// styles
-const pageStyles = {
-  color: '#232129',
-  padding: '96px',
-  fontFamily: '-apple-system, Roboto, sans-serif, serif',
-};
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-};
+const ColStyles = styled.div`
+  --width-xs: 12;
+  --offset-xs: 0;
+  --width-sm: 10;
+  --width-md: 8;
+  --offset-md: 1;
+  --width-lg: 6;
+`;
 
-const paragraphStyles = {
-  marginBottom: 48,
-};
-const codeStyles = {
-  color: '#8A6534',
-  padding: 4,
-  backgroundColor: '#FFF4DB',
-  fontSize: '1.25rem',
-  borderRadius: 4,
-};
-
-// markup
 const NotFoundPage = () => (
-  <main style={pageStyles}>
-    <title>Not found</title>
-    <h1 style={headingStyles}>Page not found</h1>
-    <p style={paragraphStyles}>
-      Sorry{' '}
-      <span role="img" aria-label="Pensive emoji">
-        😔
-      </span>{' '}
-      we couldn’t find what you were looking for.
-      <br />
-      {process.env.NODE_ENV === 'development' ? (
-        <>
-          <br />
-          Try creating a page in <code style={codeStyles}>src/pages/</code>.
-          <br />
-        </>
-      ) : null}
-      <br />
-      <Link to="/">Go home</Link>.
-    </p>
+  <main>
+    <section className="container not-found page-p-t section-p-b">
+      <div className="row">
+        <ColStyles className="col">
+          <h1 className="h2">404 Page Not Found</h1>
+          <p>
+            The page you are looking for does not exist. It may have been moved,
+            or removed altogether. Perhaps you can return back to the site’s
+            homepage and see if you can find what you are looking for.
+          </p>
+          <Link to="/" className="button">
+            Back to Home
+          </Link>
+        </ColStyles>
+      </div>
+    </section>
   </main>
 );
 

@@ -3,6 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { graphql } from 'gatsby';
 import { titleLine } from '../styles/Typography';
+import SEO from '../components/Seo';
 
 interface MarkdownProps {
   html: string;
@@ -92,6 +93,7 @@ export default function AboutPage({ data }: Props) {
 
   return (
     <AboutStyles>
+      <SEO title="About" />
       <IntroStyles>
         <div className="container">
           <div className="row">
