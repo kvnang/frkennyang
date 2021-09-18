@@ -94,8 +94,9 @@ module.exports = {
         // Tip: use Search API key with GATSBY_ prefix to access the service from within components
         apiKey: process.env.ALGOLIA_API_KEY,
         indexName: process.env.ALGOLIA_INDEX_NAME, // for all queries
-        queries: {
-          query: `
+        queries: [
+          {
+            query: `
             posts: allMarkdownRemark(filter: { fields: { collection: { eq: "post" } } }) {
               nodes {
                 id
@@ -114,14 +115,15 @@ module.exports = {
               }
             }
           `,
-          transformer: ({ data }) => data.posts.nodes, // optional
-          // indexName: 'Posts', // overrides main index name, optional
-          settings: {
-            // optional, any index settings
-            // Note: by supplying settings, you will overwrite all existing settings on the index
+            transformer: ({ data }) => data.posts.nodes, // optional
+            // indexName: 'Posts', // overrides main index name, optional
+            settings: {
+              // optional, any index settings
+              // Note: by supplying settings, you will overwrite all existing settings on the index
+            },
+            // matchFields: ['slug', 'modified'], // Array<String> overrides main match fields, optional
           },
-          // matchFields: ['slug', 'modified'], // Array<String> overrides main match fields, optional
-        },
+        ],
         // chunkSize: 10000, // default: 1000
         // settings: {
         //   // optional, any index settings

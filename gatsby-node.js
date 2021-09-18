@@ -20,12 +20,10 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
   const result = await graphql(`
     {
       allMarkdownRemark(filter: { fields: { collection: { eq: "post" } } }) {
-        edges {
-          node {
-            fields {
-              slug
-              lang
-            }
+        nodes {
+          fields {
+            slug
+            lang
           }
         }
       }
