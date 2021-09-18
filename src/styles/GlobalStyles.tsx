@@ -71,6 +71,13 @@ const GlobalStyles = styled.createGlobalStyle`
     height: 100%;
   }
 
+  html.no-scroll {
+    &,
+    body {
+      overflow: hidden;
+    }
+  }
+
   body {
     font-family: var(--font-primary);
     color: var(--color-p);

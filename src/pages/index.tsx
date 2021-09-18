@@ -49,7 +49,7 @@ const HeroStyles = styled.div`
     var(--dark-grey) 0%,
     var(--black) 55.75%
   );
-  padding-top: 1.5rem;
+  padding-top: 1.25rem;
   width: 100%;
   display: flex;
   align-items: flex-end;

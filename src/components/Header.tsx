@@ -1,8 +1,8 @@
 import { Link } from 'gatsby';
 import React, { MouseEvent, useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { breakpoints } from '../styles/breakpoints';
-import LangSwitcher from './LangSwitcher';
 import Logo from './Logo';
 import Social from './Social';
 
@@ -200,12 +200,6 @@ const MobileHeaderStyles = styled.div`
   }
 `;
 
-const menu = [
-  {
-    link: '/about',
-  },
-];
-
 export default function Header() {
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
 
@@ -231,6 +225,9 @@ export default function Header() {
   return (
     <>
       <HeaderStyles>
+        <Helmet
+          htmlAttributes={{ class: mobileMenuActive ? 'no-scroll' : '' }}
+        />
         <div className="container">
           <Link to="/" className="logo">
             <Logo />
