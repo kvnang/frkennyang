@@ -35,14 +35,14 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
     return;
   }
   // 4. Create single pages
-  result.data.allMarkdownRemark.edges.forEach((post, i) => {
+  result.data.allMarkdownRemark.nodes.forEach((post, i) => {
     actions.createPage({
-      path: post.node.fields.slug,
+      path: post.fields.slug,
       component: postTemplate,
       context: {
         // additional data can be passed via context
-        slug: post.node.fields.slug,
-        lang: post.node.fields.lang,
+        slug: post.fields.slug,
+        lang: post.fields.lang,
       },
     });
   });

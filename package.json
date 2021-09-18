@@ -17,6 +17,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "algoliasearch": "^4.10.5",
     "babel-plugin-styled-components": "^1.13.2",
     "dotenv": "^10.0.0",
     "framer-motion": "^4.1.17",
@@ -40,6 +41,7 @@
     "react-helmet": "^6.1.0",
     "react-hook-form": "^7.15.3",
     "react-icons": "^4.2.0",
+    "react-instantsearch-dom": "^6.12.1",
     "react-slick": "^0.28.1",
     "styled-components": "^5.3.1"
   },
