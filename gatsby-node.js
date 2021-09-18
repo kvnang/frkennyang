@@ -19,14 +19,12 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
   // 2. Query all posts
   const result = await graphql(`
     {
-      allMarkdownRemark(
-        filter: { fields: { collection: { eq: "post" } } }
-        limit: 1000
-      ) {
+      allMarkdownRemark(filter: { fields: { collection: { eq: "post" } } }) {
         edges {
           node {
             fields {
               slug
+              lang
             }
           }
         }
@@ -38,7 +36,7 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
     reporter.panicOnBuild(`Error while running GraphQL query.`);
     return;
   }
-  // 4. Create pages
+  // 4. Create single pages
   result.data.allMarkdownRemark.edges.forEach((post, i) => {
     actions.createPage({
       path: post.node.fields.slug,

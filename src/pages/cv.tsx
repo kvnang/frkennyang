@@ -51,8 +51,6 @@ interface Props {
 }
 
 const IntroStyles = styled.section`
-  padding-top: var(--section-padding-sm);
-  padding-bottom: var(--section-padding);
   position: relative;
   z-index: 0;
 
@@ -138,8 +136,6 @@ const IntroStyles = styled.section`
 `;
 
 const BodyStyles = styled.section`
-  padding-bottom: var(--section-padding);
-
   .inner {
     --width-xs: 12;
     --width-md: 8;
@@ -195,8 +191,6 @@ export default function CvPage({ data }: Props) {
   const { htmlAst } = data.cvList.nodes[0];
   const cvArray: Array<CvArrayProps> = [];
 
-  console.log(htmlAst);
-
   let i = 0;
   htmlAst.children.forEach((firstLevel) => {
     if (firstLevel.tagName === 'h2' && firstLevel.children?.length) {
@@ -246,7 +240,7 @@ export default function CvPage({ data }: Props) {
     <main>
       <SEO title="Curriculum Vitae" />
       <Helmet bodyAttributes={{ class: 'page-cv' }} />
-      <IntroStyles>
+      <IntroStyles className="page-p-t section-p-b">
         <div className="container">
           <div className="row">
             <div className="img col">
@@ -263,7 +257,7 @@ export default function CvPage({ data }: Props) {
           </div>
         </div>
       </IntroStyles>
-      <BodyStyles>
+      <BodyStyles className="section-p-b">
         <div className="container">
           <div className="row">
             <div className="col inner">

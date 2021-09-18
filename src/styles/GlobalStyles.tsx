@@ -35,12 +35,15 @@ const GlobalStyles = styled.createGlobalStyle`
     /* Container Width */
     --container-width: 90vw;
 
+    --post-gap: 0.33rem;
+
     @media ${breakpoints.tablet} {
       --section-padding: 3rem;
       --section-padding-sm: 1.5rem;
       --font-size-small: 0.8rem;
       --font-size-h2: 2.441rem;
       --font-size-h3: 1.953rem;
+      --post-gap: 0.5rem;
     }
 
     @media ${breakpoints.laptop} {
