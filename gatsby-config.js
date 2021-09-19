@@ -10,7 +10,7 @@ module.exports = {
     siteUrl:
       process.env.NODE_ENV === 'development'
         ? process.env.URL || 'http://localhost:3000/'
-        : process.env.URL || 'https://frkennyang.netlify.app/',
+        : process.env.URL || 'https://www.fatherkenny.com/',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
