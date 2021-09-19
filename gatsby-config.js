@@ -127,6 +127,11 @@ module.exports = {
                     lang
                   }
                   rawMarkdownBody
+                  parent {
+                    ... on File {
+                      modifiedTime
+                    }
+                  }
                 }
               }
             }`,
@@ -135,6 +140,9 @@ module.exports = {
                 objectID: node.fields.slug,
                 dateTimestamp: node.frontmatter.date
                   ? Date.parse(node.frontmatter.date)
+                  : null,
+                modified: node.parent.modifiedTime
+                  ? Date.parse(node.parent.modifiedTime)
                   : null,
                 ...node,
               })), // optional
@@ -151,7 +159,7 @@ module.exports = {
         //   // optional, any index settings
         //   // Note: by supplying settings, you will overwrite all existing settings on the index
         // },
-        // enablePartialUpdates: true, // default: false
+        enablePartialUpdates: true, // default: false
         // matchFields: ['slug', 'modified'], // Array<String> default: ['modified']
         // concurrentQueries: false, // default: true
         // skipIndexing: true, // default: false, useful for e.g. preview deploys or local development
