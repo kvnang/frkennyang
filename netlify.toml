@@ -5,3 +5,14 @@
 
 [[plugins]]
   package = "@netlify/plugin-gatsby"
+
+[[redirects]]
+  from = "http://frkennyang.netlify.app/*"
+  to = "https://www.fatherkenny.com/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://frkennyang.netlify.app/*"
+  to = "https://www.fatherkenny.com/:splat"
+  status = 301
+  force = true
