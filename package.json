@@ -27,6 +27,8 @@
     "gatsby-plugin-sharp": "^3.13.0",
     "gatsby-plugin-styled-components": "^4.13.0",
     "gatsby-plugin-webfonts": "^2.1.1",
+    "gatsby-remark-autolink-headers": "^4.11.0",
+    "gatsby-remark-image-attributes": "^1.0.1",
     "gatsby-remark-images": "^5.10.0",
     "gatsby-source-filesystem": "^3.13.0",
     "gatsby-transformer-remark": "^4.10.0",

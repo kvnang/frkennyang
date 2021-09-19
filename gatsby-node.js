@@ -50,6 +50,11 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
 }
 
 async function importAlgoliaIndex({ graphql, reporter }) {
+  // 0. Don't need to run this on dev
+  if (process.env.NODE_ENV === 'development') {
+    return;
+  }
+
   // 1. Query posts
   const result = await graphql(`
     {
