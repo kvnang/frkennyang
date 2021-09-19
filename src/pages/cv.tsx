@@ -209,7 +209,6 @@ export default function CvPage({ data }: Props) {
           let description;
 
           secondLevel.children?.forEach((thirdLevel) => {
-            console.log(thirdLevel);
             if (thirdLevel.tagName === 'h3' && thirdLevel.children?.length) {
               title = thirdLevel.children[0].value || '';
             }

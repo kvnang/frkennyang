@@ -94,7 +94,6 @@ export default function ContactForm() {
   }
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
-    console.log(data);
     setLoading(true);
 
     const formData = encode(data);
