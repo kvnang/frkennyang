@@ -89,6 +89,14 @@ To caption an image, add the caption as _italics_ below the image, for example:
 _Credit: lorem ipsum_
 ```
 
+### Headings
+
+A few important notes:
+
+1. Ensure that headings remain _hierarchical_, that is, don't use Heading 4 (`#### Title`) after Heading 2 (`## Title`), but use Heading 3 (`### Title`) instead.
+2. Ensure that Heading 1 is used only for the post title. For other headings, start with Heading 2.
+3. Every heading will be automatically hyperlinked, so that you can share the link of the post anchored to a specific heading. You can get this link by hovering over a specific heading, clicking the link icon on the left-hand side, and copy the URL on your browser.
+
 ## 🚀 Development Quick Start
 
 1.  **Pull Repository**
