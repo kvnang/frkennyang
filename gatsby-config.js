@@ -93,6 +93,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-anchor-links',
+      options: {
+        offset: -100,
+      },
+    },
+    {
       // This plugin must be placed last in your list of plugins to ensure that it can query all the GraphQL data
       resolve: `gatsby-plugin-algolia`,
       options: {

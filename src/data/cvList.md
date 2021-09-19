@@ -249,6 +249,7 @@
   ##### 23 SEPTEMBER 2018, SURABAYA
 
 ## Volunteer Experience
+
 - ### Clínica Universidad de Navarra
   #### Organist
   ##### SEPTEMBER 2016 – JUNE 2018, PAMPLONA (SPAIN)

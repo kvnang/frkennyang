@@ -1,4 +1,4 @@
-import React, { CSSProperties, useState } from 'react';
+import React, { CSSProperties, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import { BsChevronDown } from 'react-icons/bs';
@@ -75,11 +75,11 @@ export function AccordionItemHead({
 
   return (
     <AccordionItemHeadStyles
-      id={`accordion-${id}`}
+      id={`${id}`}
       className={`accordion__item__head ${
         activeAccordionItem === id ? 'active' : ''
       }`}
-      aria-controls={id}
+      aria-controls={`accordion-${id}`}
       aria-expanded={activeAccordionItem === id}
       onClick={() => handleClick()}
       onKeyPress={() => handleClick()}
@@ -106,9 +106,9 @@ export function AccordionItemBody({
 }: AccordionItemBodyProps) {
   return (
     <motion.div
-      id={id}
+      id={`accordion-${id}`}
       className="accordion__item__body"
-      aria-labelledby={`accordion-${id}`}
+      aria-labelledby={`${id}`}
       role="region"
       animate={{ height: activeAccordionItem === id ? 'auto' : '0' }}
       style={{ overflow: 'hidden', height: 0 }}
@@ -175,12 +175,24 @@ interface AccordionProps {
 }
 
 export function Accordion({ children, style }: AccordionProps) {
-  const [activeAccordionItem, setActiveAccordionItem] = useState(null);
+  const [activeAccordionItem, setActiveAccordionItem] = useState<string | null>(
+    null
+  );
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const { hash } = window.location;
+      if (hash) {
+        const hashId = hash.substr(1);
+        setActiveAccordionItem(hashId);
+      }
+    }
+  }, []);
 
   return (
     <AccordionStyles className="accordion" style={style}>
-      {React.Children.map(children, (child, i) => {
-        const id = `${child.props.id}-${i}`;
+      {React.Children.map(children, (child) => {
+        const id = `${child.props.id}`;
         return (
           <AccordionItem
             id={id}

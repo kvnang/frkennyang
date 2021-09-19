@@ -14,6 +14,7 @@ import SEO from '../components/Seo';
 
 interface CvArrayProps {
   title: string;
+  titleLink?: string;
   items: Array<{
     title?: string;
     subtitle?: string;
@@ -194,8 +195,11 @@ export default function CvPage({ data }: Props) {
   let i = 0;
   htmlAst.children.forEach((firstLevel) => {
     if (firstLevel.tagName === 'h2' && firstLevel.children?.length) {
+      const titleText = firstLevel.children.find((a) => a.type === 'text');
+      const titleLink = firstLevel.children.find((a) => a.tagName === 'a');
       cvArray.push({
-        title: firstLevel.children[0].value || '',
+        title: titleText?.value || '',
+        titleLink: titleLink?.properties?.href || null,
         items: [],
       });
     }
@@ -210,16 +214,20 @@ export default function CvPage({ data }: Props) {
 
           secondLevel.children?.forEach((thirdLevel) => {
             if (thirdLevel.tagName === 'h3' && thirdLevel.children?.length) {
-              title = thirdLevel.children[0].value || '';
+              const text = thirdLevel.children.find((a) => a.type === 'text');
+              title = text?.value || '';
             }
             if (thirdLevel.tagName === 'h4' && thirdLevel.children?.length) {
-              subtitle = thirdLevel.children[0].value || '';
+              const text = thirdLevel.children.find((a) => a.type === 'text');
+              subtitle = text?.value || '';
             }
             if (thirdLevel.tagName === 'h5' && thirdLevel.children?.length) {
-              meta = thirdLevel.children[0].value || '';
+              const text = thirdLevel.children.find((a) => a.type === 'text');
+              meta = text?.value || '';
             }
             if (thirdLevel.tagName === 'p' && thirdLevel.children?.length) {
-              description = thirdLevel.children[0].value || '';
+              const text = thirdLevel.children.find((a) => a.type === 'text');
+              description = text?.value || '';
             } else if (thirdLevel.type === 'text') {
               description = thirdLevel.value || '';
             }
@@ -267,7 +275,11 @@ export default function CvPage({ data }: Props) {
                 <Accordion key={`accordion-${j}`}>
                   <AccordionItem
                     key={`accordion-cv-${j}`}
-                    id={`accordion-cv-${j}`}
+                    id={
+                      cvGroup.titleLink
+                        ? cvGroup.titleLink.replace('#', '')
+                        : `accordion-cv-${j}`
+                    }
                   >
                     <AccordionItemHead>
                       <h4>{cvGroup.title}</h4>
