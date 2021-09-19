@@ -13,7 +13,7 @@ export function wrapPageElement({ element, props }) {
 }
 
 export function onRenderBody({ setPreBodyComponents }) {
-  setPreBodyComponents(
+  setPreBodyComponents([
     <script
       key="preferred-lang-script"
       // eslint-disable-next-line react/no-danger
@@ -50,6 +50,11 @@ export function onRenderBody({ setPreBodyComponents }) {
           })();
         `,
       }}
-    />
-  );
+    />,
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "b9ac248f2bba476d8e6132e2dcf7dabf"}'
+    />,
+  ]);
 }
