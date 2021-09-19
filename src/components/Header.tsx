@@ -245,6 +245,11 @@ export default function Header() {
                 </Link>
               </li>
               <li>
+                <Link to="/contents/" className="link-underline">
+                  Contents
+                </Link>
+              </li>
+              <li>
                 <Link to="/invite/" className="link-underline">
                   Invite to Speak
                 </Link>
@@ -285,6 +290,15 @@ export default function Header() {
                       onClick={() => setMobileMenuActive(false)}
                     >
                       Curriculum Vitae
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/contents/"
+                      className="link-underline"
+                      onClick={() => setMobileMenuActive(false)}
+                    >
+                      Contents
                     </Link>
                   </li>
                   <li>

@@ -16,6 +16,19 @@ export const titleLine = () => styled.css`
   }
 `;
 
+export const inlineLink = () => styled.css`
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+  transition: color var(--transition);
+
+  &:hover,
+  &:focus {
+    color: var(--color-accent);
+  }
+`;
+
 const Typography = styled.createGlobalStyle`
   html {
     font-family: var(--font-primary);
@@ -116,18 +129,14 @@ const Typography = styled.createGlobalStyle`
 
   h4,
   .h4 {
-    font-size: 1.44rem;
-
-    @media ${breakpoints.tablet} {
-      font-size: 1.563rem;
-    }
+    font-size: var(--font-size-h4);
   }
 
   h5,
   .h5 {
     font-family: var(--font-primary);
     /* font-size: 1.25rem; */
-    font-size: 1rem;
+    font-size: var(--font-size-h5);
     font-weight: 600;
     line-height: 1.5;
 
@@ -199,6 +208,7 @@ const Typography = styled.createGlobalStyle`
 
   .bg-light {
     background-color: var(--offwhite);
+    --color-p: var(--black);
     color: var(--black);
 
     a {
@@ -268,7 +278,7 @@ const Typography = styled.createGlobalStyle`
     &:hover,
     &:focus {
       &:not([disabled]) {
-        color: var(--white);
+        color: var(--color-p);
 
         &::after {
           opacity: 0;

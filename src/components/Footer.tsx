@@ -13,10 +13,12 @@ const FooterStyles = styled.footer`
     text-align: right;
   }
 
-  .page-home & {
+  .footer-light & {
     background-color: var(--offwhite);
     color: var(--black);
+  }
 
+  .page-home & {
     .col {
       --width-xs: 12;
       --width-md: 10;

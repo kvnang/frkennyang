@@ -1,12 +1,6 @@
-import { graphql, useStaticQuery } from 'gatsby';
+import { graphql, Link, useStaticQuery } from 'gatsby';
 import React, { useContext } from 'react';
 import Slider from 'react-slick';
-import {
-  GatsbyImage,
-  IGatsbyImageData,
-  StaticImage,
-} from 'gatsby-plugin-image';
-import { MdFormatAlignLeft, MdPlayArrow } from 'react-icons/md';
 import styled from 'styled-components';
 import { LangContext } from './LangContext';
 import LangSwitcher from './LangSwitcher';
@@ -36,7 +30,7 @@ const HomeFeaturedStyles = styled.div`
 
   .posts {
     display: flex;
-    margin: 0 calc(var(--post-gap) * -1);
+    margin: calc(var(--post-gap) * -2) calc(var(--post-gap) * -1);
   }
 
   .slick-slider {
@@ -82,6 +76,12 @@ const HomeFeaturedStyles = styled.div`
   }
 `;
 
+const SwitcherLinkStyles = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
 export default function HomeFeaturedMd() {
   const data = useStaticQuery(graphql`
     query MdPostsQuery {
@@ -96,10 +96,10 @@ export default function HomeFeaturedMd() {
           frontmatter {
             title
             format
-            date(formatString: "MMMM D, YYYY")
+            date
             featuredImage {
               childImageSharp {
-                gatsbyImageData(aspectRatio: 1.777778)
+                gatsbyImageData(aspectRatio: 1.777778, layout: FULL_WIDTH)
               }
             }
           }
@@ -141,7 +141,7 @@ export default function HomeFeaturedMd() {
 
   const { lang } = useContext(LangContext);
 
-  const posts = lang == 'id' ? postsID : postsEN;
+  const posts = lang === 'id' ? postsID : postsEN;
 
   const settings = {
     dots: true,
@@ -177,7 +177,12 @@ export default function HomeFeaturedMd() {
                 Lorem ipsum dolor sit amet consectetur adipiscing elit. Content
                 available in English and Bahasa Indonesia.
               </p>
-              <LangSwitcher shouldNavigate={false} />
+              <SwitcherLinkStyles>
+                <LangSwitcher shouldNavigate={false} />
+                <Link to="/contents/" className="button">
+                  View All
+                </Link>
+              </SwitcherLinkStyles>
             </div>
           </div>
           <div className="posts-wrapper col">

@@ -1,5 +1,6 @@
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
+const { default: algoliasearch } = require('algoliasearch');
 // const fetch = require('isomorphic-fetch');
 
 function slugify(text) {
@@ -46,6 +47,80 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
       },
     });
   });
+}
+
+async function importAlgoliaIndex({ graphql, reporter }) {
+  // 1. Query posts
+  const result = await graphql(`
+    {
+      posts: allMarkdownRemark(
+        filter: { fields: { collection: { eq: "post" } } }
+      ) {
+        nodes {
+          id
+          excerpt
+          frontmatter {
+            category
+            date
+            format
+            title
+            youtube
+            featuredImage {
+              childImageSharp {
+                gatsbyImageData(aspectRatio: 1.777778, layout: FULL_WIDTH)
+              }
+            }
+          }
+          fields {
+            slug
+            lang
+          }
+          rawMarkdownBody
+        }
+      }
+    }
+  `);
+
+  // 2. Catch errors
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`);
+    return;
+  }
+
+  // 3. Transform to Algolia Search Object
+
+  const transformed = result.data.posts.nodes.map((node) => ({
+    objectID: node.id,
+    dateTimestamp: node.frontmatter.date
+      ? Date.parse(node.frontmatter.date)
+      : null,
+    ...node,
+    // frontmatter: {
+    //   ...node.frontmatter,
+    // },
+    // fields: {
+    //   ...node.fields,
+    // },
+    // excerpt: node.excerpt,
+    // rawMarkdownBody: node.rawMarkdownBody,
+  }));
+
+  // 4. Initialize Algolia Client
+  const client = algoliasearch(
+    process.env.GATSBY_ALGOLIA_APP_ID || '',
+    process.env.ALGOLIA_API_KEY || ''
+  );
+
+  // 5. Initialize the index with the index name
+  const index = client.initIndex('Posts');
+
+  // 6. Save the objects!
+  const algoliaResponse = await index.saveObjects(transformed);
+
+  // check the output of the response in the console
+  console.log(
+    `🎉 Sucessfully added ${algoliaResponse.objectIDs.length} records to Algolia search.`
+  );
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -104,5 +179,5 @@ exports.createPages = async (params) => {
   // Create pages dynamically
   // Wait for all promises to be resolved before finishing this function
   // await Promise.all([turnPostsIntoPages(params)]);
-  await Promise.all([turnMdPostsIntoPages(params)]);
+  await Promise.all([turnMdPostsIntoPages(params), importAlgoliaIndex(params)]);
 };

@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { SubmitHandler, useForm } from 'react-hook-form';
 // import DatePicker from 'react-datepicker';
 // import DayPickerInput from 'react-day-picker/DayPickerInput';
+import { Link } from 'gatsby';
+import { Helmet } from 'react-helmet';
 import { SnackbarContext } from '../components/SnackbarContext';
 import { breakpoints } from '../styles/breakpoints';
 import FormSubmitButton from '../components/FormSubmitButton';
@@ -186,7 +188,7 @@ export default function InvitePage() {
     }
   }, [formMessage, addSnackbar, removeSnackbar]);
 
-  const validateIfPhysicalEvent = (value: any) => {
+  const validateIfInPersonEvent = (value: any) => {
     if (!value && getValues('eventLocation') !== 'online') {
       return 'Required when Type of Event is not Online';
     }
@@ -368,13 +370,13 @@ export default function InvitePage() {
                               <input
                                 type="radio"
                                 id="event-location"
-                                value="physical"
+                                value="in-person"
                                 required
                                 {...register('eventLocation', {
                                   required: true,
                                 })}
                               />
-                              <span>Physical Event</span>
+                              <span>In-Person Event</span>
                             </label>
                           </div>
                         </fieldset>
@@ -393,7 +395,7 @@ export default function InvitePage() {
                                 {...register('venue', {
                                   validate: {
                                     required: (value) =>
-                                      validateIfPhysicalEvent(value),
+                                      validateIfInPersonEvent(value),
                                   },
                                 })}
                               />
@@ -422,7 +424,7 @@ export default function InvitePage() {
                                 {...register('address.street', {
                                   validate: {
                                     required: (value) =>
-                                      validateIfPhysicalEvent(value),
+                                      validateIfInPersonEvent(value),
                                   },
                                 })}
                               />
@@ -455,7 +457,7 @@ export default function InvitePage() {
                                 {...register('address.state', {
                                   validate: {
                                     required: (value) =>
-                                      validateIfPhysicalEvent(value),
+                                      validateIfInPersonEvent(value),
                                   },
                                 })}
                               />
@@ -474,7 +476,7 @@ export default function InvitePage() {
                                 {...register('address.zip', {
                                   validate: {
                                     required: (value) =>
-                                      validateIfPhysicalEvent(value),
+                                      validateIfInPersonEvent(value),
                                   },
                                 })}
                               />
@@ -494,7 +496,7 @@ export default function InvitePage() {
                                   {...register('address.country', {
                                     validate: {
                                       required: (value) =>
-                                        validateIfPhysicalEvent(value),
+                                        validateIfInPersonEvent(value),
                                     },
                                   })}
                                 >
@@ -523,7 +525,7 @@ export default function InvitePage() {
                                 {...register('address.airport', {
                                   validate: {
                                     required: (value) =>
-                                      validateIfPhysicalEvent(value),
+                                      validateIfInPersonEvent(value),
                                   },
                                 })}
                               />
@@ -533,11 +535,11 @@ export default function InvitePage() {
                       )}
                       <div className="form-field half">
                         <label htmlFor="attendance">
-                          <span>Expected Attendance *</span>
+                          <span>Expected Attendance (Persons) *</span>
                           <input
                             type="number"
                             id="attendance"
-                            placeholder="Expected Attendance"
+                            placeholder="# of Persons"
                             min="1"
                             required
                             aria-invalid={!!errors.attendance}
@@ -570,6 +572,13 @@ export default function InvitePage() {
                             {...register('topic', { required: true })}
                           />
                         </label>
+                        <p
+                          className="form-description small"
+                          style={{ textAlign: 'right' }}
+                        >
+                          To see Fr. Kenny's past teaching topics, see{' '}
+                          <Link to="/cv#speaking-topics">Curriculum Vitae</Link>
+                        </p>
                       </div>
                       <div className="form-field half">
                         {/* Using htmlFor for some reason causes Netlify to not recognize the "State" label, which makes it messy */}
@@ -586,19 +595,16 @@ export default function InvitePage() {
                               <option value="" disabled>
                                 Select Event Type
                               </option>
-                              <option value="talk">Talk</option>
-                              <option value="multi-speaker">
-                                Multi-Speaker
+                              <option value="Talk / Presentation">
+                                Talk / Presentation
                               </option>
-                              <option value="international">
-                                International
-                              </option>
-                              <option value="small-scale">Small Scale</option>
-                              <option value="virtual">
-                                Virtual Talk / Presentation
-                              </option>
-                              <option value="fundraising">Fundraising</option>
-                              <option value="private">Private</option>
+                              <option value="Sermon">Sermon</option>
+                              <option value="Interview">Interview</option>
+                              <option value="QA Session">Q&A Session</option>
+                              <option value="Workshop">Workshop</option>
+                              <option value="Fundraising">Fundraising</option>
+                              <option value="Talkshow">Talkshow</option>
+                              <option value="Round Table">Round Table</option>
                               <option value="other">Other</option>
                             </select>
                           </div>
