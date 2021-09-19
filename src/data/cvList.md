@@ -247,3 +247,9 @@
 - ### Eucharist
   #### Class for catechumens
   ##### 23 SEPTEMBER 2018, SURABAYA
+
+## Volunteer Experience
+- ### Clínica Universidad de Navarra
+  #### Organist
+  ##### SEPTEMBER 2016 – JUNE 2018, PAMPLONA (SPAIN)
+  I helped the University of Navarra's chaplain for English-speaking students, Fr. José Alviar, organize the choir for the Mass celebrated in English on Sundays during the entire school year.
