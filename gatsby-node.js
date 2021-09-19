@@ -100,14 +100,6 @@ async function importAlgoliaIndex({ graphql, reporter }) {
       ? Date.parse(node.frontmatter.date)
       : null,
     ...node,
-    // frontmatter: {
-    //   ...node.frontmatter,
-    // },
-    // fields: {
-    //   ...node.fields,
-    // },
-    // excerpt: node.excerpt,
-    // rawMarkdownBody: node.rawMarkdownBody,
   }));
 
   // 4. Initialize Algolia Client
@@ -185,5 +177,8 @@ exports.createPages = async (params) => {
   // Create pages dynamically
   // Wait for all promises to be resolved before finishing this function
   // await Promise.all([turnPostsIntoPages(params)]);
-  await Promise.all([turnMdPostsIntoPages(params), importAlgoliaIndex(params)]);
+  await Promise.all([
+    turnMdPostsIntoPages(params),
+    // importAlgoliaIndex(params)
+  ]);
 };
