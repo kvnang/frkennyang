@@ -174,8 +174,8 @@ export default function HomeFeaturedMd() {
             <div className="inner">
               <h2 className="title-line">Featured Contents</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit. Content
-                available in English and Bahasa Indonesia.
+                Browse my latest works. Some of them are available in both
+                English and Bahasa Indonesia.
               </p>
               <SwitcherLinkStyles>
                 <LangSwitcher shouldNavigate={false} />

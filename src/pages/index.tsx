@@ -89,10 +89,6 @@ const HeroStyles = styled.div`
 
   .title {
     margin-top: 0;
-
-    @media ${breakpoints.tablet} {
-      display: none;
-    }
   }
 
   .hero-image {
@@ -232,18 +228,18 @@ export default function HomePage() {
                 width="240"
                 height="202"
               />
-              <h1 className="h2 title">Hi, I’m Father Kenny</h1>
+              <h1 className="h2 title">Heaven is your final destination.</h1>
               <p>
-                Hi, I’m Father Kenny, a Catholic priest serving in Surabaya,
-                Indonesia. Lorem ipsum dolor sit amet consectetur adipiscing
-                elit.
+                <strong>Hi, I’m Father Kenny.</strong> As a priest, I provide
+                you with resources to help you grow in your faith. Check them
+                out!
               </p>
               <div className="button-group">
                 <Link to="/about/" className="button">
                   Read My Bio
                 </Link>
-                <Link to="/cv/" className="button">
-                  Curriculum Vitae
+                <Link to="/contents/" className="button">
+                  Browse Contents
                 </Link>
               </div>
             </div>
@@ -251,7 +247,6 @@ export default function HomePage() {
               <StaticImage
                 src="../assets/images/frk-halfbody.png"
                 alt=""
-                loading="eager"
                 placeholder="none"
               />
             </div>
@@ -269,7 +264,9 @@ export default function HomePage() {
               </div>
               <div className="form-wrapper">
                 <h2>Contact</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                <p>
+                  Feel free to reach out to me via email or the contact form.
+                </p>
                 <h3 className="h4" style={{ margin: 0 }}>
                   <a
                     href="mailto:fatherkennyang@gmail.com"

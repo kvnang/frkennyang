@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { SubmitHandler, useForm } from 'react-hook-form';
 // import DatePicker from 'react-datepicker';
 // import DayPickerInput from 'react-day-picker/DayPickerInput';
+// import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
-import { Helmet } from 'react-helmet';
 import { SnackbarContext } from '../components/SnackbarContext';
 import { breakpoints } from '../styles/breakpoints';
 import FormSubmitButton from '../components/FormSubmitButton';
@@ -208,7 +208,10 @@ export default function InvitePage() {
           <div className="row">
             <div className="col inner">
               <h1 className="h2">Invite Fr. Kenny to Speak</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+              <p>
+                Thank you for considering inviting Fr. Kenny Ang to speak at
+                your event. Please fill out and submit the form below.
+              </p>
               <FormStyles>
                 {(formMessage.open && formMessage.status === 'success' && (
                   <div>
@@ -575,7 +578,9 @@ export default function InvitePage() {
                           style={{ textAlign: 'right' }}
                         >
                           To see Fr. Kenny's past teaching topics, see{' '}
-                          <Link to="/cv#speaking-topics">Curriculum Vitae</Link>
+                          <Link to="/cv/#speaking-topics">
+                            Curriculum Vitae
+                          </Link>
                         </p>
                       </div>
                       <div className="form-field half">
