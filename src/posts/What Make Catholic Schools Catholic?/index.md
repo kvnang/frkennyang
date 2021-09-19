@@ -12,7 +12,7 @@ People who are acquainted with me know that, until university, **I never went to
 
 Indeed, I am saddened by the fact that many Catholic schools do not live up to their name. Not only are there ‘nominal Catholics’ around; there are also ‘nominal Catholic schools.’ The following words of a twentieth-century saint drive this point home:
 
-> I must confess that I do not like the expressions ‘Catholic schools,’ ‘Church schools,’ etc., even though I respect those who think differently. I prefer to see things distinguished by their results and not by their names. A school is truly Christian when it strives for excellence, and gives a complete education—which includes Christian ideals—at the same time respecting personal freedom and earnestly furthering social justice. If this is accomplished, then the name is of little importance.”
+> I must confess that I do not like the expressions ‘Catholic schools,’ ‘Church schools,’ etc., even though I respect those who think differently. I prefer to see things distinguished by their results and not by their names. A school is truly Christian when it strives for excellence, and gives a complete education—which includes Christian ideals—at the same time respecting personal freedom and earnestly furthering social justice. If this is accomplished, then the name is of little importance.
 >
 > — St. Josemaría, [_Conversations_, no. 81](https://www.escrivaworks.org/book/conversations-chapter-6.htm)
 
