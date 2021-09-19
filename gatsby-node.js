@@ -115,7 +115,7 @@ async function importAlgoliaIndex({ graphql, reporter }) {
   const index = client.initIndex('Posts');
 
   // 6. Save the objects!
-  await index.clearObjects();
+  // await index.clearObjects();
   const algoliaResponse = await index.saveObjects(transformed);
 
   // check the output of the response in the console
