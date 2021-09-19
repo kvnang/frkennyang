@@ -1,47 +1,14 @@
-import { graphql, Link, PageProps } from 'gatsby';
+import { Link } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import { StaticImage, IGatsbyImageData } from 'gatsby-plugin-image';
-// import Slider from 'react-slick';
-// import {
-//   MdFormatAlignLeft,
-//   MdInsertDriveFile,
-//   MdPlayArrow,
-// } from 'react-icons/md';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Helmet } from 'react-helmet';
 import { breakpoints } from '../styles/breakpoints';
 import signature from '../assets/images/frk-signature.svg';
 import Social from '../components/Social';
-// import { formatDate } from '../utils/helpers';
-// import toPlainText from '../utils/sanityBlockToPlainText';
 import HomeFeaturedMd from '../components/HomeFeaturedMd';
-// import HomeFeatured from '../components/HomeFeatured';
 import ContactForm from '../components/ContactForm';
 import SEO from '../components/Seo';
-
-type PostProps = {
-  id: number;
-  slug: {
-    current: string;
-  };
-  mainImage: {
-    asset: {
-      gatsbyImageData: IGatsbyImageData;
-    };
-  };
-  title: string;
-  publishedAt: string;
-  body: string;
-  format: string;
-};
-
-type IndexQueryProps = {
-  posts: {
-    nodes: PostProps[];
-  };
-};
-
-type IndexPageProps = PageProps<IndexQueryProps>;
 
 const HeroStyles = styled.div`
   background: radial-gradient(
@@ -249,11 +216,11 @@ const ContactStyles = styled.div`
   }
 `;
 
-export default function HomePage({ data }: IndexPageProps) {
+export default function HomePage() {
   return (
     <main>
       <SEO title="A Catholic Priest from Indonesia" />
-      <Helmet bodyAttributes={{ class: 'page-home' }}> </Helmet>
+      <Helmet bodyAttributes={{ class: 'page-home footer-light' }} />
       <HeroStyles>
         <div className="container">
           <div className="row">
@@ -272,10 +239,10 @@ export default function HomePage({ data }: IndexPageProps) {
                 elit.
               </p>
               <div className="button-group">
-                <Link to="/about" className="button">
+                <Link to="/about/" className="button">
                   Read My Bio
                 </Link>
-                <Link to="/cv" className="button">
+                <Link to="/cv/" className="button">
                   Curriculum Vitae
                 </Link>
               </div>
@@ -293,7 +260,6 @@ export default function HomePage({ data }: IndexPageProps) {
         </div>
       </HeroStyles>
       <HomeFeaturedMd />
-      {/* <HomeFeatured /> */}
       <ContactStyles>
         <div className="container">
           <div className="row">
@@ -306,12 +272,12 @@ export default function HomePage({ data }: IndexPageProps) {
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
                 <h3 className="h4" style={{ margin: 0 }}>
                   <a
-                    href="mailto:email@example.com"
+                    href="mailto:fatherkennyang@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="button"
                   >
-                    email@example.com
+                    fatherkennyang@gmail.com
                   </a>
                 </h3>
                 <ContactForm />

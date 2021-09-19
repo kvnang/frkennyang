@@ -1,5 +1,6 @@
 import * as styled from 'styled-components';
 import { breakpoints } from './breakpoints';
+import { inlineLink } from './Typography';
 
 const GlobalStyles = styled.createGlobalStyle`
   :root {
@@ -29,6 +30,9 @@ const GlobalStyles = styled.createGlobalStyle`
     --font-size-small: 0.833rem;
     --font-size-h2: 2.074rem;
     --font-size-h3: 1.728rem;
+    --font-size-h4: 1.44rem;
+    --font-size-h5: 1rem;
+
     /* Grid proportions */
     --gutter: 14px;
 
@@ -43,6 +47,7 @@ const GlobalStyles = styled.createGlobalStyle`
       --font-size-small: 0.8rem;
       --font-size-h2: 2.441rem;
       --font-size-h3: 1.953rem;
+      --font-size-h4: 1.563rem;
       --post-gap: 0.5rem;
     }
 
@@ -360,6 +365,12 @@ const GlobalStyles = styled.createGlobalStyle`
 
     &.submit {
       text-align: right;
+    }
+  }
+
+  .form-description {
+    a {
+      ${inlineLink()};
     }
   }
 

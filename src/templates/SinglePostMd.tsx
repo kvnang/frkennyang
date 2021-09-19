@@ -14,6 +14,7 @@ import { formatDate } from '../utils/helpers';
 import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
 import { PostProps } from '../types';
+import { inlineLink } from '../styles/Typography';
 
 interface Props {
   location: Location;
@@ -136,16 +137,7 @@ const SinglePostStyles = styled.div`
   }
 
   a {
-    text-decoration: underline;
-    text-decoration-color: var(--gold);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 5px;
-    transition: color var(--transition);
-
-    &:hover,
-    &:focus {
-      color: var(--gold);
-    }
+    ${inlineLink()};
   }
 `;
 
