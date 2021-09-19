@@ -90,7 +90,7 @@ async function importAlgoliaIndex({ graphql, reporter }) {
   // 3. Transform to Algolia Search Object
 
   const transformed = result.data.posts.nodes.map((node) => ({
-    objectID: node.id,
+    objectID: node.fields.slug,
     dateTimestamp: node.frontmatter.date
       ? Date.parse(node.frontmatter.date)
       : null,
@@ -115,6 +115,7 @@ async function importAlgoliaIndex({ graphql, reporter }) {
   const index = client.initIndex('Posts');
 
   // 6. Save the objects!
+  await index.clearObjects();
   const algoliaResponse = await index.saveObjects(transformed);
 
   // check the output of the response in the console

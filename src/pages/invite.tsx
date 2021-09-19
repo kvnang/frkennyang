@@ -129,7 +129,6 @@ export default function InvitePage() {
 
   // Set or Unset form message
   function handleResponse(response: Response) {
-    console.log(response);
     if (response.ok) {
       setFormMessage({
         status: 'success',
@@ -161,7 +160,6 @@ export default function InvitePage() {
   }
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
-    console.log(data);
     setLoading(true);
 
     const formData = encode(data);
