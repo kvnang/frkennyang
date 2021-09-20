@@ -10,7 +10,7 @@ import HomeFeaturedMd from '../components/HomeFeaturedMd';
 import ContactForm from '../components/ContactForm';
 import SEO from '../components/Seo';
 
-const HeroStyles = styled.div`
+const HeroStyles = styled.section`
   background: radial-gradient(
     62.87% 62.87% at 53.33% 37.13%,
     var(--dark-grey) 0%,

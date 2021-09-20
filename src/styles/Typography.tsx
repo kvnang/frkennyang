@@ -78,6 +78,10 @@ const Typography = styled.createGlobalStyle`
     /* text-decoration-skip-ink: none; */
     text-decoration: none;
     color: inherit;
+
+    &[href^='mailto'] {
+      word-break: break-all;
+    }
   }
 
   .center {
@@ -130,6 +134,14 @@ const Typography = styled.createGlobalStyle`
   h4,
   .h4 {
     font-size: var(--font-size-h4);
+
+    &:not(:first-child) {
+      margin-top: 1em;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 0.75em;
+    }
   }
 
   h5,

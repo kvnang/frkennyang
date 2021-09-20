@@ -76,14 +76,15 @@ const GlobalStyles = styled.createGlobalStyle`
 
   html,
   body {
-    overflow-x: hidden;
     height: 100%;
   }
 
-  html.no-scroll {
-    &,
-    body {
-      overflow: hidden;
+  html {
+    &.no-scroll {
+      &,
+      body {
+        overflow: hidden;
+      }
     }
   }
 
@@ -92,6 +93,10 @@ const GlobalStyles = styled.createGlobalStyle`
     color: var(--color-p);
     background-color: var(--color-bg);
     /* overflow-y: hidden; */
+
+    .site-wrapper {
+      overflow: hidden;
+    }
 
     .site {
       background-color: var(--color-bg);

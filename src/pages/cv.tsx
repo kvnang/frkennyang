@@ -251,18 +251,20 @@ export default function CvPage({ data }: Props) {
       <SEO title="Curriculum Vitae" />
       <Helmet bodyAttributes={{ class: 'page-cv' }} />
       <IntroStyles className="page-p-t section-p-b">
-        <div className="container">
-          <div className="row">
-            <div className="img col">
-              <div className="img-inner">
-                <StaticImage src="../assets/images/frk-cv.jpg" alt="" />
+        <div className="inner">
+          <div className="container">
+            <div className="row">
+              <div className="img col">
+                <div className="img-inner">
+                  <StaticImage src="../assets/images/frk-cv.jpg" alt="" />
+                </div>
               </div>
-            </div>
-            <div className="text col">
-              <div
-                // eslint-disable-next-line react/no-danger
-                dangerouslySetInnerHTML={{ __html: introHTML }}
-              />
+              <div className="text col">
+                <div
+                  // eslint-disable-next-line react/no-danger
+                  dangerouslySetInnerHTML={{ __html: introHTML }}
+                />
+              </div>
             </div>
           </div>
         </div>

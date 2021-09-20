@@ -67,6 +67,23 @@ As I was writing this article, I recalled a conversation I had with an acquainta
 
 If you are a Catholic parent considering a Catholic school for your children, **investigate whether the three above-described qualities are present in the school**. That way, you will ensure that the Catholic school you are looking at is truly Catholic. On the other hand, if you are a school administrator, a teacher, a parish priest, or a chaplain involved—in one way or another—in running a Catholic school, I beg of you to **question yourself**: what can I do to increase consciousness of being part of the Church, the harmony of faith and reason, as well as the quality of teachers in the Catholic school I am responsible for? It is not too late to set the course right and it is worth persevering!
 
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/41wjMJIOLTL.jpg" alt="Crayons" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="/">
+        Lorem ipsum dolor sit amet
+      </a>
+    </h5>
+    <h6>Lorem ipsum dolor sit amet</h6>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+
 ---
 
 _Special thanks to [Prof. Anita Lie](https://scholar.google.com/citations?user=huC3y0gAAAAJ&hl=id) of [Widya Mandala Catholic University](https://ukwms.ac.id/?lang=en) for proofreading and thoughtfully commenting on this article._
