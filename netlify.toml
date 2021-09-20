@@ -6,6 +6,11 @@
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Origin = "https://www.fatherkenny.com"
+
 [[redirects]]
   from = "http://frkennyang.netlify.app/*"
   to = "https://www.fatherkenny.com/:splat"
