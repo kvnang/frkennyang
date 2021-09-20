@@ -123,7 +123,7 @@ export default function HomeFeaturedMd() {
             date
             featuredImage {
               childImageSharp {
-                gatsbyImageData(aspectRatio: 1.777778)
+                gatsbyImageData(aspectRatio: 1.777778, layout: FULL_WIDTH; placeholder: BLURRED)
               }
             }
           }
