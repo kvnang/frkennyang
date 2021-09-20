@@ -191,7 +191,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type Frontmatter {
       title: String!
-      featuredImage: String
       format: String!
       date: Date!
       youtube: String
