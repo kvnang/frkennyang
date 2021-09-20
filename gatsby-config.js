@@ -13,6 +13,7 @@ module.exports = {
         : process.env.URL || 'https://www.fatherkenny.com/',
   },
   plugins: [
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
