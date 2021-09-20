@@ -151,15 +151,36 @@ export default function InvitePage() {
 
   // IF the form does NOT contain File upload
   function encode(data: Inputs) {
+    function encodeObject(
+      object: { [key: string]: any },
+      parentKey: string
+    ): string {
+      return Object.keys(object)
+        .map((key) => {
+          if (object[key] && typeof object[key] === 'object') {
+            return encodeObject(data[key], `${parentKey}[${key}]`);
+          }
+          return `${encodeURIComponent(
+            `${parentKey}[${key}]`
+          )}=${encodeURIComponent(object[key] || '')}`;
+        })
+        .join('&');
+    }
+
     return Object.keys(data)
-      .map(
-        (key) =>
-          `${encodeURIComponent(key)}=${encodeURIComponent(data[key] || '')}`
-      )
+      .map((key) => {
+        if (data[key] && typeof data[key] === 'object') {
+          return encodeObject(data[key], key);
+        }
+        return `${encodeURIComponent(key)}=${encodeURIComponent(
+          data[key] || ''
+        )}`;
+      })
       .join('&');
   }
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
+    console.log(data);
     setLoading(true);
 
     const formData = encode(data);
