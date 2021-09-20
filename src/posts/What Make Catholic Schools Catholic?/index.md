@@ -1,6 +1,6 @@
 ---
 title: What Makes Catholic Schools Catholic?
-featuredImage: ![Hand coloring with crayons](crayons.jpg)
+featuredImage: crayons.jpg
 format: Article
 date: 2020-09-21
 category:
