@@ -1,11 +1,12 @@
 ---
 title: Apa yang Menjadikan Sebuah Sekolah Katolik ‘Katolik’?
-featuredImage: crayons.jpg
+featuredImage: ![Hand coloring with crayons](crayons.jpg)
 format: Article
 date: 2020-09-19
 category:
   - Education
-excerpt: 
+  - Parenting
+excerpt: Tiga ciri sekolah Katolik yang sejati menurut Gravissimum Educationis adalah kesadaran menjadi bagian dari Gereja, keselarasan iman-akal budi, dan keyakinan bahwa tugas mengajar adalah panggilan. Guru Katolik haruslah kompeten, apostolik, dan penuh kasih.
 ---
 
 Mereka yang mengenal saya tahu bahwa, sebelum memasuki jenjang universitas, **saya tidak pernah belajar di sekolah Katolik**. Alasannya cukup sederhana: sekolah Katolik di dekat tempat saya tinggal tidak memenuhi ekspektasi orang tua saya. 
@@ -20,30 +21,35 @@ Saya prihatin dengan kenyataan bahwa banyak sekolah Katolik yang tidak berperila
 
 Tidak bisa diragukan bahwa pendidikan anak menempati salah satu posisi teratas dalam daftar prioritas orang tua Katolik. Oleh karena itu, mereka berhak untuk memilih apa yang terbaik untuk anak-anak mereka, walaupun itu bisa jadi berarti mempercayakan pendidikan mereka ke sebuah sekolah non-Katolik. Tentu saja: pada dasarnya, mereka berharap bisa menyekolahkan putra-putri mereka di sebuah sekolah Katolik. Namun, karena berbagai alasan dan keadaan, **mereka—dengan penuh tanggung jawab—memilih untuk tidak melakukannya**.
 
-![Cool](child.jpg)
+![Child studying with her mom on a laptop](child.jpg '#float=left')
 
 Apakah Anda **orang tua Katolik** yang berusaha untuk memilih sekolah untuk anak-anak Anda? Apakah Anda seorang **pengelola sekolah**, **guru**, **pastor paroki**, atau **kapelan** yang terlibat dalam memajukan sekolah Katolik? Atau, apakah Anda **seorang Katolik biasa** yang ingin memperbaiki panorama sekolah Katolik di daerah Anda? Jika Anda menjawab iya, maka artikel ini ditulis untuk Anda. Di sini, saya akan menguraikan tiga ciri-ciri sekolah Katolik yang autentik berdasarkan dokumen Vatikan II yang berjudul [*Gravissimum Educationis*](https://katolisitas.org/gravissimum-educationis/), yang diterbitkan pada tahun 1965.
-# 1. Bagian dari Gereja
+
+## 1. Bagian dari Gereja
+
 Ciri pertama yang membedakan sebuah sekolah Katolik dari lembaga pendidikan lainnya adalah **kesadarannya sebagai bagian dari Gereja**. Sekolah-sekolah non-Katolik bisa jadi berjuang semata-mata untuk mengikuti tren pasar atau memenuhi tuntutan para pengurus yayasan mereka yang ambisius. Sebaliknya, sebuah sekolah yang benar-benar Katolik tidak akan pernah lupa bahwa ia adalah bagian dari Gereja yang didirikan oleh Kristus. Misinya tidak berbeda sama sekali dari misi Gereja. Setiap sekolah Katolik adalah sebuah sarana—sarana yang paling penting[^1]—bagi Gereja untuk menyebarluaskan pendidikan kristiani.[^2]
 
 Di sisi lain, kesadaran sebuah sekolah akan tempatnya dalam Gereja akan membangkitkan kesadaran bahwa ia perlu senantiasa **bekerja sama dengan para orang tua murid**. Perlu diingat bahwa pendidik utama seorang anak bukanlah guru sekolahnya, namun orang tuanya sendiri.[^3] Oleh karena itu, guru-guru sekolah Katolik dituntut untuk “bekerja sama, terutama dengan para orang tua … dalam seluruh pendidikan.”[^4]
 
 Hanya apabila sebuah sekolah sadar bahwa ia adalah bagian dari Gereja, ia layak menyandang nama ‘Katolik.’
-# 2. Keselarasan Iman-Akal Budi
+
+## 2. Keselarasan Iman-Akal Budi
+
 Sebuah sekolah Katolik yang sejati juga ditandai oleh **keselarasan antara iman dan akal budi**. Belakangan ini, ekspresi seperti ‘pendidikan integral’ dan ‘pendekatan interdisipliner’ telah menjadi frasa kunci di ranah pendidikan, baik non-Katolik maupun Katolik. Namun saya ingin menekankan bahwa pendidikan adalah benar-benar integral hanya jika ia mampu menyelaraskan iman dengan akal budi. Dengan demikian, **sebuah kurikulum yang mengecualikan iman kristiani, misalnya, tidak layak disebut ‘integral.’ Lebih parah lagi adalah sekolah-sekolah yang berlabel ‘Katolik’ namun sama sekali tidak memberikan pembinaan iman Katolik atau memberikannya dengan kualitas di bawah standar.**
 
 Di sini, saya perlu memperjelas bahwa keselarasan antara iman dan akal budi tidak menganulir kemandirian masing-masing cabang ilmu pengetahuan seperti fisika, biologi, dan sejarah. Biologi tidak akan berubah menjadi teologi. Fisika juga akan mempertahankan identitasnya. Ilmu-ilmu profan tetap harus dipelajari “menurut asas-asasnya sendiri, dengan metodenya sendiri, dan dengan kebebasan penelitian ilmiah sedemikian rupa, sehingga ilmu-pengetahuan di bidang-bidang itu kian hari makin mendalam.”[^5]
 
-![Cool](microscope.jpg)
+![Boy looking through microscope](microscope.jpg '#float=right')
 
 Sebetulnya, keselarasan antara iman dan akal budi menyiratkan perlunya usaha yang serius agar **pembinaan iman kristiani dan pengajaran ilmu-ilmu duniawi dapat berjalan beriringan**.[^6] Pendidikan yang integral harus beraspirasi untuk mengembangkan pribadi manusia dalam semua dimensinya, yang mencakup dimensi-dimensi intelektual, emosional, budaya, moral, profesional, dll.[^7] Akibatnya, pencapaian akademis—yang tentunya sangat penting bagi sebuah sekolah—tidak dapat dijadikan satu-satunya parameter untuk mengukur seberapa ‘Katolik’ sebuah sekolah. Sebuah sekolah Katolik yang menduduki peringkat pertama dalam daftar sekolah-sekolah berdasarkan nilai ujian, misalnya, belum tentu merupakan sebuah sekolah Katolik yang autentik. Mengapa demikian? **Karena manusia bukan hanya terdiri dari intelek.** Selain intelek, saya memiliki tubuh yang juga harus dididik. Saya memiliki indra-indra yang harus dibina dengan hal-hal yang indah. Saya mempunyai kehendak yang harus diresapi oleh niat-niat mulia. Saya merasakan emosi yang perlu disesuaikan dengan akal budi. Intelek saya, pada gilirannya, juga harus diterangi oleh iman.
 
 Hanya apabila sebuah sekolah menawarkan pendidikan integral yang ditandai dengan keselarasan antara iman dan akal budi, ia layak menyandang nama ‘Katolik.’
 
 # 3. Mengajar: Sebuah Panggilan
+
 Ciri terakhir dari sekolah Katolik yang sejati adalah keyakinannya bahwa **tugas mengajar yang diembannya adalah sebuah panggilan**.[^8] Memang, ide ini tidak dimiliki secara eksklusif oleh kaum Katolik. Guru-guru kristiani non-Katolik atau bahkan guru-guru non-kristiani pun bisa jadi dengan tulus meyakini bahwa mereka dipanggil oleh Allah—atau oleh dewa-dewa lain—untuk mengajar. Namun sebuah artikel tentang sekolah Katolik tidak akan lengkap tanpa rujukan kepada para guru, yang seharusnya “menyadari, bahwa terutama peranan merekalah yang menentukan bagi sekolah Katolik, untuk dapat melaksanakan rencana-rencana dan usaha-usahanya.”[^9]
 
-![Cool](teaching.jpg)
+![Teacher teaching children in a forest](teaching.jpg)
 
 Pembaca *Gravissimum Educationis* dapat menemukan di dalamnya setidaknya tiga ciri yang perlu dimiliki oleh guru-guru Katolik. Tanpa guru-guru dengan ciri-ciri di bawah, tidak ada sekolah yang dapat dianggap sungguh-sungguh ‘Katolik.’
 
@@ -54,7 +60,9 @@ Pembaca *Gravissimum Educationis* dapat menemukan di dalamnya setidaknya tiga ci
 - **Mencintai**. Hendaknya para guru berusaha agar “cinta kasih menjadi ikatan mereka timbal balik dengan para siswa.”[^12] Cinta kasih bukanlah emosi semata. Cinta kasih, lebih tepatnya, adalah **kehendak untuk mengusahakan apa yang baik bagi orang lain**.[^13] Akan tetapi, perlu diingat bahwa cinta kasih seorang guru terhadap murid-muridnya tidak boleh berhenti pada hari kelulusan mereka. Sebaliknya, Gereja mendorong semua guru agar, “juga sesudah para siswa tamat sekolah …[,] tetap mendampingi mereka dengan nasehat-nasehat, sikap bersahabat, pun melalui himpunan-himpunan yang bertujuan khusus dan bernafaskan semangat gerejawi yang sejati.”[^14] Anjuran ini menegaskan lebih lagi bahwa, lebih dari profesi semata, mengajar adalah sebuah panggilan. Oleh sebab itu, **kepedulian seorang guru terhadap murid-muridnya harus melampaui hari kelulusan**!
 
 Hanya apabila sebuah sekolah memiliki tim guru-guru yang kompeten, apostolik, dan mencintai dengan sungguh, ia layak menyandang nama ‘Katolik.’
+
 ***
+
 Sembari saya menulis artikel ini, saya teringat akan percakapan saya dengan seorang kenalan beberapa tahun yang lalu. Karena dia adalah seorang Katolik yang taat, saya terkejut ketika mengetahui bahwa dia memilih untuk tidak menyekolahkan kedua putrinya di sekolah Katolik. “Mengapa demikian, Bob (bukan nama sebenarnya)?” saya terbingung-bingung. Jawaban yang dia berikan sangatlah singkat namun menusuk:
 
 >*Father*, saya menyekolahkan putri-putri saya di sebuah sekolah non-Katolik karena saya lebih memilih untuk mengetahui bahwa mereka diajar oleh setan—dengan demikian, saya dapat secara khusus menyisihkan waktu untuk membekali mereka dengan pendidikan iman kristiani yang memadai di rumah—daripada beranggapan bahwa mereka dibimbing oleh malaikat padahal, pada kenyataannya, mereka dididik oleh setan.
@@ -81,4 +89,3 @@ Jika Anda adalah orang tua Katolik yang berencana menyekolahkan anak Anda di sek
 [^12]:*Gravissimum Educationis*, 8.
 [^13]:Thomas Aquinas, [*ST* I, q. 20 a. 3 co.](https://www.newadvent.org/summa/1020.htm)
 [^14]:*Gravissimum Educationis*, 8.
-
