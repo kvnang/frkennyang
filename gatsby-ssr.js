@@ -52,6 +52,7 @@ export function onRenderBody({ setPreBodyComponents }) {
       }}
     />,
     <script
+      key="cf-analytics"
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js"
       data-cf-beacon='{"token": "5e4d44f2777e44d184490c0732ba7473"}'
