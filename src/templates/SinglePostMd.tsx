@@ -14,7 +14,6 @@ import { formatDate } from '../utils/helpers';
 import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
 import { PostProps } from '../types';
-import { inlineLink } from '../styles/Typography';
 import SEO from '../components/Seo';
 
 interface Props {
@@ -261,6 +260,7 @@ export default function SinglePost({ location, data: { post } }: Props) {
   const meta = [];
   if (post.frontmatter.date) meta.push(formatDate(post.frontmatter.date));
   if (categories?.length) meta.push(categories.join(', '));
+
   return (
     <>
       <SEO
@@ -370,6 +370,7 @@ export const pageQuery = graphql`
           publicURL
         }
       }
+      excerpt
     }
   }
 `;
