@@ -120,7 +120,7 @@ export default function HomeFeaturedMd() {
           frontmatter {
             title
             format
-            date(formatString: "MMMM D, YYYY")
+            date
             featuredImage {
               childImageSharp {
                 gatsbyImageData(aspectRatio: 1.777778)
