@@ -54,7 +54,7 @@ export function onRenderBody({ setPreBodyComponents }) {
     <script
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "b9ac248f2bba476d8e6132e2dcf7dabf"}'
+      data-cf-beacon='{"token": "5e4d44f2777e44d184490c0732ba7473"}'
     />,
   ]);
 }
