@@ -97,39 +97,11 @@ A few important notes:
 2. Ensure that Heading 1 is used only for the post title. For other headings, start with Heading 2.
 3. Every heading will be automatically hyperlinked, so that you can share the link of the post anchored to a specific heading. You can get this link by hovering over a specific heading, clicking the link icon on the left-hand side, and copy the URL on your browser.
 
-## 🚀 Development Quick Start
+## Web Analytics
 
-1.  **Pull Repository**
+Web Analytics are provided by Cloudflare. To view reports:
 
-    Get a fresh copy of the repository
-
-    ```shell
-    git clone https://github.com/kvnang/frkennyang.git
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd frkennyang/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+1. Log in to [Cloudflare](https://dash.cloudflare.com/login/)
+2. Select your account (`Kenny Ang`)
+3. Click `Web Analytics` on the right hand sidebar.
+4. Click the site (`fatherkenny.com`) to view analytics.
