@@ -189,7 +189,7 @@ export default function HomeFeaturedMd() {
             <div className="posts">
               <Slider {...settings}>
                 {posts.map((post: PostProps) => (
-                  <PostEntry post={post} showImage />
+                  <PostEntry key={post.id} post={post} showImage />
                 ))}
               </Slider>
             </div>

@@ -162,7 +162,7 @@ const Typography = styled.createGlobalStyle`
     margin: 0;
 
     &:not(:last-child) {
-      margin-bottom: 1.5rem;
+      margin-bottom: var(--p-spacing);
     }
   }
 
@@ -193,7 +193,7 @@ const Typography = styled.createGlobalStyle`
     }
 
     &:not(:last-child) {
-      margin-bottom: 1.5rem;
+      margin-bottom: var(--p-spacing);
     }
   }
 
@@ -308,23 +308,45 @@ const Typography = styled.createGlobalStyle`
     ul,
     ol {
       &:not(:last-child) {
-        margin-bottom: 1.5rem;
+        margin-bottom: var(--p-spacing);
       }
       li {
         &:not(:last-child) {
-          margin-bottom: 1.5rem;
+          margin-bottom: var(--p-spacing);
         }
       }
     }
 
     hr {
-      margin: 1.5rem 0;
+      margin: var(--p-spacing) 0;
       border-color: var(--grey);
       border-width: 1px;
     }
 
     a {
       ${inlineLink()};
+    }
+
+    // Table
+    table {
+      border-collapse: collapse;
+
+      &:not(:last-child) {
+        margin-bottom: var(--p-spacing);
+      }
+
+      td,
+      th {
+        padding: 0.5rem;
+        border-bottom: 1px solid var(--grey);
+      }
+
+      thead {
+        th {
+          background-color: var(--dark-grey);
+          border-bottom: 0;
+        }
+      }
     }
 
     // Gatsby Image
@@ -334,12 +356,12 @@ const Typography = styled.createGlobalStyle`
       // Caption
       & + em {
         display: block;
-        max-width: 50%;
+        /* max-width: 50%; */
         margin-left: auto;
         text-align: right;
         font-style: normal;
-        padding: 0.5rem 0;
-        border-bottom: 1px solid var(--grey);
+        padding: 0.5rem 0 0;
+        /* border-bottom: 1px solid var(--grey); */
         font-size: var(--font-size-small);
       }
     }
@@ -364,6 +386,10 @@ const Typography = styled.createGlobalStyle`
     }
 
     // Footnote
+
+    .footnotes {
+      font-size: var(--font-size-small);
+    }
 
     a.footnote-ref,
     a.footnote-backref {
