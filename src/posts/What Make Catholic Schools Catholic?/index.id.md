@@ -73,8 +73,6 @@ Jika Anda adalah orang tua Katolik yang berencana menyekolahkan anak Anda di sek
 
 _Terima kasih kepada [Prof. Anita Lie](https://scholar.google.com/citations?user=huC3y0gAAAAJ&hl=id) dari [Universitas Katolik Widya Mandala](https://ukwms.ac.id/?lang=en) yang telah memeriksa dan memberikan pendapatnya yang berharga atas artikel ini._
 
----
-
 [^1]: Lih. _Gravissimum Educationis_, 5: “Diantara segala upaya pendidikan sekolah mempunyai makna yang istimewa.”
 [^2]: _Gravissimum Educationis_, 4.
 [^3]: Lih. _Gravissimum Educationis_, 6: “Orang tualah yang pertama-tama mempunyai kewajiban dan hak yang pantang diganggu gugat untuk mendidik anak-anak mereka. Maka sudah seharusnyalah mereka sungguh-sungguh bebas dalam memilih sekolah-sekolah.”
