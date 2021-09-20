@@ -10,6 +10,6 @@ A polyglot, an [organist](https://www.youtube.com/watch?v=hygsiL9X_BY), and an a
 
 ## About This Website
 
-After over a year on several social media platforms, Fr. Kenny realized that they could only do so much. Before long, he longed for a home on the internet where he could express his thoughts more thoroughly in order to better proclaim Christ to his contemporaries.
+After over a year on several social media platforms, Fr. Kenny realized that they could only do so much. Before long, he yearned for a home on the internet where he could express his thoughts more thoroughly in order to better proclaim Christ to his contemporaries.
 
-This is the exact purpose of this personal website. It has been elegantly created in 2021 by Kevin Ang who, on his own and together with [Longbeard](https://www.longbeard.com/work/), had developed websites and brandings for scores of institutions within the Catholic Church and beyond.
+This is the exact purpose of this personal website. It was elegantly created in 2021 by Kevin Ang who, on his own and together with [Longbeard](https://www.longbeard.com/work/), had developed websites and brandings for scores of institutions within the Catholic Church and beyond.
