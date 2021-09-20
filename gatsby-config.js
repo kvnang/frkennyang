@@ -56,9 +56,17 @@ module.exports = {
               dataAttributes: true,
             },
           },
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank',
+              rel: 'noopener noreferrer',
+            },
+          },
         ],
       },
     },
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-sharp`,
       options: {

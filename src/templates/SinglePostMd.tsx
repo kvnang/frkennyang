@@ -142,80 +142,6 @@ const PostContentStyles = styled.div`
   li {
     line-height: 1.75;
   }
-
-  ul,
-  ol {
-    &:not(:last-child) {
-      margin-bottom: 1.5rem;
-    }
-    li {
-      &:not(:last-child) {
-        margin-bottom: 1.5rem;
-      }
-    }
-  }
-
-  hr {
-    margin: 1.5rem 0;
-    border-color: var(--grey);
-    border-width: 1px;
-  }
-
-  a {
-    ${inlineLink()};
-  }
-
-  // Gatsby Image
-  .gatsby-resp-image-wrapper {
-    max-width: initial !important;
-
-    // Caption
-    & + em {
-      display: block;
-      max-width: 50%;
-      margin-left: auto;
-      text-align: right;
-      font-style: normal;
-      padding: 0.5rem 0;
-      border-bottom: 1px solid var(--grey);
-      font-size: var(--font-size-small);
-    }
-  }
-
-  .gatsby-img-attributes {
-    &[style*='float'] {
-      width: 100%;
-      max-width: 45%;
-      margin: 0.25rem 1rem 1rem 0;
-
-      @media ${breakpoints.mobileOnly} {
-        float: none !important;
-        margin: 0 !important;
-        max-width: 100%;
-      }
-    }
-
-    &[style*='float: right'] {
-      margin-left: 1rem;
-      margin-right: 0;
-    }
-  }
-
-  // Footnote
-
-  a.footnote-ref,
-  a.footnote-backref {
-    text-decoration: none;
-    color: var(--gold);
-    font-weight: bold;
-  }
-
-  // Title link
-  a.anchor svg {
-    fill: var(--color-accent);
-    height: 1rem;
-    width: auto;
-  }
 `;
 
 export default function SinglePost({ location, data: { post } }: Props) {
@@ -313,7 +239,7 @@ export default function SinglePost({ location, data: { post } }: Props) {
             </div>
           </div>
           <div className="post-img">{featuredImage}</div>
-          <PostContentStyles>
+          <PostContentStyles className="text-content">
             {post.html ? (
               // eslint-disable-next-line react/no-danger
               <div dangerouslySetInnerHTML={{ __html: post.html }} />

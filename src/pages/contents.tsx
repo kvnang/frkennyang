@@ -7,7 +7,7 @@ import {
   Configure,
   Menu,
 } from 'react-instantsearch-dom';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 import Hits from '../components/algolia/Hits';
 import SEO from '../components/Seo';
 

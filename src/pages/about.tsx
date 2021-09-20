@@ -106,6 +106,7 @@ export default function AboutPage({ data }: Props) {
               <div
                 // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{ __html: introHTML }}
+                className="text-content"
               />
             </div>
           </div>
@@ -118,6 +119,7 @@ export default function AboutPage({ data }: Props) {
               <div
                 // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{ __html: bodyHTML }}
+                className="text-content"
               />
             </div>
           </div>
