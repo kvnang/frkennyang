@@ -46,6 +46,7 @@ They are similar insofar as they are priests, yet—in many other ways—**they 
 | may own personal property and have to pay taxes              | do not own personal property (i.e., everything belongs to the community) |
 | belong to a [*presbyterium*](https://www.catholicculture.org/culture/library/view.cfm?recnum=6553) (a body of priests) under the authority of a bishop | belong to a community under the authority of a superior (e.g., an abbot) |
 
+
 7. ## What promises do diocesan priests have to make?
 
 Diocesan priests made three promises on the day of their [diaconal ordination](https://www.newadvent.org/cathen/04647c.htm). They promised 
