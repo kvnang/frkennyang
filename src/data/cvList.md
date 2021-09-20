@@ -279,6 +279,7 @@
 - ### Centro de Apoio a Deficientes João Paulo II
   #### Caretaker
   ##### JUNE 2017, FÁTIMA (PORTUGAL)
+  I took care of those living with mental illnesses by changing their soiled bedding, feeding them, taking them out for a walk, and entertaining them.
 - ### Catholic Newman Center
   #### Organist
   ##### 2010 - 2011, MISSOURI (USA)
