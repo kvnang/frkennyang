@@ -32,7 +32,6 @@ Sederhananya, imam diosesan adalah **imam yang mengabdikan hidupnya untuk melaya
 Saya sendiri adalah imam [Keuskupan Surabaya](http://www.gcatholic.org/dioceses/diocese/sura0.htm). Dengan kata lain, saya bekerja sama dengan [uskup](https://www.catholic.com/encyclopedia/bishop) saya, [Vincentius Sutikno Wisaksono](http://www.catholic-hierarchy.org/bishop/bwisak.html), dalam melayani umat Katolik yang berada dalam wilayah keuskupan ini. Namun, ini tidak berarti bahwa pelayanan saya dibatasi oleh lingkup keuskupan ini. **Imamat saya, sebaliknya, “ditujukan kepada semua bangsa di segala zaman, dan tak mungkin dipersempit oleh batas-batas suku, bangsa atau kurun waktu”** ([PO, 10](https://katolisitas.org/presbyterorum-ordinis/)).
 
 ![Altomonte priests group picture](altomonte_priests.jpg)
-
 _Photo courtesy of Collegio Sacerdotale Altomonte (Rome)_
 
 6. ## Apa perbedaan antara imam diosesan dan imam tarekat religius?
@@ -55,8 +54,7 @@ Para imam diosesan mengucapkan tiga janji pada hari mereka [ditahbiskan menjadi 
 - untuk merayakan [Ibadat Harian](https://www.usccb.org/prayer-and-worship/liturgy-of-the-hours) (juga dikenal sebagai Brevir atau [*Divine Office*](https://www.newadvent.org/cathen/11219a.htm)) bagi kebaikan umat Allah dan seluruh dunia; serta
 - untuk menaati uskup mereka dan para penerusnya.
 
-![Altomonte priests group picture](ang_first_mass_12b.jpg)
-
+![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg)
 _Photo courtesy of [St. Yakobus' Parish](https://www.instagram.com/santoyakobussby/) (Surabaya)_
 
 8. ## Sebagai seorang imam, apa yang Anda lakukan sehari-hari?
