@@ -29,20 +29,14 @@ interface Inputs {
   eventLocation: string;
   venue: string;
   venueCapacity: string;
-  // address: {
-  //   street: string;
-  //   street2: string;
-  //   state: string;
-  //   zip: string;
-  //   country: string;
-  //   airport: string;
-  // };
-  addressStreet: string;
-  addressStreet2: string;
-  addressState: string;
-  addressZip: string;
-  addressCountry: string;
-  addressAirport: string;
+  address: {
+    street: string;
+    street2: string;
+    state: string;
+    zip: string;
+    country: string;
+    airport: string;
+  };
   attendance: number;
   diocese: string;
   topic: string;
@@ -64,12 +58,14 @@ const defaultValues = {
   eventLocation: 'online',
   venue: '',
   venueCapacity: '',
-  addressStreet: '',
-  addressStreet2: '',
-  addressState: '',
-  addressZip: '',
-  addressCountry: 'Indonesia',
-  addressAirport: '',
+  address: {
+    street: '',
+    street2: '',
+    state: '',
+    zip: '',
+    country: 'Indonesia',
+    airport: '',
+  },
   attendance: '',
   diocese: '',
   topic: '',
@@ -406,158 +402,190 @@ export default function InvitePage() {
                           </div>
                         </fieldset>
                       </div>
-                      {eventLocation !== 'online' && (
-                        <>
-                          <div className="form-field half">
-                            <label htmlFor="venue">
-                              <span>Venue *</span>
-                              <input
-                                type="text"
-                                id="venue"
-                                placeholder="Venue"
-                                required
-                                aria-invalid={!!errors.venue}
-                                {...register('venue', {
-                                  validate: {
-                                    required: (value) =>
-                                      validateIfInPersonEvent(value),
-                                  },
-                                })}
-                              />
-                            </label>
+                      <div
+                        className="form-field half"
+                        style={{
+                          display: eventLocation === 'online' ? 'none' : '',
+                        }}
+                      >
+                        <label htmlFor="venue">
+                          <span>Venue *</span>
+                          <input
+                            type="text"
+                            id="venue"
+                            placeholder="Venue"
+                            required
+                            aria-invalid={!!errors.venue}
+                            {...register('venue', {
+                              validate: {
+                                required: (value) =>
+                                  validateIfInPersonEvent(value),
+                              },
+                            })}
+                          />
+                        </label>
+                      </div>
+                      <div
+                        className="form-field half"
+                        style={{
+                          display: eventLocation === 'online' ? 'none' : '',
+                        }}
+                      >
+                        <label htmlFor="venue-capacity">
+                          <span>Venue Capacity</span>
+                          <input
+                            type="number"
+                            id="venue-capacity"
+                            placeholder="Venue Capacity"
+                            aria-invalid={!!errors.venueCapacity}
+                            {...register('venueCapacity')}
+                          />
+                        </label>
+                      </div>
+                      <div
+                        className="form-field"
+                        style={{
+                          display: eventLocation === 'online' ? 'none' : '',
+                        }}
+                      >
+                        <label htmlFor="venue-address-street">
+                          <span>Venue Address</span>
+                          <input
+                            type="text"
+                            id="venue-address-street"
+                            placeholder="Street *"
+                            aria-invalid={!!errors.address?.street}
+                            {...register('address.street', {
+                              validate: {
+                                required: (value) =>
+                                  validateIfInPersonEvent(value),
+                              },
+                            })}
+                          />
+                        </label>
+                      </div>
+                      <div
+                        className="form-field"
+                        style={{
+                          display: eventLocation === 'online' ? 'none' : '',
+                        }}
+                      >
+                        <label htmlFor="venue-address-street-2">
+                          <span className="visually-hidden">
+                            Venue Address (Street Line 2)
+                          </span>
+                          <input
+                            type="text"
+                            id="venue-address-street-2"
+                            placeholder="Street Line 2"
+                            aria-invalid={!!errors.address?.street2}
+                            {...register('address.street2')}
+                          />
+                        </label>
+                      </div>
+                      <div
+                        className="form-field half"
+                        style={{
+                          display: eventLocation === 'online' ? 'none' : '',
+                        }}
+                      >
+                        <label htmlFor="venue-address-state">
+                          <span className="visually-hidden">
+                            Venue State / Province
+                          </span>
+                          <input
+                            type="text"
+                            id="venue-address-state"
+                            placeholder="State / Province *"
+                            aria-invalid={!!errors.address?.state}
+                            {...register('address.state', {
+                              validate: {
+                                required: (value) =>
+                                  validateIfInPersonEvent(value),
+                              },
+                            })}
+                          />
+                        </label>
+                      </div>
+                      <div
+                        className="form-field half"
+                        style={{
+                          display: eventLocation === 'online' ? 'none' : '',
+                        }}
+                      >
+                        <label htmlFor="venue-address-zip">
+                          <span className="visually-hidden">
+                            Venue ZIP / Postal Code
+                          </span>
+                          <input
+                            type="text"
+                            id="venue-address-zip"
+                            placeholder="ZIP / Postal Code *"
+                            aria-invalid={!!errors.address?.zip}
+                            {...register('address.zip', {
+                              validate: {
+                                required: (value) =>
+                                  validateIfInPersonEvent(value),
+                              },
+                            })}
+                          />
+                        </label>
+                      </div>
+                      <div
+                        className="form-field half"
+                        style={{
+                          display: eventLocation === 'online' ? 'none' : '',
+                        }}
+                      >
+                        {/* Using htmlFor for some reason causes Netlify to not recognize the "State" label, which makes it messy */}
+                        {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
+                        <label>
+                          <span className="visually-hidden">Venue Country</span>
+                          <div className="select-wrapper">
+                            <select
+                              // id="venue-address-country"
+                              aria-invalid={!!errors.address?.country}
+                              {...register('address.country', {
+                                validate: {
+                                  required: (value) =>
+                                    validateIfInPersonEvent(value),
+                                },
+                              })}
+                            >
+                              {Object.values(countries).map((country) => (
+                                <option value={country.name} key={country.code}>
+                                  {country.name}
+                                </option>
+                              ))}
+                            </select>
                           </div>
-                          <div className="form-field half">
-                            <label htmlFor="venue-capacity">
-                              <span>Venue Capacity</span>
-                              <input
-                                type="number"
-                                id="venue-capacity"
-                                placeholder="Venue Capacity"
-                                aria-invalid={!!errors.venueCapacity}
-                                {...register('venueCapacity')}
-                              />
-                            </label>
-                          </div>
-                          <div className="form-field">
-                            <label htmlFor="venue-address-street">
-                              <span>Venue Address</span>
-                              <input
-                                type="text"
-                                id="venue-address-street"
-                                placeholder="Street *"
-                                aria-invalid={!!errors.addressStreet}
-                                {...register('addressStreet', {
-                                  validate: {
-                                    required: (value) =>
-                                      validateIfInPersonEvent(value),
-                                  },
-                                })}
-                              />
-                            </label>
-                          </div>
-                          <div className="form-field">
-                            <label htmlFor="venue-address-street-2">
-                              <span className="visually-hidden">
-                                Venue Address (Street Line 2)
-                              </span>
-                              <input
-                                type="text"
-                                id="venue-address-street-2"
-                                placeholder="Street Line 2"
-                                aria-invalid={!!errors.addressStreet2}
-                                {...register('addressStreet2')}
-                              />
-                            </label>
-                          </div>
-                          <div className="form-field half">
-                            <label htmlFor="venue-address-state">
-                              <span className="visually-hidden">
-                                Venue State / Province
-                              </span>
-                              <input
-                                type="text"
-                                id="venue-address-state"
-                                placeholder="State / Province"
-                                aria-invalid={!!errors.addressState}
-                                {...register('addressState', {
-                                  validate: {
-                                    required: (value) =>
-                                      validateIfInPersonEvent(value),
-                                  },
-                                })}
-                              />
-                            </label>
-                          </div>
-                          <div className="form-field half">
-                            <label htmlFor="venue-address-zip">
-                              <span className="visually-hidden">
-                                Venue ZIP / Postal Code
-                              </span>
-                              <input
-                                type="text"
-                                id="venue-address-zip"
-                                placeholder="ZIP / Postal Code"
-                                aria-invalid={!!errors.addressZip}
-                                {...register('addressZip', {
-                                  validate: {
-                                    required: (value) =>
-                                      validateIfInPersonEvent(value),
-                                  },
-                                })}
-                              />
-                            </label>
-                          </div>
-                          <div className="form-field half">
-                            {/* Using htmlFor for some reason causes Netlify to not recognize the "State" label, which makes it messy */}
-                            {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                            <label>
-                              <span className="visually-hidden">
-                                Venue Country
-                              </span>
-                              <div className="select-wrapper">
-                                <select
-                                  // id="venue-address-country"
-                                  aria-invalid={!!errors.addressCountry}
-                                  {...register('addressCountry', {
-                                    validate: {
-                                      required: (value) =>
-                                        validateIfInPersonEvent(value),
-                                    },
-                                  })}
-                                >
-                                  {Object.values(countries).map((country) => (
-                                    <option
-                                      value={country.name}
-                                      key={country.code}
-                                    >
-                                      {country.name}
-                                    </option>
-                                  ))}
-                                </select>
-                              </div>
-                            </label>
-                          </div>
-                          <div className="form-field half">
-                            <label htmlFor="venue-address-airport">
-                              <span className="visually-hidden">
-                                Venue Nearest Major Airport
-                              </span>
-                              <input
-                                type="text"
-                                id="venue-address-airport"
-                                placeholder="Nearest Major Airport"
-                                aria-invalid={!!errors.addressAirport}
-                                {...register('addressAirport', {
-                                  validate: {
-                                    required: (value) =>
-                                      validateIfInPersonEvent(value),
-                                  },
-                                })}
-                              />
-                            </label>
-                          </div>
-                        </>
-                      )}
+                        </label>
+                      </div>
+                      <div
+                        className="form-field half"
+                        style={{
+                          display: eventLocation === 'online' ? 'none' : '',
+                        }}
+                      >
+                        <label htmlFor="venue-address-airport">
+                          <span className="visually-hidden">
+                            Venue Nearest Major Airport
+                          </span>
+                          <input
+                            type="text"
+                            id="venue-address-airport"
+                            placeholder="Nearest Major Airport"
+                            aria-invalid={!!errors.address?.airport}
+                            {...register('address.airport', {
+                              validate: {
+                                required: (value) =>
+                                  validateIfInPersonEvent(value),
+                              },
+                            })}
+                          />
+                        </label>
+                      </div>
+
                       <div className="form-field half">
                         <label htmlFor="attendance">
                           <span>Expected Attendance (Persons) *</span>
