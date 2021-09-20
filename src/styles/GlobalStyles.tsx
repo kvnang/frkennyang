@@ -32,6 +32,7 @@ const GlobalStyles = styled.createGlobalStyle`
     --font-size-h3: 1.728rem;
     --font-size-h4: 1.44rem;
     --font-size-h5: 1rem;
+    --p-spacing: 1.5em;
 
     /* Grid proportions */
     --gutter: 14px;

@@ -120,6 +120,7 @@ const HeroStyles = styled.div`
       @media ${breakpoints.laptop} {
         width: 100%;
         max-width: 400px;
+        min-width: 350px;
         transform: translateX(0);
       }
     }
