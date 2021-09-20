@@ -32,7 +32,6 @@ Simply speaking, diocesan priests are **priests who dedicate their life to servi
 In my case, I am a priest of the [Diocese of Surabaya](http://www.gcatholic.org/dioceses/diocese/sura0.htm). In other words, I collaborate with my [bishop](https://www.catholic.com/encyclopedia/bishop), H.E. [Vincentius Sutikno Wisaksono](http://www.catholic-hierarchy.org/bishop/bwisak.html), in taking care of the Catholic faithful residing in the territory of this diocese. This does not mean, however, that my ministry is limited to the confines of this diocese. **My priesthood, rather, is “for all peoples and all times, and it knows no limits of blood, nationality or time”** ([PO, 10](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651207_presbyterorum-ordinis_en.html)).
 
 ![Altomonte priests group picture](altomonte_priests.jpg)
-
 _Photo courtesy of Collegio Sacerdotale Altomonte (Rome)_
 
 6. ## How are diocesan priests different from religious order priests?
@@ -55,8 +54,7 @@ Diocesan priests made three promises on the day of their [diaconal ordination](h
 - to celebrate the [Liturgy of the Hours](https://www.usccb.org/prayer-and-worship/liturgy-of-the-hours) (also known as the Breviary or the [Divine Office](https://www.newadvent.org/cathen/11219a.htm)) for God’s people and for the entire world; and
 - to obey their bishop and his successors.
 
-![Altomonte priests group picture](ang_first_mass_12b.jpg)
-
+![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg)
 _Photo courtesy of [St. Yakobus' Parish](https://www.instagram.com/santoyakobussby/) (Surabaya)_
 
 8. ## As a priest, what do you do all day?
