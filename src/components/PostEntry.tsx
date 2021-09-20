@@ -205,6 +205,9 @@ export default function PostEntry({
   if (format === 'list' && post.frontmatter.format) {
     meta.push(post.frontmatter.format);
   }
+  if (post.timeToRead) {
+    meta.push(`${post.timeToRead.toString()} min read`);
+  }
 
   return (
     <PostStyles className={`post format-${format}`}>

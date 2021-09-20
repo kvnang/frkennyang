@@ -26,4 +26,5 @@ export interface PostProps {
     slug: string;
     lang: string;
   };
+  timeToRead: number;
 }
