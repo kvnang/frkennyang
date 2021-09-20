@@ -1,11 +1,12 @@
 ---
 title: What Makes Catholic Schools Catholic?
-featuredImage: crayons.jpg
+featuredImage: ![hand coloring with crayons](crayons.jpg)
 format: Article
-date: 2020-09-19
+date: 2020-09-21
 category:
   - Education
-excerpt:
+  - Parenting
+excerpt: Three characteristics of authentic Catholic schools in light of Gravissimum Educationis are consciousness of being part of the Church, harmony of faith and reason, and conviction that duty of teaching is a vocation. Catholic teachers should be competent, apostolic, and loving.
 ---
 
 People who are acquainted with me know that, until university, **I never went to a Catholic school**. The reason was quite simple: the Catholic school in my district was not good enough to meet my parents’ expectations.
@@ -22,7 +23,7 @@ Children’s education no doubt occupies one of the top positions in Catholic pa
 
 Are you a **Catholic parent** trying to pick a school to enroll your children to? Are you a **school administrator**, a **teacher**, a **parish priest**, or a **chaplain** involved, in one way or another, in running a Catholic school? Or, are you an **ordinary Catholic** seeking to better the panorama of Catholic schools in your area? If you answer in the affirmative, this article is for you. Here, I will elaborate on three characteristics of authentic Catholic schools in light of a timeless Vatican II document titled [_Gravissimum Educationis_](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_gravissimum-educationis_en.html), published in 1965.
 
-# 1. Being Part of the Church
+## 1. Being Part of the Church
 
 The first trait that sets Catholic schools apart from other educational institutions is **their consciousness of being part of the Church**. Non-Catholic schools might fight solely to follow the market trend or meet the demands of their ambitious board of directors. A truly Catholic school, however, will never forget that it belongs to the very Church founded by Christ. Its mission is no different than the Church’s. Every Catholic school is a means—the most important one indeed[^1]—with which the Church imparts Christian education.[^2]
 
@@ -30,19 +31,19 @@ A school’s consciousness of being part of the Church would in turn generate th
 
 Only when a school is conscious of being part of the Church can it be worthily called Catholic.
 
-# 2. Faith-Reason Harmony
+## 2. Faith-Reason Harmony
 
 Authentically Catholic schools are also characterized by **harmony of faith and reason**. It takes little effort to realize that ‘integral education’ and ‘interdisciplinary approach’ have become buzz phrases in today’s educational milieu—be it non-Catholic or Catholic. Yet I would argue, though, that an education can be truly integral only if it is capable of harmonizing faith and reason. **A curriculum that excludes Christian faith—to put it bluntly—can never be integral**. **Worse still are schools that bear the title ‘Catholic’ but provide no or shamefully substandard formation in Catholic faith**.
 
 At this point, it seems necessary to clarify that harmony of faith and reason does not deprive secular sciences—such as physics, biology, and history—of their respective methodological independence. Biology will not turn into theology. Physics will also remain as such. These subjects must still be studied “according to their own principles, method, and liberty of scientific inquiry, in such a way that an ever deeper understanding in these fields may be obtained.”[^5]
 
-![Cool](microscope.jpg)
+![Cool](microscope.jpg '#float=right')
 
 The harmony of faith and reason does imply, though, that **Christian formation and instruction in secular subjects must go hand in hand**.[^6] An integral education should aim at developing the human person in all his dimensions—e.g., intellectual, emotional, cultural, moral, and professional.[^7] Consequently, academic outcome—as crucial as it is—is never the sole parameter to gauge how Catholic a school is. A Catholic school that tops the ranking of schools based on final exam scores, for instance, may not necessarily be authentically Catholic. Why so? **Because human being is more than just intellect**. Apart from intellect, I have a body which, in a certain sense, also ought to be educated. I have senses, which must be put into contact with the beautiful. I have will, which ought to be impregnated by noble intentions. I experience emotions, which have to be put in conformity with reason. My intellect, in turn, should also be enlightened by faith.
 
 Only when a school provides an integral education marked by harmony of faith and reason can it be worthily called Catholic.
 
-# 3. Teaching as a Vocation
+## 3. Teaching as a Vocation
 
 The last feature of a genuinely Catholic school is its conviction that its **duty of teaching is a vocation**.[^8] Granted: this idea is not exclusively Catholic. Non-Catholic Christian or even non-Christian teachers may sincerely believe that they have been called by God—or by another being or beings they regard as divine—to teach. Yet an article on Catholic schools would not be complete without a reference to teachers, upon whom “the Catholic school depends … almost entirely for the accomplishment of its goals and programs.”[^9]
 
