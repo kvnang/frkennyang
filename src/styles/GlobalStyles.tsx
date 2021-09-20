@@ -40,7 +40,7 @@ const GlobalStyles = styled.createGlobalStyle`
     /* Container Width */
     --container-width: 90vw;
 
-    --post-gap: 0.33rem;
+    --post-gap: 0.5rem;
 
     @media ${breakpoints.tablet} {
       --section-padding: 3rem;

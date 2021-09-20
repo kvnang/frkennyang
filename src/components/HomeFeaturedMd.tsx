@@ -50,7 +50,7 @@ const HomeFeaturedStyles = styled.section`
       margin: 1rem -0.5rem 0;
 
       @media (hover: none) and (pointer: coarse) {
-        display: none;
+        display: none !important;
       }
 
       li {
