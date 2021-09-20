@@ -2,7 +2,7 @@
 title: What Makes Catholic Schools Catholic?
 featuredImage: crayons.jpg
 format: Article
-date: 2020-09-21
+date: 2021-09-23
 category:
   - Education
   - Parenting
