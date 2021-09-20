@@ -7,6 +7,7 @@ category:
   - Homily
   - Mass
 excerpt:
+youtube:
 ---
 
 First Reading: Lev 13:1–2; 44–46

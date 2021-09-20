@@ -184,7 +184,6 @@ export default function InvitePage() {
   }
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
-    console.log(data);
     setLoading(true);
 
     const formData = encode(data);
