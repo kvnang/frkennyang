@@ -1,9 +1,12 @@
-FAQs on My Priesthood
-
-ang_first_mass_19b.jpg
-
-Excerpt: This article covers my priesthood, why priests are called “father,” the differences between diocesan priests and religious order priests, the promises made by diocesan priests, my daily life, and the reasons I wear priestly clothing.
-
+---
+title: FAQs on My Priesthood
+featuredImage: ang_first_mass_19b.jpg
+format: Article
+date: 2020-09-20
+category:
+  - Priesthood
+excerpt: This article covers my priesthood, why priests are called “father,” the differences between diocesan priests and religious order priests, the promises made by diocesan priests, my daily life, and the reasons I wear priestly clothing.
+---
 1. ## Who are you?
 
 I am a **Catholic priest**. On who a Catholic priest is, check out [this article](https://www.catholic.com/encyclopedia/priest).
