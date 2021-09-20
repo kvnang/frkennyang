@@ -13,13 +13,15 @@ export interface PostProps {
     title: string;
     format: string;
     date: string;
-    featuredImage: {
+    featuredImage?: {
       childImageSharp: {
         gatsbyImageData: IGatsbyImageData;
       };
+      publicURL: string;
     };
     youtube?: string;
     category?: string[];
+    excerpt?: string;
   };
   html: string;
   fields: {

@@ -238,7 +238,13 @@ export default function PostEntry({
         )}
         <div className="post-details">
           <h3 className="post-title h4">{post.frontmatter.title}</h3>
-          <div className="post-excerpt">{post.excerpt ? post.excerpt : ''}</div>
+          <div className="post-excerpt">
+            <p>
+              {post.frontmatter.excerpt
+                ? post.frontmatter.excerpt
+                : post.excerpt || ''}
+            </p>
+          </div>
           <p className="post-meta">
             <small>{meta.join(' ∙ ')}</small>
           </p>
