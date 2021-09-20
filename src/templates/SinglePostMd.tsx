@@ -335,7 +335,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         format
-        date(formatString: "MMMM D, YYYY")
+        date
         category
         youtube
         featuredImage {
