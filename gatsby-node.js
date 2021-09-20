@@ -194,7 +194,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       featuredImage: String
       format: String!
       date: Date!
-      youtube: string
+      youtube: String
       category: [String!]
     }
   `;
