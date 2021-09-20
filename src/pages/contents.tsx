@@ -5,9 +5,10 @@ import {
   InstantSearch,
   SearchBox,
   Configure,
-  Menu,
+  // Menu,
 } from 'react-instantsearch-dom';
 // import { Helmet } from 'react-helmet';
+import Menu from '../components/algolia/Menu';
 import Hits from '../components/algolia/Hits';
 import SEO from '../components/Seo';
 
