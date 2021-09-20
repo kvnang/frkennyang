@@ -266,7 +266,11 @@ export const pageQuery = graphql`
         youtube
         featuredImage {
           childImageSharp {
-            gatsbyImageData(aspectRatio: 1.6667, layout: FULL_WIDTH)
+            gatsbyImageData(
+              aspectRatio: 1.6667
+              layout: FULL_WIDTH
+              placeholder: BLURRED
+            )
           }
         }
       }
