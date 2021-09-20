@@ -1,31 +1,18 @@
 ## Education
 
 - ### Pontifical University of the Holy Cross
-
   #### Licentiate in Dogmatic Theology
-
   ##### 2020 - (in progress), ROME (ITALY)
-
 - ### University of Navarra
-
   #### Baccalaureate in Philosophy
-
   ##### 2013 - 2015, 2018 - 2019, PAMPLONA (SPAIN)
-
   9.87 GPA (out of 10)
-
 - ### University of Navarra
-
   #### Baccalaureate in Theology
-
   ##### 2015 - 2018, PAMPLONA (SPAIN)
-
   9.85 GPA (out of 10)
-
 - ### Missouri Western State University
-  
   ##### 2010 - 2012, MISSOURI (USA)
-  
   Music Performance, 4.0 GPA (out of 4)
 
 ## Languages
