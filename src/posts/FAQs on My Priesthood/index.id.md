@@ -46,6 +46,7 @@ Mereka serupa karena keduanya adalah imam, namun—dalam banyak hal lain—**mer
 | bisa memiliki harta pribadi dan dikenakan pajak              | tidak memiliki harta pribadi (dengan kata lain, segala sesuatu dimiliki bersama) |
 | tergabung dalam [*presbyterium*](https://www.catholicculture.org/culture/library/view.cfm?recnum=6553) (kelompok imam) di bawah otoritas seorang uskup | tergabung dalam komunitas di bawah otoritas seorang superior (misalnya, abas) |
 
+
 7. ## Janji-janji apa saja yang harus diucapkan oleh imam diosesan?
 
 Para imam diosesan mengucapkan tiga janji pada hari mereka [ditahbiskan menjadi diakon](https://www.newadvent.org/cathen/04647c.htm). Mereka berjanji
