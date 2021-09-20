@@ -101,6 +101,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#e2a93a`,
+        showSpinner: false,
+      },
+    },
+    {
       // This plugin must be placed last in your list of plugins to ensure that it can query all the GraphQL data
       resolve: `gatsby-plugin-algolia`,
       options: {
@@ -134,6 +141,7 @@ module.exports = {
                     slug
                     lang
                   }
+                  timeToRead
                   rawMarkdownBody
                   parent {
                     ... on File {

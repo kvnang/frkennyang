@@ -45,10 +45,11 @@ const SocialStyles = styled.div`
     align-items: center;
     justify-content: center;
     color: var(--active-color);
+    transition: color var(--transition);
 
     &:hover,
     &:focus {
-      color: var(--gold);
+      color: var(--color-accent);
     }
   }
 
@@ -57,9 +58,6 @@ const SocialStyles = styled.div`
     transition: var(--transition);
     height: 1.25rem;
     width: auto;
-
-    @media ${breakpoints.laptop} {
-    }
   }
 
   &.dark a {
