@@ -1,9 +1,12 @@
-FAQs on My Priesthood
-
-ang_first_mass_19b.jpg
-
-Excerpt: Artikel ini membahas imamat saya, mengapa imam disebut “father”, perbedaan antara imam diosesan dan imam tarekat religius, janji-janji yang diucapkan oleh imam diosesan, kehidupan sehari-hari saya, dan alasan saya mengenakan busana imam.
-
+---
+title: FAQs Tentang Imamat Saya
+featuredImage: ang_first_mass_19b.jpg
+format: Article
+date: 2020-09-20
+category:
+  - Priesthood
+excerpt: Artikel ini membahas imamat saya, mengapa imam disebut “father”, perbedaan antara imam diosesan dan imam tarekat religius, janji-janji yang diucapkan oleh imam diosesan, kehidupan sehari-hari saya, dan alasan saya mengenakan busana imam.
+---
 1. ## Siapa Anda?
 
 Saya adalah seorang **imam Katolik**. Mengenai identitas seorang imam Katolik, baca [artikel ini](https://www.catholic.com/encyclopedia/priest).
