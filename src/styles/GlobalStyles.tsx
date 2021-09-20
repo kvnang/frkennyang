@@ -108,6 +108,10 @@ const GlobalStyles = styled.createGlobalStyle`
         flex: 1;
       }
     }
+
+    &.page-contents {
+      --color-bg: var(--offwhite);
+    }
   }
 
   @media (hover: hover) {

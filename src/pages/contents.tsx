@@ -7,7 +7,7 @@ import {
   Configure,
   // Menu,
 } from 'react-instantsearch-dom';
-// import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import Menu from '../components/algolia/Menu';
 import Hits from '../components/algolia/Hits';
 import SEO from '../components/Seo';
@@ -18,12 +18,27 @@ const searchClient = algoliasearch(
 );
 
 const IntroStyles = styled.section`
+  background-color: var(--black);
+  position: relative;
+  z-index: 0;
+
   .inner {
     --width-xs: 12;
     --width-md: 8;
     --offset-md: 2;
     --width-lg: 6;
     --offset-lg: 3;
+  }
+
+  &::before {
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 200%;
+    background-color: var(--black);
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 `;
 
@@ -48,11 +63,11 @@ const SearchFilterStyles = styled.div`
   flex-flow: wrap;
   align-items: center;
   max-width: 700px;
-  margin: -1rem;
+  margin: -0.5rem -1rem;
 
   .search,
   .menu {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .search {
@@ -61,7 +76,7 @@ const SearchFilterStyles = styled.div`
   }
 
   .menu {
-    min-width: 120px;
+    min-width: 100px;
     margin-left: auto;
   }
 `;
@@ -72,6 +87,9 @@ const SearchStyles = styled.div`
       position: relative;
 
       input[type='search'] {
+        padding-right: 3rem;
+        text-overflow: ellipsis;
+
         &::-webkit-search-cancel-button {
           display: none;
         }
@@ -146,6 +164,7 @@ export default function ContentsPage() {
   return (
     <main>
       <SEO title="Contents" />
+      <Helmet bodyAttributes={{ class: 'page-contents footer-light' }} />
       <InstantSearch searchClient={searchClient} indexName="Posts">
         <Configure hitsPerPage={9} />
         <IntroStyles className="page-p-t section-p-b">
