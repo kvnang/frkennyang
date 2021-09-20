@@ -38,6 +38,13 @@ const HeroStyles = styled.section`
     margin-bottom: 10%;
     position: relative;
 
+    @media ${breakpoints.tabletL} {
+      padding-right: 2.5rem;
+    }
+    @media ${breakpoints.laptop} {
+      padding-right: 0;
+    }
+
     &::before {
       content: none;
       height: 200%;
@@ -102,6 +109,10 @@ const HeroStyles = styled.section`
 
     @media ${breakpoints.tablet} {
       margin-top: -22rem;
+    }
+
+    @media ${breakpoints.tabletL} {
+      margin-top: -34rem;
     }
 
     @media ${breakpoints.laptop} {

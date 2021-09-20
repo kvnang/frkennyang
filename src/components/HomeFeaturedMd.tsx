@@ -1,5 +1,5 @@
 import { graphql, Link, useStaticQuery } from 'gatsby';
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import Slider from 'react-slick';
 import styled from 'styled-components';
 import { LangContext } from './LangContext';
@@ -47,17 +47,19 @@ const HomeFeaturedStyles = styled.section`
       list-style: none;
       padding-left: 0;
       text-align: right;
-      margin: 1rem -0.5rem 0;
+      margin: 1rem -1.125rem 0;
 
       li {
         display: inline-block;
-        padding: 0.5rem;
+        padding: 1.125rem;
+        line-height: 1;
 
         button {
           color: transparent;
           text-indent: -9999px;
-          height: 0.5rem;
-          width: 0.5rem;
+          height: 0.75rem;
+          width: 0.75rem;
+          line-height: 1;
           background-color: var(--grey);
           border-radius: 50%;
           padding: 0;
