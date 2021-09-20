@@ -2,7 +2,7 @@
 title: Apa yang Menjadikan Sebuah Sekolah Katolik ‘Katolik’?
 featuredImage: crayons.jpg
 format: Article
-date: 2020-09-19
+date: 2021-09-23
 category:
   - Education
   - Parenting
