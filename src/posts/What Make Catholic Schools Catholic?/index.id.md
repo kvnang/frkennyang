@@ -1,6 +1,6 @@
 ---
 title: Apa yang Menjadikan Sebuah Sekolah Katolik ‘Katolik’?
-featuredImage: ![Hand coloring with crayons](crayons.jpg)
+featuredImage: crayons.jpg
 format: Article
 date: 2020-09-19
 category:
@@ -9,21 +9,21 @@ category:
 excerpt: Tiga ciri sekolah Katolik yang sejati menurut Gravissimum Educationis adalah kesadaran menjadi bagian dari Gereja, keselarasan iman-akal budi, dan keyakinan bahwa tugas mengajar adalah panggilan. Guru Katolik haruslah kompeten, apostolik, dan penuh kasih.
 ---
 
-Mereka yang mengenal saya tahu bahwa, sebelum memasuki jenjang universitas, **saya tidak pernah belajar di sekolah Katolik**. Alasannya cukup sederhana: sekolah Katolik di dekat tempat saya tinggal tidak memenuhi ekspektasi orang tua saya. 
+Mereka yang mengenal saya tahu bahwa, sebelum memasuki jenjang universitas, **saya tidak pernah belajar di sekolah Katolik**. Alasannya cukup sederhana: sekolah Katolik di dekat tempat saya tinggal tidak memenuhi ekspektasi orang tua saya.
 
 Saya prihatin dengan kenyataan bahwa banyak sekolah Katolik yang tidak berperilaku sesuai dengan namanya. Tidak hanya ada ‘umat Katolik KTP’ di sekitar kita; ternyata, ada banyak juga ‘sekolah Katolik KTP.’ Kata-kata berikut dari seorang kudus dari abad kedua puluh mengungkapkan keadaan ini dengan jelas:
 
 > Saya harus mengakui bahwa saya tidak menyukai ungkapan ‘sekolah Katolik,’ ‘sekolah Gereja,’ dll., meskipun saya menghormati mereka yang berpikiran lain. Saya lebih menyukai suatu hal yang ditonjolkan karena buahnya, bukan karena namanya.
-> 
+>
 > Sebuah sekolah bisa dikatakan benar-benar kristiani ketika sekolah itu, dengan tetap menjadi seperti sekolah-sekolah yang lain dan dengan berjuang untuk menjadi lebih baik, memberikan pendidikan yang integral—yang mencakup pembinaan iman kristiani—, sembari menghormati kebebasan pribadi dan mempromosikan keadilan sosial yang sangat dibutuhkan. Jika hal itu tercapai, maka nama tidaklah terlalu penting.
 >
->— St. Josemaría, [*Percakapan*, no. 81](https://www.escrivaworks.org/book/conversations-chapter-6.htm)
+> — St. Josemaría, [_Percakapan_, no. 81](https://www.escrivaworks.org/book/conversations-chapter-6.htm)
 
 Tidak bisa diragukan bahwa pendidikan anak menempati salah satu posisi teratas dalam daftar prioritas orang tua Katolik. Oleh karena itu, mereka berhak untuk memilih apa yang terbaik untuk anak-anak mereka, walaupun itu bisa jadi berarti mempercayakan pendidikan mereka ke sebuah sekolah non-Katolik. Tentu saja: pada dasarnya, mereka berharap bisa menyekolahkan putra-putri mereka di sebuah sekolah Katolik. Namun, karena berbagai alasan dan keadaan, **mereka—dengan penuh tanggung jawab—memilih untuk tidak melakukannya**.
 
 ![Child studying with her mom on a laptop](child.jpg '#float=left')
 
-Apakah Anda **orang tua Katolik** yang berusaha untuk memilih sekolah untuk anak-anak Anda? Apakah Anda seorang **pengelola sekolah**, **guru**, **pastor paroki**, atau **kapelan** yang terlibat dalam memajukan sekolah Katolik? Atau, apakah Anda **seorang Katolik biasa** yang ingin memperbaiki panorama sekolah Katolik di daerah Anda? Jika Anda menjawab iya, maka artikel ini ditulis untuk Anda. Di sini, saya akan menguraikan tiga ciri-ciri sekolah Katolik yang autentik berdasarkan dokumen Vatikan II yang berjudul [*Gravissimum Educationis*](https://katolisitas.org/gravissimum-educationis/), yang diterbitkan pada tahun 1965.
+Apakah Anda **orang tua Katolik** yang berusaha untuk memilih sekolah untuk anak-anak Anda? Apakah Anda seorang **pengelola sekolah**, **guru**, **pastor paroki**, atau **kapelan** yang terlibat dalam memajukan sekolah Katolik? Atau, apakah Anda **seorang Katolik biasa** yang ingin memperbaiki panorama sekolah Katolik di daerah Anda? Jika Anda menjawab iya, maka artikel ini ditulis untuk Anda. Di sini, saya akan menguraikan tiga ciri-ciri sekolah Katolik yang autentik berdasarkan dokumen Vatikan II yang berjudul [_Gravissimum Educationis_](https://katolisitas.org/gravissimum-educationis/), yang diterbitkan pada tahun 1965.
 
 ## 1. Bagian dari Gereja
 
@@ -51,7 +51,7 @@ Ciri terakhir dari sekolah Katolik yang sejati adalah keyakinannya bahwa **tugas
 
 ![Teacher teaching children in a forest](teaching.jpg)
 
-Pembaca *Gravissimum Educationis* dapat menemukan di dalamnya setidaknya tiga ciri yang perlu dimiliki oleh guru-guru Katolik. Tanpa guru-guru dengan ciri-ciri di bawah, tidak ada sekolah yang dapat dianggap sungguh-sungguh ‘Katolik.’
+Pembaca _Gravissimum Educationis_ dapat menemukan di dalamnya setidaknya tiga ciri yang perlu dimiliki oleh guru-guru Katolik. Tanpa guru-guru dengan ciri-ciri di bawah, tidak ada sekolah yang dapat dianggap sungguh-sungguh ‘Katolik.’
 
 - **Kompeten**. Guru hendaknya “sungguh-sungguh disiapkan, supaya membawa bekal ilmu-pengetahuan profan maupun keagamaan yang dikukuhkan oleh ijazah-ijazah semestinya, dan mempunyai kemahiran mendidik sesuai dengan penemuan-penemuan zaman modern.”[^10] Saya ingin menggarisbawahi kata ‘maupun’ di atas. Kompetensi mencakup bukan hanya penguasaan **ilmu-ilmu profan**, namun juga **ilmu keagamaan**. Dengan kata lain, **seorang guru yang tidak sepenuhnya berpegang teguh dan menghidupi iman Katolik tidak layak untuk bekerja di sebuah sekolah Katolik**. Mengapa? Karena siswa-siswi perlu melihat keselarasan antara berbagai mata pelajaran. Mereka harus dibimbing untuk menyadari bahwa tidak ada pertentangan sama sekali antara apa yang diajarkan dalam kelas sosiologi dan apa yang dijelaskan kepada mereka dalam kelas agama—misalnya—karena semua kebenaran berasal dari Allah, yang adalah Kebenaran itu sendiri.
 
@@ -61,31 +61,31 @@ Pembaca *Gravissimum Educationis* dapat menemukan di dalamnya setidaknya tiga ci
 
 Hanya apabila sebuah sekolah memiliki tim guru-guru yang kompeten, apostolik, dan mencintai dengan sungguh, ia layak menyandang nama ‘Katolik.’
 
-***
+---
 
 Sembari saya menulis artikel ini, saya teringat akan percakapan saya dengan seorang kenalan beberapa tahun yang lalu. Karena dia adalah seorang Katolik yang taat, saya terkejut ketika mengetahui bahwa dia memilih untuk tidak menyekolahkan kedua putrinya di sekolah Katolik. “Mengapa demikian, Bob (bukan nama sebenarnya)?” saya terbingung-bingung. Jawaban yang dia berikan sangatlah singkat namun menusuk:
 
->*Father*, saya menyekolahkan putri-putri saya di sebuah sekolah non-Katolik karena saya lebih memilih untuk mengetahui bahwa mereka diajar oleh setan—dengan demikian, saya dapat secara khusus menyisihkan waktu untuk membekali mereka dengan pendidikan iman kristiani yang memadai di rumah—daripada beranggapan bahwa mereka dibimbing oleh malaikat padahal, pada kenyataannya, mereka dididik oleh setan.
+> _Father_, saya menyekolahkan putri-putri saya di sebuah sekolah non-Katolik karena saya lebih memilih untuk mengetahui bahwa mereka diajar oleh setan—dengan demikian, saya dapat secara khusus menyisihkan waktu untuk membekali mereka dengan pendidikan iman kristiani yang memadai di rumah—daripada beranggapan bahwa mereka dibimbing oleh malaikat padahal, pada kenyataannya, mereka dididik oleh setan.
 
 Jika Anda adalah orang tua Katolik yang berencana menyekolahkan anak Anda di sekolah Katolik, **selidiki terlebih dahulu apakah tiga kualitas yang telah dipaparkan di atas dimiliki oleh sekolah tersebut**. Dengan demikian, Anda memastikan bahwa sekolah Katolik tersebut sungguh-sungguh Katolik. Di sisi lain, jika Anda adalah seorang pengelola sekolah, guru, pastor paroki, atau kapelan yang terlibat dalam memajukan sekolah-sekolah Katolik, saya memohon agar Anda **bertanya kepada diri sendiri**: apa yang dapat saya lakukan untuk meningkatkan (1) kesadaran sebuah sekolah bahwa ia adalah bagian dari Gereja, (2) keselarasan antara iman dan akal budi, serta (3) kualitas guru di sekolah Katolik yang berada dalam lingkup tanggung jawab saya? Belum terlambat untuk mengubah haluan dan ketekunan kita semua tidak akan sia-sia!
 
-***
+---
 
-*Terima kasih kepada [Prof. Anita Lie](https://scholar.google.com/citations?user=huC3y0gAAAAJ&hl=id) dari [Universitas Katolik Widya Mandala](https://ukwms.ac.id/?lang=en) yang telah memeriksa dan memberikan pendapatnya yang berharga atas artikel ini.*
+_Terima kasih kepada [Prof. Anita Lie](https://scholar.google.com/citations?user=huC3y0gAAAAJ&hl=id) dari [Universitas Katolik Widya Mandala](https://ukwms.ac.id/?lang=en) yang telah memeriksa dan memberikan pendapatnya yang berharga atas artikel ini._
 
-***
+---
 
-[^1]: Lih. *Gravissimum Educationis*, 5: “Diantara segala upaya pendidikan sekolah mempunyai makna yang istimewa.”
-[^2]:*Gravissimum Educationis*, 4.
-[^3]:Lih. *Gravissimum Educationis*, 6: “Orang tualah yang pertama-tama mempunyai kewajiban dan hak yang pantang diganggu gugat untuk mendidik anak-anak mereka. Maka sudah seharusnyalah mereka sungguh-sungguh bebas dalam memilih sekolah-sekolah.”
-[^4]:*Gravissimum Educationis*, 8.
-[^5]:*Gravissimum Educationis*, 10.
-[^6]:Lih. *Gravissimum Educationis*, 7: “Oleh Konsili para orangtua diingatkan akan kewajiban mereka yang berat, untuk menyelenggarakan atau juga menuntut apa saja yang diperlukan, supaya anak-anak mereka mendapat kemudahan-kemudahan itu, dan mengalami kemajuan dalam pembinaan kristen, yang serasi dengan pendidikan profan mereka.”
-[^7]:Lih. *Gravissimum Educationis*, 5.
-[^8]:Lih. *Gravissimum Educationis*, 5.
-[^9]:*Gravissimum Educationis*, 8.
-[^10]:*Gravissimum Educationis*, 8.
-[^11]:*Gravissimum Educationis*, 8.
-[^12]:*Gravissimum Educationis*, 8.
-[^13]:Thomas Aquinas, [*ST* I, q. 20 a. 3 co.](https://www.newadvent.org/summa/1020.htm)
-[^14]:*Gravissimum Educationis*, 8.
+[^1]: Lih. _Gravissimum Educationis_, 5: “Diantara segala upaya pendidikan sekolah mempunyai makna yang istimewa.”
+[^2]: _Gravissimum Educationis_, 4.
+[^3]: Lih. _Gravissimum Educationis_, 6: “Orang tualah yang pertama-tama mempunyai kewajiban dan hak yang pantang diganggu gugat untuk mendidik anak-anak mereka. Maka sudah seharusnyalah mereka sungguh-sungguh bebas dalam memilih sekolah-sekolah.”
+[^4]: _Gravissimum Educationis_, 8.
+[^5]: _Gravissimum Educationis_, 10.
+[^6]: Lih. _Gravissimum Educationis_, 7: “Oleh Konsili para orangtua diingatkan akan kewajiban mereka yang berat, untuk menyelenggarakan atau juga menuntut apa saja yang diperlukan, supaya anak-anak mereka mendapat kemudahan-kemudahan itu, dan mengalami kemajuan dalam pembinaan kristen, yang serasi dengan pendidikan profan mereka.”
+[^7]: Lih. _Gravissimum Educationis_, 5.
+[^8]: Lih. _Gravissimum Educationis_, 5.
+[^9]: _Gravissimum Educationis_, 8.
+[^10]: _Gravissimum Educationis_, 8.
+[^11]: _Gravissimum Educationis_, 8.
+[^12]: _Gravissimum Educationis_, 8.
+[^13]: Thomas Aquinas, [_ST_ I, q. 20 a. 3 co.](https://www.newadvent.org/summa/1020.htm)
+[^14]: _Gravissimum Educationis_, 8.
