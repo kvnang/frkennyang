@@ -1,6 +1,6 @@
 ---
 title: FAQs on My Priesthood
-featuredImage: ang_first_mass_19b.jpg
+featuredImage: 20180414_kenny_ordination_deacon_prostration4_best.jpg
 format: Article
 date: 2020-09-20
 category:
