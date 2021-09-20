@@ -47,11 +47,15 @@ const HomeFeaturedStyles = styled.section`
       list-style: none;
       padding-left: 0;
       text-align: right;
-      margin: 1rem -1.125rem 0;
+      margin: 1rem -0.5rem 0;
+
+      @media (hover: none) and (pointer: coarse) {
+        display: none;
+      }
 
       li {
         display: inline-block;
-        padding: 1.125rem;
+        padding: 0.5rem;
         line-height: 1;
 
         button {
