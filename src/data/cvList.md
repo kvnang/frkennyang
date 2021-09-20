@@ -240,7 +240,7 @@
 - ### Parish of Santo Yakobus
   #### Associate Priest
   ##### JUNE 2019 - JULY 2020, SURABAYA
-  I administer the sacraments, preach, and impart catechesis to parishioners of different age groups. I am in charge of St. John Paul II’s Chapel attached to the parish. I also regularly give talks to a group of young married couples.
+  I administered the sacraments, preached, and imparted catechesis to parishioners of different age groups. I was in charge of St. John Paul II’s Chapel attached to the parish. I also regularly gave talks to a group of young married couples.
 - ### Pilgrimage to Holy Land
   #### Chaplain
   ##### OCTOBER 2019, ISRAEL
