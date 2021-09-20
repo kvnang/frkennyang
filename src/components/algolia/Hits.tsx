@@ -24,7 +24,13 @@ interface SearchResults {
 }
 
 interface Props {
+  // searchState: object;
   searchResults: SearchResults;
+  // allSearchResults: object;
+  // error: object;
+  // searching: boolean;
+  // searchingForFacetValues: boolean;
+  // isSearchStalled: boolean;
 }
 
 const WrapperStyles = styled.div`

@@ -191,7 +191,7 @@ const GlobalStyles = styled.createGlobalStyle`
   input[type='number'],
   input[type='date'],
   input[type='time'],
-  .DayPickerInput input,
+  /* .DayPickerInput input, */
   textarea,
   select {
     appearance: none;
@@ -343,6 +343,17 @@ const GlobalStyles = styled.createGlobalStyle`
         opacity: 1;
         transform: scale(1);
       }
+    }
+  }
+
+  input[type='radio'],
+  input[type='checkbox'] {
+    &:focus-visible + span::before {
+      outline: 5px auto Highlight;
+      outline: 5px auto -webkit-focus-ring-color;
+    }
+    &[aria-invalid='true'] + span::before {
+      background-color: var(--color-error);
     }
   }
 
