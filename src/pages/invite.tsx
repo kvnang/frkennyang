@@ -29,20 +29,12 @@ interface Inputs {
   eventLocation: string;
   venue: string;
   venueCapacity: string;
-  'address[street]': string;
-  'address[street2]': string;
-  'address[state]': string;
-  'address[zip]': string;
-  'address[country]': string;
-  'address[airport]': string;
-  // address: {
-  //   street: string;
-  //   street2: string;
-  //   state: string;
-  //   zip: string;
-  //   country: string;
-  //   airport: string;
-  // };
+  addressStreet: string;
+  addressStreet2: string;
+  addressState: string;
+  addressZip: string;
+  addressCountry: string;
+  airport: string;
   attendance: number;
   diocese: string;
   topic: string;
@@ -64,20 +56,12 @@ const defaultValues = {
   eventLocation: 'online',
   venue: '',
   venueCapacity: '',
-  'address[street]': '',
-  'address[street2]': '',
-  'address[state]': '',
-  'address[zip]': '',
-  'address[country]': 'Indonesia',
-  'address[airport]': '',
-  // address: {
-  //   street: '',
-  //   street2: '',
-  //   state: '',
-  //   zip: '',
-  //   country: 'Indonesia',
-  //   airport: '',
-  // },
+  addressStreet: '',
+  addressStreet2: '',
+  addressState: '',
+  addressZip: '',
+  addressCountry: 'Indonesia',
+  airport: '',
   attendance: '',
   diocese: '',
   topic: '',
@@ -172,9 +156,9 @@ export default function InvitePage() {
           if (object[key] && typeof object[key] === 'object') {
             return encodeObject(data[key], `${parentKey}[${key}]`);
           }
-          return `${encodeURIComponent(
-            `${parentKey}[${key}]`
-          )}=${encodeURIComponent(object[key] || '')}`;
+          return `${`${encodeURIComponent(parentKey)}[${encodeURIComponent(
+            key
+          )}]`}=${encodeURIComponent(object[key] || '')}`;
         })
         .join('&');
     }
@@ -466,8 +450,8 @@ export default function InvitePage() {
                             type="text"
                             id="venue-address-street"
                             placeholder="Street *"
-                            aria-invalid={!!errors['address[street]']}
-                            {...register('address[street]', {
+                            aria-invalid={!!errors.addressStreet}
+                            {...register('addressStreet', {
                               validate: {
                                 required: (value) =>
                                   validateIfInPersonEvent(value),
@@ -490,8 +474,8 @@ export default function InvitePage() {
                             type="text"
                             id="venue-address-street-2"
                             placeholder="Street Line 2"
-                            aria-invalid={!!errors['address[street2]']}
-                            {...register('address[street2]')}
+                            aria-invalid={!!errors.addressStreet2}
+                            {...register('addressStreet2')}
                           />
                         </label>
                       </div>
@@ -509,8 +493,8 @@ export default function InvitePage() {
                             type="text"
                             id="venue-address-state"
                             placeholder="State / Province *"
-                            aria-invalid={!!errors['address[state]']}
-                            {...register('address[state]', {
+                            aria-invalid={!!errors.addressState}
+                            {...register('addressState', {
                               validate: {
                                 required: (value) =>
                                   validateIfInPersonEvent(value),
@@ -533,8 +517,8 @@ export default function InvitePage() {
                             type="text"
                             id="venue-address-zip"
                             placeholder="ZIP / Postal Code *"
-                            aria-invalid={!!errors['address[zip]']}
-                            {...register('address[zip]', {
+                            aria-invalid={!!errors.addressZip}
+                            {...register('addressZip', {
                               validate: {
                                 required: (value) =>
                                   validateIfInPersonEvent(value),
@@ -556,8 +540,8 @@ export default function InvitePage() {
                           <div className="select-wrapper">
                             <select
                               // id="venue-address-country"
-                              aria-invalid={!!errors['address[country]']}
-                              {...register('address[country]', {
+                              aria-invalid={!!errors.addressCountry}
+                              {...register('addressCountry', {
                                 validate: {
                                   required: (value) =>
                                     validateIfInPersonEvent(value),
@@ -586,9 +570,9 @@ export default function InvitePage() {
                           <input
                             type="text"
                             id="venue-address-airport"
-                            placeholder="Nearest Major Airport"
-                            aria-invalid={!!errors['address[airport]']}
-                            {...register('address[airport]', {
+                            placeholder="Nearest Major Airport *"
+                            aria-invalid={!!errors.airport}
+                            {...register('airport', {
                               validate: {
                                 required: (value) =>
                                   validateIfInPersonEvent(value),
