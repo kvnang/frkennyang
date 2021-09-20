@@ -71,8 +71,6 @@ If you are a Catholic parent considering a Catholic school for your children, **
 
 _Special thanks to [Prof. Anita Lie](https://scholar.google.com/citations?user=huC3y0gAAAAJ&hl=id) of [Widya Mandala Catholic University](https://ukwms.ac.id/?lang=en) for proofreading and thoughtfully commenting on this article._
 
----
-
 [^1]: See _Gravissimum Educationis_, 5: “Among all educational instruments the school has a special importance.”
 [^2]: _Gravissimum Educationis_, 4.
 [^3]: See _Gravissimum Educationis_, 6: “Parents who have the primary and inalienable right and duty to educate their children must enjoy true liberty in their choice of schools.”
