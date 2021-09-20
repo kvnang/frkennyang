@@ -83,36 +83,22 @@ export default function SEO({
       <meta
         property="og:image"
         content={cardImage || `${site.siteMetadata.siteUrl}/opengraph.jpg`}
-        key="ogimage"
       />
-      <meta
-        property="og:title"
-        content={title || site.siteMetadata.title}
-        key="ogtitle"
-      />
-      <meta
-        property="og:site_name"
-        content={site.siteMetadata.title}
-        key="ogsitename"
-      />
-      <meta property="og:description" content={metaDescription} key="ogdesc" />
-      <meta property="og:type" content="website" key="ogtype" />
+      <meta property="og:title" content={title || site.siteMetadata.title} />
+      <meta property="og:site_name" content={site.siteMetadata.title} />
+      <meta property="og:description" content={metaDescription} />
+      <meta property="og:type" content="website" />
       {/* twitter */}
       <meta
         property="twitter:title"
         content={title || site.siteMetadata.title}
       />
-      <meta property="twitter:url" content={url} key="twitterurl" />
-      <meta
-        property="twitter:description"
-        content={metaDescription}
-        key="twitterdesc"
-      />
-      <meta property="twitter:card" content="summary" key="twittercard" />
+      <meta property="twitter:url" content={url} />
+      <meta property="twitter:description" content={metaDescription} />
+      <meta property="twitter:card" content="summary" />
       <meta
         property="twitter:image"
         content={cardImage || `${site.siteMetadata.siteUrl}/opengraph.jpg`}
-        key="twitterimage"
       />
       {children}
     </Helmet>
