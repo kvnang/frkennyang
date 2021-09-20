@@ -15,6 +15,7 @@ import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
 import { PostProps } from '../types';
 import { inlineLink } from '../styles/Typography';
+import SEO from '../components/Seo';
 
 interface Props {
   location: Location;
@@ -40,9 +41,7 @@ const TitleStyles = styled.div`
   }
 `;
 
-const SinglePostStyles = styled.div`
-  /* padding: var(--section-padding) 0; */
-
+const SinglePostStyles = styled.main`
   .inner {
     max-width: 800px;
     margin-right: auto;
@@ -263,78 +262,89 @@ export default function SinglePost({ location, data: { post } }: Props) {
   if (post.frontmatter.date) meta.push(formatDate(post.frontmatter.date));
   if (categories?.length) meta.push(categories.join(', '));
   return (
-    <SinglePostStyles className="page-p-t">
-      <div className="container">
-        <div className="inner">
-          <div className="post-header">
-            <TitleStyles>
-              <LangSwitcher vertical />
-              <h1 className="h2 post-title">{post.frontmatter.title}</h1>
-            </TitleStyles>
-            <div className="post-byline">
-              <div className="post-meta">
-                <p>
-                  <small>{meta.join(' ∙ ')}</small>
-                </p>
-              </div>
-              <div className="post-share">
-                <ul>
-                  <li>
-                    <a
-                      href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Share on Facebook"
-                    >
-                      <FaFacebookF />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href={`http://twitter.com/share?text=${post.frontmatter.title}&url=${url}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Share on Twitter"
-                    >
-                      <FaTwitter />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${url}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Share on LinkedIn"
-                    >
-                      <FaLinkedinIn />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href={`https://wa.me/?text=${url}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Share on WhatsApp"
-                    >
-                      <FaWhatsapp />
-                    </a>
-                  </li>
-                </ul>
+    <>
+      <SEO
+        title={post.frontmatter.title}
+        description={
+          post.frontmatter.excerpt
+            ? post.frontmatter.excerpt
+            : post.excerpt || ''
+        }
+        image={post.frontmatter.featuredImage?.publicURL}
+      />
+      <SinglePostStyles className="page-p-t">
+        <div className="container">
+          <div className="inner">
+            <div className="post-header">
+              <TitleStyles>
+                <LangSwitcher vertical />
+                <h1 className="h2 post-title">{post.frontmatter.title}</h1>
+              </TitleStyles>
+              <div className="post-byline">
+                <div className="post-meta">
+                  <p>
+                    <small>{meta.join(' ∙ ')}</small>
+                  </p>
+                </div>
+                <div className="post-share">
+                  <ul>
+                    <li>
+                      <a
+                        href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Share on Facebook"
+                      >
+                        <FaFacebookF />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href={`http://twitter.com/share?text=${post.frontmatter.title}&url=${url}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Share on Twitter"
+                      >
+                        <FaTwitter />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href={`https://www.linkedin.com/shareArticle?mini=true&url=${url}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Share on LinkedIn"
+                      >
+                        <FaLinkedinIn />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href={`https://wa.me/?text=${url}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Share on WhatsApp"
+                      >
+                        <FaWhatsapp />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
+            <div className="post-img">{featuredImage}</div>
+            <PostContentStyles className="text-content">
+              {post.html ? (
+                // eslint-disable-next-line react/no-danger
+                <div dangerouslySetInnerHTML={{ __html: post.html }} />
+              ) : (
+                ''
+              )}
+            </PostContentStyles>
           </div>
-          <div className="post-img">{featuredImage}</div>
-          <PostContentStyles className="text-content">
-            {post.html ? (
-              // eslint-disable-next-line react/no-danger
-              <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            ) : (
-              ''
-            )}
-          </PostContentStyles>
         </div>
-      </div>
-    </SinglePostStyles>
+      </SinglePostStyles>
+    </>
   );
 }
 
@@ -357,6 +367,7 @@ export const pageQuery = graphql`
               placeholder: BLURRED
             )
           }
+          publicURL
         }
       }
     }
