@@ -182,3 +182,21 @@ exports.createPages = async (params) => {
     // importAlgoliaIndex(params)
   ]);
 };
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    type Frontmatter {
+      title: String!
+      featuredImage: String
+      format: String!
+      date: Date!
+      youtube: string
+      category: [String!]
+    }
+  `;
+  createTypes(typeDefs);
+};
