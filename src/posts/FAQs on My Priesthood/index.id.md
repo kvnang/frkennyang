@@ -2,7 +2,7 @@
 title: FAQs Tentang Imamat Saya
 featuredImage: 20180414_kenny_ordination_deacon_prostration4_best.jpg
 format: Article
-date: 2020-09-20
+date: 2021-09-22
 category:
   - Priesthood
 excerpt: Artikel ini membahas imamat saya, mengapa imam disebut “father”, perbedaan antara imam diosesan dan imam tarekat religius, janji-janji yang diucapkan oleh imam diosesan, kehidupan sehari-hari saya, dan alasan saya mengenakan busana imam.

@@ -2,7 +2,7 @@
 title: FAQs on My Priesthood
 featuredImage: 20180414_kenny_ordination_deacon_prostration4_best.jpg
 format: Article
-date: 2020-09-20
+date: 2021-09-22
 category:
   - Priesthood
 excerpt: This article covers my priesthood, why priests are called “father,” the differences between diocesan priests and religious order priests, the promises made by diocesan priests, my daily life, and the reasons I wear priestly clothing.
