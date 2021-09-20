@@ -9,7 +9,8 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Origin = "https://www.fatherkenny.com"
+    Origin = "https://www.fatherkenny.com/"
+    Referer = "https://www.fatherkenny.com/"
 
 [[redirects]]
   from = "http://frkennyang.netlify.app/*"
