@@ -142,6 +142,91 @@ const PostContentStyles = styled.div`
   li {
     line-height: 1.75;
   }
+
+  .book {
+    display: flex;
+    border: 1px solid var(--dark-grey);
+    position: relative;
+    z-index: 0;
+
+    &:not(:last-child) {
+      margin-bottom: var(--p-spacing);
+    }
+
+    &__img,
+    &__text {
+      flex: 0 0 50%;
+    }
+
+    &__img {
+      background-color: var(--dark-grey);
+      padding: 2rem;
+
+      &__inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        min-height: 10rem;
+
+        img {
+          /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.32); */
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+
+    &__text {
+      padding: 2rem;
+
+      h5 {
+        margin-bottom: 0;
+
+        + h6 {
+          margin-top: 0.25em;
+        }
+      }
+
+      a {
+        text-decoration: none;
+
+        &::after {
+          content: '';
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+        &::before {
+          content: '';
+          height: 1rem;
+          width: 1rem;
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23e2a93a'%3E%3Cpath d='M9 5v2h6.59L4 18.59 5.41 20 17 8.41V15h2V5H9z'/%3E%3C/svg%3E");
+          background-size: contain;
+          background-position: center center;
+          background-repeat: no-repeat;
+          position: absolute;
+          right: 0.5rem;
+          bottom: 0.5rem;
+          opacity: 0.5;
+          transition: opacity var(--transition);
+        }
+
+        &:hover::before {
+          opacity: 1;
+        }
+      }
+
+      p {
+        position: relative;
+        z-index: 1;
+      }
+    }
+  }
 `;
 
 export default function SinglePost({ location, data: { post } }: Props) {

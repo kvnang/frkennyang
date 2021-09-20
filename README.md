@@ -97,6 +97,51 @@ A few important notes:
 2. Ensure that Heading 1 is used only for the post title. For other headings, start with Heading 2.
 3. Every heading will be automatically hyperlinked, so that you can share the link of the post anchored to a specific heading. You can get this link by hovering over a specific heading, clicking the link icon on the left-hand side, and copy the URL on your browser.
 
+### Book Component
+
+A book component is a custom component where you can show an image of a book, with its title, description and link.
+
+![Book Component](https://www.fatherkenny.com/book-md-component.jpg)
+
+To use this component, you will need to copy and paste the following HTML code directly to your Markdown file:
+
+```html
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="{image.jpg}" alt="{Image description}" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="{/path/to/book}">{Book Title}</a>
+    </h5>
+    <h6>{Book metadata / author}</h6>
+    <p>{Book description ...}</p>
+  </div>
+</div>
+```
+
+Note that you'll need to replace to contents wrapped by `{ }` in the example above.
+
+You can also remove certain elements by removing the HTML opening & closing tags entirely. For example, if you don't want to include the Book metadata / author section:
+
+```html
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="{image.jpg}" alt="{Image description}" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="{/path/to/book}">{Book Title}</a>
+    </h5>
+    <p>{Book description ...}</p>
+  </div>
+</div>
+```
+
 ## Web Analytics
 
 Web Analytics are provided by Cloudflare. To view reports:

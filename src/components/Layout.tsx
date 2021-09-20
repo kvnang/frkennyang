@@ -46,10 +46,12 @@ export default function Layout({ children }: Props) {
       <Typography />
       <LangProvider>
         <SnackbarProvider>
-          <div className="site">
-            <Header />
-            <div className="site-content">{children}</div>
-            <Footer />
+          <div className="site-wrapper">
+            <div className="site">
+              <Header />
+              <div className="site-content">{children}</div>
+              <Footer />
+            </div>
           </div>
           <Snackbar />
         </SnackbarProvider>

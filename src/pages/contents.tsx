@@ -153,8 +153,8 @@ export default function ContentsPage() {
               <div className="col inner">
                 <h2>My Contents</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem
-                  ipsum dolor sit amet consectetur adipiscing elit.
+                  Browse my latest works. Some of them are available in both
+                  English and Bahasa Indonesia.
                 </p>
                 <SearchFilterStyles>
                   <SearchStyles className="search">

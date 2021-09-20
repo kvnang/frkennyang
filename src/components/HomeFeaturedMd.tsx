@@ -8,7 +8,10 @@ import { breakpoints } from '../styles/breakpoints';
 import { PostProps } from '../types';
 import PostEntry from './PostEntry';
 
-const HomeFeaturedStyles = styled.div`
+const HomeFeaturedStyles = styled.section`
+  width: 100%;
+  overflow-x: hidden;
+
   .title {
     --width-xs: 12;
     --width-md: 10;
