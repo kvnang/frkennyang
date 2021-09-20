@@ -21,6 +21,10 @@ const HeaderStyles = styled.header`
   .link-underline {
     padding-top: 5px;
   }
+
+  .page-contents & {
+    background-color: var(--black);
+  }
 `;
 
 const MenuListStyles = styled.ul`
