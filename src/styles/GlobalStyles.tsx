@@ -201,6 +201,7 @@ const GlobalStyles = styled.createGlobalStyle`
     appearance: none;
     background: var(--dark-grey);
     border: 1px solid var(--dark-grey);
+    border-radius: 0;
     padding: 0.75rem 1.25rem;
     color: var(--color-p);
     width: 100%;
