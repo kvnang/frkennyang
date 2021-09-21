@@ -8,16 +8,16 @@ category:
   - Family
 excerpt: Commentary on marriage consent. Marriage, according to God’s plan, is one (between one man and one woman), indissoluble, and open to life. If there is no freedom, there is no marriage. In a wedding, spouses are ministers of Christ’s grace.
 ---
-
-> I, (name), take you, (name), to be my wife/husband. I promise to be faithful to you, in good times and in bad, in sickness and in health, to love you and to honor you all the days of my life.
->
-> —_Marriage Consent_
-
----
-
 As a priest, one of the biggest joys in my ministry is to assist at a marriage. In today’s society, where provisionality and [relativism](https://www.catholic.com/magazine/online-edition/how-to-refute-moral-relativism) reign, the act of contracting marriage has become a heroic act: an act in which a man and a woman publicly declare that **everlasting love is still possible**!
 
 At the same time, though, we should not forget that marriage is not a product of human genius. **Human beings did not invent marriage: God did.** For our benefit, the central part of the wedding ceremony—the **marriage consent**[^1]—condenses the essence of what marriage is according to God’s design.
+
+> I, (name), take you, (name), to be my wife/husband.\
+> I promise to be faithful to you,\
+> in good times and in bad, in sickness and in health,\
+> to love you and to honor you all the days of my life.\
+>
+> —_Marriage Consent_
 
 Are you currently dating and preparing yourself for marriage? Are you a spouse? Or, are you simply somebody interested in knowing more about marriage? If you answer in the affirmative, this article is written for you. Let us together reflect on the words of the marriage consent.
 
@@ -28,6 +28,21 @@ Are you currently dating and preparing yourself for marriage? Are you a spouse? 
 The first word of the marriage consent is **_I_**. I am the one getting married: not my parents, not my extended families, not my friends … but myself.
 
 This is a robust assertion of one’s freedom: I am the one making the decision. Marriage is free: **if there is no freedom, there is no marriage.** I do not enter into marriage because my parents tell me to; because I fear the negative judgment of others; or because I have already made down payments to my wedding vendors! Instead, I marry this other person **freely**, because **I want to**.
+
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="sheen_three_married.jpg" alt="fulton sheen book three to get married" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="https://amzn.to/3ECnnZ1">Three To Get Married</a>
+    </h5>
+    <h6>Fulton J. Sheen</h6>
+    <p>Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.</p>
+  </div>
+</div>
 
 ## 2. Spouses: Ministers of Christ
 
@@ -96,21 +111,6 @@ Those familiar with agriculture will know that a [yoke](https://www.britannica.c
 > Which is God.
 >
 > —Fulton J. Sheen, _Three to Get Married_, Prologue
-
-<div class="book">
-  <div class="book__img">
-    <div class="book__img__inner">
-      <img src="sheen_three_married.jpg" alt="fulton sheen book three to get married" />
-    </div>
-  </div>
-  <div class="book__text">
-    <h5>
-      <a href="https://amzn.to/3ECnnZ1">Three To Get Married</a>
-    </h5>
-    <h6>Fulton J. Sheen</h6>
-    <p>Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.</p>
-  </div>
-</div>
 
 [^1]: “Matrimonial consent is an act of the will by which a man and a woman mutually give and accept each other through an irrevocable covenant in order to establish marriage” ([c. 1057 §2](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.)).
 [^2]: [_CCC_, 1623](https://www.vatican.va/archive/ENG0015/__P52.HTM).
