@@ -112,8 +112,6 @@ Those familiar with agriculture will know that a [yoke](https://www.britannica.c
 </div>
 -->
 
----
-
 [^1]: “Matrimonial consent is an act of the will by which a man and a woman mutually give and accept each other through an irrevocable covenant in order to establish marriage” ([c. 1057 §2](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.)).
 [^2]: [_CCC_, 1623](https://www.vatican.va/archive/ENG0015/__P52.HTM).
 [^3]: See _The Code of Canon Law_, [c. 1057 §1](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.).
