@@ -136,6 +136,7 @@ export default function ContactForm() {
               <input
                 type="text"
                 id="name"
+                autoComplete="name"
                 placeholder="Name"
                 aria-invalid={!!errors.name}
                 {...register('name')}
@@ -149,6 +150,7 @@ export default function ContactForm() {
                 type="email"
                 id="email"
                 placeholder="Email *"
+                autoComplete="email"
                 required
                 aria-invalid={!!errors.email}
                 {...register('email', { required: true })}

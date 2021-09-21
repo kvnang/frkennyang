@@ -46,7 +46,7 @@ const LangSwitcherStyles = styled.div`
   }
 
   &.vertical {
-    @media ${breakpoints.tablet} {
+    @media ${breakpoints.tabletL} {
       ul {
         display: inline-flex;
         flex-direction: column;

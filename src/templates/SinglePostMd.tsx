@@ -29,14 +29,14 @@ const TitleStyles = styled.div`
   .language-switcher {
     margin-bottom: 1rem;
 
-    @media ${breakpoints.tablet} {
+    @media ${breakpoints.tabletL} {
       position: absolute;
       left: -3rem;
       top: 0.5rem;
     }
   }
   .post-title {
-    margin-top: 0;
+    margin-top: 0 !important;
   }
 `;
 
@@ -172,11 +172,15 @@ const PostContentStyles = styled.div`
     &__img,
     &__text {
       flex: 0 0 50%;
+      padding: 1.25rem;
+
+      @media ${breakpoints.tablet} {
+        padding: 2rem;
+      }
     }
 
     &__img {
       background-color: var(--dark-grey);
-      padding: 2rem;
 
       &__inner {
         position: relative;
@@ -188,18 +192,17 @@ const PostContentStyles = styled.div`
 
         .gatsby-resp-image-wrapper {
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.32);
-          width: 100px;
+          width: 6.25rem;
+          transition: box-shadow var(--transition);
 
           @media ${breakpoints.tablet} {
-            width: 160px;
+            width: 8.75rem;
           }
         }
       }
     }
 
     &__text {
-      padding: 2rem;
-
       h5 {
         margin-bottom: 0;
 
@@ -239,8 +242,13 @@ const PostContentStyles = styled.div`
           transition: opacity var(--transition);
         }
 
-        &:hover::before {
-          opacity: 1;
+        &:hover {
+          &::before {
+            opacity: 1;
+          }
+          .gatsby-resp-image-wrapper {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.64);
+          }
         }
       }
 

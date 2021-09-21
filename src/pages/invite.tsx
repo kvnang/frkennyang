@@ -314,6 +314,7 @@ export default function InvitePage() {
                             type="text"
                             id="organization"
                             placeholder="Your Organization"
+                            autoComplete="organization"
                             required
                             aria-invalid={!!errors.organization}
                             {...register('organization', { required: true })}
@@ -327,6 +328,7 @@ export default function InvitePage() {
                             type="text"
                             id="name"
                             placeholder="Full Name"
+                            autoComplete="name"
                             required
                             aria-invalid={!!errors.contactName}
                             {...register('contactName', { required: true })}
@@ -352,6 +354,7 @@ export default function InvitePage() {
                             type="tel"
                             id="phone"
                             placeholder="000-000-0000"
+                            autoComplete="tel"
                             aria-invalid={!!errors.phone}
                             {...register('phone', { required: true })}
                           />
