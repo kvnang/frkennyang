@@ -105,6 +105,8 @@ Ensure that internal links (i.e. links pointing towards a URL within the same si
 [Learn more](/about)
 ```
 
+Whereas an absolute path is as follows:
+
 ```markdown
 [View on Facebook](https://www.facebook.com/)
 ```
