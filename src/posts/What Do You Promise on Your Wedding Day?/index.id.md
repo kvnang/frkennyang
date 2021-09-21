@@ -8,13 +8,16 @@ category:
   - Family
 excerpt: Penjelasan mengenai kesepakatan/janji pernikahan. Pernikahan, menurut rencana Allah, adalah satu (satu pria dan satu wanita), tak terpisahkan, dan terbuka kepada kehidupan. Jika tidak ada kebebasan, tidak ada pernikahan. Dalam pernikahan, pasangan adalah pelayan-pelayan rahmat Kristus.
 ---
-> Saya, (nama), memilih engkau, (nama), menjadi istri/suami saya. Saya berjanji untuk setia mengabdikan diri kepadamu dalam untung dan malang, di waktu sehat dan sakit. Saya mau mengasihi dan menghormati engkau sepanjang hidup saya.
-> 
-> —*Kesepakatan Pernikahan*
----
 Sebagai seorang imam, kesempatan untuk meneguhkan pernikahan adalah salah satu sumber sukacita terbesar dalam pelayanan saya. Dalam masyarakat saat ini, di mana seringkali segala hal dianggap bersifat sementara saja dan [relativisme](https://www.catholic.com/magazine/online-edition/how-to-refute-moral-relativism) merajalela, menikah telah menjadi sebuah tindakan yang heroik. Dengan tindakan ini, sepasang pria dan wanita secara terbuka menyatakan bahwa **kasih yang abadi adalah sesuatu yang nyata**!
 
 Namun, pada saat yang sama, kita tidak boleh lupa bahwa pernikahan bukanlah produk kepandaian manusia. **Manusia tidak menciptakan pernikahan: Allahlah yang menciptakannya.** Untungnya, bagian utama dari perayaan pernikahan— **kesepakatan pernikahan**[^1]—meringkas bagi kita esensi pernikahan menurut rancangan Allah.
+
+> Saya, (nama), memilih engkau, (nama), menjadi istri/suami saya.\
+> Saya berjanji untuk setia mengabdikan diri kepadamu\
+> dalam untung dan malang, di waktu sehat dan sakit.\
+> Saya mau mengasihi dan menghormati engkau sepanjang hidup saya.\
+> 
+> —*Kesepakatan Pernikahan*
 
 Apakah kamu saat ini sedang berpacaran dan mempersiapkan diri untuk menikah? Apakah kamu adalah seorang suami atau istri? Atau, apakah kamu tertarik untuk mengetahui lebih banyak tentang pernikahan? Jikalau kamu menjawab iya, maka artikel ini ditulis untuk kamu. Marilah kita bersama-sama mendalami makna kata-kata kesepakatan pernikahan.
 
@@ -25,6 +28,21 @@ Apakah kamu saat ini sedang berpacaran dan mempersiapkan diri untuk menikah? Apa
 Kata pertama dalam kesepakatan pernikahan adalah ***Saya***. Sayalah yang akan menikah: bukan orang tua saya, bukan keluarga besar saya, bukan teman-teman saya … tapi diri saya sendiri.
 
 Ini adalah penegasan yang kuat akan kebebasan manusia: sayalah yang membuat keputusan. Pernikahan adalah sebuah tindakan bebas: **jika tidak ada kebebasan, tidak ada pernikahan.** Saya tidak menikah karena orang tua saya menyuruh saya; karena saya menakuti penilaian negatif dari orang lain; atau karena saya sudah membayar uang muka ke *wedding vendors* saya! Sebaliknya, saya menikah dengan seseorang secara **bebas**, karena **saya mau**.
+
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="sheen_three_married.jpg" alt="fulton sheen book three to get married" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="https://amzn.to/3ECnnZ1">Three To Get Married</a>
+    </h5>
+    <h6>Fulton J. Sheen</h6>
+    <p>Buku ini mengulas esensi cinta kasih dan implikasinya bagi hidup pernikahan. Karenanya, karya ini adalah bacaan yang meneguhkan bagi pasangan yang berpacaran atau bertunangan, mereka yang sudah menikah, konselor pernikahan, dan juga para imam.</p>
+  </div>
+</div>
 
 ## 2. Pasangan: Pelayan-Pelayan Kristus
 
@@ -40,7 +58,7 @@ Ungkapan berikutnya adalah ***menjadi istri saya … menjadi suami saya***. Sesu
 
 **Hal yang serupa terjadi dengan pernikahan.** Setidaknya ada empat nama dalam bahasa Latin—ibu dari beberapa bahasa utama di Eropa—yang mengungkapkan misteri pernikahan. Mari kita bahas nama-nama tersebut secara singkat.
 
-- *Nuptiae*
+### *Nuptiae*
 
 Nama pertama adalah *nuptiae* (Lt. *nubere*, menyelubungi). Dari kata ini, kita memperoleh kata *nuptials* dalam bahasa Inggris. Arti dari kata benda *nuptus* dalam bahasa Latin adalah ‘penutup’ atau ‘kerudung.’ Pada kenyataannya, ini adalah sebuah [sinekdoke](https://literarydevices.net/synecdoche/)—mengambil sebuah bagian dari suatu hal untuk mewakili keseluruhannya (misalnya, ketika saya mengatakan “Saya tidak pernah melihat batang hidungnya,” saya sebenarnya bermaksud mengatakan “Saya tidak pernah melihat dirinya”). Karenanya, penyelubungan mempelai wanita dalam perayaan pernikahan melambangkan selubung yang menutupi misteri pernikahan.
 
@@ -48,7 +66,7 @@ Penggunaan [kerudung dalam pernikahan](https://www.catholicculture.org/culture/l
 
 ![bride marriage forest flowers kissing](brides3.jpg)
 
-- *Matrimonium*
+### *Matrimonium*
 
 Nama yang kedua adalah *matrimonium*, sebuah kata yang merupakan gabungan dari *matris* dan *munia* (yang berarti ‘tanggung jawab seorang ibu’). Ini juga merupakan sebuah sinekdoke. Dengan nama ini, pernikahan dilambangkan oleh tanggung jawab sang ibu. Oleh sebab itu, kata *matrimonium* merujuk pada **tujuan prokreatif** dari pernikahan. Dengan kata lain, pasangan suami istri dipanggil untuk **terbuka kepada kehidupan**.
 
@@ -62,34 +80,36 @@ Kontrasepsi, di sisi lain, menghancurkan cinta kasih pernikahan karena, ketika d
 
 Singkat kata, kontrasepsi dan pemberian diri yang total adalah dua hal yang saling bertentangan.
 
-- *Consortium*
+### *Consortium*
 
 Nama ketiga adalah *consortium*, yang adalah gabungan dari kata-kata *con* (bersama dengan) dan *sors* (nasib). Nama ini menunjukkan bahwa, selain **tujuan prokreatif**, pernikahan memiliki **tujuan kesatuan**, yakni, kesejahteraan pasangan suami istri. Mereka telah berjanji untuk hidup dalam persatuan satu dengan yang lain sembari masing-masing dari mereka mengucapkan: ***Saya berjanji untuk setia mengabdikan diri kepadamu …*** . *Consortium* juga menggarisbawahi bahwa pernikahan adalah sebuah ikatan yang [tak terpisahkan](https://media.ascensionpress.com/2018/08/06/the-sacramentality-and-indissolubility-of-marriage/): saya ingin setia kepada engkau demi ***mengasihi dan menghormati engkau sepanjang hidup saya***.
 
-- *Conjugum*
+### *Conjugum*
 
 Nama keempat adalah *conjugum*, yang adalah kombinasi *con* (bersama dengan) dan *jugum* (kuk). Nama ini menunjukkan bahwa pasangan suami istri dituntut untuk memikul kuk yang sama. Bagi mereka, kuk melambangkan semua pertentangan dalam hidup yang harus mereka hadapi: ***untung dan malang, … sehat dan sakit***.
 
 Mereka yang akrab dengan dunia pertanian pasti tahu bahwa [kuk](https://www.britannica.com/technology/yoke) biasanya diemban oleh dua binatang. Namun, tidak seperti binatang-binatang itu, pasangan suami istri tidak memikul kuk hanya dengan kekuatan mereka sendiri. **Kristus membantu mereka.** Ia ikut memikul kuk bersama dengan mereka. Itulah sebabnya Fulton Sheen menegaskan bahwa **dibutuhkan tiga untuk menikah**: Allah + seorang pria + seorang wanita.
 
-> Dibutuhkan tiga untuk membuat Kasih di Surga
+> Dibutuhkan tiga untuk membuat Kasih di Surga\
 > —Bapa, Putra, dan Roh Kudus.
 > 
-> Dibutuhkan tiga agar Surga bisa mengasihi bumi
+> Dibutuhkan tiga agar Surga bisa mengasihi bumi\
 > —Allah, Manusia, dan Maria—karena melaluinya Allah menjadi Manusia.
 > 
-> Dibutuhkan tiga untuk membuat kasih dalam Keluarga Kudus
+> Dibutuhkan tiga untuk membuat kasih dalam Keluarga Kudus\
 > —Maria, dan Yusuf, dan kesempurnaan kasih mereka, Yesus.
 > 
-> Dibutuhkan tiga untuk membuat kasih dalam hati
+> Dibutuhkan tiga untuk membuat kasih dalam hati\
 > —Ia yang mengasihi, sang Kekasih, dan Kasih.
 > 
-> Kepada Wanita yang mengajarkan misteri Kasih yang agung, Maria yang Tak Bernoda, 
+> Kepada Wanita\
+> yang mengajarkan misteri Kasih yang agung,\
+> Maria yang Tak Bernoda,\
 > Buku ini dipersembahkan.
 > 
-> Agar segala bangsa, hati, dan rumah tangga mengerti 
-> Bahwa kasih bukanlah pertama-tama pemberian diri kepada yang lain
-> Namun pemberian diri dua orang yang saling mencintai kepada Sang Kasih yang Abadi, 
+> Agar segala bangsa, hati, dan rumah tangga mengerti\
+> Bahwa kasih bukanlah pertama-tama pemberian diri kepada yang lain\
+> Namun pemberian diri dua orang yang saling mencintai kepada Sang Kasih yang Abadi,\
 > Yakni Allah.
 > 
 > —Fulton J. Sheen, *Three to Get Married* (1951), Prologue
