@@ -49,6 +49,10 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 1800,
+              showCaptions: ['title'],
+              // markdownCaptions: true,
+              withWebp: true,
+              withAvif: true,
             },
           },
           {
