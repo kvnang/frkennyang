@@ -32,13 +32,13 @@ In marriage, therefore, this '***I***' is never solitary. Now, the '***you***' e
 
 Moreover, it is to be noted that this ***you*** is in singular—***te***, in its Latin original. This highlights one of the essential properties of marriage, which is **unity**. Matrimony is possible only between **one man and** **one woman**. Any other combination is ruled out; there is no marriage between one man and two women (or more); between one woman and two men (or more); between one man and another man; nor between one woman and another woman. **Matrimony, according to God’s original plan, is between one man and one woman**.[^4] It is not a product of human genius, but God’s sovereign design.
 
+![old couple holding hands romantic marriage](old_married_couple2.jpg)
+
 ## 3. Marriage: One, Indissoluble, and Open to Life
 
 The phrase that comes next is **to be my wife … to be my husband**. Something grand and mysterious normally has more than one name. Why? Because no single name can exhaust its immense reality. Think of the Eucharist: at least nine names of the Eucharist are listed in the _Catechism_![^5]
 
 **A similar phenomenon happens with marriage.** At least there are four names in Latin—the mother of several major European languages—that designate the mystery of marriage. Let us briefly go through each of them.
-
-![old couple holding hands romantic marriage](old_married_couple2.jpg)
 
 - *Nuptiae*
 
@@ -54,6 +54,8 @@ This openness to life entails unwavering [opposition to the use of contraception
 
 She tells you, “Don’t use contraception,” because, on the one hand, **it disfigures marriage by separating its unitive and procreative purposes which—in God’s original plan—are bound together**. There is no separation between “be fruitful and multiply” (Gen 1:28) and “they become one flesh” (Gen 2:24). The one who uses contraception, though, only wants sex (union) but not babies (procreation).
 
+![parents children kitchen black](family_children.jpg '#float=right')
+
 Contraception, on the other hand, destroys matrimonial love since, when it is employed, a spouse can **no longer say he gives himself unreservedly to the other spouse**. Why? Because he at least refuses to give his spouse his fertility—his capability to give her progeny!
 
 Contraception and total self-giving, therefore, are mutually exclusive.
@@ -62,15 +64,12 @@ Contraception and total self-giving, therefore, are mutually exclusive.
 
 The third name is *consortium*, formed by *con* (together with) and *sors* (destiny). This name suggests that marriage has—apart from the **procreative end**—a **unitive end**, namely, the good of the spouses. A couple promises to live in union with one another as each one of them pronounces: ***I promise to be faithful to you*** … . *Consortium* also conveys the idea of [indissolubility](https://media.ascensionpress.com/2018/08/06/the-sacramentality-and-indissolubility-of-marriage/): I want to be faithful to you in order to ***love you and to honor you all the days of my life***.
 
-![holy family jesus mary joseph murillo](murillo_holy_family.jpeg '#float=right')
-_Murillo - The Holy Family with a Bird (1650)_
-
 - *Conjugum*
 
 The fourth name is *conjugum*; it is a combination of *con* (together with) and *jugum* (yoke). This name suggests that married couples are called to carry the same yoke. For them, yoke represents all the life contradictions they have to face: ***the good times and the bad, sickness and health, etc***.
 
 Those familiar with agriculture will know that a [yoke](https://www.britannica.com/technology/yoke) would normally be carried by two animals. However, unlike those animals, married couples are not the only ones carrying the yoke. **Christ helps them.** He carries the yoke with them. That is why Fulton Sheen asserts that **it takes three to get married**: God + a man + a woman.
-
+***
 > It takes three to make Love in Heaven
 > 	—Father, Son, and Holy Spirit.
 >
