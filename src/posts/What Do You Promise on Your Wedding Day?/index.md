@@ -11,7 +11,7 @@ excerpt: Commentary on marriage consent. Marriage, according to God’s plan, is
 > I, (name), take you, (name), to be my wife/husband. I promise to be faithful to you, in good times and in bad, in sickness and in health, to love you and to honor you all the days of my life.
 >
 > —*Marriage Consent*
-
+---
 As a priest, one of the biggest joys in my ministry is to assist at a marriage. In today’s society, where provisionality and [relativism](https://www.catholic.com/magazine/online-edition/how-to-refute-moral-relativism) reign, the act of contracting marriage has become a heroic act: an act in which a man and a woman publicly declare that **everlasting love is still possible**!
 
 At the same time, though, we should not forget that marriage is not a product of human genius. **Human beings did not invent marriage: God did.** For our benefit, the central part of the wedding ceremony—the **marriage consent**[^1]—condenses the essence of what marriage is according to God’s design.
@@ -69,32 +69,46 @@ The third name is *consortium*, formed by *con* (together with) and *sors* (dest
 The fourth name is *conjugum*; it is a combination of *con* (together with) and *jugum* (yoke). This name suggests that married couples are called to carry the same yoke. For them, yoke represents all the life contradictions they have to face: ***the good times and the bad, sickness and health, etc***.
 
 Those familiar with agriculture will know that a [yoke](https://www.britannica.com/technology/yoke) would normally be carried by two animals. However, unlike those animals, married couples are not the only ones carrying the yoke. **Christ helps them.** He carries the yoke with them. That is why Fulton Sheen asserts that **it takes three to get married**: God + a man + a woman.
-***
+
 > It takes three to make Love in Heaven
-> 	—Father, Son, and Holy Spirit.
+> —Father, Son, and Holy Spirit.
 >
 > It takes three for Heaven to make love to earth
-> 	—God, Man, and Mary, through whom God became Man.
+> —God, Man, and Mary, through whom God became Man.
 >
 > It takes three to make love in the Holy Family
-> 	—Mary, and Joseph, and the consummation of their love, Jesus.
+> —Mary, and Joseph, and the consummation of their love, Jesus.
 >
 > It takes three to make love in hearts
-> 	—The Lover, the Beloved, and Love.
+> —The Lover, the Beloved, and Love.
 >
 > To that Woman Who taught the sublime mystery of Love, Mary Immaculate, 
-> 	This book is dedicated.
+> This book is dedicated.
 >
 > That nations, hearts, and homes may learn 
-> 	That love does not so much mean to give oneself to another 
-> 	As for both lovers to give themselves to that Passionless Passion, 
-> 	Which is God.
+> That love does not so much mean to give oneself to another 
+> As for both lovers to give themselves to that Passionless Passion, 
+> Which is God.
 >
-> —Fulton Sheen, *Three to Get Married* (1951), Prologue
+> —Fulton J. Sheen, *Three to Get Married*, Prologue
+
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="{sheen_three_married.jpg}" alt="{fulton sheen book three to get married}" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="{https://www.amazon.com/Three-Get-Married-Fulton-Sheen/dp/0933932871}">{Three To Get Married}</a>
+    </h5>
+    <h6>{Fulton J. Sheen}</h6>
+    <p>{Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.}</p>
+  </div>
+</div>
 
 [^1]: “Matrimonial consent is an act of the will by which a man and a woman mutually give and accept each other through an irrevocable covenant in order to establish marriage” ([c. 1057 §2](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.)).
 [^2]: [*CCC*, 1623](https://www.vatican.va/archive/ENG0015/__P52.HTM).
 [^3]: See *The Code of Canon Law*, [c. 1057 §1](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.).
 [^4]: See Gen 2:24 *NRSVCE*: “Therefore a man leaves his father and his mother and clings to his wife, and they become one flesh.”
 [^5]: See [*CCC*, 1328](https://www.vatican.va/archive/ENG0015/__P3Y.HTM) et seq.
-
