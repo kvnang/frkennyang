@@ -85,7 +85,9 @@ Those familiar with agriculture will know that a [yoke](https://www.britannica.c
 > It takes three to make love in hearts\
 > —The Lover, the Beloved, and Love.
 >
-> To that Woman Who taught the sublime mystery of Love, Mary Immaculate,\
+> To that Woman\
+> Who taught the sublime mystery of Love,\
+> Mary Immaculate,\
 > This book is dedicated.
 >
 > That nations, hearts, and homes may learn\
