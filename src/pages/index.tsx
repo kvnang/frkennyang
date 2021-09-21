@@ -134,6 +134,10 @@ const HeroStyles = styled.section`
         min-width: 350px;
         transform: translateX(0);
       }
+
+      img {
+        object-fit: contain !important;
+      }
     }
   }
 
