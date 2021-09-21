@@ -156,9 +156,14 @@ const PostContentStyles = styled.div`
 
   .book {
     display: flex;
+    flex-direction: column;
     border: 1px solid var(--dark-grey);
     position: relative;
     z-index: 0;
+
+    @media ${breakpoints.tablet} {
+      flex-direction: row;
+    }
 
     &:not(:last-child) {
       margin-bottom: var(--p-spacing);
@@ -177,14 +182,17 @@ const PostContentStyles = styled.div`
         position: relative;
         width: 100%;
         height: 100%;
-        min-height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-        img {
-          /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.32); */
-          position: absolute;
-          height: 100%;
-          width: 100%;
-          object-fit: contain;
+        .gatsby-resp-image-wrapper {
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.32);
+          width: 100px;
+
+          @media ${breakpoints.tablet} {
+            width: 160px;
+          }
         }
       }
     }
@@ -197,6 +205,10 @@ const PostContentStyles = styled.div`
 
         + h6 {
           margin-top: 0.25em;
+        }
+
+        + p {
+          margin-top: 1em;
         }
       }
 

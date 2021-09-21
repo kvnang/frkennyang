@@ -95,6 +95,7 @@ Those familiar with agriculture will know that a [yoke](https://www.britannica.c
 >
 > —Fulton J. Sheen, _Three to Get Married_, Prologue
 
+<!--
 <div class="book">
   <div class="book__img">
     <div class="book__img__inner">
@@ -105,9 +106,11 @@ Those familiar with agriculture will know that a [yoke](https://www.britannica.c
     <h5>
       <a href="https://www.amazon.com/Three-Get-Married-Fulton-Sheen/dp/0933932871">Three to Get Married</a>
     </h5>
+    <h6>By Fulton J. Sheen</h6>
     <p>Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.</p>
   </div>
 </div>
+-->
 
 ---
 
