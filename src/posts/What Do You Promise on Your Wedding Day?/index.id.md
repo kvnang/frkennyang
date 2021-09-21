@@ -94,21 +94,6 @@ Mereka yang akrab dengan dunia pertanian pasti tahu bahwa [kuk](https://www.brit
 > 
 > —Fulton J. Sheen, *Three to Get Married* (1951), Prologue
 
-<div class="book">
-  <div class="book__img">
-    <div class="book__img__inner">
-      <img src="{sheen_three_married.jpg}" alt="{fulton sheen book three to get married}" />
-    </div>
-  </div>
-  <div class="book__text">
-    <h5>
-      <a href="{https://www.amazon.com/Three-Get-Married-Fulton-Sheen/dp/0933932871}">{Three To Get Married}</a>
-    </h5>
-    <h6>{Fulton J. Sheen}</h6>
-    <p>{Buku ini mengulas esensi cinta kasih dan implikasinya bagi hidup pernikahan. Karenanya, karya ini adalah bacaan yang meneguhkan bagi pasangan yang berpacaran atau bertunangan, pasangan suami istri, konselor pernikahan, dan para imam.}</p>
-  </div>
-</div>
-
 [^1]: “Kesepakatan perkawinan adalah tindakan kehendak dengan- nya seorang laki-laki dan seorang perempuan saling menyerahkan diri dan saling menerima untuk membentuk perkawinan dengan perjanjian yang tak dapat ditarik kembali” ([c. 1057 §2](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.)).
 [^2]: [*KGK, 1623*](https://www.vatican.va/archive/ENG0015/__P52.HTM).
 [^3]: Lih. *Kitab Hukum Kanonik*, [c. 1057 §1](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.).
