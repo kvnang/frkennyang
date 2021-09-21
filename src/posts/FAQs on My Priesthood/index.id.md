@@ -7,25 +7,27 @@ category:
   - Priesthood
 excerpt: Artikel ini membahas imamat saya, mengapa imam disebut “father”, perbedaan antara imam diosesan dan imam tarekat religius, janji-janji yang diucapkan oleh imam diosesan, kehidupan sehari-hari saya, dan alasan saya mengenakan busana imam.
 ---
-1. ## Siapa Anda?
+Dalam artikel ini, saya akan menjawab pertanyaan-pertanyaan yang paling sering saya terima. Jika pertanyaan Anda tidak ada di sini, jangan ragu untuk menghubungi saya melalui [formulir kontak](/) di halaman beranda.
+
+## 1. Siapa Anda?
 
 Saya adalah seorang **imam Katolik**. Mengenai identitas seorang imam Katolik, baca [artikel ini](https://www.catholic.com/encyclopedia/priest).
 
-2. ## Bagaimana kami harus memanggil Anda?
+## 2. Bagaimana kami harus memanggil Anda?
 
 Silakan memanggil saya **Father Kenny**.
 
-3. ## Mengapa Anda dipanggil ‘*Father*’?
+## 3. Mengapa Anda dipanggil ‘*Father*’?
 
 Memang, ada sebuah kebiasaan untuk memanggil para imam, dalam berbagai bahasa, dengan sebutan ‘Bapa’ (misalnya, *Padre*, *Mon Père*, *Romo*). Dengan memanggil saya ‘Father,’ Anda sebenarnya memberikan kepada saya bantuan yang luar biasa. Anda mengingatkan saya bahwa, sebagai seorang imam, saya dipanggil—seperti halnya para ayah—untuk menjadi seorang **penyedia** *(provider)*. Saya ditahbiskan untuk **memberi makan umat beriman** dengan sakramen dan Sabda Allah serta untuk **melahirkan anak-anak Allah yang baru** melalui baptisan. 
 
 Untuk pengetahuan lebih lanjut tentang mengapa kita memanggil para imam ‘Bapa,’ klik di [sini](https://www.ewtn.com/catholicism/library/why-do-we-call-priests-father-1178).
 
-4. ## Anda tergabung dalam ordo/tarekat apa? Embel-embel apa yang harus kami letakkan di belakang nama Anda?
+## 4. Anda tergabung dalam ordo/tarekat apa? Embel-embel apa yang harus kami letakkan di belakang nama Anda?
 
 Saya adalah seorang **imam diosesan**. Oleh karena itu, saya tidak tergabung dalam ordo/tarekat manapun dan **tidak ada embel-embel** (seperti O.S.B., S.J., O.P., O.F.M., atau O.Carm.) yang perlu diletakkan di belakang nama saya.
 
-5. ## Siapa itu imam diosesan?
+## 5. Siapa itu imam diosesan?
 
 Sederhananya, imam diosesan adalah **imam yang mengabdikan hidupnya untuk melayani keuskupan tertentu** ([c. 265](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann208-329_en.html#CHAPTER_II.)). Sebuah keuskupan adalah “bagian dari umat AlIah, yang dipercayakan kepada Uskup untuk digembalakan dengan kerjasama para imam” ([c. 369](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann368-430_en.html)).
 
@@ -34,7 +36,7 @@ Saya sendiri adalah imam [Keuskupan Surabaya](http://www.gcatholic.org/dioceses/
 ![Altomonte priests group picture](altomonte_priests.jpg)
 _Photo courtesy of Collegio Sacerdotale Altomonte (Rome)_
 
-6. ## Apa perbedaan antara imam diosesan dan imam tarekat religius?
+## 6. Apa perbedaan antara imam diosesan dan imam tarekat religius?
 
 Mereka serupa karena keduanya adalah imam, namun—dalam banyak hal lain—**mereka sangat berbeda**. Saya akan membuat perbandingan antara mereka dalam tabel berikut.
 
@@ -47,7 +49,7 @@ Mereka serupa karena keduanya adalah imam, namun—dalam banyak hal lain—**mer
 | tergabung dalam [*presbyterium*](https://www.catholicculture.org/culture/library/view.cfm?recnum=6553) (kelompok imam) di bawah otoritas seorang uskup | tergabung dalam komunitas di bawah otoritas seorang superior (misalnya, abas) |
 
 
-7. ## Janji-janji apa saja yang harus diucapkan oleh imam diosesan?
+## 7. Janji-janji apa saja yang harus diucapkan oleh imam diosesan?
 
 Para imam diosesan mengucapkan tiga janji pada hari mereka [ditahbiskan menjadi diakon](https://www.newadvent.org/cathen/04647c.htm). Mereka berjanji
 
@@ -58,13 +60,13 @@ Para imam diosesan mengucapkan tiga janji pada hari mereka [ditahbiskan menjadi 
 ![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg)
 _Photo courtesy of [St. Yakobus' Parish](https://www.instagram.com/santoyakobussby/) (Surabaya)_
 
-8. ## Sebagai seorang imam, apa yang Anda lakukan sehari-hari?
+## 8. Sebagai seorang imam, apa yang Anda lakukan sehari-hari?
 
 Saat ini, saya sedang belajar untuk memperoleh [gelar lisensiat](https://en.wikipedia.org/wiki/Licentiate_(degree)#Theology,_canon_law,_history,_and_cultural_patrimony) dalam Teologi Dogmatik di [Universitas Kepausan Salib Suci](https://en.pusc.it/) di Roma. Meskipun saya menghabiskan sebagian besar waktu saya untuk belajar, **hal terpenting dalam hari saya adalah perayaan** [**Misa Kudus**](https://www.catholic.com/magazine/print-edition/why-go-to-mass). Kemudian, saya mendedikasikan banyak waktu untuk mendoakan Ibadat Harian, [berdoa secara pribadi](https://onepeterfive.com/a-beginners-guide-to-mental-prayer/), dan membaca [buku-buku rohani](https://www.delibris.org/en/node/210359). Selain itu, sesekali saya mendengarkan pengakuan dosa dan memberikan homili.
 
 Untuk melihat keseharian saya ketika saya bekerja di sebuah paroki pada tahun 2019–2020, lihat [video ini](https://youtu.be/G1JPX-rMBBU).
 
-9. ## Mengapa Anda mengenakan pakaian yang khas?
+## 9. Mengapa Anda mengenakan pakaian yang khas?
 
 Kecuali saya berada di rumah atau melakukan aktivitas yang membutuhkan pakaian yang khusus (misalnya, [bermain ski](https://aleteia.org/2018/01/26/7-surprising-facts-about-the-skiing-pope-john-paul-ii/), berenang, berjalan-jalan), saya mengenakan jubah hitam atau kemeja klerikal hitam/putih karena berbagai alasan. Saya hanya akan memberikan empat alasan di sini.
 
