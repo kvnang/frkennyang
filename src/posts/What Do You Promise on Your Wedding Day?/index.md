@@ -100,7 +100,7 @@ Those familiar with agriculture will know that a [yoke](https://www.britannica.c
   </div>
   <div class="book__text">
     <h5>
-      <a href="{https://www.amazon.com/Three-Get-Married-Fulton-Sheen/dp/0933932871}">{Three To Get Married}</a>
+      <a href="{/https://www.amazon.com/Three-Get-Married-Fulton-Sheen/dp/0933932871}">{Three To Get Married}</a>
     </h5>
     <h6>{Fulton J. Sheen}</h6>
     <p>{Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.}</p>
