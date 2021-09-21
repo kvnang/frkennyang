@@ -128,7 +128,9 @@ To use this component, you will need to copy and paste the following HTML code d
   </div>
   <div class="book__text">
     <h5>
-      <a href="{/path/to/book}">{Book Title}</a>
+      <a href="{/path/to/book}" target="_blank" rel="noopener noreferrer">
+        {Book Title}
+      </a>
     </h5>
     <h6>{Book metadata / author}</h6>
     <p>{Book description ...}</p>

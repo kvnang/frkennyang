@@ -8,6 +8,7 @@ category:
   - Family
 excerpt: Commentary on marriage consent. Marriage, according to God’s plan, is one (between one man and one woman), indissoluble, and open to life. If there is no freedom, there is no marriage. In a wedding, spouses are ministers of Christ’s grace.
 ---
+
 As a priest, one of the biggest joys in my ministry is to assist at a marriage. In today’s society, where provisionality and [relativism](https://www.catholic.com/magazine/online-edition/how-to-refute-moral-relativism) reign, the act of contracting marriage has become a heroic act: an act in which a man and a woman publicly declare that **everlasting love is still possible**!
 
 At the same time, though, we should not forget that marriage is not a product of human genius. **Human beings did not invent marriage: God did.** For our benefit, the central part of the wedding ceremony—the **marriage consent**[^1]—condenses the essence of what marriage is according to God’s design.
@@ -37,7 +38,7 @@ This is a robust assertion of one’s freedom: I am the one making the decision.
   </div>
   <div class="book__text">
     <h5>
-      <a href="https://amzn.to/3ECnnZ1">Three To Get Married</a>
+      <a href="https://amzn.to/3ECnnZ1" target="_blank" rel="noopener noreferrer">Three To Get Married</a>
     </h5>
     <h6>Fulton J. Sheen</h6>
     <p>Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.</p>
