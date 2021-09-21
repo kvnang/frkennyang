@@ -28,10 +28,12 @@ const HeroStyles = styled.section`
   .hero-text {
     --width-xs: 12;
     --width-sm: 7;
-    --width-md: 4;
+    --width-md: 5;
+    --width-lg: 4;
     --offset-xs: 0;
     --offset-sm: 1;
-    --offset-md: 2;
+    --offset-md: 1;
+    --offset-lg: 2;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -43,6 +45,10 @@ const HeroStyles = styled.section`
     }
     @media ${breakpoints.laptop} {
       padding-right: 0;
+    }
+    @media ${breakpoints.laptopL} {
+      --offset-md: 2;
+      --width-md: 4;
     }
 
     &::before {
@@ -86,6 +92,7 @@ const HeroStyles = styled.section`
     @media ${breakpoints.tablet} {
       position: static;
       width: 15rem;
+      min-width: 15rem;
       margin-left: -3.5rem;
       margin-bottom: 1.75rem;
       opacity: 1;
@@ -105,6 +112,7 @@ const HeroStyles = styled.section`
     height: auto;
     display: flex;
     justify-content: flex-end;
+    overflow: visible;
     margin-top: -3.5rem;
 
     @media ${breakpoints.tablet} {
@@ -117,7 +125,8 @@ const HeroStyles = styled.section`
 
     @media ${breakpoints.laptop} {
       margin-top: 0;
-      margin-top: 0;
+      max-width: 400px;
+      min-width: 350px;
     }
 
     .gatsby-image-wrapper {
@@ -130,13 +139,8 @@ const HeroStyles = styled.section`
 
       @media ${breakpoints.laptop} {
         width: 100%;
-        max-width: 400px;
-        min-width: 350px;
-        transform: translateX(0);
-      }
 
-      img {
-        object-fit: contain !important;
+        transform: translateX(0);
       }
     }
   }
@@ -264,6 +268,8 @@ export default function HomePage() {
                 src="../assets/images/frk-halfbody.png"
                 alt=""
                 placeholder="none"
+                objectFit="contain"
+                objectPosition="50% 100%"
               />
             </div>
           </div>

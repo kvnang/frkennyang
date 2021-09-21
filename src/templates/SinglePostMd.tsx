@@ -141,6 +141,19 @@ const PostContentStyles = styled.div`
     line-height: 1.75;
   }
 
+  h2 {
+    font-size: var(--font-size-h3);
+  }
+  h3 {
+    font-size: var(--font-size-h4);
+  }
+  h4 {
+    font-size: var(--font-size-h5);
+  }
+  h5 {
+    font-size: var(--font-size-h6);
+  }
+
   .book {
     display: flex;
     border: 1px solid var(--dark-grey);
