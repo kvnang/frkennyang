@@ -135,7 +135,7 @@ const MobileMenuButtonStyles = styled.div`
     }
 
     &.active {
-      z-index: 10;
+      z-index: 21;
       span {
         opacity: 1;
         transform: rotate(45deg) translate(2px, -4px);
@@ -187,7 +187,7 @@ const MobileHeaderStyles = styled.div`
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 9;
+  z-index: 20;
   background: var(--black);
   backdrop-filter: blur(3rem);
   opacity: 0;
