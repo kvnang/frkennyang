@@ -204,7 +204,7 @@ const PostContentStyles = styled.div`
         margin-bottom: 0;
 
         + h6 {
-          margin-top: 0.25em;
+          margin-top: 0.5em;
         }
 
         + p {
@@ -213,7 +213,7 @@ const PostContentStyles = styled.div`
       }
 
       a {
-        text-decoration: none;
+        /* text-decoration: none; */
 
         &::after {
           content: '';
