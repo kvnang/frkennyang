@@ -11,6 +11,7 @@ interface Inputs {
   name?: string;
   email: string;
   message: string;
+  title?: string; // Honeypot
 }
 
 const FormStyles = styled.div`
@@ -112,9 +113,7 @@ export default function ContactForm() {
 
   useEffect(() => {
     if (formMessage.open) {
-      // if (formMessage.status === 'error') {
       addSnackbar(formMessage.message, formMessage.status);
-      // }
     } else {
       removeSnackbar();
     }
@@ -126,6 +125,7 @@ export default function ContactForm() {
         onSubmit={handleSubmit(onSubmit)}
         method="POST"
         name="contact"
+        netlify-honeypot="title"
         data-netlify="true"
       >
         <input type="hidden" value="contact" {...register('form-name')} />
@@ -166,6 +166,17 @@ export default function ContactForm() {
                 required
                 aria-invalid={!!errors.message}
                 {...register('message', { required: true })}
+              />
+            </label>
+          </div>
+          <div style={{ display: 'none' }}>
+            <label htmlFor="title">
+              Don’t fill this out if you’re human:{' '}
+              <input
+                type="text"
+                autoComplete="false"
+                tabIndex={-1}
+                {...register('title')}
               />
             </label>
           </div>
