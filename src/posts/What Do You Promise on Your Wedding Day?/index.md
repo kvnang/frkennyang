@@ -43,13 +43,13 @@ The phrase that comes next is **to be my wife … to be my husband**. Something 
 
 **A similar phenomenon happens with marriage.** At least there are four names in Latin—the mother of several major European languages—that designate the mystery of marriage. Let us briefly go through each of them.
 
-- _Nuptiae_
+### _Nuptiae_
 
 The first name in my list is _nuptiae_ (Lt. _nubere_, to veil), wherefrom comes the English term ‘nuptials.’ The Latin noun _nuptus_ means 'covering' or 'veil.' This is in reality a [synecdoche](https://literarydevices.net/synecdoche/)—the using of a part of something to refer to its whole (as in saying “I’ve got wheels” to mean “I have a car”). Thus, the veiling of the bride in the celebration represents the veiling of the mystery of marriage.
 
 The use of [veil in weddings](https://www.catholicculture.org/culture/library/dictionary/index.cfm?id=37052) dates back at least to the Greco-Roman times. In a religious context, it stands for **modesty** and **obedience** before God as well as for **chastity**.
 
-- _Matrimonium_
+### _Matrimonium_
 
 The second name is _matrimonium_, a word composed of the words _matris munia_ (i.e., the mother’s duties). This is another synecdoche. Marriage is here designated by the mother’s responsibilities. The name ‘matrimony,’ hence, points to the **procreative end** of marriage. Couples, in other words, are called to be **open to life**.
 
@@ -63,34 +63,34 @@ Contraception, on the other hand, destroys matrimonial love since, when it is em
 
 Contraception and total self-giving, therefore, are mutually exclusive.
 
-- _Consortium_
+### _Consortium_
 
 The third name is _consortium_, formed by _con_ (together with) and _sors_ (destiny). This name suggests that marriage has—apart from the **procreative end**—a **unitive end**, namely, the good of the spouses. A couple promises to live in union with one another as each one of them pronounces: **_I promise to be faithful to you_** … . _Consortium_ also conveys the idea of [indissolubility](https://media.ascensionpress.com/2018/08/06/the-sacramentality-and-indissolubility-of-marriage/): I want to be faithful to you in order to **_love you and to honor you all the days of my life_**.
 
-- _Conjugum_
+### _Conjugum_
 
 The fourth name is _conjugum_; it is a combination of _con_ (together with) and _jugum_ (yoke). This name suggests that married couples are called to carry the same yoke. For them, yoke represents all the life contradictions they have to face: **_the good times and the bad, sickness and health, etc_**.
 
 Those familiar with agriculture will know that a [yoke](https://www.britannica.com/technology/yoke) would normally be carried by two animals. However, unlike those animals, married couples are not the only ones carrying the yoke. **Christ helps them.** He carries the yoke with them. That is why Fulton Sheen asserts that **it takes three to get married**: God + a man + a woman.
 
-> It takes three to make Love in Heaven
+> It takes three to make Love in Heaven\
 > —Father, Son, and Holy Spirit.
 >
-> It takes three for Heaven to make love to earth
+> It takes three for Heaven to make love to earth\
 > —God, Man, and Mary, through whom God became Man.
 >
-> It takes three to make love in the Holy Family
+> It takes three to make love in the Holy Family\
 > —Mary, and Joseph, and the consummation of their love, Jesus.
 >
-> It takes three to make love in hearts
+> It takes three to make love in hearts\
 > —The Lover, the Beloved, and Love.
 >
-> To that Woman Who taught the sublime mystery of Love, Mary Immaculate,
+> To that Woman Who taught the sublime mystery of Love, Mary Immaculate,\
 > This book is dedicated.
 >
-> That nations, hearts, and homes may learn
-> That love does not so much mean to give oneself to another
-> As for both lovers to give themselves to that Passionless Passion,
+> That nations, hearts, and homes may learn\
+> That love does not so much mean to give oneself to another\
+> As for both lovers to give themselves to that Passionless Passion,\
 > Which is God.
 >
 > —Fulton J. Sheen, _Three to Get Married_, Prologue
