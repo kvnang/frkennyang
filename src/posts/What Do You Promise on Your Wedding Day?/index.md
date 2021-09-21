@@ -92,21 +92,6 @@ Those familiar with agriculture will know that a [yoke](https://www.britannica.c
 >
 > —Fulton J. Sheen, *Three to Get Married*, Prologue
 
-<div class="book">
-  <div class="book__img">
-    <div class="book__img__inner">
-      <img src="{sheen_three_married.jpg}" alt="{fulton sheen book three to get married}" />
-    </div>
-  </div>
-  <div class="book__text">
-    <h5>
-      <a href="{/https://www.amazon.com/Three-Get-Married-Fulton-Sheen/dp/0933932871}">{Three To Get Married}</a>
-    </h5>
-    <h6>{Fulton J. Sheen}</h6>
-    <p>{Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.}</p>
-  </div>
-</div>
-
 [^1]: “Matrimonial consent is an act of the will by which a man and a woman mutually give and accept each other through an irrevocable covenant in order to establish marriage” ([c. 1057 §2](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.)).
 [^2]: [*CCC*, 1623](https://www.vatican.va/archive/ENG0015/__P52.HTM).
 [^3]: See *The Code of Canon Law*, [c. 1057 §1](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.).
