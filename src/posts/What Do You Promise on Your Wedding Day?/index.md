@@ -16,7 +16,7 @@ At the same time, though, we should not forget that marriage is not a product of
 > I, (name), take you, (name), to be my wife/husband.\
 > I promise to be faithful to you,\
 > in good times and in bad, in sickness and in health,\
-> to love you and to honor you all the days of my life.\
+> to love you and to honor you all the days of my life.
 >
 > —_Marriage Consent_
 
