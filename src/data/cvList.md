@@ -1,6 +1,6 @@
 ## Education
 
-- ### Pontifical University of the Holy Cross
+- ### [Pontifical University of the Holy Cross](https://www.pusc.it/)
   #### Licentiate in Dogmatic Theology
   ##### 2020 - (in progress), ROME (ITALY)
 - ### University of Navarra
