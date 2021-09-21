@@ -408,13 +408,34 @@ const Typography = styled.createGlobalStyle`
       text-decoration: none;
       color: var(--gold);
       font-weight: bold;
+      padding-left: 0.25rem;
+      opacity: 0.75;
+      transition: opacity var(--transition);
+
+      &:hover {
+        opacity: 1;
+      }
     }
 
     // Title link
-    a.anchor svg {
-      fill: var(--color-accent);
-      height: 1rem;
-      width: auto;
+    a.anchor {
+      @media ${breakpoints.mobileOnly} {
+        display: none;
+      }
+
+      svg {
+        fill: var(--color-accent);
+        height: 1rem;
+        width: auto;
+
+        @media (hover: none) and (pointer: coarse) {
+          visibility: visible;
+        }
+      }
+
+      &.before {
+        padding-right: 0.75rem;
+      }
     }
   }
 `;

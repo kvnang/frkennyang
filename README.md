@@ -2,6 +2,23 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/970d5631-7128-4373-994d-e2faa80ff7ec/deploy-status)](https://app.netlify.com/sites/frkennyang/deploys)
 
+Fr. Kenny Ang's [personal website](https://www.fatherkenny.com) built on React + Gatsby.
+
+## Table of Contents
+
+- [Updating Posts](#updating-posts)
+- [Writing a Post](#writing-a-post)
+  - [Front Matter](#front-matter)
+  - [Body](#body)
+  - [Images](#images)
+    - [Best Practices](#best-practices)
+    - [Alignment](#alignment)
+    - [Captions](#captions)
+  - [Headings](#headings)
+  - [Links](#links)
+  - [Book Component](#book-component)
+- [Web Analytics](#web-analytics)
+
 ## Updating Posts
 
 Posts can be found under `src/posts` folder. Each post consists of a folder with a unique name. That folder contains an `index.md` file and all the necessary assets such as images. For translation, create a file named `index.{lang}.md`, for example `index.id.md`. Currently this site only supports ID (Bahasa Indonesia) and EN (English), which is the default.
@@ -138,7 +155,7 @@ To use this component, you will need to copy and paste the following HTML code d
 </div>
 ```
 
-Note that you'll need to replace to contents wrapped by `{ }` in the example above.
+Note that you'll need to replace to contents wrapped by `{ }` (including the curly brackets) in the example above.
 
 You can also remove certain elements by removing the HTML opening & closing tags entirely. For example, if you don't want to include the Book metadata / author section:
 

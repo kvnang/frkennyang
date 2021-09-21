@@ -161,7 +161,7 @@ const HeroStyles = styled.section`
   }
 `;
 
-const ContactStyles = styled.div`
+const ContactStyles = styled.section`
   @media ${breakpoints.laptop} {
     background-color: var(--offwhite);
     margin: -1px 0;
@@ -277,7 +277,7 @@ export default function HomePage() {
         </div>
       </HeroStyles>
       <HomeFeaturedMd />
-      <ContactStyles>
+      <ContactStyles id="contact">
         <div className="container">
           <div className="row">
             <div className="col inner section-p-t section-p-b">

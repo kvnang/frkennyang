@@ -258,6 +258,11 @@ export default function Header() {
                   Invite to Speak
                 </Link>
               </li>
+              <li>
+                <Link to="/#contact" className="link-underline">
+                  Contact
+                </Link>
+              </li>
             </MenuListStyles>
           </MenuStyles>
           <MobileMenuButtonStyles>
@@ -312,6 +317,15 @@ export default function Header() {
                       onClick={() => setMobileMenuActive(false)}
                     >
                       Invite to Speak
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/#contact"
+                      className="link-underline"
+                      onClick={() => setMobileMenuActive(false)}
+                    >
+                      Contact
                     </Link>
                   </li>
                 </MenuListStyles>
