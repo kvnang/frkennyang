@@ -10,7 +10,7 @@ const HeaderStyles = styled.header`
   padding-top: 1rem;
   padding-bottom: 1rem;
   position: relative;
-  z-index: 1;
+  z-index: 3;
 
   .container {
     display: flex;
