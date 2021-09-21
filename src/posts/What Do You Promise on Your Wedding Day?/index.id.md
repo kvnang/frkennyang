@@ -11,7 +11,7 @@ excerpt: Penjelasan mengenai kesepakatan/janji pernikahan. Pernikahan, menurut r
 > Saya, (nama), memilih engkau, (nama), menjadi istri/suami saya. Saya berjanji untuk setia mengabdikan diri kepadamu dalam untung dan malang, di waktu sehat dan sakit. Saya mau mengasihi dan menghormati engkau sepanjang hidup saya.
 > 
 > —*Kesepakatan Pernikahan*
-
+---
 Sebagai seorang imam, kesempatan untuk meneguhkan pernikahan adalah salah satu sumber sukacita terbesar dalam pelayanan saya. Dalam masyarakat saat ini, di mana seringkali segala hal dianggap bersifat sementara saja dan [relativisme](https://www.catholic.com/magazine/online-edition/how-to-refute-moral-relativism) merajalela, menikah telah menjadi sebuah tindakan yang heroik. Dengan tindakan ini, sepasang pria dan wanita secara terbuka menyatakan bahwa **kasih yang abadi adalah sesuatu yang nyata**!
 
 Namun, pada saat yang sama, kita tidak boleh lupa bahwa pernikahan bukanlah produk kepandaian manusia. **Manusia tidak menciptakan pernikahan: Allahlah yang menciptakannya.** Untungnya, bagian utama dari perayaan pernikahan— **kesepakatan pernikahan**[^1]—meringkas bagi kita esensi pernikahan menurut rancangan Allah.
@@ -71,32 +71,46 @@ Nama ketiga adalah *consortium*, yang adalah gabungan dari kata-kata *con* (bers
 Nama keempat adalah *conjugum*, yang adalah kombinasi *con* (bersama dengan) dan *jugum* (kuk). Nama ini menunjukkan bahwa pasangan suami istri dituntut untuk memikul kuk yang sama. Bagi mereka, kuk melambangkan semua pertentangan dalam hidup yang harus mereka hadapi: ***untung dan malang, … sehat dan sakit***.
 
 Mereka yang akrab dengan dunia pertanian pasti tahu bahwa [kuk](https://www.britannica.com/technology/yoke) biasanya diemban oleh dua binatang. Namun, tidak seperti binatang-binatang itu, pasangan suami istri tidak memikul kuk hanya dengan kekuatan mereka sendiri. **Kristus membantu mereka.** Ia ikut memikul kuk bersama dengan mereka. Itulah sebabnya Fulton Sheen menegaskan bahwa **dibutuhkan tiga untuk menikah**: Allah + seorang pria + seorang wanita.
-***
+
 > Dibutuhkan tiga untuk membuat Kasih di Surga
-> 	—Bapa, Putra, dan Roh Kudus.
+> —Bapa, Putra, dan Roh Kudus.
 > 
 > Dibutuhkan tiga agar Surga bisa mengasihi bumi
-> 	—Allah, Manusia, dan Maria—karena melaluinya Allah menjadi Manusia.
+> —Allah, Manusia, dan Maria—karena melaluinya Allah menjadi Manusia.
 > 
 > Dibutuhkan tiga untuk membuat kasih dalam Keluarga Kudus
-> 	—Maria, dan Yusuf, dan kesempurnaan kasih mereka, Yesus.
+> —Maria, dan Yusuf, dan kesempurnaan kasih mereka, Yesus.
 > 
 > Dibutuhkan tiga untuk membuat kasih dalam hati
-> 	—Ia yang mengasihi, sang Kekasih, dan Kasih.
+> —Ia yang mengasihi, sang Kekasih, dan Kasih.
 > 
 > Kepada Wanita yang mengajarkan misteri Kasih yang agung, Maria yang Tak Bernoda, 
-> 	Buku ini dipersembahkan.
+> Buku ini dipersembahkan.
 > 
 > Agar segala bangsa, hati, dan rumah tangga mengerti 
-> 	Bahwa kasih bukanlah pertama-tama pemberian diri kepada yang lain
-> 	Namun pemberian diri dua orang yang saling mencintai kepada Sang Kasih yang Abadi, 
-> 	Yakni Allah.
+> Bahwa kasih bukanlah pertama-tama pemberian diri kepada yang lain
+> Namun pemberian diri dua orang yang saling mencintai kepada Sang Kasih yang Abadi, 
+> Yakni Allah.
 > 
-> —Fulton Sheen, *Three to Get Married* (1951), Prologue
+> —Fulton J. Sheen, *Three to Get Married* (1951), Prologue
+
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="{sheen_three_married.jpg}" alt="{fulton sheen book three to get married}" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="{https://www.amazon.com/Three-Get-Married-Fulton-Sheen/dp/0933932871}">{Three To Get Married}</a>
+    </h5>
+    <h6>{Fulton J. Sheen}</h6>
+    <p>{Buku ini mengulas esensi cinta kasih dan implikasinya bagi hidup pernikahan. Karenanya, karya ini adalah bacaan yang meneguhkan bagi pasangan yang berpacaran atau bertunangan, pasangan suami istri, konselor pernikahan, dan para imam.}</p>
+  </div>
+</div>
 
 [^1]: “Kesepakatan perkawinan adalah tindakan kehendak dengan- nya seorang laki-laki dan seorang perempuan saling menyerahkan diri dan saling menerima untuk membentuk perkawinan dengan perjanjian yang tak dapat ditarik kembali” ([c. 1057 §2](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.)).
 [^2]: [*KGK, 1623*](https://www.vatican.va/archive/ENG0015/__P52.HTM).
 [^3]: Lih. *Kitab Hukum Kanonik*, [c. 1057 §1](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.).
 [^4]: Lih. Kej 2:24: “Sebab itu seorang laki-laki akan meninggalkan ayahnya dan ibunya dan bersatu dengan istrinya, sehingga keduanya menjadi satu daging.”
 [^5]: Lih. [*KGK, 1328*](https://www.vatican.va/archive/ENG0015/__P3Y.HTM) dst.
-
