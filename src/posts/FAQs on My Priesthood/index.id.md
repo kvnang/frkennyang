@@ -7,7 +7,7 @@ category:
   - Priesthood
 excerpt: Artikel ini membahas imamat saya, mengapa imam disebut “father”, perbedaan antara imam diosesan dan imam tarekat religius, janji-janji yang diucapkan oleh imam diosesan, kehidupan sehari-hari saya, dan alasan saya mengenakan busana imam.
 ---
-Dalam artikel ini, saya akan menjawab pertanyaan-pertanyaan yang paling sering saya terima. Jika pertanyaan Anda tidak ada di sini, jangan ragu untuk menghubungi saya melalui [formulir kontak](/) di halaman beranda.
+Dalam artikel ini, saya akan menjawab pertanyaan-pertanyaan yang paling sering saya terima. Jika pertanyaan Anda tidak ada di sini, jangan ragu untuk menghubungi saya melalui [formulir kontak](/#contact) di halaman beranda.
 
 ## 1. Siapa Anda?
 
