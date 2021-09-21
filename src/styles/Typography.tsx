@@ -362,11 +362,11 @@ const Typography = styled.createGlobalStyle`
     }
 
     // Gatsby Image
-    .gatsby-resp-image-wrapper {
+    .gatsby-resp-image-figure {
       max-width: initial !important;
 
       // Caption
-      & + em {
+      figcaption {
         display: block;
         /* max-width: 50%; */
         margin-left: auto;

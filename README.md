@@ -99,12 +99,24 @@ Inline images will always be of 45% width of the container on all viewports exce
 
 #### Captions
 
-To caption an image, add the caption as _italics_ below the image, for example:
+To caption an image, add the caption as image `title`, with the following syntax in Markdown:
 
 ```markdown
-![Child studying](child.jpg)
-_Credit: lorem ipsum_
+![Child studying](child.jpg 'Credit: lorem ipsum')
 ```
+
+If the image has a specific styling such as `#float=left`, you will need to specify `title=` before the image caption, for example;
+
+<!-- prettier-ignore -->
+```markdown
+                      style attribute(s)  image title / caption
+                               ▼           ▼
+![Child studying](child.jpg '#float=left;title=Image Title')
+                                        ▲
+                           Don't forget the separator   
+```
+
+_Important_: Make sure to separate each attributes with `;` as shown above.
 
 ### Headings
 

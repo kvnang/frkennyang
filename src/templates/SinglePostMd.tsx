@@ -190,7 +190,7 @@ const PostContentStyles = styled.div`
         align-items: center;
         justify-content: center;
 
-        .gatsby-resp-image-wrapper {
+        .gatsby-resp-image-figure {
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.32);
           width: 6.25rem;
           transition: box-shadow var(--transition);
@@ -246,7 +246,7 @@ const PostContentStyles = styled.div`
           &::before {
             opacity: 1;
           }
-          .gatsby-resp-image-wrapper {
+          .gatsby-resp-image-figure {
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.64);
           }
         }
@@ -305,8 +305,8 @@ export default function SinglePost({ location, data: { post } }: Props) {
         }
         image={post.frontmatter.featuredImage?.publicURL}
       />
-      <SinglePostStyles className="page-p-t">
-        <div className="container">
+      <SinglePostStyles className="page-p-t page-p-b">
+        <section className="container">
           <div className="inner">
             <div className="post-header">
               <TitleStyles>
@@ -375,7 +375,7 @@ export default function SinglePost({ location, data: { post } }: Props) {
               )}
             </PostContentStyles>
           </div>
-        </div>
+        </section>
       </SinglePostStyles>
     </>
   );
