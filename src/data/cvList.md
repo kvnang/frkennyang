@@ -115,6 +115,9 @@
 - ### Catholicism vs. Protestantism
   #### Open webinar
   ##### 22 MAY 2020, JAKARTA
+- ### The Problem of Evil
+  #### Talk for teenagers
+  ##### 11 MAY 2020, CALIFORNIA
 - ### The Divine Mercy
   #### Young Catholic Professionals
   ##### 15 APRIL 2020, SURABAYA
@@ -145,9 +148,6 @@
 - ### Aquinas: Life and Teaching
   #### Open seminar
   ##### 26 OCTOBER 2019, SURABAYA
-- ### The Problem of Evil
-  #### Talk for teenagers
-  ##### 21 SEPTEMBER 2019, SURABAYA
 - ### History and Content of the CCC
   #### Class for catechists
   ##### 19 SEPTEMBER 2019, SURABAYA
