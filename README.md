@@ -97,6 +97,18 @@ A few important notes:
 2. Ensure that Heading 1 is used only for the post title. For other headings, start with Heading 2.
 3. Every heading will be automatically hyperlinked, so that you can share the link of the post anchored to a specific heading. You can get this link by hovering over a specific heading, clicking the link icon on the left-hand side, and copy the URL on your browser.
 
+### Links
+
+Ensure that internal links (i.e. links pointing towards a URL within the same site) use _relative path_ instead of _absolute path_. A relative path is essentially an absolute path without the protocol & hostname, i.e. `https://www.fatherkenny.com`. An example of relative path is as follows:
+
+```markdown
+[Learn more](/about)
+```
+
+```markdown
+[View on Facebook](https://www.facebook.com/)
+```
+
 ### Book Component
 
 A book component is a custom component where you can show an image of a book, with its title, description and link.
