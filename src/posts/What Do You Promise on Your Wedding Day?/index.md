@@ -95,22 +95,20 @@ Those familiar with agriculture will know that a [yoke](https://www.britannica.c
 >
 > —Fulton J. Sheen, _Three to Get Married_, Prologue
 
-<!--
 <div class="book">
   <div class="book__img">
     <div class="book__img__inner">
-      <img src="three-to-get-married.jpg" alt="Three to get Married" />
+      <img src="sheen_three_married.jpg" alt="fulton sheen book three to get married" />
     </div>
   </div>
   <div class="book__text">
     <h5>
-      <a href="https://www.amazon.com/Three-Get-Married-Fulton-Sheen/dp/0933932871">Three to Get Married</a>
+      <a href="https://amzn.to/3ECnnZ1">Three To Get Married</a>
     </h5>
-    <h6>By Fulton J. Sheen</h6>
+    <h6>Fulton J. Sheen</h6>
     <p>Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.</p>
   </div>
 </div>
--->
 
 ---
 
