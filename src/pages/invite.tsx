@@ -41,6 +41,7 @@ interface Inputs {
   eventType: string;
   hasSpokenBefore: string;
   details?: string;
+  title?: string; // Honeypot
 }
 
 const defaultValues = {
@@ -68,6 +69,7 @@ const defaultValues = {
   eventType: '',
   hasSpokenBefore: 'no',
   details: '',
+  title: '', // Honeypot
 };
 
 const BodyStyles = styled.main`
@@ -242,6 +244,7 @@ export default function InvitePage() {
                     onSubmit={handleSubmit(onSubmit)}
                     method="POST"
                     name="invite"
+                    netlify-honeypot="title"
                     data-netlify="true"
                   >
                     <input
@@ -708,6 +711,17 @@ export default function InvitePage() {
                             placeholder="Tell us about your event."
                             aria-invalid={!!errors.details}
                             {...register('details')}
+                          />
+                        </label>
+                      </div>
+                      <div style={{ display: 'none' }}>
+                        <label htmlFor="title">
+                          Don’t fill this out if you’re human:{' '}
+                          <input
+                            type="text"
+                            autoComplete="false"
+                            tabIndex={-1}
+                            {...register('title')}
                           />
                         </label>
                       </div>
