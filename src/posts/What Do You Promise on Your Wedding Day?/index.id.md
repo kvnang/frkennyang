@@ -16,7 +16,7 @@ Namun, pada saat yang sama, kita tidak boleh lupa bahwa pernikahan bukanlah prod
 > Saya, (nama), memilih engkau, (nama), menjadi istri/suami saya.\
 > Saya berjanji untuk setia mengabdikan diri kepadamu\
 > dalam untung dan malang, di waktu sehat dan sakit.\
-> Saya mau mengasihi dan menghormati engkau sepanjang hidup saya.\
+> Saya mau mengasihi dan menghormati engkau sepanjang hidup saya.
 >
 > —_Kesepakatan Pernikahan_
 
