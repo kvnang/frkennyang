@@ -7,25 +7,27 @@ category:
   - Priesthood
 excerpt: This article covers my priesthood, why priests are called “father,” the differences between diocesan priests and religious order priests, the promises made by diocesan priests, my daily life, and the reasons I wear priestly clothing.
 ---
-1. ## Who are you?
+In this article, I provide answers to the questions I get asked the most. If your question is not here, feel free to reach out to me via [the contact form](/) on the home page.
+
+## 1. Who are you?
 
 I am a **Catholic priest**. On who a Catholic priest is, check out [this article](https://www.catholic.com/encyclopedia/priest).
 
-2. ## How should we address you?
+## 2. How should we address you?
 
 You can call me **Father Kenny**.
 
-3. ## Why are you called ‘Father’?
+## 3. Why are you called ‘Father’?
 
 Indeed, it is customary to address priests, in different languages, as 'Father' (e.g., *Padre*, *Mon Père*, *Romo*). By calling me ‘Father,’ you are actually doing me a huge favor. You are reminding me that, as a priest, I am called—as all fathers are—to be **a provider**. I was ordained, indeed, to **nourish the faithful** with the sacraments and the Word of God as well as to **generate new children of God** through baptism.
 
 More on why we call priests ‘Father,’ click [here](https://www.ewtn.com/catholicism/library/why-do-we-call-priests-father-1178).
 
-4. ## Which religious order do you belong to? What title should we put behind your name?
+## 4. Which religious order do you belong to? What title should we put behind your name?
 
 I am a **diocesan priest**. Therefore, I do not belong to any religious order and **no religious title** (such as O.S.B., S.J., O.P., O.F.M., or O.Carm.) goes behind my name.
 
-5. ## Who are diocesan priests? 
+## 5. Who are diocesan priests? 
 
 Simply speaking, diocesan priests are **priests who dedicate their life to serving a particular diocese** ([c. 265](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann208-329_en.html#CHAPTER_II.)). A diocese, in turn, is “a portion of the people of God which is entrusted to a bishop for him to shepherd with the cooperation of the *presbyterium*,” namely, the college of priests ([c. 369](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann368-430_en.html)).
 
@@ -34,7 +36,7 @@ In my case, I am a priest of the [Diocese of Surabaya](http://www.gcatholic.org/
 ![Altomonte priests group picture](altomonte_priests.jpg)
 _Photo courtesy of Collegio Sacerdotale Altomonte (Rome)_
 
-6. ## How are diocesan priests different from religious order priests?
+## 6. How are diocesan priests different from religious order priests?
 
 They are similar insofar as they are priests, yet—in many other ways—**they are very different**. I will make a comparison between them in the following table.
 
@@ -47,7 +49,7 @@ They are similar insofar as they are priests, yet—in many other ways—**they 
 | belong to a [*presbyterium*](https://www.catholicculture.org/culture/library/view.cfm?recnum=6553) (a body of priests) under the authority of a bishop | belong to a community under the authority of a superior (e.g., an abbot) |
 
 
-7. ## What promises do diocesan priests have to make?
+## 7. What promises do diocesan priests have to make?
 
 Diocesan priests made three promises on the day of their [diaconal ordination](https://www.newadvent.org/cathen/04647c.htm). They promised 
 
@@ -58,13 +60,13 @@ Diocesan priests made three promises on the day of their [diaconal ordination](h
 ![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg)
 _Photo courtesy of [St. Yakobus' Parish](https://www.instagram.com/santoyakobussby/) (Surabaya)_
 
-8. ## As a priest, what do you do all day?
+## 8. As a priest, what do you do all day?
 
 I am currently pursuing a [licentiate degree](https://en.wikipedia.org/wiki/Licentiate_(degree)#Theology,_canon_law,_history,_and_cultural_patrimony) in Dogmatic Theology at the [Pontifical University of the Holy Cross](https://en.pusc.it/) in Rome. Even though I spend most of my time studying, **the most important thing in my day is the celebration of the [Holy Mass](https://www.catholic.com/magazine/print-edition/why-go-to-mass)**. Then, I dedicate a good amount of time to reciting the Liturgy of the Hours, doing my [mental prayers](https://onepeterfive.com/a-beginners-guide-to-mental-prayer/), and reading [spiritual books](https://www.delibris.org/en/node/210359). In addition, I hear confessions and give homilies occasionally.
 
 To see my typical day when I worked at a parish in 2019–2020, check out [this video](https://youtu.be/G1JPX-rMBBU).
 
-9. ## Why do you wear peculiar clothing?
+## 9. Why do you wear peculiar clothing?
 
 Unless I am at home or doing an activity that calls for a specific type of clothing (e.g., [skiing](https://aleteia.org/2018/01/26/7-surprising-facts-about-the-skiing-pope-john-paul-ii/), swimming, excursions), I wear black cassock or black/white clerical shirt for many reasons. I will list only four here.
 
