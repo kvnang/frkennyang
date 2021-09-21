@@ -75,10 +75,10 @@ Those familiar with agriculture will know that a [yoke](https://www.britannica.c
 
 > It takes three to make Love in Heaven
 > —Father, Son, and Holy Spirit.
->
+> 
 > It takes three for Heaven to make love to earth
 > —God, Man, and Mary, through whom God became Man.
->
+> 
 > It takes three to make love in the Holy Family
 > —Mary, and Joseph, and the consummation of their love, Jesus.
 >
@@ -109,8 +109,6 @@ Those familiar with agriculture will know that a [yoke](https://www.britannica.c
     <p>Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.</p>
   </div>
 </div>
-
----
 
 [^1]: “Matrimonial consent is an act of the will by which a man and a woman mutually give and accept each other through an irrevocable covenant in order to establish marriage” ([c. 1057 §2](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann998-1165_en.html#CHAPTER_IV.)).
 [^2]: [_CCC_, 1623](https://www.vatican.va/archive/ENG0015/__P52.HTM).
