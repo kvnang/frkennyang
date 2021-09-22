@@ -194,7 +194,7 @@ export default function InviteForm() {
   };
 
   // Get min data
-  const daysFromToday = 30;
+  const daysFromToday = 0;
   const minDate = new Date(
     new Date().getTime() + daysFromToday * 24 * 60 * 60 * 1000
   );
@@ -225,10 +225,10 @@ export default function InviteForm() {
           <div className="form-fields">
             <div className="form-field heading">
               <h2 className="h3">Event Date</h2>
-              <p className="small">
+              {/* <p className="small">
                 Note: You will only be able to propose dates beyond{' '}
                 {daysFromToday.toString()} days from today.
-              </p>
+              </p> */}
             </div>
             <div className="form-field half">
               <label htmlFor="date">
