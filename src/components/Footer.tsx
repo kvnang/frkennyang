@@ -5,7 +5,7 @@ import Menu from './Menu';
 const FooterStyles = styled.footer`
   .container {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
     border-top: 1px solid var(--dark-grey);
   }
 
