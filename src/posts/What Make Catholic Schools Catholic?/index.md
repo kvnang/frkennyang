@@ -31,6 +31,21 @@ A school’s consciousness of being part of the Church would in turn generate th
 
 Only when a school is conscious of being part of the Church can it be worthily called Catholic.
 
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="woods_catholic_built.jpeg" alt="thomas woods book How the Catholic Church Built Western Civilization" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="https://amzn.to/3zwpaek">How the Catholic Church Built Western Civilization</a>
+    </h5>
+    <h6>Thomas E. Woods</h6>
+    <p>If you want to know about the relationship between the Church and science, how the monks saved civilization, and how Catholic charities changed the world, you will enjoy this book.</p>
+  </div>
+</div>
+
 ## 2. Faith-Reason Harmony
 
 Authentically Catholic schools are also characterized by **harmony of faith and reason**. It takes little effort to realize that ‘integral education’ and ‘interdisciplinary approach’ have become buzz phrases in today’s educational milieu—be it non-Catholic or Catholic. Yet I would argue, though, that an education can be truly integral only if it is capable of harmonizing faith and reason. **A curriculum that excludes Christian faith—to put it bluntly—can never be integral**. **Worse still are schools that bear the title ‘Catholic’ but provide no or shamefully substandard formation in Catholic faith**.
