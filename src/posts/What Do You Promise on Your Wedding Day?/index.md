@@ -33,7 +33,7 @@ This is a robust assertion of one’s freedom: I am the one making the decision.
 <div class="book">
   <div class="book__img">
     <div class="book__img__inner">
-      <img src="sheen_three_married.jpg" alt="fulton sheen book three to get married" />
+      <img src="<a target="_blank"  href="https://www.amazon.com/gp/product/0933932871/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0933932871&linkCode=as2&tag=happiness052f-20&linkId=6d2dd166ec7e9d66e6d73c9783d3e8a0"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0933932871&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=happiness052f-20" ></a>" alt="fulton sheen book three to get married" />
     </div>
   </div>
   <div class="book__text">
