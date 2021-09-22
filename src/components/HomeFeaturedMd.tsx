@@ -1,5 +1,5 @@
 import { graphql, Link, useStaticQuery } from 'gatsby';
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import Slider from 'react-slick';
 import styled from 'styled-components';
 import { LangContext } from './LangContext';
@@ -90,6 +90,27 @@ const SwitcherLinkStyles = styled.div`
   justify-content: space-between;
   align-items: center;
 `;
+
+let firstClientX: number;
+let clientX: number;
+
+const preventTouch = (e: TouchEvent) => {
+  const minValue = 5; // threshold
+
+  clientX = e.touches[0].clientX - firstClientX;
+
+  // Vertical scrolling does not work when you start swiping horizontally.
+  if (Math.abs(clientX) > minValue) {
+    e.preventDefault();
+    // e.returnValue = false;
+
+    // return false;
+  }
+};
+
+const touchStart = (e: TouchEvent) => {
+  firstClientX = e.touches[0].clientX;
+};
 
 export default function HomeFeaturedMd() {
   const data = useStaticQuery(graphql`
@@ -185,6 +206,26 @@ export default function HomeFeaturedMd() {
     ],
   };
 
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const containerElement = containerRef.current;
+
+    if (containerElement) {
+      containerElement.addEventListener('touchstart', touchStart);
+      containerElement.addEventListener('touchmove', preventTouch, {
+        passive: false,
+      });
+    }
+
+    return () => {
+      if (containerElement) {
+        containerElement.removeEventListener('touchstart', touchStart);
+        containerElement.removeEventListener('touchmove', preventTouch);
+      }
+    };
+  });
+
   return (
     <HomeFeaturedStyles className="bg-light section-p-t section-p-b">
       <div className="container">
@@ -205,7 +246,7 @@ export default function HomeFeaturedMd() {
             </div>
           </div>
           <div className="posts-wrapper col">
-            <div className="posts">
+            <div className="posts" ref={containerRef}>
               <Slider {...settings}>
                 {posts.map((post: PostProps) => (
                   <PostEntry key={post.id} post={post} showImage />
