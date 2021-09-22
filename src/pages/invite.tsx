@@ -416,7 +416,6 @@ export default function InvitePage() {
                             type="text"
                             id="venue"
                             placeholder="Venue"
-                            required
                             aria-invalid={!!errors.venue}
                             {...register('venue', {
                               validate: {
