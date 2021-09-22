@@ -71,8 +71,7 @@ Diocesan priests made three promises on the day of their [diaconal ordination](h
 - to celebrate the [Liturgy of the Hours](https://www.usccb.org/prayer-and-worship/liturgy-of-the-hours) (also known as the Breviary or the [Divine Office](https://www.newadvent.org/cathen/11219a.htm)) for God’s people and for the entire world; and
 - to obey their bishop and his successors.
 
-![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg)
-_Photo courtesy of [St. Yakobus' Parish](https://www.instagram.com/santoyakobussby/) (Surabaya)_
+![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg 'Photo courtesy of [St. Yakobus' Parish](https://www.instagram.com/santoyakobussby/) (Surabaya)')
 
 ## 8. As a priest, what do you do all day?
 
