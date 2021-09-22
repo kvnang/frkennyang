@@ -24,6 +24,21 @@ Indeed, it is customary to address priests, in different languages, as 'Father' 
 
 More on why we call priests ‘Father,’ click [here](https://www.ewtn.com/catholicism/library/why-do-we-call-priests-father-1178).
 
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="hahn_many_called.jpeg" alt="scott hahn book many are called priesthood" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="https://amzn.to/3EHDxR1">Many Are Called: Rediscovering the Glory of the Priesthood</a>
+    </h5>
+    <h6>Scott Hahn</h6>
+    <p>This work explains the priest’s roles as father, teacher, warrior, judge, bridegroom, and brother. If you are a bishop, a priest, a seminarian, somebody discerning the priesthood, or simply a person wanting to know more about Catholic priesthood, this book is meant for you.</p>
+  </div>
+</div>
+
 ## 4. Which religious order do you belong to? What title should we put behind your name?
 
 I am a **diocesan priest**. Therefore, I do not belong to any religious order and **no religious title** (such as O.S.B., S.J., O.P., O.F.M., or O.Carm.) goes behind my name.
@@ -40,13 +55,13 @@ In my case, I am a priest of the [Diocese of Surabaya](http://www.gcatholic.org/
 
 They are similar insofar as they are priests, yet—in many other ways—**they are very different**. I will make a comparison between them in the following table.
 
-| Diocesan priests …                                                                                                                                     | Religious order priests …                                                                                                                                                                                                                                                                                        |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| live in the middle of the world                                                                                                                        | live separated from the world ([PC, 5](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651028_perfectae-caritatis_en.html)) in a religious house ([c. 665](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann607-709_en.html#CHAPTER_III.)) |
-| are also called “[secular priests](https://www.newadvent.org/cathen/13675a.htm)” (from the Latin _saeculum_, which means ‘the present world’)          | are also called “regular priests” (from the Latin _regulae_, which means ‘rules’)                                                                                                                                                                                                                                |
-| made [promises](https://www.collinsdictionary.com/dictionary/english/promise)                                                                          | made [vows](https://www.merriam-webster.com/dictionary/vow) to live the evangelical counsels of poverty, chastity and obedience ([c. 573 §1](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann573-606_en.html#TITLE_I:))                                                             |
-| may own personal property and have to pay taxes                                                                                                        | do not own personal property (i.e., everything belongs to the community)                                                                                                                                                                                                                                         |
-| belong to a [_presbyterium_](https://www.catholicculture.org/culture/library/view.cfm?recnum=6553) (a body of priests) under the authority of a bishop | belong to a community under the authority of a superior (e.g., an abbot)                                                                                                                                                                                                                                         |
+| Diocesan priests …                                           | Religious order priests …                                    |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
+| live in the middle of the world                              | live separated from the world ([PC, 5](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651028_perfectae-caritatis_en.html)) in a religious house ([c. 665](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann607-709_en.html#CHAPTER_III.)) |
+| are also called “[secular priests](https://www.newadvent.org/cathen/13675a.htm)” (from the Latin _saeculum_, which means ‘the present world’) | are also called “regular priests” (from the Latin _regulae_, which means ‘rules’) |
+| made [promises](https://www.collinsdictionary.com/dictionary/english/promise) | made [vows](https://www.merriam-webster.com/dictionary/vow) to live the evangelical counsels of poverty, chastity and obedience ([c. 573 §1](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib2-cann573-606_en.html#TITLE_I:)) |
+| may own personal property and have to pay taxes              | do not own personal property (i.e., everything belongs to the community) |
+| belong to a [_presbyterium_](https://www.catholicculture.org/culture/library/view.cfm?recnum=6553) (a body of priests) under the authority of a bishop | belong to a community under the authority of a superior (e.g., an abbot) |
 
 ## 7. What promises do diocesan priests have to make?
 
