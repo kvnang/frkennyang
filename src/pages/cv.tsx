@@ -156,28 +156,12 @@ const CvUListStyles = styled.ul`
     }
   }
 
-  h2 {
-    font-size: var(--font-size-h1);
-  }
-
-  h3 {
-    font-size: var(--font-size-h2);
+  h4,
+  h5 {
+    margin-bottom: 0.35rem !important;
   }
 
   h4 {
-    font-size: var(--font-size-h3);
-  }
-
-  h5 {
-    font-size: var(--font-size-h4);
-  }
-
-  h5,
-  h6 {
-    margin-bottom: 0.35rem;
-  }
-
-  h5 {
     span {
       font-weight: 400;
     }
@@ -296,14 +280,14 @@ export default function CvPage({ data }: Props) {
                     }
                   >
                     <AccordionItemHead>
-                      <h4>{cvGroup.title}</h4>
+                      <h3>{cvGroup.title}</h3>
                     </AccordionItemHead>
                     <AccordionItemBody>
                       <CvUListStyles>
                         {cvGroup.items.map((cvItem, k) => (
                           <li key={`accordion-cv-li-${k}`}>
                             {(cvItem.title || cvItem.subtitle) && (
-                              <h5>
+                              <h4>
                                 {cvItem.title}
                                 {cvItem.title && cvItem.subtitle ? (
                                   <span> / {cvItem.subtitle}</span>
@@ -311,12 +295,13 @@ export default function CvPage({ data }: Props) {
                                 {!cvItem.title && cvItem.subtitle ? (
                                   <span>{cvItem.subtitle}</span>
                                 ) : null}
-                              </h5>
+                              </h4>
                             )}
                             {cvItem.meta && <h6>{cvItem.meta}</h6>}
-                            {cvItem.description && (
-                              <p className="small">{cvItem.description}</p>
-                            )}
+                            {cvItem.description &&
+                              /\S/.test(cvItem.description) && (
+                                <p className="small">{cvItem.description}</p>
+                              )}
                           </li>
                         ))}
                       </CvUListStyles>
