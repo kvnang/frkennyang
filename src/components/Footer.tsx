@@ -21,6 +21,10 @@ const FooterStyles = styled.footer`
     background-color: var(--offwhite);
     color: var(--black);
 
+    .container {
+      border-color: var(--offwhite-light);
+    }
+
     a,
     a:hover,
     a:focus {
