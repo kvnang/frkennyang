@@ -32,7 +32,7 @@ More on why we call priests ‘Father,’ click [here](https://www.ewtn.com/cath
   </div>
   <div class="book__text">
     <h5>
-      <a href="https://amzn.to/3EHDxR1">Many Are Called: Rediscovering the Glory of the Priesthood</a>
+      <a target="_blank" href="https://www.amazon.com/gp/product/B0036S4AP4/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0036S4AP4&linkCode=as2&tag=happiness052f-20&linkId=1d3dbc85ad701809bcde2c0c89b618a8">Many Are Called: Rediscovering the Glory of the Priesthood</a>
     </h5>
     <h6>Scott Hahn</h6>
     <p>This work explains the priest’s roles as father, teacher, warrior, judge, bridegroom, and brother. If you are a bishop, a priest, a seminarian, somebody discerning the priesthood, or simply a person wanting to know more about Catholic priesthood, this book is meant for you.</p>
