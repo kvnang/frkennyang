@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 import algoliasearch from 'algoliasearch/lite';
 import {
@@ -11,6 +11,7 @@ import { Helmet } from 'react-helmet';
 import Menu from '../components/algolia/Menu';
 import Hits from '../components/algolia/Hits';
 import SEO from '../components/Seo';
+import { LangContext } from '../components/LangContext';
 
 const searchClient = algoliasearch(
   process.env.GATSBY_ALGOLIA_APP_ID || '',
@@ -161,6 +162,8 @@ const MenuStyles = styled.div`
 `;
 
 export default function ContentsPage() {
+  const { lang, setLang } = useContext(LangContext);
+
   return (
     <main>
       <SEO title="Contents" />
@@ -187,8 +190,9 @@ export default function ContentsPage() {
                   <MenuStyles className="menu">
                     <Menu
                       attribute="fields.lang"
-                      defaultRefinement="en"
+                      defaultRefinement={lang || 'en'}
                       searchable={false}
+                      setLang={setLang}
                     />
                   </MenuStyles>
                 </SearchFilterStyles>
