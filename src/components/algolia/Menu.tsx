@@ -13,6 +13,7 @@ interface Props {
   // isFromSearch: boolean;
   // searchForItems: Function;
   // createURL: Function;
+  setLang?: Function;
 }
 
 const MenuStyles = styled.div`
@@ -58,7 +59,7 @@ const MenuStyles = styled.div`
   }
 `;
 
-const Menu = ({ items, refine }: Props) => (
+const Menu = ({ items, refine, setLang }: Props) => (
   <MenuStyles className="menu">
     <ul>
       {items.map((item) => (
@@ -69,6 +70,9 @@ const Menu = ({ items, refine }: Props) => (
               if (!item.isRefined) {
                 e.preventDefault();
                 refine(item.value);
+                if (typeof setLang !== 'undefined') {
+                  setLang(item.value);
+                }
               }
             }}
           >
