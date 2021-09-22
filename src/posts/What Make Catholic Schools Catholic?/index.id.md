@@ -33,6 +33,21 @@ Di sisi lain, kesadaran sebuah sekolah akan tempatnya dalam Gereja akan membangk
 
 Hanya apabila sebuah sekolah sadar bahwa ia adalah bagian dari Gereja, ia layak menyandang nama ‘Katolik.’
 
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="woods_catholic_built.jpeg" alt="thomas woods book How the Catholic Church Built Western Civilization" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="https://amzn.to/3zwpaek">How the Catholic Church Built Western Civilization</a>
+    </h5>
+    <h6>Thomas E. Woods</h6>
+    <p>Jika Anda ingin tahu lebih banyak mengenai hubungan antara Gereja dan ilmu pengetahuan, bagaimana para biarawan menyelamatkan peradaban manusia, dan bagaimana institusi amal Katolik mengubah dunia, Anda pasti akan menikmati buku ini.</p>
+  </div>
+</div>
+
 ## 2. Keselarasan Iman-Akal Budi
 
 Sebuah sekolah Katolik yang sejati juga ditandai oleh **keselarasan antara iman dan akal budi**. Belakangan ini, ekspresi seperti ‘pendidikan integral’ dan ‘pendekatan interdisipliner’ telah menjadi frasa kunci di ranah pendidikan, baik non-Katolik maupun Katolik. Namun saya ingin menekankan bahwa pendidikan adalah benar-benar integral hanya jika ia mampu menyelaraskan iman dengan akal budi. Dengan demikian, **sebuah kurikulum yang mengecualikan iman kristiani, misalnya, tidak layak disebut ‘integral.’ Lebih parah lagi adalah sekolah-sekolah yang berlabel ‘Katolik’ namun sama sekali tidak memberikan pembinaan iman Katolik atau memberikannya dengan kualitas di bawah standar.**
