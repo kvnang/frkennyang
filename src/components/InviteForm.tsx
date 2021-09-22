@@ -226,8 +226,8 @@ export default function InviteForm() {
             <div className="form-field heading">
               <h2 className="h3">Event Date</h2>
               <p className="small">
-                Note: You will only be able to propose dates beyond 60 days from
-                today.
+                Note: You will only be able to propose dates beyond{' '}
+                {daysFromToday.toString()} days from today.
               </p>
             </div>
             <div className="form-field half">
