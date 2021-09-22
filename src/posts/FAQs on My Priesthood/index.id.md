@@ -31,7 +31,7 @@ Untuk pengetahuan lebih lanjut tentang mengapa kita memanggil para imam ‘Bapa,
   </div>
   <div class="book__text">
     <h5>
-      <a href="https://amzn.to/3EHDxR1">Many Are Called: Rediscovering the Glory of the Priesthood</a>
+      <a target="_blank" href="https://www.amazon.com/gp/product/B0036S4AP4/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0036S4AP4&linkCode=as2&tag=happiness052f-20&linkId=1d3dbc85ad701809bcde2c0c89b618a8">Many Are Called: Rediscovering the Glory of the Priesthood</a>
     </h5>
     <h6>Scott Hahn</h6>
     <p>Karya ini menjelaskan peran imam sebagai ayah, guru, petarung, hakim, mempelai laki-laki, dan saudara. Jika Anda adalah seorang uskup, imam, seminaris, seseorang yang tertarik untuk menjadi imam, atau seseorang yang ingin tahu lebih banyak tentang imamat dalam Gereja Katolik, buku ini ditulis untuk Anda.</p>
