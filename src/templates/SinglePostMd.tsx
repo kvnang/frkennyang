@@ -121,19 +121,6 @@ const PostContentStyles = styled.div`
     line-height: 1.75;
   }
 
-  h2 {
-    font-size: var(--font-size-h3);
-  }
-  h3 {
-    font-size: var(--font-size-h4);
-  }
-  h4 {
-    font-size: var(--font-size-h5);
-  }
-  h5 {
-    font-size: var(--font-size-h6);
-  }
-
   .book {
     display: flex;
     flex-direction: column;
@@ -291,7 +278,7 @@ export default function SinglePost({ location, data: { post } }: Props) {
             <div className="post-header">
               <TitleStyles>
                 <LangSwitcher vertical />
-                <h1 className="h2 post-title">{post.frontmatter.title}</h1>
+                <h1 className="post-title">{post.frontmatter.title}</h1>
               </TitleStyles>
               <div className="post-byline">
                 <div className="post-meta">

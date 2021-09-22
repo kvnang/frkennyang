@@ -126,10 +126,6 @@ const IntroStyles = styled.section`
     }
   }
 
-  h1 {
-    font-size: var(--font-size-h2);
-  }
-
   ul {
     list-style: none;
     padding-left: 0;

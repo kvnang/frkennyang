@@ -90,11 +90,7 @@ const Typography = styled.createGlobalStyle`
 
   h1,
   .h1 {
-    font-size: 2.488rem;
-
-    @media ${breakpoints.tablet} {
-      font-size: 3.052rem;
-    }
+    font-size: var(--font-size-h1);
 
     &:not(:first-child) {
       margin-top: 1em;
@@ -133,23 +129,21 @@ const Typography = styled.createGlobalStyle`
 
   h4,
   .h4 {
+    font-family: var(--font-primary);
+    /* font-size: 1.25rem; */
     font-size: var(--font-size-h4);
-
-    &:not(:first-child) {
-      margin-top: 1em;
-    }
+    font-weight: 600;
+    line-height: 1.5;
 
     &:not(:last-child) {
-      margin-bottom: 0.75em;
+      margin-bottom: 1em;
     }
   }
 
   h5,
   .h5 {
     font-family: var(--font-primary);
-    /* font-size: 1.25rem; */
-    font-size: var(--font-size-h5);
-    font-weight: 600;
+    font-size: var(--font-size-small);
     line-height: 1.5;
 
     &:not(:last-child) {
@@ -170,7 +164,7 @@ const Typography = styled.createGlobalStyle`
 
   p {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.75;
     margin: 0;
 
     &:not(:last-child) {
@@ -316,6 +310,11 @@ const Typography = styled.createGlobalStyle`
     }
   }
 
+  hr {
+    border: 0;
+    border-top: 1px solid var(--grey);
+  }
+
   .text-content {
     ul,
     ol {
@@ -331,8 +330,6 @@ const Typography = styled.createGlobalStyle`
 
     hr {
       margin: var(--p-spacing) 0;
-      border-color: var(--grey);
-      border-width: 1px;
     }
 
     a {
@@ -418,6 +415,10 @@ const Typography = styled.createGlobalStyle`
     }
 
     // Title link
+    h1 a.anchor {
+      display: none;
+    }
+
     a.anchor {
       @media ${breakpoints.mobileOnly} {
         display: none;

@@ -174,7 +174,7 @@ export default function ContentsPage() {
           <div className="container">
             <div className="row">
               <div className="col inner">
-                <h2>My Contents</h2>
+                <h1>My Contents</h1>
                 <p>
                   Browse my latest works. Some of them are available in both
                   English and Bahasa Indonesia.
@@ -192,7 +192,6 @@ export default function ContentsPage() {
                       attribute="fields.lang"
                       defaultRefinement={lang || 'en'}
                       searchable={false}
-                      setLang={setLang}
                     />
                   </MenuStyles>
                 </SearchFilterStyles>

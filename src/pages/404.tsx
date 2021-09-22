@@ -16,7 +16,7 @@ const NotFoundPage = () => (
     <section className="container not-found page-p-t section-p-b">
       <div className="row">
         <ColStyles className="col">
-          <h1 className="h2">404 Page Not Found</h1>
+          <h1>404 Page Not Found</h1>
           <p>
             The page you are looking for does not exist. It may have been moved,
             or removed altogether. Perhaps you can return back to the site’s
