@@ -3,8 +3,6 @@ import React from 'react';
 import getYouTubeId from 'get-youtube-id';
 import styled from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image';
-
-// import { getGatsbyImageData } from 'gatsby-source-sanity';
 import { formatDate } from '../utils/helpers';
 import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
@@ -170,10 +168,10 @@ const PostContentStyles = styled.div`
     }
 
     &__text {
-      h5 {
+      h4 {
         margin-bottom: 0;
 
-        + h6 {
+        + h5 {
           margin-top: 0.5em;
         }
 
