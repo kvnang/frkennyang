@@ -194,7 +194,7 @@ const ContactStyles = styled.section`
     position: absolute;
     top: var(--section-padding);
     left: 0;
-    height: calc(100% - var(--section-padding) + 3.5rem);
+    height: calc(100% - var(--section-padding) + 4.875rem);
     z-index: 1;
 
     @media ${breakpoints.laptop} {
@@ -236,7 +236,7 @@ export default function HomePage() {
   return (
     <main>
       <SEO title="A Catholic Priest serving the Universal Church" />
-      <Helmet bodyAttributes={{ class: 'page-home footer-light' }} />
+      <Helmet bodyAttributes={{ class: 'page-home' }} />
       <HeroStyles>
         <div className="container">
           <div className="row">

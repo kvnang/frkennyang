@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { breakpoints } from '../styles/breakpoints';
 import Menu from './Menu';
 
 const FooterStyles = styled.footer`
@@ -19,7 +20,7 @@ const FooterStyles = styled.footer`
 
   .footer-light & {
     background-color: var(--offwhite);
-    color: var(--black);
+    /* color: var(--black); */
 
     .container {
       border-color: var(--offwhite-light);
@@ -33,8 +34,17 @@ const FooterStyles = styled.footer`
   }
 
   .page-home & {
-    .container {
-      border-top: 0;
+    @media ${breakpoints.laptop} {
+      background-color: var(--offwhite);
+
+      a,
+      a:hover,
+      a:focus {
+        color: var(--black);
+      }
+      .container {
+        border-top: 0;
+      }
     }
 
     .col {
