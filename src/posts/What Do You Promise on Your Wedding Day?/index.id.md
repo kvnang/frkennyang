@@ -38,7 +38,7 @@ Ini adalah penegasan yang kuat akan kebebasan manusia: sayalah yang membuat kepu
   </div>
   <div class="book__text">
     <h4>
-      <a href="https://amzn.to/3ECnnZ1" target="_blank" rel="noopener noreferrer">Three To Get Married</a>
+      <a target="_blank" href="https://www.amazon.com/gp/product/0933932871/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0933932871&linkCode=as2&tag=happiness052f-20&linkId=7d6bbcfbb8ce1816aab504ce7feef4a5">Three To Get Married (Catholic Insight)</a>
     </h4>
     <h5>Fulton J. Sheen</h5>
     <p>Buku ini mengulas esensi cinta kasih dan implikasinya bagi hidup pernikahan. Karenanya, karya ini adalah bacaan yang meneguhkan bagi pasangan yang berpacaran atau bertunangan, mereka yang sudah menikah, konselor pernikahan, dan juga para imam.</p>
