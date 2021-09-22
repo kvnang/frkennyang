@@ -156,6 +156,22 @@ const CvUListStyles = styled.ul`
     }
   }
 
+  h2 {
+    font-size: var(--font-size-h1);
+  }
+
+  h3 {
+    font-size: var(--font-size-h2);
+  }
+
+  h4 {
+    font-size: var(--font-size-h3);
+  }
+
+  h5 {
+    font-size: var(--font-size-h4);
+  }
+
   h5,
   h6 {
     margin-bottom: 0.35rem;
