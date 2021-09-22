@@ -161,7 +161,7 @@ To use this component, you will need to copy and paste the following HTML code d
         {Book Title}
       </a>
     </h4>
-    <h6>{Book metadata / author}</h6>
+    <h5>{Book metadata / author}</h5>
     <p>{Book description ...}</p>
   </div>
 </div>
