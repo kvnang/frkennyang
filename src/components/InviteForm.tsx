@@ -194,7 +194,7 @@ export default function InviteForm() {
   };
 
   // Get min data
-  const daysFromToday = 60;
+  const daysFromToday = 30;
   const minDate = new Date(
     new Date().getTime() + daysFromToday * 24 * 60 * 60 * 1000
   );
