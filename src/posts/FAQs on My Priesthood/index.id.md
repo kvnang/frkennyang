@@ -23,6 +23,21 @@ Memang, ada sebuah kebiasaan untuk memanggil para imam, dalam berbagai bahasa, d
 
 Untuk pengetahuan lebih lanjut tentang mengapa kita memanggil para imam ‘Bapa,’ klik di [sini](https://www.ewtn.com/catholicism/library/why-do-we-call-priests-father-1178).
 
+<div class="book">
+  <div class="book__img">
+    <div class="book__img__inner">
+      <img src="hahn_many_called.jpeg" alt="scott hahn book many are called priesthood" />
+    </div>
+  </div>
+  <div class="book__text">
+    <h5>
+      <a href="https://amzn.to/3EHDxR1">Many Are Called: Rediscovering the Glory of the Priesthood</a>
+    </h5>
+    <h6>Scott Hahn</h6>
+    <p>Karya ini menjelaskan peran imam sebagai ayah, guru, petarung, hakim, mempelai laki-laki, dan saudara. Jika Anda adalah seorang uskup, imam, seminaris, seseorang yang tertarik untuk menjadi imam, atau seseorang yang ingin tahu lebih banyak tentang imamat dalam Gereja Katolik, buku ini ditulis untuk Anda.</p>
+  </div>
+</div>
+
 ## 4. Anda tergabung dalam ordo/tarekat apa? Embel-embel apa yang harus kami letakkan di belakang nama Anda?
 
 Saya adalah seorang **imam diosesan**. Oleh karena itu, saya tidak tergabung dalam ordo/tarekat manapun dan **tidak ada embel-embel** (seperti O.S.B., S.J., O.P., O.F.M., atau O.Carm.) yang perlu diletakkan di belakang nama saya.
@@ -33,8 +48,7 @@ Sederhananya, imam diosesan adalah **imam yang mengabdikan hidupnya untuk melaya
 
 Saya sendiri adalah imam [Keuskupan Surabaya](http://www.gcatholic.org/dioceses/diocese/sura0.htm). Dengan kata lain, saya bekerja sama dengan [uskup](https://www.catholic.com/encyclopedia/bishop) saya, [Vincentius Sutikno Wisaksono](http://www.catholic-hierarchy.org/bishop/bwisak.html), dalam melayani umat Katolik yang berada dalam wilayah keuskupan ini. Namun, ini tidak berarti bahwa pelayanan saya dibatasi oleh lingkup keuskupan ini. **Imamat saya, sebaliknya, “ditujukan kepada semua bangsa di segala zaman, dan tak mungkin dipersempit oleh batas-batas suku, bangsa atau kurun waktu”** ([PO, 10](https://katolisitas.org/presbyterorum-ordinis/)).
 
-![Altomonte priests group picture](altomonte_priests.jpg)
-_Photo courtesy of Collegio Sacerdotale Altomonte (Rome)_
+![Altomonte priests group picture](altomonte_priests.jpg 'Photo courtesy of Collegio Sacerdotale Altomonte (Rome)')
 
 ## 6. Apa perbedaan antara imam diosesan dan imam tarekat religius?
 
@@ -57,8 +71,7 @@ Para imam diosesan mengucapkan tiga janji pada hari mereka [ditahbiskan menjadi 
 - untuk merayakan [Ibadat Harian](https://www.usccb.org/prayer-and-worship/liturgy-of-the-hours) (juga dikenal sebagai Brevir atau [*Divine Office*](https://www.newadvent.org/cathen/11219a.htm)) bagi kebaikan umat Allah dan seluruh dunia; serta
 - untuk menaati uskup mereka dan para penerusnya.
 
-![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg)
-_Photo courtesy of [St. Yakobus' Parish](https://www.instagram.com/santoyakobussby/) (Surabaya)_
+![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg 'Photo courtesy of St. Yakobus (Surabaya)')
 
 ## 8. Sebagai seorang imam, apa yang Anda lakukan sehari-hari?
 
