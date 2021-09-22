@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { breakpoints } from '../styles/breakpoints';
 import Logo from './Logo';
+import Menu from './Menu';
 import Social from './Social';
 
 const HeaderStyles = styled.header`
@@ -237,33 +238,7 @@ export default function Header() {
             <Logo />
           </Link>
           <MenuStyles>
-            <MenuListStyles>
-              <li>
-                <Link to="/about/" className="link-underline">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link to="/cv/" className="link-underline">
-                  Curriculum Vitae
-                </Link>
-              </li>
-              <li>
-                <Link to="/contents/" className="link-underline">
-                  Contents
-                </Link>
-              </li>
-              <li>
-                <Link to="/invite/" className="link-underline">
-                  Invite to Speak
-                </Link>
-              </li>
-              <li>
-                <Link to="/#contact" className="link-underline">
-                  Contact
-                </Link>
-              </li>
-            </MenuListStyles>
+            <Menu />
           </MenuStyles>
           <MobileMenuButtonStyles>
             <button
@@ -282,53 +257,7 @@ export default function Header() {
           <MobileHeaderStyles className={mobileMenuActive ? `active` : ``}>
             <div className="container">
               <MobileMenuStyles>
-                <MenuListStyles>
-                  <li>
-                    <Link
-                      to="/about/"
-                      className="link-underline"
-                      onClick={() => setMobileMenuActive(false)}
-                    >
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/cv/"
-                      className="link-underline"
-                      onClick={() => setMobileMenuActive(false)}
-                    >
-                      Curriculum Vitae
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/contents/"
-                      className="link-underline"
-                      onClick={() => setMobileMenuActive(false)}
-                    >
-                      Contents
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/invite/"
-                      className="link-underline"
-                      onClick={() => setMobileMenuActive(false)}
-                    >
-                      Invite to Speak
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/#contact"
-                      className="link-underline"
-                      onClick={() => setMobileMenuActive(false)}
-                    >
-                      Contact
-                    </Link>
-                  </li>
-                </MenuListStyles>
+                <Menu setMobileMenuActive={setMobileMenuActive} isMobile />
                 <Social />
               </MobileMenuStyles>
             </div>

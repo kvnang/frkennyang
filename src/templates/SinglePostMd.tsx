@@ -3,18 +3,14 @@ import React from 'react';
 import getYouTubeId from 'get-youtube-id';
 import styled from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaTwitter,
-  FaWhatsapp,
-} from 'react-icons/fa';
+
 // import { getGatsbyImageData } from 'gatsby-source-sanity';
 import { formatDate } from '../utils/helpers';
 import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
 import { PostProps } from '../types';
 import SEO from '../components/Seo';
+import SocialShare from '../components/SocialShare';
 
 interface Props {
   location: Location;
@@ -65,41 +61,12 @@ const SinglePostStyles = styled.main`
     flex-flow: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: -0.75rem 0;
+    margin: -0.75rem;
   }
 
-  .post-meta {
-    padding: 0.75rem 0;
-  }
-
+  .post-meta,
   .post-share {
-    margin-left: auto;
-    padding: 0.75rem 0;
-    ul {
-      display: flex;
-      list-style: none;
-      margin: -0.75rem;
-
-      li {
-        padding: 0.25rem;
-        a {
-          display: flex;
-          padding: 0.5rem;
-          &:hover,
-          &:focus {
-            svg {
-              color: var(--gold);
-            }
-          }
-        }
-
-        svg {
-          height: 1rem;
-          width: auto;
-          transition: var(--transition);
-        }
-      }
-    }
+    padding: 0.75rem;
   }
 
   .post-img {
@@ -131,6 +98,19 @@ const SinglePostStyles = styled.main`
       height: 100%;
       top: 0;
       left: 0;
+    }
+  }
+
+  .post-footer {
+    display: flex;
+    justify-content: flex-end;
+    /* padding-top: 0.625rem; */
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--grey);
+
+    .post-share {
+      padding-right: 0;
+      padding-left: 0;
     }
   }
 `;
@@ -319,50 +299,7 @@ export default function SinglePost({ location, data: { post } }: Props) {
                     <small>{meta.join(' ∙ ')}</small>
                   </p>
                 </div>
-                <div className="post-share">
-                  <ul>
-                    <li>
-                      <a
-                        href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Share on Facebook"
-                      >
-                        <FaFacebookF />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href={`http://twitter.com/share?text=${post.frontmatter.title}&url=${url}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Share on Twitter"
-                      >
-                        <FaTwitter />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href={`https://www.linkedin.com/shareArticle?mini=true&url=${url}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Share on LinkedIn"
-                      >
-                        <FaLinkedinIn />
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href={`https://wa.me/?text=${url}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Share on WhatsApp"
-                      >
-                        <FaWhatsapp />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <SocialShare title={post.frontmatter.title} url={url} />
               </div>
             </div>
             <div className="post-img">{featuredImage}</div>
@@ -374,6 +311,13 @@ export default function SinglePost({ location, data: { post } }: Props) {
                 ''
               )}
             </PostContentStyles>
+            <div className="post-footer">
+              <SocialShare
+                title={post.frontmatter.title}
+                url={url}
+                label="Share:"
+              />
+            </div>
           </div>
         </section>
       </SinglePostStyles>

@@ -1,9 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import Menu from './Menu';
 
 const FooterStyles = styled.footer`
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  .container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid var(--dark-grey);
+  }
 
   .col {
     --width-xs: 12;
@@ -16,9 +20,19 @@ const FooterStyles = styled.footer`
   .footer-light & {
     background-color: var(--offwhite);
     color: var(--black);
+
+    a,
+    a:hover,
+    a:focus {
+      color: var(--black);
+    }
   }
 
   .page-home & {
+    .container {
+      border-top: 0;
+    }
+
     .col {
       --width-xs: 12;
       --width-md: 10;
@@ -29,20 +43,19 @@ const FooterStyles = styled.footer`
 
 export default function Footer() {
   return (
-    <>
-      <FooterStyles>
-        <div className="container">
-          <div className="row">
-            <div className="col">
-              <p>
+    <FooterStyles>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            {/* <p>
                 <small>
                   &copy; {new Date().getFullYear()}. All rights reserved.
                 </small>
-              </p>
-            </div>
+              </p> */}
+            <Menu isFooter />
           </div>
         </div>
-      </FooterStyles>
-    </>
+      </div>
+    </FooterStyles>
   );
 }
