@@ -8,7 +8,7 @@ category:
 excerpt: This article covers my priesthood, why priests are called “father,” the differences between diocesan priests and religious order priests, the promises made by diocesan priests, my daily life, and the reasons I wear priestly clothing.
 ---
 
-In this article, I provide answers to the questions I get asked the most. If your question is not here, feel free to reach out to me via [the contact form](/) on the home page.
+In this article, I provide answers to the questions I get asked the most. If your question is not here, feel free to reach out to me via [the contact form](/#contact) on the home page.
 
 ## 1. Who are you?
 
