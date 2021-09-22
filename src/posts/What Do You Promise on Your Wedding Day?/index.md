@@ -37,9 +37,9 @@ This is a robust assertion of one’s freedom: I am the one making the decision.
     </div>
   </div>
   <div class="book__text">
-    <h5>
-      <a href="https://amzn.to/3ECnnZ1">Three To Get Married</a>
-    </h5>
+    <h4>
+      <a href="https://amzn.to/3ECnnZ1" target="_blank" rel="noopener noreferrer">Three To Get Married</a>
+    </h4>
     <h6>Fulton J. Sheen</h6>
     <p>Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.</p>
   </div>
