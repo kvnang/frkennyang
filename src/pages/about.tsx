@@ -17,19 +17,12 @@ interface Props {
 }
 
 const AboutStyles = styled.main`
-  h1 {
-    font-size: var(--font-size-h2);
-  }
   h2 {
-    font-size: var(--font-size-h3);
     ${titleLine()}
   }
 `;
 
 const IntroStyles = styled.section`
-  padding-top: var(--section-padding-sm);
-  padding-bottom: var(--section-padding);
-
   .img {
     --width-xs: 6;
     --offset-xs: 0;
@@ -67,8 +60,6 @@ const IntroStyles = styled.section`
 `;
 
 const BodyStyles = styled.section`
-  padding-bottom: var(--section-padding);
-
   .inner {
     --width-xs: 12;
     --width-md: 6;
@@ -94,7 +85,7 @@ export default function AboutPage({ data }: Props) {
   return (
     <AboutStyles>
       <SEO title="About" />
-      <IntroStyles>
+      <IntroStyles className="page-p-t section-p-b">
         <div className="container">
           <div className="row">
             <div className="img col">
@@ -112,7 +103,7 @@ export default function AboutPage({ data }: Props) {
           </div>
         </div>
       </IntroStyles>
-      <BodyStyles>
+      <BodyStyles className="section-p-b">
         <div className="container">
           <div className="row">
             <div className="col inner">

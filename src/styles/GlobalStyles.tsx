@@ -28,10 +28,10 @@ const GlobalStyles = styled.createGlobalStyle`
       'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
       'Helvetica Neue', sans-serif;
     --font-size-small: 0.833rem;
-    --font-size-h2: 2.074rem;
-    --font-size-h3: 1.728rem;
-    --font-size-h4: 1.44rem;
-    --font-size-h5: 1rem;
+    --font-size-h1: 2.074rem;
+    --font-size-h2: 1.728rem;
+    --font-size-h3: 1.44rem;
+    --font-size-h4: 1rem;
     --p-spacing: 1.5em;
 
     /* Grid proportions */
@@ -46,9 +46,9 @@ const GlobalStyles = styled.createGlobalStyle`
       --section-padding: 3rem;
       --section-padding-sm: 1.5rem;
       --font-size-small: 0.8rem;
-      --font-size-h2: 2.441rem;
-      --font-size-h3: 1.953rem;
-      --font-size-h4: 1.563rem;
+      --font-size-h1: 2.441rem;
+      --font-size-h2: 1.953rem;
+      --font-size-h3: 1.563rem;
       --post-gap: 0.5rem;
     }
 

@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { connectMenu } from 'react-instantsearch-dom';
 import styled from 'styled-components';
+import { LangContext } from '../LangContext';
 
 interface Props {
   items: Array<{
@@ -13,7 +14,6 @@ interface Props {
   // isFromSearch: boolean;
   // searchForItems: Function;
   // createURL: Function;
-  setLang?: Function;
 }
 
 const MenuStyles = styled.div`
@@ -59,29 +59,30 @@ const MenuStyles = styled.div`
   }
 `;
 
-const Menu = ({ items, refine, setLang }: Props) => (
-  <MenuStyles className="menu">
-    <ul>
-      {items.map((item) => (
-        <li key={item.value} className={item.isRefined ? `selected` : ''}>
-          <button
-            type="button"
-            onClick={(e) => {
-              if (!item.isRefined) {
-                e.preventDefault();
-                refine(item.value);
-                if (typeof setLang !== 'undefined') {
+const Menu = ({ items, refine }: Props) => {
+  const { setLang } = useContext(LangContext);
+  return (
+    <MenuStyles className="menu">
+      <ul>
+        {items.map((item) => (
+          <li key={item.value} className={item.isRefined ? `selected` : ''}>
+            <button
+              type="button"
+              onClick={(e) => {
+                if (!item.isRefined) {
+                  e.preventDefault();
+                  refine(item.value);
                   setLang(item.value);
                 }
-              }
-            }}
-          >
-            {item.label}
-          </button>
-        </li>
-      ))}
-    </ul>
-  </MenuStyles>
-);
+              }}
+            >
+              {item.label}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </MenuStyles>
+  );
+};
 
 export default connectMenu(Menu);

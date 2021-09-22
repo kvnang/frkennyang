@@ -248,7 +248,7 @@ export default function HomePage() {
                 width="240"
                 height="202"
               />
-              <h1 className="h2 title">Heaven is your final destination.</h1>
+              <h1 className="title">Heaven is your final destination.</h1>
               <p>
                 <strong>Hi, I’m Father Kenny.</strong> As a priest, I provide
                 you with resources to help you grow in your faith. Check them
@@ -289,7 +289,7 @@ export default function HomePage() {
                 <p>
                   Feel free to reach out to me via email or the contact form.
                 </p>
-                <h3 className="h4" style={{ margin: 0 }}>
+                <h3 style={{ margin: 0 }}>
                   <a
                     href="mailto:fatherkennyang@gmail.com"
                     target="_blank"

@@ -139,7 +139,7 @@ const PostStyles = styled.article`
     }
     .post-title {
       @media ${breakpoints.mobileOnly} {
-        font-size: var(--font-size-h5);
+        font-size: var(--font-size-h4);
       }
     }
     .post-excerpt {
@@ -237,7 +237,7 @@ export default function PostEntry({
           </div>
         )}
         <div className="post-details">
-          <h3 className="post-title h4">{post.frontmatter.title}</h3>
+          <h3 className="post-title">{post.frontmatter.title}</h3>
           <div className="post-excerpt">
             <p>
               {post.frontmatter.excerpt
@@ -267,7 +267,7 @@ export function PostEntrySkeleton({
           </div>
         )}
         <div className="post-details">
-          <h3 className="post-title h4 skeleton-bg">&nbsp;</h3>
+          <h3 className="post-title skeleton-bg">&nbsp;</h3>
           <div className="post-excerpt skeleton-bg">
             &nbsp;
             <br />
