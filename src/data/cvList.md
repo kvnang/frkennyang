@@ -6,14 +6,11 @@
 - ### University of Navarra
   #### Baccalaureate in Philosophy
   ##### 2013 - 2015, 2018 - 2019, PAMPLONA (SPAIN)
-  9.87 GPA (out of 10)
 - ### University of Navarra
   #### Baccalaureate in Theology
   ##### 2015 - 2018, PAMPLONA (SPAIN)
-  9.85 GPA (out of 10)
 - ### Missouri Western State University
   ##### 2010 - 2012, MISSOURI (USA)
-  Music Performance, 4.0 GPA (out of 4)
 
 ## Languages
 
@@ -35,15 +32,15 @@
 - ### University of Ciputra
   #### Lecturer
   ##### SEPTEMBER 2019 - MAY 2020, SURABAYA
-  I teach Philosophy of Religion, both in English and in Bahasa Indonesia, to junior students of different majors.
+  I taught Philosophy of Religion, both in English and in Bahasa Indonesia, to junior students of different majors.
 - ### Katolisitas Study Group
   #### Lecturer
   ##### JULY 2019 - MAY 2020, JAKARTA
-  I teach Aquinas’ _Summa Theologiae_ to a group of catechists.
+  I taught St. Thomas Aquinas’ _Summa Theologiae_ to a group of catechists.
 - ### St. John Vianney Spiritual Year Seminary
   #### Lecturer
   ##### AUGUST 2018 - JUNE 2020, SURABAYA
-  I teach Introduction to Sacred Scripture course to seminarians.
+  I taught _Introduction to Sacred Scripture_ course to seminarians.
 - ### University of Navarra
   #### Translator
   ##### SEPTEMBER 2014 - JULY 2020, SURABAYA
