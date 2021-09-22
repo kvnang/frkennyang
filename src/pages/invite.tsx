@@ -1,17 +1,22 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-// import DatePicker from 'react-datepicker';
-// import DayPickerInput from 'react-day-picker/DayPickerInput';
-// import { Helmet } from 'react-helmet';
 import { graphql } from 'gatsby';
 import SEO from '../components/Seo';
 import InviteForm from '../components/InviteForm';
 import LangSwitcher from '../components/LangSwitcher';
 import { breakpoints } from '../styles/breakpoints';
 import { LangContext } from '../components/LangContext';
-// import DayPickerStyles from '../styles/DayPickerStyles';
-// import 'react-datepicker/dist/react-datepicker.css';
-// import 'react-day-picker/lib/style.css';
+
+interface Props {
+  data: {
+    en: {
+      html: string;
+    };
+    id?: {
+      html: string;
+    };
+  };
+}
 
 const BodyStyles = styled.main`
   .inner {
@@ -44,17 +49,20 @@ const IntroStyles = styled.div`
   }
 `;
 
-export default function InvitePage({ data }) {
+export default function InvitePage({ data }: Props) {
   const { lang } = useContext(LangContext);
 
   const enHTML = data.en.html;
-  const idHTML = data.id.html;
+  const idHTML = data.id?.html;
 
-  const html = lang === 'id' ? idHTML : enHTML;
+  const html = lang === 'id' && idHTML ? idHTML : enHTML;
 
   return (
     <>
-      <SEO title="Invite Fr. Kenny to Speak" />
+      <SEO
+        title="Invite to Speak"
+        description="Fr. Kenny is open to invitation to speak at your event on dogmatic theology, faith, spirituality, and others. Fill out the online form to submit your request."
+      />
       <BodyStyles>
         <section className="container page-p-t section-p-b">
           <div className="row">
@@ -78,10 +86,14 @@ export default function InvitePage({ data }) {
 
 export const query = graphql`
   query {
-    en: markdownRemark(fields: { slug: { eq: "/invite/" } }) {
+    en: markdownRemark(
+      fields: { collection: { eq: "data" }, slug: { eq: "/invite/" } }
+    ) {
       html
     }
-    id: markdownRemark(fields: { slug: { eq: "/invite.id/" } }) {
+    id: markdownRemark(
+      fields: { collection: { eq: "data" }, slug: { eq: "/invite.id/" } }
+    ) {
       html
     }
   }

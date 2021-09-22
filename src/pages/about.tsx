@@ -5,13 +5,10 @@ import { graphql } from 'gatsby';
 import { titleLine } from '../styles/Typography';
 import SEO from '../components/Seo';
 
-interface MarkdownProps {
-  html: string;
-}
 interface Props {
   data: {
-    allMarkdownRemark: {
-      nodes: Array<MarkdownProps>;
+    markdownRemark: {
+      html: string;
     };
   };
 }
@@ -72,11 +69,11 @@ const BodyStyles = styled.section`
 `;
 
 export default function AboutPage({ data }: Props) {
-  if (!data.allMarkdownRemark.nodes.length) {
+  if (!data.markdownRemark?.html) {
     return;
   }
 
-  const { html } = data.allMarkdownRemark.nodes[0];
+  const { html } = data.markdownRemark;
   const splitHTML = html.split('<hr>');
   const introHTML = splitHTML[0];
   splitHTML.shift(); // Remove intro / first element of the array
@@ -84,7 +81,10 @@ export default function AboutPage({ data }: Props) {
 
   return (
     <AboutStyles>
-      <SEO title="About" />
+      <SEO
+        title="About"
+        description="Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America."
+      />
       <IntroStyles className="page-p-t section-p-b">
         <div className="container">
           <div className="row">
@@ -122,15 +122,10 @@ export default function AboutPage({ data }: Props) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
-      filter: {
-        fields: { collection: { eq: "data" }, slug: { eq: "/about/" } }
-      }
-      limit: 1
+    markdownRemark(
+      fields: { collection: { eq: "data" }, slug: { eq: "/about/" } }
     ) {
-      nodes {
-        html
-      }
+      html
     }
   }
 `;
