@@ -9,7 +9,7 @@ Sebagai seorang imam, mengajar adalah salah satu misi utama Father Kenny. Terima
   Dibutuhkan banyak waktu untuk mempersiapkan sebuah seminar. Agar Father Kenny dapat memberikan yang terbaik, hendaknya formulir di bawah ini diserahkan _(submit)_ setidaknya _30 hari sebelum tanggal tentatif acara Anda._
 
 - **Topik apa yang dapat dibawakan oleh Father Kenny?**<br />
-  Father Kenny tertarik dengan teologi dogmatik, namun ia dapat berbicara mengenai berbagai topik yang berkaitan dengan iman kristiani dan hidup rohani. Jangan ragu untuk memberinya arahan berdasarkan tema acara Anda dalam formulir di bawah ini. _Harap memberikan informasi sespesifik mungkin!_
+  Father Kenny tertarik dengan teologi dogmatik, namun ia bersedia untuk berbicara mengenai berbagai topik yang berkaitan dengan iman kristiani dan hidup rohani. Jangan ragu untuk memberinya arahan berdasarkan tema acara Anda dalam formulir di bawah ini. _Harap memberikan informasi sespesifik mungkin!_
 
 - **Berapa biaya untuk mengundang Father Kenny berbicara?**<br />
   Father Kenny tidak menentukan biaya yang tetap. Sadar akan keterbatasan beberapa organisasi, paroki, dan keuskupan, ia dapat menerima apa yang biasanya Anda berikan untuk pelayanan sejenis.
