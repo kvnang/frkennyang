@@ -595,7 +595,13 @@ export default function InviteForm() {
                 style={{ textAlign: 'right' }}
               >
                 To see Fr. Kenny's past teaching topics, see{' '}
-                <Link to="/cv/#speaking-topics">Curriculum Vitae</Link>
+                <Link
+                  to="/cv/#speaking-topics"
+                  style={{ display: 'inline-block' }}
+                >
+                  Curriculum Vitae
+                </Link>
+                .
               </p>
             </div>
             <div className="form-field half">
