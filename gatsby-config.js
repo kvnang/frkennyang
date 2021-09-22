@@ -5,7 +5,7 @@ dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 module.exports = {
   siteMetadata: {
     title: 'Fr. Kenny Ang',
-    description: `Fr. Kenny Ang's Personal Website`,
+    description: `Fr. Kenny Ang is a Catholic priest from Indonesia, who has spoken in numerous occasions across Asia and America since his diaconal ordination in 2018`,
     keywords: ['Catholic', 'priest'],
     siteUrl:
       process.env.NODE_ENV === 'development'
