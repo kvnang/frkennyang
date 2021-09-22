@@ -33,20 +33,16 @@ interface MdElementProps {
 interface Props {
   data: {
     cv: {
-      nodes: Array<{
-        html: string;
-      }>;
+      html: string;
     };
     cvList: {
-      nodes: Array<{
-        htmlAst: {
-          children: Array<MdElementProps>;
-          data: {
-            quirksMode: boolean;
-          };
-          type: string;
+      htmlAst: {
+        children: Array<MdElementProps>;
+        data: {
+          quirksMode: boolean;
         };
-      }>;
+        type: string;
+      };
     };
   };
 }
@@ -177,15 +173,15 @@ const CvUListStyles = styled.ul`
 `;
 
 export default function CvPage({ data }: Props) {
-  if (!data.cv.nodes.length) {
+  if (!data.cv?.html) {
     return;
   }
 
-  const { html } = data.cv.nodes[0];
+  const { html } = data.cv;
   const introHTML = html;
 
   // CV List
-  const { htmlAst } = data.cvList.nodes[0];
+  const { htmlAst } = data.cvList;
   const cvArray: Array<CvArrayProps> = [];
 
   let i = 0;
@@ -244,7 +240,10 @@ export default function CvPage({ data }: Props) {
 
   return (
     <main>
-      <SEO title="Curriculum Vitae" />
+      <SEO
+        title="Curriculum Vitae"
+        description="Fr. Kenny's online Curriculum Vitae features his biograhical data and educational history, as well as professional experience."
+      />
       <Helmet bodyAttributes={{ class: 'page-cv' }} />
       <IntroStyles className="page-p-t section-p-b">
         <div className="inner">
@@ -319,23 +318,15 @@ export default function CvPage({ data }: Props) {
 
 export const query = graphql`
   query {
-    cv: allMarkdownRemark(
-      filter: { fields: { collection: { eq: "data" }, slug: { eq: "/cv/" } } }
-      limit: 1
+    cv: markdownRemark(
+      fields: { collection: { eq: "data" }, slug: { eq: "/cv/" } }
     ) {
-      nodes {
-        html
-      }
+      html
     }
-    cvList: allMarkdownRemark(
-      filter: {
-        fields: { collection: { eq: "data" }, slug: { eq: "/cvList/" } }
-      }
-      limit: 1
+    cvList: markdownRemark(
+      fields: { collection: { eq: "data" }, slug: { eq: "/cvList/" } }
     ) {
-      nodes {
-        htmlAst
-      }
+      htmlAst
     }
   }
 `;

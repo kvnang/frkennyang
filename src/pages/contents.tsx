@@ -162,11 +162,14 @@ const MenuStyles = styled.div`
 `;
 
 export default function ContentsPage() {
-  const { lang, setLang } = useContext(LangContext);
+  const { lang } = useContext(LangContext);
 
   return (
     <main>
-      <SEO title="Contents" />
+      <SEO
+        title="Contents"
+        description="Browse Fr. Kenny's latest works, available in both English and Bahasa Indonesia."
+      />
       <Helmet bodyAttributes={{ class: 'page-contents footer-light' }} />
       <InstantSearch searchClient={searchClient} indexName="Posts">
         <Configure hitsPerPage={9} />
