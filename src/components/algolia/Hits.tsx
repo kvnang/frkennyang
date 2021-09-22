@@ -95,13 +95,15 @@ const PaginationStyles = styled.div`
 
 const Hits = ({ searchResults }: Props) => {
   if (!searchResults) {
-    return [...Array(9)].map((_, i) => (
+    return (
       <WrapperStyles>
         <ul>
-          <PostEntrySkeleton key={`skeleton-${i}`} format="list" />
+          {[...Array(9)].map((_, i) => (
+            <PostEntrySkeleton key={`skeleton-${i}`} format="list" />
+          ))}
         </ul>
       </WrapperStyles>
-    ));
+    );
   }
   const { hits, nbHits, hitsPerPage } = searchResults;
   return (
