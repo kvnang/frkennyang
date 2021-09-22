@@ -5,9 +5,6 @@ Sebagai seorang imam, mengajar adalah salah satu misi utama Father Kenny. Terima
 - **Bisakah Father Kenny berbicara dalam acara kami?**<br />
   Karena Father Kenny sedang menyelesaikan studi pascasarjana, ia memiliki jadwal yang cukup padat. Selain itu, untuk menjaga kesehatan, ia membutuhkan waktu juga untuk beristirahat. _Oleh karena itu, ia mungkin mengatakan "ya" kepada acara tertentu, namun "tidak dulu" kepada yang lain._
 
-- **Kapan kami harus mengisi formulir di bawah ini?**<br />
-  Dibutuhkan banyak waktu untuk mempersiapkan sebuah seminar. Agar Father Kenny dapat memberikan yang terbaik, hendaknya formulir di bawah ini diserahkan _(submit)_ setidaknya _30 hari sebelum tanggal tentatif acara Anda._
-
 - **Topik apa yang dapat dibawakan oleh Father Kenny?**<br />
   Father Kenny tertarik dengan teologi dogmatik, namun ia bersedia untuk berbicara mengenai berbagai topik yang berkaitan dengan iman kristiani dan hidup rohani. Jangan ragu untuk memberinya arahan berdasarkan tema acara Anda dalam formulir di bawah ini. _Harap memberikan informasi sespesifik mungkin!_
 
