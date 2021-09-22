@@ -235,7 +235,7 @@ const ContactStyles = styled.section`
 export default function HomePage() {
   return (
     <main>
-      <SEO title="A Catholic Priest from Indonesia" />
+      <SEO title="A Catholic Priest serving the Universal Church" />
       <Helmet bodyAttributes={{ class: 'page-home footer-light' }} />
       <HeroStyles>
         <div className="container">
