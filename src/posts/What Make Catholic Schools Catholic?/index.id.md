@@ -41,7 +41,7 @@ Hanya apabila sebuah sekolah sadar bahwa ia adalah bagian dari Gereja, ia layak 
   </div>
   <div class="book__text">
     <h5>
-      <a href="https://amzn.to/3zwpaek">How the Catholic Church Built Western Civilization</a>
+      <a target="_blank" href="https://www.amazon.com/gp/product/1596983280/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1596983280&linkCode=as2&tag=happiness052f-20&linkId=9ef89ec02a182bc33bb4ba32408e9d09">How the Catholic Church Built Western Civilization</a>
     </h5>
     <h6>Thomas E. Woods</h6>
     <p>Jika Anda ingin tahu lebih banyak mengenai hubungan antara Gereja dan ilmu pengetahuan, bagaimana para biarawan menyelamatkan peradaban manusia, dan bagaimana institusi amal Katolik mengubah dunia, Anda pasti akan menikmati buku ini.</p>
