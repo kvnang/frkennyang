@@ -170,7 +170,7 @@ const PostContentStyles = styled.div`
         align-items: center;
         justify-content: center;
 
-        .gatsby-resp-image-figure {
+        .gatsby-resp-image-wrapper {
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.32);
           width: 6.25rem;
           transition: box-shadow var(--transition);
@@ -226,7 +226,7 @@ const PostContentStyles = styled.div`
           &::before {
             opacity: 1;
           }
-          .gatsby-resp-image-figure {
+          .gatsby-resp-image-wrapper {
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.64);
           }
         }
