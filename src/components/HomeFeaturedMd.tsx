@@ -283,9 +283,6 @@ export default function HomeFeaturedMd() {
                   {posts.map((post: PostProps) => (
                     <PostEntry key={post.id} post={post} showImage />
                   ))}
-                  {posts.map((post: PostProps) => (
-                    <PostEntry key={post.id} post={post} showImage />
-                  ))}
                 </Carousel>
               </div>
             </div>
