@@ -9,24 +9,6 @@ import PostEntry from './PostEntry';
 import Carousel from './Carousel';
 import { useWindowSize } from '../hooks/useWindowSize';
 
-let firstClientX: number;
-let clientX: number;
-
-const preventTouch = (e: TouchEvent) => {
-  const minValue = 5; // threshold
-
-  clientX = e.touches[0].clientX - firstClientX;
-
-  // Vertical scrolling does not work when you start swiping horizontally.
-  if (Math.abs(clientX) > minValue) {
-    e.preventDefault();
-  }
-};
-
-const touchStart = (e: TouchEvent) => {
-  firstClientX = e.touches[0].clientX;
-};
-
 const HomeFeaturedStyles = styled.section`
   width: 100%;
   overflow-x: hidden;
@@ -174,26 +156,6 @@ export default function HomeFeaturedMd() {
     }
   }, [width]);
 
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const containerElement = containerRef.current;
-
-    if (containerElement) {
-      containerElement.addEventListener('touchstart', touchStart);
-      containerElement.addEventListener('touchmove', preventTouch, {
-        passive: false,
-      });
-    }
-
-    return () => {
-      if (containerElement) {
-        containerElement.removeEventListener('touchstart', touchStart);
-        containerElement.removeEventListener('touchmove', preventTouch);
-      }
-    };
-  });
-
   return (
     <HomeFeaturedStyles className="bg-light section-p-t section-p-b">
       <div className="container">
@@ -224,7 +186,6 @@ export default function HomeFeaturedMd() {
                   className={`posts-carousel ${
                     carouselItemCount ? 'initialized' : ''
                   }`}
-                  ref={containerRef}
                 >
                   <Carousel show={carouselItemCount || 3}>
                     {posts.map((post: PostProps) => (
