@@ -63,146 +63,97 @@
 - ### Mary in Today’s World
   ##### 25 OCTOBER 2021, SURABAYA
 - ### Abortion according to Catholic Morality
-  #### Teresa Avila Prayer Group
   ##### 23 OCTOBER 2021, SURABAYA
 - ### Rosary: Why and How to Pray It
-  #### Open webinar
-  ##### 16 OCTOBER 2021
+  ##### 16 OCTOBER 2021, JAKARTA
 - ### Chastity and Contraception
-  #### Panen Youth Group
-  ##### 11 OCTOBER 2021
+  ##### 11 OCTOBER 2021, JAKARTA
 - ### Seven Anti-Catholic Myths
-  #### Benediktus Community
   ##### 24 SEPTEMBER 2021, JAKARTA
 - ### Seven Habits of Prayer
-  #### Our Lady of Perpetual Succour Community
   ##### 23 SEPTEMBER 2021, SINGAPORE
 - ### Extra Ecclesiam Nulla Salus
-  #### Young Catholic Professionals
   ##### 15 SEPTEMBER 2021, SURABAYA
 - ### Growing in Faith
-  #### The Light Community
   ##### 14 SEPTEMBER 2021, SINGAPORE
 - ### Antichrist
-  #### Open webinar
   ##### 10 SEPTEMBER 2021, JAKARTA
 - ### Prosperity Gospel
-  #### Open webinar
   ##### 5 SEPTEMBER 2021, JAKARTA
 - ### The Ninth and Tenth Commandments
-  #### Expatriate Parish
   ##### 7 AUGUST 2021, JAKARTA
 - ### Christian Poverty and Detachment
-  #### John Paul II Youth Group
   ##### 22 JULY 2021, JAKARTA
 - ### Second Vatican Council
-  #### Young Catholic Professionals
   ##### 21 JULY 2021, SURABAYA
 - ### The Fifth Commandment
-  #### Expatriate Parish
   ##### 10 JULY 2021, JAKARTA
 - ### The Trinity
-  #### AmoreDio Community
   ##### 18 JULY 2020, SINGAPORE
 - ### The Holy Spirit
-  #### Young Catholic Professionals
   ##### 27 MAY 2020, SURABAYA
 - ### Catholicism vs. Protestantism
-  #### Open webinar
   ##### 22 MAY 2020, JAKARTA
 - ### The Problem of Evil
-  #### Talk for teenagers
   ##### 11 MAY 2020, CALIFORNIA
 - ### The Divine Mercy
-  #### Young Catholic Professionals
   ##### 15 APRIL 2020, SURABAYA
 - ### The Way of the Cross
-  #### Talk for children
   ##### 7 MARCH 2020, SURABAYA
 - ### New Age
-  #### Young Catholic Professionals
   ##### 4 MARCH 2020, SURABAYA
 - ### Priestly Vocation
-  #### Open seminar
   ##### 13 FEBRUARY 2020, JAKARTA
 - ### God’s Existence
-  #### Talk for youth
   ##### 27 JANUARY 2020, SURABAYA
-- ### Eucharist
-  #### Talk for youth
+- ### The Eucharist
   ##### 7 DECEMBER 2019, SURABAYA
 - ### On the “Our Father”
-  #### Talk for youth
   ##### 21 NOVEMBER 2019, SURABAYA
 - ### Purgatory
-  #### Open seminar
   ##### 20 NOVEMBER 2019, SURABAYA
 - ### Liturgical Items and Vestments
-  #### Class for altar servers
   ##### 27 OCTOBER 2019, SURABAYA
 - ### Aquinas: Life and Teaching
-  #### Open seminar
   ##### 26 OCTOBER 2019, SURABAYA
 - ### History and Content of the CCC
-  #### Class for catechists
   ##### 19 SEPTEMBER 2019, SURABAYA
 - ### Christian Family
-  #### Seminar for parents
   ##### 31 AUGUST 2019, SURABAYA
 - ### Reasons to be a Catholic
-  #### Class for adolescents
   ##### 3 JULY 2019, SURABAYA
 - ### Sins
-  #### Class for youth
   ##### 22 JULY 2019, SURABAYA
 - ### Christology
-  #### Open class
   ##### 29 JUNE 2019, JAKARTA
 - ### The Last Things
-  #### Talk for parishioners
   ##### 12 MAY 2019, SURABAYA
-- ### Baptism
-  #### Class for parents
+- ### The Sacrament of Baptism
   ##### 11 APRIL 2019, SURABAYA
 - ### Human Passions
-  #### Class for Dominican aspirants
   ##### 16 MARCH 2019, SURABAYA
 - ### Superstition
-  #### Open seminar
   ##### 14 MARCH 2019, SURABAYA
 - ### Biblical Covenants
-  #### Class for a Bible study group
   ##### 13 FEBRUARY 2019, SURABAYA
 - ### Christian Prayer
-  #### Open seminar
   ##### 13 FEBRUARY 2019, SURABAYA
 - ### “Adoro te devote”
-  #### Open seminar
   ##### 1 FEBRUARY 2019, SURABAYA
-- ### Sacrament of Confession
-  #### Open seminar
+- ### The Sacrament of Confession
   ##### 7 DECEMBER 2018, SURABAYA
 - ### History of the Church
-  #### Class for seminarians
   ##### 21 NOVEMBER 2018, SURABAYA
 - ### Holy Communion
-  #### Class for Extraordinary Ministers
   ##### 13 NOVEMBER 2018, SURABAYA
 - ### Our Lady of Torreciudad
-  #### Open seminar
   ##### 14 OCTOBER 2018, SURABAYA
 - ### Marian Devotion
-  #### Class for catechumens
   ##### 11 OCTOBER 2018, SURABAYA
 - ### Queen of Rosary
-  #### Open seminar
   ##### 5 OCTOBER 2018, SURABAYA
 - ### Pipe Organs 101
-  #### Class for church organists
   ##### 30 SEPTEMBER 2018, SURABAYA
-- ### Eucharist
-  #### Class for catechumens
-  ##### 23 SEPTEMBER 2018, SURABAYA
 
 ## Areas of Interest
 
