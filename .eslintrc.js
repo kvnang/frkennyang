@@ -136,5 +136,9 @@ module.exports = {
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
   },
+  globals: {
+    React: true,
+    JSX: true,
+  },
   plugins: ['html', 'prettier', 'react-hooks', '@typescript-eslint'],
 };
