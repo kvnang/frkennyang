@@ -7,6 +7,8 @@ import LangSwitcher from './LangSwitcher';
 import { breakpoints } from '../styles/breakpoints';
 import { PostProps } from '../types';
 import PostEntry from './PostEntry';
+import Carousel from './Carousel';
+import { useWindowSize } from '../hooks/useWindowSize';
 
 const HomeFeaturedStyles = styled.section`
   width: 100%;
@@ -226,6 +228,26 @@ export default function HomeFeaturedMd() {
     };
   });
 
+  // New
+  const { width } = useWindowSize();
+  const [carouselItemCount, setCarouselItemCount] = useState(5);
+
+  useEffect(() => {
+    if (width) {
+      if (width <= 767) {
+        if (carouselItemCount !== 1) {
+          setCarouselItemCount(1);
+        }
+      } else if (width <= 1024) {
+        if (carouselItemCount !== 2) {
+          setCarouselItemCount(2);
+        }
+      } else if (carouselItemCount !== 3) {
+        setCarouselItemCount(3);
+      }
+    }
+  }, [width]);
+
   return (
     <HomeFeaturedStyles className="bg-light section-p-t section-p-b">
       <div className="container">
@@ -245,13 +267,27 @@ export default function HomeFeaturedMd() {
               </SwitcherLinkStyles>
             </div>
           </div>
-          <div className="posts-wrapper col">
-            <div className="posts" ref={containerRef}>
-              <Slider {...settings}>
+        </div>
+      </div>
+      <div style={{ position: 'relative' }}>
+        <div className="container">
+          <div className="row">
+            <div className="posts-wrapper col">
+              <div className="posts" ref={containerRef}>
+                {/* <Slider {...settings}>
                 {posts.map((post: PostProps) => (
                   <PostEntry key={post.id} post={post} showImage />
                 ))}
-              </Slider>
+              </Slider> */}
+                <Carousel show={carouselItemCount} withIndicator>
+                  {posts.map((post: PostProps) => (
+                    <PostEntry key={post.id} post={post} showImage />
+                  ))}
+                  {posts.map((post: PostProps) => (
+                    <PostEntry key={post.id} post={post} showImage />
+                  ))}
+                </Carousel>
+              </div>
             </div>
           </div>
         </div>
