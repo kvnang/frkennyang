@@ -55,15 +55,20 @@ const HomeFeaturedStyles = styled.section`
     margin: calc(var(--post-gap) * -2) calc(var(--post-gap) * -1);
   }
 
-  .posts-carousel:not(.initialized) {
-    .carousel-content > * {
-      width: 100%;
+  .posts-carousel {
+    width: 100%;
+    max-width: 100%;
 
-      @media ${breakpoints.tablet} {
-        width: 50%;
-      }
-      @media ${breakpoints.laptop} {
-        width: 33.333%;
+    &:not(.initialized) {
+      .carousel-content > * {
+        width: 100%;
+
+        @media ${breakpoints.tablet} {
+          width: 50%;
+        }
+        @media ${breakpoints.laptop} {
+          width: 33.333%;
+        }
       }
     }
   }
