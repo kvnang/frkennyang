@@ -57,13 +57,10 @@
 
 ## Speaking Topics
 - ### The Purpose of Life
-  #### AmoreDio Community
   ##### 22 JANUARY 2022, SINGAPORE
 - ### Forgiveness
-  #### Holy Spirit Community
   ##### 11 NOVEMBER 2021, SINGAPORE
 - ### Mary in Today’s World
-  #### Gaudens Cor Community
   ##### 25 OCTOBER 2021, SURABAYA
 - ### Abortion according to Catholic Morality
   #### Teresa Avila Prayer Group
