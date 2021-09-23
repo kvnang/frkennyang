@@ -279,7 +279,7 @@ export default function HomeFeaturedMd() {
                   <PostEntry key={post.id} post={post} showImage />
                 ))}
               </Slider> */}
-                <Carousel show={carouselItemCount} withIndicator>
+                <Carousel show={carouselItemCount}>
                   {posts.map((post: PostProps) => (
                     <PostEntry key={post.id} post={post} showImage />
                   ))}
