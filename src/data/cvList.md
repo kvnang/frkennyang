@@ -207,19 +207,6 @@
   #### Class for catechumens
   ##### 23 SEPTEMBER 2018, SURABAYA
 
-## Scholarships Obtained
-
-- ### Centro Académico Romano Fundación
-  ##### 2021 - Pontifical University of the Holy Cross
-- ### Centro Académico Romano Fundación
-  ##### 2020 - Pontifical University of the Holy Cross
-- ### Edwin & Maybelle McDonald Scholarship
-  ##### 2011 - Missouri Western State University
-- ### International Ambassador Scholarship
-  ##### 2011 - Missouri Western State University
-- ### President’s Honor Roll
-  ##### 2011 - Missouri Western State University
-
 ## Areas of Interest
 
 - #### St. Thomas Aquinas
