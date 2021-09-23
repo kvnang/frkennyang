@@ -27,7 +27,7 @@ export interface ICarouselProps {
   /**
    * Render with indicator
    */
-  withIndicator?: boolean;
+  // withIndicator?: boolean;
 
   /**
    * Render custom previous button
@@ -125,11 +125,11 @@ export interface ICarouselProps {
    * close: item that close with current item,
    * far: item that far from current item
    */
-  indicatorClassNames?: {
-    active?: string;
-    close?: string;
-    far?: string;
-  };
+  // indicatorClassNames?: {
+  //   active?: string;
+  //   close?: string;
+  //   far?: string;
+  // };
 
   /**
    * Render custom dot element
@@ -335,7 +335,7 @@ const Carousel = ({
   show,
   infiniteLoop,
   autoPlay,
-  withIndicator,
+  // withIndicator,
   renderPreviousButton,
   renderNextButton,
   containerClassName,
@@ -345,12 +345,12 @@ const Carousel = ({
   containerProps,
   wrapperProps,
   contentWrapperProps,
-  indicatorContainerClassName,
-  indicatorContainerProps,
-  indicatorClassNames,
+  // indicatorContainerClassName,
+  // indicatorContainerProps,
+  // indicatorClassNames,
   contentProps,
 }: ICarouselProps): JSX.Element => {
-  const indicatorContainerRef = React.useRef<HTMLDivElement>(null);
+  // const indicatorContainerRef = React.useRef<HTMLDivElement>(null);
 
   /**
    * Total item
@@ -405,21 +405,25 @@ const Carousel = ({
     }
   }, [currentIndex, isRepeating, show, length]);
 
+  // React.useEffect(() => {
+  //   if (withIndicator) {
+  //     const active =
+  //       indicatorContainerRef.current?.querySelector('.dots-active');
+  //     if (active) {
+  //       const index = active.getAttribute('data-index');
+  //       if (index !== null && indicatorContainerRef.current?.scrollTo) {
+  //         indicatorContainerRef.current?.scrollTo({
+  //           left: ((Number(index) - 2) / 5) * 50,
+  //           behavior: 'smooth',
+  //         });
+  //       }
+  //     }
+  //   }
+  // }, [withIndicator, currentIndex]);
+
   React.useEffect(() => {
-    if (withIndicator) {
-      const active =
-        indicatorContainerRef.current?.querySelector('.dots-active');
-      if (active) {
-        const index = active.getAttribute('data-index');
-        if (index !== null && indicatorContainerRef.current?.scrollTo) {
-          indicatorContainerRef.current?.scrollTo({
-            left: ((Number(index) - 2) / 5) * 50,
-            behavior: 'smooth',
-          });
-        }
-      }
-    }
-  }, [withIndicator, currentIndex]);
+    setCurrentIndex(0);
+  }, [show]);
 
   /**
    * Move forward to the next item
@@ -568,42 +572,42 @@ const Carousel = ({
     return output;
   }, [children, show]);
 
-  const renderDots = React.useMemo(() => {
-    const output = [];
+  // const renderDots = React.useMemo(() => {
+  //   const output = [];
 
-    const localShow = isRepeating ? show : 0;
-    const localLength = isRepeating ? length : Math.ceil(length / show);
-    const calculatedActiveIndex =
-      currentIndex - localShow < 0
-        ? length + (currentIndex - localShow)
-        : currentIndex - localShow;
+  //   const localShow = isRepeating ? show : 0;
+  //   const localLength = isRepeating ? length : Math.ceil(length / show);
+  //   const calculatedActiveIndex =
+  //     currentIndex - localShow < 0
+  //       ? length + (currentIndex - localShow)
+  //       : currentIndex - localShow;
 
-    for (let index = 0; index < localLength; index += 1) {
-      let className = '';
-      if (calculatedActiveIndex === index) {
-        className = indicatorClassNames?.active || 'dots-active';
-      } else if (calculatedActiveIndex === 0) {
-        if (calculatedActiveIndex + index <= 2) {
-          className = indicatorClassNames?.close || 'dots-close';
-        } else {
-          className = indicatorClassNames?.far || 'dots-far';
-        }
-      } else if (calculatedActiveIndex === localLength - 1) {
-        if (Math.abs(calculatedActiveIndex - index) <= 2) {
-          className = indicatorClassNames?.close || 'dots-close';
-        } else {
-          className = indicatorClassNames?.far || 'dots-far';
-        }
-      } else if (Math.abs(calculatedActiveIndex - index) === 1) {
-        className = indicatorClassNames?.close || 'dots-close';
-      } else {
-        className = indicatorClassNames?.far || 'dots-far';
-      }
-      output.push(<div key={index} data-index={index} className={className} />);
-    }
+  //   for (let index = 0; index < localLength; index += 1) {
+  //     let className = '';
+  //     if (calculatedActiveIndex === index) {
+  //       className = indicatorClassNames?.active || 'dots-active';
+  //     } else if (calculatedActiveIndex === 0) {
+  //       if (calculatedActiveIndex + index <= 2) {
+  //         className = indicatorClassNames?.close || 'dots-close';
+  //       } else {
+  //         className = indicatorClassNames?.far || 'dots-far';
+  //       }
+  //     } else if (calculatedActiveIndex === localLength - 1) {
+  //       if (Math.abs(calculatedActiveIndex - index) <= 2) {
+  //         className = indicatorClassNames?.close || 'dots-close';
+  //       } else {
+  //         className = indicatorClassNames?.far || 'dots-far';
+  //       }
+  //     } else if (Math.abs(calculatedActiveIndex - index) === 1) {
+  //       className = indicatorClassNames?.close || 'dots-close';
+  //     } else {
+  //       className = indicatorClassNames?.far || 'dots-far';
+  //     }
+  //     output.push(<div key={index} data-index={index} className={className} />);
+  //   }
 
-    return output;
-  }, [currentIndex, indicatorClassNames, isRepeating, length, show]);
+  //   return output;
+  // }, [currentIndex, indicatorClassNames, isRepeating, length, show]);
 
   React.useEffect(() => {
     const items = document.querySelectorAll('.carousel-content > *');
@@ -695,7 +699,7 @@ const Carousel = ({
             </div>
           </div>
         </div>
-        {withIndicator && (
+        {/* {withIndicator && (
           <div
             data-testid="indicator-container"
             ref={indicatorContainerRef}
@@ -706,7 +710,7 @@ const Carousel = ({
           >
             {renderDots}
           </div>
-        )}
+        )} */}
       </div>
     </CarouselStyles>
   );

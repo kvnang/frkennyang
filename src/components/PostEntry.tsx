@@ -33,18 +33,24 @@ const PostStyles = styled.article`
 
     &:hover,
     &:focus {
-      color: var(--gold);
+      @media (hover: hover) {
+        color: var(--gold);
 
-      .post-img {
-        .gatsby-image-wrapper {
-          transform: translate(-0.5rem, -0.5rem);
-        }
-        .post-img-inner {
-          &::before {
-            opacity: 0.7;
+        .post-img {
+          .gatsby-image-wrapper {
+            transform: translate(-0.5rem, -0.5rem);
+          }
+          .post-img-inner {
+            &::before {
+              opacity: 0.7;
+            }
           }
         }
       }
+    }
+
+    &:focus {
+      color: var(--gold);
     }
   }
 
