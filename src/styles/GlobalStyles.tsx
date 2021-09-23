@@ -9,6 +9,7 @@ const GlobalStyles = styled.createGlobalStyle`
     --gold: #e2a93a;
     --white: #fff;
     --offwhite: #f5f2ed;
+    --offwhite-rgb: 245, 242, 237;
     --offwhite-light: #ddd4c5;
     --grey: #a9a9a9;
     --color-p: var(--offwhite);
