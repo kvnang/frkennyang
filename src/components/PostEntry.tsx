@@ -93,6 +93,8 @@ const PostStyles = styled.article`
       width: 2.5rem;
       background-color: var(--black);
       padding: 0.5rem;
+      z-index: 1;
+      transform: translateZ(0);
 
       svg {
         color: var(--white);
