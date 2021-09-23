@@ -12,7 +12,7 @@ In this article, I provide answers to the questions I get asked the most. If you
 
 ## 1. Who are you?
 
-I am a **Catholic priest**. On who a Catholic priest is, check out [this article](https://www.catholic.com/encyclopedia/priest).
+I am a **Catholic priest**. On who a Catholic priest is, check out <a href="https://www.catholic.com/encyclopedia/priest" target="_blank">this article</a>.
 
 ## 2. How should we address you?
 
