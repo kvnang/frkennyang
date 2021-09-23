@@ -252,7 +252,7 @@
   #### Organist
   ##### SEPTEMBER 2016 – JUNE 2018, PAMPLONA (SPAIN)
   I helped the University of Navarra's chaplain for English-speaking students, Fr. José Alviar, organize the choir for the Mass celebrated in English on Sundays during the entire school year.
-- Shrine of Torreciudad
+- ### Shrine of Torreciudad
   #### Pilgrim Guide
   ##### JULY 2017, HUESCA (SPAIN)
   I toured the pilgrims around the Shrine and gave them succinct historical explanations of this pilgrimage site. I also assisted the staff at the Information Service Center in attending to the needs of the visitors.
