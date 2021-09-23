@@ -11,6 +11,7 @@
   ##### 2015 - 2018, PAMPLONA (SPAIN)
 - ### Missouri Western State University
   ##### 2010 - 2012, MISSOURI (USA)
+  Piano Performance
 
 ## Languages
 
