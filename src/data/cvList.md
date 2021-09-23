@@ -36,11 +36,11 @@
 - ### Katolisitas Study Group
   #### Lecturer
   ##### JULY 2019 - MAY 2020, JAKARTA
-  I taught St. Thomas Aquinas’ _Summa Theologiae_ to a group of catechists.
+  I taught St. Thomas Aquinas’ Summa Theologiae to a group of catechists.
 - ### St. John Vianney Spiritual Year Seminary
   #### Lecturer
   ##### AUGUST 2018 - JUNE 2020, SURABAYA
-  I taught _Introduction to Sacred Scripture_ course to seminarians.
+  I taught Introduction to Sacred Scripture course to seminarians.
 - ### University of Navarra
   #### Translator
   ##### SEPTEMBER 2014 - JULY 2020, SURABAYA
