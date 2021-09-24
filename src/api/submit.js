@@ -40,7 +40,7 @@ export default function handler(req, res) {
 
   const mailOptions = {
     from: `noreply@${process.env.MAILGUN_DOMAIN}`,
-    to: 'kvn23ang@gmail.com',
+    to: 'fatherkennyang@gmail.com',
     'h:Reply-To': data.email || '',
     subject: `New form submission: ${toTitleCase(formName)} Form`,
     text: `${Object.keys(data)
