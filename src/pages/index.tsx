@@ -69,7 +69,7 @@ const HeroStyles = styled.section`
     .button-group {
       display: flex;
       flex-flow: wrap;
-      margin: -0.5rem -1rem;
+      margin: -0.75rem -1rem;
       max-width: 80%;
 
       @media ${breakpoints.tablet} {
@@ -77,7 +77,7 @@ const HeroStyles = styled.section`
       }
 
       .button {
-        margin: 0.5rem 1rem;
+        margin: 0.75rem 1rem;
       }
     }
   }

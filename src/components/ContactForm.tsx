@@ -17,32 +17,6 @@ interface Inputs {
 const FormStyles = styled.div`
   margin-top: 3.5rem;
 
-  input,
-  textarea {
-    /* background: transparent;
-    border: 1px solid var(--white);
-    padding: 0.75rem 1.25rem;
-    color: var(--white);
-    width: 100%; */
-
-    /* &::placeholder {
-      opacity: 1;
-      color: var(--white);
-      transition: var(--transition);
-    }
-
-    &:focus {
-      &::placeholder {
-        opacity: 0.5;
-      }
-    } */
-  }
-
-  /* textarea {
-    resize: vertical;
-    height: 9rem;
-  } */
-
   button[type='submit'] {
     margin-left: auto;
     display: block;
