@@ -114,7 +114,7 @@ export default async function handler(
       </mj-style>
     </mj-head>
     <mj-body background-color="#fff">
-      <mj-section full-width="full-width" background-color="#2f2f2f">
+      <mj-section full-width="full-width" background-color="#2f2f2f" background-url="https://www.fatherkenny.com/email-header-bg.png" background-size="cover">
         <mj-column>
           <mj-image src="https://www.fatherkenny.com/logo-W.png" width="160px" align="left" alt="Fr. Kenny Ang" css-class="logo"></mj-image>
         </mj-column>
