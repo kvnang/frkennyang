@@ -41,7 +41,10 @@ export default async function handler(req, res) {
   const mjml = `
   <mjml>
     <mj-head>
-      <mj-all font-family="Helvetica" />
+      <mj-attributes>
+        <mj-section background-color="#f5f2ed" />
+        <mj-all font-family="Helvetica" />
+      </mj-attributes>
       <mj-style inline="inline">
         h1 {
           margin: 0 !important;
@@ -117,7 +120,7 @@ export default async function handler(req, res) {
 
   const mailOptions = {
     from: `noreply@${process.env.MAILGUN_DOMAIN}`,
-    to: 'kvn23ang@gmail.com',
+    to: process.env.RECIPIENT_EMAIL,
     'h:Reply-To': data.email || '',
     subject: `New form submission: ${toTitleCase(formName)} Form`,
   };

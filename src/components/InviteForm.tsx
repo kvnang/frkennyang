@@ -747,6 +747,7 @@ export default function InviteForm() {
                 <Link
                   to="/cv/#speaking-topics"
                   style={{ display: 'inline-block' }}
+                  target="_blank"
                 >
                   Curriculum Vitae
                 </Link>

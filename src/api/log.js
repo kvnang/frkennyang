@@ -109,6 +109,7 @@ export default async function handler(req, res) {
         data.venueCapacity,
         data.addressStreet,
         data.addressStreet2,
+        data.city,
         data.addressState,
         data.addressZip,
         data.addressCountry,
