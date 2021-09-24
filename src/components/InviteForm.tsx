@@ -274,6 +274,7 @@ export default function InviteForm() {
       endTime: `${padStart(convertedEndTime.getHours())}:${padStart(
         convertedEndTime.getMinutes()
       )}`,
+      timeZone: defaultTimeZone,
     };
 
     const endpoint = `/api/submit`;
