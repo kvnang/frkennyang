@@ -105,6 +105,7 @@ export default async function handler(
         a {
           color: #e2a93a;
         }
+        
         @media only screen and (min-width:480px) {
           .logo {
             width: 200px;
@@ -128,7 +129,7 @@ export default async function handler(
       </mj-section>
       <mj-section>
         <mj-column width="100%">
-        <mj-table css-class="table">
+          <mj-table css-class="table">
             <tr style="border-bottom:1px solid #a9a9a9;text-align:left;">
               <th>Field</th>
               <th>Value</th>

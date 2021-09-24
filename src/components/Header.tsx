@@ -28,50 +28,6 @@ const HeaderStyles = styled.header`
   }
 `;
 
-const MenuListStyles = styled.ul`
-  --menu-gap: 1rem;
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  margin: calc(-1 * var(--menu-gap) / 2);
-
-  @media ${breakpoints.laptop} {
-    --menu-gap: 2rem;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-
-  li {
-    font-size: 1.25rem;
-    padding: calc(var(--menu-gap) / 2);
-
-    @media ${breakpoints.laptop} {
-      font-size: 1rem;
-    }
-
-    a {
-      /* display: flex; */
-      /* width: 100%; */
-
-      &,
-      &:hover,
-      &:focus {
-        color: var(--color-p);
-      }
-
-      &[aria-current='page'] {
-        pointer-events: none;
-
-        &::before {
-          width: 100%;
-          transform: translateX(0);
-        }
-      }
-    }
-  }
-`;
-
 const MenuStyles = styled.nav`
   display: none;
   width: 100%;
@@ -132,7 +88,9 @@ const MobileMenuButtonStyles = styled.div`
     }
 
     &:hover > .hamburger span {
-      background-color: var(--gold);
+      @media (hover: hover) {
+        background-color: var(--gold);
+      }
     }
 
     &.active {
