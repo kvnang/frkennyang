@@ -21,7 +21,7 @@ export default async function handler(req, res) {
 
   const { 'form-name': formName, title, ...data } = req.body; // title is honeypot on both forms
 
-  if (!formName || data.title) {
+  if (!formName || title) {
     res.status(400).send(`Sorry ... beep bop ... this email cannot be sent.`);
     return;
   }

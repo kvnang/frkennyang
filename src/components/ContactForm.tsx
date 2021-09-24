@@ -97,7 +97,6 @@ export default function ContactForm() {
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     setLoading(true);
 
-    // const formData = encode(data);
     const endpoint = `/api/submit`;
 
     fetch(endpoint, {
