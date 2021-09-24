@@ -391,18 +391,22 @@ export default function InviteForm() {
                 style={{ textAlign: 'right' }}
               >
                 Date & Time are shown in{' '}
-                <TimeZoneSelectStyles className="select-wrapper">
-                  <select
-                    id="timeZone"
-                    {...register('timeZone', { required: true })}
-                  >
-                    {timeZones.map((tz) => (
-                      <option value={tz}>{formatTZ(tz)}</option>
-                    ))}
-                  </select>
-                  <span>{formatTZ(selectedTimeZone)}</span>
-                </TimeZoneSelectStyles>{' '}
-                timezone.
+                <span style={{ display: 'inline-block' }}>
+                  <TimeZoneSelectStyles className="select-wrapper">
+                    <select
+                      id="timeZone"
+                      {...register('timeZone', { required: true })}
+                    >
+                      {timeZones.map((tz) => (
+                        <option key={tz} value={tz}>
+                          {formatTZ(tz)}
+                        </option>
+                      ))}
+                    </select>
+                    <span>{formatTZ(selectedTimeZone)}</span>
+                  </TimeZoneSelectStyles>{' '}
+                  timezone.
+                </span>
               </p>
             </div>
             <div className="form-field heading">
