@@ -3,10 +3,9 @@ import mailgun from 'mailgun-js';
 import fetch from 'node-fetch';
 
 function toTitleCase(str: string) {
-  return str.replace(
-    /\w\S*/g,
-    (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
-  );
+  const result = str.replace(/([A-Z])/g, ' $1');
+  const finalResult = result.charAt(0).toUpperCase() + result.slice(1);
+  return finalResult;
 }
 
 export default async function handler(
@@ -77,23 +76,37 @@ export default async function handler(
           font-size: 14px;
           line-height: 1.25em;
           font-weight: 400;
+          color: #a9a9a9;
         }
         
         .table td, .table th {
           padding: 3px 5px;
         }
+
+        .table tr:not(:last-child) {
+          border-bottom: 1px solid #e3e3e3;
+        }
         
         .table td:first-child,
         .table th:first-child {
-          width: 25%;
+          width: 33%;
+        }
+      </mj-style>
+      <mj-style>
+        a {
+          color: #e2a93a;
+        }
+        @media only screen and (min-width:480px) {
+          .logo {
+            width: 200px;
+          }
         }
       </mj-style>
     </mj-head>
     <mj-body background-color="#fff">
-      <mj-section padding-bottom="0">
+      <mj-section full-width="full-width" background-color="#2f2f2f">
         <mj-column>
-          <mj-image src="https://www.fatherkenny.com/logo.png" width="200px" align="left" alt="Fr. Kenny Ang"></mj-image>
-          <mj-divider border-width="1px" border-color="#a9a9a9"></mj-divider>
+          <mj-image src="https://www.fatherkenny.com/logo-W.png" width="160px" align="left" alt="Fr. Kenny Ang" css-class="logo"></mj-image>
         </mj-column>
       </mj-section>
       <mj-section padding-bottom="0">
@@ -112,7 +125,12 @@ export default async function handler(
               <th>Value</th>
             </tr>
             ${Object.keys(data)
-              .map((key) => `<tr><td>${key}</td><td>${data[key]}</tr>`)
+              .map(
+                (key) =>
+                  `<tr><td><strong>${toTitleCase(key)}</strong></td><td>${
+                    data[key]
+                  }</tr>`
+              )
               .join('\n')}
           </mj-table>
         </mj-column>
