@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import { SubmitHandler, useForm } from 'react-hook-form';
 // import DatePicker from 'react-datepicker';
@@ -10,6 +10,7 @@ import { breakpoints } from '../styles/breakpoints';
 import FormSubmitButton from './FormSubmitButton';
 import countries from '../utils/countries';
 import { FormMessageTypes } from '../types';
+import { timeZones } from '../utils/timeZones';
 
 interface Inputs {
   [key: string]: any;
@@ -88,7 +89,86 @@ const FormStyles = styled.div`
   }
 `;
 
+const TimeZoneSelectStyles = styled.label`
+  position: relative;
+  display: inline-block;
+
+  select {
+    display: inline-block;
+    background: none;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: none;
+
+    &:focus {
+      + span {
+        background-color: var(--dark-grey);
+      }
+    }
+  }
+
+  span {
+    padding: 0.25rem 1.25rem 0.25rem 0.5rem;
+    font-weight: 600;
+    transition: background-color var(--transition);
+  }
+
+  &::after {
+    height: 1rem;
+    width: 1rem;
+    right: 0.25rem;
+  }
+
+  &:hover {
+    span {
+      background-color: var(--dark-grey);
+    }
+  }
+`;
+
+function convertTZ(date: Date | string, tzString: string) {
+  return new Date(
+    (typeof date === 'string' ? new Date(date) : date).toLocaleString('en-US', {
+      timeZone: tzString,
+    })
+  );
+}
+
+function formatTZ(str: string) {
+  return str.replace(/_/g, ' ').replace(/\//g, ' / ');
+}
+
+function padStart(num: number, size: number = 2) {
+  let str = num.toString();
+  while (str.length < size) str = `0${str}`;
+  return str;
+}
+
 export default function InviteForm() {
+  // Get min dates
+  const daysFromToday = 0;
+  const minDate = new Date(
+    new Date().getTime() + daysFromToday * 24 * 60 * 60 * 1000
+  );
+  const dd = String(minDate.getDate()).padStart(2, '0');
+  const mm = String(minDate.getMonth() + 1).padStart(2, '0'); // January is 0!
+  const yyyy = minDate.getFullYear();
+  const minDateYMD = `${yyyy}-${mm}-${dd}`;
+
+  // Timezones
+  const defaultTimeZone = 'Europe/Rome';
+  // const { timeZone } = Intl.DateTimeFormat().resolvedOptions();
+  const [timeZone, setTimeZone] = useState<string>(
+    Intl.DateTimeFormat().resolvedOptions().timeZone || defaultTimeZone
+  );
+  // React hook form
   const [loading, setLoading] = useState(false);
   const {
     register,
@@ -130,46 +210,77 @@ export default function InviteForm() {
   // Encode data
 
   // IF the form does NOT contain File upload
-  function encode(data: Inputs) {
-    function encodeObject(
-      object: { [key: string]: any },
-      parentKey: string
-    ): string {
-      return Object.keys(object)
-        .map((key) => {
-          if (object[key] && typeof object[key] === 'object') {
-            return encodeObject(data[key], `${parentKey}[${key}]`);
-          }
-          return `${`${encodeURIComponent(parentKey)}[${encodeURIComponent(
-            key
-          )}]`}=${encodeURIComponent(object[key] || '')}`;
-        })
-        .join('&');
-    }
+  // function encode(data: Inputs) {
+  //   function encodeObject(
+  //     object: { [key: string]: any },
+  //     parentKey: string
+  //   ): string {
+  //     return Object.keys(object)
+  //       .map((key) => {
+  //         if (object[key] && typeof object[key] === 'object') {
+  //           return encodeObject(data[key], `${parentKey}[${key}]`);
+  //         }
+  //         return `${`${encodeURIComponent(parentKey)}[${encodeURIComponent(
+  //           key
+  //         )}]`}=${encodeURIComponent(object[key] || '')}`;
+  //       })
+  //       .join('&');
+  //   }
 
-    return Object.keys(data)
-      .map((key) => {
-        if (data[key] && typeof data[key] === 'object') {
-          return encodeObject(data[key], key);
-        }
-        return `${encodeURIComponent(key)}=${encodeURIComponent(
-          data[key] || ''
-        )}`;
-      })
-      .join('&');
-  }
+  //   return Object.keys(data)
+  //     .map((key) => {
+  //       if (data[key] && typeof data[key] === 'object') {
+  //         return encodeObject(data[key], key);
+  //       }
+  //       return `${encodeURIComponent(key)}=${encodeURIComponent(
+  //         data[key] || ''
+  //       )}`;
+  //     })
+  //     .join('&');
+  // }
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     setLoading(true);
 
-    // const formData = encode(data);
+    const { date, alternateDate, startTime, endTime } = data;
+
+    const convertedStartTime = convertTZ(
+      new Date(`${date} ${startTime}`),
+      defaultTimeZone
+    );
+    const convertedEndTime = convertTZ(
+      new Date(`${date} ${endTime}`),
+      defaultTimeZone
+    );
+    const convertedAltDate = alternateDate
+      ? convertTZ(new Date(`${alternateDate} ${startTime}`), defaultTimeZone)
+      : '';
+
+    const convertedData = {
+      ...data,
+      date: `${convertedStartTime.getFullYear()}-${padStart(
+        convertedStartTime.getMonth() + 1
+      )}-${padStart(convertedStartTime.getDate())}`,
+      alternateDate: convertedAltDate
+        ? `${convertedAltDate.getFullYear()}-${padStart(
+            convertedAltDate.getMonth() + 1
+          )}-${padStart(convertedAltDate.getDate())}`
+        : '',
+      startTime: `${padStart(convertedStartTime.getHours())}:${padStart(
+        convertedStartTime.getMinutes()
+      )}`,
+      endTime: `${padStart(convertedEndTime.getHours())}:${padStart(
+        convertedEndTime.getMinutes()
+      )}`,
+    };
+
     const endpoint = `/api/submit`;
 
     fetch(endpoint, {
       method: 'POST',
       // headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
+      body: JSON.stringify(convertedData),
     })
       .then((response) => handleResponse(response))
       .catch((error) => console.error(error))
@@ -194,16 +305,6 @@ export default function InviteForm() {
     }
     return true;
   };
-
-  // Get min data
-  const daysFromToday = 0;
-  const minDate = new Date(
-    new Date().getTime() + daysFromToday * 24 * 60 * 60 * 1000
-  );
-  const dd = String(minDate.getDate()).padStart(2, '0');
-  const mm = String(minDate.getMonth() + 1).padStart(2, '0'); // January is 0!
-  const yyyy = minDate.getFullYear();
-  const minDateYMD = `${yyyy}-${mm}-${dd}`;
 
   return (
     <FormStyles>
@@ -282,6 +383,29 @@ export default function InviteForm() {
                   {...register('endTime', { required: true })}
                 />
               </label>
+            </div>
+            <div className="form-field">
+              <p
+                className="form-description small"
+                style={{ textAlign: 'right' }}
+              >
+                Date & Time are shown in{' '}
+                <TimeZoneSelectStyles className="select-wrapper">
+                  <select
+                    name="timezone"
+                    id="timezone"
+                    defaultValue={timeZone}
+                    value={timeZone}
+                    onChange={(e) => setTimeZone(e.currentTarget.value)}
+                  >
+                    {timeZones.map((tz) => (
+                      <option value={tz}>{formatTZ(tz)}</option>
+                    ))}
+                  </select>
+                  <span>{formatTZ(timeZone)}</span>
+                </TimeZoneSelectStyles>{' '}
+                timezone.
+              </p>
             </div>
             <div className="form-field heading">
               <h2 className="h3">Contact Information</h2>
@@ -556,15 +680,23 @@ export default function InviteForm() {
             <div className="form-field half">
               <label htmlFor="attendance">
                 <span>Expected Attendance (Persons) *</span>
-                <input
-                  type="number"
-                  id="attendance"
-                  placeholder="# of Persons"
-                  min="1"
-                  required
-                  aria-invalid={!!errors.attendance}
-                  {...register('attendance', { required: true })}
-                />
+                <div className="select-wrapper">
+                  <select
+                    id="attendance"
+                    required
+                    aria-invalid={!!errors.attendance}
+                    {...register('attendance', { required: true })}
+                  >
+                    <option value="">Select range</option>
+                    <option value="1-12">1-12</option>
+                    <option value="13-18">13-18</option>
+                    <option value="19-22">19-22</option>
+                    <option value="23-30">23-30</option>
+                    <option value="31-50">31-50</option>
+                    <option value="51-70">51-70</option>
+                    <option value=">70">&gt;70</option>
+                  </select>
+                </div>
               </label>
             </div>
             <div className="form-field half">

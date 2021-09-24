@@ -85,14 +85,14 @@ export default function ContactForm() {
   // Netlify Forms Functions
 
   // Encode data
-  function encode(data: Inputs) {
-    return Object.keys(data)
-      .map(
-        (key) =>
-          `${encodeURIComponent(key)}=${encodeURIComponent(data[key] || '')}`
-      )
-      .join('&');
-  }
+  // function encode(data: Inputs) {
+  //   return Object.keys(data)
+  //     .map(
+  //       (key) =>
+  //         `${encodeURIComponent(key)}=${encodeURIComponent(data[key] || '')}`
+  //     )
+  //     .join('&');
+  // }
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     setLoading(true);
