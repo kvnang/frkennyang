@@ -1,6 +1,5 @@
+import { GatsbyFunctionRequest, GatsbyFunctionResponse } from 'gatsby';
 import * as sheets from '@googleapis/sheets';
-
-const spreadsheetId = process.env.GOOGLE_SPREADSHEET_ID;
 
 // Sample Request
 // {
@@ -50,11 +49,24 @@ const spreadsheetId = process.env.GOOGLE_SPREADSHEET_ID;
 //   "form_name": "contact"
 // }
 
-export default async function handler(req, res) {
+export default async function handler(
+  req: GatsbyFunctionRequest,
+  res: GatsbyFunctionResponse
+) {
   const { body } = req;
 
   if (!body) {
-    res.status(400).json({});
+    res.status(400).send('Form data is required.');
+    throw new Error('Form data is required.');
+  }
+
+  const googleClientEmail = process.env.GOOGLE_CLIENT_EMAIL;
+  const googlePrivateKey = process.env.GOOGLE_PRIVATE_KEY;
+  const googleSpreadsheetID = process.env.GOOGLE_SPREADSHEET_ID;
+
+  if (!googleClientEmail || !googlePrivateKey || !googleSpreadsheetID) {
+    res.status(400).send('Google API not configured');
+    throw new Error('Google API not configured');
   }
 
   const { form_name: formName, data, created_at: createdAt } = body;
@@ -69,8 +81,8 @@ export default async function handler(req, res) {
 
   const auth = new sheets.auth.GoogleAuth({
     credentials: {
-      client_email: process.env.GOOGLE_CLIENT_EMAIL,
-      private_key: process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n'),
+      client_email: googleClientEmail,
+      private_key: googlePrivateKey.replace(/\\n/g, '\n'),
     },
     scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
@@ -82,7 +94,7 @@ export default async function handler(req, res) {
     auth: authClient,
   });
 
-  let values = [];
+  let values: string[][] = [];
   if (formName === 'contact') {
     values = [[createdAt, data.name, data.email, data.message]];
   }
@@ -125,15 +137,25 @@ export default async function handler(req, res) {
     ];
   }
 
-  const response = await client.spreadsheets.values.append({
+  if (!values) {
+    return;
+  }
+
+  const request = {
     auth, // auth object
-    spreadsheetId, // spreadsheet id
+    spreadsheetId: googleSpreadsheetID, // spreadsheet id
     range: `${formName}!A:B`, // sheet name and range of cells
     valueInputOption: 'USER_ENTERED', // The information will be passed according to what the usere passes in as date, number or text
     resource: {
       values,
     },
-  });
+  };
 
-  res.status(200).json(response);
+  try {
+    const response = (await client.spreadsheets.values.append(request)).data;
+    res.status(200).json(response);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json(err);
+  }
 }

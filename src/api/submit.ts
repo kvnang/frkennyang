@@ -1,23 +1,41 @@
+import { GatsbyFunctionRequest, GatsbyFunctionResponse } from 'gatsby';
 import mailgun from 'mailgun-js';
 import fetch from 'node-fetch';
 
-function toTitleCase(str) {
+function toTitleCase(str: string) {
   return str.replace(
     /\w\S*/g,
     (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
   );
 }
 
-const mg = mailgun({
-  apiKey: process.env.MAILGUN_API_KEY,
-  domain: process.env.MAILGUN_DOMAIN,
-});
-
-export default async function handler(req, res) {
+export default async function handler(
+  req: GatsbyFunctionRequest,
+  res: GatsbyFunctionResponse
+) {
   if (!req.body) {
     res.status(400).send(`Form data is required.`);
-    return;
+    throw new Error('Form data is required.');
   }
+
+  const mailgunApiKey = process.env.MAILGUN_API_KEY;
+  const mailgunDomain = process.env.MAILGUN_DOMAIN;
+  const recipientEmail = process.env.RECIPIENT_EMAIL;
+
+  if (!mailgunApiKey || !mailgunDomain) {
+    res.status(400).send('Mailgun API is not configured');
+    throw new Error('Mailgun API is not configured');
+  }
+
+  if (!recipientEmail) {
+    res.status(400).send('Recipient Email not defined');
+    throw new Error('Recipient Email not defined');
+  }
+
+  const mg = mailgun({
+    apiKey: mailgunApiKey,
+    domain: mailgunDomain,
+  });
 
   const { 'form-name': formName, title, ...data } = req.body; // title is honeypot on both forms
 
@@ -44,9 +62,8 @@ export default async function handler(req, res) {
   <mjml>
     <mj-head>
       <mj-attributes>
-        <mj-section background-color="#3f3f3f" />
         <mj-all font-family="Helvetica" />
-        <mj-all color="#fff" />
+        <mj-all color="#2f2f2f" />
       </mj-attributes>
       <mj-style inline="inline">
         h1 {
@@ -72,7 +89,7 @@ export default async function handler(req, res) {
         }
       </mj-style>
     </mj-head>
-    <mj-body background-color="#2f2f2f">
+    <mj-body background-color="#fff">
       <mj-section padding-bottom="0">
         <mj-column>
           <mj-image src="https://www.fatherkenny.com/logo.png" width="200px" align="left" alt="Fr. Kenny Ang"></mj-image>
@@ -121,9 +138,16 @@ export default async function handler(req, res) {
 
   const htmlOutput = await mjmlResponse.json();
 
-  const mailOptions = {
-    from: `noreply@${process.env.MAILGUN_DOMAIN}`,
-    to: process.env.RECIPIENT_EMAIL,
+  const mailOptions: {
+    from: string;
+    to: string;
+    'h:Reply-To'?: string;
+    subject: string;
+    html?: string;
+    text?: string;
+  } = {
+    from: `"Fr. Kenny Ang - Web Notification" <noreply@${process.env.MAILGUN_DOMAIN}>`,
+    to: recipientEmail,
     'h:Reply-To': data.email || '',
     subject: `New form submission: ${toTitleCase(formName)} Form`,
   };
