@@ -64,7 +64,7 @@ export default async function handler(req, res) {
     formName !== 'contact' ||
     formName !== 'invite'
   ) {
-    res.status(400).json({});
+    res.status(400).json('Sorry, this email cannot be sent.');
   }
 
   const auth = new sheets.auth.GoogleAuth({
