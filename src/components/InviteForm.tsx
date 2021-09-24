@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { SubmitHandler, useForm } from 'react-hook-form';
 // import DatePicker from 'react-datepicker';
@@ -28,6 +28,7 @@ interface Inputs {
   venueCapacity: string;
   addressStreet: string;
   addressStreet2: string;
+  addressCity: string;
   addressState: string;
   addressZip: string;
   addressCountry: string;
@@ -56,6 +57,7 @@ const defaultValues = {
   venueCapacity: '',
   addressStreet: '',
   addressStreet2: '',
+  addressCity: '',
   addressState: '',
   addressZip: '',
   addressCountry: 'Indonesia',
@@ -588,6 +590,23 @@ export default function InviteForm() {
                 display: eventLocation === 'online' ? 'none' : '',
               }}
             >
+              <label htmlFor="venue-address-city">
+                <span className="visually-hidden">City</span>
+                <input
+                  type="text"
+                  id="venue-address-city"
+                  placeholder="City *"
+                  aria-invalid={!!errors.addressCity}
+                  {...register('addressCity')}
+                />
+              </label>
+            </div>
+            <div
+              className="form-field half"
+              style={{
+                display: eventLocation === 'online' ? 'none' : '',
+              }}
+            >
               <label htmlFor="venue-address-state">
                 <span className="visually-hidden">Venue State / Province</span>
                 <input
@@ -676,7 +695,7 @@ export default function InviteForm() {
                 />
               </label>
             </div>
-
+            <div className="form-field" />
             <div className="form-field half">
               <label htmlFor="attendance">
                 <span>Expected Attendance (Persons) *</span>
