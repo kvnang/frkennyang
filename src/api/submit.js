@@ -115,6 +115,8 @@ export default async function handler(req, res) {
 
   const htmlOutput = await mjmlResponse.json();
 
+  console.log(htmlOutput);
+
   const mailOptions = {
     from: `noreply@${process.env.MAILGUN_DOMAIN}`,
     to: 'kvn23ang@gmail.com',
