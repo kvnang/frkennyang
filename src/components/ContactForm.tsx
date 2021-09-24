@@ -97,12 +97,14 @@ export default function ContactForm() {
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     setLoading(true);
 
-    const formData = encode(data);
+    // const formData = encode(data);
+    const endpoint = `/api/submit`;
 
-    fetch('/', {
+    fetch(endpoint, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: formData,
+      // headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
     })
       .then((response) => handleResponse(response))
       .catch((error) => console.error(error))

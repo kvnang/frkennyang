@@ -1,7 +1,7 @@
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 const { default: algoliasearch } = require('algoliasearch');
-// const fetch = require('isomorphic-fetch');
+// const fetch = require('node-fetch');
 
 function slugify(text) {
   return text
