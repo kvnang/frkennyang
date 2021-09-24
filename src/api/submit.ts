@@ -1,6 +1,15 @@
 import { GatsbyFunctionRequest, GatsbyFunctionResponse } from 'gatsby';
 import mailgun from 'mailgun-js';
-import fetch from 'node-fetch';
+import fetch, { Response } from 'node-fetch';
+
+interface MJMLResponseBodyProps {
+  errors?: string[];
+  html?: string;
+  // mjml?: string;
+  // mjml_version?: string;
+  message?: string;
+  // request_id?: string;
+}
 
 function toTitleCase(str: string) {
   const result = str.replace(/([A-Z])/g, ' $1');
@@ -144,7 +153,7 @@ export default async function handler(
   </mjml>
   `;
 
-  const mjmlResponse = await fetch('https://api.mjml.io/v1/render', {
+  const mjmlResponse: Response = await fetch('https://api.mjml.io/v1/render', {
     method: 'POST',
     headers: {
       Authorization: `Basic ${Buffer.from(
@@ -154,7 +163,7 @@ export default async function handler(
     body: JSON.stringify({ mjml }),
   });
 
-  const htmlOutput = await mjmlResponse.json();
+  const htmlOutput = (await mjmlResponse.json()) as MJMLResponseBodyProps;
 
   const mailOptions: {
     from: string;
