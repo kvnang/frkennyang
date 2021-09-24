@@ -1,5 +1,4 @@
-// const sheets = require('@googleapis/sheets');
-import { sheets } from '@googleapis/sheets';
+import * as sheets from '@googleapis/sheets';
 
 const spreadsheetId = process.env.GOOGLE_SPREADSHEET_ID;
 
@@ -53,6 +52,8 @@ const spreadsheetId = process.env.GOOGLE_SPREADSHEET_ID;
 
 export default async function handler(req, res) {
   const { body } = req;
+
+  console.log(body);
 
   if (!body) {
     // res.status(400).json({});
