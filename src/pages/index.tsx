@@ -113,7 +113,11 @@ const HeroStyles = styled.section`
     display: flex;
     justify-content: flex-end;
     overflow: visible;
-    margin-top: -3.5rem;
+    margin-top: -7.5rem;
+
+    @media (min-width: 416px) {
+      margin-top: -5.5rem;
+    }
 
     @media ${breakpoints.tablet} {
       margin-top: -22rem;

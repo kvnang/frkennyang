@@ -1,7 +1,5 @@
 # Fr. Kenny Ang
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/970d5631-7128-4373-994d-e2faa80ff7ec/deploy-status)](https://app.netlify.com/sites/frkennyang/deploys)
-
 Fr. Kenny Ang's [personal website](https://www.fatherkenny.com) built on React + Gatsby.
 
 ## Table of Contents
@@ -17,6 +15,7 @@ Fr. Kenny Ang's [personal website](https://www.fatherkenny.com) built on React +
   - [Headings](#headings)
   - [Links](#links)
   - [Book Component](#book-component)
+- [Forms](#forms)
 - [Web Analytics](#web-analytics)
 
 ## Updating Posts
@@ -188,6 +187,14 @@ You can also remove certain elements by removing the HTML opening & closing tags
   </div>
 </div>
 ```
+
+## Forms
+
+All form submissions are logged in this [Google Sheets](https://docs.google.com/spreadsheets/d/1WQ5pCNm2idSS2c4DA1nklSALfUuj45bnueQ-9mqNoRU/edit#gid=0).
+
+All forms are protected by honeypot as the spam-prevention measure.
+
+Let Kevin know if you notice that spam submissions successfully creep in.
 
 ## Web Analytics
 
