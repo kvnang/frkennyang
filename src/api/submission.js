@@ -2,7 +2,7 @@ const sheets = require('@googleapis/sheets');
 
 const spreadsheetId = process.env.GOOGLE_SPREADSHEET_ID;
 
-// Request
+// Sample Request
 // {
 //   "number": 7,
 //   "title": "Kevin",
@@ -112,6 +112,9 @@ export default async function handler(req, res) {
       ],
     ];
   }
+
+  console.log(values);
+  console.log(`${formName}!A:B`);
 
   const response = await client.spreadsheets.values.append({
     auth, // auth object
