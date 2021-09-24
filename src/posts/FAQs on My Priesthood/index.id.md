@@ -65,19 +65,21 @@ Mereka serupa karena keduanya adalah imam, namun—dalam banyak hal lain—**mer
 
 ## 7. Janji-janji apa saja yang harus diucapkan oleh imam diosesan?
 
+![bishop catholic Vincent Sutikno Wisaksono](sutikno.jpg '#float=right;title=H.E. Vincentius Sutikno, Bishop of Surabaya. Photo courtesy of the Diocese of Surabaya')
+
 Para imam diosesan mengucapkan tiga janji pada hari mereka [ditahbiskan menjadi diakon](https://www.newadvent.org/cathen/04647c.htm). Mereka berjanji
 
 - untuk hidup [selibat](https://www.newadvent.org/cathen/03481a.htm) demi kerajaan surga;
 - untuk merayakan [Ibadat Harian](https://www.usccb.org/prayer-and-worship/liturgy-of-the-hours) (juga dikenal sebagai Brevir atau [*Divine Office*](https://www.newadvent.org/cathen/11219a.htm)) bagi kebaikan umat Allah dan seluruh dunia; serta
 - untuk menaati uskup mereka dan para penerusnya.
 
-![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg 'Photo courtesy of St. Yakobus (Surabaya)')
-
 ## 8. Sebagai seorang imam, apa yang Anda lakukan sehari-hari?
 
 Saat ini, saya sedang belajar untuk memperoleh [gelar lisensiat](https://en.wikipedia.org/wiki/Licentiate_(degree)#Theology,_canon_law,_history,_and_cultural_patrimony) dalam Teologi Dogmatik di [Universitas Kepausan Salib Suci](https://en.pusc.it/) di Roma. Meskipun saya menghabiskan sebagian besar waktu saya untuk belajar, **hal terpenting dalam hari saya adalah perayaan** [**Misa Kudus**](https://www.catholic.com/magazine/print-edition/why-go-to-mass). Kemudian, saya mendedikasikan banyak waktu untuk mendoakan Ibadat Harian, [berdoa secara pribadi](https://onepeterfive.com/a-beginners-guide-to-mental-prayer/), dan membaca [buku-buku rohani](https://www.delibris.org/en/node/210359). Selain itu, sesekali saya mendengarkan pengakuan dosa dan memberikan homili.
 
 Untuk melihat keseharian saya ketika saya bekerja di sebuah paroki pada tahun 2019–2020, lihat [video ini](https://youtu.be/G1JPX-rMBBU).
+
+![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg 'Photo courtesy of St. Yakobus (Surabaya)')
 
 ## 9. Mengapa Anda mengenakan pakaian yang khas?
 
