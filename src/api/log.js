@@ -54,8 +54,7 @@ export default async function handler(req, res) {
   const { body } = req;
 
   if (!body) {
-    // res.status(400).json({});
-    res.status(200).json({ test: true });
+    res.status(400).json({});
   }
 
   const { form_name: formName, data, created_at: createdAt } = body;
