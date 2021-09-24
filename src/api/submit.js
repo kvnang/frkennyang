@@ -24,9 +24,8 @@ export default function handler(req, res) {
     res.status(400).json(`form-name is not provided`);
   }
 
-  // Log to  Google Sheet
   // Log to Google Sheet
-  fetch('https://frkennyang.gatsbyjs.io/api/submission/', {
+  fetch(`${process.env.URL}api/log/`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
