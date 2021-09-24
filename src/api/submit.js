@@ -13,7 +13,7 @@ const mg = mailgun({
   domain: process.env.MAILGUN_DOMAIN,
 });
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   if (!req.body) {
     res.status(400).json({});
   }
@@ -103,7 +103,7 @@ export default function handler(req, res) {
   </mjml>
   `;
 
-  fetch('https://api.mjml.io/v1/render', {
+  const mjmlResponse = await fetch('https://api.mjml.io/v1/render', {
     method: 'POST',
     headers: {
       Authorization: `Basic ${Buffer.from(
@@ -111,34 +111,33 @@ export default function handler(req, res) {
       ).toString('base64')}`,
     },
     body: JSON.stringify({ mjml }),
-  })
-    .then((res) => res.json())
-    .catch((err) => console.error(err))
-    .then((htmlOutput) => {
-      const mailOptions = {
-        from: `noreply@${process.env.MAILGUN_DOMAIN}`,
-        to: 'kvn23ang@gmail.com',
-        'h:Reply-To': data.email || '',
-        subject: `New form submission: ${toTitleCase(formName)} Form`,
-      };
+  });
 
-      if (htmlOutput.html) {
-        mailOptions.html = htmlOutput.html;
-      } else {
-        console.error(htmlOutput.message);
-        mailOptions.text = `${Object.keys(data)
-          .map((key) => `${key}: ${data[key]}`)
-          .join('\n')}`;
-      }
+  const htmlOutput = await mjmlResponse.json();
 
-      mg.messages().send(mailOptions, (error, body) => {
-        if (error) {
-          console.log(error);
-          res.status(400).json(error);
-        } else {
-          console.log(body);
-          res.status(200).json(body);
-        }
-      });
-    });
+  const mailOptions = {
+    from: `noreply@${process.env.MAILGUN_DOMAIN}`,
+    to: 'kvn23ang@gmail.com',
+    'h:Reply-To': data.email || '',
+    subject: `New form submission: ${toTitleCase(formName)} Form`,
+  };
+
+  if (htmlOutput.html) {
+    mailOptions.html = htmlOutput.html;
+  } else {
+    console.error(htmlOutput.message);
+    mailOptions.text = `${Object.keys(data)
+      .map((key) => `${key}: ${data[key]}`)
+      .join('\n')}`;
+  }
+
+  mg.messages().send(mailOptions, (error, body) => {
+    if (error) {
+      console.log(error);
+      res.status(400).json(error);
+    } else {
+      console.log(body);
+      res.status(200).json(body);
+    }
+  });
 }
