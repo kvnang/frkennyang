@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@googleapis/sheets": "^0.3.0",
+    "@types/mailgun-js": "^0.22.12",
     "algoliasearch": "^4.10.5",
     "babel-plugin-styled-components": "^1.13.2",
     "dotenv": "^10.0.0",
