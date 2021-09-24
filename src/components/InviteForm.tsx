@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { SubmitHandler, useForm } from 'react-hook-form';
 // import DatePicker from 'react-datepicker';
 // import DayPickerInput from 'react-day-picker/DayPickerInput';
-import { Link } from 'gatsby';
 import { SnackbarContext } from './SnackbarContext';
 import { breakpoints } from '../styles/breakpoints';
 import FormSubmitButton from './FormSubmitButton';
@@ -748,13 +747,13 @@ export default function InviteForm() {
                 style={{ textAlign: 'right' }}
               >
                 To see Fr. Kenny's past teaching topics, see{' '}
-                <Link
-                  to="/cv/#speaking-topics"
+                <a
+                  href="/cv/#speaking-topics"
                   style={{ display: 'inline-block' }}
                   target="_blank"
                 >
                   Curriculum Vitae
-                </Link>
+                </a>
                 .
               </p>
             </div>
