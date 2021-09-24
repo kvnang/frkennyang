@@ -18,10 +18,12 @@ export default async function handler(req, res) {
     res.status(400).json({});
   }
 
-  const { 'form-name': formName, ...data } = req.body;
+  const { 'form-name': formName, ...allData } = req.body;
 
-  if (!formName) {
-    res.status(400).json(`form-name is not provided`);
+  const { title, ...data } = allData; // title is honeypot on both forms
+
+  if (!formName || data.title) {
+    res.status(400).json(`Sorry ... beep bop ... this email cannot be sent.`);
   }
 
   // Log to Google Sheet
