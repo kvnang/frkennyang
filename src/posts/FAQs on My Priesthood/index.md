@@ -65,19 +65,21 @@ They are similar insofar as they are priests, yet—in many other ways—**they 
 
 ## 7. What promises do diocesan priests have to make?
 
+![bishop catholic Vincent Sutikno Wisaksono](sutikno.jpg '#float=right;title=H.E. Vincentius Sutikno, Bishop of Surabaya')
+
 Diocesan priests made three promises on the day of their [diaconal ordination](https://www.newadvent.org/cathen/04647c.htm). They promised
 
 - to live as [celibates](https://www.newadvent.org/cathen/03481a.htm) for the sake of the kingdom of heaven;
 - to celebrate the [Liturgy of the Hours](https://www.usccb.org/prayer-and-worship/liturgy-of-the-hours) (also known as the Breviary or the [Divine Office](https://www.newadvent.org/cathen/11219a.htm)) for God’s people and for the entire world; and
 - to obey their bishop and his successors.
 
-![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg 'Photo courtesy of St. Yakobus (Surabaya)')
-
 ## 8. As a priest, what do you do all day?
 
 I am currently pursuing a [licentiate degree](<https://en.wikipedia.org/wiki/Licentiate_(degree)#Theology,_canon_law,_history,_and_cultural_patrimony>) in Dogmatic Theology at the [Pontifical University of the Holy Cross](https://en.pusc.it/) in Rome. Even though I spend most of my time studying, **the most important thing in my day is the celebration of the [Holy Mass](https://www.catholic.com/magazine/print-edition/why-go-to-mass)**. Then, I dedicate a good amount of time to reciting the Liturgy of the Hours, doing my [mental prayers](https://onepeterfive.com/a-beginners-guide-to-mental-prayer/), and reading [spiritual books](https://www.delibris.org/en/node/210359). In addition, I hear confessions and give homilies occasionally.
 
 To see my typical day when I worked at a parish in 2019–2020, check out [this video](https://youtu.be/G1JPX-rMBBU).
+
+![elevation of host during holy mass eucharist](ang_first_mass_12b.jpg 'Photo courtesy of St. Yakobus (Surabaya)')
 
 ## 9. Why do you wear peculiar clothing?
 
