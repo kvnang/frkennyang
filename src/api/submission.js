@@ -53,20 +53,17 @@ const spreadsheetId = process.env.GOOGLE_SPREADSHEET_ID;
 export default async function handler(req, res) {
   const { body } = req;
 
-  console.log(body);
-
   if (!body) {
     // res.status(400).json({});
     res.status(200).json({ test: true });
   }
 
-  const { id, form_name: formName, data, created_at: createdAt } = body;
+  const { form_name: formName, data, created_at: createdAt } = body;
 
   if (
     (data && !Object.keys(data).length) ||
     formName !== 'contact' ||
-    formName !== 'invite' ||
-    !id
+    formName !== 'invite'
   ) {
     res.status(400).json({});
   }
@@ -120,9 +117,6 @@ export default async function handler(req, res) {
       ],
     ];
   }
-
-  console.log(values);
-  console.log(`${formName}!A:B`);
 
   const response = await client.spreadsheets.values.append({
     auth, // auth object
