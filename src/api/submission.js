@@ -62,7 +62,7 @@ export default async function handler(req, res) {
   const { id, form_name: formName, data, created_at: createdAt } = body;
 
   if (
-    !Object.keys(data).length ||
+    (data && !Object.keys(data).length) ||
     formName !== 'contact' ||
     formName !== 'invite' ||
     !id
