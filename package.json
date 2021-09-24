@@ -41,6 +41,7 @@
     "gatsby-transformer-sharp": "^3.13.0",
     "get-youtube-id": "^1.0.1",
     "mailgun-js": "^0.22.0",
+    "mjml": "^4.10.3",
     "node-fetch": "^2.6.1",
     "normalize.css": "^8.0.1",
     "postcss": "^8.3.6",
