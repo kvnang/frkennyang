@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { SubmitHandler, useForm } from 'react-hook-form';
 // import DatePicker from 'react-datepicker';
 // import DayPickerInput from 'react-day-picker/DayPickerInput';
-// import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
 import { SnackbarContext } from './SnackbarContext';
 import { breakpoints } from '../styles/breakpoints';
@@ -19,6 +18,7 @@ interface Inputs {
   alternateDate?: string;
   startTime: string;
   endTime: string;
+  timeZone: string;
   organization: string;
   contactName: string;
   email: string;
@@ -42,12 +42,15 @@ interface Inputs {
   title?: string; // Honeypot
 }
 
+const defaultTimeZone = 'Europe/Rome';
+
 const defaultValues = {
   'form-name': 'invite',
   date: '',
   alternateDate: '',
   startTime: '',
   endTime: '',
+  timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone || defaultTimeZone,
   organization: '',
   contactName: '',
   email: '',
@@ -164,12 +167,6 @@ export default function InviteForm() {
   const yyyy = minDate.getFullYear();
   const minDateYMD = `${yyyy}-${mm}-${dd}`;
 
-  // Timezones
-  const defaultTimeZone = 'Europe/Rome';
-  // const { timeZone } = Intl.DateTimeFormat().resolvedOptions();
-  const [timeZone, setTimeZone] = useState<string>(
-    Intl.DateTimeFormat().resolvedOptions().timeZone || defaultTimeZone
-  );
   // React hook form
   const [loading, setLoading] = useState(false);
   const {
@@ -188,6 +185,7 @@ export default function InviteForm() {
   });
 
   const eventLocation = watch('eventLocation');
+  const selectedTimeZone = watch('timeZone');
 
   // Set or Unset form message
   function handleResponse(response: Response) {
@@ -260,21 +258,21 @@ export default function InviteForm() {
 
     const convertedData = {
       ...data,
-      date: `${convertedStartTime.getFullYear()}-${padStart(
+      localDate: `${convertedStartTime.getFullYear()}-${padStart(
         convertedStartTime.getMonth() + 1
       )}-${padStart(convertedStartTime.getDate())}`,
-      alternateDate: convertedAltDate
+      localAlternateDate: convertedAltDate
         ? `${convertedAltDate.getFullYear()}-${padStart(
             convertedAltDate.getMonth() + 1
           )}-${padStart(convertedAltDate.getDate())}`
         : '',
-      startTime: `${padStart(convertedStartTime.getHours())}:${padStart(
+      localStartTime: `${padStart(convertedStartTime.getHours())}:${padStart(
         convertedStartTime.getMinutes()
       )}`,
-      endTime: `${padStart(convertedEndTime.getHours())}:${padStart(
+      localEndTime: `${padStart(convertedEndTime.getHours())}:${padStart(
         convertedEndTime.getMinutes()
       )}`,
-      timeZone: defaultTimeZone,
+      localTimeZone: defaultTimeZone,
     };
 
     const endpoint = `/api/submit`;
@@ -395,17 +393,14 @@ export default function InviteForm() {
                 Date & Time are shown in{' '}
                 <TimeZoneSelectStyles className="select-wrapper">
                   <select
-                    name="timezone"
-                    id="timezone"
-                    defaultValue={timeZone}
-                    value={timeZone}
-                    onChange={(e) => setTimeZone(e.currentTarget.value)}
+                    id="timeZone"
+                    {...register('timeZone', { required: true })}
                   >
                     {timeZones.map((tz) => (
                       <option value={tz}>{formatTZ(tz)}</option>
                     ))}
                   </select>
-                  <span>{formatTZ(timeZone)}</span>
+                  <span>{formatTZ(selectedTimeZone)}</span>
                 </TimeZoneSelectStyles>{' '}
                 timezone.
               </p>
