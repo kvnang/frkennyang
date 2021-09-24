@@ -32,7 +32,8 @@ interface Inputs {
   addressZip: string;
   addressCountry: string;
   airport: string;
-  attendance: number;
+  attendance: string;
+  age: string;
   diocese: string;
   topic: string;
   eventType: string;
@@ -65,6 +66,7 @@ const defaultValues = {
   addressCountry: 'Indonesia',
   airport: '',
   attendance: '',
+  age: '',
   diocese: '',
   topic: '',
   eventType: '',
@@ -706,13 +708,35 @@ export default function InviteForm() {
                     {...register('attendance', { required: true })}
                   >
                     <option value="">Select range</option>
+                    <option value="1–20">1–20</option>
+                    <option value="21–50">21–50</option>
+                    <option value="51–100">51–100</option>
+                    <option value="101–300">101–300</option>
+                    <option value="301–500">301–500</option>
+                    <option value="501–1000">501–1000</option>
+                    <option value="> 1000">&gt; 1000</option>
+                  </select>
+                </div>
+              </label>
+            </div>
+            <div className="form-field half">
+              <label htmlFor="age">
+                <span>Average Age of Participants *</span>
+                <div className="select-wrapper">
+                  <select
+                    id="age"
+                    required
+                    aria-invalid={!!errors.age}
+                    {...register('age', { required: true })}
+                  >
+                    <option value="">Select range</option>
                     <option value="1-12">1-12</option>
                     <option value="13-18">13-18</option>
                     <option value="19-22">19-22</option>
                     <option value="23-30">23-30</option>
                     <option value="31-50">31-50</option>
                     <option value="51-70">51-70</option>
-                    <option value=">70">&gt;70</option>
+                    <option value="> 70">&gt; 70</option>
                   </select>
                 </div>
               </label>
@@ -730,7 +754,7 @@ export default function InviteForm() {
                 />
               </label>
             </div>
-
+            <div className="form-field" />
             <div className="form-field">
               <label htmlFor="topic">
                 <span>Topic Requested *</span>
