@@ -65,7 +65,7 @@ They are similar insofar as they are priests, yet—in many other ways—**they 
 
 ## 7. What promises do diocesan priests have to make?
 
-![bishop catholic Vincent Sutikno Wisaksono](sutikno.jpg '#float=right;title=H.E. Vincentius Sutikno, Bishop of Surabaya')
+![bishop catholic Vincent Sutikno Wisaksono](sutikno.jpg '#float=right;title=H.E. Vincentius Sutikno, Bishop of Surabaya. Photo courtesy of the Diocese of Surabaya')
 
 Diocesan priests made three promises on the day of their [diaconal ordination](https://www.newadvent.org/cathen/04647c.htm). They promised
 
