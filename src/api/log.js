@@ -115,6 +115,7 @@ export default async function handler(req, res) {
         data.addressCountry,
         data.airport,
         data.attendance,
+        data.age,
         data.diocese,
         data.topic,
         data.eventType,
