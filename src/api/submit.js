@@ -44,8 +44,9 @@ export default async function handler(req, res) {
   <mjml>
     <mj-head>
       <mj-attributes>
-        <mj-section background-color="#f5f2ed" />
+        <mj-section background-color="#3f3f3f" />
         <mj-all font-family="Helvetica" />
+        <mj-all color="#fff" />
       </mj-attributes>
       <mj-style inline="inline">
         h1 {
@@ -71,7 +72,7 @@ export default async function handler(req, res) {
         }
       </mj-style>
     </mj-head>
-    <mj-body>
+    <mj-body background-color="#2f2f2f">
       <mj-section padding-bottom="0">
         <mj-column>
           <mj-image src="https://www.fatherkenny.com/logo.png" width="200px" align="left" alt="Fr. Kenny Ang"></mj-image>
@@ -89,7 +90,7 @@ export default async function handler(req, res) {
       <mj-section>
         <mj-column width="100%">
         <mj-table css-class="table">
-            <tr style="border-bottom:1px solid #ecedee;text-align:left;">
+            <tr style="border-bottom:1px solid #a9a9a9;text-align:left;">
               <th>Field</th>
               <th>Value</th>
             </tr>
