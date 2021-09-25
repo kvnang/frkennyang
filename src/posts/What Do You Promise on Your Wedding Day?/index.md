@@ -38,7 +38,7 @@ This is a robust assertion of one’s freedom: I am the one making the decision.
   </div>
   <div class="book__text">
     <h4>
-      <a target="_blank" href="https://www.amazon.com/gp/product/0933932871/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0933932871&linkCode=as2&tag=happiness052f-20&linkId=7d6bbcfbb8ce1816aab504ce7feef4a5">Three To Get Married (Catholic Insight)</a>
+      <a target="_blank" href="https://www.amazon.com/gp/product/0933932871/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0933932871&linkCode=as2&tag=happiness052f-20&linkId=7d6bbcfbb8ce1816aab504ce7feef4a5">Three To Get Married</a>
     </h4>
     <h5>Fulton J. Sheen</h5>
     <p>Centering on the essence of love and its implications for marriage, this book is an edifying read for engaged couples, married couples, marriage counselors, and priests alike.</p>
