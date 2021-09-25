@@ -1,6 +1,7 @@
 import { GatsbyFunctionRequest, GatsbyFunctionResponse } from 'gatsby';
 import mailgun from 'mailgun-js';
 import fetch, { Response } from 'node-fetch';
+import { zonedTimeToUtc, utcToZonedTime, format } from 'date-fns-tz';
 
 interface MJMLResponseBodyProps {
   errors?: string[];
@@ -45,10 +46,76 @@ export default async function handler(
     domain: mailgunDomain,
   });
 
-  const { 'form-name': formName, title, ...data } = req.body; // title is honeypot on both forms
+  const { 'form-name': formName, title, ...rawData } = req.body; // title is honeypot on both forms
 
   if (!formName || title) {
     res.status(400).send(`Sorry ... beep bop ... this email cannot be sent.`);
+    return;
+  }
+
+  // format dates
+
+  const localTimeZone = 'Europe/Rome';
+  let data: { [key: string]: any } = {};
+
+  if (
+    rawData.date &&
+    rawData.startTime &&
+    rawData.endTime &&
+    rawData.timeZone
+  ) {
+    const utcStartDate = zonedTimeToUtc(
+      `${rawData.date} ${rawData.startTime}`,
+      rawData.timeZone
+    );
+    const utcEndDate = zonedTimeToUtc(
+      `${rawData.date} ${rawData.endTime}`,
+      rawData.timeZone
+    );
+    const localStartDateUTC = utcToZonedTime(utcStartDate, localTimeZone);
+    const localEndDateUTC = utcToZonedTime(utcEndDate, localTimeZone);
+
+    const localDate = format(localStartDateUTC, 'yyyy-MM-dd', {
+      timeZone: localTimeZone,
+    });
+    const localStartTime = format(localStartDateUTC, 'HH:mm', {
+      timeZone: localTimeZone,
+    });
+    const localEndTime = format(localEndDateUTC, 'HH:mm', {
+      timeZone: localTimeZone,
+    });
+
+    let localAlternateDate = '';
+
+    if (rawData.alternateDate) {
+      const utcAlternateDate = zonedTimeToUtc(
+        `${rawData.alternateDate} ${rawData.startTime}`,
+        rawData.timeZone
+      );
+      const localAlternateDateUTC = utcToZonedTime(
+        utcAlternateDate,
+        localTimeZone
+      );
+
+      localAlternateDate = format(localAlternateDateUTC, 'yyyy-MM-dd', {
+        timeZone: localTimeZone,
+      });
+    }
+
+    data = {
+      ...rawData,
+      localDate,
+      localAlternateDate,
+      localStartTime,
+      localEndTime,
+      localTimeZone,
+    };
+  } else {
+    data = rawData;
+  }
+
+  if (!data || !Object.keys(data).length) {
+    res.status(400).send(`No data to be sent`);
     return;
   }
 
