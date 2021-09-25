@@ -1,5 +1,5 @@
 # Invite Fr. Kenny to Speak
-
+![father kenny ang chatting with parishioners](ang_first_mass_19b.jpg '#float=right')
 As a priest, teaching is one of Fr. Kenny’s primary missions. Thank you for considering inviting him to speak at your event. Before filling out and submitting the form below, please read the following information.
 
 - **Can Fr. Kenny speak at our event?**<br />
