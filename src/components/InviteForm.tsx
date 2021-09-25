@@ -139,22 +139,8 @@ const TimeZoneSelectStyles = styled.label`
   }
 `;
 
-function convertTZ(date: Date | string, tzString: string) {
-  return new Date(
-    (typeof date === 'string' ? new Date(date) : date).toLocaleString('en-US', {
-      timeZone: tzString,
-    })
-  );
-}
-
 function formatTZ(str: string) {
   return str.replace(/_/g, ' ').replace(/\//g, ' / ');
-}
-
-function padStart(num: number, size: number = 2) {
-  let str = num.toString();
-  while (str.length < size) str = `0${str}`;
-  return str;
 }
 
 export default function InviteForm() {
@@ -243,46 +229,13 @@ export default function InviteForm() {
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     setLoading(true);
 
-    const { date, alternateDate, startTime, endTime } = data;
-
-    const convertedStartTime = convertTZ(
-      new Date(`${date}T${startTime}:00`),
-      defaultTimeZone
-    );
-    const convertedEndTime = convertTZ(
-      new Date(`${date}T${endTime}:00`),
-      defaultTimeZone
-    );
-    const convertedAltDate = alternateDate
-      ? convertTZ(new Date(`${alternateDate}T${startTime}:00`), defaultTimeZone)
-      : '';
-
-    const convertedData = {
-      ...data,
-      localDate: `${convertedStartTime.getFullYear()}-${padStart(
-        convertedStartTime.getMonth() + 1
-      )}-${padStart(convertedStartTime.getDate())}`,
-      localAlternateDate: convertedAltDate
-        ? `${convertedAltDate.getFullYear()}-${padStart(
-            convertedAltDate.getMonth() + 1
-          )}-${padStart(convertedAltDate.getDate())}`
-        : '',
-      localStartTime: `${padStart(convertedStartTime.getHours())}:${padStart(
-        convertedStartTime.getMinutes()
-      )}`,
-      localEndTime: `${padStart(convertedEndTime.getHours())}:${padStart(
-        convertedEndTime.getMinutes()
-      )}`,
-      localTimeZone: defaultTimeZone,
-    };
-
     const endpoint = `/api/submit`;
 
     fetch(endpoint, {
       method: 'POST',
       // headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(convertedData),
+      body: JSON.stringify(data),
     })
       .then((response) => handleResponse(response))
       .catch((error) => console.error(error))
