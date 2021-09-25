@@ -29,3 +29,14 @@ export function formatDate(
       : ({ year: 'numeric', month: 'short', day: 'numeric' } as const);
   return dateObject.toLocaleDateString(locale, options);
 }
+
+export function getMinDate(daysFromToday: number) {
+  const minDate = new Date(
+    new Date().getTime() + daysFromToday * 24 * 60 * 60 * 1000
+  );
+  const dd = String(minDate.getDate()).padStart(2, '0');
+  const mm = String(minDate.getMonth() + 1).padStart(2, '0'); // January is 0!
+  const yyyy = minDate.getFullYear();
+  const minDateYMD = `${yyyy}-${mm}-${dd}`;
+  return minDateYMD;
+}
