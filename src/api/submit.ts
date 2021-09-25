@@ -55,6 +55,11 @@ export default async function handler(
 
   // format dates
 
+  if (!rawData || !Object.keys(rawData).length) {
+    res.status(400).send(`No data to be sent`);
+    return;
+  }
+
   const localTimeZone = 'Europe/Rome';
   let data: { [key: string]: any } = {};
 
@@ -112,11 +117,6 @@ export default async function handler(
     };
   } else {
     data = rawData;
-  }
-
-  if (!data || !Object.keys(data).length) {
-    res.status(400).send(`No data to be sent`);
-    return;
   }
 
   // Log to Google Sheet
