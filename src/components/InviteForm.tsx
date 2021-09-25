@@ -148,20 +148,10 @@ function validateDate(value: string) {
   const date = new Date(`${value}T00:00:00`);
   return todayDate.getTime() < date.getTime()
     ? true
-    : 'Please select a date after today';
+    : 'Please select a future date';
 }
 
 export default function InviteForm() {
-  // Get min dates
-  const daysFromToday = 0;
-  const minDate = new Date(
-    new Date().getTime() + daysFromToday * 24 * 60 * 60 * 1000
-  );
-  const dd = String(minDate.getDate()).padStart(2, '0');
-  const mm = String(minDate.getMonth() + 1).padStart(2, '0'); // January is 0!
-  const yyyy = minDate.getFullYear();
-  const minDateYMD = `${yyyy}-${mm}-${dd}`;
-
   // React hook form
   const [loading, setLoading] = useState(false);
   const {
@@ -200,40 +190,6 @@ export default function InviteForm() {
     }
   }
 
-  // Netlify Forms Functions
-
-  // Encode data
-
-  // IF the form does NOT contain File upload
-  // function encode(data: Inputs) {
-  //   function encodeObject(
-  //     object: { [key: string]: any },
-  //     parentKey: string
-  //   ): string {
-  //     return Object.keys(object)
-  //       .map((key) => {
-  //         if (object[key] && typeof object[key] === 'object') {
-  //           return encodeObject(data[key], `${parentKey}[${key}]`);
-  //         }
-  //         return `${`${encodeURIComponent(parentKey)}[${encodeURIComponent(
-  //           key
-  //         )}]`}=${encodeURIComponent(object[key] || '')}`;
-  //       })
-  //       .join('&');
-  //   }
-
-  //   return Object.keys(data)
-  //     .map((key) => {
-  //       if (data[key] && typeof data[key] === 'object') {
-  //         return encodeObject(data[key], key);
-  //       }
-  //       return `${encodeURIComponent(key)}=${encodeURIComponent(
-  //         data[key] || ''
-  //       )}`;
-  //     })
-  //     .join('&');
-  // }
-
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     setLoading(true);
 
@@ -269,8 +225,6 @@ export default function InviteForm() {
     return true;
   };
 
-  console.log(errors);
-
   return (
     <FormStyles>
       {(formMessage.open && formMessage.status === 'success' && (
@@ -304,7 +258,7 @@ export default function InviteForm() {
                 <input
                   type="date"
                   id="date"
-                  min={minDateYMD}
+                  // min={minDateYMD}
                   required
                   aria-invalid={!!errors.date}
                   {...register('date', {
@@ -327,7 +281,7 @@ export default function InviteForm() {
                 <input
                   type="date"
                   id="alternate-date"
-                  min={minDateYMD}
+                  // min={minDateYMD}
                   aria-invalid={!!errors.alternateDate}
                   {...register('alternateDate', {
                     validate: {
@@ -430,6 +384,8 @@ export default function InviteForm() {
                   type="email"
                   id="email"
                   placeholder="email@example.com"
+                  autoComplete="email"
+                  required
                   aria-invalid={!!errors.email}
                   {...register('email', { required: true })}
                 />
@@ -443,6 +399,7 @@ export default function InviteForm() {
                   id="phone"
                   placeholder="000-000-0000"
                   autoComplete="tel"
+                  required
                   aria-invalid={!!errors.phone}
                   {...register('phone', { required: true })}
                 />
@@ -460,11 +417,10 @@ export default function InviteForm() {
                   Type of Event
                 </legend>
                 <div className="radio-group__radio">
-                  {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                  <label>
+                  <label htmlFor="event-location-online">
                     <input
                       type="radio"
-                      id="event-location"
+                      id="event-location-online"
                       value="online"
                       required
                       {...register('eventLocation', {
@@ -473,11 +429,10 @@ export default function InviteForm() {
                     />
                     <span>Online Event</span>
                   </label>
-                  {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                  <label>
+                  <label htmlFor="event-location-in-person">
                     <input
                       type="radio"
-                      id="event-location"
+                      id="event-location-in-person"
                       value="in-person"
                       required
                       {...register('eventLocation', {
@@ -539,6 +494,7 @@ export default function InviteForm() {
                   type="text"
                   id="venue-address-street"
                   placeholder="Street *"
+                  required
                   aria-invalid={!!errors.addressStreet}
                   {...register('addressStreet', {
                     validate: {
@@ -579,6 +535,7 @@ export default function InviteForm() {
                   type="text"
                   id="venue-address-city"
                   placeholder="City *"
+                  required
                   aria-invalid={!!errors.addressCity}
                   {...register('addressCity')}
                 />
@@ -596,6 +553,7 @@ export default function InviteForm() {
                   type="text"
                   id="venue-address-state"
                   placeholder="State / Province *"
+                  required
                   aria-invalid={!!errors.addressState}
                   {...register('addressState', {
                     validate: {
@@ -617,6 +575,7 @@ export default function InviteForm() {
                   type="text"
                   id="venue-address-zip"
                   placeholder="ZIP / Postal Code *"
+                  required
                   aria-invalid={!!errors.addressZip}
                   {...register('addressZip', {
                     validate: {
@@ -632,13 +591,12 @@ export default function InviteForm() {
                 display: eventLocation === 'online' ? 'none' : '',
               }}
             >
-              {/* Using htmlFor for some reason causes Netlify to not recognize the "State" label, which makes it messy */}
-              {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-              <label>
+              <label htmlFor="venue-address-country">
                 <span className="visually-hidden">Venue Country</span>
                 <div className="select-wrapper">
                   <select
-                    // id="venue-address-country"
+                    id="venue-address-country"
+                    required
                     aria-invalid={!!errors.addressCountry}
                     {...register('addressCountry', {
                       validate: {
@@ -669,6 +627,7 @@ export default function InviteForm() {
                   type="text"
                   id="venue-address-airport"
                   placeholder="Nearest Major Airport *"
+                  required
                   aria-invalid={!!errors.airport}
                   {...register('airport', {
                     validate: {
@@ -678,7 +637,12 @@ export default function InviteForm() {
                 />
               </label>
             </div>
-            <div className="form-field" />
+            <div
+              className="form-field"
+              style={{
+                display: eventLocation === 'online' ? 'none' : '',
+              }}
+            />
             <div className="form-field half">
               <label htmlFor="attendance">
                 <span>Expected Attendance (Persons) *</span>
@@ -689,7 +653,9 @@ export default function InviteForm() {
                     aria-invalid={!!errors.attendance}
                     {...register('attendance', { required: true })}
                   >
-                    <option value="">Select range</option>
+                    <option value="" selected disabled>
+                      Select range
+                    </option>
                     <option value="1–20">1–20</option>
                     <option value="21–50">21–50</option>
                     <option value="51–100">51–100</option>
@@ -711,7 +677,9 @@ export default function InviteForm() {
                     aria-invalid={!!errors.age}
                     {...register('age', { required: true })}
                   >
-                    <option value="">Select range</option>
+                    <option value="" selected disabled>
+                      Select range
+                    </option>
                     <option value="1-12">1-12</option>
                     <option value="13-18">13-18</option>
                     <option value="19-22">19-22</option>
@@ -764,13 +732,11 @@ export default function InviteForm() {
               </p>
             </div>
             <div className="form-field half">
-              {/* Using htmlFor for some reason causes Netlify to not recognize the "State" label, which makes it messy */}
-              {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-              <label>
+              <label htmlFor="event-type">
                 <span>Event Type *</span>
                 <div className="select-wrapper">
                   <select
-                    // id="event-type"
+                    id="event-type"
                     required
                     aria-invalid={!!errors.eventType}
                     {...register('eventType', { required: true })}
@@ -802,24 +768,24 @@ export default function InviteForm() {
                   Has Fr. Kenny spoken at your event/parish before?
                 </legend>
                 <div className="radio-group__radio">
-                  {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                  <label>
+                  <label htmlFor="has-spoken-before-yes">
                     <input
                       type="radio"
-                      id="has-spoken-before"
+                      id="has-spoken-before-yes"
                       value="yes"
+                      required
                       {...register('hasSpokenBefore', {
                         required: true,
                       })}
                     />
                     <span>Yes</span>
                   </label>
-                  {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                  <label>
+                  <label htmlFor="has-spoken-before-no">
                     <input
                       type="radio"
-                      id="has-spoken-before"
+                      id="has-spoken-before-no"
                       value="no"
+                      required
                       {...register('hasSpokenBefore', {
                         required: true,
                       })}
