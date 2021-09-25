@@ -246,15 +246,15 @@ export default function InviteForm() {
     const { date, alternateDate, startTime, endTime } = data;
 
     const convertedStartTime = convertTZ(
-      new Date(`${date} ${startTime}`),
+      new Date(`${date}T${startTime}:00`),
       defaultTimeZone
     );
     const convertedEndTime = convertTZ(
-      new Date(`${date} ${endTime}`),
+      new Date(`${date}T${endTime}:00`),
       defaultTimeZone
     );
     const convertedAltDate = alternateDate
-      ? convertTZ(new Date(`${alternateDate} ${startTime}`), defaultTimeZone)
+      ? convertTZ(new Date(`${alternateDate}T${startTime}:00`), defaultTimeZone)
       : '';
 
     const convertedData = {
@@ -314,8 +314,8 @@ export default function InviteForm() {
         <div>
           <h2 className="h3">Thank You!</h2>
           <p>
-            Your invitation has been sent. I will get back to you as soon as
-            possible.
+            Your invitation has been sent. Fr. Kenny will get back to you as
+            soon as possible.
           </p>
         </div>
       )) || (
