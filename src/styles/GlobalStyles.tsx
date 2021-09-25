@@ -391,6 +391,13 @@ const GlobalStyles = styled.createGlobalStyle`
     }
   }
 
+  .form-error {
+    color: var(--color-error);
+    text-align: right;
+    font-size: var(--font-size-small);
+    margin-top: 0.25em;
+  }
+
   .form-description {
     a {
       ${inlineLink()};

@@ -143,6 +143,14 @@ function formatTZ(str: string) {
   return str.replace(/_/g, ' ').replace(/\//g, ' / ');
 }
 
+function validateDate(value: string) {
+  const todayDate = new Date();
+  const date = new Date(`${value}T00:00:00`);
+  return todayDate.getTime() < date.getTime()
+    ? true
+    : 'Please select a date after today';
+}
+
 export default function InviteForm() {
   // Get min dates
   const daysFromToday = 0;
@@ -261,6 +269,8 @@ export default function InviteForm() {
     return true;
   };
 
+  console.log(errors);
+
   return (
     <FormStyles>
       {(formMessage.open && formMessage.status === 'success' && (
@@ -293,12 +303,22 @@ export default function InviteForm() {
                 <span>Date *</span>
                 <input
                   type="date"
-                  id="alternate-date"
+                  id="date"
                   min={minDateYMD}
                   required
                   aria-invalid={!!errors.date}
-                  {...register('date', { required: true })}
+                  {...register('date', {
+                    required: true,
+                    validate: {
+                      minDate: (value) => validateDate(value),
+                    },
+                  })}
                 />
+                {errors?.date?.type === 'minDate' && (
+                  <p className="form-error" role="alert">
+                    {errors.date.message}
+                  </p>
+                )}
               </label>
             </div>
             <div className="form-field half">
@@ -308,10 +328,19 @@ export default function InviteForm() {
                   type="date"
                   id="alternate-date"
                   min={minDateYMD}
-                  aria-invalid={!!errors.date}
-                  {...register('alternateDate')}
+                  aria-invalid={!!errors.alternateDate}
+                  {...register('alternateDate', {
+                    validate: {
+                      minDate: (value) => validateDate(value),
+                    },
+                  })}
                 />
               </label>
+              {errors?.alternateDate?.type === 'minDate' && (
+                <p className="form-error" role="alert">
+                  {errors.alternateDate.message}
+                </p>
+              )}
             </div>
             <div className="form-field half">
               <label htmlFor="start-time">
