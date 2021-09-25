@@ -1,15 +1,17 @@
 # About Fr. Kenny
 
-Fr. Kenny Ang is a Catholic priest of the Diocese of Surabaya. Raised in Jakarta, he has lived in Indonesia, the United States, Spain, and Italy. He first sensed his priestly vocation as he was mesmerized by the beauty of Catholic faith expressed in the [_Catechism of the Catholic Church_](https://www.usccb.org/sites/default/files/flipbooks/catechism/).
+I love [peach gum](https://guide.michelin.com/sg/en/article/wellness/the-asian-secret-to-beautiful-skin-peach-gum). Sometimes huge crowds unsettle me. Yes, exactly: I hate noise. I always try to learn new things. Please don’t invite me to hike mountains, though. Why would a person ascend a mountain only to find herself having to climb it down (which is the worst part)? But that’s just me. By the way, I enjoy traveling with my parents, brother, sister-in-law, and relatives.
 
-Since his diaconal ordination in 2018, he has been [invited to speak](/invite/) to numerous groups and institutions in Indonesia, Singapore, and the United States. By helping you know and love your faith more deeply, he dreams of bringing you closer to God—your ultimate source of happiness.
+I’m a Catholic priest of the Diocese of Surabaya. Raised in [Jakarta](https://www.indonesia.travel/id/en/destinations/java/dki-jakarta), I’ve lived in Indonesia, the United States, Spain, and Italy. I first sensed my priestly vocation as I was mesmerized by the beauty of Catholic faith expressed in the [*Catechism of the Catholic Church*](https://www.usccb.org/sites/default/files/flipbooks/catechism/).
 
-A polyglot, an [organist](https://www.youtube.com/watch?v=hygsiL9X_BY), and an avid photographer, Fr. Kenny is currently based in Rome, where he works on a thesis on St. Thomas Aquinas' doctrine of creation.
+I love teaching. It helps me a lot. If I didn’t have to teach, perhaps I wouldn’t study as hard. Since my diaconal ordination in 2018, I’ve had the privilege of speaking to numerous groups from Indonesia, Singapore, and the United States. By helping you know and love your faith more deeply, I dream of bringing you closer to God—your ultimate source of happiness.
+
+On the side, I play [pipe organ](https://www.youtube.com/watch?v=hygsiL9X_BY) and take photos. I’m currently based in Rome, where I work on a thesis on [St. Thomas Aquinas](https://www.youtube.com/watch?v=iahnzFgpbtQ), “the wisest among the saints and the saintliest among the wise” (Cardinal Bessarion).
 
 ---
 
 ## About This Website
 
-After over a year on several social media platforms, Fr. Kenny realized that they could only do so much. Before long, he yearned for a home on the internet where he could express his thoughts more thoroughly in order to better proclaim Christ to his contemporaries.
+After over a year on several social media platforms, I realized that they could only do so much. Before long, I wished I had a home on the internet where I could express my thoughts more thoroughly in order to better proclaim Christ to my contemporaries.
 
 This is the exact purpose of this personal website. It was elegantly created in 2021 by Kevin Ang, who had developed websites and brandings for scores of institutions within the Catholic Church and beyond.
