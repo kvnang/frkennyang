@@ -38,10 +38,10 @@ Only when a school is conscious of being part of the Church can it be worthily c
     </div>
   </div>
   <div class="book__text">
-    <h5>
+    <h4>
       <a target="_blank" href="https://www.amazon.com/gp/product/1596983280/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1596983280&linkCode=as2&tag=happiness052f-20&linkId=9ef89ec02a182bc33bb4ba32408e9d09">How the Catholic Church Built Western Civilization</a>
-    </h5>
-    <h6>Thomas E. Woods</h6>
+    </h4>
+    <h5>Thomas E. Woods</h5>
     <p>If you want to know about the relationship between the Church and science, how the monks saved civilization, and how Catholic charities changed the world, you will enjoy this book.</p>
   </div>
 </div>
