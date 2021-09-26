@@ -144,6 +144,10 @@ function formatTZ(str: string) {
 }
 
 function validateDate(value: string) {
+  if (!value) {
+    return true;
+  }
+
   const todayDate = new Date();
   const date = new Date(`${value}T00:00:00`);
   return todayDate.getTime() < date.getTime()
