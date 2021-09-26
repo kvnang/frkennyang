@@ -157,6 +157,7 @@ export default async function handler(
         
         .table td, .table th {
           padding: 3px 5px;
+          vertical-align: top;
         }
 
         .table tr:not(:last-child) {
