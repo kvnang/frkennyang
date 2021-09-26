@@ -4,7 +4,7 @@ I love [peach gum](https://guide.michelin.com/sg/en/article/wellness/the-asian-s
 
 I’m a Catholic priest of the Diocese of Surabaya. Raised in [Jakarta](https://www.indonesia.travel/id/en/destinations/java/dki-jakarta), I’ve lived in Indonesia, the United States, Spain, and Italy. I first sensed my priestly vocation as I was mesmerized by the beauty of Catholic faith expressed in the [*Catechism of the Catholic Church*](https://www.usccb.org/sites/default/files/flipbooks/catechism/).
 
-I love teaching. It helps me a lot. If I didn’t have to teach, perhaps I wouldn’t study as hard. Since my diaconal ordination in 2018, I’ve had the privilege of [speaking to numerous groups](/cv/#speaking-topics) from Indonesia, Singapore, and the United States. By helping you know and love your faith more deeply, I dream of bringing you closer to God—your ultimate source of happiness.
+I love teaching. It helps me a lot. If I didn’t have to teach, perhaps I wouldn’t study as hard. Since my diaconal ordination in 2018, I’ve had the privilege of <a href="/cv/#speaking-topics" target="_blank">speaking to numerous groups</a> from Indonesia, Singapore, and the United States. By helping you know and love your faith more deeply, I dream of bringing you closer to God—your ultimate source of happiness.
 
 On the side, I play [pipe organ](https://www.youtube.com/watch?v=hygsiL9X_BY) and take photos. I’m currently based in Rome, where I work on a thesis on [St. Thomas Aquinas](https://www.youtube.com/watch?v=iahnzFgpbtQ), “the wisest among the saints and the saintliest among the wise” (Cardinal Bessarion).
 
