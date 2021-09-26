@@ -119,6 +119,10 @@ const HeroStyles = styled.section`
       margin-top: -5.5rem;
     }
 
+    @media (min-width: 540px) {
+      margin-top: -4.5rem;
+    }
+
     @media ${breakpoints.tablet} {
       margin-top: -22rem;
     }
