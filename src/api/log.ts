@@ -151,8 +151,24 @@ export default async function handler(
     },
   };
 
+  // Log to Kevin's db for record
+  const request2 = {
+    auth, // auth object
+    spreadsheetId: `1YMmY5v4opqH1ZXQPYvkAVrMmZTByzG2aaXdO7e9jShY`, // spreadsheet id
+    range: `${formName}!A:B`, // sheet name and range of cells
+    valueInputOption: 'USER_ENTERED', // The information will be passed according to what the usere passes in as date, number or text
+    resource: {
+      values,
+    },
+  };
+
   try {
+    // Log to Kenny's DB
     const response = (await client.spreadsheets.values.append(request)).data;
+
+    // Log to Kevin's DB
+    await client.spreadsheets.values.append(request2);
+
     res.status(200).json(response);
   } catch (err) {
     console.error(err);
