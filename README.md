@@ -204,3 +204,7 @@ Web Analytics are provided by Cloudflare. To view reports:
 2. Select your account (`Kenny Ang`)
 3. Click `Web Analytics` on the right hand sidebar.
 4. Click the site (`fatherkenny.com`) to view analytics.
+
+## Other Guides
+
+1. [Git Branches, Pull Requests, Preview URLs](https://share.vidyard.com/watch/ZfekysJoLBXtLUbgVniALh?)
