@@ -46,7 +46,7 @@ const Typography = styled.createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    &.is-mouse {
+    &:not(.is-keyboard) {
       *:focus {
         outline: none;
       }
