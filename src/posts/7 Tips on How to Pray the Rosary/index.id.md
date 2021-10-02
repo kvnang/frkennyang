@@ -9,13 +9,14 @@ category:
   - Prayer
 excerpt: Artikel ini membahas apa itu Rosario Maria dalam Gereja Katolik, sejarahnya, pentingnya, dan manfaat yang didapat darinya. Rosario selayaknya didoakan dengan motivasi yang murni, perhatian, permohonan, jeda, fleksibilitas, orang lain, dan ketekunan.
 ---
+
 Salah satu kenangan masa kecil yang masih saya ingat dengan jelas adalah kedatangan para tetangga ke rumah kami untuk berdoa Rosario bersama. Kami duduk melingkar. Setiap orang, secara bergiliran, mendapatkan kesempatan untuk mengucapkan Salam Maria. Pada waktu itu, saya belum menghafal doa ini; jadi, saya memegang lembar contekan kecil. Setelah kami selesai berdoa Rosario, orang tua saya menyajikan minuman serta makanan ringan dan kami pun mengobrol dengan santai.
 
 Saat itu, saya belum sadar bahwa Rosario yang saya pegang dengan tangan saya adalah senjata yang ampuh:
 
 > Seperti di masa lampau —seperti yang terjadi di [Lepanto](https://opwest.org/lepanto/)—, hari ini Rosario harus menjadi **senjata yang ampuh**, untuk menaklukkan musuh-musuh Gereja Roma yang Kudus dan musuh-musuh Negara kalian.
 >
-> —St. Josemaría Escrivá, [*Holy Rosary*](https://amzn.to/3AVG1Zu), Author's note
+> —St. Josemaría Escrivá, [_Holy Rosary_](https://amzn.to/3AVG1Zu), Author's note
 
 ![battle of lepanto ships letter 1571 Catholic](lepanto.jpg 'H. Letter, The Battle of Lepanto of 1571 (Wikimedia Commons)')
 
@@ -23,7 +24,7 @@ Dalam artikel ini, saya akan menjelaskan tujuh kiat untuk berdoa Rosario. Sebelu
 
 ## A. Apa itu Rosario?
 
-Rosario adalah “rumusan doa yang terdiri dari [dua puluh] dekade Salam Maria yang didahului oleh Bapa Kami. Sembari mendaraskan doa-doa tersebut, kita dengan khidmat merenungkan peristiwa-peristiwa penebusan kita.”[^1] Dalam bukunya [*The Secret of the Rosary*](https://amzn.to/3uBTDXP), [St. Louis-Marie Grignion De Montfort](https://www.newadvent.org/cathen/09384a.htm) menggambarkan Rosario sebagai **“perpaduan yang penuh berkat” antara doa mental dan doa vokal** (untuk mengetahui lebih jauh mengenai perbedaan antara doa mental dan doa vokal, [klik di sini](https://stpaulcenter.com/an-introduction-to-the-types-of-prayer/)).[^2] Di satu sisi, Rosario adalah **doa mental** karena ia merupakan sebuah perenungan atas peristiwa dan keutamaan Kristus dan Bunda Maria. Di sisi lain, Rosario adalah **doa vokal** karena ia terdiri dari lima Bapa Kami dan lima puluh Salam Maria.
+Rosario adalah “rumusan doa yang terdiri dari [dua puluh] dekade Salam Maria yang didahului oleh Bapa Kami. Sembari mendaraskan doa-doa tersebut, kita dengan khidmat merenungkan peristiwa-peristiwa penebusan kita.”[^1] Dalam bukunya [_The Secret of the Rosary_](https://amzn.to/3uBTDXP), [St. Louis-Marie Grignion De Montfort](https://www.newadvent.org/cathen/09384a.htm) menggambarkan Rosario sebagai **“perpaduan yang penuh berkat” antara doa mental dan doa vokal** (untuk mengetahui lebih jauh mengenai perbedaan antara doa mental dan doa vokal, [klik di sini](https://stpaulcenter.com/an-introduction-to-the-types-of-prayer/)).[^2] Di satu sisi, Rosario adalah **doa mental** karena ia merupakan sebuah perenungan atas peristiwa dan keutamaan Kristus dan Bunda Maria. Di sisi lain, Rosario adalah **doa vokal** karena ia terdiri dari lima Bapa Kami dan lima puluh Salam Maria.
 
 Kata 'Rosario' sendiri berarti '**Mahkota Mawar**.' Jadi, setiap kali kita berdoa Rosario dengan khidmat, kita menempatkan mahkota seratus lima puluh mawar di atas kepala Yesus dan Maria.
 
@@ -35,7 +36,7 @@ Rosario adalah “**doa pertama** dan **devosi pertama** umat beriman.”[^3] Un
 
 Pendarasan 150 Salam Maria dalam doa Rosario berakar pada [pembacaan 150 Mazmur](https://www.catholicculture.org/culture/library/view.cfm?id=4728). [Bentuk Rosario yang saat ini kita kenal](https://www.rosarycenter.org/homepage-2/rosary/the-rosary-st-dominic/) diterima oleh Gereja pada awal abad ke-13 melalui tangan [St. Dominikus dari Guzmán](https://www.britannica.com/biography/Saint-Dominic). Bunda Maria memberikannya kepadanya “sebagai sarana yang ampuh untuk mempertobatkan kaum [Albigensian](https://www.britannica.com/topic/Albigenses) dan para pendosa lainnya.”[^5]
 
-Rosario secara resmi diakui oleh Gereja melalui [Paus Sixtus IV](https://www.britannica.com/biography/Sixtus-IV) pada abad ke-15. Kemudian, Rosario disusun oleh Antonio Ghislieri (yang akhirnya menjadi [Paus St. Pius V]( https://www.britannica.com/biography/Saint-Pius-V)) dalam bentuk perenungan lima belas peristiwa. Pada tahun 2002, [Paus Yohanes Paulus II](https://www.britannica.com/biography/Saint-John-Paul-II) menambahkan lima peristiwa baru—peristiwa-peristiwa terang.
+Rosario secara resmi diakui oleh Gereja melalui [Paus Sixtus IV](https://www.britannica.com/biography/Sixtus-IV) pada abad ke-15. Kemudian, Rosario disusun oleh Antonio Ghislieri (yang akhirnya menjadi [Paus St. Pius V](https://www.britannica.com/biography/Saint-Pius-V)) dalam bentuk perenungan lima belas peristiwa. Pada tahun 2002, [Paus Yohanes Paulus II](https://www.britannica.com/biography/Saint-John-Paul-II) menambahkan lima peristiwa baru—peristiwa-peristiwa terang.
 
 <div class="book">
   <div class="book__img">
@@ -44,14 +45,13 @@ Rosario secara resmi diakui oleh Gereja melalui [Paus Sixtus IV](https://www.bri
     </div>
   </div>
   <div class="book__text">
-    <h5>
-      <a target="_blank" href="https://www.amazon.com/gp/product/1684221889/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1684221889&linkCode=as2&tag=happiness052f-20&linkId=c2aef0c4edb58c0b52ea2b7dca273349">The Secret of the Rosary</a>
-    </h5>
-    <h6>St. Louis De Monfort</h6>
+    <h4>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/gp/product/1684221889/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1684221889&linkCode=as2&tag=happiness052f-20&linkId=c2aef0c4edb58c0b52ea2b7dca273349">The Secret of the Rosary</a>
+    </h4>
+    <h5>St. Louis De Monfort</h5>
     <p>Karya klasik ini menjelaskan apa itu Rosario dan memberikan kepada kita kiat-kiat praktis untuk mendoakannya dengan baik. Jika Anda ingin bertumbuh dalam kasih Anda kepada Kristus dan Bunda Maria melalui pendarasan Rosario Suci, buku ini ditulis untuk Anda.</p>
   </div>
 </div>
-
 
 ## C. Seberapa penting Rosario?
 
@@ -80,16 +80,17 @@ Itulah sebabnya De Montfort menekankan keunggulan Rosario di antara semua devosi
 Kedua, [tak terhitung jumlah paus](https://udayton.edu/imri/mary/p/popes-on-the-rosary.php) yang telah mendorong kita untuk berdoa Rosario. Pastinya, Rosario dipromosikan oleh [semua paus abad ke-20](https://www.vaticannews.va/en/pope/news/2020-04/the-popes-and-the-rosary.html). Pada abad-abad sebelumnya, banyak juga paus yang telah melakukan hal yang sama. [Paus Leo XIII](https://www.britannica.com/biography/Leo-XIII), misalnya, menulis sebanyak [12 ensiklik dan 5 surat apostolik](https://udayton.edu/imri/mary/r/rosary-encyclicals-by-pope-leo-xiii.php) hanya mengenai doa Rosario!
 
 ### 3. Doa favorit para kudus
+
 ![Claudio Coello, Santo Domingo de Guzmán](dominic.jpg '#float=right;title=Coello, Santo Domingo de Guzmán (Wikimedia Commons)')
 Ketiga, Rosario adalah doa favorit orang-orang kudus yang tak terhitung jumlahnya. St. Dominikus sendiri
 
-> sangat yakin akan kemanjuran doa Rosario Suci dan akan nilainya yang besar sehingga, setiap kali ia mendengar pengakuan dosa, ia hampir tidak pernah memberikan penitensi lainnya.[^8] 
+> sangat yakin akan kemanjuran doa Rosario Suci dan akan nilainya yang besar sehingga, setiap kali ia mendengar pengakuan dosa, ia hampir tidak pernah memberikan penitensi lainnya.[^8]
 
 Untuk mengetahui lebih jauh tentang apa yang dikatakan para kudus mengenai devosi yang luar biasa ini, baca [artikel ini](https://www.ncregister.com/blog/why-mary-why-prayer-and-why-pray-the-rosary).
 
 ### 4. Pengubah dunia
 
-Keempat, Rosario mengubah dunia! Dalam surat ensikliknya [*Laetitiae Sanctae*](https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091893_laetitiae-sanctae.html) yang ditulis pada tahun 1893, Paus Leo XIII menegaskan bahwa “Rosario, jika didaraskan dengan khidmat, pasti akan bermanfaat bukan hanya bagi individu, tetapi juga bagi masyarakat secara luas.”[^9] Memang, Rosario adalah doa yang mampu mendatangkan perubahan!
+Keempat, Rosario mengubah dunia! Dalam surat ensikliknya [_Laetitiae Sanctae_](https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091893_laetitiae-sanctae.html) yang ditulis pada tahun 1893, Paus Leo XIII menegaskan bahwa “Rosario, jika didaraskan dengan khidmat, pasti akan bermanfaat bukan hanya bagi individu, tetapi juga bagi masyarakat secara luas.”[^9] Memang, Rosario adalah doa yang mampu mendatangkan perubahan!
 
 ## D. Manfaat apa yang saya terima lewat doa Rosario?
 
@@ -103,7 +104,7 @@ Rosario secara bertahap akan memberikan kepada kita pengetahuan yang sempurna ak
 >
 > Apakah kamu ingin mencintai Bunda Maria? Kenalilah dia. Bagaimana caranya? Dengan mendoakan Rosario dengan baik.
 >
-> —St. Josemaría, [*Holy Rosary*, Author's note](https://www.escrivaworks.org/book/-point-0.htm)
+> —St. Josemaría, [_Holy Rosary_, Author's note](https://www.escrivaworks.org/book/-point-0.htm)
 
 ### 2. Kemenangan atas semua musuh kita
 
@@ -111,7 +112,7 @@ Sebagai orang-orang kristiani, musuh terberat kita adalah Iblis, godaan, dan dos
 
 ### 3. Hidup dalam keutamaan
 
-Kita telah membaca di atas bahwa Rosario terdiri dari perenungan atas **peristiwa dan keutamaan Kristus dan Bunda Maria**. Tapi, apa itu *keutamaan*?
+Kita telah membaca di atas bahwa Rosario terdiri dari perenungan atas **peristiwa dan keutamaan Kristus dan Bunda Maria**. Tapi, apa itu _keutamaan_?
 
 Keutamaan adalah “kebiasaan dalam bertindak … kebiasaan baik yang menghasilkan karya-karya yang baik.”[^12] Dengan kata lain, keutamaan adalah kebiasaan baik yang menolong kita dalam melakukan apa yang baik (untuk mendalami apa itu keutamaan, baca [artikel ini](https://stpaulcenter.com/what-is-virtue/)). Tradisi dalam filsafat dan teologi kristiani mengenal [banyak jenis keutamaan](https://www.catholicculture.org/culture/library/catechism/index.cfm?recnum=5061). Misalnya, ada **empat keutamaan kardinal**: kebijaksanaan, keadilan, keberanian, dan penguasaan diri. Di sisi lain, **tiga keutamaan teologal**—yang hanya bisa diperoleh dari Allah—adalah iman, harapan, dan kasih. Masih ada banyak keutamaan lain yang terkait dengan tujuh keutamaan ini.
 
@@ -119,15 +120,15 @@ Ketika kita berdoa Rosario, kita merenungkan **keutamaan Tuhan Yesus dan Bunda M
 
 ![Karel Dujardin, The Annunciation Mary Gabriel](annunciation.jpg 'Dujardin, The Annunciation (Wikimedia Commons)')
 
-Sebuah pepatah kuno dalam bahasa Italia mengatakan: "*Una buona mamma vale cento maestre*"—"Seorang ibu yang baik lebih berharga dari seratus guru." Dalam doa Rosario, Yesus dan Maria tampil lebih jelas sebagai teladan kita. Itulah sebabnya Rosario adalah sarana yang efektif bagi kita untuk bertumbuh dalam keutamaan.
+Sebuah pepatah kuno dalam bahasa Italia mengatakan: "_Una buona mamma vale cento maestre_"—"Seorang ibu yang baik lebih berharga dari seratus guru." Dalam doa Rosario, Yesus dan Maria tampil lebih jelas sebagai teladan kita. Itulah sebabnya Rosario adalah sarana yang efektif bagi kita untuk bertumbuh dalam keutamaan.
 
 ### 4. Indulgensi
 
-Banyak umat Katolik belum menyadari adanya kemungkinan untuk mendapatkan indulgensi dengan berdoa Rosario (jika kamu belum paham sepenuhnya mengenai 'indulgensi,' silakan [klik di sini](https://www.catholic.com/tract/myths-about-indulgences)). Sekarang, setelah kamu tahu bahwa kamu bisa mendapatkan indulgensi dengan mendaraskan Rosario dan kamu mulai bersemangat, kamu mungkin bertanya: *bagaimana* saya bisa mendapatkannya?
+Banyak umat Katolik belum menyadari adanya kemungkinan untuk mendapatkan indulgensi dengan berdoa Rosario (jika kamu belum paham sepenuhnya mengenai 'indulgensi,' silakan [klik di sini](https://www.catholic.com/tract/myths-about-indulgences)). Sekarang, setelah kamu tahu bahwa kamu bisa mendapatkan indulgensi dengan mendaraskan Rosario dan kamu mulai bersemangat, kamu mungkin bertanya: _bagaimana_ saya bisa mendapatkannya?
 
 Mari kita mulai dengan mengingat bahwa indulgensi dapat bersifat **sebagian** atau **penuh**. Perbedaan di antara keduanya cukup sederhana. Indulgensi bersifat penuh jika ia **sepenuhnya** membebaskan kita dari hukuman sementara akibat dosa. Sebaliknya, indulgensi bersifat sebagian jika ia membebaskan kita **hanya dari sebagian hukuman sementara** akibat dosa.[^13]
 
-Perihal perolehan indulgensi melalui pendarasan Rosario, [*Manual of Indulgences*](https://amzn.to/3CZ0LjY), 17, §1, menetapkan hal-hal berikut:
+Perihal perolehan indulgensi melalui pendarasan Rosario, [_Manual of Indulgences_](https://amzn.to/3CZ0LjY), 17, §1, menetapkan hal-hal berikut:
 
 > Indulgensi penuh diberikan kepada umat beriman yang:
 >
@@ -146,6 +147,7 @@ Perolehan indulgensi melalui pendarasan Rosario juga mengharuskan dipenuhinya pe
 Akhirnya, kita sampai pada bagian utama artikel ini! Berikut adalah tujuh kiat untuk mendoakan Rosario dengan baik.
 
 ### 1. Dengan motivasi yang murni
+
 ![rosary catholic mary wood white background](rosary2.jpg '#float=left')
 Rosario sepatutnya diucapkan dengan motivasi yang murni. Motivasi yang murni terdiri dari **niat untuk hidup kudus** dan **penolakan dosa**. Dengan kata lain, sebaiknya kita mendaraskan Rosario ketika kita berada dalam [keadaan rahmat](https://www.catholicculture.org/culture/library/dictionary/index.cfm?id=36634). Namun, ini tidak berarti bahwa mereka yang sadar bahwa mereka telah jatuh dalam [dosa berat](https://katolisitas.org/apakah-dosa-berat-dan-dosa-ringan/) dilarang untuk berdoa Rosario. Sebaliknya, “orang berdosa perlu berdoa jauh lebih banyak daripada orang baik.”[^15] Itulah sebabnya persyaratan minimum untuk berdoa Rosario adalah **tekad untuk meninggalkan dosa berat**:
 
@@ -157,29 +159,30 @@ Rosario sepatutnya diucapkan dengan motivasi yang murni. Motivasi yang murni ter
 
 Kita sering tidak berkonsentrasi ketika kita sedang berdoa. Gangguan semacam ini adalah salah satu sumber keputusasaan yang utama bagi mereka yang mulai menapaki jalan doa.
 
-Namun, penting bagi kita untuk menyadari bahwa ada dua jenis gangguan. Ada gangguan yang bersifat **disengaja**, sedangkan ada gangguan-gangguan lain yang bersifat **tidak disengaja**. 
+Namun, penting bagi kita untuk menyadari bahwa ada dua jenis gangguan. Ada gangguan yang bersifat **disengaja**, sedangkan ada gangguan-gangguan lain yang bersifat **tidak disengaja**.
 
-Kita *tanpa disengaja* jatuh dalam gangguan ketika kita **tidak bermaksud mengalihkan perhatian kita**, akan tetapi—karena alasan-alasan yang tidak kita ketahui—kita kehilangan konsentrasi. Gangguan yang tidak disengaja datang dan pergi terlepas dari niat baik kita. Ia mirip dengan kerja beberapa organ dalam tubuh kita. Kita tidak bisa mengendalikan bagaimana jantung kita berdetak atau bagaimana sistem pencernaan kita memproses makanan, misalnya.
+Kita _tanpa disengaja_ jatuh dalam gangguan ketika kita **tidak bermaksud mengalihkan perhatian kita**, akan tetapi—karena alasan-alasan yang tidak kita ketahui—kita kehilangan konsentrasi. Gangguan yang tidak disengaja datang dan pergi terlepas dari niat baik kita. Ia mirip dengan kerja beberapa organ dalam tubuh kita. Kita tidak bisa mengendalikan bagaimana jantung kita berdetak atau bagaimana sistem pencernaan kita memproses makanan, misalnya.
 
 St. Thomas Aquinas mengakui adanya tantangan ini ketika ia berbicara mengenai intensi yang harus dimiliki pelayan dalam memberikan sakramen-sakramen. Meskipun ia menekankan perlunya [intensi yang aktual](https://www.catholicculture.org/culture/library/dictionary/index.cfm?id=31647) dalam diri pelayan, ia menyadari bahwa
 
-> [keberhasilan untuk memiliki intensi yang aktual] tidaklah sepenuhnya berada dalam kekuasaan manusia, karena ketika seseorang ingin berkonsentrasi pada suatu hal, dengan tidak sengaja ia mulai memikirkan hal-hal lain, seperti yang dikatakan Mzm 39:13: *Hatiku telah meninggalkan daku.*
+> [keberhasilan untuk memiliki intensi yang aktual] tidaklah sepenuhnya berada dalam kekuasaan manusia, karena ketika seseorang ingin berkonsentrasi pada suatu hal, dengan tidak sengaja ia mulai memikirkan hal-hal lain, seperti yang dikatakan Mzm 39:13: _Hatiku telah meninggalkan daku._
 >
-> —St. Thomas Aquinas, [*ST* III, q. 64 a. 8 ad 3](https://www.newadvent.org/summa/4064.htm#article8)
+> —St. Thomas Aquinas, [_ST_ III, q. 64 a. 8 ad 3](https://www.newadvent.org/summa/4064.htm#article8)
 
-Di sisi lain, ada gangguan-gangguan lain yang bersifat *disengaja*. Gangguan yang disengaja terjadi ketika kita **secara sengaja ingin terganggu**—misalnya, ketika kita sedang berdoa, kita melihat HP kita—atau kita **menyerah pada godaan yang berasal dari gangguan yang tidak disengaja**—misalnya, pikiran tentang makanan muncul di benak kita secara tiba-tiba ketika kita sedang berdoa, tetapi kemudian kita malah mengikuti alur pikiran tersebut dengan mempertimbangkan apa yang akan kita santap untuk makan siang alih-alih mengesampingkan pikiran tersebut.
+Di sisi lain, ada gangguan-gangguan lain yang bersifat _disengaja_. Gangguan yang disengaja terjadi ketika kita **secara sengaja ingin terganggu**—misalnya, ketika kita sedang berdoa, kita melihat HP kita—atau kita **menyerah pada godaan yang berasal dari gangguan yang tidak disengaja**—misalnya, pikiran tentang makanan muncul di benak kita secara tiba-tiba ketika kita sedang berdoa, tetapi kemudian kita malah mengikuti alur pikiran tersebut dengan mempertimbangkan apa yang akan kita santap untuk makan siang alih-alih mengesampingkan pikiran tersebut.
 
 ![phone social media likes follows](phone.jpg '#float=right')
-Perhatian adalah lawan dari jenis gangguan yang terakhir ini. Mendaraskan Rosario dengan penuh perhatian berarti **menghindari segala gangguan yang disengaja**. Simpan terlebih dahulu HP-mu. Masukkan *gadget* tersebut ke dalam *silent mode*. Dan jangan rencanakan perjalanan akhir pekanmu di tengah-tengah Rosario. Berdoalah dulu.
+Perhatian adalah lawan dari jenis gangguan yang terakhir ini. Mendaraskan Rosario dengan penuh perhatian berarti **menghindari segala gangguan yang disengaja**. Simpan terlebih dahulu HP-mu. Masukkan _gadget_ tersebut ke dalam _silent mode_. Dan jangan rencanakan perjalanan akhir pekanmu di tengah-tengah Rosario. Berdoalah dulu.
 
 ### 3. Dengan permohonan
-Secara umum, manusia suka meminta sesuatu. Siapa, coba, yang tidak menginginkan barang gratis? Namun, seiring bertambahnya usia, kita tampaknya kehilangan keberanian untuk meminta hal-hal yang *besar*. Ketika kita berdoa Rosario, De Montfort mengingatkan kita akan “bahaya tidak memohon rahmat sama sekali, sehingga jika orang-orang ditanya apa intensi Rosario mereka, mereka tidak tahu harus berkata apa.”[^17] Namun, anak-anak kecil memiliki sikap yang berbeda, seperti yang diungkapkan oleh St. Josemaría:
+
+Secara umum, manusia suka meminta sesuatu. Siapa, coba, yang tidak menginginkan barang gratis? Namun, seiring bertambahnya usia, kita tampaknya kehilangan keberanian untuk meminta hal-hal yang _besar_. Ketika kita berdoa Rosario, De Montfort mengingatkan kita akan “bahaya tidak memohon rahmat sama sekali, sehingga jika orang-orang ditanya apa intensi Rosario mereka, mereka tidak tahu harus berkata apa.”[^17] Namun, anak-anak kecil memiliki sikap yang berbeda, seperti yang diungkapkan oleh St. Josemaría:
 
 > Jadilah anak kecil; keberanian terbesar selalu merupakan milik anak-anak. Siapa yang meminta … bulan? Siapa yang tidak memedulikan bahaya demi memperoleh apa yang diinginkannya?
 >
 > "Tambahkan" dalam diri anak "seperti itu" berlimpah rahmat dari Allah, tekad untuk melakukan Kehendak-Nya, cinta yang besar akan Yesus, segala pengetahuan manusia yang bisa ia peroleh dengan kemampuannya …, dan kamu akan melihat gambaran karakter para rasul zaman ini sesuai dengan apa yang Allah inginkan.
 >
-> —St. [Josemaría](https://opusdei.org/en/section/saint-josemaria/), *Jalan*, no. 857
+> —St. [Josemaría](https://opusdei.org/en/section/saint-josemaria/), _Jalan_, no. 857
 
 Berdoa Rosario dengan permohonan berarti **meminta rahmat-rahmat khusus dari Allah**. Ada banyak cara untuk melakukan hal ini. Kamu bisa menentukan bagaimana kamu mau melakukannya! Kamu dapat mengucapkan seluruh Rosario untuk satu intensi khusus, misalnya, untuk temanmu yang sakit. Kamu boleh mempersembahkan setiap dekade—setiap satu Bapa Kami dan sepuluh Salam Maria—untuk sebuah intensi tertentu. Misalnya, dekade pertama bisa kamu daraskan untuk [Bapa Paus](https://www.vatican.va/content/vatican/en.html); yang kedua untuk keluargamu; yang ketiga untuk mereka yang telah berbuat baik kepadamu sepanjang hidupmu; dekade keempat untuk orang-orang yang kamu coba bawa lebih dekat kepada Allah; dan yang kelima bisa kamu ucapkan untuk semua yang sedang menderita.
 
@@ -221,6 +224,7 @@ Setidaknya ada tiga keuntungan yang bisa kita peroleh ketika kita mendaraskan Ro
 > … apabila seseorang tidak berdoa dengan baik, orang lain dalam perkumpulan yang sama yang berdoa lebih baik dapat menutupi kekurangannya. Dengan demikian, **mereka yang kuat menopang yang lemah**, yang bersemangat menginspirasi yang suam-suam kuku, yang kaya memperkaya yang miskin, yang buruk terhitung sebagai yang baik.[^23]
 
 ### 7. Dengan ketekunan
+
 ![catholic rosary hand clasped](rosary3.jpg '#float=left')
 Saya rasa, kiat terakhir ini adalah kiat yang paling penting karena, tanpanya, kita tidak akan bisa menerapkan kiat-kiat sebelumnya! Ya, kita harus berdoa Rosario **setiap hari** dengan ketekunan. Tuhan ingin agar kita bertekun: “Hendaklah engkau setia sampai mati, dan Aku akan mengaruniakan kepadamu mahkota kehidupan” (Wahyu 2:10).
 
@@ -228,28 +232,27 @@ Sangatlah tepat bagi kita untuk mengakhiri artikel ini dengan kata-kata dari St.
 
 > Bahkan jika kamu harus melawan gangguan sepanjang Rosario kamu, pastikan kamu berjuang dengan baik, dengan senjata di tangan: artinya, jangan berhenti mendaraskan Rosario meskipun sulit bagimu untuk melakukannya dan kamu sama sekali tidak memiliki hasrat.[^24]
 
-[^1]:[*Manual of Indulgences*](https://amzn.to/3CZ0LjY), 17, §1.
-[^2]:Louis De Montfort, *The Secret of the Rosary*, trans. Mary Barbour (Bay Shore: Montfort Fathers Publications, 1957), 16.
-[^3]:De Montfort, *The Secret of the Rosary*, 17.
-[^4]:De Montfort, *The Secret of the Rosary*, 17.
-[^5]:De Montfort, *The Secret of the Rosary*, 17.
-[^6]:De Montfort, *The Secret of the Rosary*, 101.
-[^7]:De Montfort, *The Secret of the Rosary*, 34.
-[^8]:De Montfort, *The Secret of the Rosary*, 102.
-[^9]:Pope Leo XIII, *Laetitiae Sanctae*, §3.
-[^10]:De Montfort, *The Secret of the Rosary*, 96.
-[^11]:Josemaría Escrivá, [*Holy Rosary*, Author's note](https://www.escrivaworks.org/book/-point-0.htm).
-[^12]:Thomas Aquinas, [*ST* I-II, q. 55 a. 3 co.](https://www.newadvent.org/summa/2055.htm#article3)
-[^13]:See *The Code of Canon Law*, [c. 992–993](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann959-997_en.html#CHAPTER_IV.).
-[^14]:See [*Manual of Indulgences*](https://amzn.to/3CZ0LjY), 17, §1.
-[^15]:De Montfort, *The Secret of the Rosary*, 136.
-[^16]:De Montfort, *The Secret of the Rosary*, 135.
-[^17]:De Montfort, *The Secret of the Rosary*, 162.
-[^18]:De Montfort, *The Secret of the Rosary*, 144.
-[^19]:De Montfort, *The Secret of the Rosary*, 144.
-[^20]:De Montfort, *The Secret of the Rosary*, 148.
-[^21]:De Montfort, *The Secret of the Rosary*, 148.
-[^22]:De Montfort, *The Secret of the Rosary*, 148.
-[^23]:De Montfort, *The Secret of the Rosary*, 151.
-[^24]:De Montfort, *The Secret of the Rosary*, 142.
-
+[^1]: [_Manual of Indulgences_](https://amzn.to/3CZ0LjY), 17, §1.
+[^2]: Louis De Montfort, _The Secret of the Rosary_, trans. Mary Barbour (Bay Shore: Montfort Fathers Publications, 1957), 16.
+[^3]: De Montfort, _The Secret of the Rosary_, 17.
+[^4]: De Montfort, _The Secret of the Rosary_, 17.
+[^5]: De Montfort, _The Secret of the Rosary_, 17.
+[^6]: De Montfort, _The Secret of the Rosary_, 101.
+[^7]: De Montfort, _The Secret of the Rosary_, 34.
+[^8]: De Montfort, _The Secret of the Rosary_, 102.
+[^9]: Pope Leo XIII, _Laetitiae Sanctae_, §3.
+[^10]: De Montfort, _The Secret of the Rosary_, 96.
+[^11]: Josemaría Escrivá, [_Holy Rosary_, Author's note](https://www.escrivaworks.org/book/-point-0.htm).
+[^12]: Thomas Aquinas, [_ST_ I-II, q. 55 a. 3 co.](https://www.newadvent.org/summa/2055.htm#article3)
+[^13]: See _The Code of Canon Law_, [c. 992–993](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann959-997_en.html#CHAPTER_IV.).
+[^14]: See [_Manual of Indulgences_](https://amzn.to/3CZ0LjY), 17, §1.
+[^15]: De Montfort, _The Secret of the Rosary_, 136.
+[^16]: De Montfort, _The Secret of the Rosary_, 135.
+[^17]: De Montfort, _The Secret of the Rosary_, 162.
+[^18]: De Montfort, _The Secret of the Rosary_, 144.
+[^19]: De Montfort, _The Secret of the Rosary_, 144.
+[^20]: De Montfort, _The Secret of the Rosary_, 148.
+[^21]: De Montfort, _The Secret of the Rosary_, 148.
+[^22]: De Montfort, _The Secret of the Rosary_, 148.
+[^23]: De Montfort, _The Secret of the Rosary_, 151.
+[^24]: De Montfort, _The Secret of the Rosary_, 142.

@@ -9,13 +9,14 @@ category:
   - Prayer
 excerpt: This article covers what the Marian Rosary is in the Catholic Church, its history, its importance, and the benefits that come from it. It has to be prayed with pure intention, attention, petitions, pauses, flexibility, others, and perseverance.
 ---
+
 One of the childhood memories I still vividly conserve is the gathering of neighbors at our house to pray the Rosary. We sat in a circle. Each person, by turns, would get the chance to say a Hail Mary. I did not know this prayer by heart at that time, so I held a cheat sheet to read from. After we finished our Rosary, my parents served refreshments and we chitchatted.
 
 Back then, little did I know that the Rosary I fingered was a powerful weapon:
 
 > As it was in other times —such as [Lepanto](https://opwest.org/lepanto/)—, the Rosary must be today a **powerful weapon**, to conquer the enemies of the Holy Roman Church and of your Country.
 >
-> —St. Josemaría Escrivá, [*Holy Rosary*](https://amzn.to/3AVG1Zu), Author's note
+> —St. Josemaría Escrivá, [_Holy Rosary_](https://amzn.to/3AVG1Zu), Author's note
 
 ![battle of lepanto ships letter 1571 Catholic](lepanto.jpg 'H. Letter, The Battle of Lepanto of 1571 (Wikimedia Commons)')
 
@@ -23,7 +24,7 @@ In this article, I will provide you with seven tips on how to pray the Rosary. B
 
 ## A. What is the Rosary?
 
-The Rosary is “a prayer formula consisting of [twenty] decades of Hail Marys preceded by the Our Father, during the recitation of which we piously meditate on the corresponding mysteries of our redemption.”[^1] In his book [*The Secret of the Rosary*](https://amzn.to/3uBTDXP), [St. Louis-Marie Grignion De Montfort](https://www.newadvent.org/cathen/09384a.htm) more graphically describes the Rosary as **“a blessed blending” of mental and vocal prayers** (more on the differences between mental and vocal prayers, [click here](https://stpaulcenter.com/an-introduction-to-the-types-of-prayer/)).[^2] On the one hand, it is a **mental prayer** because it consists in the meditation on the mysteries and virtues of Christ and Mary. It is, on the other hand, a **vocal prayer** since it is made up of five Our Fathers and fifty Hail Marys.
+The Rosary is “a prayer formula consisting of [twenty] decades of Hail Marys preceded by the Our Father, during the recitation of which we piously meditate on the corresponding mysteries of our redemption.”[^1] In his book [_The Secret of the Rosary_](https://amzn.to/3uBTDXP), [St. Louis-Marie Grignion De Montfort](https://www.newadvent.org/cathen/09384a.htm) more graphically describes the Rosary as **“a blessed blending” of mental and vocal prayers** (more on the differences between mental and vocal prayers, [click here](https://stpaulcenter.com/an-introduction-to-the-types-of-prayer/)).[^2] On the one hand, it is a **mental prayer** because it consists in the meditation on the mysteries and virtues of Christ and Mary. It is, on the other hand, a **vocal prayer** since it is made up of five Our Fathers and fifty Hail Marys.
 
 The word ‘Rosary’ itself means ‘**Crown of Roses**.’ Thus, every time we say the Rosary devoutly, we place a crown of one hundred and fifty roses upon the heads of Jesus and Mary.
 
@@ -44,14 +45,13 @@ The Rosary was officially approved in the Church by [Pope Sixtus IV](https://www
     </div>
   </div>
   <div class="book__text">
-    <h5>
-      <a target="_blank" href="https://www.amazon.com/gp/product/1684221889/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1684221889&linkCode=as2&tag=happiness052f-20&linkId=c2aef0c4edb58c0b52ea2b7dca273349">The Secret of the Rosary</a>
-    </h5>
-    <h6>St. Louis De Monfort</h6>
+    <h4>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/gp/product/1684221889/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1684221889&linkCode=as2&tag=happiness052f-20&linkId=c2aef0c4edb58c0b52ea2b7dca273349">The Secret of the Rosary</a>
+    </h4>
+    <h5>St. Louis De Monfort</h5>
     <p>This spiritual classic explains what the Rosary is and gives us practical tips on how to pray it well. If you wish to grow in your love toward Christ and Mary through the recitation of the Holy Rosary, this book is written for you.</p>
   </div>
 </div>
-
 
 ## C. How important is the Rosary?
 
@@ -80,6 +80,7 @@ That is why De Montfort insists on the Rosary’s preeminence among all other de
 Secondly, [countless popes](https://udayton.edu/imri/mary/p/popes-on-the-rosary.php) have encouraged us to pray the Rosary. It has definitely been promoted by [all the popes of the 20th century](https://www.vaticannews.va/en/pope/news/2020-04/the-popes-and-the-rosary.html). In the preceding centuries, numerous popes had done the same. [Pope Leo XIII](https://www.britannica.com/biography/Leo-XIII), for example, wrote as many as [12 encyclicals and 5 apostolic letters](https://udayton.edu/imri/mary/r/rosary-encyclicals-by-pope-leo-xiii.php) on just the Rosary!
 
 ### 3. The saints’ favorite
+
 ![Claudio Coello, Santo Domingo de Guzmán](dominic.jpg '#float=right;title=Coello, Santo Domingo de Guzmán (Wikimedia Commons)')
 Thirdly, the Rosary is the favorite prayer of innumerable saints. St. Dominic himself
 
@@ -89,7 +90,7 @@ To find out more about what the saints say about this wonderful devotion, read [
 
 ### 4. A world changer
 
-Fourthly, the Rosary changes the world! In his encyclical letter [*Laetitiae Sanctae*](https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091893_laetitiae-sanctae.html) published in 1893, Pope Leo XIII affirms that “the Rosary, if devoutly used, is bound to benefit not only the individual but society at large.”[^9] It is, indeed, a prayer capable of making changes!
+Fourthly, the Rosary changes the world! In his encyclical letter [_Laetitiae Sanctae_](https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08091893_laetitiae-sanctae.html) published in 1893, Pope Leo XIII affirms that “the Rosary, if devoutly used, is bound to benefit not only the individual but society at large.”[^9] It is, indeed, a prayer capable of making changes!
 
 ## D. What benefits do I receive from praying the Rosary?
 
@@ -103,7 +104,7 @@ The Rosary will gradually give us a perfect knowledge of Christ and Mary. Of cou
 >
 > Do you want to love Our Lady? Well, get to know her. How? By praying her Rosary well.
 >
-> —St. Josemaría, [*Holy Rosary*, Author's note](https://www.escrivaworks.org/book/-point-0.htm)
+> —St. Josemaría, [_Holy Rosary_, Author's note](https://www.escrivaworks.org/book/-point-0.htm)
 
 ### 2. Victory over all our enemies
 
@@ -111,7 +112,7 @@ As Christians, our toughest enemies are the Devil, temptations, and sins. The Ro
 
 ### 3. Life of virtues
 
-We have learned above that the Rosary consists in the meditation on **the mysteries and virtues of Christ and Mary**. But, what is *virtue*?
+We have learned above that the Rosary consists in the meditation on **the mysteries and virtues of Christ and Mary**. But, what is _virtue_?
 
 Virtue is “an operative habit … a good habit, productive of good works.”[^12] Said otherwise, it is a good habit that assists us in doing the good (to learn more about virtues, read [this article](https://stpaulcenter.com/what-is-virtue/)). Christian philosophical and theological tradition recognizes [many virtues](https://www.catholicculture.org/culture/library/catechism/index.cfm?recnum=5061). For example, there are **four cardinal virtues**: prudence (wisdom), justice, fortitude (courage), and temperance (self-control). On the other hand, the **three theological virtues**—those that can only come from God—are faith, hope, and love. There are still many more virtues that are connected to these seven virtues.
 
@@ -119,20 +120,20 @@ When we pray the Rosary, we meditate precisely on **the virtues of our Lord and 
 
 ![Karel Dujardin, The Annunciation Mary Gabriel](annunciation.jpg 'Dujardin, The Annunciation (Wikimedia Commons)')
 
-A popular Italian proverb reads: "*Una buona mamma vale cento maestre*"—"A good mother is worth a hundred teachers." In the Rosary, both Jesus and Mary appear more clearly as our examples. That is why the Rosary is an effective means for us to grow in virtues.
+A popular Italian proverb reads: "_Una buona mamma vale cento maestre_"—"A good mother is worth a hundred teachers." In the Rosary, both Jesus and Mary appear more clearly as our examples. That is why the Rosary is an effective means for us to grow in virtues.
 
 ### 4. Indulgences
 
-Many Catholics are still unaware of the possibility of gaining indulgence by praying the Rosary (if you are not sure what ‘indulgence’ is, [click here](https://www.catholic.com/tract/myths-about-indulgences) to find out more). Now that you know it *is* possible and you start to get excited, you might ask: *how* can I get it?
+Many Catholics are still unaware of the possibility of gaining indulgence by praying the Rosary (if you are not sure what ‘indulgence’ is, [click here](https://www.catholic.com/tract/myths-about-indulgences) to find out more). Now that you know it _is_ possible and you start to get excited, you might ask: _how_ can I get it?
 
 Let us begin by recalling that indulgence may be **plenary** or **partial**. The distinction between both is quite straightforward. An indulgence is plenary if it **totally** frees from the temporal punishment due to sins. However, it is partial if it frees from the temporal punishment due to sins **only partially**.[^13]
 
-When it comes to the obtainment of indulgence through the recitation of the Rosary, the 1999 [*Manual of Indulgences*](https://amzn.to/3CZ0LjY), 17, §1, establishes the following:
+When it comes to the obtainment of indulgence through the recitation of the Rosary, the 1999 [_Manual of Indulgences_](https://amzn.to/3CZ0LjY), 17, §1, establishes the following:
 
 > A plenary indulgence is granted to the faithful who:
-> 
+>
 > (1) Devoutly recite the Marian rosary in a church or oratory, or in a family, a religious community, or an association of the faithful, and in general when several of the faithful gather for some honest purpose;
-> 
+>
 > (2) Or devoutly join in the recitation of the rosary while it is being recited by the [Supreme Pontiff](https://www.franciscanmedia.org/ask-a-franciscan/why-is-the-pope-called-the-supreme-pontiff) and broadcast live by radio or television.
 
 The obtainment of indulgence through the recitation of the Rosary also requires the fulfillment of the following things (apart from the fulfillment of [the general conditions](https://www.ewtn.com/catholicism/devotions/conditions-13362)):[^14]
@@ -146,41 +147,42 @@ The obtainment of indulgence through the recitation of the Rosary also requires 
 Finally, we get to the main part of this article! Here are the seven tips on how to pray the Rosary fruitfully.
 
 ### 1. With pure intention
+
 ![rosary catholic mary wood white background](rosary2.jpg '#float=left')
 The Rosary has to be said with pure intention. Purity of intention consists in **desire for holiness** and, consequently, **rejection of sins**. In other words, it is best to say the Rosary when we are in the [state of grace](https://www.catholicculture.org/culture/library/dictionary/index.cfm?id=36634). However, this does not mean that those conscious of having committed [mortal sins](https://www.catholic.com/magazine/online-edition/mortal-and-venial-sin) are forbidden from praying the Rosary. Rather, “sinners need to pray far more than good people do.”[^15] That is why the minimum requirement to say the Rosary is **the willingness to abandon mortal sin**:
 
 > To say the Holy Rosary to advantage one must be in a state of grace or **at the very least be fully determined to give up mortal sin**. This we know because all our theology teaches us that good works and prayers are only dead works if they are done in a state of mortal sin.[^16]
-> 
+>
 > —St. Louis De Montfort
 
 ### 2. With attention
 
 We are often distracted when we pray. Distraction is one of the major sources of discouragement for those who are beginning to trod the path of prayer.
 
-It is important for us to realize, though, that there are two types of distractions. Some distractions are **voluntary**, whereas others are **involuntary**. 
+It is important for us to realize, though, that there are two types of distractions. Some distractions are **voluntary**, whereas others are **involuntary**.
 
-We are *involuntarily* distracted when we **do not seek to get distracted**, but—for some unspecified reasons—we do. Involuntary distractions come and go regardless of our good will. They are similar to the activities of some of our internal organs. We cannot control how our heart beats or how our digestive system processes food, for instance.
+We are _involuntarily_ distracted when we **do not seek to get distracted**, but—for some unspecified reasons—we do. Involuntary distractions come and go regardless of our good will. They are similar to the activities of some of our internal organs. We cannot control how our heart beats or how our digestive system processes food, for instance.
 
 St. Thomas Aquinas acknowledges this difficulty as he talks about the intention required of the minister in the administration of the sacraments. Although he insists on the need to have [actual intention](https://www.catholicculture.org/culture/library/dictionary/index.cfm?id=31647), he admits that
 
-> [having actual intention] is not entirely in man’s power, because when a man wishes to be very intent on something, he begins unintentionally to think of other things, according to Ps 39:13: *My heart hath forsaken me.*
-> 
-> —St. Thomas Aquinas, [*ST* III, q. 64 a. 8 ad 3](https://www.newadvent.org/summa/4064.htm#article8)
+> [having actual intention] is not entirely in man’s power, because when a man wishes to be very intent on something, he begins unintentionally to think of other things, according to Ps 39:13: _My heart hath forsaken me._
+>
+> —St. Thomas Aquinas, [_ST_ III, q. 64 a. 8 ad 3](https://www.newadvent.org/summa/4064.htm#article8)
 
-On the other hand, some other distractions are *voluntary*. In these cases, we **voluntarily** **seek to get distracted**—e.g., in the middle of our prayer, we check our phone—or we **give in to the pressure of involuntary distractions**—e.g., as we pray, a thought about food emerges in our mind out of the blue, but then we entertain it by deciding what to eat for lunch instead of dissipating it.
+On the other hand, some other distractions are _voluntary_. In these cases, we **voluntarily** **seek to get distracted**—e.g., in the middle of our prayer, we check our phone—or we **give in to the pressure of involuntary distractions**—e.g., as we pray, a thought about food emerges in our mind out of the blue, but then we entertain it by deciding what to eat for lunch instead of dissipating it.
 
 ![phone social media likes follows](phone.jpg '#float=right')
 Attention is the opposite of this last type of distractions. Saying the Rosary with attention means **avoiding voluntary distractions**. Put your phone aside. Silence it. And don’t plan your weekend outing just yet. Pray.
 
 ### 3. With petitions
 
-In general, human beings like to ask for things. Who doesn’t want free stuff anyway? Yet, as we grow older, we seem to lose the audacity to ask for *big* things. When it comes to saying the Rosary, De Montfort warns us of “the danger of not asking for any graces at all, so that if some people were asked their Rosary intention they would not know what to say.”[^17] However, children are different, as St. Josemaría points out:
+In general, human beings like to ask for things. Who doesn’t want free stuff anyway? Yet, as we grow older, we seem to lose the audacity to ask for _big_ things. When it comes to saying the Rosary, De Montfort warns us of “the danger of not asking for any graces at all, so that if some people were asked their Rosary intention they would not know what to say.”[^17] However, children are different, as St. Josemaría points out:
 
 > Be a little child; the greatest daring is always that of children. Who cries for … the moon? Who is blind to dangers in getting what he wants?
-> 
+>
 > To such a child add much grace from God, the desire to do his Will, great love for Jesus, all the human knowledge he is capable of acquiring …, and you will have a likeness of the apostles of today such as God undoubtedly wants them.
-> 
-> —St. [Josemaría](https://opusdei.org/en/section/saint-josemaria/), *The Way*, no. 857
+>
+> —St. [Josemaría](https://opusdei.org/en/section/saint-josemaria/), _The Way_, no. 857
 
 Praying the Rosary with petitions means **asking for special graces from God**. There are many ways to do this. It is really up to you! You can say the entire Rosary for a specific intention, e.g., for your friend who is sick. You can offer each decade—each set of one Our Father and ten Hail Marys—for an intention. For example, the first decade can be for the [Pope](https://www.vatican.va/content/vatican/en.html); the second one for your family; the third one for those who have done you good throughout your life; the fourth decade for the people you are trying to bring closer to God; and the fifth might be for all who are suffering.
 
@@ -210,7 +212,7 @@ There is no excuse for not praying the Rosary since we can do it **anywhere** an
 I have been asked many times whether it is fine to say the Rosary while one performs certain types of work. If our circumstances of life do not allow us to set aside a dedicated time for saying the Rosary, then **the answer is yes**: we can of course pray the Rosary while we are doing something else (e.g., washing the dishes, taking care of our little baby). We should make sure, though, that we combine our Rosary with other activities **not because we are lazy or simply want to ‘save up’ time**:
 
 > Of course, since the soul has its limitations and can only do so much, when we are concentrating on manual work we cannot give our undivided attention to things of the spirit, such as prayer. But when we cannot do otherwise[,] this kind of prayer is **not without value in Our Lady’s eyes** and she rewards our **good will** more than our external actions.”[^22]
-> 
+>
 > —St. Louis De Montfort
 
 ### 6. With others
@@ -222,6 +224,7 @@ There are at least three advantages attached to group recitation of the Rosary. 
 > … if one person is not praying well, someone else in the same gathering who prays better may make up for his deficiency. In this way **those who are strong uphold the weak**, those who are fervent inspire the lukewarm, the rich enrich the poor, the bad are counted as good.[^23]
 
 ### 7. With perseverance
+
 ![catholic rosary hand clasped](rosary3.jpg '#float=left')
 The last tip is perhaps the most important one since, without it, we would not be able to apply all the previous tips! Yes, we have to pray the Rosary **every single day** with perseverance. The Lord wants us to persevere: “Be faithful until death, and I will give you the crown of life” (Rev 2:10).
 
@@ -229,27 +232,27 @@ I think it is fitting to end this article with the encouraging words of St. Loui
 
 > Even if you have to fight distractions all through your whole Rosary, be sure to fight well, arms in hand: that is to say, do not stop saying your Rosary even if it is hard to say and you have absolutely no sensible devotion.[^24]
 
-[^1]:[*Manual of Indulgences*](https://amzn.to/3CZ0LjY), 17, §1.
-[^2]:Louis De Montfort, *The Secret of the Rosary*, trans. Mary Barbour (Bay Shore: Montfort Fathers Publications, 1957), 16.
-[^3]:De Montfort, *The Secret of the Rosary*, 17.
-[^4]:De Montfort, *The Secret of the Rosary*, 17.
-[^5]:De Montfort, *The Secret of the Rosary*, 17.
-[^6]:De Montfort, *The Secret of the Rosary*, 101.
-[^7]:De Montfort, *The Secret of the Rosary*, 34.
-[^8]:De Montfort, *The Secret of the Rosary*, 102.
-[^9]:Pope Leo XIII, *Laetitiae Sanctae*, §3.
-[^10]:De Montfort, *The Secret of the Rosary*, 96.
-[^11]:Josemaría Escrivá, [*Holy Rosary*, Author's note](https://www.escrivaworks.org/book/-point-0.htm).
-[^12]:Thomas Aquinas, [*ST* I-II, q. 55 a. 3 co.](https://www.newadvent.org/summa/2055.htm#article3)
-[^13]:See *The Code of Canon Law*, [c. 992–993](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann959-997_en.html#CHAPTER_IV.).
-[^14]:See [*Manual of Indulgences*](https://amzn.to/3CZ0LjY), 17, §1.
-[^15]:De Montfort, *The Secret of the Rosary*, 136.
-[^16]:De Montfort, *The Secret of the Rosary*, 135.
-[^17]:De Montfort, *The Secret of the Rosary*, 162.
-[^18]:De Montfort, *The Secret of the Rosary*, 144.
-[^19]:De Montfort, *The Secret of the Rosary*, 144.
-[^20]:De Montfort, *The Secret of the Rosary*, 148.
-[^21]:De Montfort, *The Secret of the Rosary*, 148.
-[^22]:De Montfort, *The Secret of the Rosary*, 148.
-[^23]:De Montfort, *The Secret of the Rosary*, 151.
-[^24]:De Montfort, *The Secret of the Rosary*, 142.
+[^1]: [_Manual of Indulgences_](https://amzn.to/3CZ0LjY), 17, §1.
+[^2]: Louis De Montfort, _The Secret of the Rosary_, trans. Mary Barbour (Bay Shore: Montfort Fathers Publications, 1957), 16.
+[^3]: De Montfort, _The Secret of the Rosary_, 17.
+[^4]: De Montfort, _The Secret of the Rosary_, 17.
+[^5]: De Montfort, _The Secret of the Rosary_, 17.
+[^6]: De Montfort, _The Secret of the Rosary_, 101.
+[^7]: De Montfort, _The Secret of the Rosary_, 34.
+[^8]: De Montfort, _The Secret of the Rosary_, 102.
+[^9]: Pope Leo XIII, _Laetitiae Sanctae_, §3.
+[^10]: De Montfort, _The Secret of the Rosary_, 96.
+[^11]: Josemaría Escrivá, [_Holy Rosary_, Author's note](https://www.escrivaworks.org/book/-point-0.htm).
+[^12]: Thomas Aquinas, [_ST_ I-II, q. 55 a. 3 co.](https://www.newadvent.org/summa/2055.htm#article3)
+[^13]: See _The Code of Canon Law_, [c. 992–993](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann959-997_en.html#CHAPTER_IV.).
+[^14]: See [_Manual of Indulgences_](https://amzn.to/3CZ0LjY), 17, §1.
+[^15]: De Montfort, _The Secret of the Rosary_, 136.
+[^16]: De Montfort, _The Secret of the Rosary_, 135.
+[^17]: De Montfort, _The Secret of the Rosary_, 162.
+[^18]: De Montfort, _The Secret of the Rosary_, 144.
+[^19]: De Montfort, _The Secret of the Rosary_, 144.
+[^20]: De Montfort, _The Secret of the Rosary_, 148.
+[^21]: De Montfort, _The Secret of the Rosary_, 148.
+[^22]: De Montfort, _The Secret of the Rosary_, 148.
+[^23]: De Montfort, _The Secret of the Rosary_, 151.
+[^24]: De Montfort, _The Secret of the Rosary_, 142.
