@@ -385,6 +385,10 @@ const Typography = styled.createGlobalStyle`
           float: none !important;
           margin: 0 !important;
           max-width: 100%;
+
+          &:not(:last-child) {
+            margin-bottom: var(--p-spacing) !important;
+          }
         }
       }
 
