@@ -49,9 +49,9 @@ One afternoon back in 2019, I was seated in a bus. I was so thrilled when I hear
 
 As we approached the Basilica, the first thing that struck me was how low the entrance was. It used to be 5.5 meters high. Yet, during the [Ottoman Era](https://www.britannica.com/place/Ottoman-Empire), it was reduced to about 1.2 meters to prevent people from entering on horseback. So, unless your height is less than 1.2 meters, you better duck your head in order to pass through.
 
-![father kenny ang entering ducking Basilica Nativity Bethlehem](kenny_bethlehem_door.jpg 'The Entrance of the Basilica of the Nativity, Bethlehem (2019)')
+![father kenny ang entering ducking Basilica Nativity Bethlehem](kenny_bethlehem_door.jpg 'Entrance, Basilica of the Nativity, Bethlehem (2019)')
 
-That’s what Bethlehem teaches us: to recognize who the baby Jesus is, we have to bow down. We must dismount the horse of our pride. To approach his birthplace, we ought to be humble.
+That’s what Bethlehem teaches us: to recognize who the baby Jesus is, we have to bow down. We must dismount the "horse" of our pride. To approach his birthplace, we ought to be humble.
 
 # 2. The Ox and the Ass
 
