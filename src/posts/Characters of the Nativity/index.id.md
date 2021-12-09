@@ -126,7 +126,7 @@ Hal kedua yang kita amati adalah bayi Yesus dibaringkan “di dalam [palungan](h
 
 Sembari kita merenungkan Yesus yang memberikan diri-Nya sebagai makanan bagi kita, sosok Yusuf menjadi menonjol. Kunci pintu [tabernakel](https://www.catholic.com/qa/what-is-a-tabernacle) di beberapa kapel dan gereja terkait dengan sebuah medali dengan ukiran kata-kata berikut: “*Ite ad Joseph*”—“[Pergilah kepada Yusuf](https://aleteia.org/2020/12/10/why-is-go-to-joseph-a-prayer/)”—(Kej 41:55).[^4] Kalimat ini, yang sebenarnya merujuk pada [Yusuf putra Yakub](https://www.britannica.com/biography/Joseph-biblical-figure), secara populer diaplikasikan kepada Yusuf suami Maria. Seperti Yusuf dalam Perjanjian Lama yang memberi makan seluruh bangsa Israel, Yusuf dalam Perjanjian Baru juga memberi kita makan. Namun, ia menyuguhi kita bukan dengan biji-biji gandum yang dipakai untuk membuat roti biasa (Kej 42-44), alih-alih dengan **Roti Hidup** yang adalah Yesus sendiri (Yoh 6:35).
 
-[^1]:See Ratzinger, [*The Blessing of Christmas*](https://amzn.to/3cWxmff), 77.
+[^1]:Lih. Ratzinger, [*The Blessing of Christmas*](https://amzn.to/3cWxmff), 77.
 [^2]:Ratzinger, [*The Blessing of Christmas*](https://amzn.to/3cWxmff), 75–76.
 [^3]:St. Augustine, *Sermon*, 189, 4.
 [^4]:“Ketika seluruh negeri Mesir menderita kelaparan, dan rakyat berteriak meminta roti kepada Firaun, berkatalah Firaun kepada semua orang Mesir: ‘Pergilah kepada Yusuf, perbuatlah apa yang akan dikatakannya kepadamu’” (Kej 41:55).
