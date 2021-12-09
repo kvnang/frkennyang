@@ -44,15 +44,15 @@ Dalam salah satu khotbahnya, [Fulton Sheen](https://amzn.to/3D0TQ9j) mengatakan 
 
 Sebaliknya, kita tidak menemukan orang yang merasa dirinya *tahu segalanya* di Kandang Natal. Hanya mereka yang rendah hati yang ada di sana. [Kerendahan hati](https://www.ncregister.com/blog/mother-teresas-15-tips-to-help-you-become-more-humble): itulah yang harus kita pelajari dari para gembala dan orang majus. Itulah "tiket masuk" mereka ke tempat kelahiran Yesus. Itulah juga yang diminta kepada kita jika ingin menghampiri-Nya.
 
-![father kenny ang mass Shepherds' Field Bethlehem](kenny_mass_shepherds.jpg 'The Shepherds\' Field, Bethlehem (2019)')
+![father kenny ang mass Shepherds' Field Bethlehem](kenny_mass_shepherds.jpg 'Padang Gembala, Bethlehem (2019)')
 
 Suatu hari di tahun 2019, saya duduk di dalam sebuah bus. Saya sangat senang ketika mendengar pemandu wisata kami berkata: “Selamat datang di [Betlehem](https://www.britannica.com/place/Bethlehem)!” Tujuan utama kami di sana bukan lain adalah gereja [Basilika Kelahiran Tuhan](https://en.wikipedia.org/wiki/Church_of_the_Nativity). 
 
 Hal pertama yang mengejutkan saya mengenai Basilika ini adalah betapa rendahnya pintu masuknya. Dahulu kala, tingginya mencapai 5,5 meter. Namun, pada zaman [Kekaisaran Ottoman](https://www.britannica.com/place/Ottoman-Empire), tingginya dikurangi menjadi sekitar 1,2 meter saja demi menghalangi mereka yang berusaha masuk dengan menunggangi kuda. Jadi, jika tinggi Anda melebihi 1,2 meter, Anda harus menundukkan kepala untuk memasuki tempat suci ini.
 
-![father kenny ang entering ducking Basilica Nativity Bethlehem](kenny_bethlehem_door.jpg 'The Entrance of the Basilica of the Nativity, Bethlehem (2019)')
+![father kenny ang entering ducking Basilica Nativity Bethlehem](kenny_bethlehem_door.jpg 'Pintu Masuk Basilika Kelahiran, Bethlehem (2019)')
 
-Itulah yang diajarkan Betlehem kepada kita: untuk mengenal siapa bayi Yesus, kita harus menunduk. Kita harus turun dari kuda kesombongan kita. Untuk menghampiri tempat kelahiran-Nya, kita harus rendah hati.
+Itulah yang diajarkan Betlehem kepada kita: untuk mengenal siapa bayi Yesus, kita harus menunduk. Kita harus turun dari "kuda" kesombongan kita. Untuk menghampiri tempat kelahiran-Nya, kita harus rendah hati.
 
 # 2. Lembu dan Keledai
 
@@ -72,15 +72,15 @@ Dengan kata lain, Yesus lahir di antara kejahatan dan ketidaktaatan manusia.
 
 Apakah kita sudah *mengenal* Yesus seperti lembu mengenal pemiliknya? Atau, setidaknya, apakah kita berusaha untuk *mengenal* *Dia lebih baik*? Jika kita mengakui-Nya sebagai Tuhan kita, ada tempat bagi kita dekat palungan-Nya.
 
-# 3. Maria dan Yosef
+# 3. Maria dan Yusuf
 
-Di dekat bayi Yesus ada Maria dan Yosef, yang dengan khidmat memandang Allah-yang-menjadi-manusia. Kata-kata tidak mampu mengungkapkan apa yang ada di hadapan mereka. Mereka berdua tampak diam dalam keheningan. Paus Fransiskus mengatakan bahwa
+Di dekat bayi Yesus ada Maria dan Yusuf, yang dengan khidmat memandang Allah-yang-menjadi-manusia. Kata-kata tidak mampu mengungkapkan apa yang ada di hadapan mereka. Mereka berdua tampak diam dalam keheningan. Paus Fransiskus mengatakan bahwa
 
-> kelahiran seorang anak membangkitkan kegembiraan dan rasa kagum; kelahiran seorang anak menempatkan misteri kehidupan yang agung di hadapan kita. Melihat mata yang cerah dari sebuah pasangan muda yang menatap anak mereka yang baru lahir, kita dapat memahami perasaan Maria dan Yosef yang merasakan kehadiran Allah dalam hidup mereka ketika mereka memandang bayi Yesus.
+> kelahiran seorang anak membangkitkan kegembiraan dan rasa kagum; kelahiran seorang anak menempatkan misteri kehidupan yang agung di hadapan kita. Melihat mata yang cerah dari sebuah pasangan muda yang menatap anak mereka yang baru lahir, kita dapat memahami perasaan Maria dan Yusuf yang merasakan kehadiran Allah dalam hidup mereka ketika mereka memandang bayi Yesus.
 > 
 > —Paus Fransiskus, *[Admirabile signum](https://www.vatican.va/content/francesco/en/apost_letters/documents/papa-francesco-lettera-ap_20191201_admirabile-signum.html)*, §8
 
-Maria dan Yosef jarang bersuara dalam Injil. [Maria mengucapkan](https://udayton.edu/imri/mary/b/bible-quotes-by-mary.php) hanya enam kalimat ditambah satu kidung. Ia lebih memilih untuk "menyimpan segala perkara itu di dalam hatinya dan merenungkannya" (Lk 2:19). Bagaimana dengan Yosef? Dia bahkan tidak mengatakan sepatah kata pun dalam Kitab Suci! Ia lebih merupakan seorang pekerja yang tanggap dalam melaksanakan kehendak Allah.
+Maria dan Yusuf jarang bersuara dalam Injil. [Maria mengucapkan](https://udayton.edu/imri/mary/b/bible-quotes-by-mary.php) hanya enam kalimat ditambah satu kidung. Ia lebih memilih untuk "menyimpan segala perkara itu di dalam hatinya dan merenungkannya" (Lk 2:19). Bagaimana dengan Yusuf? Dia bahkan tidak mengatakan sepatah kata pun dalam Kitab Suci! Ia lebih merupakan seorang pekerja yang tanggap dalam melaksanakan kehendak Allah.
 
 ![christmas nativity stom jesus mary joseph](holy_family_stom.jpg 'Stom, Holy Family (1640)')
 
@@ -88,7 +88,7 @@ Keheningan. Dalam dunia yang bising ini, keheningan telah menjadi sesuatu yang l
 
 Namun, keheningan memiliki nilai yang tak terhingga. Keheningan menunjukkan keterbukaan dan kesiapan untuk mendengarkan. Masyarakat dan keluarga kita akan menjadi tempat yang jauh lebih baik jika kita saling mendengarkan dengan penuh perhatian (ya … [singkirkan *smartphone*-mu sejenak](https://www.verywellfamily.com/negative-effects-of-too-much-cell-phone-use-621152)). Keheningan kita adalah tanda bahwa kita menganggap orang lain penting.
 
-Di dunia yang acuh tak acuh dan dangkal ini, kita dapat belajar hening, merenung, dan mendengarkan orang lain dari Maria dan Yosef.
+Di dunia yang acuh tak acuh dan dangkal ini, kita dapat belajar hening, merenung, dan mendengarkan orang lain dari Maria dan Yusuf.
 
 # 4. Bala Tentara Malaikat
 
@@ -124,9 +124,9 @@ Hal kedua yang kita amati adalah bayi Yesus dibaringkan “di dalam [palungan](h
 
 ![joseph holding baby jesus christ](joseph_reni.jpg 'Reni, Saint Joseph and the Christ Child (1640)')
 
-Sembari kita merenungkan Yesus yang memberikan diri-Nya sebagai makanan bagi kita, sosok Yosef menjadi menonjol. Kunci pintu [tabernakel](https://www.catholic.com/qa/what-is-a-tabernacle) di beberapa kapel dan gereja terkait dengan sebuah medali dengan ukiran kata-kata berikut: “*Ite ad Joseph*”—“[Pergilah kepada Yosef](https://aleteia.org/2020/12/10/why-is-go-to-joseph-a-prayer/)”—(Kej 41:55).[^4] Kalimat ini, yang sebenarnya merujuk pada [Yosef putra Yakub](https://www.britannica.com/biography/Joseph-biblical-figure), secara populer diaplikasikan kepada Yosef suami Maria. Seperti Yosef dalam Perjanjian Lama yang memberi makan seluruh bangsa Israel, Yosef dalam Perjanjian Baru juga memberi kita makan. Namun, ia menyuguhi kita bukan dengan biji-biji gandum yang dipakai untuk membuat roti biasa (Kej 42-44), alih-alih dengan **Roti Hidup** yang adalah Yesus sendiri (Yoh 6:35).
+Sembari kita merenungkan Yesus yang memberikan diri-Nya sebagai makanan bagi kita, sosok Yusuf menjadi menonjol. Kunci pintu [tabernakel](https://www.catholic.com/qa/what-is-a-tabernacle) di beberapa kapel dan gereja terkait dengan sebuah medali dengan ukiran kata-kata berikut: “*Ite ad Joseph*”—“[Pergilah kepada Yusuf](https://aleteia.org/2020/12/10/why-is-go-to-joseph-a-prayer/)”—(Kej 41:55).[^4] Kalimat ini, yang sebenarnya merujuk pada [Yusuf putra Yakub](https://www.britannica.com/biography/Joseph-biblical-figure), secara populer diaplikasikan kepada Yusuf suami Maria. Seperti Yusuf dalam Perjanjian Lama yang memberi makan seluruh bangsa Israel, Yusuf dalam Perjanjian Baru juga memberi kita makan. Namun, ia menyuguhi kita bukan dengan biji-biji gandum yang dipakai untuk membuat roti biasa (Kej 42-44), alih-alih dengan **Roti Hidup** yang adalah Yesus sendiri (Yoh 6:35).
 
 [^1]:See Ratzinger, [*The Blessing of Christmas*](https://amzn.to/3cWxmff), 77.
 [^2]:Ratzinger, [*The Blessing of Christmas*](https://amzn.to/3cWxmff), 75–76.
 [^3]:St. Augustine, *Sermon*, 189, 4.
-[^4]:“When all the land of Egypt was famished, the people cried to Pharaoh for bread. Pharaoh said to all the Egyptians, ‘Go to Joseph; what he says to you, do’” (Gen 41:55).
+[^4]:“Ketika seluruh negeri Mesir menderita kelaparan, dan rakyat berteriak meminta roti kepada Firaun, berkatalah Firaun kepada semua orang Mesir: ‘Pergilah kepada Yusuf, perbuatlah apa yang akan dikatakannya kepadamu’” (Kej 41:55).
