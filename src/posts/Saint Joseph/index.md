@@ -1,6 +1,6 @@
 ---
 title: The World Needs Fathers. 7 Questions on St. Joseph
-featuredImage: joseph_reni_cropped
+featuredImage: joseph_reni_cropped.jpg
 format: Article
 date: 2021-12-31
 category:
