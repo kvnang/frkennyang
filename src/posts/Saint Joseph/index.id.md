@@ -1,6 +1,6 @@
 ---
 title: Dunia Membutuhkan Bapa. 7 Pertanyaan Tentang Santo Yusuf
-featuredImage: joseph_reni_cropped
+featuredImage: joseph_reni_cropped.jpg
 format: Article
 date: 2021-12-31
 category:
