@@ -9,7 +9,8 @@ category:
 excerpt: Artikel tentang siapa Yusuf; kota asalnya Betlehem dan Nazaret, tempat tinggalnya; dugaan tentang kematiannya; kedudukannya dalam Gereja sebagai pelindung; ketaatannya pada kehendak Allah; sedikitnya data mengenai Yusuf dalam Injil; doa kepada Yusuf.
 ---
 
-> Dengan hati seorang bapa: demikianlah Yusuf mengasihi Yesus, yang oleh keempat Injil disebut sebagai “anak Yusuf.”
+> Dengan sebuah hati bapa: yakni bagaimana Yusuf mengasihi Yesus, yang oleh keempat Injil disebut sebagai “Anak
+Yusuf."
 >
 > —Paus Fransiskus, [*Patris Corde*](http://www.dokpenkwi.org/wp-content/uploads/2020/12/Seri-Dokumen-Gerejawi-PATRIS-CORDE.pdf) (2020)
 
@@ -17,7 +18,9 @@ Apakah kamu ingin tahu siapa St. Yusuf dan mengapa ia penting bagi Gereja? Apaka
 # 1. Siapakah Yusuf itu?
 Yusuf adalah [suami Maria](https://opusdei.org/en/article/life-of-mary-iv-betrothal-to-joseph/) dan bapa angkat Yesus. Yusuf adalah anggota suku Yehuda. Ini berarti ia adalah [keturunan raja Daud](https://catholic-resources.org/Bible/Jesus-Genealogies.htm) (Mat 1:2–16; Luk 2:4). Dalam bahasa Ibrani, ‘Yusuf’ berarti ‘semoga Allah menambahkan.’ Ia bekerja sebagai “[tukang kayu](https://en.wikipedia.org/wiki/Tektōn)” (Mat 13:55; Mrk 6:3). Selain itu, ia dikenal sebagai orang yang [tulus hati](https://www.english.op.org/godzdogz/joseph-the-just-man/) (Mat 1:19).
 # 2. Dari mana Yusuf berasal?
-Kampung halamannya adalah [Betlehem](https://www.britannica.com/place/Bethlehem), meskipun selama sebagian besar hidupnya ia menetap di [Nazaret](https://www.britannica.com/place/Nazareth-Israel).Ia sering [bepergian](https://www.biblestudy.org/maps/the-journeys-of-mary-and-joseph.html). Ia bertunangan dengan Maria di Nazaret. Ia kemudian berangkat ke Betlehem untuk menghadiri sensus (Luk 2:4-6). Atas ilham seorang malaikat, ia melarikan diri ke Mesir bersama dengan Maria dan Yesus (Mat 2:13). Ketika kekacauan mereda, dia kembali ke Nazaret. Sebagai seorang Yahudi yang saleh, ia pergi ke Yerusalem untuk berziarah; setelah itu ia kembali lagi ke Nazaret (Mat 2:13). Itulah hal terakhir yang kita ketahui tentang Yusuf. Ia terakhir disebut dalam Lukas 2:51.
+Kampung halamannya adalah [Betlehem](https://www.britannica.com/place/Bethlehem), meskipun selama sebagian besar hidupnya ia menetap di [Nazaret](https://www.britannica.com/place/Nazareth-Israel).
+
+Ia sering [bepergian](https://www.biblestudy.org/maps/the-journeys-of-mary-and-joseph.html). Ia bertunangan dengan Maria di Nazaret. Ia kemudian berangkat ke Betlehem untuk menghadiri sensus (Luk 2:4-6). Atas ilham malaikat, ia melarikan diri ke Mesir bersama Maria dan Yesus (Mat 2:13). Ketika kekacauan mereda, dia kembali ke Nazaret. Sebagai seorang Yahudi yang saleh, ia berziarah ke Yerusalem; setelah itu ia kembali lagi ke Nazaret (Mat 2:13). Itulah hal terakhir yang kita ketahui tentang Yusuf. Ia terakhir disebut dalam Lukas 2:51.
 
 ![joseph flight egypt mary jesus](carpaccio_flight_egypt.jpg 'Carpaccio, Pelarian ke Mesir (c. 1515)')
 # 3. Kapan Yusuf meninggal dunia?
@@ -33,11 +36,13 @@ Yusuf adalah bapa angkat Yesus, tetapi ia juga adalah bapa semua orang kristiani
 
 [Tak terhitung jumlah gereja](https://en.wikipedia.org/wiki/List_of_churches_named_after_Saint_Joseph) yang didedikasikan kepada Yusuf dan [kota-kota yang menyandang namanya](https://en.wikipedia.org/wiki/List_of_places_named_after_Saint_Joseph). [Tak terhitung pula jumlah orang-orang kudus](https://yearofstjoseph.org/devotions/saints-devoted-to-st-joseph/) yang berdevosi kepadanya. Selain itu, “setiap buku doa mengandung doa-doa kepada Santo Yusuf. Doa-doa khusus dipanjatkan kepadanya setiap hari Rabu dan terutama selama bulan Maret, yang menurut tradisi didedikasikan kepadanya.”[^2]
 
+![saint joseph church cathedral hanoi](stjoseph_cathedral_hanoi.jpg 'Katedral St. Yusuf, Hanoi')
+
 Terlebih lagi, Yusuf menduduki tempat yang penting dalam ajaran para Paus. Paus Fransiskus menyatakan bahwa “setelah Maria, Bunda Allah, *tidak ada orang kudus yang lebih sering disebut dalam ajaran para Paus daripada Yusuf*, mempelainya.”[^3]
 # 5. Apa yang dapat saya pelajari dari Yusuf?
 Banyak hal! Pastinya, kita bisa belajar dari Yusuf *bagaimana menaati kehendak Allah*. Salah satu ciri ketaatan yang sejati adalah *kesigapan*. Seseorang bersikap taat ketika ia sigap untuk melakukan apa yang diminta kepadanya.
 
-Kamu mungkin bertanya: tapi, apa kehendak Allah untuk saya? Allah dapat menyampaikan kehendak-Nya kepada kamu dan saya melalui berbagai peristiwa hidup kita. Selama hidup Yusuf, Allah sering berbicara kepadanya dalam mimpi. Inilah mengapa kesenian kristiani sering menggambarkannya dalam keadaan tertidur. Benar: [Yusuf yang tertidur](https://www.ncregister.com/features/sleeping-st-joseph).
+Kamu mungkin bertanya: "tapi, apa kehendak Allah untuk saya?" Allah dapat menyampaikan kehendak-Nya kepada kamu dan saya melalui berbagai peristiwa hidup kita. Selama hidup Yusuf, misalnya, Allah sering berbicara kepadanya dalam mimpi. Inilah mengapa kesenian kristiani sering menggambarkannya dalam keadaan tertidur. Benar: [Yusuf yang tertidur](https://www.ncregister.com/features/sleeping-st-joseph).
 
 Yusuf adalah orang yang dengan sigap menanggapi kehendak Allah. Ia tidak pernah mengatakan: “Saya akan melakukannya *nanti*.” Begitu ia tahu apa yang Allah ingin ia lakukan, ia melaksanakannya. Setelah mimpi pertama, “Yusuf berbuat seperti yang diperintahkan malaikat Allah itu kepadanya. Ia mengambil Maria sebagai istrinya” (Mat 1:24). Setelah mimpi kedua, “diambilnya Anak itu serta ibu-Nya malam itu juga, lalu menyingkir ke Mesir” (Mat 2:14-15). Setelah mimpi ketiga, “diambilnya Anak itu serta ibu-Nya dan pergi ke tanah Israel” (Mat 2:21). Terakhir, setelah mimpi keempat, Yusuf pergi “ke daerah Galilea” (Mat 2:22-23).
 
@@ -61,7 +66,7 @@ Sederhananya, Yusuf suka membiarkan dirinya tersembunyi dari orang banyak. Ia ti
 > [s]etiap orang dapat menemukan dalam diri Santo Yusuf—laki-laki yang tidak diperhatikan, laki-laki dalam kehadiran sehari-hari, bijak dan tersembunyi—seorang perantara, seorang pendukung dan seorang pembimbing pada saat-saat sulit. Santo Yusuf mengingatkan kita bahwa yang tampaknya tersembunyi atau di “barisan kedua” memiliki peran tak tertandingi dalam sejarah keselamatan. Kata pengakuan dan penghargaan ditujukan kepada mereka semua.[^7]
 
 ![joseph flight egypt angel mary jesus](rubens_flight_egypt.jpg 'Rubens, Pelarian ke Mesir (1614)')
-# 7. How can I pray to St. Joseph?
+# 7. Bagaimana saya bisa berdoa kepada St. Yusuf?
 Ada banyak doa kepada St. Yusuf. Kamu dapat menemukan beberapa di [Situs Web Tahun St. Yusuf](https://yearofstjoseph.org/devotions/prayers/) atau di [National Catholic Register](https://www.ncregister.com/blog/8-prayers-to-saint-joseph). Saya lampirkan di bawah sebuah doa yang tidak ditemukan dalam dua situs yang saya cantumkan.
 ## *Salam, Penjaga Sang Penebus*
 Salam, Penjaga Sang Penebus, / Suami Perawan Maria yang Terberkati. / Kepadamu Allah mempercayakan Putra tunggal-Nya; / kepadamu Maria menaruh kepercayaannya; / bersama denganmu Yesus menjadi manusia.
