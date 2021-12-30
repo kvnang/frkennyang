@@ -9,8 +9,7 @@ category:
 excerpt: Artikel tentang siapa Yusuf; kota asalnya Betlehem dan Nazaret, tempat tinggalnya; dugaan tentang kematiannya; kedudukannya dalam Gereja sebagai pelindung; ketaatannya pada kehendak Allah; sedikitnya data mengenai Yusuf dalam Injil; doa kepada Yusuf.
 ---
 
-> Dengan sebuah hati bapa: yakni bagaimana Yusuf mengasihi Yesus, yang oleh keempat Injil disebut sebagai “Anak
-Yusuf."
+> Dengan sebuah hati bapa: yakni bagaimana Yusuf mengasihi Yesus, yang oleh keempat Injil disebut sebagai “Anak Yusuf."
 >
 > —Paus Fransiskus, [*Patris Corde*](http://www.dokpenkwi.org/wp-content/uploads/2020/12/Seri-Dokumen-Gerejawi-PATRIS-CORDE.pdf) (2020)
 
