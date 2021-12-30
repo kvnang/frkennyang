@@ -66,7 +66,7 @@ Sederhananya, Yusuf suka membiarkan dirinya tersembunyi dari orang banyak. Ia ti
 
 ![joseph flight egypt angel mary jesus](rubens_flight_egypt.jpg 'Rubens, Pelarian ke Mesir (1614)')
 # 7. Bagaimana saya bisa berdoa kepada St. Yusuf?
-Ada banyak doa kepada St. Yusuf. Kamu dapat menemukan beberapa di [Situs Web Tahun St. Yusuf](https://yearofstjoseph.org/devotions/prayers/) atau di [National Catholic Register](https://www.ncregister.com/blog/8-prayers-to-saint-joseph). Saya lampirkan di bawah sebuah doa yang tidak ditemukan dalam dua situs yang saya cantumkan.
+Ada banyak doa kepada St. Yusuf. Kamu dapat menemukan beberapa di [Situs Web Tahun St. Yusuf](https://yearofstjoseph.org/devotions/prayers/) atau di [National Catholic Register](https://www.ncregister.com/blog/8-prayers-to-saint-joseph). Saya lampirkan di bawah dua doa yang tidak ditemukan dalam situs-situs yang saya cantumkan.
 ## *Salam, Penjaga Sang Penebus*
 Salam, Penjaga Sang Penebus, / Suami Perawan Maria yang Terberkati. / Kepadamu Allah mempercayakan Putra tunggal-Nya; / kepadamu Maria menaruh kepercayaannya; / bersama denganmu Yesus menjadi manusia.
 
