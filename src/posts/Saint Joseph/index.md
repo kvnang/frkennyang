@@ -35,7 +35,7 @@ Joseph is Jesus’ foster father, but he is also the father of all Christians. T
 
 [Countless churches](https://en.wikipedia.org/wiki/List_of_churches_named_after_Saint_Joseph) have been dedicated to him and [cities named](https://en.wikipedia.org/wiki/List_of_places_named_after_Saint_Joseph) after him. [Innumerable saints](https://yearofstjoseph.org/devotions/saints-devoted-to-st-joseph/) are devoted to him. In addition, “[e]very prayer book contains prayers to Saint Joseph. Special prayers are offered to him each Wednesday and especially during the month of March, which is traditionally dedicated to him.”[^2]
 
-![saint joseph church cathedral hanoi](stjoseph_cathedral_hanoi.jpg 'St. Joseph's Cathedral, Hanoi')
+![saint joseph church cathedral hanoi](stjoseph_cathedral_hanoi.jpg 'Cathedral of St. Joseph, Hanoi')
 
 Moreover, Joseph occupies an important place in the Popes’ teaching. Pope Francis remarks that “[a]fter Mary, the Mother of God, *no saint is mentioned more frequently in the papal magisterium than Joseph*, her spouse.”[^3]
 # 5. What can I learn from Joseph?
@@ -69,6 +69,12 @@ There are many prayers to St. Joseph. You can find some at the [Year of St. Jose
 Hail, Guardian of the Redeemer, / Spouse of the Blessed Virgin Mary. / To you God entrusted his only Son; / in you Mary placed her trust; / with you Christ became man.
 
 Blessed Joseph, to us too, / show yourself a father / and guide us in the path of life. / Obtain for us grace, mercy and courage, / and defend us from every evil. Amen.[^8]
+
+## *Saint Joseph, Man of Silence*
+Saint Joseph, man of silence, you who in the Gospel did not utter a single word, teach us to fast from vain words, to rediscover the value of words that edify, encourage, console and support.
+
+Be close to those who suffer from words that hurt, like slander and backbiting, and help us always to match words with deeds. Amen.[^9]
+
 ## *To Thee, Joseph (Te Ioseph)*
 Joseph! to thee by hosts on high / and choirs of Christians, laud be paid! / saintly of life, by purest tie / joined unto her, the glorious Maid.
 
@@ -88,3 +94,4 @@ Spare us, O Trinity most High! / grant that, with Joseph, we may gain / Thy star
 [^6]:Pope Francis, [*Patris Corde*](http://www.vatican.va/content/francesco/en/apost_letters/documents/papa-francesco-lettera-ap_20201208_patris-corde.html) (2020).
 [^7]:Pope Francis, [*Patris Corde*](http://www.vatican.va/content/francesco/en/apost_letters/documents/papa-francesco-lettera-ap_20201208_patris-corde.html) (2020).
 [^8]:Pope Francis, [*Patris Corde*](http://www.vatican.va/content/francesco/en/apost_letters/documents/papa-francesco-lettera-ap_20201208_patris-corde.html) (2020).
+[^9]:Pope Francis, [General Audience](http://www.vatican.va/content/francesco/en/audiences/2021/documents/papa-francesco_20211215_udienza-generale.html) (15 December 2021).
