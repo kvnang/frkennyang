@@ -35,6 +35,8 @@ Joseph is Jesus’ foster father, but he is also the father of all Christians. T
 
 [Countless churches](https://en.wikipedia.org/wiki/List_of_churches_named_after_Saint_Joseph) have been dedicated to him and [cities named](https://en.wikipedia.org/wiki/List_of_places_named_after_Saint_Joseph) after him. [Innumerable saints](https://yearofstjoseph.org/devotions/saints-devoted-to-st-joseph/) are devoted to him. In addition, “[e]very prayer book contains prayers to Saint Joseph. Special prayers are offered to him each Wednesday and especially during the month of March, which is traditionally dedicated to him.”[^2]
 
+![saint joseph church cathedral hanoi](stjoseph_cathedral_hanoi.jpg 'St. Joseph's Cathedral, Hanoi')
+
 Moreover, Joseph occupies an important place in the Popes’ teaching. Pope Francis remarks that “[a]fter Mary, the Mother of God, *no saint is mentioned more frequently in the papal magisterium than Joseph*, her spouse.”[^3]
 # 5. What can I learn from Joseph?
 A lot of things! Most importantly, we can learn from Joseph *how to* *obey God’s will*. One of the characteristics of genuine obedience is *promptness*. A person is considered obedient when she readily carries out what she is being asked to do.
