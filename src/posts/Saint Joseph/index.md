@@ -64,7 +64,7 @@ Simply put, Joseph likes to go unnoticed. He does not seek honor and popularity.
 
 ![joseph flight egypt angel mary jesus](rubens_flight_egypt.jpg 'Rubens, The Flight into Egypt (1614)')
 # 7. How can I pray to St. Joseph?
-There are many prayers to St. Joseph. You can find some at the [Year of St. Joseph Website](https://yearofstjoseph.org/devotions/prayers/) or at the [National Catholic Register](https://www.ncregister.com/blog/8-prayers-to-saint-joseph). Here I provide you with two that are not on the webpages I just linked.
+There are many prayers to St. Joseph. You can find some at the [Year of St. Joseph Website](https://yearofstjoseph.org/devotions/prayers/) or at the [National Catholic Register](https://www.ncregister.com/blog/8-prayers-to-saint-joseph). Here I provide you with three that are not on the webpages I just linked.
 ## *Hail, Guardian of the Redeemer*
 Hail, Guardian of the Redeemer, / Spouse of the Blessed Virgin Mary. / To you God entrusted his only Son; / in you Mary placed her trust; / with you Christ became man.
 
