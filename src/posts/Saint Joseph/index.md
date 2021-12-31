@@ -14,6 +14,16 @@ excerpt: Article on who Joseph is; his native hometown Bethlehem and residence N
 > —Pope Francis, [*Patris Corde*](http://www.vatican.va/content/francesco/en/apost_letters/documents/papa-francesco-lettera-ap_20201208_patris-corde.html) (2020)
 
 Are you wondering who St. Joseph is and why he is important for the Church? Are you eager to learn more from him? In this article, I will answer seven most commonly asked questions on this great yet often-forgotten saint.
+
+## Contents
+1. [Who is Joseph?](/post/saint-joseph/#1-who-is-joseph)
+2. [Where is Joseph from?](/post/saint-joseph/#2-where-is-joseph-from)
+3. [When did Joseph die?](/post/saint-joseph/#3-when-did-joseph-die)
+4. [What is Joseph’s place in the Church?](/post/saint-joseph/#4-what-is-josephs-place-in-the-church)
+5. [What can I learn from Joseph?](/post/saint-joseph/#5-what-can-i-learn-from-joseph)
+6. [Why do we know so little about Joseph from the Gospels?](/post/saint-joseph/#6-why-do-we-know-so-little-about-joseph-from-the-gospels)
+7. [How can I pray to St. Joseph?](/post/saint-joseph/#7-how-can-i-pray-to-st-joseph)
+
 ## 1. Who is Joseph?
 Joseph is the [husband of Mary](https://opusdei.org/en/article/life-of-mary-iv-betrothal-to-joseph/) and the legal father of Jesus. Joseph is a member of the tribe of Judah. This means that he belongs to the [royal line of David](https://catholic-resources.org/Bible/Jesus-Genealogies.htm) (Mt 1:2–16; Lk 2:4). In Hebrew, ‘Joseph’ means “may the Lord add.” He is a “[carpenter](https://en.wikipedia.org/wiki/Tektōn)” by profession (Mt 13:55; Mk 6:3). In addition, he is known as a [just or righteous man](https://www.english.op.org/godzdogz/joseph-the-just-man/) (Mt 1:19).
 ## 2. Where is Joseph from?
