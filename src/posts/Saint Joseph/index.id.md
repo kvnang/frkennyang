@@ -14,6 +14,16 @@ excerpt: Artikel tentang siapa Yusuf; kota asalnya Betlehem dan Nazaret, tempat 
 > —Paus Fransiskus, [*Patris Corde*](http://www.dokpenkwi.org/wp-content/uploads/2020/12/Seri-Dokumen-Gerejawi-PATRIS-CORDE.pdf) (2020)
 
 Apakah kamu ingin tahu siapa St. Yusuf dan mengapa ia penting bagi Gereja? Apakah kamu ingin belajar lebih banyak darinya? Dalam artikel ini, saya akan menjawab tujuh pertanyaan yang paling sering diajukan mengenai orang kudus yang luar biasa namun sering dilupakan ini.
+
+## Daftar Isi
+1. [Siapakah Yusuf itu?](/id/post/saint-joseph/#1-siapakah-yusuf-itu)
+2. [Dari mana Yusuf berasal?](/id/post/saint-joseph/#2-dari-mana-yusuf-berasal)
+3. [Kapan Yusuf meninggal dunia?](/id/post/saint-joseph/#3-kapan-yusuf-meninggal-dunia)
+4. [Apa kedudukan Yusuf dalam Gereja?](/id/post/saint-joseph/#4-apa-kedudukan-yusuf-dalam-gereja)
+5. [Apa yang dapat saya pelajari dari Yusuf?](/id/post/saint-joseph/#5-apa-yang-dapat-saya-pelajari-dari-yusuf)
+6. [Mengapa hanya ada sedikit informasi mengenai Yusuf dalam Injil?](/id/post/saint-joseph/#6-mengapa-hanya-ada-sedikit-informasi-mengenai-yusuf-dalam-injil)
+7. [Bagaimana saya bisa berdoa kepada St. Yusuf?](/id/post/saint-joseph/#7-bagaimana-saya-bisa-berdoa-kepada-st-yusuf)
+
 ## 1. Siapakah Yusuf itu?
 Yusuf adalah [suami Maria](https://opusdei.org/en/article/life-of-mary-iv-betrothal-to-joseph/) dan bapa angkat Yesus. Yusuf adalah anggota suku Yehuda. Ini berarti ia adalah [keturunan raja Daud](https://catholic-resources.org/Bible/Jesus-Genealogies.htm) (Mat 1:2–16; Luk 2:4). Dalam bahasa Ibrani, ‘Yusuf’ berarti ‘semoga Allah menambahkan.’ Ia bekerja sebagai “[tukang kayu](https://en.wikipedia.org/wiki/Tektōn)” (Mat 13:55; Mrk 6:3). Selain itu, ia dikenal sebagai orang yang [tulus hati](https://www.english.op.org/godzdogz/joseph-the-just-man/) (Mat 1:19).
 ## 2. Dari mana Yusuf berasal?
