@@ -23,6 +23,11 @@ Children’s education no doubt occupies one of the top positions in Catholic pa
 
 Are you a **Catholic parent** trying to pick a school to enroll your children to? Are you a **school administrator**, a **teacher**, a **parish priest**, or a **chaplain** involved, in one way or another, in running a Catholic school? Or, are you an **ordinary Catholic** seeking to better the panorama of Catholic schools in your area? If you answer in the affirmative, this article is for you. Here, I will elaborate on three characteristics of authentic Catholic schools in light of a timeless Vatican II document titled [_Gravissimum Educationis_](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_gravissimum-educationis_en.html), published in 1965.
 
+## Contents
+1. [Being Part of the Church](/post/what-make-catholic-schools-catholic/#1-being-part-of-the-church)
+2. [Faith-Reason Harmony](/post/what-make-catholic-schools-catholic/#2-faith-reason-harmony)
+3. [Teaching as a Vocation](/post/what-make-catholic-schools-catholic/#3-teaching-as-a-vocation)
+
 ## 1. Being Part of the Church
 
 The first trait that sets Catholic schools apart from other educational institutions is **their consciousness of being part of the Church**. Non-Catholic schools might fight solely to follow the market trend or meet the demands of their ambitious board of directors. A truly Catholic school, however, will never forget that it belongs to the very Church founded by Christ. Its mission is no different than the Church’s. Every Catholic school is a means—the most important one indeed[^1]—with which the Church imparts Christian education.[^2]
