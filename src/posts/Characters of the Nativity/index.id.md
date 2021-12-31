@@ -34,7 +34,7 @@ Kenangan penting saya yang lain berkaitan dengan Kandang Natal pertama yang dibe
 </div>
 
 
-# 1. Gembala dan Orang Majus
+## 1. Gembala dan Orang Majus
 
 Mari kita mulai kunjungan kita dengan mengamati para gembala dan orang [majus](https://www.catholic.com/encyclopedia/magi). Pertanyaan kita yang pertama adalah: mengapa mereka ada di Kandang Natal?
 
@@ -54,7 +54,7 @@ Hal pertama yang mengejutkan saya mengenai Basilika ini adalah betapa rendahnya 
 
 Itulah yang diajarkan Betlehem kepada kita: untuk mengenal siapa bayi Yesus, kita harus menunduk. Kita harus turun dari "kuda" kesombongan kita. Untuk menghampiri tempat kelahiran-Nya, kita harus rendah hati.
 
-# 2. Lembu dan Keledai
+## 2. Lembu dan Keledai
 
 Tradisi menata Kandang Natal berakar pada Misa Natal yang dirayakan oleh [St. Fransiskus dari Asisi](https://www.britannica.com/biography/Saint-Francis-of-Assisi) dalam sebuah gua di [Greccio](http://www.visitgreccio.com/en/attraction/shrine-greccio#), Italia, pada tahun 1223. Uniknya, sebelum Misa, sang santo mengarahkan agar seekor [lembu](https://www.britannica.com/animal/ox-mammal-Bos-taurus) dan seekor [keledai](https://www.britannica.com/animal/ass) diletakkan di sana.[^1] Kedua hewan ini juga disebut dalam banyak lagu Natal (misalnya, “[Good Christian Men Rejoice](https://youtu.be/gkCjddxp1g4),” “[What Child is This](https://en.wikisource.org/wiki/What_Child_Is_This%3F),” “[The Little Drummer Boy](https://youtu.be/qJ_MGWio-vc)”).
 
@@ -72,7 +72,7 @@ Dengan kata lain, Yesus lahir di antara kejahatan dan ketidaktaatan manusia.
 
 Apakah kita sudah *mengenal* Yesus seperti lembu mengenal pemiliknya? Atau, setidaknya, apakah kita berusaha untuk *mengenal* *Dia lebih baik*? Jika kita mengakui-Nya sebagai Tuhan kita, ada tempat bagi kita dekat palungan-Nya.
 
-# 3. Maria dan Yusuf
+## 3. Maria dan Yusuf
 
 Di dekat bayi Yesus ada Maria dan Yusuf, yang dengan khidmat memandang Allah-yang-menjadi-manusia. Kata-kata tidak mampu mengungkapkan apa yang ada di hadapan mereka. Mereka berdua tampak diam dalam keheningan. Paus Fransiskus mengatakan bahwa
 
@@ -90,7 +90,7 @@ Namun, keheningan memiliki nilai yang tak terhingga. Keheningan menunjukkan kete
 
 Di dunia yang acuh tak acuh dan dangkal ini, kita dapat belajar hening, merenung, dan mendengarkan orang lain dari Maria dan Yusuf.
 
-# 4. Bala Tentara Malaikat
+## 4. Bala Tentara Malaikat
 
 Sejumlah besar malaikat menampakkan diri kepada para gembala. Kata Yunani untuk ‘bala tentara’ adalah *stratias*—ingat kata ‘strategi.’ Kita membaca bahwa
 
@@ -108,7 +108,7 @@ Namun, harapannya tidak terwujud. Nyatanya, yang terjadi adalah justru sebalikny
 
 Lihat? Allah memanfaatkan kejahatan untuk mendatangkan kebaikan.
 
-# 5. Bayi Yesus	
+## 5. Bayi Yesus	
 
 Akhirnya, Kandang Natal kita menjadi hidup ketika kita membaringkan bayi Yesus di palungan. Ada dua hal penting yang bisa kita renungkan mengenai tokoh utama kita ini.
 
