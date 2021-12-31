@@ -22,6 +22,13 @@ Saat itu, saya belum sadar bahwa Rosario yang saya pegang dengan tangan saya ada
 
 Dalam artikel ini, saya akan menjelaskan tujuh kiat untuk berdoa Rosario. Sebelum saya membahas kiat-kiat ini, marilah kita ingat kembali (A) apa itu Rosario, (B) sejarah doa Rosario, (C) mengapa Rosario itu penting, dan (D) manfaat yang bisa kita peroleh apabila kita mendaraskannya dengan sungguh-sungguh.
 
+## Daftar Isi
+A. [Apa itu Rosario?](/id/post/7-tips-on-how-to-pray-the-rosary/#a-apa-itu-rosario)
+B. [Dari mana asal doa Rosario?](/id/post/7-tips-on-how-to-pray-the-rosary/#b-dari-mana-asal-doa-rosario)
+C. [Seberapa penting Rosario?](/id/post/7-tips-on-how-to-pray-the-rosary/#c-seberapa-penting-rosario)
+D. [Manfaat apa yang saya terima lewat doa Rosario?](/id/post/7-tips-on-how-to-pray-the-rosary/#d-manfaat-apa-yang-saya-terima-lewat-doa-rosario)
+E. [Bagaimana saya harus mendaraskan Rosario?](/id/post/7-tips-on-how-to-pray-the-rosary/#e-bagaimana-saya-harus-mendaraskan-rosario)
+
 ## A. Apa itu Rosario?
 
 Rosario adalah “rumusan doa yang terdiri dari [dua puluh] dekade Salam Maria yang didahului oleh Bapa Kami. Sembari mendaraskan doa-doa tersebut, kita dengan khidmat merenungkan peristiwa-peristiwa penebusan kita.”[^1] Dalam bukunya [_The Secret of the Rosary_](https://amzn.to/3uBTDXP), [St. Louis-Marie Grignion De Montfort](https://www.newadvent.org/cathen/09384a.htm) menggambarkan Rosario sebagai **“perpaduan yang penuh berkat” antara doa mental dan doa vokal** (untuk mengetahui lebih jauh mengenai perbedaan antara doa mental dan doa vokal, [klik di sini](https://stpaulcenter.com/an-introduction-to-the-types-of-prayer/)).[^2] Di satu sisi, Rosario adalah **doa mental** karena ia merupakan sebuah perenungan atas peristiwa dan keutamaan Kristus dan Bunda Maria. Di sisi lain, Rosario adalah **doa vokal** karena ia terdiri dari lima Bapa Kami dan lima puluh Salam Maria.

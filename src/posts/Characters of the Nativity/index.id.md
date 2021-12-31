@@ -16,6 +16,13 @@ Natal adalah momen tahunan yang paling membahagiakan bagi banyak orang. Tak terh
 
 Kenangan penting saya yang lain berkaitan dengan Kandang Natal pertama yang dibeli orang tua saya untuk rumah kami. Liburan dan pohon Natal sangatlah indah, namun saya belum menemukan tradisi Natal lain yang memusatkan hati kita pada misteri Allah-yang-menjadi-manusia lebih baik daripada [Kandang Natal](https://glencairnmuseum.org/nativity-visualelements). Dengan merenungkan karakter-karakter dalam Kandang Natal, kita akan lebih memahami dan menghargai makna Natal.
 
+## Daftar Isi
+1. [Gembala dan Orang Majus](/id/post/characters-of-the-nativity/#1-gembala-dan-orang-majus)
+2. [Lembu dan Keledai](/id/post/characters-of-the-nativity/#2-lembu-dan-keledai)
+3. [Maria dan Yusuf](/id/post/characters-of-the-nativity/#3-maria-dan-yusuf)
+4. [Bala Tentara Malaikat](/id/post/characters-of-the-nativity/#4-bala-tentara-malaikat)
+5. [Bayi Yesus](/id/post/characters-of-the-nativity/#5-bayi-yesus)
+
 <div class="book">
   <div class="book__img">
     <div class="book__img__inner">
