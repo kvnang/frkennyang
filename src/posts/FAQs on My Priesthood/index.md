@@ -10,6 +10,17 @@ excerpt: This article covers my priesthood, why priests are called “father,”
 
 In this article, I provide answers to the questions I get asked the most. If your question is not here, feel free to reach out to me via [the contact form](/#contact) on the home page.
 
+## Contents
+1. [Who are you?](/post/faqs-on-my-priesthood/#1-who-are-you)
+2. [How should we address you?](/post/faqs-on-my-priesthood/#2-how-should-we-address-you)
+3. [Why are you called ‘Father’?](/post/faqs-on-my-priesthood/#3-why-are-you-called-father)
+4. [Which religious order do you belong to? What title should we put behind your name?](/post/faqs-on-my-priesthood/#4-which-religious-order-do-you-belong-to-what-title-should-we-put-behind-your-name)
+5. [Who are diocesan priests?](/post/faqs-on-my-priesthood/#5-who-are-diocesan-priests)
+6. [How are diocesan priests different from religious order priests?](/post/faqs-on-my-priesthood/#6-how-are-diocesan-priests-different-from-religious-order-priests)
+7. [What promises do diocesan priests have to make?](/post/faqs-on-my-priesthood/#7-what-promises-do-diocesan-priests-have-to-make)
+8. [As a priest, what do you do all day?](/post/faqs-on-my-priesthood/#8-as-a-priest-what-do-you-do-all-day)
+9. [Why do you wear peculiar clothing?](/post/faqs-on-my-priesthood/#9-why-do-you-wear-peculiar-clothing)
+
 ## 1. Who are you?
 
 I am a **Catholic priest**. On who a Catholic priest is, check out [this article](https://www.catholic.com/encyclopedia/priest).
