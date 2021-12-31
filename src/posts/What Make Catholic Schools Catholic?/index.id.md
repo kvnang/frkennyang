@@ -25,6 +25,11 @@ Tidak bisa diragukan bahwa pendidikan anak menempati salah satu posisi teratas d
 
 Apakah Anda **orang tua Katolik** yang berusaha untuk memilih sekolah untuk anak-anak Anda? Apakah Anda seorang **pengelola sekolah**, **guru**, **pastor paroki**, atau **kapelan** yang terlibat dalam memajukan sekolah Katolik? Atau, apakah Anda **seorang Katolik biasa** yang ingin memperbaiki panorama sekolah Katolik di daerah Anda? Jika Anda menjawab iya, maka artikel ini ditulis untuk Anda. Di sini, saya akan menguraikan tiga ciri-ciri sekolah Katolik yang autentik berdasarkan dokumen Vatikan II yang berjudul [_Gravissimum Educationis_](https://katolisitas.org/gravissimum-educationis/), yang diterbitkan pada tahun 1965.
 
+## Daftar Isi
+1. [Bagian dari Gereja](/post/what-make-catholic-schools-catholic/#1-bagian-dari-gereja)
+2. [Keselarasan Iman-Akal Budi](/post/what-make-catholic-schools-catholic/#2-keselarasan-iman-akal-budi)
+3. [Mengajar: Sebuah Panggilan](/post/what-make-catholic-schools-catholic/#3-mengajar-sebuah-panggilan)
+
 ## 1. Bagian dari Gereja
 
 Ciri pertama yang membedakan sebuah sekolah Katolik dari lembaga pendidikan lainnya adalah **kesadarannya sebagai bagian dari Gereja**. Sekolah-sekolah non-Katolik bisa jadi berjuang semata-mata untuk mengikuti tren pasar atau memenuhi tuntutan para pengurus yayasan mereka yang ambisius. Sebaliknya, sebuah sekolah yang benar-benar Katolik tidak akan pernah lupa bahwa ia adalah bagian dari Gereja yang didirikan oleh Kristus. Misinya tidak berbeda sama sekali dari misi Gereja. Setiap sekolah Katolik adalah sebuah sarana—sarana yang paling penting[^1]—bagi Gereja untuk menyebarluaskan pendidikan kristiani.[^2]
@@ -60,7 +65,7 @@ Sebetulnya, keselarasan antara iman dan akal budi menyiratkan perlunya usaha yan
 
 Hanya apabila sebuah sekolah menawarkan pendidikan integral yang ditandai dengan keselarasan antara iman dan akal budi, ia layak menyandang nama ‘Katolik.’
 
-# 3. Mengajar: Sebuah Panggilan
+## 3. Mengajar: Sebuah Panggilan
 
 Ciri terakhir dari sekolah Katolik yang sejati adalah keyakinannya bahwa **tugas mengajar yang diembannya adalah sebuah panggilan**.[^8] Memang, ide ini tidak dimiliki secara eksklusif oleh kaum Katolik. Guru-guru kristiani non-Katolik atau bahkan guru-guru non-kristiani pun bisa jadi dengan tulus meyakini bahwa mereka dipanggil oleh Allah—atau oleh dewa-dewa lain—untuk mengajar. Namun sebuah artikel tentang sekolah Katolik tidak akan lengkap tanpa rujukan kepada para guru, yang seharusnya “menyadari, bahwa terutama peranan merekalah yang menentukan bagi sekolah Katolik, untuk dapat melaksanakan rencana-rencana dan usaha-usahanya.”[^9]
 
