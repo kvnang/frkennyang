@@ -22,6 +22,11 @@ At the same time, though, we should not forget that marriage is not a product of
 
 Are you currently dating and preparing yourself for marriage? Are you a spouse? Or, are you simply somebody interested in knowing more about marriage? If you answer in the affirmative, this article is written for you. Let us together reflect on the words of the marriage consent.
 
+## Contents
+1. [Marriage: a Free Act](/post/what-do-you-promise-on-your-wedding-day/#1-marriage-a-free-act)
+2. [Spouses: Ministers of Christ](/post/what-do-you-promise-on-your-wedding-day/#2-spouses-ministers-of-christ)
+3. [Marriage: One, Indissoluble, and Open to Life](/post/what-do-you-promise-on-your-wedding-day/#3-marriage-one-indissoluble-and-open-to-life)
+
 ![brides smiling wedding day](brides2.jpg)
 
 ## 1. Marriage: a Free Act
