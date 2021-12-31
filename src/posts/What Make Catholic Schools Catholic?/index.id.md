@@ -26,9 +26,9 @@ Tidak bisa diragukan bahwa pendidikan anak menempati salah satu posisi teratas d
 Apakah Anda **orang tua Katolik** yang berusaha untuk memilih sekolah untuk anak-anak Anda? Apakah Anda seorang **pengelola sekolah**, **guru**, **pastor paroki**, atau **kapelan** yang terlibat dalam memajukan sekolah Katolik? Atau, apakah Anda **seorang Katolik biasa** yang ingin memperbaiki panorama sekolah Katolik di daerah Anda? Jika Anda menjawab iya, maka artikel ini ditulis untuk Anda. Di sini, saya akan menguraikan tiga ciri-ciri sekolah Katolik yang autentik berdasarkan dokumen Vatikan II yang berjudul [_Gravissimum Educationis_](https://katolisitas.org/gravissimum-educationis/), yang diterbitkan pada tahun 1965.
 
 ## Daftar Isi
-1. [Bagian dari Gereja](id/post/what-make-catholic-schools-catholic/#1-bagian-dari-gereja)
-2. [Keselarasan Iman-Akal Budi](id/post/what-make-catholic-schools-catholic/#2-keselarasan-iman-akal-budi)
-3. [Mengajar: Sebuah Panggilan](id/post/what-make-catholic-schools-catholic/#3-mengajar-sebuah-panggilan)
+1. [Bagian dari Gereja](/id/post/what-make-catholic-schools-catholic/#1-bagian-dari-gereja)
+2. [Keselarasan Iman-Akal Budi](/id/post/what-make-catholic-schools-catholic/#2-keselarasan-iman-akal-budi)
+3. [Mengajar: Sebuah Panggilan](/id/post/what-make-catholic-schools-catholic/#3-mengajar-sebuah-panggilan)
 
 ## 1. Bagian dari Gereja
 
