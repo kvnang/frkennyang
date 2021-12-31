@@ -11,8 +11,8 @@ Dalam artikel ini, saya akan menjawab pertanyaan-pertanyaan yang paling sering s
 
 ## Daftar Isi
 1. [Siapa Anda?](/id/post/faqs-on-my-priesthood/#1-siapa-anda)
-2. [Bagaimana kami harus memanggil Anda?](/id/post/faqs-on-my-priesthood/#1-siapa-anda/id/post/faqs-on-my-priesthood/#1-siapa-anda)
-3. [Mengapa Anda dipanggil ‘*Father*’??](/id/post/faqs-on-my-priesthood/#3-mengapa-anda-dipanggil-father)
+2. [Bagaimana kami harus memanggil Anda?](/id/post/faqs-on-my-priesthood/#2-bagaimana-kami-harus-memanggil-anda)
+3. [Mengapa Anda dipanggil ‘*Father*’?](/id/post/faqs-on-my-priesthood/#3-mengapa-anda-dipanggil-father)
 4. [Anda tergabung dalam ordo/tarekat apa? Embel-embel apa yang harus kami letakkan di belakang nama Anda?](/id/post/faqs-on-my-priesthood/#4-anda-tergabung-dalam-ordotarekat-apa-embel-embel-apa-yang-harus-kami-letakkan-di-belakang-nama-anda)
 5. [Siapa itu imam diosesan?](/id/post/faqs-on-my-priesthood/#5-siapa-itu-imam-diosesan)
 6. [Apa perbedaan antara imam diosesan dan imam tarekat religius?](/id/post/faqs-on-my-priesthood/#6-apa-perbedaan-antara-imam-diosesan-dan-imam-tarekat-religius)
