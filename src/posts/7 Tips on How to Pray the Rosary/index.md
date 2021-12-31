@@ -22,6 +22,13 @@ Back then, little did I know that the Rosary I fingered was a powerful weapon:
 
 In this article, I will provide you with seven tips on how to pray the Rosary. Before jumping right into these tips, let us first recall (A) what the Rosary is, (B) a little bit of its history, (C) its importance, and (D) the benefits we may obtain by devoutly reciting it.
 
+## Contents
+A. [What is the Rosary?](/post/7-tips-on-how-to-pray-the-rosary/#a-what-is-the-rosary)
+B. [Where does the Rosary come from?](/post/7-tips-on-how-to-pray-the-rosary/#b-where-does-the-rosary-come-from)
+C. [How important is the Rosary?](/post/7-tips-on-how-to-pray-the-rosary/#c-how-important-is-the-rosary)
+D. [What benefits do I receive from praying the Rosary?](/post/7-tips-on-how-to-pray-the-rosary/#d-what-benefits-do-i-receive-from-praying-the-rosary)
+E. [How should I recite the Rosary?](/post/7-tips-on-how-to-pray-the-rosary/#e-how-should-i-recite-the-rosary)
+
 ## A. What is the Rosary?
 
 The Rosary is “a prayer formula consisting of [twenty] decades of Hail Marys preceded by the Our Father, during the recitation of which we piously meditate on the corresponding mysteries of our redemption.”[^1] In his book [_The Secret of the Rosary_](https://amzn.to/3uBTDXP), [St. Louis-Marie Grignion De Montfort](https://www.newadvent.org/cathen/09384a.htm) more graphically describes the Rosary as **“a blessed blending” of mental and vocal prayers** (more on the differences between mental and vocal prayers, [click here](https://stpaulcenter.com/an-introduction-to-the-types-of-prayer/)).[^2] On the one hand, it is a **mental prayer** because it consists in the meditation on the mysteries and virtues of Christ and Mary. It is, on the other hand, a **vocal prayer** since it is made up of five Our Fathers and fifty Hail Marys.
