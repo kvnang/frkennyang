@@ -33,7 +33,7 @@ Another important memory of mine has to do with the first Nativity scene my pare
   </div>
 </div>
 
-# 1. The Shepherds and the Magi
+## 1. The Shepherds and the Magi
 
 Let’s begin our reflection by looking at the shepherds and the [magi](https://www.catholic.com/encyclopedia/magi). Our first question would be: why are they there?
 
@@ -53,7 +53,7 @@ As we approached the Basilica, the first thing that struck me was how low the en
 
 That’s what Bethlehem teaches us: to recognize who the baby Jesus is, we have to bow down. We must dismount the "horse" of our pride. To approach his birthplace, we ought to be humble.
 
-# 2. The Ox and the Ass
+## 2. The Ox and the Ass
 
 The tradition of setting up Nativity scenes can be traced back to the Christmas Mass celebrated by [St. Francis of Assisi](https://www.britannica.com/biography/Saint-Francis-of-Assisi) at a cave in [Greccio](http://www.visitgreccio.com/en/attraction/shrine-greccio#), Italy, in 1223. Curiously, prior to the Mass, the saint had directed that an [ox](https://www.britannica.com/animal/ox-mammal-Bos-taurus) and an [ass](https://www.britannica.com/animal/ass) should be present there.[^1] These two animals are also present in numerous Christmas carols (e.g., “[Good Christian Men Rejoice](https://youtu.be/gkCjddxp1g4),” “[What Child is This](https://en.wikisource.org/wiki/What_Child_Is_This%3F),” “[The Little Drummer Boy](https://youtu.be/qJ_MGWio-vc)”).
 
@@ -71,7 +71,7 @@ In fact, Jesus was born surrounded by humanity’s wickedness and disobedience.
 
 Can we affirm that we *know* Jesus as the ox knows its owner? Or, at least, do we seek to *know* *him better*? If we recognize him as our owner, as our Lord, there’s a place for us near his crib.
 
-# 3. Mary and Joseph
+## 3. Mary and Joseph
 
 Near the baby Jesus stand Mary and Joseph, gazing at God-made-man. Words are incapable of expressing what’s before them. They are both silent. Pope Francis writes that
 
@@ -89,7 +89,7 @@ Yet silence is priceless. It indicates openness and readiness to listen. Our soc
 
 In this noisy, indifferent, and superficial world, we can surely benefit from learning from Mary and Joseph the arts of silence, listening, and contemplation.
 
-# 4. The Host of Angels
+## 4. The Host of Angels
 
 A host of angels appeared to the shepherds. The Greek word for host is *stratias*—think, for example, of ‘strategy’—which means ‘army.’ We read that
 
@@ -107,7 +107,7 @@ Well, not so. In fact, the contrary happened: they remembered it all the more! W
 
 See? God makes use of evil in order to bring about good.
 
-# 5. The Baby Jesus
+## 5. The Baby Jesus
 
 Finally, our Nativity scene becomes alive when we lay baby Jesus down on the manger. There are two important things we can notice concerning him.
 
