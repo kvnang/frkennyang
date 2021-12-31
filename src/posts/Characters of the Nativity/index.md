@@ -16,6 +16,13 @@ Christmas is the happiest moment of the year for many. In fact, countless beauti
 
 Another important memory of mine has to do with the first Nativity scene my parents bought for our home. Vacations and Christmas trees were splendid, yet it’s hard for me to think of a Christmas-related tradition that centers us on the mystery of God-made-man better than the [Nativity scene](https://glencairnmuseum.org/nativity-visualelements). By meditating on the figures of the crèche, we shall better appreciate the meaning of Christmas.
 
+## Contents
+1. [The Shepherds and the Magi](/post/characters-of-the-nativity/#1-the-shepherds-and-the-magi)
+2. [The Ox and the Ass](/post/characters-of-the-nativity/#2-the-ox-and-the-ass)
+3. [Mary and Joseph](/post/characters-of-the-nativity/#3-mary-and-joseph)
+4. [The Host of Angels](/post/characters-of-the-nativity/#4-the-host-of-angels)
+5. [The Baby Jesus](/post/characters-of-the-nativity/#5-the-baby-jesus)
+
 <div class="book">
   <div class="book__img">
     <div class="book__img__inner">
