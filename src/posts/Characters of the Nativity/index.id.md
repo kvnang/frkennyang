@@ -43,6 +43,14 @@ Kenangan penting saya yang lain berkaitan dengan Kandang Natal pertama yang dibe
 
 ## 1. Gembala dan Orang Majus
 
+> Maka masuklah [orang-orang majus] ke dalam rumah itu dan melihat Anak itu bersama Maria, ibu-Nya, lalu sujud menyembah Dia. Mereka pun membuka tempat harta bendanya dan mempersembahkan persembahan kepada-Nya, yaitu emas, kemenyan dan mur.
+> 
+> —Matius 2:11
+
+> Lalu [para gembala] cepat-cepat berangkat dan menjumpai Maria dan Yusuf dan bayi itu, yang sedang berbaring di dalam palungan. Dan ketika mereka melihat-Nya, mereka memberitahukan apa yang telah dikatakan kepada mereka tentang Anak itu.
+> 
+> —Lukas 2:16–17
+
 Mari kita mulai kunjungan kita dengan mengamati para gembala dan orang [majus](https://www.catholic.com/encyclopedia/magi). Pertanyaan kita yang pertama adalah: mengapa mereka ada di Kandang Natal?
 
 Dalam salah satu khotbahnya, [Fulton Sheen](https://amzn.to/3D0TQ9j) mengatakan bahwa gembala adalah mereka yang tahu bahwa *mereka tidak tahu apa-apa*. Tidak jauh berbeda, orang majus adalah mereka yang tahu bahwa *mereka tidak tahu segalanya*.
@@ -81,6 +89,10 @@ Apakah kita sudah *mengenal* Yesus seperti lembu mengenal pemiliknya? Atau, seti
 
 ## 3. Maria dan Yusuf
 
+> Ketika [Yusuf dan Maria] di situ tibalah waktunya bagi Maria untuk bersalin, dan ia melahirkan seorang anak laki-laki … .
+> 
+> —Lukas 2:6–7
+
 Di dekat bayi Yesus ada Maria dan Yusuf, yang dengan khidmat memandang Allah-yang-menjadi-manusia. Kata-kata tidak mampu mengungkapkan apa yang ada di hadapan mereka. Mereka berdua tampak diam dalam keheningan. Paus Fransiskus mengatakan bahwa
 
 > kelahiran seorang anak membangkitkan kegembiraan dan rasa kagum; kelahiran seorang anak menempatkan misteri kehidupan yang agung di hadapan kita. Melihat mata yang cerah dari sebuah pasangan muda yang menatap anak mereka yang baru lahir, kita dapat memahami perasaan Maria dan Yusuf yang merasakan kehadiran Allah dalam hidup mereka ketika mereka memandang bayi Yesus.
@@ -115,7 +127,11 @@ Namun, harapannya tidak terwujud. Nyatanya, yang terjadi adalah justru sebalikny
 
 Lihat? Allah memanfaatkan kejahatan untuk mendatangkan kebaikan.
 
-## 5. Bayi Yesus	
+## 5. Bayi Yesus
+
+> [Maria] melahirkan seorang anak laki-laki, anaknya yang sulung, lalu dibungkusnya dengan lampin dan dibaringkannya di dalam palungan, karena tidak ada tempat bagi mereka di rumah penginapan.
+> 
+> —Lukas 2:7
 
 Akhirnya, Kandang Natal kita menjadi hidup ketika kita membaringkan bayi Yesus di palungan. Ada dua hal penting yang bisa kita renungkan mengenai tokoh utama kita ini.
 
@@ -131,7 +147,7 @@ Hal kedua yang kita amati adalah bayi Yesus dibaringkan “di dalam [palungan](h
 
 ![joseph holding baby jesus christ](joseph_reni.jpg 'Reni, Saint Joseph and the Christ Child (1640)')
 
-Sembari kita merenungkan Yesus yang memberikan diri-Nya sebagai makanan bagi kita, sosok Yusuf menjadi menonjol. Kunci pintu [tabernakel](https://www.catholic.com/qa/what-is-a-tabernacle) di beberapa kapel dan gereja terkait dengan sebuah medali dengan ukiran kata-kata berikut: “*Ite ad Joseph*”—“[Pergilah kepada Yusuf](https://aleteia.org/2020/12/10/why-is-go-to-joseph-a-prayer/)”—(Kej 41:55).[^4] Kalimat ini, yang sebenarnya merujuk pada [Yusuf putra Yakub](https://www.britannica.com/biography/Joseph-biblical-figure), secara populer diaplikasikan kepada Yusuf suami Maria. Seperti Yusuf dalam Perjanjian Lama yang memberi makan seluruh bangsa Israel, Yusuf dalam Perjanjian Baru juga memberi kita makan. Namun, ia menyuguhi kita bukan dengan biji-biji gandum yang dipakai untuk membuat roti biasa (Kej 42-44), alih-alih dengan **Roti Hidup** yang adalah Yesus sendiri (Yoh 6:35).
+Sembari kita merenungkan Yesus yang memberikan diri-Nya sebagai makanan bagi kita, [sosok Yusuf](/id/post/saint-joseph) menjadi menonjol. Kunci pintu [tabernakel](https://www.catholic.com/qa/what-is-a-tabernacle) di beberapa kapel dan gereja terkait dengan sebuah medali dengan ukiran kata-kata berikut: “*Ite ad Joseph*”—“[Pergilah kepada Yusuf](https://aleteia.org/2020/12/10/why-is-go-to-joseph-a-prayer/)”—(Kej 41:55).[^4] Kalimat ini, yang sebenarnya merujuk pada [Yusuf putra Yakub](https://www.britannica.com/biography/Joseph-biblical-figure), secara populer diaplikasikan kepada Yusuf suami Maria. Seperti Yusuf dalam Perjanjian Lama yang memberi makan seluruh bangsa Israel, Yusuf dalam Perjanjian Baru juga memberi kita makan. Namun, ia menyuguhi kita bukan dengan biji-biji gandum yang dipakai untuk membuat roti biasa (Kej 42-44), alih-alih dengan *Roti Hidup* yang adalah Yesus sendiri (Yoh 6:35).
 
 [^1]:Lih. Ratzinger, [*The Blessing of Christmas*](https://amzn.to/3cWxmff), 77.
 [^2]:Ratzinger, [*The Blessing of Christmas*](https://amzn.to/3cWxmff), 75–76.
