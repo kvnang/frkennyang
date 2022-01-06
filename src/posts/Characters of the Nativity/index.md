@@ -42,6 +42,14 @@ Another important memory of mine has to do with the first Nativity scene my pare
 
 ## 1. The Shepherds and the Magi
 
+> On entering the house, [the wise men] saw the child with Mary his mother; and they knelt down and paid him homage. Then, opening their treasure chests, they offered him gifts of gold, frankincense, and myrrh.
+> 
+> —Matthew 2:11
+
+> [The shepherds] went with haste and found Mary and Joseph, and the child lying in the manger. When they saw this, they made known what had been told them about this child.
+> 
+> —Luke 2:16–17
+
 Let’s begin our reflection by looking at the shepherds and the [magi](https://www.catholic.com/encyclopedia/magi). Our first question would be: why are they there?
 
 In one of his talks, [Fulton Sheen](https://amzn.to/3D0TQ9j) wittily remarks that shepherds are those who know *they know nothing*. Magi, on the other hand, are those who know *they don’t know everything*.
@@ -80,6 +88,10 @@ Can we affirm that we *know* Jesus as the ox knows its owner? Or, at least, do w
 
 ## 3. Mary and Joseph
 
+> While [Joseph and Mary] were there, the time came for her to deliver her child. And she gave birth to her firstborn son … .
+> 
+> —Luke 2:6–7
+
 Near the baby Jesus stand Mary and Joseph, gazing at God-made-man. Words are incapable of expressing what’s before them. They are both silent. Pope Francis writes that
 
 > [t]he birth of a child awakens joy and wonder; it sets before us the great mystery of life. Seeing the bright eyes of a young couple gazing at their newborn child, we can understand the feelings of Mary and Joseph who, as they looked at the Infant Jesus, sensed God’s presence in their lives.
@@ -115,6 +127,10 @@ Well, not so. In fact, the contrary happened: they remembered it all the more! W
 See? God makes use of evil in order to bring about good.
 
 ## 5. The Baby Jesus
+
+> [Mary] gave birth to her firstborn son and wrapped him in bands of cloth, and laid him in a manger, because there was no place for them in the inn.
+> 
+> —Luke 2:7
 
 Finally, our Nativity scene becomes alive when we lay baby Jesus down on the manger. There are two important things we can notice concerning him.
 
