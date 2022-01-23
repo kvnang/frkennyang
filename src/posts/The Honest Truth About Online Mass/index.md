@@ -17,17 +17,17 @@ In this article, I answer eleven questions concerning the so-called ‘online Ma
 
 ## Content
 
-1. [What’s the matter?]()
-2. [What is the Mass?]()
-3. [Why is it important to attend Mass on days of obligation?]()
-4. [Are there times in which missing Mass is not a grave sin?]()
-5. [What should I do when attending Mass is impossible?]()
-6. [When attending Mass is impossible, am I obliged to watch an online Mass?]()
-7. [Why is online Mass not a Mass?]()
-8. [If online Mass is not the real thing, why are Masses still live-streamed?]()
-9. [I don’t attend Mass in-person, but I receive communion outside of Mass. Isn’t that enough to fulfill the Third Commandment?]()
-10. [When the church is full, I can fully participate in Mass by following it through a TV screen set up at our parish hall. Why is following it through a TV screen at my home any different?]()
-11. [What can we do now?]()
+1. [What’s the matter?](/post/the-honest-truth-about-online-mass/#1-whats-the-matter)
+2. [What is the Mass?](/post/the-honest-truth-about-online-mass/#2-what-is-the-mass)
+3. [Why is it important to attend Mass on days of obligation?](/post/the-honest-truth-about-online-mass/#3-why-is-it-important-to-attend-mass-on-days-of-obligation)
+4. [Are there times in which missing Mass is not a grave sin?](/post/the-honest-truth-about-online-mass/#4-are-there-times-in-which-missing-mass-is-not-a-grave-sin)
+5. [What should I do when attending Mass is impossible?](/post/the-honest-truth-about-online-mass/#5-what-should-i-do-when-attending-mass-is-impossible)
+6. [When attending Mass is impossible, am I obliged to watch an online Mass?](/post/the-honest-truth-about-online-mass/#6-when-attending-mass-is-impossible-am-i-obliged-to-watch-an-online-mass)
+7. [Why is online Mass not a Mass?](/post/the-honest-truth-about-online-mass/#7-why-is-online-mass-not-a-mass)
+8. [If online Mass is not the real thing, why are Masses still live-streamed?](/post/the-honest-truth-about-online-mass/#8-if-online-mass-is-not-the-real-thing-why-are-masses-still-live-streamed)
+9. [I don’t attend Mass in-person, but I receive communion outside of Mass. Isn’t that enough to fulfill the Third Commandment?](/post/the-honest-truth-about-online-mass/#9-i-dont-attend-mass-in-person-but-i-receive-communion-outside-of-mass-isnt-that-enough-to-fulfill-the-third-commandment)
+10. [When the church is full, I can fully participate in Mass by following it through a TV screen set up at our parish hall. Why is following it through a TV screen at my home any different?](/post/the-honest-truth-about-online-mass/#10-when-the-church-is-full-i-can-fully-participate-in-mass-by-following-it-through-a-tv-screen-set-up-at-our-parish-hall-why-is-following-it-through-a-tv-screen-at-my-home-any-different)
+11. [What can we do now?](/post/the-honest-truth-about-online-mass/#11-what-can-we-do-now)
 
 ## 1. What’s the matter?
 
