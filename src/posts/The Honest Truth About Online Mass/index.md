@@ -1,6 +1,6 @@
 ---
 title: The Honest Truth About Online Mass
-featuredImage: cover_emmaus.jpg
+featuredImage: cover_recessional.jpg
 format: Article
 date: 2022-01-31
 category:
