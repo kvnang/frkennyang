@@ -9,7 +9,7 @@ category:
   - Spiritual Life
 excerpt: Misa Katolik. Kehadiran pada hari raya wajib. Keadaan di mana tidak menghadiri Misa bukanlah dosa besar. Kewajiban menonton misa online. Hukum inkarnasi, transenden, partisipasi aktif penuh. Misa yang disiarkan langsung. Perintah Allah Ketiga. Komuni.
 ---
-> Saat ini, pandemi ini … telah membuat kita semua berkomunikasi, bahkan secara religius, melalui alat-alat komunikasi. … Dan ini bukanlah Gereja: ini adalah Gereja dalam situasi yang sulit, yang diizinkan oleh Tuhan, namun aspirasi Gereja adalah selalu bersama dengan umat dan dengan sakramen-sakramen. Selalu.[^1]
+> Saat ini, pandemi ini … telah membuat kita semua berkomunikasi, bahkan secara religius, melalui alat-alat komunikasi. … *Dan ini bukanlah Gereja*: ini adalah Gereja dalam situasi yang sulit, yang diizinkan oleh Tuhan, namun aspirasi Gereja adalah selalu bersama dengan umat dan dengan sakramen-sakramen. Selalu.[^1]
 > 
 > —Paus Fransiskus
 
@@ -17,17 +17,17 @@ Dalam artikel ini, saya menjawab sebelas pertanyaan mengenai apa yang biasa dise
 
 ## Daftar Isi
 
-1. [Apa masalahnya?]()
-2. [Apa itu Misa?]()
-3. [Apa pentingnya menghadiri Misa pada hari-hari raya wajib?]()
-4. [Apakah ada saat-saat di mana tidak menghadiri Misa bukan merupakan dosa berat?]()
-5. [Apa yang harus saya lakukan jika menghadiri Misa merupakan suatu hal yang mustahil?]()
-6. [Ketika mustahil bagi saya untuk menghadiri Misa, apakah saya wajib menonton Misa online?]()
-7. [Mengapa Misa online bukanlah Misa?]()
-8. [Apabila Misa online bukan Misa yang sesungguhnya, mengapa Misa masih disiarkan secara langsung?]()
-9. [Saya tidak menghadiri Misa secara fisik, tapi saya menerima komuni di luar Misa. Apakah hal ini tidak cukup untuk memenuhi Perintah Allah yang Ketiga?]()
-10. [Ketika gereja berada dalam keadaan penuh, saya dapat berpartisipasi secara penuh dalam Misa dengan mengikutinya melalui layar TV yang tersedia di balai paroki. Apa bedanya dengan mengikuti Misa melalui layar TV di rumah?]()
-11. [Apa yang bisa kita lakukan sekarang?]()
+1. [Apa masalahnya?](/id/post/the-honest-truth-about-online-mass/#1-apa-masalahnya)
+2. [Apa itu Misa?](/id/post/the-honest-truth-about-online-mass/#2-apa-itu-misa)
+3. [Apa pentingnya menghadiri Misa pada hari-hari raya wajib?](/id/post/the-honest-truth-about-online-mass/#3-apa-pentingnya-menghadiri-misa-pada-hari-hari-raya-wajib)
+4. [Apakah ada saat-saat di mana tidak menghadiri Misa bukan merupakan dosa berat?](/id/post/the-honest-truth-about-online-mass/#4-apakah-ada-saat-saat-di-mana-tidak-menghadiri-misa-bukan-merupakan-dosa-berat)
+5. [Apa yang harus saya lakukan jika menghadiri Misa merupakan suatu hal yang mustahil?](/id/post/the-honest-truth-about-online-mass/#5-apa-yang-harus-saya-lakukan-jika-menghadiri-misa-merupakan-suatu-hal-yang-mustahil)
+6. [Ketika mustahil bagi saya untuk menghadiri Misa, apakah saya wajib menonton Misa online?](/id/post/the-honest-truth-about-online-mass/#6-ketika-mustahil-bagi-saya-untuk-menghadiri-misa-apakah-saya-wajib-menonton-misa-online)
+7. [Mengapa Misa online bukanlah Misa?](/id/post/the-honest-truth-about-online-mass/#7-mengapa-misa-online-bukanlah-misa)
+8. [Apabila Misa online bukan Misa yang sesungguhnya, mengapa Misa masih disiarkan secara langsung?](/id/post/the-honest-truth-about-online-mass/#8-apabila-misa-online-bukan-misa-yang-sesungguhnya-mengapa-misa-masih-disiarkan-secara-langsung)
+9. [Saya tidak menghadiri Misa secara fisik, tapi saya menerima komuni di luar Misa. Apakah hal ini tidak cukup untuk memenuhi Perintah Allah yang Ketiga?](/id/post/the-honest-truth-about-online-mass/#9-saya-tidak-menghadiri-misa-secara-fisik-tapi-saya-menerima-komuni-di-luar-misa-apakah-hal-ini-tidak-cukup-untuk-memenuhi-perintah-allah-yang-ketiga)
+10. [Ketika gereja berada dalam keadaan penuh, saya dapat berpartisipasi secara penuh dalam Misa dengan mengikutinya melalui layar TV yang tersedia di balai paroki. Apa bedanya dengan mengikuti Misa melalui layar TV di rumah?](/id/post/the-honest-truth-about-online-mass/#10-ketika-gereja-berada-dalam-keadaan-penuh-saya-dapat-berpartisipasi-secara-penuh-dalam-misa-dengan-mengikutinya-melalui-layar-tv-yang-tersedia-di-balai-paroki-apa-bedanya-dengan-mengikuti-misa-melalui-layar-tv-di-rumah)
+11. [Apa yang bisa kita lakukan sekarang?](/id/post/the-honest-truth-about-online-mass/#11-apa-yang-bisa-kita-lakukan-sekarang)
 
 ## 1. Apa masalahnya?
 
