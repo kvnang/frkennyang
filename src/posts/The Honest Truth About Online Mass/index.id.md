@@ -126,7 +126,7 @@ Alasan kedua terkait erat dengan yang pertama: Misa online bukanlah Misa yang se
 
 Mengapa semua elemen ini harus ada ketika kita ambil bagian dalam Misa? Karena *hukum inkarnasi*. Dalam inkarnasi, Putra Allah mengambil kodrat manusia yang terdiri dari jiwa dan tubuh. Dengan demikian Ia mengangkat tubuh-Nya—yang adalah materi—dan menjadikannya instrumen keilahian-Nya. Inkarnasi mengajarkan kita bahwa hal-hal materiil tidaklah buruk; sebaliknya, hal-hal materiil dapat membawa kita kepada Allah.
 
-![St. Peter's Basilica in Rome](07_transcendence.jpg 'St. Peter's Basilica in Rome. © 2020 Kenny Ang')
+![St. Peter's Basilica in Rome](07_transcendence.jpg 'Basilika St. Petrus (Vatikan). © 2020 Kenny Ang')
 
 Sayangnya, bisa dikatakan bahwa konteks transendensi sama sekali tidak ada ketika kita menonton Misa online. Kita tidak secara fisik berada di dalam gereja. Kita hampir tidak bisa melihat berbagai patung dan lukisan di dalamnya. Kita mendengar lagu-lagu dinyanyikan, namun bisa jadi kita tidak terlalu terdorong untuk ikut bernyanyi. Lebih penting lagi, kita acap kali tidak mampu menolak godaan untuk melakukan *multitasking* ketika kita menonton Misa online.
 
