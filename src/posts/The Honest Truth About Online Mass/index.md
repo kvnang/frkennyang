@@ -35,7 +35,7 @@ To get an idea of where we are today, bear in mind that, [according to the 2019 
 
 Yet if the Church is thus dispensable, why speak of *returning* to Mass? If, during the pandemic, one could relate to God ‘spiritually’ via YouTube or Zoom, why make a trip to one’s local parish now? The bishops may announce that one should go back to attending in-person Mass. But one may retort: why should the *bishops* tell *me* what to do?
 
-![father kenny ang first mass yakobus surabaya incense eucharist altar priest](01_ang_mass.jpg 'Fr. Kenny's First Mass (2019). Photo courtesy of St. Yakobus (Surabaya)')
+![father kenny ang first mass yakobus surabaya incense eucharist altar priest](01_ang_mass.jpg 'The First Mass of Fr. Kenny (2019). Photo courtesy of St. Yakobus (Surabaya)')
 
 ## 2. What is the Mass?
 
