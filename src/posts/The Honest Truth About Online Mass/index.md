@@ -124,7 +124,7 @@ The second reason is closely related to the first: online Mass is not the real M
 
 Why should we be immersed in all these elements when we participate in Mass? Because of the *law of incarnation*. In the incarnation, the Son assumed human nature composed of soul and body. By doing so, he elevated his body—a material thing —and made it an instrument of his divinity. The incarnation tells us that material things are not bad; rather, they can lead us to God.
 
-![St. Peter's Basilica in Rome](07_transcendence.jpg 'St. Peter's Basilica in Rome. © 2020 Kenny Ang')
+![St. Peter's Basilica in Rome](07_transcendence.jpg 'Basilica of St. Peter (Vatican). © 2020 Kenny Ang')
 
 Alas, the context of transcendence is almost completely absent when we watch an online Mass. We’re not physically within a church. We can hardly see the statues and paintings in it. We may hear the hymns being sung, but we may be less inclined to sing along. More importantly, the temptation to multi-task is too great when we watch an online Mass.
 
