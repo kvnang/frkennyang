@@ -88,7 +88,7 @@ Attending Mass is a way to fulfill the Third Commandment.[^15] Not being obliged
 
 The question certainly is: how can we fulfill the Third Commandment when attending Mass is impossible? Canon 1248 §2 of the *Code of Canon Law* provides us with two alternatives.
 
-The first alternative: we are “strongly recommended” to ”take part in a *liturgy of the word* if such a liturgy is celebrated in a parish church or other sacred place.”[^16] This alternative may not be doable when there’s a stay-at-home order.
+The first alternative: we are “strongly recommended” to "take part in a *liturgy of the word* if such a liturgy is celebrated in a parish church or other sacred place.”[^16] This alternative may not be doable when there’s a stay-at-home order.
 
 The second alternative comes in when the first is not feasible. When there’s no liturgy of the word celebrated in a parish church, we are “strongly recommended” to “*devote [ourselves] to prayer for a suitable time* alone, as a family, or, as the occasion permits, in groups of families.”[^17]
 
