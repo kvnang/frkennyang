@@ -239,7 +239,7 @@ Poin terakhir ini adalah poin yang paling penting: inilah saatnya bagi kita untu
 Mengingatkan orang-orang akan *kewajiban* menghadiri Misa pada hari Minggu tidak akan cukup untuk membawa mereka kembali ke Misa. Kamu bisa mengatakan kepada temanmu, “Kamu wajib menghadiri Misa.” Dia bisa jadi menjawab, “Saya tidak peduli.”
 
 Menghadiri Misa memang merupakan sebuah kewajiban. Tapi menghadiri Misa *melebihi* sekadar kewajiban. Menghadiri Misa adalah *tanggapan pribadi terhadap kasih Kristus*. Namun jangan lupa: setiap orang mengalami kasih Allah melalui perbuatan dan perkataan baik kita.
-
+---
 ## Referensi
 
 Berikut ini adalah beberapa artikel yang saya teliti sembari saya menulis artikel ini. Kamu dapat membacanya juga. Semua kecuali dua ditulis selama pandemi.
