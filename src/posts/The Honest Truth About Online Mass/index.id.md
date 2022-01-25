@@ -216,7 +216,7 @@ Itulah sebabnya kita harus berusaha sekeras mungkin agar semakin banyak orang me
 
 ### Bangunlah komunitas kita
 
-Misa online menanamkan gagasan bahwa komunitas paroki tidak penting. Misa online membuat kita berpikir, setidaknya secara tidak sadar, bahwa kita bisa menjadi orang kristiani hanya dengan menonton Misa di kamar kita sendiri.
+Misa online menanamkan gagasan bahwa komunitas paroki tidaklah penting. Misa online membuat kita berpikir, setidaknya secara tidak sadar, bahwa kita bisa menjadi orang kristiani hanya dengan menonton Misa di kamar kita sendiri.
 
 Namun, ini *bukanlah Gereja*. Gereja adalah *persekutuan*: persekutuan manusia dengan Allah dan persekutuan di antara manusia.[^30]
 
