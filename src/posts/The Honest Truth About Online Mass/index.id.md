@@ -51,7 +51,7 @@ Namun, sakramen berbeda dari jalan yang basah dan asap karena sakramen memiliki 
 
 ![road sign stop red country](02_sign.jpg)
 
-Misa adalah sakramen, *tanda yang berdaya guna*. Oleh karena itu, Misa adalah sesuatu yang dapat ditangkap oleh indra kita. Salah satu indra kita adalah sentuhan. Agar kita dapat menyentuh sesuatu, diperlukan *kehadiran fisik*. *Inilah salah satu alasan mengapa Misa tidak dapat diikuti secara online*. Sama seperti kodrat manusia membatasi apa yang bisa kita lakukan (misalnya, kita tidak bisa terbang), kodrat sakramen membatasi waktu dan cara untuk merayakan sakramen. Singkatnya,
+Misa adalah sakramen, *tanda yang berdaya guna*. Oleh karena itu, Misa adalah sesuatu yang dapat ditangkap oleh indra kita. Salah satu indra kita adalah sentuhan. Agar kita dapat menyentuh sesuatu, diperlukan *kehadiran fisik*. *Inilah salah satu alasan mengapa Misa tidak dapat diikuti secara online*. Seperti halnya kodrat manusia membatasi apa yang bisa kita lakukan (misalnya, kita tidak bisa terbang), demikian juga kodrat sakramen membatasi waktu dan cara untuk merayakannya. Singkatnya,
 > Ekaristi online adalah sesuatu yang jelas tidak sakramental, bahkan anti-sakramental.
 > 
 > —[Anthony R. Lusvardi, S.J.](https://www.americamagazine.org/voices/anthony-r-lusvardi-sj)
@@ -98,13 +98,11 @@ Alternatif kedua bisa kita pilih apabila alternatif pertama tidak bisa diwujudka
 
 Pertanyaan ini adalah pertanyaan yang paling sering saya terima selama pandemi ini: *apakah saya wajib menonton Misa online?*
 
-Menurut kanon 1248 §2 dari *Kitab Hukum Kanonik* (lihat Pertanyaan 5), jawabannya adalah jelas: *tidak*. Perhatikan bahwa kanon ini *tidak mengatakan apa-apa* mengenai Misa online. Ini *bukan* karena Misa online belum disiarkan pada tahun 1983 ketika [*Kitab Hukum Kanonik*](https://www.vatican.va/archive/cod-iuris-canonici/cic_index_en.html) diterbitkan. [Misa yang pertama kali disiarkan secara langsung di televisi](https://youtu.be/381nnQSq3oA) adalah Misa Malam Natal di Katedral Notre Dame di Paris pada tahun 1948.
+Menurut [kanon 1248 §2](https://www.imankatolik.or.id/khk.php?q=1248) dari *Kitab Hukum Kanonik* (lihat [Pertanyaan 5](/id/post/the-honest-truth-about-online-mass/#5-apa-yang-harus-saya-lakukan-jika-menghadiri-misa-merupakan-suatu-hal-yang-mustahil)), jawabannya adalah jelas: *tidak*. Perhatikan bahwa kanon ini *tidak mengatakan apa-apa* mengenai Misa online. Ini *bukan* karena Misa online belum disiarkan pada tahun 1983 ketika [*Kitab Hukum Kanonik*](https://www.vatican.va/archive/cod-iuris-canonici/cic_index_en.html) diterbitkan. [Misa yang pertama kali disiarkan secara langsung di televisi](https://youtu.be/381nnQSq3oA) adalah Misa Malam Natal di Katedral Notre Dame di Paris pada tahun 1948.
 
 Jadi, saya menegaskan: *menonton Misa online bukanlah sebuah kewajiban*.
 
 ![camera video live transmission](06_online.jpg)
-
-
 
 Mengapa? Karena Misa online hanyalah *salah satu sarana* yang dapat membantu kita melakukan apa yang dianjurkan kepada kita ketika menghadiri Misa atau liturgi sabda secara fisik di paroki kita merupakan suatu hal yang mustahil. Mendengarkan doa, bacaan, dan homili dalam Misa online dapat membantu kita “*meluangkan waktu untuk berdoa selama waktu yang pantas*.”[^18] Namun, Misa online bukanlah *satu-satunya* cara untuk berdoa. Kita dapat “meluangkan waktu untuk berdoa selama waktu yang pantas,” misalnya, dengan merenungkan Kitab Suci atau berdoa bersama dalam keluarga.
 
