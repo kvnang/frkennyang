@@ -45,7 +45,9 @@ Firstly, Mass is *the same sacrifice of Christ* on the Cross.[^2] It’s not a *
 
 Secondly, Mass is a *sacrament*.[^4] What is a sacrament? A sacrament is an *efficacious sign* of grace.[^5]
 
-But, what is a sign? A sign is, by nature, something perceptible by our senses which points to something other than itself. Smoke is a sign of fire; when you see smoke, you know there’s fire. A wet road is a sign of rain. A sacrament is a sign of grace; when you see a baby getting baptized, you think of God’s grace being given to that baby. Insofar as it’s a sign, a sacrament is similar to a wet road and smoke. However, it’s different from them insofar as it’s *efficacious*. Smoke is not efficacious since it doesn’t cause fire. A wet road is not efficacious since it doesn’t cause rain. A sacrament, however, is *efficacious* since it *causes* grace: it doesn’t only make you *think* of grace, but it also makes grace *present* in its receiver.
+But, what is a sign? A sign is, by nature, something perceptible by our senses which points to something other than itself. Smoke is a sign of fire; when you see smoke, you know there’s fire. A wet road is a sign of rain. A sacrament is a sign of grace; when you see a baby getting baptized, you think of God’s grace being given to that baby. Insofar as it’s a sign, a sacrament is similar to a wet road and smoke. 
+
+However, it’s different from them insofar as it’s *efficacious*. Smoke is not efficacious since it doesn’t cause fire. A wet road is not efficacious since it doesn’t cause rain. A sacrament, however, is *efficacious* since it *causes* grace: it doesn’t only make you *think* of grace, but it also makes grace *present* in its receiver.
 
 ![road sign stop red country](02_sign.jpg)
 
