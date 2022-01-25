@@ -88,7 +88,7 @@ Menghadiri Misa adalah sebuah cara untuk memenuhi perintah Allah yang ketiga.[^1
 
 Pertanyaannya tentu adalah: bagaimana kita dapat memenuhi perintah ketiga ketika menghadiri Misa merupakan suatu hal yang mustahil? Kanon 1248 §2 dari *Kitab Hukum Kanonik* memberikan kepada kita dua alternatif.
 
-Alternatif pertama: kita “sangat dianjurkan” untuk ”ambil bagian dalam *liturgi Sabda*, jika hal itu ada di gereja paroki atau di tempat suci lain.”[^16] Alternatif ini mungkin tidak bisa kita laksanakan ketika *lockdown* diberlakukan.
+Alternatif pertama: kita “sangat dianjurkan” untuk "ambil bagian dalam *liturgi Sabda*, jika hal itu ada di gereja paroki atau di tempat suci lain.”[^16] Alternatif ini mungkin tidak bisa kita laksanakan ketika *lockdown* diberlakukan.
 
 Alternatif kedua bisa kita pilih apabila alternatif pertama tidak bisa diwujudkan. Ketika tidak ada perayaan liturgi sabda di paroki, kita “sangat dianjurkan” untuk “*meluangkan waktu untuk berdoa selama waktu yang pantas* secara perorangan atau dalam keluarga atau jika mungkin beberapa keluarga bersama.”[^17]
 
