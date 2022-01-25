@@ -98,7 +98,7 @@ The second alternative comes in when the first is not feasible. When there’s n
 
 This is perhaps the question I get asked the most during this pandemic: *is watching an online Mass obligatory?*
 
-According to canon 1248 §2 of the *Code of Canon Law* (see Question 5), the answer is very clear: *no*. Note that this canon says *nothing* about online Mass. It doesn’t mention online Mass *not* because online Mass was nonexistent in 1983 when the [*Code of Canon Law*](https://www.vatican.va/archive/cod-iuris-canonici/cic_index_en.html) was published. The [first televised Mass](https://youtu.be/381nnQSq3oA) was the Midnight Mass of Christmas broadcast from Paris’ Notre Dame Cathedral in 1948.
+According to [canon 1248 §2](https://www.vatican.va/archive/cod-iuris-canonici/eng/documents/cic_lib4-cann1244-1253_en.html#CHAPTER_I.) of the *Code of Canon Law* (see [Question 5](/post/the-honest-truth-about-online-mass/#5-what-should-i-do-when-attending-mass-is-impossible)), the answer is very clear: *no*. Note that this canon says *nothing* about online Mass. It doesn’t mention online Mass *not* because online Mass was nonexistent in 1983 when the [*Code of Canon Law*](https://www.vatican.va/archive/cod-iuris-canonici/cic_index_en.html) was published. The [first televised Mass](https://youtu.be/381nnQSq3oA) was the Midnight Mass of Christmas broadcast from Paris’ Notre Dame Cathedral in 1948.
 
 So let me be extra clear about this: *watching an online Mass is not obligatory*.
 
