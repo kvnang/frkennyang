@@ -239,7 +239,7 @@ This last point is the most important one: it is time for us to do our best in s
 Insisting on Sunday obligation will not be enough to bring people back to Mass. You can tell your friend, “Pal, you’re obliged to attend Mass.” He can simply respond, “I don’t care.” If this conversation sounds familiar, then you know what I mean.
 
 Attending Mass is indeed an obligation. But it’s also much more than that. It’s a *personal response to Christ’s love*. But don’t forget: people experience God’s love through our good works and words.
-
+---
 ## References
 
 These are some helpful articles I read as I was preparing this article. You too can check them out. All except two were written during the pandemic.
