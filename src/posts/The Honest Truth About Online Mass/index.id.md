@@ -39,13 +39,15 @@ Akan tetapi, jika Gereja sedemikian tidak pentingnya, untuk apa kita berbicara p
 
 ## 2. Apa itu Misa?
 
-Apakah kamu sadar akan masalah sedang kita hadapi? Itulah mengapa kita harus kembali ke titik awal. Apa itu Misa atau Ekaristi? Pada dasarnya, kita dapat mendeskripsikan Misa sebagai berikut. Pertama, Misa adalah *kurban*. Kedua, Misa adalah *sakramen*.
+Sudahkah kamu sadar akan masalah yang sedang kita hadapi? Itulah mengapa kita harus kembali ke titik awal. Apa itu Misa atau Ekaristi? Pada dasarnya, kita dapat mendeskripsikan Misa sebagai berikut. Pertama, Misa adalah *kurban*. Kedua, Misa adalah *sakramen*.
 
 Pertama, Misa adalah *kurban Kristus sendiri* di kayu Salib.[^2] Misa bukanlah *pengulangan* akan penyaliban Tuhan karena Ia hanya mati satu kali. Namun Ia ingin agar kurban-Nya yang satu-satunya *dihadirkan kembali* setiap hari di seluruh dunia hingga akhir zaman.[^3] Untuk apa? Supaya kamu dan saya diselamatkan. Dari apa? Dari hukuman kekal akibat dosa.
 
 Kedua, Misa adalah *sakramen*.[^4] Apa itu sakramen? Sakramen adalah *tanda yang berdaya guna dari rahmat*.[^5]
 
-Tapi, apa itu tanda? Tanda adalah sesuatu yang dapat ditangkap oleh indra dan menunjuk pada suatu hal yang lain. Asap adalah tanda dari api; ketika kamu melihat asap, kamu tahu bahwa di sana ada api. Jalan yang basah adalah tanda dari hujan. Sakramen adalah tanda dari rahmat; ketika kamu melihat seorang bayi dibaptis, kamu berpikir mengenai rahmat Allah yang dicurahkan kepada bayi itu. Sebagai tanda, sakramen mirip dengan jalan yang basah dan asap. Namun, sakramen berbeda dari jalan yang basah dan asap karena sakramen memiliki *daya guna*. Asap tidak berdaya guna karena ia tidak menghasilkan api. Jalan yang basah tidak berdaya guna karena ia tidak mendatangkan hujan. Sebaliknya, sebuah sakramen memiliki *daya guna* karena ia *menyebabkan* datangnya rahmat: sakramen tidak hanya membuat kamu *berpikir* mengenai rahmat, tetapi ia juga membuat rahmat *hadir* dalam diri orang yang menerimanya.
+Tapi, apa itu tanda? Tanda adalah sesuatu yang dapat ditangkap oleh indra dan menunjuk pada suatu hal yang lain. Asap adalah tanda dari api; ketika kamu melihat asap, kamu tahu bahwa di sana ada api. Jalan yang basah adalah tanda dari hujan. Sakramen adalah tanda dari rahmat; ketika kamu melihat seorang bayi dibaptis, kamu berpikir mengenai rahmat Allah yang dicurahkan kepada bayi itu. Sebagai tanda, sakramen mirip dengan jalan yang basah dan asap. 
+
+Namun, sakramen berbeda dari jalan yang basah dan asap karena sakramen memiliki *daya guna*. Asap tidak berdaya guna karena ia tidak menghasilkan api. Jalan yang basah tidak berdaya guna karena ia tidak mendatangkan hujan. Sebaliknya, sebuah sakramen memiliki *daya guna* karena ia *menyebabkan* datangnya rahmat: sakramen tidak hanya membuat kamu *berpikir* mengenai rahmat, tetapi ia juga membuat rahmat *hadir* dalam diri orang yang menerimanya.
 
 ![road sign stop red country](02_sign.jpg)
 
