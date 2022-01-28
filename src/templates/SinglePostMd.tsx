@@ -1,19 +1,24 @@
 import { graphql } from 'gatsby';
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import getYouTubeId from 'get-youtube-id';
 import styled from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image';
+import { Helmet } from 'react-helmet';
 import { formatDate } from '../utils/helpers';
 import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
 import { PostProps } from '../types';
 import SEO from '../components/Seo';
 import SocialShare from '../components/SocialShare';
+import { LangContext, LangType } from '../components/LangContext';
 
 interface Props {
   location: Location;
   data: {
     post: PostProps;
+  };
+  pageContext: {
+    lang: LangType;
   };
 }
 
@@ -225,10 +230,23 @@ const PostContentStyles = styled.div`
   }
 `;
 
-export default function SinglePost({ location, data: { post } }: Props) {
+export default function SinglePost({
+  location,
+  data: { post },
+  pageContext: { lang: pageLang },
+}: Props) {
+  const { setLang } = useContext(LangContext);
+
   const url = location.href ? location.href : '';
   const categories = post.frontmatter.category;
   let featuredImage;
+
+  useEffect(() => {
+    if (pageLang) {
+      setLang(pageLang);
+    }
+  }, [pageLang]); // eslint-disable-line react-hooks/exhaustive-deps
+
   if (post.frontmatter.youtube) {
     featuredImage = (
       <div className="youtube-iframe-wrapper">
@@ -270,6 +288,7 @@ export default function SinglePost({ location, data: { post } }: Props) {
         }
         image={post.frontmatter.featuredImage?.publicURL}
       />
+      {pageLang && <Helmet htmlAttributes={{ lang: pageLang }} />}
       <SinglePostStyles className="page-p-t page-p-b">
         <section className="container">
           <div className="inner">

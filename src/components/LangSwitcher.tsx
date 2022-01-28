@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router'; // eslint-disable-line import/no-unresolved
 import styled from 'styled-components';
-import { LangContext } from './LangContext';
+import { LangContext, LangType } from './LangContext';
 import { breakpoints } from '../styles/breakpoints';
 import { untrailingSlashIt } from '../utils/helpers';
 
@@ -103,6 +103,7 @@ export default function LangSwitcher({
   ).length;
 
   const { lang, setLang } = useContext(LangContext);
+  console.log(lang);
 
   if (!lang || (shouldNavigate && !hasLocalized)) {
     return null;

@@ -36,7 +36,7 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
     return;
   }
   // 4. Create single pages
-  result.data.allMarkdownRemark.nodes.forEach((post, i) => {
+  result.data.allMarkdownRemark.nodes.forEach((post) => {
     actions.createPage({
       path: post.fields.slug,
       component: postTemplate,

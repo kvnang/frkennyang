@@ -13,7 +13,7 @@ export function wrapPageElement({ element, props }) {
 }
 
 export function onRenderBody({ setPreBodyComponents }) {
-  setPreBodyComponents([
+  const scripts = [
     <script
       key="preferred-lang-script"
       // eslint-disable-next-line react/no-danger
@@ -41,7 +41,6 @@ export function onRenderBody({ setPreBodyComponents }) {
 
             function setLang(newLang) {
               document.documentElement.setAttribute('lang', newLang);
-              console.log(document.documentElement.getAttribute('lang'));
             }
 
             setLang(getInitialLang());
@@ -49,11 +48,18 @@ export function onRenderBody({ setPreBodyComponents }) {
         `,
       }}
     />,
-    <script
-      key="cf-analytics"
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "5e4d44f2777e44d184490c0732ba7473"}'
-    />,
-  ]);
+  ];
+
+  if (process.env.NODE_ENV === 'production') {
+    scripts.push(
+      <script
+        key="cf-analytics"
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "5e4d44f2777e44d184490c0732ba7473"}'
+      />
+    );
+  }
+
+  setPreBodyComponents(scripts);
 }
