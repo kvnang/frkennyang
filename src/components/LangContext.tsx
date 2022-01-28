@@ -1,8 +1,10 @@
 import React, { createContext, useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 
+export type LangType = 'en' | 'id';
+
 interface LangContextProps {
-  lang: string | null;
+  lang: LangType | null;
   setLang: Function;
 }
 
@@ -20,22 +22,22 @@ const parseHTMLLang = (str: string) => str.split('-')[0];
 // };
 
 export const LangContext = createContext<LangContextProps>({
-  lang: 'en',
+  lang: null,
   setLang: () => {},
 });
 
 export function LangProvider({ children }: any) {
-  const [lang, rawSetLang] = useState<string | null>(null);
+  const [lang, rawSetLang] = useState<LangType | null>(null);
 
   useEffect(() => {
     const htmlLangAttribute = document.documentElement.getAttribute('lang');
-    const initialLang: string | undefined = htmlLangAttribute
-      ? parseHTMLLang(htmlLangAttribute)
+    const initialLang: LangType | undefined = htmlLangAttribute
+      ? (parseHTMLLang(htmlLangAttribute) as LangType)
       : undefined;
     rawSetLang(initialLang || 'en');
   }, []);
 
-  function setLang(newLang: string) {
+  function setLang(newLang: LangType) {
     rawSetLang(newLang);
     window.localStorage.setItem('lang', newLang);
   }

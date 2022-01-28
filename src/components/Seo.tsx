@@ -18,7 +18,7 @@ export default function SEO({
   description,
   canonical,
   image,
-  lang = 'en',
+  lang,
 }: Props) {
   const { site } = useStaticQuery(graphql`
     query {
