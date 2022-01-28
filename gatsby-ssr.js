@@ -39,11 +39,9 @@ export function onRenderBody({ setPreBodyComponents }) {
               return lang;
             }
 
-            let preferredLang;
-
             function setLang(newLang) {
-              preferredLang = newLang;
               document.documentElement.setAttribute('lang', newLang);
+              console.log(document.documentElement.getAttribute('lang'));
             }
 
             setLang(getInitialLang());
