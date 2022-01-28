@@ -52,11 +52,7 @@ export default function SEO({
       : `${site.siteMetadata.siteUrl}${image}`;
   }
   return (
-    <Helmet
-      htmlAttributes={{ lang }}
-      titleTemplate={`%s - ${site.siteMetadata.title}`}
-    >
-      <html lang="en" />
+    <Helmet titleTemplate={`%s - ${site.siteMetadata.title}`}>
       {/* Primary Meta Tags */}
       <title>{title || site.siteMetadata.title}</title>
       <meta name="title" content={title || site.siteMetadata.title} />

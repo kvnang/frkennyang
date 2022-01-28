@@ -2,7 +2,7 @@ import React, { createContext, useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 
 interface LangContextProps {
-  lang: string;
+  lang: string | null;
   setLang: Function;
 }
 
@@ -25,7 +25,7 @@ export const LangContext = createContext<LangContextProps>({
 });
 
 export function LangProvider({ children }: any) {
-  const [lang, rawSetLang] = useState<string>('en');
+  const [lang, rawSetLang] = useState<string | null>(null);
 
   useEffect(() => {
     const htmlLangAttribute = document.documentElement.getAttribute('lang');
@@ -42,7 +42,7 @@ export function LangProvider({ children }: any) {
 
   return (
     <LangContext.Provider value={{ lang, setLang }}>
-      <Helmet htmlAttributes={{ lang }} />
+      {lang && <Helmet htmlAttributes={{ lang }} />}
       {children}
     </LangContext.Provider>
   );
