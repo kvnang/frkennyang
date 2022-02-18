@@ -4,10 +4,10 @@
   #### Licentiate in Dogmatic Theology
   ##### 2020 - (in progress), ROME (ITALY)
 - ### University of Navarra
-  #### Baccalaureate in Philosophy
+  #### Baccalaureate in Philosophy (summa cum laude)
   ##### 2013 - 2015, 2018 - 2019, PAMPLONA (SPAIN)
 - ### University of Navarra
-  #### Baccalaureate in Theology
+  #### Baccalaureate in Theology (summa cum laude)
   ##### 2015 - 2018, PAMPLONA (SPAIN)
 - ### Missouri Western State University
   ##### 2010 - 2012, MISSOURI (USA)
