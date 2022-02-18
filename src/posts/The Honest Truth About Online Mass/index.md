@@ -124,7 +124,7 @@ When we become conscious of how important Incarnation is, we become aware of how
 
 The second reason is closely related to the first: online Mass is not the real Mass because it lacks the *context of transcendence* in which sacraments ought to be celebrated. Transcendence points to “existence or experience beyond the normal or physical level.”[^20] This context includes sacred art, music, architecture, responses, gestures, silence, etc.
 
-Why should we be immersed in all these elements when we participate in Mass? Because of the *law of incarnation*. In the incarnation, the Son assumed human nature composed of soul and body. By doing so, he elevated his body—a material thing —and made it an instrument of his divinity. The incarnation tells us that material things are not bad; rather, they can lead us to God.
+Why should we be immersed in all these elements when we participate in Mass? Because of the *law of incarnation*. In the incarnation, the Son assumed human nature composed of soul and body. By doing so, he elevated his body—a material thing—and made it an instrument of his divinity. The incarnation tells us that material things are not bad; rather, they can lead us to God.
 
 ![St. Peter's Basilica in Rome](07_transcendence.jpg 'Basilica of St. Peter (Vatican). © 2020 Kenny Ang')
 
