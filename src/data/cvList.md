@@ -1,16 +1,16 @@
 ## Education
 
-- ### Pontifical University of the Holy Cross
+- ### Pontifical University of the Holy Cross (Rome)
   #### Licentiate in Dogmatic Theology
-  ##### 2020 - (in progress), ROME (ITALY)
-- ### University of Navarra
-  #### Baccalaureate in Philosophy (summa cum laude)
-  ##### 2013 - 2015, 2018 - 2019, PAMPLONA (SPAIN)
-- ### University of Navarra
-  #### Baccalaureate in Theology (summa cum laude)
-  ##### 2015 - 2018, PAMPLONA (SPAIN)
+  ##### 2020 - (in progress)
+- ### University of Navarra (Pamplona)
+  #### Baccalaureate in Philosophy
+  ##### 2013 - 2015, 2018 - 2019 | summa cum laude
+- ### University of Navarra (Pamplona)
+  #### Baccalaureate in Theology
+  ##### 2015 - 2018 | summa cum laude
 - ### Missouri Western State University
-  ##### 2010 - 2012, MISSOURI (USA)
+  ##### 2010 - 2012
   Piano Performance
 
 ## Languages
