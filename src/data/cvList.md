@@ -1,12 +1,12 @@
 ## Education
 
-- ### Pontifical University of the Holy Cross (Rome)
+- ### Pontifical University of the Holy Cross
   #### Licentiate in Dogmatic Theology
   ##### 2020 - (in progress)
-- ### University of Navarra (Pamplona)
+- ### University of Navarra
   #### Baccalaureate in Philosophy
   ##### 2013 - 2015, 2018 - 2019 | summa cum laude
-- ### University of Navarra (Pamplona)
+- ### University of Navarra
   #### Baccalaureate in Theology
   ##### 2015 - 2018 | summa cum laude
 - ### Missouri Western State University
