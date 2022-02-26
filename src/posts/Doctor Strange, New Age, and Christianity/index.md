@@ -18,41 +18,41 @@ Throughout my theological studies, I have frequently wondered if superhero stori
 ## Content
 
 1. [Description of *Doctor Strange*](/post/doctor-strange-new-age-and-christianity/#1-description-of-doctor-strange)  
- 	1.1. [The Creator: Stan Lee](/post/doctor-strange-new-age-and-christianity/#11-the-creator-stan-lee)  
- 	1.2. [The Director: Scott Derrickson](/post/doctor-strange-new-age-and-christianity/#12-the-director-scott-derrickson)  
- 	1.3. [Movie Synopsis](/post/doctor-strange-new-age-and-christianity/#13-movie-synopsis)  
+ 	1. [The Creator: Stan Lee](/post/doctor-strange-new-age-and-christianity/#11-the-creator-stan-lee)  
+ 	2. [The Director: Scott Derrickson](/post/doctor-strange-new-age-and-christianity/#12-the-director-scott-derrickson)  
+ 	3. [Movie Synopsis](/post/doctor-strange-new-age-and-christianity/#13-movie-synopsis)  
   
 2. [Christianity in *Doctor Strange*](/post/doctor-strange-new-age-and-christianity/#2-christianity-in-doctor-strange)  
   
-	2.1. [Philosophical-Anthropological Content](/post/doctor-strange-new-age-and-christianity/#21-philosophical-anthropological-content)  
-	. . 2.1.1. [Spirituality](/post/doctor-strange-new-age-and-christianity/#211-spirituality)  
-	. . 2.1.2. [Conscience](/post/doctor-strange-new-age-and-christianity/#212-conscience)  
-	. . 2.1.3. [Eternity](/post/doctor-strange-new-age-and-christianity/#213-eternity)  
-	. . 2.1.4. [Dignity](/post/doctor-strange-new-age-and-christianity/#214-dignity)  
+	1. [Philosophical-Anthropological Content](/post/doctor-strange-new-age-and-christianity/#21-philosophical-anthropological-content)  
+		[Spirituality](/post/doctor-strange-new-age-and-christianity/#211-spirituality)  
+		[Conscience](/post/doctor-strange-new-age-and-christianity/#212-conscience)  
+		[Eternity](/post/doctor-strange-new-age-and-christianity/#213-eternity)  
+		[Dignity](/post/doctor-strange-new-age-and-christianity/#214-dignity)  
   
-	2.2. [Religious Content](/post/doctor-strange-new-age-and-christianity/#22-religious-content)  
-	. . 2.2.1. [Conversion](/post/doctor-strange-new-age-and-christianity/#221-conversion)  
-	. . 2.2.2. [Perseverance](/post/doctor-strange-new-age-and-christianity/#222-perseverance)  
-	. . 2.2.3. [Life’s Meaning](/post/doctor-strange-new-age-and-christianity/#223-lifes-meaning)  
-	. . 2.2.4. [Vicarious Sacrifice](/post/doctor-strange-new-age-and-christianity/#224-vicarious-sacrifice)  
-	. . 2.2.5. [God and the Devil](/post/doctor-strange-new-age-and-christianity/#225-god-and-the-devil)  
-	. . 2.2.6. [Biblical References](/post/doctor-strange-new-age-and-christianity/#226-biblical-references)  
+	2. [Religious Content](/post/doctor-strange-new-age-and-christianity/#22-religious-content)  
+		[Conversion](/post/doctor-strange-new-age-and-christianity/#221-conversion)  
+		[Perseverance](/post/doctor-strange-new-age-and-christianity/#222-perseverance)  
+		[Life’s Meaning](/post/doctor-strange-new-age-and-christianity/#223-lifes-meaning)  
+		[Vicarious Sacrifice](/post/doctor-strange-new-age-and-christianity/#224-vicarious-sacrifice)  
+		[God and the Devil](/post/doctor-strange-new-age-and-christianity/#225-god-and-the-devil)  
+		[Biblical References](/post/doctor-strange-new-age-and-christianity/#226-biblical-references)  
   
 3. [New Age in *Doctor Strange*](/post/doctor-strange-new-age-and-christianity/#3-new-age-in-doctor-strange)  
   
-	3.1. [What is New Age?](/post/doctor-strange-new-age-and-christianity/#31-what-is-new-age)  
-	. . 3.1.1. [Esotericism](/post/doctor-strange-new-age-and-christianity/#311-esotericism)  
-	. . 3.1.2. [Syncretism](/post/doctor-strange-new-age-and-christianity/#312-syncretism)  
-	. . 3.1.3. [Narcissism](/post/doctor-strange-new-age-and-christianity/#313-narcissism)  
+	1. [What is New Age?](/post/doctor-strange-new-age-and-christianity/#31-what-is-new-age)  
+		[Esotericism](/post/doctor-strange-new-age-and-christianity/#311-esotericism)  
+		[Syncretism](/post/doctor-strange-new-age-and-christianity/#312-syncretism)  
+		[Narcissism](/post/doctor-strange-new-age-and-christianity/#313-narcissism)  
   
-	3.2. [What does New Age offer?](/post/doctor-strange-new-age-and-christianity/#32-what-does-new-age-offer)  
-	. . 3.2.1. [Enchantment](/post/doctor-strange-new-age-and-christianity/#321-enchantment)  
-	. . 3.2.2. [Healing](/post/doctor-strange-new-age-and-christianity/#322-healing)  
-	. . 3.2.3. [Holism](/post/doctor-strange-new-age-and-christianity/#323-holism)  
+	2. [What does New Age offer?](/post/doctor-strange-new-age-and-christianity/#32-what-does-new-age-offer)  
+		[Enchantment](/post/doctor-strange-new-age-and-christianity/#321-enchantment)  
+		[Healing](/post/doctor-strange-new-age-and-christianity/#322-healing)  
+		[Holism](/post/doctor-strange-new-age-and-christianity/#323-holism)  
   
 4. [Conclusion: *Doctor Strange* and Evangelization](/post/doctor-strange-new-age-and-christianity/#4-conclusion-doctor-strange-and-evangelization)  
-	4.1. [Desire for Meaning](/post/doctor-strange-new-age-and-christianity/#41-desire-for-meaning)  
-	4.2. [Desire for Salvation](/post/doctor-strange-new-age-and-christianity/#42-desire-for-salvation)  
+	1. [Desire for Meaning](/post/doctor-strange-new-age-and-christianity/#41-desire-for-meaning)  
+	2. [Desire for Salvation](/post/doctor-strange-new-age-and-christianity/#42-desire-for-salvation)  
 
 ---
 
