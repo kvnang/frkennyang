@@ -323,7 +323,7 @@ Tidak jauh berbeda dari *Doctor Strange*, *New Age* sendiri adalah sebuah realit
 
 ### 4.2. Kerinduan akan Keselamatan
 
-> Setelah mereka jatuh, dengan menjanjikan penebusan Ia mengangkat mereka untuk mengharapkan keselamatan. Tiada putus-putusnya Ia memelihara umat manusia, untuk mengurniakan hidup kekal kepada semua, yang *mencari keselamatan dan bertekun melakukan apa yang baik*.[^110]
+> Setelah mereka jatuh, dengan menjanjikan penebusan, Ia mengangkat mereka untuk mengharapkan keselamatan. Tiada putus-putusnya Ia memelihara umat manusia untuk mengurniakan hidup kekal kepada semua yang *mencari keselamatan dan bertekun melakukan apa yang baik*.[^110]
 
 Evangelisasi hari ini harus menggunakan kerinduan manusia akan keselamatan sebagai batu loncatan. Seperti yang dinyatakan oleh Barron, “Kristologi harus selalu menyampaikan sebuah pemahaman mengenai keselamatan, yakni, sebuah penjelasan mengenai apa yang salah dengan umat manusia dan bagaimana Yesus menyelamatkan kita dari keadaan tersebut.”[^111]
 
