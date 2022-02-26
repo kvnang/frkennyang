@@ -13,6 +13,16 @@ Saya adalah penggemar *superheroes*. Menyamar sebagai [Power Ranger](https://www
 
 Selama saya mendalami teologi beberapa tahun terakhir, saya sering bertanya-tanya apakah kisah-kisah *superheroes* bisa bermanfaat dalam pewartaan Injil. Di antara film-film Marvel yang saya sukai, saya memilih [*Doctor Strange*](https://www.imdb.com/title/tt1211837/) (2016) sebagai sampel dan meneliti apakah film ini bisa menjadi sarana evangelisasi yang efektif. Setelah membandingkannya dengan iman kristiani, saya mengambil kesimpulan bahwa ***Doctor Strange*** **dapat menjadi sarana evangelisasi yang berharga apabila penonton mampu menimba konten kristiani yang ada sekaligus mengenali unsur-unsur** ***New Age*** **di dalamnya sebagai unsur-unsur yang tidak sesuai dengan iman kristiani**.
 
+---
+
+## Daftar Isi
+
+1. [Deskripsi Doctor Strange](/id/post/doctor-strange-new-age-and-christianity/#1-deskripsi-doctor-strange)  
+	1.1. [Pencipta: Stan Lee](/id/post/doctor-strange-new-age-and-christianity/#11-pencipta-stan-lee)  
+	1.2. [Sutradara: Scott Derrickson](/id/post/doctor-strange-new-age-and-christianity/#12-sutradara-scott-derrickson)  
+
+---
+
 ## 1. Deskripsi *Doctor Strange*
 
 ### 1.1. Pencipta: Stan Lee
