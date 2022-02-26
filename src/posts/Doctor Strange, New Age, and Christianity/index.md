@@ -17,11 +17,11 @@ Throughout my theological studies, I have frequently wondered if superhero stori
 
 ## Content
 
-1. [Description of *Doctor Strange*](/post/doctor-strange-new-age-and-christianity/#1-description-of-doctor-strange)
-  1.1. [The Creator: Stan Lee](/post/doctor-strange-new-age-and-christianity/#11-the-creator-stan-lee)
-  1.2. [The Director: Scott Derrickson](/post/doctor-strange-new-age-and-christianity/#12-the-director-scott-derrickson)
-  1.3. [Movie Synopsis](/post/doctor-strange-new-age-and-christianity/#13-movie-synopsis)
-2. [Christianity in *Doctor Strange*](/post/doctor-strange-new-age-and-christianity/#2-christianity-in-doctor-strange)
+1. [Description of *Doctor Strange*](/post/doctor-strange-new-age-and-christianity/#1-description-of-doctor-strange)  
+  1.1. [The Creator: Stan Lee](/post/doctor-strange-new-age-and-christianity/#11-the-creator-stan-lee)  
+  1.2. [The Director: Scott Derrickson](/post/doctor-strange-new-age-and-christianity/#12-the-director-scott-derrickson)  
+  1.3. [Movie Synopsis](/post/doctor-strange-new-age-and-christianity/#13-movie-synopsis)  
+2. [Christianity in *Doctor Strange*](/post/doctor-strange-new-age-and-christianity/#2-christianity-in-doctor-strange)  
   2.1. [Philosophical-Anthropological Content](/post/doctor-strange-new-age-and-christianity/#21-philosophical-anthropological-content)
     2.1.1. [Spirituality](/post/doctor-strange-new-age-and-christianity/#211-spirituality)
     2.1.2. [Conscience](/post/doctor-strange-new-age-and-christianity/#212-conscience)
