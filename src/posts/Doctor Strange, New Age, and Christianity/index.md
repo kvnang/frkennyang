@@ -13,6 +13,42 @@ I love superheroes. Dressing up as a [Power Ranger](https://www.imdb.com/title/t
 
 Throughout my theological studies, I have frequently wondered if superhero stories can do any good for evangelization. Among the Marvel movies I am fond of, I picked *[Doctor Strange](https://www.imdb.com/title/tt1211837/)* (2016) as a sample and examined whether it can be an effective tool to spread the message of Christianity. After scrutinizing and juxtaposing it with Christian faith, I came to the conclusion that ***Doctor Strange*** **can be a valuable instrument of evangelization on condition that the viewer is capable of extracting its Christian content while simultaneously identifying the New Age elements latent therein as incompatible with Christian faith**.
 
+---
+
+## Content
+
+1. [Description of *Doctor Strange*](/post/doctor-strange-new-age-and-christianity/#1-description-of-doctor-strange)
+  1.1. [The Creator: Stan Lee](/post/doctor-strange-new-age-and-christianity/#11-the-creator-stan-lee)
+  1.2. [The Director: Scott Derrickson](/post/doctor-strange-new-age-and-christianity/#12-the-director-scott-derrickson)
+  1.3. [Movie Synopsis](/post/doctor-strange-new-age-and-christianity/#13-movie-synopsis)
+2. [Christianity in *Doctor Strange*](/post/doctor-strange-new-age-and-christianity/#2-christianity-in-doctor-strange)
+  2.1. [Philosophical-Anthropological Content](/post/doctor-strange-new-age-and-christianity/#21-philosophical-anthropological-content)
+    2.1.1. [Spirituality](/post/doctor-strange-new-age-and-christianity/#211-spirituality)
+    2.1.2. [Conscience](/post/doctor-strange-new-age-and-christianity/#212-conscience)
+    2.1.3. [Eternity](/post/doctor-strange-new-age-and-christianity/#213-eternity)
+    2.1.4. [Dignity](/post/doctor-strange-new-age-and-christianity/#214-dignity)
+  2.2. [Religious Content](/post/doctor-strange-new-age-and-christianity/#22-religious-content)
+    2.2.1. [Conversion](/post/doctor-strange-new-age-and-christianity/#221-conversion)
+    2.2.2. [Perseverance](/post/doctor-strange-new-age-and-christianity/#222-perseverance)
+    2.2.3. [Life’s Meaning](/post/doctor-strange-new-age-and-christianity/#223-lifes-meaning)
+    2.2.4. [Vicarious Sacrifice](/post/doctor-strange-new-age-and-christianity/#224-vicarious-sacrifice)
+    2.2.5. [God and the Devil](/post/doctor-strange-new-age-and-christianity/#225-god-and-the-devil)
+    2.2.6. [Biblical References](/post/doctor-strange-new-age-and-christianity/#226-biblical-references)
+3. [New Age in *Doctor Strange*](/post/doctor-strange-new-age-and-christianity/#3-new-age-in-doctor-strange)
+  3.1. [What is New Age?](/post/doctor-strange-new-age-and-christianity/#31-what-is-new-age)
+    3.1.1. [Esotericism](/post/doctor-strange-new-age-and-christianity/#311-esotericism)
+    3.1.2. [Syncretism](/post/doctor-strange-new-age-and-christianity/#312-syncretism)
+    3.1.3. [Narcissism](/post/doctor-strange-new-age-and-christianity/#313-narcissism)
+  3.2. [What does New Age offer?](/post/doctor-strange-new-age-and-christianity/#32-what-does-new-age-offer)
+    3.2.1. [Enchantment](/post/doctor-strange-new-age-and-christianity/#321-enchantment)
+    3.2.2. [Healing](/post/doctor-strange-new-age-and-christianity/#322-healing)
+    3.2.3. [Holism](/post/doctor-strange-new-age-and-christianity/#323-holism)
+4. [Conclusion: *Doctor Strange* and Evangelization](/post/doctor-strange-new-age-and-christianity/#4-conclusion-doctor-strange-and-evangelization)
+  4.1. [Desire for Meaning](/post/doctor-strange-new-age-and-christianity/#41-desire-for-meaning)
+  4.2. [Desire for Salvation](/post/doctor-strange-new-age-and-christianity/#42-desire-for-salvation)
+
+---
+
 ## 1. Description of *Doctor Strange*
 
 ### 1.1. The Creator: Stan Lee
@@ -341,7 +377,7 @@ What many still do not realize is that God is the only savior. Thus, one of the 
 
 Not a few Christians I am acquainted with are skeptical about cinema’s capability to communicate truths of faith. Yet, based on everything I have explained above, I am convinced that, in the postmodern context, films—“the distinctive art form of our time”[^115]—can be effective means of evangelization provided that the Christian viewer has a sufficiently keen *sensus fidei*[^116] to separate the wheat from the chaff.
 
-![man watching tv cinema movies](cinema.jpg)
+![cinema building flashy cars](cinema.jpg)
 
 I believe this is how Derrickson also sees the movie industry. In fact, he is aware of his duty to glorify God through his cinematic productions:
 
