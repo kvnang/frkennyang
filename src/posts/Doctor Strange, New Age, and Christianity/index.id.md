@@ -24,9 +24,9 @@ Selama saya mendalami teologi beberapa tahun terakhir, saya sering bertanya-tany
 
 2. [Kekristenan dalam *Doctor Strange*](/id/post/doctor-strange-new-age-and-christianity/#2-kekristenan-dalam-doctor-strange)  
   
-	2.1. [Konten Filosofis-Antropologis](/id/post/doctor-strange-new-age-and-christianity/#21-konten-filosofis-antropologis)  
-	. . 2.1.1. [Spiritualitas](/id/post/doctor-strange-new-age-and-christianity/#211-spiritualitas)  
-	. . 2.1.2. [Hati Nurani](/id/post/doctor-strange-new-age-and-christianity/#212-hati-nurani)  
+	1. [Konten Filosofis-Antropologis](/id/post/doctor-strange-new-age-and-christianity/#21-konten-filosofis-antropologis)  
+		1. [Spiritualitas](/id/post/doctor-strange-new-age-and-christianity/#211-spiritualitas)  
+		2. [Hati Nurani](/id/post/doctor-strange-new-age-and-christianity/#212-hati-nurani)  
 	. . 2.1.3. [Keabadian](/id/post/doctor-strange-new-age-and-christianity/#213-keabadian)  
 	. . 2.1.4. [Martabat](/id/post/doctor-strange-new-age-and-christianity/#214-martabat)  
   
