@@ -36,8 +36,9 @@ Selama saya mendalami teologi beberapa tahun terakhir, saya sering bertanya-tany
 		2.2.5. [Allah dan Iblis](/id/post/doctor-strange-new-age-and-christianity/#225-allah-dan-iblis)  
 		2.2.6. [Ungkapan Alkitabiah](/id/post/doctor-strange-new-age-and-christianity/#226-ungkapan-alkitabiah)  
   
-3. [New Age dalam *Doctor Strange*](/id/post/doctor-strange-new-age-and-christianity/#3-new-age-dalam-doctor-strange)
-
+3. [New Age dalam *Doctor Strange*](/id/post/doctor-strange-new-age-and-christianity/#3-new-age-dalam-doctor-strange)  
+	3.1. [Apa itu New Age?](/id/post/doctor-strange-new-age-and-christianity/#31-apa-itu-new-age)  
+	..3.1.1. [Esoterisme](/id/post/doctor-strange-new-age-and-christianity/#311-esoterisme)  
 ---
 
 ## 1. Deskripsi *Doctor Strange*
