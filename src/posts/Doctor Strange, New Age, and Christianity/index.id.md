@@ -18,9 +18,9 @@ Selama saya mendalami teologi beberapa tahun terakhir, saya sering bertanya-tany
 ## Daftar Isi
 
 1. [Deskripsi Doctor Strange](/id/post/doctor-strange-new-age-and-christianity/#1-deskripsi-doctor-strange)  
-	1.1. [Pencipta: Stan Lee](/id/post/doctor-strange-new-age-and-christianity/#11-pencipta-stan-lee)  
-	1.2. [Sutradara: Scott Derrickson](/id/post/doctor-strange-new-age-and-christianity/#12-sutradara-scott-derrickson)  
-	1.3. [Sinopsis Film](/id/post/doctor-strange-new-age-and-christianity/#13-sinopsis-film)  
+	1. [Pencipta: Stan Lee](/id/post/doctor-strange-new-age-and-christianity/#11-pencipta-stan-lee)  
+	2. [Sutradara: Scott Derrickson](/id/post/doctor-strange-new-age-and-christianity/#12-sutradara-scott-derrickson)  
+	3. [Sinopsis Film](/id/post/doctor-strange-new-age-and-christianity/#13-sinopsis-film)  
 
 2. [Kekristenan dalam *Doctor Strange*](/id/post/doctor-strange-new-age-and-christianity/#2-kekristenan-dalam-doctor-strange)  
   
@@ -30,29 +30,29 @@ Selama saya mendalami teologi beberapa tahun terakhir, saya sering bertanya-tany
 		[Keabadian](/id/post/doctor-strange-new-age-and-christianity/#213-keabadian)  
 		[Martabat](/id/post/doctor-strange-new-age-and-christianity/#214-martabat)  
   
-	2.2. [Konten Religius](/id/post/doctor-strange-new-age-and-christianity/#22-konten-religius)  
-	. . 2.2.1. [Pertobatan](/id/post/doctor-strange-new-age-and-christianity/#221-pertobatan)  
-	. . 2.2.2. [Ketekunan](/id/post/doctor-strange-new-age-and-christianity/#222-ketekunan)  
-	. . 2.2.3. [Makna Hidup](/id/post/doctor-strange-new-age-and-christianity/#223-makna-hidup)  
-	. . 2.2.4. [Pengorbanan Bagi Orang Lain](/id/post/doctor-strange-new-age-and-christianity/#224-pengorbanan-bagi-orang-lain)  
-	. . 2.2.5. [Allah dan Iblis](/id/post/doctor-strange-new-age-and-christianity/#225-allah-dan-iblis)  
-	. . 2.2.6. [Ungkapan Alkitabiah](/id/post/doctor-strange-new-age-and-christianity/#226-ungkapan-alkitabiah)  
+	2. [Konten Religius](/id/post/doctor-strange-new-age-and-christianity/#22-konten-religius)  
+		[Pertobatan](/id/post/doctor-strange-new-age-and-christianity/#221-pertobatan)  
+		[Ketekunan](/id/post/doctor-strange-new-age-and-christianity/#222-ketekunan)  
+		[Makna Hidup](/id/post/doctor-strange-new-age-and-christianity/#223-makna-hidup)  
+		[Pengorbanan Bagi Orang Lain](/id/post/doctor-strange-new-age-and-christianity/#224-pengorbanan-bagi-orang-lain)  
+		[Allah dan Iblis](/id/post/doctor-strange-new-age-and-christianity/#225-allah-dan-iblis)  
+		[Ungkapan Alkitabiah](/id/post/doctor-strange-new-age-and-christianity/#226-ungkapan-alkitabiah)  
   
 3. [New Age dalam *Doctor Strange*](/id/post/doctor-strange-new-age-and-christianity/#3-new-age-dalam-doctor-strange)  
   
-	3.1. [Apa itu New Age?](/id/post/doctor-strange-new-age-and-christianity/#31-apa-itu-new-age)  
-	. . 3.1.1. [Esoterisme](/id/post/doctor-strange-new-age-and-christianity/#311-esoterisme)  
-	. . 3.1.2. [Sinkretisme](/id/post/doctor-strange-new-age-and-christianity/#312-sinkretisme)  
-	. . 3.1.3. [Narsisisme](/id/post/doctor-strange-new-age-and-christianity/#313-narsisisme)  
+	1. [Apa itu New Age?](/id/post/doctor-strange-new-age-and-christianity/#31-apa-itu-new-age)  
+		[Esoterisme](/id/post/doctor-strange-new-age-and-christianity/#311-esoterisme)  
+		[Sinkretisme](/id/post/doctor-strange-new-age-and-christianity/#312-sinkretisme)  
+		[Narsisisme](/id/post/doctor-strange-new-age-and-christianity/#313-narsisisme)  
   
-	3.2. [Apa yang ditawarkan oleh New Age?](/id/post/doctor-strange-new-age-and-christianity/#32-apa-yang-ditawarkan-oleh-new-age)  
-	. . 3.2.1. [Alam Gaib](/id/post/doctor-strange-new-age-and-christianity/#321-alam-gaib)  
-	. . 3.2.2. [Kesembuhan](/id/post/doctor-strange-new-age-and-christianity/#322-kesembuhan)  
-	. . 3.2.3. [Holisme](/id/post/doctor-strange-new-age-and-christianity/#323-holisme)  
+	2. [Apa yang ditawarkan oleh New Age?](/id/post/doctor-strange-new-age-and-christianity/#32-apa-yang-ditawarkan-oleh-new-age)  
+		[Alam Gaib](/id/post/doctor-strange-new-age-and-christianity/#321-alam-gaib)  
+		[Kesembuhan](/id/post/doctor-strange-new-age-and-christianity/#322-kesembuhan)  
+		[Holisme](/id/post/doctor-strange-new-age-and-christianity/#323-holisme)  
   
 4. [Kesimpulan: *Doctor Strange* dan Evangelisasi](/id/post/doctor-strange-new-age-and-christianity/#4-kesimpulan-doctor-strange-dan-evangelisasi)  
-	4.1. [Kerinduan akan Makna](/id/post/doctor-strange-new-age-and-christianity/#41-kerinduan-akan-makna)  
-	4.2. [Kerinduan akan Keselamatan](/id/post/doctor-strange-new-age-and-christianity/#42-kerinduan-akan-keselamatan)  
+	1. [Kerinduan akan Makna](/id/post/doctor-strange-new-age-and-christianity/#41-kerinduan-akan-makna)  
+	2. [Kerinduan akan Keselamatan](/id/post/doctor-strange-new-age-and-christianity/#42-kerinduan-akan-keselamatan)  
 
 ---
 
