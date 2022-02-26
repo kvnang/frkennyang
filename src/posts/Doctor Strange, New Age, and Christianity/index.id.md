@@ -164,7 +164,7 @@ Ungkapan terakhir ini tentunya mengingatkan kita akan salah satu perkataan Paulu
 
 Gagasan akan Allah sebagai sosok yang “mencari kepentingan-kepentingan-Nya sendiri”[^38] dan iblis sebagai pemberi yang murah hati tidaklah asing dalam Kitab Suci. Kita bisa menemukan gagasan yang keliru ini sejak Kejadian 3:
 
-> … ular itu berkata kepada perempuan itu: "Sekali-kali kamu tidak akan mati, tetapi Allah mengetahui, bahwa pada waktu kamu memakannya matamu akan terbuka, dan *kamu akan menjadi seperti Allah*, tahu tentang yang baik dan yang jahat” (Kej. 3:4–5).
+> … ular itu berkata kepada perempuan itu: "Sekali-kali kamu tidak akan mati, tetapi Allah mengetahui, bahwa pada waktu kamu memakannya matamu akan terbuka, dan *kamu akan menjadi seperti Allah*, tahu tentang yang baik dan yang jahat" (Kej. 3:4–5).
 
 Pemahaman ini juga mendasari perumpamaan Yesus tentang talenta:
 
@@ -341,7 +341,7 @@ Hal yang masih belum disadari oleh banyak orang adalah kenyataan bahwa Allah ada
 
 Tidak sedikit orang kristiani yang saya kenal bersikap skeptis terhadap kemampuan perfilman untuk menyampaikan kebenaran iman. Akan tetapi, berdasarkan apa yang telah saya jelaskan di atas, saya yakin bahwa, dalam zaman postmodern, film, yang adalah “wujud seni yang khas dari zaman kita,”[^115] dapat menjadi sarana evangelisasi yang efektif asalkan para penonton kristiani memiliki *sensus fidei*[^116] yang tajam untuk memisahkan gandum dari lalang.
 
-![man watching tv cinema movies](cinema.jpg)
+![cinema building flashy cars](cinema.jpg)
 
 Saya kira ini juga merupakan pandangan Derrickson perihal industri film. Ia bahkan sadar akan tugasnya untuk memuliakan Allah melalui produksi sinematiknya:
 
