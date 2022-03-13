@@ -1,18 +1,15 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
-
-// You can delete this file if you're not using it
+import type { GatsbySSR } from 'gatsby';
 import React from 'react';
 import Layout from './src/components/Layout';
 
-export function wrapPageElement({ element, props }) {
-  return <Layout {...props}>{element}</Layout>;
-}
+export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({
+  element,
+  props,
+}) => <Layout {...props}>{element}</Layout>;
 
-export function onRenderBody({ setPreBodyComponents }) {
+export const onRenderBody: GatsbySSR['onRenderBody'] = ({
+  setPreBodyComponents,
+}) => {
   const scripts = [
     <script
       key="preferred-lang-script"
@@ -62,4 +59,4 @@ export function onRenderBody({ setPreBodyComponents }) {
   }
 
   setPreBodyComponents(scripts);
-}
+};
