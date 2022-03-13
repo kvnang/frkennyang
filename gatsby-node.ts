@@ -1,9 +1,11 @@
-const path = require('path');
-const { createFilePath } = require('gatsby-source-filesystem');
-const { default: algoliasearch } = require('algoliasearch');
+import type { CreatePagesArgs, GatsbyNode } from 'gatsby';
+import path from 'path';
+import { createFilePath } from 'gatsby-source-filesystem';
+import algoliasearch from 'algoliasearch';
+import { FrontmatterProps, PostProps } from './src/types';
 // const fetch = require('node-fetch');
 
-function slugify(text) {
+function slugify(text: string) {
   return text
     .toString()
     .toLowerCase()
@@ -14,11 +16,17 @@ function slugify(text) {
     .replace(/-+$/, ''); // Trim - from end of text
 }
 
-async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
+async function turnMdPostsIntoPages({
+  graphql,
+  actions,
+  reporter,
+}: CreatePagesArgs) {
   // 1. Get a template for this page
   const postTemplate = path.resolve('./src/templates/SinglePostMd.tsx');
   // 2. Query all posts
-  const result = await graphql(`
+  const result = await graphql<{
+    allMarkdownRemark: { nodes: PostProps[] };
+  }>(`
     {
       allMarkdownRemark(filter: { fields: { collection: { eq: "post" } } }) {
         nodes {
@@ -36,7 +44,7 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
     return;
   }
   // 4. Create single pages
-  result.data.allMarkdownRemark.nodes.forEach((post) => {
+  result.data?.allMarkdownRemark.nodes.forEach((post) => {
     actions.createPage({
       path: post.fields.slug,
       component: postTemplate,
@@ -49,14 +57,14 @@ async function turnMdPostsIntoPages({ graphql, actions, reporter }) {
   });
 }
 
-async function importAlgoliaIndex({ graphql, reporter }) {
+async function importAlgoliaIndex({ graphql, reporter }: CreatePagesArgs) {
   // 0. Don't need to run this on dev
   if (process.env.NODE_ENV === 'development') {
     return;
   }
 
   // 1. Query posts
-  const result = await graphql(`
+  const result = await graphql<{ posts: { nodes: PostProps[] } }>(`
     {
       posts: allMarkdownRemark(
         filter: { fields: { collection: { eq: "post" } } }
@@ -94,7 +102,7 @@ async function importAlgoliaIndex({ graphql, reporter }) {
 
   // 3. Transform to Algolia Search Object
 
-  const transformed = result.data.posts.nodes.map((node) => ({
+  const transformed = result.data?.posts.nodes.map((node) => ({
     objectID: node.fields.slug,
     dateTimestamp: node.frontmatter.date
       ? Date.parse(node.frontmatter.date)
@@ -113,40 +121,54 @@ async function importAlgoliaIndex({ graphql, reporter }) {
 
   // 6. Save the objects!
   // await index.clearObjects();
-  const algoliaResponse = await index.saveObjects(transformed);
+  const algoliaResponse = transformed
+    ? await index.saveObjects(transformed)
+    : null;
 
   // check the output of the response in the console
-  console.log(
-    `🎉 Sucessfully added ${algoliaResponse.objectIDs.length} records to Algolia search.`
-  );
+  if (algoliaResponse) {
+    console.log(
+      `🎉 Sucessfully added ${algoliaResponse.objectIDs.length} records to Algolia search.`
+    );
+  } else {
+    console.error('Failed transforming data for Algolia');
+  }
 }
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
+export const onCreateNode: GatsbyNode['onCreateNode'] = ({
+  node,
+  getNode,
+  actions,
+}) => {
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
     // if my posts have a slug in the frontmatter, it means I've specified what I want it to be. Otherwise I want to create one automatically
     // This is where we add our own custom fields to each node
     // const generatedSlug = createFilePath({ node, getNode });
+    const { parent, fileAbsolutePath, frontmatter } = node;
 
-    if (getNode(node.parent).sourceInstanceName === 'post') {
-      let fileName = path.basename(node.fileAbsolutePath, '.md');
+    if (parent && getNode(parent)?.sourceInstanceName === 'post') {
+      let fileName = path.basename(fileAbsolutePath as string, '.md');
       const lang = fileName.endsWith('.id') ? 'id' : 'en';
 
       if (fileName === 'index' || fileName === 'index.id') {
-        const folderName = path.basename(path.dirname(node.fileAbsolutePath));
+        const folderName = path.basename(
+          path.dirname(fileAbsolutePath as string)
+        );
         fileName = fileName.replace('index', folderName);
       }
 
       const generatedSlug =
         lang === 'id'
-          ? `id/post/${slugify(fileName.replace(new RegExp('.id$'), ''))}`
+          ? // eslint-disable-next-line prefer-regex-literals
+            `id/post/${slugify(fileName.replace(new RegExp('.id$'), ''))}`
           : `post/${slugify(fileName)}`;
 
       createNodeField({
         name: `slug`,
         node,
-        value: node.frontmatter.slug
-          ? `/post/${node.frontmatter.slug}/`
+        value: (frontmatter as FrontmatterProps).slug
+          ? `/post/${(frontmatter as FrontmatterProps).slug}/`
           : `/${generatedSlug}/`,
       });
 
@@ -168,12 +190,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       name: `collection`,
       node,
-      value: getNode(node.parent).sourceInstanceName,
+      value: parent ? getNode(parent)?.sourceInstanceName : null,
     });
   }
 };
 
-exports.createPages = async (params) => {
+export const createPages: GatsbyNode['createPages'] = async (params) => {
   // Create pages dynamically
   // Wait for all promises to be resolved before finishing this function
   // await Promise.all([turnPostsIntoPages(params)]);
@@ -183,9 +205,10 @@ exports.createPages = async (params) => {
   ]);
 };
 
-exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions;
-  const typeDefs = `
+export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] =
+  ({ actions }) => {
+    const { createTypes } = actions;
+    const typeDefs = `
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter
     }
@@ -197,5 +220,5 @@ exports.createSchemaCustomization = ({ actions }) => {
       category: [String!]
     }
   `;
-  createTypes(typeDefs);
-};
+    createTypes(typeDefs);
+  };
