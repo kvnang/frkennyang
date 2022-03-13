@@ -1,8 +1,10 @@
-const dotenv = require('dotenv');
+import type { GatsbyConfig } from 'gatsby';
+import dotenv from 'dotenv';
+import type { PostProps } from './src/types';
 
 dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 
-module.exports = {
+const config: GatsbyConfig = {
   siteMetadata: {
     title: 'Fr. Kenny Ang',
     description: `Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.`,
@@ -156,13 +158,17 @@ module.exports = {
                 }
               }
             }`,
-            transformer: ({ data }) =>
+            transformer: ({
+              data,
+            }: {
+              data: { posts: { nodes: PostProps[] } };
+            }) =>
               data.posts.nodes.map((node) => ({
                 objectID: node.fields.slug,
                 dateTimestamp: node.frontmatter.date
                   ? Date.parse(node.frontmatter.date)
                   : null,
-                modified: node.parent.modifiedTime
+                modified: node.parent?.modifiedTime
                   ? Date.parse(node.parent.modifiedTime)
                   : null,
                 ...node,
@@ -189,3 +195,5 @@ module.exports = {
     },
   ],
 };
+
+export default config;

@@ -29,4 +29,7 @@ export interface PostProps {
     lang: string;
   };
   timeToRead: number;
+  parent?: {
+    modifiedTime?: string;
+  };
 }
