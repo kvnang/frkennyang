@@ -135,6 +135,15 @@ module.exports = {
     // note you must disable the base rule as it can report incorrect errors
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
+
+    // airbnb config fix
+    'react/function-component-definition': [
+      2,
+      {
+        namedComponents: ['function-declaration', 'function-expression'],
+        unnamedComponents: 'function-expression',
+      },
+    ],
   },
   globals: {
     React: true,
