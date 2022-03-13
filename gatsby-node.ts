@@ -1,4 +1,4 @@
-import type { CreatePagesArgs, CreateResolversArgs, GatsbyNode } from 'gatsby';
+import type { CreatePagesArgs, GatsbyNode } from 'gatsby';
 import path from 'path';
 import { createFilePath } from 'gatsby-source-filesystem';
 import algoliasearch from 'algoliasearch';
