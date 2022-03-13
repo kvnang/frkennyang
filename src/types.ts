@@ -6,23 +6,26 @@ export interface FormMessageTypes {
   open: boolean;
 }
 
+export interface FrontmatterProps {
+  title: string;
+  format: string;
+  date: string;
+  featuredImage?: {
+    childImageSharp: {
+      gatsbyImageData: IGatsbyImageData;
+    };
+    publicURL: string;
+  };
+  youtube?: string;
+  category?: string[];
+  excerpt?: string;
+  slug?: string;
+}
+
 export interface PostProps {
   id: number;
   excerpt: string;
-  frontmatter: {
-    title: string;
-    format: string;
-    date: string;
-    featuredImage?: {
-      childImageSharp: {
-        gatsbyImageData: IGatsbyImageData;
-      };
-      publicURL: string;
-    };
-    youtube?: string;
-    category?: string[];
-    excerpt?: string;
-  };
+  frontmatter: FrontmatterProps;
   html: string;
   fields: {
     slug: string;
