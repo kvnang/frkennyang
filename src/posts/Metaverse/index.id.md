@@ -24,7 +24,7 @@ Kita mendengar bahwa semua hal ini bisa dilakukan dalam *metaverse*. Tapi, akank
 3. [Apa yang salah dengan *metaverse*?](/id/post/metaverse/#3-apa-yang-salah-dengan-metaverse)  
 		
 	[Anonimitas](/id/post/metaverse/#anonimitas)
-	
+		
 	[Kesewenang-Wenangan](/id/post/metaverse/#kesewenang-wenangan)
 		
 	[Pengasingan Diri](/id/post/metaverse/#pengasingan-diri)
@@ -32,7 +32,7 @@ Kita mendengar bahwa semua hal ini bisa dilakukan dalam *metaverse*. Tapi, akank
 	[Spiritualisme](/id/post/metaverse/#spiritualisme)
 		
 	[Disintegrasi](/id/post/metaverse/#disintegrasi)
-
+		
 4. [Kesimpulan](/id/post/metaverse/#4-kesimpulan)
 
 [Referensi](/id/post/metaverse/#referensi)
