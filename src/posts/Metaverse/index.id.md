@@ -17,25 +17,25 @@ Kita mendengar bahwa semua hal ini bisa dilakukan dalam *metaverse*. Tapi, akank
 
 ## Daftar Isi
 
-1. Apa itu *metaverse*?
+1. [Apa itu *metaverse*?](/id/post/metaverse/#1-apa-itu-metaverse)
 
-2. Apakah *metaverse* baik atau buruk?
+2. [Apakah *metaverse* baik atau buruk?](/id/post/metaverse/#2-apakah-metaverse-baik-atau-buruk)
 
-3. Apa yang salah dengan *metaverse*?
+3. [Apa yang salah dengan *metaverse*?](/id/post/metaverse/#3-apa-yang-salah-dengan-metaverse)
 
-	Anonimitas
+	[Anonimitas](/id/post/metaverse/#anonimitas)
 
-	Kesewenang-Wenangan
+	[Kesewenang-Wenangan](/id/post/metaverse/#kesewenang-wenangan)
 
-	Pengasingan Diri
+	[Pengasingan Diri](/id/post/metaverse/#pengasingan-diri)
 
-	Spiritualisme
+	[Spiritualisme](/id/post/metaverse/#spiritualisme)
 
-	Disintegrasi
+	[Disintegrasi](/id/post/metaverse/#disintegrasi)
 
-4. Kesimpulan
+4. [Kesimpulan](/id/post/metaverse/#4-kesimpulan)
 
-Referensi
+[Referensi](/id/post/metaverse/#referensi)
 
 ---
 
