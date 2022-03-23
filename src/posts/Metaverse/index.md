@@ -16,25 +16,25 @@ It is said that all these things will become possible in the metaverse. But will
 
 ## Content
 
-1. What is the metaverse?
+1. [What is the metaverse?](/post/metaverse/#1-what-is-the-metaverse)
 
-2. Is the metaverse good or bad?
+2. [Is the metaverse good or bad?](/post/metaverse/#2-is-the-metaverse-good-or-bad)
 
-3. What’s bad about the metaverse?
+3. [What’s bad about the metaverse?](/post/metaverse/#3-whats-bad-about-the-metaverse)
 
-   Anonymity
+   [Anonymity](/post/metaverse/#anonymity)
 
-   Arbitrariness
+   [Arbitrariness](/post/metaverse/#arbitrariness)
 
-   Isolation
+   [Isolation](/post/metaverse/#isolation)
 
-   Spiritualism
+   [Spiritualism](/post/metaverse/#spiritualism)
 
-   Disintegration
+   [Disintegration](/post/metaverse/#disintegration)
 
-4. The Verdict
+4. [The Verdict](/post/metaverse/#4-the-verdict)
 
-References
+[References](/post/metaverse/#references)
 
 ---
 
