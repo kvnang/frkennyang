@@ -42,7 +42,7 @@ References
 
 “*Nihil sub sole novum*”—“there is nothing new under the sun,” says the book of Ecclesiastes (1:9). The metaverse isn’t anything new. Its precursors like chatrooms and social media sites already gained popularity in the 1990s. In addition, if you’ve ever played [*The Sims*](https://www.ea.com/games/the-sims) or other RPGs, then you have an idea of what the metaverse is like.
 
-The term ‘metaverse’ was first used by Neal Stephenson in his 1992 science fiction novel [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) to describe the interconnection of digital technologies that form a virtual reality. [*Meta*](https://www.merriam-webster.com/words-at-play/meta-adjective-self-referential#:~:text=The word meta is Greek,the names of certain disciplines.) itself is a Greek word meaning ‘transcending.’ For example, meta-physics is a branch of philosophy that transcends what is physical. Meta-morphosis means change or the act of transcending the current form (*morphe* in Greek). Thus, metaverse (meta + universe) means *transcending the universe*.
+The term ‘metaverse’ was first used by Neal Stephenson in his 1992 science fiction novel [*Snow Crash*](https://en.wikipedia.org/wiki/Snow_Crash) to describe the interconnection of digital technologies that form a virtual reality. [*Meta*](https://www.merriam-webster.com/words-at-play/meaning-of-metaverse) itself is a Greek word meaning ‘transcending.’ For example, meta-physics is a branch of philosophy that transcends what is physical. Meta-morphosis means change or the act of transcending the current form (*morphe* in Greek). Thus, metaverse (meta + universe) means *transcending the universe*.
 
 ![girl VR headset metaverse clicking with hand](metaverse2.jpg)
 
