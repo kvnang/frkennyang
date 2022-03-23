@@ -22,15 +22,15 @@ It is said that all these things will become possible in the metaverse. But will
 
 3. [What’s bad about the metaverse?](/post/metaverse/#3-whats-bad-about-the-metaverse)
 
-  [Anonymity](/post/metaverse/#anonymity)
+    [Anonymity](/post/metaverse/#anonymity)
 
-  [Arbitrariness](/post/metaverse/#arbitrariness)
+    [Arbitrariness](/post/metaverse/#arbitrariness)
 
-  [Isolation](/post/metaverse/#isolation)
+    [Isolation](/post/metaverse/#isolation)
 
-  [Spiritualism](/post/metaverse/#spiritualism)
+    [Spiritualism](/post/metaverse/#spiritualism)
 
-  [Disintegration](/post/metaverse/#disintegration)
+    [Disintegration](/post/metaverse/#disintegration)
 
 4. [The Verdict](/post/metaverse/#4-the-verdict)
 
