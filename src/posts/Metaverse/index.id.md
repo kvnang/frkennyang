@@ -187,6 +187,8 @@ C. S. Lewis, [*Abolition of Man*](https://www.amazon.com/Abolition-Man-C-S-Lewis
 
 ### Video
 
+[Trapped in the Metaverse: Here’s What 24 Hours in VR Feels Like](https://www.youtube.com/watch?v=rtLTZUaMSDQ) (Wall Street Journal, 12 Nov 2021)
+
 [Introducing Meta](https://youtu.be/pjNI9K1D_xo) (Mark Zuckerberg, 29 Oct 2021)
 
 ### Artikel
