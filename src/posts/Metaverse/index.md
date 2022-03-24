@@ -222,6 +222,8 @@ C. S. Lewis, [*Abolition of Man*](https://www.amazon.com/Abolition-Man-C-S-Lewis
 
 [My generation grew up online. Endless ‘virtual life’ would be terrifying](https://www.nationalgeographic.com/magazine/article/my-generation-grew-up-online-coronavirus-reveals-endless-virtual-life-would-be-terrifying) (National Geographic, 29 May 2020)
 
+[The Surprising Theological Possibilities of Virtual Reality](https://www.christianitytoday.com/ct/2016/november-web-only/surprising-theological-possibilities-of-virtual-reality.html) (Christianity Today, 11 Nov 2016)
+
 [^1]:“[The Metaverse Has Already Arrived](https://time.com/6116826/what-is-the-metaverse/)” (15 Nov 2021).
 
 [^2]:“[What’s All the Hype About the Metaverse?](https://www.nytimes.com/2022/01/18/technology/personaltech/metaverse-gaming-definition.html)” (18 Jan 2022).
