@@ -123,7 +123,7 @@ Kehadiran fisik orang lain *tidak akan pernah bisa disimulasikan*. Realitas virt
 
 Ternyata, teknologi yang dirancang untuk “menghubungkan orang-orang” malah mengasingkan kita dari orang lain, dari hubungan *yang sepenuhnya personal*. Kekhawatiran ini diungkapkan oleh seorang *digital creator* di *Second Life* Carrie Tatsu yang berkata:
 
-Sangatlah penting bagi manusia untuk berada *bersama manusia lain dalam kehidupan nyata* ... Dan, saya pikir, sembari anak-anak tumbuh dalam lingkungan ini, harus ada tempat bagi orang-orang untuk berinteraksi, mencium bunga, berjalan di alam terbuka, melakukan percakapan secara langsung dengan teman Anda dan bermain bola. Maksud saya, *meskipun Anda dapat mensimulasikan hal tersebut, simulasi tidaklah sama* [dengan dunia nyata]. Dan, dalam taraf tertentu, saya merasa prihatin dengan keadaan anak-anak saya.[^11]
+> Sangatlah penting bagi manusia untuk berada *bersama manusia lain dalam kehidupan nyata* ... Dan, saya pikir, sembari anak-anak tumbuh dalam lingkungan ini, harus ada tempat bagi orang-orang untuk berinteraksi, mencium bunga, berjalan di alam terbuka, melakukan percakapan secara langsung dengan teman Anda dan bermain bola. Maksud saya, *meskipun Anda dapat mensimulasikan hal tersebut, simulasi tidaklah sama* [dengan dunia nyata]. Dan, dalam taraf tertentu, saya merasa prihatin dengan keadaan anak-anak saya.[^11]
 
 ### Spiritualisme
 
@@ -155,7 +155,11 @@ Bukankah ini akan mengarah pada *disintegrasi pribadi manusia* seperti yang dise
 
 ## 4. Kesimpulan
 
-Sebagai manusia, kita membutuhkan hiburan. Tetapi, tidak semua hiburan memiliki nilai moral yang setara. Sebagai orang kristiani, kita bertanggung jawab untuk memastikan bahwa hiburan kita memajukan kita alih-alih menjatuhkan kita sebagai manusia. *Metaverse* bisa membawa hal-hal yang baik, seperti yang telah saya katakan. Namun, bahaya yang ditimbulkannya bagi kita tidaklah sepele. Oleh karena itu, kita harus memutuskan apakah menghabiskan Rp. 5 juta untuk membeli [kacamata VR](https://www.oculus.com/quest-2/) merupakan suatu hal yang bijaksana sementara ada banyak alternatif lain untuk mendapatkan hiburan (tanpa kehilangan jiwa kita di dunia nyata).
+Sebagai manusia, kita membutuhkan hiburan. Tetapi, tidak semua hiburan memiliki nilai moral yang setara. Sebagai orang kristiani, kita bertanggung jawab untuk memastikan bahwa hiburan kita memajukan kita alih-alih menjatuhkan kita sebagai manusia.
+
+*Metaverse* bisa membawa hal-hal yang baik, seperti yang telah saya katakan. Namun, bahaya yang ditimbulkannya bagi kita tidaklah sepele. Oleh karena itu, kita harus memutuskan apakah menghabiskan Rp. 5 juta untuk membeli [kacamata VR](https://www.oculus.com/quest-2/) merupakan suatu hal yang bijaksana sementara ada banyak alternatif lain untuk mendapatkan hiburan (tanpa kehilangan jiwa kita di dunia nyata).
+
+---
 
 ## Referensi
 
@@ -186,6 +190,8 @@ C. S. Lewis, [*Abolition of Man*](https://www.amazon.com/Abolition-Man-C-S-Lewis
 [Introducing Meta](https://youtu.be/pjNI9K1D_xo) (Mark Zuckerberg, 29 Oct 2021)
 
 ### Artikel
+
+[Metaverse: What is it and who's in control?](https://www.thinkchina.sg/metaverse-what-it-and-whos-control?utm_source=newsletter&utm_medium=email&utm_campaign=weekly_newsletter) (Think China, 21 Mar 2022)
 
 [Navigating the Metaverse](https://ethosinstitute.sg/navigating-the-metaverse/) (Ethos Institute, 26 Feb 2022)
 
@@ -235,10 +241,10 @@ C. S. Lewis, [*Abolition of Man*](https://www.amazon.com/Abolition-Man-C-S-Lewis
 
 [^9]:Zuckerberg, “[Introducing Meta](https://youtu.be/pjNI9K1D_xo).”
 
-[^10]:Ali Jazayeri, dikutip di [A Virtual Life](https://www.thechicagoschool.edu/insight/from-the-magazine/a-virtual-life/) (7 Dec 2021).
+[^10]:Ali Jazayeri, dikutip di "[A Virtual Life](https://www.thechicagoschool.edu/insight/from-the-magazine/a-virtual-life/)" (7 Dec 2021).
 
 [^11]:Carrie Tatsu, “[The Metaverse Has Already Arrived](https://time.com/6116826/what-is-the-metaverse/)” (15 Nov 2021).
 
 [^12]:*Gaudium et spes*, §34: “Bagi kaum beriman ini merupakan keyakinan: kegiatan manusia baik perorangan maupun kolektif, atau usaha besar-besaran itu sendiri, yang dari zaman ke zaman di kerahkan oleh banyak orang untuk memperbaiki kondisi-kondisi hidup mereka, memang sesuai dengan rencana Allah. Sebab manusia, yang diciptakan menurut gambar Allah, menerima titah-Nya, supaya menakhlukkan bumi beserta segala sesuatu yang terdapat padanya, serta menguasai dunia dalam keadilan dan kesucian.”
 
-[^13]:Lih. [A Virtual Life](https://www.thechicagoschool.edu/insight/from-the-magazine/a-virtual-life/).
+[^13]:Lih. "[A Virtual Life](https://www.thechicagoschool.edu/insight/from-the-magazine/a-virtual-life/)."
