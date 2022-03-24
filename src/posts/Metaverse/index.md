@@ -154,7 +154,7 @@ Wouldn’t this lead to the *fragmentation of the human person* warned of by Ken
 
 ## 4. The Verdict
 
-As humans, we need entertainment. But not all entertaining activities are morally equal. As Christians, we are responsible for making sure that our entertainment enriches us instead of impoverishing us as humans. 
+As humans, we need entertainment. But not all entertaining activities are morally equal. As Christians, we are responsible for ensuring that our entertainment edifies us as humans instead of demeaning us.
 
 The metaverse could bring good things, as I have said. However, the dangers it poses to us are not trivial. Therefore, it’s on us to decide if it’s wise to spend our $349 on a [VR headset](https://www.oculus.com/quest-2/) when there are alternatives to get entertained (without losing our real souls).
 
