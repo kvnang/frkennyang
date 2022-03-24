@@ -65,7 +65,7 @@ Hal-hal baik bisa muncul dari *metaverse* dan realitas virtual. Apabila digunaka
 
 Dalam ranah sejarah, realitas virtual dapat merekam peristiwa, tarian, dan bahkan bahasa (misalnya, gerakan bibir dan lidah) lebih baik daripada buku-buku.
 
-Di bidang pengajaran agama, saya dapat membayangkan bagaimana anak-anak kita di masa depan dapat mempelajari kisah-kisah Alkitab dan kebenaran iman secara lebih efektif melalui *augmented reality*. Bukankah semua hal ini baik adanya? Tentu saja.
+Di bidang pengajaran agama, saya dapat membayangkan bagaimana anak-anak kita di masa depan dapat mempelajari kisah-kisah Alkitab dan kebenaran iman secara lebih efektif melalui realitas virtual. Bukankah semua hal ini baik adanya? Tentu saja.
 
 ## 3. Apa yang salah dengan *metaverse*?
 
