@@ -122,7 +122,7 @@ The physical presence of another human being can *never be simulated*. Virtual r
 
 Isn’t this ironic? A technology intended to “connect people” may end up isolating us from real people, from *fully personal* relationships. This concern is expressed by a digital creator in *Second Life* Carrie Tatsu who states the following:
 
-It’s so important for humans to *be with humans in real life* … And so I think that as kids grow up in this space, there will have to be outlets for people to engage, go smell a flower here, walk in on a trail, have a real conversation with your friend and throw a ball. I mean, *even though you can simulate that, the simulation is not the same*. And so I feel in some ways bad for my kids.[^11]
+> It’s so important for humans to *be with humans in real life* … And so I think that as kids grow up in this space, there will have to be outlets for people to engage, go smell a flower here, walk in on a trail, have a real conversation with your friend and throw a ball. I mean, *even though you can simulate that, the simulation is not the same*. And so I feel in some ways bad for my kids.[^11]
 
 ### Spiritualism
 
@@ -154,7 +154,11 @@ Wouldn’t this lead to the *fragmentation of the human person* warned of by Ken
 
 ## 4. The Verdict
 
-As humans, we need entertainment. But not all entertaining activities are morally equal. As Christians, we are responsible for making sure that our entertainment enriches us instead of impoverishing us as humans. The metaverse could bring good things, as I have said. However, the dangers it poses to us are not trivial. Therefore, it’s on us to decide if it’s wise to spend our $349 on a [VR headset](https://www.oculus.com/quest-2/) when there are alternatives to get entertained (without losing our real souls).
+As humans, we need entertainment. But not all entertaining activities are morally equal. As Christians, we are responsible for making sure that our entertainment enriches us instead of impoverishing us as humans. 
+
+The metaverse could bring good things, as I have said. However, the dangers it poses to us are not trivial. Therefore, it’s on us to decide if it’s wise to spend our $349 on a [VR headset](https://www.oculus.com/quest-2/) when there are alternatives to get entertained (without losing our real souls).
+
+---
 
 ## References
 
@@ -185,6 +189,8 @@ C. S. Lewis, [*Abolition of Man*](https://www.amazon.com/Abolition-Man-C-S-Lewis
 [Introducing Meta](https://youtu.be/pjNI9K1D_xo) (Mark Zuckerberg, 29 Oct 2021)
 
 ### Articles
+
+[Metaverse: What is it and who's in control?](https://www.thinkchina.sg/metaverse-what-it-and-whos-control?utm_source=newsletter&utm_medium=email&utm_campaign=weekly_newsletter) (Think China, 21 Mar 2022)
 
 [Navigating the Metaverse](https://ethosinstitute.sg/navigating-the-metaverse/) (Ethos Institute, 26 Feb 2022)
 
@@ -234,10 +240,10 @@ C. S. Lewis, [*Abolition of Man*](https://www.amazon.com/Abolition-Man-C-S-Lewis
 
 [^9]:Zuckerberg, “[Introducing Meta](https://youtu.be/pjNI9K1D_xo).”
 
-[^10]:Ali Jazayeri, quoted in [A Virtual Life](https://www.thechicagoschool.edu/insight/from-the-magazine/a-virtual-life/) (7 Dec 2021).
+[^10]:Ali Jazayeri, quoted in "[A Virtual Life](https://www.thechicagoschool.edu/insight/from-the-magazine/a-virtual-life/)" (7 Dec 2021).
 
 [^11]:Carrie Tatsu, “[The Metaverse Has Already Arrived](https://time.com/6116826/what-is-the-metaverse/)” (15 Nov 2021).
 
 [^12]:*Gaudium et spes*, §34: “Throughout the course of the centuries, men have labored to better the circumstances of their lives through a monumental amount of individual and collective effort. To believers, this point is settled: considered in itself, this human activity accords with God's will. For man, created to God's image, received a mandate to subject to himself the earth and all it contains, and to govern the world with justice and holiness.”
 
-[^13]:See [A Virtual Life](https://www.thechicagoschool.edu/insight/from-the-magazine/a-virtual-life/).
+[^13]:See "[A Virtual Life](https://www.thechicagoschool.edu/insight/from-the-magazine/a-virtual-life/)."
