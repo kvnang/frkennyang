@@ -64,7 +64,7 @@ Good things may come out of the metaverse and virtual reality. When used well, v
 
 In the domain of history, virtual reality may be able to record events, dances, and even languages (e.g., the movement of our lips and tongue) better than printed papers.
 
-In the field of religious instruction, I can easily imagine how our children in the future could learn Bible stories and the truths of faith more effectively through augmented reality. Aren’t these good things? Undoubtedly they are.
+In the field of religious instruction, I can easily imagine how our children in the future could learn Bible stories and the truths of faith more effectively through virtual reality. Aren’t these good things? Undoubtedly they are.
 
 ## 3. What’s bad about the metaverse?
 
