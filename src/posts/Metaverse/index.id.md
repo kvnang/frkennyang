@@ -117,7 +117,7 @@ Namun pertanyaannya adalah: seberapa *personal* hubungan kita dengan orang-orang
 
 Sayangnya, interaksi virtual di *metaverse* menghilangkan segala sesuatu yang bersifat fisik. Zuckerberg sendiri menegaskan bahwa “hanya dengan sepasang kacamata, Anda dapat *melampaui dunia fisik* dan mengalami hal-hal yang telah kita bahas hari ini."[^9]
 
-Dengan kata lain, dalam *metaverse*, kita tidak bisa memeluk keluarga dan teman-teman kita. Kita tidak bisa makan dan minum di sana. Karena tiadanya realitas fisik, interaksi virtual di *metaverse* bukanlah interaksi yang *sepenuhnya* bersifat *personal*. *Metaverse* tidak dapat memuaskan kerinduan kita akan kedekatan fisik kendati kita mengenakan *tracking suit* yang menutup seluruh badan kita. Menurut psikolog Jazayeri, “komputer bukanlah pengganti manusia.”[^10]
+Dengan kata lain, dalam *metaverse*, kita tidak bisa memeluk keluarga dan teman-teman kita. Kita tidak bisa makan dan minum di sana. Karena tiadanya realitas fisik, interaksi virtual di *metaverse* bukanlah interaksi yang *sepenuhnya* bersifat *personal*. *Metaverse* tidak dapat memuaskan kerinduan kita akan kedekatan fisik kendati kita mengenakan *tracking suit* yang menyelubungi seluruh badan kita. Menurut psikolog Jazayeri, “komputer bukanlah pengganti manusia.”[^10]
 
 Kehadiran fisik orang lain *tidak akan pernah bisa disimulasikan*. Realitas virtual tidak memiliki apa yang disebut oleh para filsuf sebagai [*qualia*](https://plato.stanford.edu/entries/qualia/) yang bisa dialami terutama di dunia fisik. *Qualia* mengacu pada kualitas yang ditangkap dari pengalaman (misalnya, mencicipi segelas anggur), sensasi tubuh (misalnya, merasa haus), emosi, atau suasana hati.
 
