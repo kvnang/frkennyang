@@ -1,6 +1,6 @@
 import { GatsbyFunctionRequest, GatsbyFunctionResponse } from 'gatsby';
 import mailgun from 'mailgun-js';
-import fetch, { Response } from 'node-fetch';
+import fetch from 'cross-fetch';
 import { zonedTimeToUtc, utcToZonedTime, format } from 'date-fns-tz';
 
 interface MJMLResponseBodyProps {
@@ -22,8 +22,6 @@ export default async function handler(
   req: GatsbyFunctionRequest,
   res: GatsbyFunctionResponse
 ) {
-  console.log(req.body);
-
   if (!req.body) {
     res.status(400).send(`Form data is required.`);
     throw new Error('Form data is required.');
@@ -121,8 +119,6 @@ export default async function handler(
     data = rawData;
   }
 
-  console.log('Before fetch', req.body);
-
   // Log to Google Sheet
   fetch(`${process.env.URL}api/log/`, {
     method: 'POST',
@@ -134,10 +130,6 @@ export default async function handler(
       created_at: new Date(),
     }),
   });
-
-  console.log('After fetch', req.body);
-
-  // TODO: Handle form verification logic
 
   const mjml = `
   <mjml>
@@ -228,69 +220,60 @@ export default async function handler(
   </mjml>
   `;
 
-  console.log(
-    `Basic ${Buffer.from(
-      `${process.env.MJML_APPLICATION_ID}:${process.env.MJML_SECRET_KEY}`
-    ).toString('base64')}`
-  );
-
   if (!process.env.MJML_APPLICATION_ID || !process.env.MJML_SECRET_KEY) {
     console.log('MJML_APPLICATION_ID or MJML_SECRET_KEY not set');
   }
 
-  let mjmlResponse: Response | undefined;
-
   try {
-    mjmlResponse = await fetch('https://api.mjml.io/v1/render', {
-      method: 'POST',
-      headers: {
-        Authorization: `Basic ${Buffer.from(
-          `${process.env.MJML_APPLICATION_ID}:${process.env.MJML_SECRET_KEY}`
-        ).toString('base64')}`,
-      },
-      body: JSON.stringify({ mjml }),
+    const mjmlResponse: Response = await fetch(
+      'https://api.mjml.io/v1/render',
+      {
+        method: 'POST',
+        headers: {
+          Authorization: `Basic ${Buffer.from(
+            `${process.env.MJML_APPLICATION_ID}:${process.env.MJML_SECRET_KEY}`
+          ).toString('base64')}`,
+        },
+        body: JSON.stringify({ mjml }),
+      }
+    );
+
+    const htmlOutput = (await mjmlResponse.json()) as MJMLResponseBodyProps;
+
+    const mailOptions: {
+      from: string;
+      to: string;
+      'h:Reply-To'?: string;
+      subject: string;
+      html?: string;
+      text?: string;
+    } = {
+      from: `"Fr. Kenny Ang - Web Notification" <noreply@${process.env.MAILGUN_DOMAIN}>`,
+      to: recipientEmail,
+      'h:Reply-To': data.email || '',
+      subject: `New form submission: ${toTitleCase(formName)} Form`,
+    };
+
+    if (htmlOutput.html) {
+      mailOptions.html = htmlOutput.html;
+    } else {
+      console.error(htmlOutput.message);
+      mailOptions.text = `${Object.keys(data)
+        .map((key) => `${key}: ${data[key]}`)
+        .join('\n')}`;
+    }
+
+    mg.messages().send(mailOptions, (error, body) => {
+      if (error) {
+        console.log(error);
+      } else {
+        console.log(body);
+      }
     });
   } catch (e) {
     console.log(e);
-    throw new Error(`MJML API Error ${e}`);
+    throw new Error(`MJML / Mailgun API Error ${e}`);
+  } finally {
+    res.status(200).json({ success: true });
   }
-
-  console.log('MJML Response', mjmlResponse);
-
-  const htmlOutput = (await mjmlResponse.json()) as MJMLResponseBodyProps;
-
-  const mailOptions: {
-    from: string;
-    to: string;
-    'h:Reply-To'?: string;
-    subject: string;
-    html?: string;
-    text?: string;
-  } = {
-    from: `"Fr. Kenny Ang - Web Notification" <noreply@${process.env.MAILGUN_DOMAIN}>`,
-    to: recipientEmail,
-    'h:Reply-To': data.email || '',
-    subject: `New form submission: ${toTitleCase(formName)} Form`,
-  };
-
-  if (htmlOutput.html) {
-    mailOptions.html = htmlOutput.html;
-  } else {
-    console.error(htmlOutput.message);
-    mailOptions.text = `${Object.keys(data)
-      .map((key) => `${key}: ${data[key]}`)
-      .join('\n')}`;
-  }
-
-  console.log('Before mg.message()', req.body);
-
-  mg.messages().send(mailOptions, (error, body) => {
-    if (error) {
-      console.log(error);
-      res.status(500).json(error);
-    } else {
-      console.log(body);
-      res.status(200).json(body);
-    }
-  });
 }
