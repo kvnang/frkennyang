@@ -121,6 +121,8 @@ export default async function handler(
     data = rawData;
   }
 
+  console.log('Before fetch', req.body);
+
   // Log to Google Sheet
   fetch(`${process.env.URL}api/log/`, {
     method: 'POST',
@@ -132,6 +134,8 @@ export default async function handler(
       created_at: new Date(),
     }),
   });
+
+  console.log('After fetch', req.body);
 
   // TODO: Handle form verification logic
 
@@ -224,6 +228,8 @@ export default async function handler(
   </mjml>
   `;
 
+  console.log('Before MJML', req.body);
+
   const mjmlResponse: Response = await fetch('https://api.mjml.io/v1/render', {
     method: 'POST',
     headers: {
@@ -258,6 +264,8 @@ export default async function handler(
       .map((key) => `${key}: ${data[key]}`)
       .join('\n')}`;
   }
+
+  console.log('Before mg.message()', req.body);
 
   mg.messages().send(mailOptions, (error, body) => {
     if (error) {
