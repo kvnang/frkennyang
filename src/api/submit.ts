@@ -22,6 +22,8 @@ export default async function handler(
   req: GatsbyFunctionRequest,
   res: GatsbyFunctionResponse
 ) {
+  console.log(req.body);
+
   if (!req.body) {
     res.status(400).send(`Form data is required.`);
     throw new Error('Form data is required.');
