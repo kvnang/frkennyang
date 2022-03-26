@@ -240,6 +240,8 @@ export default async function handler(
     body: JSON.stringify({ mjml }),
   });
 
+  console.log('MJML Response', mjmlResponse);
+
   const htmlOutput = (await mjmlResponse.json()) as MJMLResponseBodyProps;
 
   const mailOptions: {
