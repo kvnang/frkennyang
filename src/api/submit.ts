@@ -228,7 +228,11 @@ export default async function handler(
   </mjml>
   `;
 
-  console.log('Before MJML', mjml);
+  console.log(
+    `Basic ${Buffer.from(
+      `${process.env.MJML_APPLICATION_ID}:${process.env.MJML_SECRET_KEY}`
+    ).toString('base64')}`
+  );
 
   if (!process.env.MJML_APPLICATION_ID || !process.env.MJML_SECRET_KEY) {
     console.log('MJML_APPLICATION_ID or MJML_SECRET_KEY not set');
