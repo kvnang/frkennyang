@@ -11,10 +11,9 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
 
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
 
-BOOK NOW
-ASK FR. KENNY
-ASK SEVEN WORLD TOURS
-DOWNLOAD E-FLYER
+BOOK NOW  
+ASK SEVEN WORLD TOURS  
+DOWNLOAD E-FLYER  
 
 ## 1. First things first: what’s the point?
 
@@ -150,7 +149,7 @@ Mass: Mt.-St.-Michel • Lodging: Convent
 
 **Lisieux** | Tour  
 **Lisieux - Paris** | Bus (3hr 30min)  
-**Paris** | Afternoon city tour • Eiffel tower • Seine River  
+**Paris** | City tour • Eiffel tower • Seine River  
 
 Mass: Lisieux • Lodging: Hotel
 
@@ -174,7 +173,7 @@ It’s such a blast to travel with her. Everybody loves Fifi. She is always on t
 
 ## 5. How much does it cost?
 
-Price per person: 2,500 euro (for a group of 50 people)
+Price per person: **2,500 EURO** (for a group of 50 people)
 
 This rate includes:
 - Transportation (plane, train, bus)
@@ -183,9 +182,8 @@ This rate includes:
 - 2 meals per day
 - 12 nights at hotel/convent
 
-REGISTER NOW
-ASK FR. KENNY
-ASK SEVEN WORLD TOURS
-DOWNLOAD E-FLYER
+BOOK NOW  
+ASK SEVEN WORLD TOURS  
+DOWNLOAD E-FLYER  
 
 ## 6. Previous Trips of Seven World Tours
