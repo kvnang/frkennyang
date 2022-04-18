@@ -177,6 +177,7 @@ Price per person: **2,500 EURO** (for a group of 50 people)
 
 This rate includes:
 - Transportation (plane, train, bus)
+- Travel insurance
 - WYD Registration
 - Entrance fees to landmarks
 - 2 meals per day
