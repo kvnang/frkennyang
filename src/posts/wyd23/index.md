@@ -1,6 +1,6 @@
 ---
 title: World Youth Day 2023. Book Now
-featuredImage: wyd_logo.jpg
+featuredImage: wyd_featured.jpg
 format: Article
 date: 2022-04-26
 category:
