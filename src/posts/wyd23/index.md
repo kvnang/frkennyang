@@ -15,6 +15,8 @@ BOOK NOW
 DOWNLOAD E-FLYER  
 ASK SEVEN WORLD TOURS  
 
+To read more about what World Youth Day (WYD) is, visit [WYD Lisbon 2023 official website](https://www.lisboa2023.org/en/about).
+
 ## 1. First things first: what’s the point?
 
 Let’s start with the most important question: why is this trip worth our time and money? In this section, I’m addressing you, *prospective participants*, as well as you, *parents*, who are considering funding your children’s trip. At least *three reasons* make it reasonable to spend our precious time and hard-earned cash on this journey.
