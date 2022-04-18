@@ -187,7 +187,7 @@ If you feel called to go, it is important to commit early for several reasons.
 
 - *Spiritual preparation*. You can start praying for this pilgrimage, for yourself, and for your fellow travelers. You can also say [the official prayer for WYD Lisbon 2023](https://www.lisboa2023.org/en/article/prayer-for-world-youth-d).
 - *Financial preparation*. You can start saving and fundraising. You can start planning your leave if you’re working or studying.
-- *Better experience*. The sooner we know the number of participants, the sooner we can register for WYD and book accommodations, churches, restaurants, etc. Bear in mind that WYD is a mass event. The WYD Kraków in 2016, for instance, was attended by [3.5 million people](https://edition.cnn.com/2013/07/19/world/world-youth-day-fast-facts/index.html). Only if we book as early as possible can we get better locations for hotels and events (e.g., at the Mass with the Pope, for Mass at churches across Europe). Better locations will give us a better experience.
+- *Better experience*. The sooner we know the number of participants, the sooner we can register for WYD and book accommodations, churches, restaurants, etc. Bear in mind that WYD is a mass event. The WYD Kraków in 2016, for instance, was attended by [3.5 million people](https://edition.cnn.com/2013/07/19/world/world-youth-day-fast-facts/index.html). Only if we *book as early as possible* can we get better locations for hotels and events (e.g., at the Mass with the Pope, for Mass at churches across Europe). Better locations will give us a better experience.
 
 BOOK NOW  
 DOWNLOAD E-FLYER  
