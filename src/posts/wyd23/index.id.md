@@ -10,7 +10,6 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
 ---
 
 BOOK NOW  
-DOWNLOAD E-FLYER  
 ASK SEVEN WORLD TOURS  
 
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
@@ -205,7 +204,6 @@ Jika kamu merasa terpanggil untuk ikut serta, penting adanya untuk berkomitmen l
 - *Pengalaman yang lebih baik*. Semakin cepat kita mengetahui jumlah peserta, semakin cepat kita dapat mendaftar untuk WYD dan melakukan reservasi hotel, gereja, restoran, dll. Ingatlah bahwa WYD adalah acara massal. WYD Kraków pada tahun 2016, misalnya, dihadiri oleh [3,5 juta orang](https://edition.cnn.com/2013/07/19/world/world-youth-day-fast-facts/index.html). Kita bisa mendapatkan lokasi yang lebih strategis untuk hotel dan acara (misalnya, Misa dengan Paus, Misa di berbagai gereja di Eropa) hanya jika kita *melakukan reservasi sedini mungkin*. Lokasi yang lebih strategis akan memberi kita pengalaman yang lebih baik.
 
 BOOK NOW  
-DOWNLOAD E-FLYER  
 ASK SEVEN WORLD TOURS  
 
 ## 7. Sponsor
