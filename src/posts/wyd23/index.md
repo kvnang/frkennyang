@@ -17,6 +17,21 @@ ASK SEVEN WORLD TOURS
 
 To read more about what World Youth Day (WYD) is, visit [WYD Lisbon 2023 official website](https://www.lisboa2023.org/en/about).
 
+---
+
+## Content
+
+1. [First things first: what’s the point?](/post/wyd23/#1-first-things-first-whats-the-point)
+2. [What are the requirements to join?](/post/wyd23/#2-what-are-the-requirements-to-join-this-trip)
+3. [Itinerary (August 1–15, 2023)](/post/wyd23/#3-itinerary-august-115-2023)
+4. [Who is in charge of this pilgrimage?](/post/wyd23/#4-who-is-in-charge-of-this-pilgrimage-group)
+5. [How much does it cost?](/post/wyd23/#5-how-much-does-it-cost)
+6. [Why is it important to book early?](/post/wyd23/#6-why-is-it-important-to-commit-early)
+7. [Sponsorship](/post/wyd23/#7-sponsorship)
+8. [Previous Trips of Seven World Tours](/post/wyd23/#8-previous-trips-of-seven-world-tours)
+
+---
+
 ## 1. First things first: what’s the point?
 
 Let’s start with the most important question: why is this trip worth our time and money? In this section, I’m addressing you, *prospective participants*, as well as you, *parents*, who are considering funding your children’s trip. At least *three reasons* make it reasonable to spend our precious time and hard-earned cash on this journey.
@@ -43,7 +58,7 @@ Secondly, our presence at this gathering will *inspire our fellow youth from aro
 
 We’ll simply have a good time. Experience has proven that ‘pilgrimage’ is not a synonym for ‘boring.’ Don’t worry—we won’t be praying all the time. As Christians, we are truly human: we like to sightsee, eat, shop, socialize, and sleep. Hence, we’ll try some local cuisines. Aside from churches, we’ll visit famous landmarks. We’ll do some shopping. Most importantly, we’ll get to know and help each other as a team. I am hopeful that, at the end of our trip, we’ll become friends. Some might even encounter their future spouse in this journey—who knows?
 
-## 2. What are the requirements to join this trip?
+## 2. What are the requirements to join?
 
 ### Age: 16-35
 
@@ -65,7 +80,7 @@ I can guarantee that the success of this trip will greatly depend on this point.
 
 Lastly, a joyful heart is needed for this trip. Why? Because nobody likes being around gloomy and pessimistic individuals—because as Christians we’re called to spread peace and joy!
 
-## 3. Itinerary (AUGUST 1–15, 2023)
+## 3. Itinerary (August 1–15, 2023)
 
 ### TUE 1: Jakarta to Rome
 
@@ -161,7 +176,7 @@ Mass: Montmartre
 
 BOOK NOW
 
-## 4. Who is in charge of this pilgrimage group?
+## 4. Who is in charge of this pilgrimage?
 
 This pilgrimage is organized by Seven World Tours and Fifi Lukito will be our group leader. As the founder of this travel agency, she has led numerous tour groups to multiple destinations around the world. In 2019, I was the chaplain of her pilgrimage group to the Holy Land.
 
@@ -181,9 +196,9 @@ This rate includes:
 - 2 meals per day
 - 12 nights at hotel
 
-## 6. Why is it important to commit early?
+## 6. Why is it important to book early?
 
-If you feel called to go, it is important to commit early for several reasons.
+If you feel called to go, it is important to book early for several reasons.
 
 - *Spiritual preparation*. You can start praying for this pilgrimage, for yourself, and for your fellow travelers. You can also say [the official prayer for WYD Lisbon 2023](https://www.lisboa2023.org/en/article/prayer-for-world-youth-d).
 - *Financial preparation*. You can start saving and fundraising. You can start planning your leave if you’re working or studying.
