@@ -73,26 +73,26 @@ DATE: 1–15 AUGUST 2023
 
 Basilica of St. Paul Outside the Walls • [Via del Corso](https://anamericaninrome.com/2018/02/where-shop-rome/) (shopping)  
 
-Mass: Basilica of St. Paul • Lodging: Convent
+Mass: Basilica of St. Paul
 
 ### THU 3: Rome
 
-Basilica of St. Peter • Basilica of St. Mary Major • Basilica of St. John Lateran • Roman Fora and Colosseum • Trevi Fountain  
+Basilica of St. Peter • Basilica of St. Mary Major • Basilica of St. John Lateran • Roman Fora • Colosseum • Trevi Fountain  
 
-Mass: Basilica of St. Peter • Lodging: Convent
+Mass: Basilica of St. Peter
 
 ### FRI 4: Rome - Lisbon
 
 **Rome - Lisbon** | Flight (3hr 30 min)  
 **WYD** | Evening: [Way of the Cross](https://youtu.be/0xuN89LvZ3o)  
 
-Mass: TBD • Lodging: Hotel
+Mass: TBD
 
 ### SAT 5: Lisbon
 
 **WYD** | Morning: [Walking pilgrimage to the vigil site](https://youtu.be/xhk7wZIe3rk) • Afternoon: Shows, music, prayer, [sacrament of confession](https://youtu.be/ZY2prGQbuMU) • Evening: [Eucharistic adoration](https://youtu.be/LZa6spYqHsA)
 
-Mass: TBD • Lodging: Hotel
+Mass: TBD
 
 ### SUN 6: Lisbon - Fátima
 
@@ -100,14 +100,12 @@ Mass: TBD • Lodging: Hotel
 **Lisbon - Fátima** | Bus (2hr)  
 **Fátima** | Afternoon: City tour • Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4) (21:30)  
 
-Lodging: Hotel
-
 ### MON 7: Fátima - Burgos
 
 **Fátima - Burgos** | Bus (6hr 30min)  
 **Burgos** | [Cathedral of Burgos](https://youtu.be/q0mi1NMSlOU)  
 
-Mass: Fátima (TBD) • Lodging: Hotel
+Mass: Fátima (TBD)
 
 ### TUE 8: Burgos - Loyola - Lourdes
 
@@ -116,26 +114,26 @@ Mass: Fátima (TBD) • Lodging: Hotel
 **Loyola - Lourdes** | Bus (3hr)  
 **Lourdes** | Briefing for volunteers  
 
-Mass: Sanctuary of Loyola • Lodging: Convent
+Mass: Sanctuary of Loyola
 
 ### WED 9: Lourdes
 
 [Volunteering](https://youtu.be/s_djUFpaXNk) • Way of the Cross • City tour  
 
-Mass: Lourdes (TBD) • Lodging: Convent
+Mass: Lourdes (TBD)
 
 ### THU 10: Lourdes
 
 Volunteering • Free time & shopping  
 
-Mass: Lourdes (TBD) • Lodging: Convent
+Mass: Lourdes (TBD)
 
 ### FRI 11: Lourdes - Paris
 
 **Lourdes - Paris** | Train (5hr 30min)  
 **Paris** | Evening tour • Shopping  
 
-Mass: Lourdes (TBD) • Lodging: Hotel
+Mass: Lourdes (TBD)
 
 ### SAT 12: Paris - Mt.-St.-Michel - Lisieux
 
@@ -143,7 +141,7 @@ Mass: Lourdes (TBD) • Lodging: Hotel
 [**Mt.-St.-Michel**](https://en.wikipedia.org/wiki/Mont-Saint-Michel) | Tour  
 **Mt.-St.-Michel - Lisieux** | Bus (3hr 30min)  
 
-Mass: Mt.-St.-Michel • Lodging: Convent
+Mass: Mt.-St.-Michel
 
 ### SUN 13: Lisieux - Paris
 
@@ -151,7 +149,7 @@ Mass: Mt.-St.-Michel • Lodging: Convent
 **Lisieux - Paris** | Bus (3hr 30min)  
 **Paris** | City tour • Eiffel tower • Seine river  
 
-Mass: Lisieux • Lodging: Hotel
+Mass: Lisieux
 
 ### MON 14: Paris - Jakarta
 
