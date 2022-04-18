@@ -65,9 +65,7 @@ I can guarantee that the success of this trip will greatly depend on this point.
 
 Lastly, a joyful heart is needed for this trip. Why? Because nobody likes being around gloomy and pessimistic individuals—because as Christians we’re called to spread peace and joy!
 
-## 3. Itinerary
-
-DATE: 1–15 AUGUST 2023
+## 3. Itinerary (AUGUST 1–15, 2023)
 
 ### TUE 1: Jakarta to Rome
 
