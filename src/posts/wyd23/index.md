@@ -12,8 +12,8 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
 
 BOOK NOW  
-ASK SEVEN WORLD TOURS  
 DOWNLOAD E-FLYER  
+ASK SEVEN WORLD TOURS  
 
 ## 1. First things first: what’s the point?
 
@@ -43,7 +43,7 @@ We’ll simply have a good time. Experience has proven that ‘pilgrimage’ is 
 
 ## 2. What are the requirements to join this trip?
 
-### Age 16 to 35
+### Age: 16-35
 
 This age range is not absolute, but WYD is intended for those aged 16 to 35. Know that *there will be adults* in our group chaperoning participants under the age of 18.
 
@@ -53,7 +53,7 @@ This pilgrimage will include a considerable amount of physical activity. We must
 
 ### Adventurous spirit
 
-Pilgrimage entails some personal sacrifices. This means we won’t probably stay in five-star hotels. We’ll most likely have roommates. We’ll have to let go of some comforts we’re used to back at home. This might sound otherworldly to some of you. But, from my experience, I can tell you that the fun will far outweigh all the discomforts!
+Pilgrimage entails personal sacrifices. We won’t probably stay in five-star hotels. We’ll most likely have roommates. We’ll have to let go of some comforts we’re used to back at home. This might sound otherworldly to some of you. But, from my experience, I can tell you that the fun will far outweigh all the discomforts!
 
 ### Willingness to serve
 
@@ -149,7 +149,7 @@ Mass: Mt.-St.-Michel • Lodging: Convent
 
 **Lisieux** | Tour  
 **Lisieux - Paris** | Bus (3hr 30min)  
-**Paris** | City tour • Eiffel tower • Seine River  
+**Paris** | City tour • Eiffel tower • Seine river  
 
 Mass: Lisieux • Lodging: Hotel
 
@@ -183,7 +183,7 @@ This rate includes:
 - 12 nights at hotel/convent
 
 BOOK NOW  
-ASK SEVEN WORLD TOURS  
 DOWNLOAD E-FLYER  
+ASK SEVEN WORLD TOURS  
 
 ## 6. Previous Trips of Seven World Tours
