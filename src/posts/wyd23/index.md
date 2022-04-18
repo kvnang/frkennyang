@@ -22,7 +22,7 @@ To read more about what World Youth Day (WYD) is, visit [WYD Lisbon 2023 officia
 ## Content
 
 1. [First things first: what’s the point?](/post/wyd23/#1-first-things-first-whats-the-point)
-2. [What are the requirements to join?](/post/wyd23/#2-what-are-the-requirements-to-join-this-trip)
+2. [What are the requirements to join?](/post/wyd23/#2-what-are-the-requirements-to-join)
 3. [Itinerary (August 1–15, 2023)](/post/wyd23/#3-itinerary-august-115-2023)
 4. [Who is in charge of this pilgrimage?](/post/wyd23/#4-who-is-in-charge-of-this-pilgrimage-group)
 5. [How much does it cost?](/post/wyd23/#5-how-much-does-it-cost)
