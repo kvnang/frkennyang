@@ -13,9 +13,9 @@ BOOK NOW
 DOWNLOAD E-FLYER  
 ASK SEVEN WORLD TOURS  
 
-To read more about what World Youth Day (WYD) is, visit [WYD Lisbon 2023 official website](https://www.lisboa2023.org/en/about).
-
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
+
+To read more about what World Youth Day (WYD) is, visit [WYD Lisbon 2023 official website](https://www.lisboa2023.org/en/about).
 
 ---
 
