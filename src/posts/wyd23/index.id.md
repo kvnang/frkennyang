@@ -21,14 +21,14 @@ Untuk mengetahui lebih jauh tentang apa itu World Youth Day (WYD), kunjungi [sit
 
 ## Daftar Isi
 
-1. Pertama-tama: untuk apa?
-2. Apa saja persyaratan untuk bergabung?
-2. Rute Perjalanan (1–15 Agustus 2023)
-2. Siapa yang memimpin perjalanan ini?
-2. Berapa biayanya?
-2. Mengapa sebaiknya kita berkomitmen lebih awal?
-2. Sponsor
-2. Perjalanan Seven World Tours Sebelumnya
+1. [Pertama-tama: untuk apa?](/id/post/wyd23/#1-pertama-tama-untuk-apa)
+2. [Apa saja persyaratan untuk bergabung?](/id/post/wyd23/#2-apa-saja-persyaratan-untuk-bergabung)
+2. [Rute Perjalanan (1–15 Agustus 2023)](/id/post/wyd23/#3-rute-115-agustus-2023)
+2. [Siapa yang memimpin perjalanan ini?](/id/post/wyd23/#4-siapa-yang-memimpin-perjalanan-ini)
+2. [Berapa biayanya?](/id/post/wyd23/#5-berapa-biayanya)
+2. [Mengapa sebaiknya kita berkomitmen lebih awal?](/id/post/wyd23/#6-mengapa-sebaiknya-kita-berkomitmen-lebih-awal)
+2. [Sponsor](/id/post/wyd23/#7-sponsor)
+2. [Perjalanan Seven World Tours Sebelumnya](/id/post/wyd23/#8-perjalanan-seven-world-tours-sebelumnya)
 
 ---
 
@@ -80,7 +80,7 @@ Saya dapat menjamin bahwa keberhasilan perjalanan ini akan tergantung pada hal i
 
 Terakhir, hati yang gembira dibutuhkan untuk perjalanan ini. Mengapa? Karena tidak ada yang gemar berada di sekitar individu yang muram dan pesimis—karena sebagai orang kristiani kita dipanggil untuk menyebarkan kedamaian dan sukacita!
 
-## 3. Rute Perjalanan (1–15 Agustus 2023)
+## 3. Rute (1–15 Agustus 2023)
 
 ### SEL 1: Jakarta ke Roma
 
@@ -180,7 +180,7 @@ BOOK NOW
 
 Perjalanan ini dikelola oleh Seven World Tours dan Fifi Lukito akan menjadi pemimpin rombongan kita. Sebagai pendiri agen tour ini, ia telah memimpin banyak grup wisata ke berbagai tujuan di seluruh dunia. Tahun 2019, saya mendampingi rombongan ziarahnya ke Tanah Suci.
 
-![father kenny ang fifi lukito Masada holy land](ang_fifi.jpg 'With Fifi at Masada, Israel (2019)')
+![father kenny ang fifi lukito Masada holy land](ang_fifi.jpg 'Bersama Fifi di Masada, Israel (2019)')
 
 Sangatlah menyenangkan bepergian dengannya. Semua orang menyukai Fifi. Ia selalu mengendalikan situasi dengan baik. Ketenangan dan keceriaannya membuat semua orang senang berada di sekitarnya. Ia tahu kapan harus bersikap tegas dan kapan bisa bersikap fleksibel. Ia bahkan bisa melanggar beberapa aturan untuk membuat kamu senang. (Misalnya, ia memberi kami kemasan saus sambal ketika kami makan di restoran Kosher.) Ia sangat tahu jika kami lapar dan terkadang akan mengejutkan kami dengan camilan tambahan—saya tidak tahu dari mana ia memperoleh begitu banyak *bakcang* (粽子) dan pisang untuk kami dalam bus ketika kami berada di Tanah Suci. Terakhir dan yang lebih penting lagi: ia adalah pemandu yang handal karena ia mencintai Yesus.
 
