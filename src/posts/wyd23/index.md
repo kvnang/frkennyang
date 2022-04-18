@@ -23,7 +23,7 @@ Let’s start with the most important question: why is this trip worth our time 
 
 This trip will be life-changing for many reasons. Let me mention two for now. 
 
-Firstly, *this trip is a pilgrimage*. It’s more than just an excursion. A pilgrimage is a “journey of devotion to holy places—a practice common to Christianity and other world religions.” In this pilgrimage, we’ll get to visit three major holy sites: Rome, Lourdes, and Fátima. We’ll also celebrate Mass and pray together every day. This trip will be an occasion for us to deepen our faith. It will also increase our familiarity with the two-thousand-year history of Catholicism.
+Firstly, *this trip is a pilgrimage*. It’s more than just an excursion. A pilgrimage is a journey of devotion to holy places—a practice common to Christianity and other world religions. In this pilgrimage, we’ll get to visit three major holy sites: Rome, Lourdes, and Fátima. We’ll also celebrate Mass and pray together every day. This trip will be an occasion for us to deepen our faith. It will also increase our familiarity with the two-thousand-year history of Catholicism.
 
 Secondly, *we will volunteer in Lourdes*. If you’ve been to Lourdes, you’ve surely seen many young people helping out with different things at the Shrine: they organize queue lines, lead rosary processions, escort the sick in their wheelchairs, help the pilgrims go to the baths, etc. This is what we’ll do. We’ll serve the pilgrims, especially those who are ill. By doing so, we hope to hear Christ tell us: “I was sick and you took care of me” (Mt 25:36).
 
