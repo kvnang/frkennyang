@@ -96,7 +96,7 @@ Mass: TBD
 
 ### SUN 6: Lisbon - Fátima
 
-**WYD** | Morning prayers led by Bishops • [Mass celebrated by the Pope](https://youtu.be/LBpsF5QusI0)  
+**WYD** | [Mass celebrated by the Pope](https://youtu.be/LBpsF5QusI0)  
 **Lisbon - Fátima** | Bus (2hr)  
 **Fátima** | Afternoon: City tour • Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4) (21:30)  
 
