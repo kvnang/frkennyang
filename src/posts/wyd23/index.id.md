@@ -161,7 +161,7 @@ Tarif ini sudah termasuk:
 - Pendaftaran WYD
 - Biaya masuk ke tempat-tempat wisata
 - 2 kali makan per hari
-- 12 malam di hotel
+- 10 malam di hotel
 
 ## 6. Mengapa sebaiknya kita berkomitmen lebih awal?
 
