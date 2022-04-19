@@ -22,7 +22,7 @@ ASK SEVEN WORLD TOURS
 
 1. [Pertama-tama: untuk apa?](/id/post/wyd23/#1-pertama-tama-untuk-apa)
 2. [Apa saja persyaratan untuk bergabung?](/id/post/wyd23/#2-apa-saja-persyaratan-untuk-bergabung)
-2. [Rute (1–15 Agustus 2023)](/id/post/wyd23/#3-rute-115-agustus-2023)
+2. [Rute (1–14 Agustus 2023)](/id/post/wyd23/#3-rute-114-agustus-2023)
 2. [Siapa yang memimpin perjalanan ini?](/id/post/wyd23/#4-siapa-yang-memimpin-perjalanan-ini)
 2. [Berapa biayanya?](/id/post/wyd23/#5-berapa-biayanya)
 2. [Mengapa sebaiknya kita berkomitmen lebih awal?](/id/post/wyd23/#6-mengapa-sebaiknya-kita-berkomitmen-lebih-awal)
