@@ -79,7 +79,7 @@ I can guarantee that the success of this trip will greatly depend on this point.
 
 Lastly, a joyful heart is needed for this trip. Why? Because nobody likes being around gloomy and pessimistic individuals—because as Christians we’re called to spread peace and joy!
 
-## 3. Itinerary (August 1–15, 2023)
+## 3. Itinerary (August 1–14, 2023)
 
 ### TUE 1: Jakarta to Rome
 
@@ -87,91 +87,59 @@ Lastly, a joyful heart is needed for this trip. Why? Because nobody likes being 
 
 Basilica of St. Paul Outside the Walls • [Via del Corso](https://anamericaninrome.com/2018/02/where-shop-rome/) (shopping)  
 
-Mass: Basilica of St. Paul
-
 ### THU 3: Rome
 
 Basilica of St. Peter • Basilica of St. Mary Major • Basilica of St. John Lateran • Roman Fora • Colosseum • Trevi Fountain  
 
-Mass: Basilica of St. Peter
-
 ### FRI 4: Rome - Lisbon
 
-**Rome - Lisbon** | Flight (3hr 30 min)  
+**Rome - Lisbon** | Flight  
 **WYD** | Evening: [Way of the Cross](https://youtu.be/0xuN89LvZ3o)  
-
-Mass: TBD
 
 ### SAT 5: Lisbon
 
 **WYD** | Morning: [Walking pilgrimage to the vigil site](https://youtu.be/xhk7wZIe3rk) • Afternoon: Shows, music, prayer, [sacrament of confession](https://youtu.be/ZY2prGQbuMU) • Evening: [Eucharistic adoration](https://youtu.be/LZa6spYqHsA)
 
-Mass: TBD
-
 ### SUN 6: Lisbon - Fátima
 
 **WYD** | [Mass celebrated by the Pope](https://youtu.be/LBpsF5QusI0)  
-**Lisbon - Fátima** | Bus (2hr)  
+**Lisbon - Fátima** | Bus  
 **Fátima** | Afternoon: City tour • Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4) (21:30)  
 
 ### MON 7: Fátima - Burgos
 
-**Fátima - Burgos** | Bus (6hr 30min)  
+**Fátima - Burgos** | Bus  
 **Burgos** | [Cathedral of Burgos](https://youtu.be/q0mi1NMSlOU)  
-
-Mass: Fátima (TBD)
 
 ### TUE 8: Burgos - Loyola - Lourdes
 
-**Burgos - Loyola** | Bus (2hr 30min)  
+**Burgos - Loyola** | Bus  
 **Loyola** | [Sanctuary of Loyola](https://en.wikipedia.org/wiki/Sanctuary_of_Loyola)  
-**Loyola - Lourdes** | Bus (3hr)  
+**Loyola - Lourdes** | Bus  
 **Lourdes** | Briefing for volunteers  
-
-Mass: Sanctuary of Loyola
 
 ### WED 9: Lourdes
 
 [Volunteering](https://youtu.be/s_djUFpaXNk) • Way of the Cross • City tour  
 
-Mass: Lourdes (TBD)
-
 ### THU 10: Lourdes
 
 Volunteering • Free time & shopping  
 
-Mass: Lourdes (TBD)
-
 ### FRI 11: Lourdes - Paris
 
-**Lourdes - Paris** | Train (5hr 30min)  
+**Lourdes - Paris** | Train  
 **Paris** | Evening tour • Shopping  
 
-Mass: Lourdes (TBD)
+### SAT 12: Paris
 
-### SAT 12: Paris - Mt.-St.-Michel - Lisieux
+City tour • Eiffel tower • Seine river  
 
-**Paris - Mt.-St.-Michel** | Bus (6hr 10min)  
-[**Mt.-St.-Michel**](https://en.wikipedia.org/wiki/Mont-Saint-Michel) | Tour  
-**Mt.-St.-Michel - Lisieux** | Bus (3hr 30min)  
-
-Mass: Mt.-St.-Michel
-
-### SUN 13: Lisieux - Paris
-
-**Lisieux** | Tour  
-**Lisieux - Paris** | Bus (3hr 30min)  
-**Paris** | City tour • Eiffel tower • Seine river  
-
-Mass: Lisieux
-
-### MON 14: Paris - Jakarta
+### SUN 13: Paris - Jakarta
 
 **Paris** | [The Sacred Heart Basilica of Montmartre](https://en.wikipedia.org/wiki/Sacré-Cœur,_Paris)  
 
-Mass: Montmartre
-
-### TUE 15: Arrival in Jakarta
+### MON 14: Arrival in Jakarta
 
 BOOK NOW
 
