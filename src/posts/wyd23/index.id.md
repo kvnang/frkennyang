@@ -33,13 +33,13 @@ ASK SEVEN WORLD TOURS
 
 ## 1. Pertama-tama: untuk apa?
 
-Mari kita mulai dengan pertanyaan yang terpenting: apakah apa yang akan kita dapatkan dari perjalanan ke WYD ini sepadan dengan waktu dan uang yang kita korbankan? Di bagian ini, saya berbicara kepada *calon peserta* serta *orang tua* yang sedang mempertimbangkan untuk mendanai perjalanan anak-anak mereka. Setidaknya *tiga alasan* membuat perjalanan ini layak menerima waktu kita yang berharga dan uang hasil jerih payah kita.
+Mari kita mulai dengan pertanyaan yang terpenting: apakah manfaat yang akan kita dapatkan dari perjalanan ke WYD ini sepadan dengan waktu dan uang yang kita korbankan? Di bagian ini, saya berbicara kepada *calon peserta* serta *orang tua* yang sedang mempertimbangkan untuk mendanai perjalanan anak-anak mereka. Setidaknya *tiga alasan* membuat perjalanan ini layak menerima waktu kita yang berharga dan uang hasil jerih payah kita.
 
 ### Alasan #1. Perjalanan ini akan mengubah hidup kita.
 
 Perjalanan ini akan mengubah hidup kita karena berbagai alasan. Izinkan saya menyebutkan dua.
 
-Pertama, *perjalanan ini adalah sebuah ziarah*. Ini bukan sekadar jalan-jalan. Ziarah adalah perjalanan untuk mengunjungi tempat-tempat suci—sebuah kegiatan yang umum dalam Kekristenan maupun agama-agama dunia lainnya. Dalam ziarah ini, kita akan mengunjungi tiga tempat suci utama: Roma, Lourdes, dan Fátima. Kita juga akan merayakan Misa dan berdoa bersama setiap hari. Perjalanan ini akan menjadi kesempatan bagi kita untuk memperdalam iman kita. Kita juga akan semakin mengenal sejarah Gereja Katolik yang sudah berusia lebih dari dua ribu tahun.
+Pertama, *perjalanan ini adalah sebuah ziarah*. Ini bukan sekadar jalan-jalan. Ziarah adalah kunjungan ke tempat-tempat suci—sebuah kegiatan yang umum dalam Kekristenan maupun agama-agama lain. Dalam ziarah ini, kita akan mengunjungi tiga tempat suci utama: Roma, Lourdes, dan Fátima. Kita juga akan merayakan Misa dan berdoa bersama setiap hari. Perjalanan ini akan menjadi kesempatan bagi kita untuk memperdalam iman kita. Kita juga akan semakin mengenal sejarah Gereja Katolik yang sudah berusia lebih dari dua ribu tahun.
 
 Kedua, *kita akan menjadi volunteers di Lourdes*. Jika kamu pernah ke Lourdes, kamu pasti melihat banyak anak muda membantu dalam berbagai hal di sana: mereka mengatur antrian, memimpin prosesi lilin, mendorong orang sakit yang duduk di kursi roda, membantu para peziarah pergi ke tempat pemandian, dll. Inilah yang juga akan kita lakukan. Kita akan melayani peziarah di Lourdes, terutama mereka yang sakit. Dengan demikian, kita berharap untuk mendengar Kristus berkata kepada kita: "ketika Aku sakit, kamu melawat Aku" (Mat 25:36).
 
@@ -97,7 +97,7 @@ Misa: Basilica of St. Peter
 
 ### JUM 4: Roma - Lisboa
 
-**Roma - Lisboa** | Penerbangan (3 jam 30 menit)
+**Roma - Lisboa** | Pesawat (3 jam 30 menit)  
 **WYD** | Sore: [Jalan Salib](https://youtu.be/0xuN89LvZ3o)  
 
 Misa: TBD
@@ -123,7 +123,7 @@ Misa: Fátima (TBD)
 
 ### SEL 8: Burgos - Loyola - Lourdes
 
-**Burgos - Loyola** | Bus (2hr 30min)  
+**Burgos - Loyola** | Bus (2 jam 30 menit)  
 **Loyola** | [Sanctuary of Loyola](https://en.wikipedia.org/wiki/Sanctuary_of_Loyola)  
 **Loyola - Lourdes** | Bus (3hr)  
 **Lourdes** | *Briefing* untuk *volunteers*  
@@ -177,7 +177,7 @@ BOOK NOW
 
 ## 4. Siapa yang memimpin perjalanan ini?
 
-Perjalanan ini dikelola oleh Seven World Tours dan Fifi Lukito akan menjadi pemimpin rombongan kita. Sebagai pendiri agen tour ini, ia telah memimpin banyak grup wisata ke berbagai tujuan di seluruh dunia. Tahun 2019, saya mendampingi rombongan ziarahnya ke Tanah Suci.
+Perjalanan ini dikelola oleh Seven World Tours dan Fifi Lukito akan menjadi pemimpin rombongan kita. Sebagai pendiri agen tour ini, ia telah membawa banyak grup wisata ke berbagai tujuan di seluruh dunia. Pada tahun 2019, saya mendampingi rombongan ziarahnya ke Tanah Suci.
 
 ![father kenny ang fifi lukito Masada holy land](ang_fifi.jpg 'Bersama Fifi di Masada, Israel (2019)')
 
