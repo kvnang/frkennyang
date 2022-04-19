@@ -9,7 +9,7 @@ category:
 excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting with the Pope. Seven World Tours. Father Kenny Ang. European Tour.
 ---
 
-Untuk mengetahui lebih jauh tentang apa itu World Youth Day (WYD), kunjungi [situs resmi WYD Lisbon 2023](https://www.lisboa2023.org/en/about).
+Untuk mengetahui lebih jauh tentang apa itu World Youth Day (WYD), kunjungi [situs resmi WYD Lisbon 2023](https://www.lisboa2023.org/en/about). Untuk melihat momen yang menyentuh dari WYD-WYD sebelumnya, lihat video berikut: [History of WYD](https://youtu.be/t8BObfDtPVM) - [WYD 2000 Rome](https://youtu.be/RoIWquTYtzY) - [WYD 2011 Madrid](https://youtu.be/a48jsJm-jiA) - [WYD 2013 Rio](https://youtu.be/LZa6spYqHsA) - [WYD 2016 Kraków](https://youtu.be/xgqyEPemnKo). Untuk mendengarkan lagu-lagu terbaik dari WYD, lihat [The Unofficial Hymn of WYD](https://youtu.be/0KB8yY_hs60) - [The Best Songs of WYD](https://youtu.be/f-9clTldvdE).
 
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
 
