@@ -79,99 +79,67 @@ Saya dapat menjamin bahwa keberhasilan perjalanan ini akan tergantung pada hal i
 
 Terakhir, hati yang gembira dibutuhkan untuk perjalanan ini. Mengapa? Karena tidak ada yang gemar berada di sekitar individu yang muram dan pesimis—karena sebagai orang kristiani kita dipanggil untuk menyebarkan kedamaian dan sukacita!
 
-## 3. Rute (1–15 Agustus 2023)
+## 3. Rute (1–14 Agustus 2023)
 
-### SEL 1: Jakarta ke Roma
+### TUE 1: Jakarta to Rome
 
-### RAB 2: Tiba di Roma
+### WED 2: Arrival in Rome
 
 Basilica of St. Paul Outside the Walls • [Via del Corso](https://anamericaninrome.com/2018/02/where-shop-rome/) (shopping)  
 
-Misa: Basilica of St. Paul
-
-### KAM 3: Roma
+### THU 3: Rome
 
 Basilica of St. Peter • Basilica of St. Mary Major • Basilica of St. John Lateran • Roman Fora • Colosseum • Trevi Fountain  
 
-Misa: Basilica of St. Peter
+### FRI 4: Rome - Lisbon
 
-### JUM 4: Roma - Lisboa
+**Rome - Lisbon** | Flight  
+**WYD** | Evening: [Way of the Cross](https://youtu.be/0xuN89LvZ3o)  
 
-**Roma - Lisboa** | Pesawat (3 jam 30 menit)  
-**WYD** | Sore: [Jalan Salib](https://youtu.be/0xuN89LvZ3o)  
+### SAT 5: Lisbon
 
-Misa: TBD
+**WYD** | Morning: [Walking pilgrimage to the vigil site](https://youtu.be/xhk7wZIe3rk) • Afternoon: Shows, music, prayer, [sacrament of confession](https://youtu.be/ZY2prGQbuMU) • Evening: [Eucharistic adoration](https://youtu.be/LZa6spYqHsA)
 
-### SAB 5: Lisboa
+### SUN 6: Lisbon - Fátima
 
-**WYD** | Pagi: [Ziarah berjalan kaki ke tempat adorasi](https://youtu.be/xhk7wZIe3rk) • Siang: *Shows*, musik, doa, [sakramen pengakuan dosa](https://youtu.be/ZY2prGQbuMU) • Sore: [adorasi Ekaristi](https://youtu.be/LZa6spYqHsA)
+**WYD** | [Mass celebrated by the Pope](https://youtu.be/LBpsF5QusI0)  
+**Lisbon - Fátima** | Bus  
+**Fátima** | Afternoon: City tour • Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4) (21:30)  
 
-Misa: TBD
+### MON 7: Fátima - Burgos
 
-### MIN 6: Lisboa - Fátima
-
-**WYD** | [Misa dipimpin oleh Paus](https://youtu.be/LBpsF5QusI0)  
-**Lisboa - Fátima** | Bus (2 jam)  
-**Fátima** | Siang: Tour • Malam: [Rosario dan Prosesi Lilin](https://youtu.be/7RZz1g5f-S4) (21:30)  
-
-### SEN 7: Fátima - Burgos
-
-**Fátima - Burgos** | Bus (6 jam 30 menit)  
+**Fátima - Burgos** | Bus  
 **Burgos** | [Cathedral of Burgos](https://youtu.be/q0mi1NMSlOU)  
 
-Misa: Fátima (TBD)
+### TUE 8: Burgos - Loyola - Lourdes
 
-### SEL 8: Burgos - Loyola - Lourdes
-
-**Burgos - Loyola** | Bus (2 jam 30 menit)  
+**Burgos - Loyola** | Bus  
 **Loyola** | [Sanctuary of Loyola](https://en.wikipedia.org/wiki/Sanctuary_of_Loyola)  
-**Loyola - Lourdes** | Bus (3hr)  
-**Lourdes** | *Briefing* untuk *volunteers*  
+**Loyola - Lourdes** | Bus  
+**Lourdes** | Briefing for volunteers  
 
-Misa: Sanctuary of Loyola
+### WED 9: Lourdes
 
-### RAB 9: Lourdes
+[Volunteering](https://youtu.be/s_djUFpaXNk) • Way of the Cross • City tour  
 
-[*Volunteering*](https://youtu.be/s_djUFpaXNk) • Jalan Salib • Tour  
+### THU 10: Lourdes
 
-Misa: Lourdes (TBD)
+Volunteering • Free time & shopping  
 
-### KAM 10: Lourdes
+### FRI 11: Lourdes - Paris
 
-*Volunteering* • Waktu bebas & shopping  
+**Lourdes - Paris** | Train  
+**Paris** | Evening tour • Shopping  
 
-Misa: Lourdes (TBD)
+### SAT 12: Paris
 
-### JUM 11: Lourdes - Paris
+City tour • Eiffel tower • Seine river  
 
-**Lourdes - Paris** | Kereta (5 jam 30 menit)  
-**Paris** | Tour Sore • Shopping  
-
-Misa: Lourdes (TBD)
-
-### SAB 12: Paris - Mt.-St.-Michel - Lisieux
-
-**Paris - Mt.-St.-Michel** | Bus (6 jam 10 menit)  
-[**Mt.-St.-Michel**](https://en.wikipedia.org/wiki/Mont-Saint-Michel) | Tour  
-**Mt.-St.-Michel - Lisieux** | Bus (3 jam 30 menit)  
-
-Misa: Mt.-St.-Michel
-
-### MIN 13: Lisieux - Paris
-
-**Lisieux** | Tour  
-**Lisieux - Paris** | Bus (3 jam 30 menit)  
-**Paris** | Tour • Eiffel tower • Seine river  
-
-Misa: Lisieux
-
-### SEN 14: Paris - Jakarta
+### SUN 13: Paris - Jakarta
 
 **Paris** | [The Sacred Heart Basilica of Montmartre](https://en.wikipedia.org/wiki/Sacré-Cœur,_Paris)  
 
-Misa: Montmartre
-
-### SEL 15: Tiba di Jakarta
+### MON 14: Arrival in Jakarta
 
 BOOK NOW
 
