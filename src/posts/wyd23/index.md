@@ -161,7 +161,7 @@ This rate includes:
 - WYD Registration
 - Entrance fees to landmarks
 - 2 meals per day
-- 12 nights at hotel
+- 10 nights at hotel
 
 ## 6. Why is it important to book early?
 
