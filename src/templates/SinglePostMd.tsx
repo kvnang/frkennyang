@@ -290,7 +290,7 @@ const PostContentStyles = styled.div`
       &::before {
         background-color: var(--white);
         height: 100%;
-        transform: translateX(-1rem) skew(-25deg);
+        transform: translateX(-1rem) skew(-20deg);
         transition-delay: 0;
         z-index: -1;
       }
