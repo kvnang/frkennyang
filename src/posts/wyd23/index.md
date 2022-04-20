@@ -151,7 +151,18 @@ City tour • Eiffel tower • Seine river
 
 ### MON 14: Arrival in Jakarta
 
-BOOK NOW
+<div class="cta">
+  <div class="cta__inner">
+    <ul>
+      <li>
+        <a class="button" href="/">BOOK NOW </a> 
+      </li>
+      <li>
+        Questions? <a href="/">Ask Seven World Tours</a>  
+      </li>
+    </ul>
+  </div>
+</div>
 
 ## 4. Who is in charge of this pilgrimage?
 
