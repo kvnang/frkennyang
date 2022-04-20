@@ -103,7 +103,6 @@ export default function LangSwitcher({
   ).length;
 
   const { lang, setLang } = useContext(LangContext);
-  console.log(lang);
 
   if (!lang || (shouldNavigate && !hasLocalized)) {
     return null;

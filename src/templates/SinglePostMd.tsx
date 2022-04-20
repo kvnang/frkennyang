@@ -228,6 +228,87 @@ const PostContentStyles = styled.div`
       }
     }
   }
+
+  .cta {
+    display: flex;
+    justify-content: flex-end;
+
+    &__inner {
+      padding: 1rem 100%;
+      margin: 0 -100%;
+      position: relative;
+      z-index: 0;
+      display: inline-flex;
+
+      @media ${breakpoints.tablet} {
+        padding: 1rem;
+        padding-left: 3rem;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      &::before {
+        content: '';
+        width: 110%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: skew(-20deg);
+        transform-origin: left bottom;
+        background-color: var(--dark-grey);
+        z-index: -1;
+      }
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0;
+      margin: -0.5rem -1rem;
+
+      li {
+        padding: 0.5rem 1rem;
+        margin: 0;
+      }
+    }
+
+    .button {
+      text-decoration: none;
+      background-color: var(--color-accent);
+      color: var(--black);
+      padding: 0.5rem 1rem;
+      font-weight: 700;
+      display: inline-flex;
+      overflow: hidden;
+      z-index: 0;
+      transition-delay: 0;
+
+      &::before {
+        background-color: var(--white);
+        height: 100%;
+        transform: translateX(-1rem) skew(-25deg);
+        transition-delay: 0;
+        z-index: -1;
+      }
+
+      &::after {
+        content: none;
+      }
+
+      &:hover {
+        transition-delay: 0.3s;
+        color: var(--color-accent);
+
+        &::before {
+          width: 120%;
+        }
+      }
+    }
+  }
 `;
 
 export default function SinglePost({
