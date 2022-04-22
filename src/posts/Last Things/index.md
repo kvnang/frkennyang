@@ -52,13 +52,13 @@ As Christians, we profess our faith in life everlasting. Yet, our knowledge of i
     [Will we be young or old when we rise again?](/post/last-things/#will-we-be-young-or-old-when-we-rise-again)  
     [Will there be marriage in heaven?](/post/last-things/#will-there-be-marriage-in-heaven)  
 7. [The Last Judgment](/post/last-things/#7-the-last-judgment)  
-    [What is the Last Judgment?](/post/last-things/#what-is-the-last-judgment)
-    [When will the Last Judgment occur?](/post/last-things/#when-will-the-last-judgment-occur)
-    [What is Parousia?](/post/last-things/#what-is-parousia)
-    [Who will be judged in the Last Judgment?](/post/last-things/#who-will-be-judged-in-the-last-judgment)
-    [What will the Last Judgment reveal?](/post/last-things/#what-will-the-last-judgment-reveal)
-    [Why is the Last Judgment necessary? Does the Particular Judgment not suffice?](/post/last-things/#why-is-the-last-judgment-necessary-does-the-particular-judgment-not-suffice)
-    [What will follow the Last Judgment?](/post/last-things/#what-will-follow-the-last-judgment)
+    [What is the Last Judgment?](/post/last-things/#what-is-the-last-judgment)  
+    [When will the Last Judgment occur?](/post/last-things/#when-will-the-last-judgment-occur)  
+    [What is Parousia?](/post/last-things/#what-is-parousia)  
+    [Who will be judged in the Last Judgment?](/post/last-things/#who-will-be-judged-in-the-last-judgment)  
+    [What will the Last Judgment reveal?](/post/last-things/#what-will-the-last-judgment-reveal)  
+    [Why is the Last Judgment necessary? Does the Particular Judgment not suffice?](/post/last-things/#why-is-the-last-judgment-necessary-does-the-particular-judgment-not-suffice) 
+    [What will follow the Last Judgment?](/post/last-things/#what-will-follow-the-last-judgment)  
 
 ---
 
