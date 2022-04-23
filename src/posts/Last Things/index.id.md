@@ -9,7 +9,7 @@ category:
 excerpt: In this article, I will provide a summary of the Last Things, namely, death; the particular judgment; hell, purgatory, and heaven; resurrection; and the last judgment.
 ---
 
-> Protes melawan Allah demi keadilan tidak banyak gunanya. Suatu dunia tanpa Allah merupakan dunia tanpa harapan (bdk. Ef 2:12). Hanya Allah dapat menciptakan keadilan. Dan iman memberi kita kepastian, bahwa Ia pasti melaksanakannya. Gambaran Pengadilan Terakhir bukanlah pertama-tama gambaran yang menakutkan, melainkan gambaran tentang harapan; mungkin bagi kita merupakan gambaran harapan yang menentukan.
+> Protes melawan Allah demi keadilan tidak banyak gunanya. Suatu dunia tanpa Allah merupakan dunia tanpa harapan. Hanya Allah dapat menciptakan keadilan. Dan iman memberi kita kepastian, bahwa Ia pasti melaksanakannya. Gambaran Pengadilan Terakhir bukanlah pertama-tama gambaran yang menakutkan, melainkan gambaran tentang harapan; mungkin bagi kita merupakan gambaran harapan yang menentukan.
 >
 > —Paus Benediktus XVI, *Spe Salvi*, §44
 
@@ -25,7 +25,7 @@ Sebagai orang kristiani, kita mengimani hidup yang kekal. Namun, pengetahuan kit
     [Apakah kematian bermakna?](/id/post/last-things/#apakah-kematian-bermakna)  
 2. [Pengadilan Khusus](/id/post/last-things/#2-pengadilan-khusus)  
     [Apa itu Pengadilan Khusus?](/id/post/last-things/#apa-itu-pengadilan-khusus)  
-    [Apa saja putusan yang mungkin kita peroleh dalam Pengadilan Khusus?](/id/post/last-things/#apa-saja-putusan-yang-mungkin-kita-peroleh-dalam-pengadilan-khusus)  
+    [Apa saja putusan yang bisa kita peroleh dalam Pengadilan Khusus?](/id/post/last-things/#apa-saja-putusan-yang-bisa-kita-peroleh-dalam-pengadilan-khusus)  
 3. [Neraka](/id/post/last-things/#3-neraka)  
     [Apa itu neraka?](/id/post/last-things/#apa-itu-neraka)  
     [Bagaimana kita bisa tahu bahwa ada neraka?](/id/post/last-things/#bagaimana-kita-bisa-tahu-bahwa-ada-neraka)  
@@ -86,9 +86,9 @@ Dengan mati di kayu salib, Kristus memberi makna pada kematian:[^5] “melalui B
 
 Pengadilan Khusus adalah penerimaan *imbalan abadi* dalam jiwa kita pada saat kita mati.[^7]
 
-### Apa saja putusan yang mungkin kita peroleh dalam **Pengadilan Khusus?**
+### Apa saja putusan yang bisa kita peroleh dalam **Pengadilan Khusus?**
 
-Ada tiga putusan yang mungkin kita terima dalam Pengadilan Khusus: (1) surga (secara langsung); (2) surga (dengan melewati api penyucian); dan (3) neraka.
+Dalam Pengadilan Khusus, kita akan menerima salah satu dari tiga putusan berikut: (1) surga (secara langsung); (2) surga (dengan melewati api penyucian); dan (3) neraka.
 
 ## 3. Neraka
 
@@ -152,7 +152,7 @@ Keadaan rahmat adalah keadaan seseorang yang *bersahabat dengan Allah* dan bebas
 
 Ya. Api Penyucian ada baik dalam Perjanjian Lama maupun Perjanjian Baru.
 
-Allah adalah *kudus*: “Setiap orang yang menaruh pengharapan itu kepada-Nya, menyucikan diri sama seperti Dia yang adalah suci” (1Yoh 3:3). Oleh karena itu, surga diperuntukkan hanya bagi *mereka yang kudus*: “tidak akan masuk ke dalamnya sesuatu yang najis, atau orang yang melakukan kekejian atau dusta” (Why 21:27). Namun, manusia pada faktanya berdosa: "Sesungguhnya, dalam kesalahan aku diperanakkan, dalam dosa aku dikandung ibuku" (Mzm 51:5). Karenanya, pemurnian terakhir setelah kematian adalah sesuatu yang selaras dengan belas kasih Allah, seperti yang disinggung dalam kitab kedua Makabe: “[Yudas Makabe] mengadakan korban penebus salah untuk semua orang yang sudah mati itu, supaya mereka dilepaskan dari dosa mereka” (2Mak 12:45 ). Ayat ini menegaskan kemungkinan untuk memperoleh pengampunan dan penebusan dosa-dosa ringan setelah kematian. Paulus juga menyinggung api penyucian: ”Jika pekerjaannya terbakar, ia akan menderita kerugian, tetapi ia sendiri akan diselamatkan, tetapi seperti dari dalam api” (1Kor 3:15).
+Allah adalah *kudus*: “Setiap orang yang menaruh pengharapan itu kepada-Nya, menyucikan diri sama seperti Dia yang adalah suci” (1Yoh 3:3). Oleh karena itu, surga diperuntukkan hanya bagi *mereka yang kudus*: “tidak akan masuk ke dalamnya sesuatu yang najis, atau orang yang melakukan kekejian atau dusta” (Why 21:27). Namun, manusia pada faktanya berdosa: "Sesungguhnya, dalam kesalahan aku diperanakkan, dalam dosa aku dikandung ibuku" (Mzm 51:5). Karenanya, pemurnian terakhir setelah kematian adalah sesuatu yang selaras dengan belas kasih Allah, seperti yang disinggung dalam kitab kedua Makabe: “[Yudas Makabe] mengadakan korban penebus salah untuk semua orang yang sudah mati itu, supaya mereka dilepaskan dari dosa mereka” (2Mak 12:45). Ayat ini menegaskan kemungkinan untuk memperoleh pengampunan dan penebusan dosa-dosa ringan setelah kematian. Paulus juga menyinggung api penyucian: ”Jika pekerjaannya terbakar, ia akan menderita kerugian, tetapi ia sendiri akan diselamatkan, tetapi seperti dari dalam api” (1Kor 3:15).
 
 ### Apakah ada penderitaan di api penyucian?
 
