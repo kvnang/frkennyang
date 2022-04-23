@@ -174,7 +174,7 @@ It’s such a blast to travel with her. Everybody loves Fifi. She is always on t
 
 ## 5. How much does it cost?
 
-Price per person: **2,500 EURO** (for a group of 50 people)
+Price per person: **2,500 EURO**
 
 This rate includes:
 
@@ -183,7 +183,7 @@ This rate includes:
 - WYD Registration
 - Entrance fees to landmarks
 - 2 meals per day
-- 10 nights at hotel
+- 10 nights at hotel (double occupancy)
 
 ## 6. Why is it important to book early?
 
