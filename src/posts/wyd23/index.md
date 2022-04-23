@@ -9,10 +9,6 @@ category:
 excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting with the Pope. Seven World Tours. Father Kenny Ang. European Tour.
 ---
 
-To read more about what World Youth Day (WYD) is, visit [WYD Lisbon 2023 official website](https://www.lisboa2023.org/en/about). To see heartfelt moments from previous WYDs, watch these videos: [History of WYD](https://youtu.be/t8BObfDtPVM) - [WYD 2000 Rome](https://youtu.be/RoIWquTYtzY) - [WYD 2011 Madrid](https://youtu.be/a48jsJm-jiA) - [WYD 2013 Rio](https://youtu.be/LZa6spYqHsA) - [WYD 2016 Kraków](https://youtu.be/xgqyEPemnKo). To listen to the best songs of WYD, see [The Unofficial Hymn of WYD](https://youtu.be/0KB8yY_hs60) - [The Best Songs of WYD](https://youtu.be/f-9clTldvdE).
-
-![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
-
 <div class="cta">
   <div class="cta__inner">
     <ul>
@@ -25,6 +21,10 @@ To read more about what World Youth Day (WYD) is, visit [WYD Lisbon 2023 officia
     </ul>
   </div>
 </div>
+
+To read more about what World Youth Day (WYD) is, visit [WYD Lisbon 2023 official website](https://www.lisboa2023.org/en/about). To see heartfelt moments from previous WYDs, watch these videos: [History of WYD](https://youtu.be/t8BObfDtPVM) - [WYD 2000 Rome](https://youtu.be/RoIWquTYtzY) - [WYD 2011 Madrid](https://youtu.be/a48jsJm-jiA) - [WYD 2013 Rio](https://youtu.be/LZa6spYqHsA) - [WYD 2016 Kraków](https://youtu.be/xgqyEPemnKo). To listen to the best songs of WYD, see [The Unofficial Hymn of WYD](https://youtu.be/0KB8yY_hs60) - [The Best Songs of WYD](https://youtu.be/f-9clTldvdE).
+
+![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
 
 ---
 
