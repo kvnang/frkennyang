@@ -153,7 +153,7 @@ Sangatlah menyenangkan bepergian dengannya. Semua orang menyukai Fifi. Ia selalu
 
 ## 5. Berapa biayanya?
 
-Harga per orang: **2.500 EURO** (untuk rombongan 50 orang)
+Harga per orang: **2.500 EURO**
 
 Tarif ini sudah termasuk:
 - Transportasi (pesawat, kereta, bus)
@@ -161,7 +161,7 @@ Tarif ini sudah termasuk:
 - Pendaftaran WYD
 - Biaya masuk ke tempat-tempat wisata
 - 2 kali makan per hari
-- 10 malam di hotel
+- 10 malam di hotel (2 orang per kamar)
 
 ## 6. Mengapa sebaiknya kita berkomitmen lebih awal?
 
