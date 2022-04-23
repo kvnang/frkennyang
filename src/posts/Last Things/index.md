@@ -57,7 +57,7 @@ As Christians, we profess our faith in life everlasting. Yet, our knowledge of i
     [What is Parousia?](/post/last-things/#what-is-parousia)  
     [Who will be judged in the Last Judgment?](/post/last-things/#who-will-be-judged-in-the-last-judgment)  
     [What will the Last Judgment reveal?](/post/last-things/#what-will-the-last-judgment-reveal)  
-    [Why is the Last Judgment necessary? Does the Particular Judgment not suffice?](/post/last-things/#why-is-the-last-judgment-necessary-does-the-particular-judgment-not-suffice)  
+    [Why is the Last Judgment necessary?](/post/last-things/#why-is-the-last-judgment-necessary-does-the-particular-judgment-not-suffice)  
     [What will follow the Last Judgment?](/post/last-things/#what-will-follow-the-last-judgment)  
 
 ---
