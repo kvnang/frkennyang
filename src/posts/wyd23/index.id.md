@@ -47,6 +47,10 @@ Pada tahun 2017, saya menetap tiga minggu di Fátima sebagai *volunteer* di [pan
 
 ### Alasan #2. Kehadiran kita di *World Youth Day* penting adanya.
 
+> “Ketika pada tahun 1985 saya ingin memulai Hari Orang Muda Sedunia … saya membayangkan Hari Orang Muda Sedunia sebagai momen yang penuh kekuatan di mana orang-orang muda sedunia dapat bertemu dengan Kristus yang senantiasa muda dan belajar dari-Nya bagaimana menjadi pewarta Injil bagi orang-orang muda lainnya. Malam ini, bersama dengan kalian, saya memuji Allah dan bersyukur kepada-Nya atas karunia yang dianugerahkan kepada Gereja melalui Hari-Hari Orang Muda Sedunia. Jutaan orang muda telah ambil bagian di dalamnya dan, oleh karenanya, telah menjadi saksi-saksi kristiani yang lebih baik dan lebih berkomitmen.”
+> 
+> —Paus St. Yohanes Paulus II di WYD Toronto (2002)
+
 Kehadiran kita di WYD penting karena dua alasan.
 
 Pertama, dengan mewakili negara kita, kita akan *menunjukkan universalitas Gereja Katolik*. Ingatlah bahwa universalitas adalah salah satu [tanda dari Gereja kita](https://www.catholiceducation.org/en/culture/catholic-contributions/the-four-marks-of-the-church.html): ia diperuntukkan bagi semua manusia—ia ada di mana-mana. Kita bisa menunjukkan hal ini kepada dunia!
