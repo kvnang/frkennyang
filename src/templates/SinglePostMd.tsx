@@ -232,6 +232,16 @@ const PostContentStyles = styled.div`
   .cta {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
 
     &__inner {
       padding: 1rem 100%;
@@ -280,7 +290,7 @@ const PostContentStyles = styled.div`
       text-decoration: none;
       background-color: var(--color-accent);
       color: var(--black);
-      padding: 0.5rem 1rem;
+      padding: 0.75rem 1.25rem;
       font-weight: 700;
       display: inline-flex;
       overflow: hidden;
