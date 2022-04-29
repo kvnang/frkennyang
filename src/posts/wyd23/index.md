@@ -6,6 +6,7 @@ date: 2022-04-26
 category:
   - Youth
   - Pilgrimage
+  - WYD23
 excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting with the Pope. Seven World Tours. Father Kenny Ang. European Tour.
 ---
 
@@ -58,7 +59,7 @@ Back in 2017, I spent three weeks in Fátima volunteering in a [residence for th
 ### Reason #2. It is important to attend the World Youth Day.
 
 > “When, back in 1985, I wanted to start the World Youth Days … I imagined the World Youth Days as a powerful moment in which the young people of the world could meet Christ, who is eternally young, and could learn from him how to be bearers of the Gospel to other young people. This evening, together with you, I praise God and give thanks to him for the gift bestowed on the Church through the World Youth Days. Millions of young people have taken part, and as a result have become better and more committed Christian witnesses.”
-> 
+>
 > —Pope St. John Paul II in [WYD Toronto (2002)](https://www.vatican.va/content/john-paul-ii/en/speeches/2002/july/documents/hf_jp-ii_spe_20020727_wyd-vigil-address.html)
 
 Our presence at WYD matters for two reasons.
