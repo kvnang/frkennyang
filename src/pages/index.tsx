@@ -9,6 +9,7 @@ import Social from '../components/Social';
 import HomeFeaturedMd from '../components/HomeFeaturedMd';
 import ContactForm from '../components/ContactForm';
 import SEO from '../components/Seo';
+import HomeWydFeatured from '../components/HomeWydFeatured';
 
 const HeroStyles = styled.section`
   background: radial-gradient(
@@ -284,6 +285,7 @@ export default function HomePage() {
           <Social />
         </div>
       </HeroStyles>
+      <HomeWydFeatured />
       <HomeFeaturedMd />
       <ContactStyles id="contact">
         <div className="container">
