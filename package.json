@@ -17,6 +17,8 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.7",
+    "@fontsource/playfair-display": "^4.5.6",
     "@googleapis/sheets": "^0.3.0",
     "@types/mailgun-js": "^0.22.12",
     "algoliasearch": "^4.12.2",
@@ -34,7 +36,6 @@
     "gatsby-plugin-sharp": "^4.9.1",
     "gatsby-plugin-sitemap": "^5.9.0",
     "gatsby-plugin-styled-components": "^5.9.0",
-    "gatsby-plugin-webfonts": "^2.2.1",
     "gatsby-remark-autolink-headers": "^5.9.0",
     "gatsby-remark-external-links": "^0.0.4",
     "gatsby-remark-image-attributes": "^1.1.0",

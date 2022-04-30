@@ -85,29 +85,6 @@ const config: GatsbyConfig = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-image',
     {
-      resolve: 'gatsby-plugin-webfonts',
-      options: {
-        fonts: {
-          google: [
-            {
-              family: 'Playfair Display',
-              variants: ['700'],
-              // subsets: ['latin'],
-              // fontDisplay: 'swap',
-              // strategy: 'selfHosted', // 'base64' || 'cdn'
-            },
-            {
-              family: 'Montserrat',
-              variants: ['400', '600'],
-              // subsets: ['latin'],
-              // fontDisplay: 'swap',
-              // strategy: 'selfHosted', // 'base64' || 'cdn'
-            },
-          ],
-        },
-      },
-    },
-    {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         color: `#e2a93a`,
