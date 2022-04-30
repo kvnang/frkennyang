@@ -1,4 +1,4 @@
-import { graphql, Link, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import React, { useContext, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
@@ -213,8 +213,6 @@ export default function HomeWydFeatured() {
                   <StaticImage
                     src="../assets/images/wyd-2023-logo.png"
                     alt="World Youth Day 2023"
-                    width={48}
-                    height={48}
                     layout="fullWidth"
                     placeholder="none"
                   />
