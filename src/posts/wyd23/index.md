@@ -14,10 +14,10 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
   <div class="cta__inner">
     <ul>
       <li>
-        <a class="button" href="/">BOOK NOW </a> 
+        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">BOOK NOW</a> 
       </li>
       <li>
-        Questions? <a href="/">Ask Seven World Tours</a>  
+        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
       </li>
     </ul>
   </div>
@@ -160,10 +160,10 @@ City tour • Eiffel tower • Seine river
   <div class="cta__inner">
     <ul>
       <li>
-        <a class="button" href="/">BOOK NOW </a> 
+        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">BOOK NOW</a> 
       </li>
       <li>
-        Questions? <a href="/">Ask Seven World Tours</a>  
+        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>   
       </li>
     </ul>
   </div>
@@ -202,10 +202,10 @@ If you feel called to go, it is important to book early for several reasons.
   <div class="cta__inner">
     <ul>
       <li>
-        <a class="button" href="/">BOOK NOW </a> 
+        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">BOOK NOW</a> 
       </li>
       <li>
-        Questions? <a href="/">Ask Seven World Tours</a>  
+        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
       </li>
     </ul>
   </div>
