@@ -124,6 +124,14 @@ const PostContentStyles = styled.div`
     line-height: 1.75;
   }
 
+  .gatsby-resp-iframe-wrapper {
+    margin-bottom: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   .book {
     display: flex;
     flex-direction: column;
