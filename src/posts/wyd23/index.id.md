@@ -14,8 +14,18 @@ Untuk mengetahui lebih jauh tentang apa itu World Youth Day (WYD), kunjungi [sit
 
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
 
-BOOK NOW  
-ASK SEVEN WORLD TOURS
+<div class="cta">
+  <div class="cta__inner">
+    <ul>
+      <li>
+        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">BOOK NOW</a> 
+      </li>
+      <li>
+        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
+      </li>
+    </ul>
+  </div>
+</div>
 
 ---
 
@@ -177,8 +187,18 @@ Jika kamu merasa terpanggil untuk ikut serta, penting adanya untuk berkomitmen l
 - _Persiapan keuangan_. Kamu dapat mulai menabung dan menggalang dana. Kamu dapat mulai merencanakan cuti jika kamu bekerja atau bersekolah.
 - _Pengalaman yang lebih baik_. Semakin cepat kita mengetahui jumlah peserta, semakin cepat kita dapat mendaftar untuk WYD dan melakukan reservasi hotel, gereja, restoran, dll. Ingatlah bahwa WYD adalah acara massal. WYD Kraków pada tahun 2016, misalnya, dihadiri oleh [3,5 juta orang](https://edition.cnn.com/2013/07/19/world/world-youth-day-fast-facts/index.html). Kita bisa mendapatkan lokasi yang lebih strategis untuk hotel dan acara (misalnya, Misa dengan Paus, Misa di berbagai gereja di Eropa) hanya jika kita _melakukan reservasi sedini mungkin_. Lokasi yang lebih strategis akan memberi kita pengalaman yang lebih baik.
 
-BOOK NOW  
-ASK SEVEN WORLD TOURS
+<div class="cta">
+  <div class="cta__inner">
+    <ul>
+      <li>
+        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">BOOK NOW</a> 
+      </li>
+      <li>
+        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
+      </li>
+    </ul>
+  </div>
+</div>
 
 ## 7. Sponsor
 
