@@ -27,16 +27,19 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
 
 ---
 
-## Content
+## Daftar Isi
 
-1. [First things first: what’s the point?](/post/wyd23/#1-first-things-first-whats-the-point)
-2. [What are the requirements to join?](/post/wyd23/#2-what-are-the-requirements-to-join)
-3. [Itinerary (August 1–14, 2023)](/post/wyd23/#3-itinerary-august-114-2023)
-4. [Who is in charge of this pilgrimage?](/post/wyd23/#4-who-is-in-charge-of-this-pilgrimage)
-5. [How much does it cost?](/post/wyd23/#5-how-much-does-it-cost)
-6. [Why is it important to book early?](/post/wyd23/#6-why-is-it-important-to-book-early)
-7. [Sponsorship](/post/wyd23/#7-sponsorship)
-8. [Previous Trips of Seven World Tours](/post/wyd23/#8-previous-trips-of-seven-world-tours)
+1. [Kapan ziarah ini diadakan?](/post/wyd23/#1-first-things-first-whats-the-point)
+2. [Apa itu World Youth Day?](/post/wyd23/#2-what-are-the-requirements-to-join)
+3. [Siapa yang memimpin ziarah ini?](/post/wyd23/#3-itinerary-august-114-2023)
+4. [Apa saja alasan untuk bergabung?](/post/wyd23/#4-who-is-in-charge-of-this-pilgrimage)
+5. [Apa saja persyaratan untuk bergabung?](/post/wyd23/#5-how-much-does-it-cost)
+6. [Rute (27 Juli–8 Agustus 2023)](/post/wyd23/#6-why-is-it-important-to-book-early)
+7. [Berapa biaya perjalanan ini?](/post/wyd23/#7-sponsorship)
+8. [Kapan sebaiknya saya mendaftar?](/post/wyd23/#8-previous-trips-of-seven-world-tours)
+9. [*Refer-a-friend* voucher]()
+10. [Mengapa sebaiknya saya mendaftar sedini mungkin?]()
+11. [Syarat dan Ketentuan]()
 
 ---
 
@@ -106,19 +109,37 @@ Saya dapat menjamin bahwa keberhasilan perjalanan ini akan tergantung pada hal i
 
 Terakhir, hati yang ceria dibutuhkan dalam perjalanan ini. Mengapa? Karena tidak ada orang yang gemar berada di sekitar individu yang muram dan pesimis—karena sebagai orang kristiani kita dipanggil untuk menyebarkan kedamaian dan sukacita!
 
-## 6. Rute (31 Juli–13 Agustus 2023)
+## 6. Rute (27 Juli–8 Agustus 2023)
 
-### TUE 1: Jakarta to Rome
+Dalam ziarah ini, kita akan mengunjungi lima tempat utama, yakni Vatikan, Roma, Lourdes, Fátima, dan Lisbon. Di sela-sela perjalanan, kita juga akan singgah di Burgos dan Valladolid (Spanyol).
 
-### WED 2: Arrival in Rome
+### THU 27: Jakarta - Rome
+
+### FRI 28: Rome
 
 Basilica of St. Paul Outside the Walls • [Via del Corso](https://anamericaninrome.com/2018/02/where-shop-rome/) (shopping)
 
-### THU 3: Rome
+### SAT 29: Vatican - Rome
 
 Basilica of St. Peter • Basilica of St. Mary Major • Basilica of St. John Lateran • Roman Fora • Colosseum • Trevi Fountain
 
-### FRI 4: Rome - Lisbon
+### SUN 30: Rome - Lourdes
+
+### MON 31: Lourdes
+
+[Volunteering](https://youtu.be/s_djUFpaXNk) • Way of the Cross • City tour
+
+### TUE 1: Lourdes
+
+Volunteering • Free time & shopping
+
+### WED 2: Lourdes - Burgos - Valladolid
+
+### THU 3: Valladolid - Fátima
+
+**Fátima** | Afternoon: City tour • Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4)
+
+### FRI 4: Fátima - Lisbon
 
 **WYD Lisbon** | Evening: [Way of the Cross](https://youtu.be/0xuN89LvZ3o)
 
@@ -126,44 +147,13 @@ Basilica of St. Peter • Basilica of St. Mary Major • Basilica of St. John La
 
 **WYD Lisbon** | Morning: [Walking pilgrimage to the vigil site](https://youtu.be/xhk7wZIe3rk) • Afternoon: Shows, music, prayer, [sacrament of confession](https://youtu.be/ZY2prGQbuMU) • Evening: [Eucharistic adoration](https://youtu.be/LZa6spYqHsA)
 
-### SUN 6: Lisbon - Fátima
+### SUN 6: Lisbon
 
 **WYD Lisbon** | [Mass celebrated by the Pope](https://youtu.be/LBpsF5QusI0)  
-**Fátima** | Afternoon: City tour • Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4)
 
-### MON 7: Fátima - Burgos
+### MON 7: Lisbon - Jakarta
 
-**Burgos** | [Cathedral of Burgos](https://youtu.be/q0mi1NMSlOU)
-
-### TUE 8: Burgos - Loyola - Lourdes
-
-**Burgos - Loyola** | Bus  
-**Loyola** | [Sanctuary of Loyola](https://en.wikipedia.org/wiki/Sanctuary_of_Loyola)  
-**Loyola - Lourdes** | Bus  
-**Lourdes** | Briefing for volunteers
-
-### WED 9: Lourdes
-
-[Volunteering](https://youtu.be/s_djUFpaXNk) • Way of the Cross • City tour
-
-### THU 10: Lourdes
-
-Volunteering • Free time & shopping
-
-### FRI 11: Lourdes - Paris
-
-**Lourdes - Paris** | Train  
-**Paris** | Evening tour • Shopping
-
-### SAT 12: Paris
-
-City tour • Eiffel tower • Seine river
-
-### SUN 13: Paris - Jakarta
-
-**Paris** | [The Sacred Heart Basilica of Montmartre](https://en.wikipedia.org/wiki/Sacré-Cœur,_Paris)
-
-### MON 14: Arrival in Jakarta
+### TUE 8: Arrival in Jakarta
 
 <div class="cta">
   <div class="cta__inner">
@@ -182,13 +172,13 @@ City tour • Eiffel tower • Seine river
 
 ### Biaya total (per orang)
 
-- Biaya: **3,200 EUR**
-- Biaya early-bird: **2,950 EUR** (pendaftaran paling lambat 1 Agustus 2022)
+- Biaya: **3,125 EUR**
+- Biaya *early-bird*: **2,925 EUR** (pendaftaran paling lambat 1 Agustus 2022)
 
 Biaya mencakup:
 - Tiket pesawat *(economy class, non-refundable, non-endorsed, no rerouting)*:
 	- Jakarta-Eropa-Jakarta *(round-trip)*
-	- Roma-Lisbon *(one-way)*
+	- Roma-Lourdes *(one-way)*
 - Bagasi (dengan berat sesuai ketentuan maskapai)
 - Transportasi darat
 - Pendaftaran WYD
@@ -216,9 +206,9 @@ Biaya tidak mencakup:
 - Harap mencantumkan **NAMA LENGKAP PESERTA** dalam Berita Transfer.
 - Seluruh pembayaran dapat disetorkan ke rekening berikut:
 
-> Bank BCA (cabang Kupang Jaya)
-> Nama rekening: **PT TUJUH WISATA TOURS**
-> Nomor rekening: **612.0700.888**
+Bank BCA (cabang Kupang Jaya)  
+Nama rekening: **PT TUJUH WISATA TOURS**  
+Nomor rekening: **612.0700.888**  
 
 ### Jadwal Pembayaran
 
@@ -235,7 +225,7 @@ Sedini mungkin. Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, ka
 
 ## 9. *Refer-a-friend* voucher
 
-Jangan lupa untuk mengajak temanmu untuk bergabung dalam perjalanan ini! Untuk **setiap satu teman** yang kamu ajak, kamu akan mendapatkan **satu shopping voucher** senilai €10 *(non-redeemable)*! Jangan lupa untuk meminta teman yang kamu ajak untuk memasukkan namamu dalam bagian *Refer-a-Friend* ketika ia mendaftar.
+Jangan lupa untuk mengajak temanmu untuk bergabung dalam perjalanan ini! Untuk **setiap satu teman** yang kamu ajak, kamu akan mendapatkan **satu *shopping voucher*** senilai **10 EUR** *(non-redeemable)*! Jangan lupa untuk meminta teman yang kamu ajak untuk memasukkan namamu dalam bagian *Refer-a-Friend* ketika ia mendaftar.
 
 ## 10. Mengapa sebaiknya saya mendaftar sedini mungkin?
 
@@ -260,7 +250,4 @@ Jika kamu merasa tergerak untuk bergabung, penting bagimu untuk mendaftar sedini
 
 ## 11. Syarat dan Ketentuan
 
-Peserta akan diminta untuk menyetujui semua syarat dan ketentuan di bawah ini pada saat melakukan pendaftaran lewat Google Form.
-
-## 12. Perjalanan Seven World Tours Sebelumnya
-
+Peserta akan diminta untuk menyetujui semua syarat dan ketentuan di bawah ini pada saat melakukan pendaftaran (klik tombol "REGISTER NOW" dalam halaman ini).
