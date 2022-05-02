@@ -1,5 +1,5 @@
 ---
-title: World Youth Day 2023. Book Now
+title: World Youth Day 2023. Register Now
 featuredImage: wyd_featured.jpg
 format: Article
 date: 2022-04-26
@@ -14,7 +14,7 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
   <div class="cta__inner">
     <ul>
       <li>
-        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">BOOK NOW</a> 
+        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
       </li>
       <li>
         Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
@@ -22,8 +22,6 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
     </ul>
   </div>
 </div>
-
-To read more about what World Youth Day (WYD) is, visit [WYD Lisbon 2023 official website](https://www.lisboa2023.org/en/about). To see heartfelt moments from previous WYDs, watch these videos: [History of WYD](https://youtu.be/t8BObfDtPVM) - [WYD 2000 Rome](https://youtu.be/RoIWquTYtzY) - [WYD 2011 Madrid](https://youtu.be/a48jsJm-jiA) - [WYD 2013 Rio](https://youtu.be/LZa6spYqHsA) - [WYD 2016 Kraków](https://youtu.be/xgqyEPemnKo). To listen to the best songs of WYD, see [The Unofficial Hymn of WYD](https://youtu.be/0KB8yY_hs60) - [The Best Songs of WYD](https://youtu.be/f-9clTldvdE).
 
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
 
@@ -42,59 +40,73 @@ To read more about what World Youth Day (WYD) is, visit [WYD Lisbon 2023 officia
 
 ---
 
-## 1. First things first: what’s the point?
+## 1. Kapan ziarah ini diadakan?
 
-Let’s start with the most important question: why is this trip worth our time and money? In this section, I’m addressing you, _prospective participants_, as well as you, _parents_, who are considering funding your children’s trip. At least _three reasons_ make it reasonable to spend our precious time and hard-earned cash on this journey.
+WYD Pilgrimage direncanakan berangkat dari Jakarta pada tanggal **31 Juli 2023** dan tiba kembali di Jakarta pada tanggal **13 Agustus 2023**. Jadwal keberangkatan dan kepulangan masih dapat berubah tergantung ketersediaan tiket pesawat. WYD Lisbon 2023, yang merupakan salah satu acara penting dalam ziarah ini, akan diselenggarakan pada tanggal **1–6 Agustus 2023** di Lisbon, Portugal.
 
-### Reason #1. This trip will change our life.
+## 2. Apa itu World Youth Day?
 
-This trip will be life-changing for many reasons. Let me mention two for now.
+World Youth Day (WYD) adalah perjumpaan orang-orang muda dari seluruh dunia dengan Paus. Untuk mengetahui lebih jauh tentang apa itu World Youth Day (WYD), kunjungi [situs resmi WYD Lisbon 2023](https://www.lisboa2023.org/en/about). Untuk mengetahui lebih jauh mengenai aktivitas-aktivitas selama WYD, kunjungi [situs resmi WYD Lisbon 2023](https://www.lisboa2023.org/en/about/what-happens-during-wyd).
 
-Firstly, _this trip is a pilgrimage_. It’s more than just an excursion. A pilgrimage is a journey of devotion to holy places—a practice common to Christianity and other world religions. In this pilgrimage, we’ll get to visit three major holy sites: Rome, Lourdes, and Fátima. We’ll also celebrate Mass and pray together every day. This trip will be an occasion for us to deepen our faith. It will also increase our familiarity with the two-thousand-year history of Catholicism.
+Untuk melihat momen yang menyentuh dari WYD-WYD sebelumnya, lihat video berikut: [History of WYD](https://youtu.be/t8BObfDtPVM) - [WYD 2000 Rome](https://youtu.be/RoIWquTYtzY) - [WYD 2011 Madrid](https://youtu.be/a48jsJm-jiA) - [WYD 2013 Rio](https://youtu.be/LZa6spYqHsA) - [WYD 2016 Kraków](https://youtu.be/xgqyEPemnKo). Untuk mendengarkan lagu-lagu terbaik dari WYD, lihat [The Unofficial Hymn of WYD](https://youtu.be/0KB8yY_hs60) - [The Best Songs of WYD](https://youtu.be/f-9clTldvdE).
 
-Secondly, _we will volunteer in Lourdes_. If you’ve been to Lourdes, you’ve surely seen many young people helping out with different things at the Shrine: they organize queue lines, lead rosary processions, escort the sick in their wheelchairs, help the pilgrims go to the baths, etc. This is what we’ll do. We’ll serve the pilgrims, especially those who are ill. By doing so, we hope to hear Christ tell us: “I was sick and you took care of me” (Mt 25:36).
+## 3. Siapa yang memimpin ziarah ini?
 
-Back in 2017, I spent three weeks in Fátima volunteering in a [residence for the mentally disabled](https://www.ump.pt/Home/uniao/areas-de-atuacao/equipamentos-anexos/centro-de-apoio-a-deficientes-joao-paulo-ii/). I did things like changing their beddings and feeding them. It was tough. I had nausea several times for reasons I don’t have to specify. But after that experience, my life was no longer the same. I discovered that all human beings are valuable just because they exist. That immediate contact with human suffering changed my life. It will change yours too.
+Perjalanan ini akan dipimpin oleh [Fr. Kenny Ang](https://www.fatherkenny.com/cv/) dan dikelola oleh Fifi Lukito dari Seven World Tours. Sebagai pendiri agen tour ini, ia telah memimpin banyak grup wisata ke berbagai tujuan di seluruh dunia. Tahun 2019, saya mendampingi rombongan ziarahnya ke Tanah Suci.
 
-### Reason #2. It is important to attend the World Youth Day.
+![father kenny ang fifi lukito Masada holy land](ang_fifi.jpg 'With Fifi at Masada, Israel (2019)')
 
-> “When, back in 1985, I wanted to start the World Youth Days … I imagined the World Youth Days as a powerful moment in which the young people of the world could meet Christ, who is eternally young, and could learn from him how to be bearers of the Gospel to other young people. This evening, together with you, I praise God and give thanks to him for the gift bestowed on the Church through the World Youth Days. Millions of young people have taken part, and as a result have become better and more committed Christian witnesses.”
->
-> —Pope St. John Paul II in [WYD Toronto (2002)](https://www.vatican.va/content/john-paul-ii/en/speeches/2002/july/documents/hf_jp-ii_spe_20020727_wyd-vigil-address.html)
+Sangatlah menyenangkan bepergian dengannya. Semua orang menyukai Fifi. Ia selalu mengendalikan situasi dengan baik. Ketenangan dan keceriaannya membuat semua orang senang berada di sekitarnya. Ia tahu kapan harus bersikap tegas dan kapan bisa bersikap fleksibel. Ia bahkan bisa melanggar beberapa aturan untuk membuat kamu senang. (Misalnya, ia memberi kami kemasan saus sambal ketika kami makan di restoran Kosher.) Ia sangat tahu jika kami lapar dan terkadang akan mengejutkan kami dengan camilan tambahan—saya tidak tahu dari mana ia memperoleh begitu banyak *bakcang* (粽子) dan pisang untuk kami dalam bus ketika kami berada di Tanah Suci. Terakhir dan yang lebih penting lagi: ia adalah pemandu yang handal karena ia mencintai Yesus.
 
-Our presence at WYD matters for two reasons.
+## 4. Apa saja alasan untuk bergabung?
 
-Firstly, we’ll _show the universality of the Catholic Church_ by representing our countries. Recall that universality is one of the [distinctive features of our Church](https://www.catholiceducation.org/en/culture/catholic-contributions/the-four-marks-of-the-church.html): she is meant for all human beings—she is everywhere. Let’s show this to the world!
+Sekarang, saya akan menjawab pertanyaan yang terpenting: apakah manfaat yang akan kita dapatkan dari perjalanan ke WYD ini sepadan dengan waktu dan uang yang kita korbankan? Di bagian ini, saya berbicara kepada kamu, *calon peserta*, serta Anda, *orang tua*, yang sedang mempertimbangkan untuk mendanai perjalanan anak-anak Anda. Setidaknya *tiga alasan* membuat perjalanan ini layak menerima waktu kita yang berharga dan uang hasil jerih payah kita.
 
-Secondly, our presence at this gathering will _inspire our fellow youth from around the world_. I attended [WYD Kraków](https://en.wikipedia.org/wiki/World_Youth_Day_2016) in 2016 and I can tell you how uplifting it was to see so many young Catholics on fire with their faith. Yet remember that this is a two-way procedure: if the presence of others edifies us, our presence matters to them too. We are likewise a source of encouragement for young people from other parts of the globe.
+### Alasan #1. Perjalanan ini akan mengubah hidup kita.
 
-### Reason #3. This trip is gonna be fun.
+Perjalanan ini akan mengubah hidup kita karena berbagai alasan. Saya akan menyebutkan dua.
 
-We’ll simply have a good time. Experience has proven that ‘pilgrimage’ is not a synonym for ‘boring.’ Don’t worry—we won’t be praying all the time. As Christians, we are truly human: we like to sightsee, eat, shop, socialize, and sleep. Hence, we’ll try some local cuisines. Aside from churches, we’ll visit famous landmarks. We’ll do some shopping. Most importantly, we’ll get to know and help each other as a team. I am hopeful that, at the end of our trip, we’ll become friends. Some might even encounter their future spouse in this journey—who knows?
+Pertama, *perjalanan ini adalah sebuah ziarah*. Perjalanan ini bukan sekadar rekreasi. Ziarah *(pilgrimage)* adalah perjalanan untuk mengunjungi tempat-tempat suci—sebuah kegiatan yang umum dalam Kekristenan maupun agama-agama dunia lainnya. Dalam ziarah ini, kita akan mengunjungi tiga tempat suci utama: Roma, Lourdes, dan Fátima. Kita juga akan merayakan Misa dan berdoa bersama setiap hari. Perjalanan ini akan menjadi kesempatan bagi kita untuk memperdalam iman kita. Kita juga akan semakin mengenal sejarah Gereja Katolik yang sudah berusia lebih dari dua ribu tahun.
 
-## 2. What are the requirements to join?
+Kedua, *kita akan menjadi volunteers di Lourdes*. Jika kamu pernah ke Lourdes, kamu pasti melihat banyak orang muda melayani dalam berbagai hal di sana: mereka mengatur antrian, memimpin prosesi lilin, mendorong orang sakit yang duduk di kursi roda, membantu para peziarah di tempat pemandian, dll. Inilah yang juga akan kita lakukan: kita akan melayani para peziarah di Lourdes, terutama mereka yang sakit. Dengan demikian, kita berharap untuk mendengar Kristus berkata kepada kita: "ketika Aku sakit, kamu melawat Aku" (Mat 25:36).
 
-### Age: 16-35
+Izinkan saya menyampaikan sebuah pengalaman pribadi. Pada tahun 2017, saya menetap selama tiga minggu di Fátima sebagai *volunteer* di [panti untuk orang-orang cacat mental](https://www.ump.pt/Home/uniao/areas-de-atuacao/equipamentos-anexos/centro-de-apoio-a-deficientes-joao-paulo-ii/). Saya melakukan berbagai hal seperti mengganti seprai tempat tidur mereka dan memberi mereka makan. Hal-hal itu tidaklah mudah. Saya merasa mual beberapa kali karena alasan yang tidak perlu saya jelaskan. Tapi, seusai pengalaman itu, hidup saya diubahkan. Saya menyadari betapa berharganya setiap manusia. Kontak langsung dengan penderitaan orang lain mengubah hidup saya. Pengalaman inilah yang ingin saya hidupi kembali bersama denganmu.
 
-This age range is not absolute, but WYD is intended for those aged 16 to 35. Know that _there will be adults_ in our group chaperoning participants under the age of 18.
+### Alasan #2. Kehadiran kita di WYD penting adanya.
 
-### Good health
+Kehadiran kita di WYD penting karena dua alasan.
 
-This pilgrimage will include a considerable amount of physical activity. We must ensure that we are in good physical condition and will not endanger ourselves or other travelers. This pilgrimage will require much walking which may include hills, uneven pavement, stairs, narrow passages and elevators, cobblestone roads, and other ‘challenging’ scenarios. Please note that dietary requests can be made but are not guaranteed.
+Pertama, dengan mewakili negara kita, kita akan *menonjolkan universalitas Gereja Katolik*. Ingatlah bahwa universalitas adalah salah satu [tanda dari Gereja kita](https://www.catholiceducation.org/en/culture/catholic-contributions/the-four-marks-of-the-church.html): ia diperuntukkan bagi semua manusia—ia ada di mana-mana. Kita bisa menunjukkan hal ini kepada dunia!
 
-### Adventurous spirit
+Kedua, kehadiran kita dalam WYD akan *menginspirasi orang-orang muda dari seluruh dunia*. Saya menghadiri [WYD Kraków](https://en.wikipedia.org/wiki/World_Youth_Day_2016) tahun 2016 dan saya terpukau melihat begitu banyaknya orang muda Katolik yang berkobar dalam iman mereka. Namun, ingatlah bahwa ini merupakan sebuah proses dua arah: jika kehadiran orang lain membangun kita, kehadiran kita juga penting bagi mereka. Kita juga merupakan sumber semangat bagi kaum muda dari seluruh dunia.
 
-Pilgrimage entails personal sacrifices. We won’t probably stay in five-star hotels. We’ll most likely have roommates. We’ll have to let go of some comforts we’re used to back at home. This might sound otherworldly to some of you. But, from my experience, I can tell you that the fun will far outweigh all the discomforts!
+### Alasan #3. Perjalanan ini menyenangkan.
 
-### Willingness to serve
+Kita akan bersenang-senang bersama. Pengalaman membuktikan kepada saya bahwa 'ziarah' bukanlah sinonim dari 'membosankan.' Jangan khawatir—kita tidak akan berdoa 24 jam. Sebagai orang kristiani, kita adalah manusia yang normal: kita suka melihat tempat yang baru, makan, berbelanja, bersosialisasi, dan tidur. Oleh karena itu, kita akan menikmati makanan lokal. Selain gereja-gereja, kita akan mengunjungi tempat-tempat wisata lainnya yang terkenal. Akan ada waktu untuk berbelanja. Yang terpenting, kita akan saling mengenal dan membantu satu sama lain sebagai sebuah tim. Saya berharap, di akhir perjalanan, akan tumbuh pertemanan di antara kita. Bahkan, beberapa bisa jadi menemukan pasangan hidupnya dalam perjalanan ini—siapa tahu?
 
-I can guarantee that the success of this trip will greatly depend on this point. We’ll have a good time if each one of us thinks less of himself/herself and more of others in our group. On the contrary, we’ll have an awful time if each one of us is egoistic. That’s why willingness to serve others is so crucial.
+## 5. Apa saja persyaratan untuk bergabung?
 
-### Joyful heart
+### Usia: 16-35
 
-Lastly, a joyful heart is needed for this trip. Why? Because nobody likes being around gloomy and pessimistic individuals—because as Christians we’re called to spread peace and joy!
+Rentang usia ini tidaklah mutlak, tetapi WYD diperuntukkan terutama bagi mereka yang berusia 16 hingga 35 tahun. *Akan ada orang dewasa* dalam rombongan kita yang akan menjadi pendamping *(chaperones)* bagi peserta di bawah usia 18 tahun.
 
-## 3. Itinerary (August 1–14, 2023)
+### Kesehatan
+
+Ziarah ini menuntut banyak aktivitas fisik. Kita harus memastikan bahwa kita ada dalam kondisi fisik yang baik dan tidak akan membahayakan diri kita sendiri atau peserta lain. Dalam ziarah ini, kita akan banyak berjalan di tempat-tempat seperti bukit, permukaan yang tidak rata, tangga, lorong yang sempit, jalan berbatu, dan skenario lainnya yang 'menantang.' Kita akan banyak berdiri. Kondisi cuaca tidak dapat diprediksi. Harap dicatat juga bahwa permohonan diet khusus dapat diajukan namun tidak dapat dijamin.
+
+### Semangat petualang
+
+Sebuah ziarah menuntut pengorbanan pribadi. Kita harus mengorbankan beberapa kenyamanan yang biasa kita nikmati di rumah. Namun, pengalaman pribadi saya mengatakan bahwa kebahagiaan yang akan kita alami akan jauh lebih besar daripada segala ketidaknyamanan!
+
+### Kesediaan untuk melayani
+
+Saya dapat menjamin bahwa keberhasilan perjalanan ini akan tergantung pada hal ini. Perjalanan ini akan menyenangkan apabila masing-masing dari kita memikirkan dirinya sendiri lebih sedikit dan lebih memikirkan peserta lain dalam rombongan. Sebaliknya, perjalanan ini akan menjadi sebuah mimpi buruk jika masing-masing dari kita bersikap egois. Itulah sebabnya kesediaan untuk melayani orang lain adalah persyaratan yang penting.
+
+### Kegembiraan
+
+Terakhir, hati yang ceria dibutuhkan dalam perjalanan ini. Mengapa? Karena tidak ada orang yang gemar berada di sekitar individu yang muram dan pesimis—karena sebagai orang kristiani kita dipanggil untuk menyebarkan kedamaian dan sukacita!
+
+## 6. Rute (31 Juli–13 Agustus 2023)
 
 ### TUE 1: Jakarta to Rome
 
@@ -108,22 +120,19 @@ Basilica of St. Peter • Basilica of St. Mary Major • Basilica of St. John La
 
 ### FRI 4: Rome - Lisbon
 
-**Rome - Lisbon** | Flight  
-**WYD** | Evening: [Way of the Cross](https://youtu.be/0xuN89LvZ3o)
+**WYD Lisbon** | Evening: [Way of the Cross](https://youtu.be/0xuN89LvZ3o)
 
 ### SAT 5: Lisbon
 
-**WYD** | Morning: [Walking pilgrimage to the vigil site](https://youtu.be/xhk7wZIe3rk) • Afternoon: Shows, music, prayer, [sacrament of confession](https://youtu.be/ZY2prGQbuMU) • Evening: [Eucharistic adoration](https://youtu.be/LZa6spYqHsA)
+**WYD Lisbon** | Morning: [Walking pilgrimage to the vigil site](https://youtu.be/xhk7wZIe3rk) • Afternoon: Shows, music, prayer, [sacrament of confession](https://youtu.be/ZY2prGQbuMU) • Evening: [Eucharistic adoration](https://youtu.be/LZa6spYqHsA)
 
 ### SUN 6: Lisbon - Fátima
 
-**WYD** | [Mass celebrated by the Pope](https://youtu.be/LBpsF5QusI0)  
-**Lisbon - Fátima** | Bus  
-**Fátima** | Afternoon: City tour • Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4) (21:30)
+**WYD Lisbon** | [Mass celebrated by the Pope](https://youtu.be/LBpsF5QusI0)  
+**Fátima** | Afternoon: City tour • Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4)
 
 ### MON 7: Fátima - Burgos
 
-**Fátima - Burgos** | Bus  
 **Burgos** | [Cathedral of Burgos](https://youtu.be/q0mi1NMSlOU)
 
 ### TUE 8: Burgos - Loyola - Lourdes
@@ -160,49 +169,7 @@ City tour • Eiffel tower • Seine river
   <div class="cta__inner">
     <ul>
       <li>
-        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">BOOK NOW</a> 
-      </li>
-      <li>
-        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>   
-      </li>
-    </ul>
-  </div>
-</div>
-
-## 4. Who is in charge of this pilgrimage?
-
-This pilgrimage is organized by Seven World Tours and Fifi Lukito will be our group leader. As the founder of this travel agency, she has led numerous tour groups to multiple destinations around the world. In 2019, I was the chaplain of her pilgrimage group to the Holy Land.
-
-![father kenny ang fifi lukito Masada holy land](ang_fifi.jpg 'With Fifi at Masada, Israel (2019)')
-
-It’s such a blast to travel with her. Everybody loves Fifi. She is always on top of things. Her tranquility and cheerfulness make everybody enjoy being around her. She knows when to go by the book and when to be flexible. She may even break some rules to make your life easier. (For example, she gave us sachets of chili sauce when we were eating at a Kosher restaurant.) She perfectly knows if we’re hungry and will sometimes surprise us with extra snacks—I didn’t know how she got so many _bakcang_ (粽子) and bananas for us on the bus when we were at the Holy Land. Last but not least: she is a great guide because she loves Jesus.
-
-## 5. How much does it cost?
-
-Price per person: **2,500 EURO**
-
-This rate includes:
-
-- Transportation (plane, train, bus)
-- Travel insurance
-- WYD Registration
-- Entrance fees to landmarks
-- 2 meals per day
-- 10 nights at hotel (double occupancy)
-
-## 6. Why is it important to book early?
-
-If you feel called to go, it is important to book early for several reasons.
-
-- _Spiritual preparation_. You can start praying for this pilgrimage, for yourself, and for your fellow travelers. You can also say [the official prayer for WYD Lisbon 2023](https://www.lisboa2023.org/en/article/prayer-for-world-youth-d).
-- _Financial preparation_. You can start saving and fundraising. You can start planning your leave if you’re working or studying.
-- _Better experience_. The sooner we know the number of participants, the sooner we can register for WYD and book accommodations, churches, restaurants, etc. Bear in mind that WYD is a mass event. The WYD Kraków in 2016, for instance, was attended by [3.5 million people](https://edition.cnn.com/2013/07/19/world/world-youth-day-fast-facts/index.html). Only if we _book as early as possible_ can we get better locations for hotels and events (e.g., at the Mass with the Pope, for Mass at churches across Europe). Better locations will give us a better experience.
-
-<div class="cta">
-  <div class="cta__inner">
-    <ul>
-      <li>
-        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">BOOK NOW</a> 
+        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
       </li>
       <li>
         Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
@@ -211,8 +178,89 @@ If you feel called to go, it is important to book early for several reasons.
   </div>
 </div>
 
-## 7. Sponsorship
+## 7. Berapa biaya perjalanan ini?
 
-If you are interested in sponsoring a group meal while we are in Europe or contributing to our WYD fund which will be shared across the group, please fill out this form.
+### Biaya total (per orang)
 
-## 8. Previous Trips of Seven World Tours
+- Biaya: **3,200 EUR**
+- Biaya early-bird: **2,950 EUR** (pendaftaran paling lambat 1 Agustus 2022)
+
+Biaya mencakup:
+- Tiket pesawat *(economy class, non-refundable, non-endorsed, no rerouting)*:
+	- Jakarta-Eropa-Jakarta *(round-trip)*
+	- Roma-Lisbon *(one-way)*
+- Bagasi (dengan berat sesuai ketentuan maskapai)
+- Transportasi darat
+- Pendaftaran WYD
+- Akomodasi (sekamar berdua/bertiga)
+- Konsumsi (dua kali per hari)
+- Asuransi perjalanan 
+
+Biaya tidak mencakup:
+- Transportasi ke dan dari Bandara Soekarno-Hatta (Jakarta)
+-  Visa Schengen
+-  Akomodasi di Jakarta (jika peserta berasal dari luar Jakarta)
+-  Pengeluaran pribadi (pulsa HP, *laundry*, *snack*, *overweight luggages*, etc.).
+
+### Ketentuan Pembayaran
+
+1. Khusus bagi peserta yang **visanya gagal terbit** dan apabila **perjalanan dibatalkan**, uang pembayaran akan dikembalikan selama uang tersebut belum digunakan untuk keperluan peserta itu sendiri (e.g., untuk *booking*, pendaftaran, etc.).
+2. Pendaftaran harus disertai Bukti Transfer deposit sebesar **500 EUR**.
+2. Seluruh biaya tour harus lunas paling lambat tanggal **1 April 2023**.
+3. Seven World Tours tidak menerima pembayaran tunai keras (tanpa melalui bank).
+4. Biaya transfer ditanggung oleh peserta apabila transfer dilakukan melalui bank lain.
+5. Jumlah nominal uang yang dicatat oleh Seven World Tours adalah nominal yang masuk dalam rekening BCA yang tertera di bawah.
+
+### Rekening Pembayaran
+
+- Harap mencantumkan **NAMA LENGKAP PESERTA** dalam Berita Transfer.
+- Seluruh pembayaran dapat disetorkan ke rekening berikut:
+
+> Bank BCA (cabang Kupang Jaya)
+> Nama rekening: **PT TUJUH WISATA TOURS**
+> Nomor rekening: **612.0700.888**
+
+### Jadwal Pembayaran
+
+| Pembayaran |    Tanggal     | Nominal |
+| :--------: | :------------: | :-----: |
+|  Deposit   | Saat Mendaftar |  €500   |
+|  Pertama   |   1 Sep 2022   | €1,000  |
+|   Kedua    |   1 Des 2022   | €1,000  |
+|   Ketiga   |   1 Apr 2023   | SISANYA |
+
+## 8. Kapan sebaiknya saya mendaftar?
+
+Sedini mungkin. Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, kamu akan mendapatkan harga spesial *early-bird* **2,950 EUR**. Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
+
+## 9. *Refer-a-friend* voucher
+
+Jangan lupa untuk mengajak temanmu untuk bergabung dalam perjalanan ini! Untuk **setiap satu teman** yang kamu ajak, kamu akan mendapatkan **satu shopping voucher** senilai €10 *(non-redeemable)*! Jangan lupa untuk meminta teman yang kamu ajak untuk memasukkan namamu dalam bagian *Refer-a-Friend* ketika ia mendaftar.
+
+## 10. Mengapa sebaiknya saya mendaftar sedini mungkin?
+
+Jika kamu merasa tergerak untuk bergabung, penting bagimu untuk mendaftar sedini mungkin karena beberapa alasan:
+
+  - *Persiapan rohani*. Kamu dapat mulai berdoa untuk ziarah ini, untuk dirimu sendiri, dan untuk sesama peserta. Kamu dapat mendaraskan [doa resmi untuk WYD Lisbon 2023](https://www.lisboa2023.org/en/article/prayer-for-world-youth-d), misalnya.
+  - *Persiapan keuangan*. Kamu dapat mulai menabung dan menggalang dana bersama teman-teman lainnya. Kamu dapat mulai merencanakan cuti jika kamu bekerja atau bersekolah.
+  - *Pengalaman dan kenyamanan yang lebih baik*. Semakin cepat kamu berkomitmen, semakin cepat panitia dapat melakukan reservasi hotel, gereja, restoran, dll. Ingatlah bahwa WYD adalah sebuah acara massal. WYD Kraków pada tahun 2016, misalnya, dihadiri oleh [3,5 juta orang](https://edition.cnn.com/2013/07/19/world/world-youth-day-fast-facts/index.html). Kita bisa mendapatkan lokasi yang lebih strategis untuk hotel dan acara (misalnya, Misa dengan Paus, Misa di berbagai gereja di Eropa) hanya jika kita *melakukan reservasi sedini mungkin*. Lokasi yang lebih strategis akan memberi kita pengalaman dan kenyamanan yang lebih baik.
+
+<div class="cta">
+  <div class="cta__inner">
+    <ul>
+      <li>
+        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
+      </li>
+      <li>
+        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
+      </li>
+    </ul>
+  </div>
+</div>
+
+## 11. Syarat dan Ketentuan
+
+Peserta akan diminta untuk menyetujui semua syarat dan ketentuan di bawah ini pada saat melakukan pendaftaran lewat Google Form.
+
+## 12. Perjalanan Seven World Tours Sebelumnya
+
