@@ -252,7 +252,7 @@ Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
 
 ## 9. *Refer-a-friend* voucher
 
-Jangan lupa untuk mengajak temanmu untuk bergabung dalam perjalanan ini! Untuk **setiap satu teman** yang kamu ajak, kamu akan mendapatkan **satu *shopping voucher*** senilai **$10** *(non-redeemable)*! Benar: kalau kamu mengajak dua teman, berarti kamu akan mendapatkan dua voucher. Kalau kamu mengajak 7 teman? 7 voucher!
+Jangan lupa untuk mengajak temanmu untuk bergabung dalam perjalanan ini! Untuk **setiap satu teman** yang kamu ajak, kamu akan mendapatkan **satu *shopping voucher*** senilai **$10** *(non-redeemable)*! Benar: kalau kamu mengajak dua teman, berarti kamu akan mendapatkan dua voucher. Kalau kamu mengajak tujuh teman? Tujuh voucher!
 
 Hanya saja, jangan lupa untuk meminta teman yang kamu ajak untuk memasukkan namamu dalam bagian *Refer-a-Friend* ketika ia mendaftar.
 
@@ -320,6 +320,8 @@ Peserta akan diminta untuk menyetujui semua syarat dan ketentuan di bawah ini pa
 16. Saya paham bahwa harga tiket pesawat dan biaya-biaya lain dapat berubah sewaktu-waktu tergantung nilai tukar valuta asing dan/atau perubahan harga tiket pesawat dari maskapai penerbangan.
 17. Saya paham bahwa jadwal keberangkatan dan kepulangan masih dapat berubah tergantung ketersediaan tiket pesawat.
 18. Saya memberi wewenang kepada Seven World Tours untuk menagih kepada saya pembayaran tambahan untuk mengimbangi kenaikan biaya, kenaikan harga bahan bakar, kenaikan pajak, fluktuasi di pasar valuta asing, dan lain-lain.
+
+Nah, tunggu apa lagi? Ayo mendaftar sebelum kehabisan tempat!
 
 <div class="cta">
   <div class="cta__inner">
