@@ -34,12 +34,13 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
 3. [Siapa yang memimpin perjalanan ini?](/wyd23/#3-siapa-yang-memimpin-perjalanan-ini)
 4. [Apa saja alasan untuk bergabung?](/wyd23/#4-apa-saja-alasan-untuk-bergabung)
 5. [Apa saja persyaratan untuk bergabung?](/wyd23/#5-apa-saja-persyaratan-untuk-bergabung)
-6. [Rute (1–14 Agustus 2023)](/wyd23/#6-rute-27-juli8-agustus-2023)
+6. [Rute (1–14 Agustus 2023)](/wyd23/#6-rute-114-agustus-2023)
 7. [Berapa biaya perjalanan ini?](/wyd23/#7-berapa-biaya-perjalanan-ini)
 8. [Kapan sebaiknya saya mendaftar?](/wyd23/#8-kapan-sebaiknya-saya-mendaftar)
 9. [*Refer-a-friend* voucher](/wyd23/#9-refer-a-friend-voucher)
 10. [Mengapa sebaiknya saya mendaftar sedini mungkin?](/wyd23/#10-mengapa-sebaiknya-saya-mendaftar-sedini-mungkin)
-11. [Syarat dan Ketentuan](/wyd23/#11-syarat-dan-ketentuan)
+11. [Bagaimana cara saya mendaftar?](/wyd23/#11-bagaimana-cara-saya-mendaftar)
+12. [Syarat dan Ketentuan](/wyd23/#11-syarat-dan-ketentuan)
 
 ---
 
@@ -184,7 +185,7 @@ City tour • Eiffel tower • Seine river • Shopping (free time)
 ### Biaya total (per orang)
 
 - Biaya: **3,300 USD**
-- Biaya *early-bird*: **3,100 USD** (pendaftaran paling lambat 1 Agustus 2022)
+- Biaya *early-bird*: **3,100 USD** (pendaftaran paling lambat 1 Agustus 2022, khusus bagi 20 pendaftar pertama)
 
 Biaya mencakup:
 - Tiket pesawat *(economy class, non-refundable, non-endorsed, no rerouting)*:
@@ -265,7 +266,7 @@ Jika kamu merasa tergerak untuk bergabung, penting bagimu untuk mendaftar sedini
 
 ## 11. Bagaimana cara saya mendaftar?
 
-Kamu bisa mendaftar dengan mengklik tombol "REGISTER NOW" yang tersebar di halaman ini. Untuk menyelesaikan pendaftaran, kamu perlu melampirkan dokumen-dokumen berikut:
+Kamu bisa mendaftar dengan mengklik tombol "REGISTER NOW" yang tersebar di halaman ini. Untuk menyelesaikan pendaftaran, diperlukan:
 
 - Scan/foto bukti transfer deposit sebesar 500 USD
 - Scan/foto halaman depan paspor *(passport data page)*
@@ -332,3 +333,4 @@ Peserta akan diminta untuk menyetujui semua syarat dan ketentuan di bawah ini pa
     </ul>
   </div>
 </div>
+
