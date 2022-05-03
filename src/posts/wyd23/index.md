@@ -40,7 +40,7 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
 9. [*Refer-a-friend* voucher](/wyd23/#9-refer-a-friend-voucher)
 10. [Mengapa sebaiknya saya mendaftar sedini mungkin?](/wyd23/#10-mengapa-sebaiknya-saya-mendaftar-sedini-mungkin)
 11. [Bagaimana cara saya mendaftar?](/wyd23/#11-bagaimana-cara-saya-mendaftar)
-12. [Syarat dan Ketentuan](/wyd23/#11-syarat-dan-ketentuan)
+12. [Syarat dan Ketentuan](/wyd23/#12-syarat-dan-ketentuan)
 
 ---
 
