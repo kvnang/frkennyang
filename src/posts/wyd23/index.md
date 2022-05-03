@@ -25,7 +25,7 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
 
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
 
-Pendaftaran telah dibuka (17 Mei 2022). Daftar sekarang untuk mendapatkan diskon! 
+Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, kamu akan mendapatkan diskon *early-bird* sebesar **US$200**. Diskon ini tersedia hanya bagi **20 pendaftar pertama**! Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
 
 ---
 
@@ -66,7 +66,7 @@ Sangatlah menyenangkan bepergian dengannya. Semua orang menyukai Fifi. Ia selalu
 
 ## 4. Apa saja alasan untuk bergabung?
 
-Sekarang, saya akan menjawab pertanyaan yang terpenting: apakah manfaat yang akan kita dapatkan dari perjalanan ke WYD ini sepadan dengan waktu dan uang yang kita korbankan? Di bagian ini, saya berbicara kepada kamu, *calon peserta*, serta Anda, *orang tua*, yang sedang mempertimbangkan untuk mendanai perjalanan anak-anak Anda. Setidaknya *tiga alasan* membuat perjalanan ini layak menerima waktu kita yang berharga dan uang hasil jerih payah kita.
+Sekarang, saya akan menjawab pertanyaan yang terpenting: apakah manfaat yang akan kita dapatkan dari perjalanan ke WYD ini sepadan dengan waktu dan uang yang kita korbankan? Di bagian ini, saya berbicara kepada kamu, *calon peserta*, serta Anda, *orang tua*, yang sedang mempertimbangkan untuk mendanai perjalanan anak-anak Anda. Setidaknya ada tiga alasan yang akan membuat perjalanan ini sebuah pengalaman yang berharga.
 
 ### Alasan #1: Perjalanan ini akan mengubah hidup kita.
 
@@ -237,7 +237,7 @@ Nomor rekening: **612.0700.888**
 
 Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. 
 
-Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, kamu akan mendapatkan harga *early-bird* **US$3,100**. Harga spesial ini tersedia hanya bagi **20 pendaftar pertama**!
+Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, kamu akan mendapatkan diskon *early-bird* sebesar **US$200**. Diskon ini tersedia hanya bagi **20 pendaftar pertama**!
 
 Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
 
