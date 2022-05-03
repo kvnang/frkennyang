@@ -2,7 +2,7 @@
 title: World Youth Day 2023. Register Now
 featuredImage: wyd_featured.jpg
 format: Article
-date: 2022-04-26
+date: 2022-05-17
 category:
   - Youth
   - Pilgrimage
@@ -24,6 +24,8 @@ excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting wit
 </div>
 
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
+
+Pendaftaran telah dibuka (17 Mei 2022). Daftar sekarang untuk mendapatkan diskon! 
 
 ---
 
@@ -110,7 +112,7 @@ Saya dapat menjamin bahwa keberhasilan perjalanan ini akan tergantung pada hal i
 
 Terakhir, hati yang ceria dibutuhkan dalam perjalanan ini. Mengapa? Karena tidak ada orang yang gemar berada di sekitar individu yang muram dan pesimis—karena sebagai orang kristiani kita dipanggil untuk menyebarkan kedamaian dan sukacita!
 
-## 6. Rute (1–14 Agustus 2023)
+## 6. Itinerary (1–14 Agustus 2023)
 
 Dalam perjalanan ini, kita akan mengunjungi enam tempat utama, yakni Vatikan, Roma, Lisbon, Fátima, Lourdes, dan Paris. Di sela-sela perjalanan, kita juga akan singgah di Burgos dan Loyola (Spanyol).
 
@@ -184,8 +186,8 @@ City tour • Eiffel tower • Seine river • Shopping (free time)
 
 ### Biaya total (per orang)
 
-- Biaya: **3,300 USD**
-- Biaya *early-bird*: **3,100 USD** (pendaftaran paling lambat 1 Agustus 2022, khusus bagi 20 pendaftar pertama)
+- Biaya: **US$3,300**
+- Biaya *early-bird*: **US$3,100** (pendaftaran paling lambat 1 Agustus 2022, khusus bagi 20 pendaftar pertama)
 
 Biaya mencakup:
 - Tiket pesawat *(economy class, non-refundable, non-endorsed, no rerouting)*:
@@ -207,7 +209,7 @@ Biaya tidak mencakup:
 ### Ketentuan Pembayaran
 
 1. Khusus bagi peserta yang **visanya gagal terbit** dan apabila **perjalanan dibatalkan**, uang pembayaran akan dikembalikan selama uang tersebut belum digunakan untuk keperluan peserta itu sendiri (e.g., untuk *booking*, pendaftaran, etc.).
-2. Pendaftaran harus disertai Bukti Transfer deposit sebesar **500 USD**.
+2. Pendaftaran harus disertai Bukti Transfer deposit sebesar **US$500**.
 2. Seluruh biaya tour harus lunas paling lambat tanggal **1 April 2023**.
 3. Seven World Tours tidak menerima pembayaran tunai keras (tanpa melalui bank).
 4. Biaya transfer ditanggung oleh peserta apabila transfer dilakukan melalui bank lain.
@@ -233,7 +235,9 @@ Nomor rekening: **612.0700.888**
 
 ## 8. Kapan sebaiknya saya mendaftar?
 
-Sedini mungkin. Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, kamu akan mendapatkan harga spesial *early-bird* **3,100 USD**, khusus bagi 20 pendaftar pertama!
+Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. 
+
+Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, kamu akan mendapatkan harga *early-bird* **US$3,100**. Harga spesial ini tersedia hanya bagi **20 pendaftar pertama**!
 
 Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
 
@@ -252,7 +256,7 @@ Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
 
 ## 9. *Refer-a-friend* voucher
 
-Jangan lupa untuk mengajak temanmu untuk bergabung dalam perjalanan ini! Untuk **setiap satu teman** yang kamu ajak, kamu akan mendapatkan **satu *shopping voucher*** senilai **$10** *(non-redeemable)*! Benar: kalau kamu mengajak dua teman, berarti kamu akan mendapatkan dua voucher. Kalau kamu mengajak tujuh teman? Tujuh voucher!
+Jangan lupa untuk mengajak temanmu untuk bergabung dalam perjalanan ini! Untuk **setiap satu teman** yang kamu ajak, kamu akan mendapatkan **satu *shopping voucher*** senilai **US$10** *(non-redeemable)*! Benar: kalau kamu mengajak dua teman, berarti kamu akan mendapatkan dua voucher. Kalau kamu mengajak tujuh teman? Tujuh voucher!
 
 Hanya saja, jangan lupa untuk meminta teman yang kamu ajak untuk memasukkan namamu dalam bagian *Refer-a-Friend* ketika ia mendaftar.
 
@@ -268,7 +272,7 @@ Jika kamu merasa tergerak untuk bergabung, penting bagimu untuk mendaftar sedini
 
 Kamu bisa mendaftar dengan mengklik tombol "REGISTER NOW" yang tersebar di halaman ini. Untuk menyelesaikan pendaftaran, diperlukan:
 
-- Scan/foto bukti transfer deposit sebesar 500 USD
+- Scan/foto bukti transfer deposit sebesar US$500
 - Scan/foto halaman depan paspor *(passport data page)*
 - Tanda tangan digital peserta
 - Tanda tangan digital orang tua (bagi peserta di bawah usia 18 tahun)
@@ -303,23 +307,24 @@ Peserta akan diminta untuk menyetujui semua syarat dan ketentuan di bawah ini pa
 6. Saya bertanggung jawab penuh atas kesehatan saya. Saya paham bahwa Seven World Tours tidak bertanggung jawab atas segala kondisi medis saya sebelum, selama, atau setelah perjalanan ini.
 7. Saya paham bahwa ketersediaan diet khusus (e.g., vegetarian, gluten-free) tidak dapat dijamin.
 8. Saya paham bahwa transportasi, akomodasi, dan konsumsi selama WYD akan diatur oleh panitia WYD setempat. Seven World Tours tidak memiliki kuasa untuk mengubah hal-hal tersebut.
+9. Saya bersedia mengikuti regulasi negara asal, negara tujuan, dan maskapai penerbangan berkaitan dengan pencegahan COVID-19 (kalau ada).
 
 ### Penerbangan
-9. Saya paham bahwa peserta yang berangkat dari Indonesia tidak diperkenankan mengubah atau membeli tiket pesawat sendiri.
+10. Saya paham bahwa peserta yang berangkat dari Indonesia tidak diperkenankan mengubah atau membeli tiket pesawat sendiri.
 
 ### Visa
 
-10. Saya paham bahwa kurangnya dokumen yang saya serahkan dalam pengajuan Visa dapat menyebabkan terhambatnya proses pembuatan Visa.
-11. Saya paham bahwa panitia tidak menjamin terbitnya Visa.
-12. Saya bertanggung jawab atas kegagalan dalam penerbitan Visa.
-13. Saya paham bahwa biaya pembuatan visa tidak dapat dikembalikan.
+11. Saya paham bahwa kurangnya dokumen yang saya serahkan dalam pengajuan Visa dapat menyebabkan terhambatnya proses pembuatan Visa.
+12. Saya paham bahwa panitia tidak menjamin terbitnya Visa.
+13. Saya bertanggung jawab atas kegagalan dalam penerbitan Visa.
+14. Saya paham bahwa biaya pembuatan visa tidak dapat dikembalikan.
 
 ### Pembayaran
-14. Saya paham bahwa semua pembayaran bersifat non-refundable. Uang yang sudah masuk dalam rekening Seven World Tours tidak dapat ditarik kembali dengan alasan apapun. *Khusus bagi peserta yang visanya gagal terbit dan apabila perjalanan dibatalkan, uang pembayaran akan dikembalikan selama uang tersebut belum digunakan untuk keperluan peserta itu sendiri (e.g., untuk booking, pendaftaran, etc.).*
-15. Saya paham bahwa jumlah nominal uang yang dicatat oleh Seven World Tours adalah nominal yang masuk ke dalam rekening BCA Seven World Tours.
-16. Saya paham bahwa harga tiket pesawat dan biaya-biaya lain dapat berubah sewaktu-waktu tergantung nilai tukar valuta asing dan/atau perubahan harga tiket pesawat dari maskapai penerbangan.
-17. Saya paham bahwa jadwal keberangkatan dan kepulangan masih dapat berubah tergantung ketersediaan tiket pesawat.
-18. Saya memberi wewenang kepada Seven World Tours untuk menagih kepada saya pembayaran tambahan untuk mengimbangi kenaikan biaya, kenaikan harga bahan bakar, kenaikan pajak, fluktuasi di pasar valuta asing, dan lain-lain.
+15. Saya paham bahwa semua pembayaran bersifat non-refundable. Uang yang sudah masuk dalam rekening Seven World Tours tidak dapat ditarik kembali dengan alasan apapun. *Khusus bagi peserta yang visanya gagal terbit dan apabila perjalanan dibatalkan, uang pembayaran akan dikembalikan selama uang tersebut belum digunakan untuk keperluan peserta itu sendiri (e.g., untuk booking, pendaftaran, etc.).*
+16. Saya paham bahwa jumlah nominal uang yang dicatat oleh Seven World Tours adalah nominal yang masuk ke dalam rekening BCA Seven World Tours.
+17. Saya paham bahwa harga tiket pesawat dan biaya-biaya lain dapat berubah sewaktu-waktu tergantung nilai tukar valuta asing dan/atau perubahan harga tiket pesawat dari maskapai penerbangan.
+18. Saya paham bahwa jadwal keberangkatan dan kepulangan masih dapat berubah tergantung ketersediaan tiket pesawat.
+19. Saya memberi wewenang kepada Seven World Tours untuk menagih kepada saya pembayaran tambahan untuk mengimbangi kenaikan biaya, kenaikan harga bahan bakar, kenaikan pajak, fluktuasi di pasar valuta asing, dan lain-lain.
 
 Nah, tunggu apa lagi? Ayo mendaftar sebelum kehabisan tempat!
 
