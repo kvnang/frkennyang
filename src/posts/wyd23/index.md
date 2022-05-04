@@ -252,7 +252,7 @@ Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**.
 
 Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, kamu akan mendapatkan diskon *early-bird* sebesar **US$200**. Diskon ini tersedia hanya bagi **20 pendaftar pertama**!
 
-Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi. Setelah tanggal 1 April 2023, biaya perjalanan akan mengikuti harga tiket pesawat yang tidak mengikat dan tidak akan ada jaminan ketersediaan *seat* pesawat.
+Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi. Bagi pendaftaran setelah tanggal 1 April 2023, biaya perjalanan akan mengikuti harga tiket pesawat yang tidak mengikat dan tidak akan ada jaminan ketersediaan *seat* pesawat.
 
 <div class="cta">
   <div class="cta__inner">
