@@ -137,7 +137,7 @@ Basilicas of St. Peter - St. Mary Major - St. John Lateran • Roman Fora • Co
 ### SUN 6: Lisbon - Fátima
 
 **WYD** | [Mass celebrated by the Pope](https://youtu.be/LBpsF5QusI0)  
-**Fátima** | Afternoon: City tour • Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4) (21:30)
+**Fátima** | Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4) (21:30)
 
 ### MON 7: Fátima - Burgos
 
@@ -161,7 +161,7 @@ Volunteering • Free time & shopping
 
 ### SAT 12: Paris
 
-City tour • Eiffel tower • Seine river • Shopping (free time)
+Paris City tour • Photo stop at Eiffel Tower • Shopping (free time)
 
 ### SUN 13: Paris - Jakarta
 
@@ -187,7 +187,7 @@ City tour • Eiffel tower • Seine river • Shopping (free time)
 ### Biaya total (per orang)
 
 - Biaya: **US$3,300**
-- Biaya *early-bird*: **US$3,100** (pendaftaran paling lambat 1 Agustus 2022, khusus bagi 20 pendaftar pertama)
+- Diskon *early-bird*: **– US$200** (pendaftaran paling lambat 1 Agustus 2022, khusus bagi 20 pendaftar pertama)
 
 Biaya mencakup:
 - Tiket pesawat *(economy class, non-refundable, non-endorsed, no rerouting)*:
@@ -226,12 +226,12 @@ Nomor rekening: **612.0700.888**
 
 ### Jadwal Pembayaran
 
-| Pembayaran |    Tanggal     | Nominal |
-| :--------: | :------------: | :-----: |
-|  Deposit   | Saat Mendaftar |  $500   |
-|  Pertama   |   1 Sep 2022   | $1,000  |
-|   Kedua    |   1 Des 2022   | $1,000  |
-|   Ketiga   |   1 Apr 2023   | SISANYA |
+| Pembayaran |    Tanggal     | Nominal (US$) |
+| :--------: | :------------: | :-----------: |
+|  Deposit   | Saat Mendaftar |     $500      |
+|  Pertama   |   1 Sep 2022   |    $1,000     |
+|   Kedua    |   1 Des 2022   |    $1,000     |
+|   Ketiga   |   1 Apr 2023   |    SISANYA    |
 
 ## 8. Kapan sebaiknya saya mendaftar?
 
