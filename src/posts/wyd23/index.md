@@ -36,7 +36,7 @@ Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. Jika kamu mendaftar
 3. [Siapa yang memimpin perjalanan ini?](/wyd23/#3-siapa-yang-memimpin-perjalanan-ini)
 4. [Apa saja alasan untuk bergabung?](/wyd23/#4-apa-saja-alasan-untuk-bergabung)
 5. [Apa saja persyaratan untuk bergabung?](/wyd23/#5-apa-saja-persyaratan-untuk-bergabung)
-6. [Rute (1–14 Agustus 2023)](/wyd23/#6-rute-114-agustus-2023)
+6. [Itinerary (1–14 Agustus 2023)](/wyd23/#6-itinerary-114-agustus-2023)
 7. [Berapa biaya perjalanan ini?](/wyd23/#7-berapa-biaya-perjalanan-ini)
 8. [Kapan sebaiknya saya mendaftar?](/wyd23/#8-kapan-sebaiknya-saya-mendaftar)
 9. [*Refer-a-friend* voucher](/wyd23/#9-refer-a-friend-voucher)
