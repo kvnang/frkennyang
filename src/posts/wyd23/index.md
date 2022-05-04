@@ -90,6 +90,19 @@ Kedua, kehadiran kita dalam WYD akan *menginspirasi orang-orang muda dari seluru
 
 Kita akan bersenang-senang bersama. Pengalaman membuktikan kepada saya bahwa 'ziarah' bukanlah sinonim dari 'membosankan.' Jangan khawatir—kita tidak akan berdoa 24 jam. Sebagai orang kristiani, kita adalah manusia yang normal: kita suka melihat tempat yang baru, makan, berbelanja, bersosialisasi, dan tidur. Oleh karena itu, kita akan menikmati makanan lokal. Selain gereja-gereja, kita akan mengunjungi tempat-tempat wisata lainnya yang terkenal. Akan ada waktu untuk berbelanja. Yang terpenting, kita akan saling mengenal dan membantu satu sama lain sebagai sebuah tim. Saya berharap, di akhir perjalanan, akan tumbuh pertemanan di antara kita. Bahkan, beberapa bisa jadi menemukan pasangan hidupnya dalam perjalanan ini—siapa tahu?
 
+<div class="cta">
+  <div class="cta__inner">
+    <ul>
+      <li>
+        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
+      </li>
+      <li>
+        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
+      </li>
+    </ul>
+  </div>
+</div>
+
 ## 5. Apa saja persyaratan untuk bergabung?
 
 ### Syarat #1: Usia 16-35
@@ -239,7 +252,7 @@ Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**.
 
 Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, kamu akan mendapatkan diskon *early-bird* sebesar **US$200**. Diskon ini tersedia hanya bagi **20 pendaftar pertama**!
 
-Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
+Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi. Setelah tanggal 1 April 2023, biaya perjalanan akan mengikuti harga tiket pesawat yang tidak mengikat dan tidak akan ada jaminan ketersediaan *seat* pesawat.
 
 <div class="cta">
   <div class="cta__inner">
