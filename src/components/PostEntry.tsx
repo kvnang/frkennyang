@@ -108,6 +108,17 @@ const PostStyles = styled.article`
         width: auto;
       }
     }
+
+    .post-lang {
+      padding: 0.25rem 0.75rem;
+      border-radius: 0.25rem;
+      background-color: var(--white);
+      position: absolute;
+      bottom: 0.5rem;
+      right: 0.5rem;
+      box-shadow: var(--shadow);
+      color: var(--black);
+    }
   }
 
   .post-excerpt,
@@ -206,6 +217,10 @@ export default function PostEntry({
       icon = '';
   }
 
+  const { onlyAvailableIn } = post.frontmatter;
+  const onlyAvailableInLabel =
+    post.fields.lang === 'en' ? 'Only in' : 'Hanya dalam bahasa';
+
   const meta = [];
   if (post.frontmatter.date) {
     meta.push(formatDate(post.frontmatter.date));
@@ -213,7 +228,7 @@ export default function PostEntry({
   if (format === 'list' && post.frontmatter.format) {
     meta.push(post.frontmatter.format);
   }
-  if (post.timeToRead) {
+  if (!onlyAvailableIn && post.timeToRead) {
     meta.push(`${post.timeToRead.toString()} min read`);
   }
 
@@ -240,6 +255,14 @@ export default function PostEntry({
               )}
               {post.frontmatter.format && format === 'default' && (
                 <div className="post-format">{icon}</div>
+              )}
+              {onlyAvailableIn && (
+                <div className="post-lang">
+                  <small>
+                    {onlyAvailableInLabel}{' '}
+                    <strong>{onlyAvailableIn.toUpperCase()}</strong>
+                  </small>
+                </div>
               )}
             </div>
           </div>

@@ -20,6 +20,7 @@ export interface FrontmatterProps {
   category?: string[];
   excerpt?: string;
   slug?: string;
+  onlyAvailableIn?: string;
 }
 
 export interface PostProps {

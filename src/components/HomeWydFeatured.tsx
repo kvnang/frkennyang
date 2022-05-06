@@ -107,6 +107,7 @@ export default function HomeWydFeatured() {
             title
             format
             date
+            excerpt
             featuredImage {
               childImageSharp {
                 gatsbyImageData(
@@ -116,6 +117,7 @@ export default function HomeWydFeatured() {
                 )
               }
             }
+            onlyAvailableIn
           }
           fields {
             slug
@@ -125,7 +127,7 @@ export default function HomeWydFeatured() {
         }
       }
       postsID: allMarkdownRemark(
-        limit: 6
+        limit: 12
         sort: { fields: [frontmatter___date], order: DESC }
         filter: {
           fields: { lang: { eq: "id" } }
@@ -139,6 +141,7 @@ export default function HomeWydFeatured() {
             title
             format
             date
+            excerpt
             featuredImage {
               childImageSharp {
                 gatsbyImageData(
@@ -148,6 +151,7 @@ export default function HomeWydFeatured() {
                 )
               }
             }
+            onlyAvailableIn
           }
           fields {
             slug
