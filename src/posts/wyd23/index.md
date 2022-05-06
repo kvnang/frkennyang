@@ -43,7 +43,6 @@ Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. Jika kamu mendaftar
 9. [_Refer-a-friend_ voucher](/wyd23/#9-refer-a-friend-voucher)
 10. [Mengapa sebaiknya saya mendaftar sedini mungkin?](/wyd23/#10-mengapa-sebaiknya-saya-mendaftar-sedini-mungkin)
 11. [Bagaimana cara saya mendaftar?](/wyd23/#11-bagaimana-cara-saya-mendaftar)
-12. [Syarat dan Ketentuan](/wyd23/#12-syarat-dan-ketentuan)
 
 ---
 
@@ -295,58 +294,7 @@ Kamu bisa mendaftar dengan mengklik tombol "REGISTER NOW" yang tersebar di halam
 
 Apabila kamu (atau orang tuamu) belum memiliki tanda tangan digital, jangan khawatir. Tanda tangan digital dapat dibuat pada saat kamu mendaftar lewat Google Form itu sendiri.
 
-<div class="cta">
-  <div class="cta__inner">
-    <ul>
-      <li>
-        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
-      </li>
-      <li>
-        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
-      </li>
-    </ul>
-  </div>
-</div>
-
-## 12. Syarat dan Ketentuan
-
-Peserta akan diminta untuk menyetujui semua syarat dan ketentuan di bawah ini pada saat melakukan pendaftaran.
-
-### Umum
-
-1. Saya setuju untuk mengikuti semua peraturan dan rangkaian acara yang ditetapkan oleh panitia.
-2. Saya setuju untuk menghadiri briefing persiapan keberangkatan yang akan diadakan di Jakarta dan Surabaya secara tatap muka (apabila saya berasal dari Jakarta atau Surabaya) atau secara online (apabila saya berasal dari luar Jakarta dan Surabaya). _Briefing persiapan keberangkatan akan diadakan di Jakarta dan Surabaya secara tatap muka bagi peserta dari Jakarta atau Surabaya. Briefing akan diadakan dalam satu hari pada pk. 09.00–15.00 WIB, kurang lebih dua bulan sebelum keberangkatan. Tanggal briefing akan diumumkan di kemudian hari. Kehadiran secara online diperbolehkan hanya bagi peserta dari luar Jakarta dan Surabaya._
-3. Saya paham bahwa saya dapat diminta untuk kembali ke negara asal dengan biaya sendiri apabila saya tidak memenuhi standar perilaku yang dituntut selama perjalanan ini.
-4. Saya setuju bahwa segala bentuk kehilangan barang selama perjalanan adalah tanggung jawab saya sendiri.
-
-### Kesehatan
-
-5. Saya paham bahwa perjalanan ini menuntut banyak aktivitas fisik, seperti berjalan dan berdiri.
-6. Saya bertanggung jawab penuh atas kesehatan saya. Saya paham bahwa Seven World Tours tidak bertanggung jawab atas segala kondisi medis saya sebelum, selama, atau setelah perjalanan ini.
-7. Saya paham bahwa ketersediaan diet khusus (e.g., vegetarian, gluten-free) tidak dapat dijamin.
-8. Saya paham bahwa transportasi, akomodasi, dan konsumsi selama WYD akan diatur oleh panitia WYD setempat. Seven World Tours tidak memiliki kuasa untuk mengubah hal-hal tersebut.
-9. Saya bersedia mengikuti regulasi negara asal, negara tujuan, dan maskapai penerbangan berkaitan dengan pencegahan COVID-19 (kalau ada).
-
-### Penerbangan
-
-10. Saya paham bahwa peserta yang berangkat dari Indonesia tidak diperkenankan mengubah atau membeli tiket pesawat sendiri.
-
-### Visa
-
-11. Saya paham bahwa kurangnya dokumen yang saya serahkan dalam pengajuan Visa dapat menyebabkan terhambatnya proses pembuatan Visa.
-12. Saya paham bahwa panitia tidak menjamin terbitnya Visa.
-13. Saya bertanggung jawab atas kegagalan dalam penerbitan Visa.
-14. Saya paham bahwa biaya pembuatan visa tidak dapat dikembalikan.
-
-### Pembayaran
-
-15. Saya paham bahwa semua pembayaran bersifat non-refundable. Uang yang sudah masuk dalam rekening Seven World Tours tidak dapat ditarik kembali dengan alasan apapun. _Khusus bagi peserta yang visanya gagal terbit dan apabila perjalanan dibatalkan, uang pembayaran akan dikembalikan selama uang tersebut belum digunakan untuk keperluan peserta itu sendiri (e.g., untuk booking, pendaftaran, etc.)._
-16. Saya paham bahwa jumlah nominal uang yang dicatat oleh Seven World Tours adalah nominal yang masuk ke dalam rekening BCA Seven World Tours.
-17. Saya paham bahwa harga tiket pesawat dan biaya-biaya lain dapat berubah sewaktu-waktu tergantung nilai tukar valuta asing dan/atau perubahan harga tiket pesawat dari maskapai penerbangan.
-18. Saya paham bahwa jadwal keberangkatan dan kepulangan masih dapat berubah tergantung ketersediaan tiket pesawat.
-19. Saya memberi wewenang kepada Seven World Tours untuk menagih kepada saya pembayaran tambahan untuk mengimbangi kenaikan biaya, kenaikan harga bahan bakar, kenaikan pajak, fluktuasi di pasar valuta asing, dan lain-lain.
-
-Nah, tunggu apa lagi? Ayo mendaftar sebelum kehabisan tempat!
+## Nah, tunggu apa lagi? Ayo mendaftar sebelum kehabisan tempat!
 
 <div class="cta">
   <div class="cta__inner">
@@ -360,3 +308,4 @@ Nah, tunggu apa lagi? Ayo mendaftar sebelum kehabisan tempat!
     </ul>
   </div>
 </div>
+
