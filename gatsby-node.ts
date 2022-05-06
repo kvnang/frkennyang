@@ -30,6 +30,9 @@ async function turnMdPostsIntoPages({
     {
       allMarkdownRemark(filter: { fields: { collection: { eq: "post" } } }) {
         nodes {
+          frontmatter {
+            onlyAvailableIn
+          }
           fields {
             slug
             lang
@@ -45,13 +48,22 @@ async function turnMdPostsIntoPages({
   }
   // 4. Create single pages
   result.data?.allMarkdownRemark.nodes.forEach((post) => {
+    const { onlyAvailableIn } = post.frontmatter;
+    let contextSlug = post.fields.slug;
+
+    if (onlyAvailableIn) {
+      const bareSlug = contextSlug.replace(/^((id|en)\/)/, '');
+      contextSlug = onlyAvailableIn === 'id' ? `/id${bareSlug}` : `${bareSlug}`;
+    }
+
     actions.createPage({
       path: post.fields.slug,
       component: postTemplate,
       context: {
         // additional data can be passed via context
-        slug: post.fields.slug,
+        slug: contextSlug,
         lang: post.fields.lang,
+        contentLang: onlyAvailableIn || post.fields.lang,
       },
     });
   });

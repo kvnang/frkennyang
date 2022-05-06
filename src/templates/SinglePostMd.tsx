@@ -4,6 +4,7 @@ import getYouTubeId from 'get-youtube-id';
 import styled from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { Helmet } from 'react-helmet';
+import { MdOutlineWarning } from 'react-icons/md';
 import { formatDate } from '../utils/helpers';
 import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
@@ -19,6 +20,7 @@ interface Props {
   };
   pageContext: {
     lang: LangType;
+    contentLang?: LangType;
   };
 }
 
@@ -114,6 +116,20 @@ const SinglePostStyles = styled.main`
     .post-share {
       padding-right: 0;
       padding-left: 0;
+    }
+  }
+
+  .only-available-in {
+    margin-bottom: 1.5rem;
+    background-color: var(--dark-grey);
+    padding: 1rem 1.5rem;
+    display: flex;
+
+    svg {
+      color: var(--color-accent);
+      height: 1.5rem;
+      width: 1.5rem;
+      margin-right: 1rem;
     }
   }
 `;
@@ -332,7 +348,7 @@ const PostContentStyles = styled.div`
 export default function SinglePost({
   location,
   data: { post },
-  pageContext: { lang: pageLang },
+  pageContext: { lang: pageLang, contentLang },
 }: Props) {
   const { setLang } = useContext(LangContext);
 
@@ -391,6 +407,23 @@ export default function SinglePost({
       <SinglePostStyles className="page-p-t page-p-b">
         <section className="container">
           <div className="inner">
+            {contentLang && contentLang !== pageLang && (
+              <div className="only-available-in">
+                <MdOutlineWarning />
+                {pageLang === 'en' && (
+                  <p>
+                    This article is only available in{' '}
+                    <strong>Bahasa Indonesia</strong>.
+                  </p>
+                )}
+                {pageLang === 'id' && (
+                  <p>
+                    Artikel ini hanya tersedia di dalam{' '}
+                    <strong>bahasa Ingris</strong>.
+                  </p>
+                )}
+              </div>
+            )}
             <div className="post-header">
               <TitleStyles>
                 <LangSwitcher vertical />
@@ -449,6 +482,7 @@ export const pageQuery = graphql`
           }
           publicURL
         }
+        onlyAvailableIn
       }
       excerpt
     }

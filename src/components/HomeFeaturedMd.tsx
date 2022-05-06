@@ -80,6 +80,7 @@ export default function HomeFeaturedMd() {
             title
             format
             date
+            excerpt
             featuredImage {
               childImageSharp {
                 gatsbyImageData(
@@ -89,6 +90,7 @@ export default function HomeFeaturedMd() {
                 )
               }
             }
+            onlyAvailableIn
           }
           fields {
             slug
@@ -112,6 +114,7 @@ export default function HomeFeaturedMd() {
             title
             format
             date
+            excerpt
             featuredImage {
               childImageSharp {
                 gatsbyImageData(
@@ -121,6 +124,7 @@ export default function HomeFeaturedMd() {
                 )
               }
             }
+            onlyAvailableIn
           }
           fields {
             slug
