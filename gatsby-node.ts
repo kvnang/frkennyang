@@ -49,12 +49,12 @@ async function turnMdPostsIntoPages({
   // 4. Create single pages
   result.data?.allMarkdownRemark.nodes.forEach((post) => {
     const { onlyAvailableIn } = post.frontmatter;
-    let contextSlug = post.fields.slug;
+    const contextSlug = post.fields.slug;
 
-    if (onlyAvailableIn) {
-      const bareSlug = contextSlug.replace(/^((id|en)\/)/, '');
-      contextSlug = onlyAvailableIn === 'id' ? `/id${bareSlug}` : `${bareSlug}`;
-    }
+    // if (onlyAvailableIn) {
+    //   const bareSlug = contextSlug.replace(/^((id|en)\/)/, '');
+    //   contextSlug = onlyAvailableIn === 'id' ? `/id${bareSlug}` : `${bareSlug}`;
+    // }
 
     actions.createPage({
       path: post.fields.slug,
@@ -63,7 +63,6 @@ async function turnMdPostsIntoPages({
         // additional data can be passed via context
         slug: contextSlug,
         lang: post.fields.lang,
-        contentLang: onlyAvailableIn || post.fields.lang,
       },
     });
   });
@@ -196,6 +195,18 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({
         name: `lang`,
         node,
         value: lang,
+      });
+
+      const showInLang = [lang];
+      const frontmatterLang = (frontmatter as FrontmatterProps).lang;
+      if (frontmatterLang) {
+        showInLang.push(frontmatterLang);
+      }
+
+      createNodeField({
+        name: `showInLang`,
+        node,
+        value: showInLang,
       });
     } else {
       const slug = createFilePath({ node, getNode });
