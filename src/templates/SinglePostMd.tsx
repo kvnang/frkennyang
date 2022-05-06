@@ -20,7 +20,6 @@ interface Props {
   };
   pageContext: {
     lang: LangType;
-    contentLang?: LangType;
   };
 }
 
@@ -348,16 +347,19 @@ const PostContentStyles = styled.div`
 export default function SinglePost({
   location,
   data: { post },
-  pageContext: { lang: pageLang, contentLang },
+  pageContext: { lang: pageLang },
 }: Props) {
-  const { setLang } = useContext(LangContext);
+  const { lang, setLang } = useContext(LangContext);
 
   const url = location.href ? location.href : '';
   const categories = post.frontmatter.category;
+  const contentLang = post.frontmatter.lang || pageLang;
+
   let featuredImage;
 
   useEffect(() => {
-    if (pageLang) {
+    // Only set lang if the content lang is consistent with the page lang
+    if (pageLang && pageLang === contentLang) {
       setLang(pageLang);
     }
   }, [pageLang]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -403,20 +405,20 @@ export default function SinglePost({
         }
         image={post.frontmatter.featuredImage?.publicURL}
       />
-      {pageLang && <Helmet htmlAttributes={{ lang: pageLang }} />}
+      {contentLang && <Helmet htmlAttributes={{ lang: contentLang }} />}
       <SinglePostStyles className="page-p-t page-p-b">
         <section className="container">
           <div className="inner">
-            {contentLang && contentLang !== pageLang && (
+            {post.frontmatter.lang && post.frontmatter.lang !== lang && (
               <div className="only-available-in">
-                <MdOutlineWarning />
-                {pageLang === 'en' && (
+                {/* <MdOutlineWarning /> */}
+                {lang === 'en' && (
                   <p>
                     This article is only available in{' '}
                     <strong>Bahasa Indonesia</strong>.
                   </p>
                 )}
-                {pageLang === 'id' && (
+                {lang === 'id' && (
                   <p>
                     Artikel ini hanya tersedia di dalam{' '}
                     <strong>bahasa Ingris</strong>.
@@ -483,6 +485,7 @@ export const pageQuery = graphql`
           publicURL
         }
         onlyAvailableIn
+        lang
       }
       excerpt
     }

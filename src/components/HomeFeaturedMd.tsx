@@ -69,68 +69,24 @@ export default function HomeFeaturedMd() {
         limit: 6
         sort: { fields: [frontmatter___date], order: DESC }
         filter: {
-          fields: { lang: { eq: "en" } }
+          fields: { showInLang: { eq: "en" } }
           frontmatter: { category: { nin: "WYD23" } }
         }
       ) {
         nodes {
-          id
-          excerpt
-          frontmatter {
-            title
-            format
-            date
-            excerpt
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(
-                  aspectRatio: 1.777778
-                  layout: FULL_WIDTH
-                  placeholder: BLURRED
-                )
-              }
-            }
-            onlyAvailableIn
-          }
-          fields {
-            slug
-            lang
-          }
-          timeToRead
+          ...MarkdownRemarkFields
         }
       }
       postsID: allMarkdownRemark(
         limit: 6
         sort: { fields: [frontmatter___date], order: DESC }
         filter: {
-          fields: { lang: { eq: "id" } }
+          fields: { showInLang: { eq: "id" } }
           frontmatter: { category: { nin: "WYD23" } }
         }
       ) {
         nodes {
-          id
-          excerpt
-          frontmatter {
-            title
-            format
-            date
-            excerpt
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(
-                  aspectRatio: 1.777778
-                  layout: FULL_WIDTH
-                  placeholder: BLURRED
-                )
-              }
-            }
-            onlyAvailableIn
-          }
-          fields {
-            slug
-            lang
-          }
-          timeToRead
+          ...MarkdownRemarkFields
         }
       }
     }

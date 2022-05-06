@@ -96,68 +96,24 @@ export default function HomeWydFeatured() {
         limit: 12
         sort: { fields: [frontmatter___date], order: DESC }
         filter: {
-          fields: { lang: { eq: "en" } }
+          fields: { showInLang: { in: "en" } }
           frontmatter: { category: { in: "WYD23" } }
         }
       ) {
         nodes {
-          id
-          excerpt
-          frontmatter {
-            title
-            format
-            date
-            excerpt
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(
-                  aspectRatio: 1.777778
-                  layout: FULL_WIDTH
-                  placeholder: BLURRED
-                )
-              }
-            }
-            onlyAvailableIn
-          }
-          fields {
-            slug
-            lang
-          }
-          timeToRead
+          ...MarkdownRemarkFields
         }
       }
       postsID: allMarkdownRemark(
         limit: 12
         sort: { fields: [frontmatter___date], order: DESC }
         filter: {
-          fields: { lang: { eq: "id" } }
+          fields: { showInLang: { in: "id" } }
           frontmatter: { category: { in: "WYD23" } }
         }
       ) {
         nodes {
-          id
-          excerpt
-          frontmatter {
-            title
-            format
-            date
-            excerpt
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(
-                  aspectRatio: 1.777778
-                  layout: FULL_WIDTH
-                  placeholder: BLURRED
-                )
-              }
-            }
-            onlyAvailableIn
-          }
-          fields {
-            slug
-            lang
-          }
-          timeToRead
+          ...MarkdownRemarkFields
         }
       }
     }
@@ -243,7 +199,12 @@ export default function HomeWydFeatured() {
                 >
                   <Carousel show={carouselItemCount || 3}>
                     {posts.map((post: PostProps) => (
-                      <PostEntry key={post.id} post={post} showImage />
+                      <PostEntry
+                        key={post.id}
+                        post={post}
+                        showImage
+                        siteLang={lang}
+                      />
                     ))}
                   </Carousel>
                 </div>
