@@ -12,6 +12,7 @@ import { PostProps } from '../types';
 import SEO from '../components/Seo';
 import SocialShare from '../components/SocialShare';
 import { LangContext, LangType } from '../components/LangContext';
+import { IndonesiaFlag, UsFlag } from '../components/Flags';
 
 interface Props {
   location: Location;
@@ -125,10 +126,10 @@ const SinglePostStyles = styled.main`
     display: flex;
 
     svg {
-      color: var(--color-accent);
       height: 1.5rem;
       width: 1.5rem;
       margin-right: 1rem;
+      border-radius: 0.25rem;
     }
   }
 `;
@@ -405,13 +406,20 @@ export default function SinglePost({
         }
         image={post.frontmatter.featuredImage?.publicURL}
       />
-      {contentLang && <Helmet htmlAttributes={{ lang: contentLang }} />}
+      {contentLang && (
+        <Helmet
+          htmlAttributes={{
+            lang: pageLang === contentLang ? contentLang : lang || contentLang,
+          }}
+        />
+      )}
       <SinglePostStyles className="page-p-t page-p-b">
         <section className="container">
           <div className="inner">
             {post.frontmatter.lang && post.frontmatter.lang !== lang && (
               <div className="only-available-in">
-                {/* <MdOutlineWarning /> */}
+                {post.frontmatter.lang === 'en' && <UsFlag />}
+                {post.frontmatter.lang === 'id' && <IndonesiaFlag />}
                 {lang === 'en' && (
                   <p>
                     This article is only available in{' '}
