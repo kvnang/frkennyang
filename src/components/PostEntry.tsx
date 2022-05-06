@@ -335,7 +335,6 @@ export const query = graphql`
         }
       }
       lang
-      onlyAvailableIn
     }
     fields {
       slug

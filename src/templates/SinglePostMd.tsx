@@ -492,7 +492,6 @@ export const pageQuery = graphql`
           }
           publicURL
         }
-        onlyAvailableIn
         lang
       }
       excerpt
