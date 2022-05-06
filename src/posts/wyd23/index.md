@@ -8,7 +8,6 @@ category:
   - Pilgrimage
   - WYD23
 excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting with the Pope. Seven World Tours. Father Kenny Ang. European Tour.
-onlyAvailableIn: id
 lang: id
 ---
 
