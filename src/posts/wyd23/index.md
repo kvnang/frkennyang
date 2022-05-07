@@ -50,7 +50,7 @@ Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. Jika kamu mendaftar
 
 WYD Pilgrimage direncanakan berangkat dari Jakarta tanggal **1 Agustus 2023** dan tiba kembali di Jakarta tanggal **14 Agustus 2023**.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6rAJiPEL04o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6rAJiPEL04o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 2. Apa itu World Youth Day?
 
