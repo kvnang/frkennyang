@@ -50,6 +50,8 @@ Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. Jika kamu mendaftar
 
 WYD Pilgrimage direncanakan berangkat dari Jakarta tanggal **1 Agustus 2023** dan tiba kembali di Jakarta tanggal **14 Agustus 2023**.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6rAJiPEL04o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 2. Apa itu World Youth Day?
 
 World Youth Day (WYD) 2023 di Lisbon merupakan salah satu acara utama dalam perjalanan ini. WYD adalah perjumpaan orang-orang muda dari seluruh dunia dengan Paus. Untuk mengetahui lebih jauh tentang apa itu World Youth Day (WYD), kunjungi [situs resmi WYD 2023 Lisbon](https://www.lisboa2023.org/en/about). Untuk mengetahui lebih jauh mengenai aktivitas-aktivitas selama WYD, kunjungi [situs resmi WYD 2023 Lisbon](https://www.lisboa2023.org/en/about/what-happens-during-wyd).
