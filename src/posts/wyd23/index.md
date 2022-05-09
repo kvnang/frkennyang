@@ -7,7 +7,7 @@ category:
   - Youth
   - Pilgrimage
   - WYD23
-excerpt: Youth Pilgrimage to World Youth Day 2023, Lisbon, Portugal. Meeting with the Pope. Seven World Tours. Father Kenny Ang. European Tour.
+excerpt: In this trip, we will attend World Youth Day 2023 in Lisbon, Portugal, and visit other major cities in Europe such as the Vatican, Rome, Fátima, Lourdes, and Paris. This trip is led by Father Kenny Ang and organized by Seven World Tours.
 lang: id
 ---
 
