@@ -1,5 +1,5 @@
 ---
-title: World Youth Day 2023. Register Now
+title: A Life-Changing Journey at the Best Value
 featuredImage: wyd_featured.jpg
 format: Article
 date: 2022-05-17
@@ -7,9 +7,10 @@ category:
   - Youth
   - Pilgrimage
   - WYD23
-excerpt: In this trip, we will attend World Youth Day 2023 in Lisbon, Portugal, and visit other major cities in Europe such as the Vatican, Rome, Fátima, Lourdes, and Paris. This trip is led by Father Kenny Ang and organized by Seven World Tours.
+excerpt: A trip to World Youth Day 2023 in Lisbon and to other major cities in Europe such as the Vatican, Rome, Fátima, Lourdes, and Paris. This trip is led by Father Kenny Ang and organized by Seven World Tours.
 lang: id
 ---
+Trip to WYD in Lisbon and to major Catholic sites in Europe designed to deepen your faith, refresh your mind, and build lifelong friendships.
 
 <div class="cta">
   <div class="cta__inner">
@@ -92,19 +93,6 @@ Kedua, kehadiran kita dalam WYD akan _menginspirasi orang-orang muda dari seluru
 
 Kita akan bersenang-senang bersama. Pengalaman membuktikan kepada saya bahwa 'ziarah' bukanlah sinonim dari 'membosankan.' Jangan khawatir—kita tidak akan berdoa 24 jam. Sebagai orang kristiani, kita adalah manusia yang normal: kita suka melihat tempat yang baru, makan, berbelanja, bersosialisasi, dan tidur. Oleh karena itu, kita akan menikmati makanan lokal. Selain gereja-gereja, kita akan mengunjungi tempat-tempat wisata lainnya yang terkenal. Akan ada waktu untuk berbelanja. Yang terpenting, kita akan saling mengenal dan membantu satu sama lain sebagai sebuah tim. Saya berharap, di akhir perjalanan, akan tumbuh pertemanan di antara kita. Bahkan, beberapa bisa jadi menemukan pasangan hidupnya dalam perjalanan ini—siapa tahu?
 
-<div class="cta">
-  <div class="cta__inner">
-    <ul>
-      <li>
-        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
-      </li>
-      <li>
-        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
-      </li>
-    </ul>
-  </div>
-</div>
-
 ## 5. Apa saja persyaratan untuk bergabung?
 
 ### Syarat #1: Usia 16-35
@@ -183,19 +171,6 @@ Paris city tour • Photo stop at [Eiffel Tower](https://www.toureiffel.paris/en
 [The Sacred Heart Basilica of Montmartre](https://en.wikipedia.org/wiki/Sacré-Cœur,_Paris)
 
 ### MON 14: Arrival in Jakarta
-
-<div class="cta">
-  <div class="cta__inner">
-    <ul>
-      <li>
-        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
-      </li>
-      <li>
-        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
-      </li>
-    </ul>
-  </div>
-</div>
 
 ## 7. Berapa biaya perjalanan ini?
 
