@@ -10,7 +10,6 @@ category:
 excerpt: A trip to World Youth Day 2023 in Lisbon and to other major cities in Europe such as the Vatican, Rome, Fátima, Lourdes, and Paris. This trip is led by Father Kenny Ang and organized by Seven World Tours.
 lang: id
 ---
-Trip to WYD in Lisbon and to major Catholic sites in Europe designed to deepen your faith, refresh your mind, and build lifelong friendships.
 
 <div class="cta">
   <div class="cta__inner">
