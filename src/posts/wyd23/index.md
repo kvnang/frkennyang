@@ -62,6 +62,8 @@ Untuk melihat momen yang menyentuh dari WYD-WYD sebelumnya, lihat video berikut:
 
 Perjalanan ini akan dipimpin oleh [Fr. Kenny Ang](https://www.fatherkenny.com/cv/) dan dikelola oleh Fifi Lukito dari [Seven World Tours](https://www.instagram.com/sevenworldtours/). Sebagai pendiri agen tour ini, ia telah mendampingi banyak grup wisata ke berbagai tujuan di seluruh dunia. Tahun 2019, saya mendampingi rombongan ziarahnya ke Tanah Suci.
 
+![father kenny ang fifi lukito Masada holy land](ang_fifi.jpg 'With Fifi at Masada, Israel (2019)')
+
 Sangatlah menyenangkan bepergian dengannya. Semua orang menyukai Fifi. Ia selalu mengendalikan situasi dengan baik. Ketenangan dan keceriaannya membuat semua orang senang berada di sekitarnya. Ia tahu kapan harus bersikap tegas dan kapan bisa bersikap fleksibel. Ia bahkan bisa melanggar beberapa aturan untuk membuat kamu senang. (Misalnya, ia memberi kami kemasan saus sambal ketika kami makan di restoran Kosher.) Ia sangat tahu jika kami lapar dan terkadang akan mengejutkan kami dengan camilan tambahan—saya tidak tahu dari mana ia memperoleh begitu banyak _bakcang_ (粽子) dan pisang untuk kami dalam bus ketika kami berada di Tanah Suci. Terakhir dan yang lebih penting lagi: ia adalah pemandu yang handal karena ia mencintai Yesus.
 
 ## 4. Apa saja alasan untuk bergabung?
