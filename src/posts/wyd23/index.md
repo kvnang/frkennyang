@@ -213,7 +213,7 @@ Biaya mencakup:
 - Transportasi darat
 - Pendaftaran WYD
 - Akomodasi (sekamar berdua/bertiga)
-- Konsumsi (dua kali per hari)
+- Konsumsi (dua kali per hari): *breakfast* + *lunch/dinner*
 - Asuransi perjalanan
 
 Biaya tidak mencakup:
@@ -221,6 +221,7 @@ Biaya tidak mencakup:
 - Transportasi ke dan dari Bandara Soekarno-Hatta (Jakarta)
 - Visa Schengen
 - Akomodasi di Jakarta (jika peserta berasal dari luar Jakarta)
+- Tip untuk *driver* dan *tour leader*
 - Pengeluaran pribadi (pulsa HP, _laundry_, _snack_, _overweight luggages_, etc.).
 
 ### Ketentuan Pembayaran
