@@ -218,7 +218,7 @@ Paris city tour • Photo stop at [Eiffel Tower](https://www.toureiffel.paris/en
 ### Biaya total (per orang)
 
 - Biaya: **US$3,300**
-- Diskon _early-bird_: **–US$200** (pendaftaran paling lambat 1 Agustus 2022, khusus bagi 20 pendaftar pertama)
+- Diskon _early-bird_: **–US$200** (khusus bagi 20 pendaftar pertama yang mendaftar paling lambat tanggal 1 Agustus 2022)
 
 Biaya mencakup:
 
