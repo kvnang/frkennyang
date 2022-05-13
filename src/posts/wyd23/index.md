@@ -24,7 +24,7 @@ lang: id
   </div>
 </div>
 
-![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
+
 
 Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. Ada diskon _early-bird_ sebesar **US$200** bagi **20 pendaftar pertama** yang mendaftar paling lambat tanggal **1 Agustus 2022**.
 
