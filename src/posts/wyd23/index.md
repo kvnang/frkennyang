@@ -26,7 +26,7 @@ lang: id
 
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
 
-Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, kamu akan mendapatkan diskon _early-bird_ sebesar **US$200**. Diskon ini tersedia hanya bagi **20 pendaftar pertama**! Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
+Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. Ada diskon _early-bird_ sebesar **US$200** bagi **20 pendaftar pertama** yang mendaftar paling lambat tanggal **1 Agustus 2022**.
 
 ---
 
@@ -34,31 +34,63 @@ Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. Jika kamu mendaftar
 
 1. [Kapan perjalanan ini diadakan?](/wyd23/#1-kapan-perjalanan-ini-diadakan)
 2. [Apa itu World Youth Day?](/wyd23/#2-apa-itu-world-youth-day)
-3. [Siapa yang memimpin perjalanan ini?](/wyd23/#3-siapa-yang-memimpin-perjalanan-ini)
-4. [Apa saja alasan untuk bergabung?](/wyd23/#4-apa-saja-alasan-untuk-bergabung)
-5. [Apa saja persyaratan untuk bergabung?](/wyd23/#5-apa-saja-persyaratan-untuk-bergabung)
-6. [Itinerary (1–14 Agustus 2023)](/wyd23/#6-itinerary-114-agustus-2023)
-7. [Berapa biaya perjalanan ini?](/wyd23/#7-berapa-biaya-perjalanan-ini)
-8. [Kapan sebaiknya saya mendaftar?](/wyd23/#8-kapan-sebaiknya-saya-mendaftar)
-9. [_Refer-a-friend_ voucher](/wyd23/#9-refer-a-friend-voucher)
-10. [Mengapa sebaiknya saya mendaftar sedini mungkin?](/wyd23/#10-mengapa-sebaiknya-saya-mendaftar-sedini-mungkin)
+3. [Kapan sebaiknya saya mendaftar?](/wyd23/#3-kapan-sebaiknya-saya-mendaftar)
+4. [Mengapa sebaiknya saya mendaftar sedini mungkin?](/wyd23/#4-mengapa-sebaiknya-saya-mendaftar-sedini-mungkin)
+5. [Siapa yang memimpin perjalanan ini?](/wyd23/#5-siapa-yang-memimpin-perjalanan-ini)
+6. [Apa saja alasan untuk bergabung?](/wyd23/#6-apa-saja-alasan-untuk-bergabung)
+7. [Apa saja persyaratan untuk bergabung?](/wyd23/#7-apa-saja-persyaratan-untuk-bergabung)
+8. [Itinerary (1–14 Agustus 2023)](/wyd23/#8-itinerary-114-agustus-2023)
+9. [Berapa biaya perjalanan ini?](/wyd23/#9-berapa-biaya-perjalanan-ini)
+10. [_Refer-a-friend_ voucher](/wyd23/#10-refer-a-friend-voucher)
 11. [Bagaimana cara saya mendaftar?](/wyd23/#11-bagaimana-cara-saya-mendaftar)
 
 ---
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6rAJiPEL04o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 1. Kapan perjalanan ini diadakan?
 
 WYD Pilgrimage direncanakan berangkat dari Jakarta tanggal **1 Agustus 2023** dan tiba kembali di Jakarta tanggal **14 Agustus 2023**.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6rAJiPEL04o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## 2. Apa itu World Youth Day?
 
 World Youth Day (WYD) 2023 di Lisbon merupakan salah satu acara utama dalam perjalanan ini. WYD adalah perjumpaan orang-orang muda dari seluruh dunia dengan Paus. Untuk mengetahui lebih jauh tentang apa itu World Youth Day (WYD), kunjungi [situs resmi WYD 2023 Lisbon](https://www.lisboa2023.org/en/about). Untuk mengetahui lebih jauh mengenai aktivitas-aktivitas selama WYD, kunjungi [situs resmi WYD 2023 Lisbon](https://www.lisboa2023.org/en/about/what-happens-during-wyd).
 
-Untuk melihat momen yang menyentuh dari WYD-WYD sebelumnya, lihat video berikut: [History of WYD](https://youtu.be/t8BObfDtPVM) - [WYD 2000 Rome](https://youtu.be/RoIWquTYtzY) - [WYD 2011 Madrid](https://youtu.be/a48jsJm-jiA) - [WYD 2013 Rio](https://youtu.be/LZa6spYqHsA) - [WYD 2016 Kraków](https://youtu.be/xgqyEPemnKo). Untuk mendengarkan lagu-lagu terbaik dari WYD, lihat [The Unofficial Hymn of WYD](https://youtu.be/0KB8yY_hs60) - [The Best Songs of WYD](https://youtu.be/f-9clTldvdE).
+<a id='wgNCjUHMTpJWT0fjzSoMEg' class='gie-slideshow' href='http://www.gettyimages.com/detail/52548121' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'wgNCjUHMTpJWT0fjzSoMEg',sig:'0nw6mZTgXoCKt91Xu7BkTV4_KO3MXjOx8IQpnemf1OM=',w:'594px',h:'432px',items:'52548121,588959320,174188840,584562558,174290823',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script>
 
-## 3. Siapa yang memimpin perjalanan ini?
+## 3. Kapan sebaiknya saya mendaftar?
+
+Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. 
+
+Ada diskon _early-bird_ sebesar **US$200** bagi **20 pendaftar pertama** yang mendaftar paling lambat tanggal **1 Agustus 2022**.
+
+Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi. Bagi pendaftaran setelah tanggal 1 April 2023, biaya perjalanan akan mengikuti harga tiket pesawat yang tidak mengikat dan tidak akan ada jaminan ketersediaan _seat_ pesawat.
+
+## 4. Mengapa sebaiknya saya mendaftar sedini mungkin?
+
+Jika kamu merasa tergerak untuk bergabung, penting bagimu untuk mendaftar sekarang karena beberapa alasan:
+
+- *Biaya yang lebih terjangkau*. Kamu pasti tahu bahwa, semakin lambat kita mendaftar, harga tiket pesawat dan hotel akan menjadi semakin mahal. Mau berhemat? Daftar sekarang.
+- *Lokasi yang lebih strategis*. Kamu juga pasti tahu bahwa, semakin cepat kita mendaftar, semakin cepat panitia dapat melakukan reservasi hotel, gereja, restoran, dll. Ingatlah bahwa WYD adalah sebuah acara massal. WYD Kraków pada tahun 2016, misalnya, dihadiri oleh [3,5 juta orang](https://edition.cnn.com/2013/07/19/world/world-youth-day-fast-facts/index.html). Kita bisa mendapatkan lokasi yang lebih strategis untuk hotel dan acara (misalnya, Misa dengan Paus, Misa di berbagai gereja di Eropa) hanya jika kita melakukan reservasi sedini mungkin. Lokasi yang lebih strategis pastinya akan memberi kita pengalaman dan kenyamanan yang lebih baik.
+- _Persiapan keuangan_. Kamu dapat mulai menabung atau menggalang dana. Kamu dapat mulai merencanakan cuti jika kamu bekerja atau bersekolah.
+- _Persiapan rohani_. Kamu dapat mulai berdoa untuk perjalanan ini, untuk dirimu sendiri, dan untuk sesama peserta. Kamu dapat mendaraskan [doa resmi untuk WYD Lisbon 2023](https://www.lisboa2023.org/en/article/prayer-for-world-youth-d), misalnya.
+
+## Register now and save money!
+
+<div class="cta">
+  <div class="cta__inner">
+    <ul>
+      <li>
+        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
+      </li>
+      <li>
+        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
+      </li>
+    </ul>
+  </div>
+</div>
+
+## 5. Siapa yang memimpin perjalanan ini?
 
 Perjalanan ini akan dipimpin oleh [Fr. Kenny Ang](https://www.fatherkenny.com/cv/) dan dikelola oleh Fifi Lukito dari [Seven World Tours](https://www.instagram.com/sevenworldtours/). Sebagai pendiri agen tour ini, ia telah mendampingi banyak grup wisata ke berbagai tujuan di seluruh dunia. Tahun 2019, saya mendampingi rombongan ziarahnya ke Tanah Suci.
 
@@ -66,7 +98,7 @@ Perjalanan ini akan dipimpin oleh [Fr. Kenny Ang](https://www.fatherkenny.com/cv
 
 Sangatlah menyenangkan bepergian dengannya. Semua orang menyukai Fifi. Ia selalu mengendalikan situasi dengan baik. Ketenangan dan keceriaannya membuat semua orang senang berada di sekitarnya. Ia tahu kapan harus bersikap tegas dan kapan bisa bersikap fleksibel. Ia bahkan bisa melanggar beberapa aturan untuk membuat kamu senang. (Misalnya, ia memberi kami kemasan saus sambal ketika kami makan di restoran Kosher.) Ia sangat tahu jika kami lapar dan terkadang akan mengejutkan kami dengan camilan tambahan—saya tidak tahu dari mana ia memperoleh begitu banyak _bakcang_ (粽子) dan pisang untuk kami dalam bus ketika kami berada di Tanah Suci. Terakhir dan yang lebih penting lagi: ia adalah pemandu yang handal karena ia mencintai Yesus.
 
-## 4. Apa saja alasan untuk bergabung?
+## 6. Apa saja alasan untuk bergabung?
 
 Sekarang, saya akan menjawab pertanyaan yang terpenting: apakah manfaat yang akan kita dapatkan dari perjalanan ke WYD ini sepadan dengan waktu dan uang yang kita korbankan? Di bagian ini, saya berbicara kepada kamu, _calon peserta_, serta Anda, _orang tua_, yang sedang mempertimbangkan untuk mendanai perjalanan anak-anak Anda. Setidaknya ada tiga alasan yang akan membuat perjalanan ini sebuah pengalaman yang berharga.
 
@@ -74,11 +106,13 @@ Sekarang, saya akan menjawab pertanyaan yang terpenting: apakah manfaat yang aka
 
 Perjalanan ini akan mengubah hidup kita karena berbagai alasan. Saya akan menyebutkan dua.
 
-Pertama, _perjalanan ini adalah sebuah ziarah_. Perjalanan ini bukan sekadar rekreasi. Ziarah _(pilgrimage)_ adalah perjalanan untuk mengunjungi tempat-tempat suci—sebuah kegiatan yang umum dalam Kekristenan maupun agama-agama dunia lainnya. Dalam perjalanan ini, kita akan mengunjungi tiga tempat suci utama: Roma, Lourdes, dan Fátima. Kita juga akan merayakan Misa dan berdoa bersama setiap hari. Perjalanan ini akan menjadi kesempatan bagi kita untuk memperdalam iman kita. Kita juga akan semakin mengenal sejarah Gereja Katolik yang sudah berusia lebih dari dua ribu tahun.
+Pertama, _perjalanan ini adalah sebuah ziarah_. Perjalanan ini bukan sekadar rekreasi. Ziarah _(pilgrimage)_ adalah perjalanan untuk mengunjungi tempat-tempat suci—sebuah kegiatan yang umum dalam Kekristenan. Dalam perjalanan ini, kita akan mengunjungi tiga tempat suci utama: Roma, Lourdes, dan Fátima. Kita juga akan merayakan Misa dan berdoa bersama setiap hari. Perjalanan ini akan menjadi kesempatan bagi kita untuk memperdalam iman kita. Kita juga akan semakin mengenal sejarah Gereja Katolik yang sudah berusia lebih dari dua ribu tahun.
 
 Kedua, _kita akan menjadi volunteers di Lourdes_. Jika kamu pernah ke Lourdes, kamu pasti melihat banyak orang muda melayani dalam berbagai hal di sana: mereka mengatur antrian, memimpin prosesi lilin, mendorong orang sakit yang duduk di kursi roda, membantu para peziarah di tempat pemandian, dll. Inilah yang juga akan kita lakukan: kita akan melayani para peziarah di Lourdes, terutama mereka yang sakit. Dengan demikian, kita berharap untuk mendengar Kristus berkata kepada kita: "ketika Aku sakit, kamu melawat Aku" (Mat 25:36).
 
-Izinkan saya menyampaikan sebuah pengalaman pribadi. Pada tahun 2017, saya menetap selama tiga minggu di Fátima sebagai _volunteer_ di [panti untuk orang-orang cacat mental](https://www.ump.pt/Home/uniao/areas-de-atuacao/equipamentos-anexos/centro-de-apoio-a-deficientes-joao-paulo-ii/). Saya melakukan berbagai hal seperti mengganti seprai tempat tidur mereka dan memberi mereka makan. Hal-hal itu tidaklah mudah. Saya merasa mual beberapa kali karena alasan yang tidak perlu saya jelaskan. Tapi, seusai pengalaman itu, hidup saya diubahkan. Saya menyadari betapa berharganya setiap manusia. Kontak langsung dengan penderitaan orang lain mengubah hidup saya. Pengalaman inilah yang ingin saya hidupi kembali bersama denganmu.
+<a id='9hYpv-uDT5RhljpKpp19YA' class='gie-slideshow' href='http://www.gettyimages.com/detail/1234680986' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'9hYpv-uDT5RhljpKpp19YA',sig:'DB4eMRfiQciCoQrJCb3iX05B_jrutvXf3M2B_rpoQ_Y=',w:'594px',h:'396px',items:'1234680986,577998922,1234680681,578015142,966831770',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script>
+
+Izinkan saya menyampaikan sebuah pengalaman pribadi. Pada tahun 2017, saya menetap selama tiga minggu di Fátima sebagai _volunteer_ di [panti untuk orang-orang cacat mental](https://www.ump.pt/Home/uniao/areas-de-atuacao/equipamentos-anexos/centro-de-apoio-a-deficientes-joao-paulo-ii/). Saya melakukan berbagai hal seperti mengganti seprai tempat tidur mereka dan memberi mereka makan. Hal-hal itu tidaklah mudah. Tapi, seusai pengalaman itu, hidup saya diubahkan. Saya menyadari betapa berharganya setiap manusia. Kontak langsung dengan penderitaan orang lain mengubah hidup saya. Pengalaman inilah yang ingin saya hidupi kembali bersama denganmu.
 
 ### Alasan #2: Kehadiran kita di WYD penting adanya.
 
@@ -86,13 +120,15 @@ Kehadiran kita di WYD penting karena dua alasan.
 
 Pertama, dengan mewakili negara kita, kita akan _menonjolkan universalitas Gereja Katolik_. Ingatlah bahwa universalitas adalah salah satu [tanda dari Gereja kita](https://www.catholiceducation.org/en/culture/catholic-contributions/the-four-marks-of-the-church.html): ia diperuntukkan bagi semua manusia—ia ada di mana-mana. Kita bisa menunjukkan hal ini kepada dunia!
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DOxGBaEVM8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Kedua, kehadiran kita dalam WYD akan _menginspirasi orang-orang muda dari seluruh dunia_. Saya menghadiri [WYD Kraków](https://en.wikipedia.org/wiki/World_Youth_Day_2016) tahun 2016 dan saya terpukau melihat begitu banyaknya orang muda Katolik yang berkobar dalam iman mereka. Namun, ingatlah bahwa ini merupakan sebuah proses dua arah: jika kehadiran orang lain membangun kita, kehadiran kita juga penting bagi mereka. Kita juga merupakan sumber semangat bagi kaum muda dari seluruh dunia.
 
 ### Alasan #3: Perjalanan ini menyenangkan.
 
-Kita akan bersenang-senang bersama. Pengalaman membuktikan kepada saya bahwa 'ziarah' bukanlah sinonim dari 'membosankan.' Jangan khawatir—kita tidak akan berdoa 24 jam. Sebagai orang kristiani, kita adalah manusia yang normal: kita suka melihat tempat yang baru, makan, berbelanja, bersosialisasi, dan tidur. Oleh karena itu, kita akan menikmati makanan lokal. Selain gereja-gereja, kita akan mengunjungi tempat-tempat wisata lainnya yang terkenal. Akan ada waktu untuk berbelanja. Yang terpenting, kita akan saling mengenal dan membantu satu sama lain sebagai sebuah tim. Saya berharap, di akhir perjalanan, akan tumbuh pertemanan di antara kita. Bahkan, beberapa bisa jadi menemukan pasangan hidupnya dalam perjalanan ini—siapa tahu?
+Kita akan bersenang-senang bersama. Pengalaman membuktikan kepada saya bahwa 'ziarah' bukanlah sinonim dari 'membosankan.' Jangan khawatir—kita tidak akan berdoa 24 jam. Sebagai orang kristiani, kita adalah manusia yang normal: kita suka melihat tempat yang baru, makan, berbelanja, bersosialisasi, mengambil foto, dan tidur. Oleh karena itu, kita akan menikmati makanan lokal. Selain gereja-gereja, kita akan mengunjungi tempat-tempat wisata yang tentunya *Instagrammable*. Akan ada waktu untuk berbelanja. Yang terpenting, kita akan saling mengenal dan membantu satu sama lain sebagai sebuah tim. Saya berharap, di akhir perjalanan, akan tumbuh pertemanan di antara kita. Bahkan, beberapa bisa jadi menemukan pasangan hidupnya dalam perjalanan ini—siapa tahu?
 
-## 5. Apa saja persyaratan untuk bergabung?
+## 7. Apa saja persyaratan untuk bergabung?
 
 ### Syarat #1: Usia 16-35
 
@@ -100,7 +136,9 @@ Rentang usia ini tidaklah mutlak, tetapi WYD diperuntukkan terutama bagi mereka 
 
 ### Syarat #2: Kesehatan
 
-Perjalanan ini menuntut banyak aktivitas fisik. Kita harus memastikan bahwa kita ada dalam kondisi fisik yang baik dan tidak akan membahayakan diri kita sendiri atau peserta lain. Dalam perjalanan ini, kita akan banyak berjalan di tempat-tempat seperti bukit, permukaan yang tidak rata, tangga, lorong yang sempit, jalan berbatu, dan skenario lainnya yang 'menantang.' Kita akan banyak berdiri. Kondisi cuaca tidak dapat diprediksi. Harap dicatat juga bahwa permohonan diet khusus dapat diajukan namun tidak dapat dijamin.
+Perjalanan ini menuntut banyak aktivitas fisik. Kita akan banyak berjalan di tempat-tempat seperti bukit, permukaan yang tidak rata, tangga, lorong yang sempit, jalan berbatu, dan skenario lainnya yang 'menantang.' Kita akan banyak berdiri. Kondisi cuaca tidak dapat diprediksi. Harap dicatat juga bahwa permohonan diet khusus dapat diajukan namun tidak dapat dijamin.
+
+Apabila kamu memiliki keterbatasan fisik namun tertarik untuk ikut, silakan menghubungi Seven World Tours.
 
 ### Syarat #3: Semangat petualang
 
@@ -114,7 +152,7 @@ Saya dapat menjamin bahwa keberhasilan perjalanan ini akan tergantung pada hal i
 
 Terakhir, hati yang ceria dibutuhkan dalam perjalanan ini. Mengapa? Karena tidak ada orang yang gemar berada di sekitar individu yang muram dan pesimis—karena sebagai orang kristiani kita dipanggil untuk menyebarkan kedamaian dan sukacita!
 
-## 6. Itinerary (1–14 Agustus 2023)
+## 8. Itinerary (1–14 Agustus 2023)
 
 Dalam perjalanan ini, kita akan mengunjungi enam tempat utama, yakni Vatikan, Roma, Lisbon, Fátima, Lourdes, dan Paris. Di sela-sela perjalanan, kita juga akan singgah di Burgos dan Loyola (Spanyol).
 
@@ -141,6 +179,8 @@ Basilicas of [St. Peter](https://en.wikipedia.org/wiki/St._Peter%27s_Basilica) -
 **WYD** | [Mass celebrated by the Pope](https://youtu.be/LBpsF5QusI0)  
 **Fátima** | Evening: [Rosary and Candlelight Procession](https://youtu.be/7RZz1g5f-S4) (21:30)
 
+<a id='98m9onEFQPVpM3KRezVn1g' class='gie-slideshow' href='http://www.gettyimages.com/detail/93346325' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'98m9onEFQPVpM3KRezVn1g',sig:'UJJk39Ft-dCxqwO4ACtPwF8JdhweDPLgRIGLEt5OcsY=',w:'594px',h:'381px',items:'93346325,897005290',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script>
+
 ### MON 7: Fátima - Burgos
 
 [Cathedral of Burgos](https://youtu.be/q0mi1NMSlOU)
@@ -152,6 +192,8 @@ Basilicas of [St. Peter](https://en.wikipedia.org/wiki/St._Peter%27s_Basilica) -
 ### WED 9: Lourdes
 
 [Volunteering](https://youtu.be/s_djUFpaXNk) • [Way of the Cross](https://www.tripadvisor.com/Attraction_Review-g187171-d10833994-Reviews-Le_Via_Crucis_Way_of_the_Cross_Chemin_de_Croix-Lourdes_Hautes_Pyrenees_Occitanie.html) • City tour
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rn-M0pV-if8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### THU 10: Lourdes
 
@@ -171,7 +213,7 @@ Paris city tour • Photo stop at [Eiffel Tower](https://www.toureiffel.paris/en
 
 ### MON 14: Arrival in Jakarta
 
-## 7. Berapa biaya perjalanan ini?
+## 9. Berapa biaya perjalanan ini?
 
 ### Biaya total (per orang)
 
@@ -225,40 +267,11 @@ Nomor rekening: **612.0700.888**
 |   Kedua    |   1 Des 2022   |    $1,000     |
 |   Ketiga   |   1 Apr 2023   |    SISANYA    |
 
-## 8. Kapan sebaiknya saya mendaftar?
-
-Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**.
-
-Jika kamu mendaftar paling lambat tanggal **1 Agustus 2022**, kamu akan mendapatkan diskon _early-bird_ sebesar **US$200**. Diskon ini tersedia hanya bagi **20 pendaftar pertama**!
-
-Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi. Bagi pendaftaran setelah tanggal 1 April 2023, biaya perjalanan akan mengikuti harga tiket pesawat yang tidak mengikat dan tidak akan ada jaminan ketersediaan _seat_ pesawat.
-
-<div class="cta">
-  <div class="cta__inner">
-    <ul>
-      <li>
-        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
-      </li>
-      <li>
-        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
-      </li>
-    </ul>
-  </div>
-</div>
-
-## 9. _Refer-a-friend_ voucher
+## 10. _Refer-a-friend_ voucher
 
 Jangan lupa untuk mengajak temanmu untuk bergabung dalam perjalanan ini! Untuk **setiap satu teman** yang kamu ajak, kamu akan mendapatkan **satu _shopping voucher_** senilai **US$10** _(non-redeemable)_! Benar: kalau kamu mengajak dua teman, berarti kamu akan mendapatkan dua voucher. Kalau kamu mengajak tujuh teman? Tujuh voucher!
 
 Hanya saja, jangan lupa untuk meminta teman yang kamu ajak untuk memasukkan namamu dalam bagian _Refer-a-Friend_ ketika ia mendaftar.
-
-## 10. Mengapa sebaiknya saya mendaftar sedini mungkin?
-
-Jika kamu merasa tergerak untuk bergabung, penting bagimu untuk mendaftar sedini mungkin karena beberapa alasan:
-
-- _Persiapan rohani_. Kamu dapat mulai berdoa untuk perjalanan ini, untuk dirimu sendiri, dan untuk sesama peserta. Kamu dapat mendaraskan [doa resmi untuk WYD Lisbon 2023](https://www.lisboa2023.org/en/article/prayer-for-world-youth-d), misalnya.
-- _Persiapan keuangan_. Kamu dapat mulai menabung dan menggalang dana bersama teman-teman lainnya. Kamu dapat mulai merencanakan cuti jika kamu bekerja atau bersekolah.
-- _Pengalaman dan kenyamanan yang lebih baik_. Semakin cepat kamu berkomitmen, semakin cepat panitia dapat melakukan reservasi hotel, gereja, restoran, dll. Ingatlah bahwa WYD adalah sebuah acara massal. WYD Kraków pada tahun 2016, misalnya, dihadiri oleh [3,5 juta orang](https://edition.cnn.com/2013/07/19/world/world-youth-day-fast-facts/index.html). Kita bisa mendapatkan lokasi yang lebih strategis untuk hotel dan acara (misalnya, Misa dengan Paus, Misa di berbagai gereja di Eropa) hanya jika kita _melakukan reservasi sedini mungkin_. Lokasi yang lebih strategis akan memberi kita pengalaman dan kenyamanan yang lebih baik.
 
 ## 11. Bagaimana cara saya mendaftar?
 
@@ -271,7 +284,7 @@ Kamu bisa mendaftar dengan mengklik tombol "REGISTER NOW" yang tersebar di halam
 
 Apabila kamu (atau orang tuamu) belum memiliki tanda tangan digital, jangan khawatir. Tanda tangan digital dapat dibuat pada saat kamu mendaftar lewat Google Form itu sendiri.
 
-## Nah, tunggu apa lagi? Ayo mendaftar sebelum kehabisan tempat!
+## Register now and save money!
 
 <div class="cta">
   <div class="cta__inner">
