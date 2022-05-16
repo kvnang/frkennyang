@@ -4,6 +4,7 @@ import getYouTubeId from 'get-youtube-id';
 import styled from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import { Helmet } from 'react-helmet';
+import { MdOutlineWarning } from 'react-icons/md';
 import { formatDate } from '../utils/helpers';
 import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
@@ -11,6 +12,7 @@ import { PostProps } from '../types';
 import SEO from '../components/Seo';
 import SocialShare from '../components/SocialShare';
 import { LangContext, LangType } from '../components/LangContext';
+import { IndonesiaFlag, UsFlag } from '../components/Flags';
 
 interface Props {
   location: Location;
@@ -116,12 +118,34 @@ const SinglePostStyles = styled.main`
       padding-left: 0;
     }
   }
+
+  .only-available-in {
+    margin-bottom: 1.5rem;
+    background-color: var(--dark-grey);
+    padding: 1rem 1.5rem;
+    display: flex;
+
+    svg {
+      height: 1.5rem;
+      width: 1.5rem;
+      margin-right: 1rem;
+      border-radius: 0.25rem;
+    }
+  }
 `;
 
 const PostContentStyles = styled.div`
   p,
   li {
     line-height: 1.75;
+  }
+
+  .gatsby-resp-iframe-wrapper {
+    margin-bottom: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   .book {
@@ -228,6 +252,97 @@ const PostContentStyles = styled.div`
       }
     }
   }
+
+  .cta {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &__inner {
+      padding: 1rem 100%;
+      margin: 0 -100%;
+      position: relative;
+      z-index: 0;
+      display: inline-flex;
+
+      @media ${breakpoints.tablet} {
+        padding: 1rem;
+        padding-left: 3rem;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      &::before {
+        content: '';
+        width: 110%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: skew(-20deg);
+        transform-origin: left bottom;
+        background-color: var(--dark-grey);
+        z-index: -1;
+      }
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0;
+      margin: -0.5rem -1rem;
+
+      li {
+        padding: 0.5rem 1rem;
+        margin: 0;
+      }
+    }
+
+    .button {
+      text-decoration: none;
+      background-color: var(--color-accent);
+      color: var(--black);
+      padding: 0.75rem 1.25rem;
+      font-weight: 700;
+      display: inline-flex;
+      overflow: hidden;
+      z-index: 0;
+      transition-delay: 0;
+
+      &::before {
+        background-color: var(--white);
+        height: 100%;
+        transform: translateX(-1rem) skew(-20deg);
+        transition-delay: 0;
+        z-index: -1;
+      }
+
+      &::after {
+        content: none;
+      }
+
+      &:hover {
+        transition-delay: 0.3s;
+        color: var(--color-accent);
+
+        &::before {
+          width: 120%;
+        }
+      }
+    }
+  }
 `;
 
 export default function SinglePost({
@@ -235,14 +350,17 @@ export default function SinglePost({
   data: { post },
   pageContext: { lang: pageLang },
 }: Props) {
-  const { setLang } = useContext(LangContext);
+  const { lang, setLang } = useContext(LangContext);
 
   const url = location.href ? location.href : '';
   const categories = post.frontmatter.category;
+  const contentLang = post.frontmatter.lang || pageLang;
+
   let featuredImage;
 
   useEffect(() => {
-    if (pageLang) {
+    // Only set lang if the content lang is consistent with the page lang
+    if (pageLang && pageLang === contentLang) {
       setLang(pageLang);
     }
   }, [pageLang]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -288,10 +406,34 @@ export default function SinglePost({
         }
         image={post.frontmatter.featuredImage?.publicURL}
       />
-      {pageLang && <Helmet htmlAttributes={{ lang: pageLang }} />}
+      {contentLang && (
+        <Helmet
+          htmlAttributes={{
+            lang: pageLang === contentLang ? contentLang : lang || contentLang,
+          }}
+        />
+      )}
       <SinglePostStyles className="page-p-t page-p-b">
         <section className="container">
           <div className="inner">
+            {post.frontmatter.lang && post.frontmatter.lang !== lang && (
+              <div className="only-available-in">
+                {post.frontmatter.lang === 'en' && <UsFlag />}
+                {post.frontmatter.lang === 'id' && <IndonesiaFlag />}
+                {lang === 'en' && (
+                  <p>
+                    This article is only available in{' '}
+                    <strong>Bahasa Indonesia</strong>.
+                  </p>
+                )}
+                {lang === 'id' && (
+                  <p>
+                    Artikel ini hanya tersedia di dalam{' '}
+                    <strong>bahasa Ingris</strong>.
+                  </p>
+                )}
+              </div>
+            )}
             <div className="post-header">
               <TitleStyles>
                 <LangSwitcher vertical />
@@ -350,6 +492,7 @@ export const pageQuery = graphql`
           }
           publicURL
         }
+        lang
       }
       excerpt
     }

@@ -233,6 +233,7 @@ const Typography = styled.createGlobalStyle`
       position: absolute;
       width: 0;
       bottom: 0;
+      left: 0;
       height: 1px;
       transform: translateX(-0.5rem);
       background: currentColor;
@@ -262,6 +263,7 @@ const Typography = styled.createGlobalStyle`
       position: absolute;
       width: 0;
       bottom: 0;
+      left: 0;
       height: 1px;
       transform: translateX(-0.5rem);
       background: currentColor;

@@ -1,3 +1,4 @@
+import { graphql } from 'gatsby';
 import { StaticImage, GatsbyImage } from 'gatsby-plugin-image';
 import React from 'react';
 import { MdFormatAlignLeft, MdPlayArrow } from 'react-icons/md';
@@ -5,6 +6,7 @@ import styled from 'styled-components';
 import { breakpoints } from '../styles/breakpoints';
 import { PostProps } from '../types';
 import { formatDate } from '../utils/helpers';
+import { LangType } from './LangContext';
 
 interface SkeletonProps {
   showImage?: boolean;
@@ -15,6 +17,7 @@ interface Props {
   post: PostProps;
   showImage?: boolean;
   format?: 'default' | 'list';
+  siteLang?: LangType | null;
 }
 
 const PostStyles = styled.article`
@@ -108,6 +111,17 @@ const PostStyles = styled.article`
         width: auto;
       }
     }
+
+    .post-lang {
+      padding: 0.25rem 0.75rem;
+      border-radius: 0.25rem;
+      background-color: var(--white);
+      position: absolute;
+      bottom: 0.5rem;
+      right: 0.5rem;
+      box-shadow: var(--shadow);
+      color: var(--black);
+    }
   }
 
   .post-excerpt,
@@ -193,6 +207,7 @@ export default function PostEntry({
   post,
   showImage = true,
   format = 'default',
+  siteLang,
 }: Props) {
   let icon;
   switch (post.frontmatter.format.toLowerCase()) {
@@ -205,6 +220,9 @@ export default function PostEntry({
     default:
       icon = '';
   }
+
+  const onlyAvailableInLabel =
+    post.fields.lang === 'en' ? 'Only in' : 'Hanya dalam bahasa';
 
   const meta = [];
   if (post.frontmatter.date) {
@@ -240,6 +258,14 @@ export default function PostEntry({
               )}
               {post.frontmatter.format && format === 'default' && (
                 <div className="post-format">{icon}</div>
+              )}
+              {post.frontmatter.lang && post.frontmatter.lang !== siteLang && (
+                <div className="post-lang">
+                  <small>
+                    {onlyAvailableInLabel}{' '}
+                    <strong>{post.frontmatter.lang.toUpperCase()}</strong>
+                  </small>
+                </div>
               )}
             </div>
           </div>
@@ -289,3 +315,31 @@ export function PostEntrySkeleton({
     </PostStyles>
   );
 }
+
+export const query = graphql`
+  fragment MarkdownRemarkFields on MarkdownRemark {
+    id
+    excerpt
+    frontmatter {
+      title
+      format
+      date
+      excerpt
+      featuredImage {
+        childImageSharp {
+          gatsbyImageData(
+            aspectRatio: 1.777778
+            layout: FULL_WIDTH
+            placeholder: BLURRED
+          )
+        }
+      }
+      lang
+    }
+    fields {
+      slug
+      lang
+    }
+    timeToRead
+  }
+`;
