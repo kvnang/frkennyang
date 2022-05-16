@@ -244,10 +244,11 @@ Biaya tidak mencakup:
 
 1. Khusus bagi peserta yang **visanya gagal terbit** dan apabila **perjalanan dibatalkan**, uang pembayaran akan dikembalikan selama uang tersebut belum digunakan untuk keperluan peserta itu sendiri (e.g., untuk _booking_, pendaftaran, etc.).
 2. Pendaftaran harus disertai Bukti Transfer deposit sebesar **US$500**.
-3. Seluruh biaya tour harus lunas paling lambat tanggal **1 April 2023**.
-4. Seven World Tours tidak menerima pembayaran tunai keras (tanpa melalui bank).
-5. Biaya transfer ditanggung oleh peserta apabila transfer dilakukan melalui bank lain.
-6. Jumlah nominal uang yang dicatat oleh Seven World Tours adalah nominal yang masuk dalam rekening BCA yang tertera di bawah.
+3. Pembayaran bisa dilakukan dalam mata uang Rupiah dengan mengikuti nilai tukar US$ yang berlaku saat pembayaran dilakukan.
+4. Seluruh biaya tour harus lunas paling lambat tanggal **1 April 2023**.
+5. Seven World Tours tidak menerima pembayaran tunai keras (tanpa melalui bank).
+6. Biaya transfer ditanggung oleh peserta apabila transfer dilakukan melalui bank lain.
+7. Jumlah nominal uang yang dicatat oleh Seven World Tours adalah nominal yang masuk dalam rekening BCA yang tertera di bawah.
 
 ### Rekening Pembayaran
 
