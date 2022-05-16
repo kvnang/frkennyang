@@ -122,7 +122,7 @@ Pertama, dengan mewakili negara kita, kita akan _menonjolkan universalitas Gerej
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DOxGBaEVM8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Kedua, kehadiran kita dalam WYD akan _menginspirasi orang-orang muda dari seluruh dunia_. Saya menghadiri [WYD Kraków](https://en.wikipedia.org/wiki/World_Youth_Day_2016) tahun 2016 dan saya terpukau melihat begitu banyaknya orang muda Katolik yang berkobar dalam iman mereka. Namun, ingatlah bahwa ini merupakan sebuah proses dua arah: jika kehadiran orang lain membangun kita, kehadiran kita juga penting bagi mereka. Kita juga merupakan sumber semangat bagi kaum muda dari seluruh dunia.
+Kedua, kehadiran kita dalam WYD akan _menginspirasi orang-orang muda dari seluruh dunia_. Saya menghadiri [WYD Kraków](https://en.wikipedia.org/wiki/World_Youth_Day_2016) tahun 2016 dan terpukau melihat begitu banyaknya orang muda Katolik yang berkobar dalam iman mereka. Namun, ingatlah bahwa ini merupakan sebuah proses dua arah: jika kehadiran orang lain membangun kita, kehadiran kita juga penting bagi mereka. Kita juga merupakan sumber semangat bagi kaum muda dari seluruh dunia.
 
 ### Alasan #3: Perjalanan ini menyenangkan.
 
