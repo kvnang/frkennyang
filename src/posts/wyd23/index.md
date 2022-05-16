@@ -136,7 +136,7 @@ Rentang usia ini tidaklah mutlak, tetapi WYD diperuntukkan terutama bagi mereka 
 
 ### Syarat #2: Kesehatan
 
-Perjalanan ini menuntut banyak aktivitas fisik. Kita akan banyak berjalan di tempat-tempat seperti bukit, permukaan yang tidak rata, tangga, lorong yang sempit, jalan berbatu, dan skenario lainnya yang 'menantang.' Kita akan banyak berdiri. Kondisi cuaca tidak dapat diprediksi. Harap dicatat juga bahwa permohonan diet khusus dapat diajukan namun tidak dapat dijamin.
+Perjalanan ini menuntut banyak aktivitas fisik. Kita akan banyak berjalan dan berdiri. Kondisi cuaca tidak dapat diprediksi. Harap dicatat juga bahwa permohonan diet khusus dapat diajukan namun tidak dapat dijamin.
 
 Apabila kamu memiliki keterbatasan fisik namun tertarik untuk ikut, silakan menghubungi Seven World Tours.
 
