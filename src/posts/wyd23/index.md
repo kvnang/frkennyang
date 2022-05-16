@@ -160,7 +160,7 @@ Dalam perjalanan ini, kita akan mengunjungi enam tempat utama, yakni Vatikan, Ro
 
 ### WED 2: Arrival in Rome
 
-[Basilica of St. Paul Outside the Walls](https://en.wikipedia.org/wiki/Basilica_of_Saint_Paul_Outside_the_Walls) • [Via del Corso](https://anamericaninrome.com/2018/02/where-shop-rome/) (shopping)
+[Basilica of St. Paul Outside the Walls](https://en.wikipedia.org/wiki/Basilica_of_Saint_Paul_Outside_the_Walls)
 
 ### THU 3: Rome
 
