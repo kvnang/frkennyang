@@ -149,6 +149,8 @@ export interface ICarouselProps {
 }
 
 const CarouselStyles = styled.div`
+  --carousel-item-width: 100%;
+
   width: 100%;
 
   .carousel-container {
@@ -179,35 +181,30 @@ const CarouselStyles = styled.div`
       display: none; // hide scrollbar in webkit browser
     }
     > * {
-      width: 100%;
-      flex-shrink: 0;
-      flex-grow: 1;
+      flex: 0 0 var(--carousel-item-width);
+      max-width: var(--carousel-item-width);
     }
 
     &.show-0 {
       display: flex;
       flex-flow: wrap;
       transition: none !important;
-
-      > * {
-        width: 100%;
-      }
     }
 
     &.show-2 > * {
-      width: 50%;
+      --carousel-item-width: 50%;
     }
 
     &.show-3 > * {
-      width: calc(100% / 3);
+      --carousel-item-width: 33.333%;
     }
 
     &.show-4 > * {
-      width: calc(100% / 4);
+      --carousel-item-width: 25%;
     }
 
     &.show-5 > * {
-      width: calc(100% / 5);
+      --carousel-item-width: 20%;
     }
   }
 
@@ -330,7 +327,7 @@ const CarouselStyles = styled.div`
   }
 `;
 
-const Carousel = ({
+function Carousel({
   children,
   show,
   infiniteLoop,
@@ -349,7 +346,7 @@ const Carousel = ({
   // indicatorContainerProps,
   // indicatorClassNames,
   contentProps,
-}: ICarouselProps): JSX.Element => {
+}: ICarouselProps): JSX.Element {
   // const indicatorContainerRef = React.useRef<HTMLDivElement>(null);
 
   /**
@@ -714,6 +711,6 @@ const Carousel = ({
       </div>
     </CarouselStyles>
   );
-};
+}
 
 export default Carousel;

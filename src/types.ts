@@ -1,4 +1,5 @@
 import { IGatsbyImageData } from 'gatsby-plugin-image';
+import { LangType } from './components/LangContext';
 
 export interface FormMessageTypes {
   status: string;
@@ -20,6 +21,7 @@ export interface FrontmatterProps {
   category?: string[];
   excerpt?: string;
   slug?: string;
+  lang?: LangType;
 }
 
 export interface PostProps {

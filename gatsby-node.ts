@@ -158,17 +158,25 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({
         fileName = fileName.replace('index', folderName);
       }
 
+      const isWyd23 = (frontmatter as FrontmatterProps)?.category?.includes(
+        'WYD23'
+      );
+
+      const getWydPostDir = () =>
+        fileName.replace(/\.id$/, '') === 'wyd23' ? '' : 'wyd23/';
+
+      const dir = isWyd23 ? getWydPostDir() : 'post/';
+
       const generatedSlug =
         lang === 'id'
-          ? // eslint-disable-next-line prefer-regex-literals
-            `id/post/${slugify(fileName.replace(new RegExp('.id$'), ''))}`
-          : `post/${slugify(fileName)}`;
+          ? `id/${dir}${slugify(fileName.replace(/\.id$/, ''))}`
+          : `${dir}${slugify(fileName)}`;
 
       createNodeField({
         name: `slug`,
         node,
         value: (frontmatter as FrontmatterProps).slug
-          ? `/post/${(frontmatter as FrontmatterProps).slug}/`
+          ? `/${dir}${(frontmatter as FrontmatterProps).slug}/`
           : `/${generatedSlug}/`,
       });
 
@@ -176,6 +184,18 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({
         name: `lang`,
         node,
         value: lang,
+      });
+
+      const showInLang = [lang];
+      const frontmatterLang = (frontmatter as FrontmatterProps).lang;
+      if (frontmatterLang) {
+        showInLang.push(frontmatterLang);
+      }
+
+      createNodeField({
+        name: `showInLang`,
+        node,
+        value: showInLang,
       });
     } else {
       const slug = createFilePath({ node, getNode });
