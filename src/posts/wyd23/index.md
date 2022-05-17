@@ -244,7 +244,7 @@ Biaya tidak mencakup:
 
 1. Khusus bagi peserta yang **visanya gagal terbit** dan apabila **perjalanan dibatalkan**, uang pembayaran akan dikembalikan selama uang tersebut belum digunakan untuk keperluan peserta itu sendiri (e.g., untuk _booking_, pendaftaran, etc.).
 2. Pendaftaran harus disertai Bukti Transfer deposit sebesar **US$500**.
-3. Pembayaran bisa dilakukan dalam mata uang Rupiah dengan mengikuti nilai tukar US$ yang berlaku saat pembayaran dilakukan.
+3. Pembayaran bisa dilakukan dalam mata uang Rupiah dengan mengikuti nilai tukar US$ yang berlaku saat pembayaran dilakukan, seperti yang tertera pada https://www.bca.co.id/kurs. (Pembayaran melalui Key BCA/m-banking mengikuti kurs e-Rate Jual. Pembayaran melalui counter BCA mengikuti kurs TT Counter Jual.)
 4. Seluruh biaya tour harus lunas paling lambat tanggal **1 April 2023**.
 5. Seven World Tours tidak menerima pembayaran tunai (tanpa melalui bank).
 6. Biaya transfer ditanggung oleh peserta apabila transfer dilakukan melalui bank lain.
@@ -279,6 +279,7 @@ Hanya saja, jangan lupa untuk meminta teman yang kamu ajak untuk memasukkan nama
 Kamu bisa mendaftar dengan mengklik tombol "REGISTER NOW" yang tersebar di halaman ini. Untuk menyelesaikan pendaftaran, diperlukan:
 
 - Scan/foto bukti transfer deposit sebesar US$500
+- Screenshot rate Kurs BCA yang dapat diakses di https://www.bca.co.id/kurs (contoh screenshot dapat dilihat dalam Google Form)
 - Scan/foto halaman depan paspor _(passport data page)_
 - Tanda tangan digital peserta
 - Tanda tangan digital orang tua (bagi peserta di bawah usia 18 tahun)
