@@ -71,7 +71,7 @@ The Introductory Rites constitute a preparation for the Holy Mass. They “ensur
 
 #### "Lord Jesus Christ, Only Begotten Son …"
 
-> we have seen his glory, the glory as of a father’s only son, full of grace and truth (Jn 1:14).
+> … we have seen his glory, the glory as of a father’s only son, full of grace and truth (Jn 1:14).
 
 #### "Lord God, Lamb of God, Son of the Father, you take away the sins of the world …"
 
