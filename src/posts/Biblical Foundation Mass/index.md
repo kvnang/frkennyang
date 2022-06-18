@@ -235,7 +235,7 @@ Sources: Mt 6:9-13; cf. Lk 11:2-4; Mk 14:36; Gal 4:6
 
 > The next day [John the Baptist] saw Jesus coming toward him and declared, “Here is the Lamb of God who takes away the sin of the world!” (Jn 1:29).
 
-> And the angel said to me, “Write this: Blessed are those who are invited to the marriage supper of the Lamb.” (Re 19:9).
+> And the angel said to me, “Write this: Blessed are those who are invited to the marriage supper of the Lamb” (Re 19:9).
 
 #### "Lord, I am not worthy that you should enter under my roof, but only say the word and my soul shall be healed."
 
