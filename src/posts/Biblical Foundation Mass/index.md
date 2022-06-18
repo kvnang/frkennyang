@@ -245,7 +245,7 @@ Sources: Mt 6:9-13; cf. Lk 11:2-4; Mk 14:36; Gal 4:6
 
 ### Final Blessing
 
-#### "May almighty God bless you, the Father, and the Son, ⁜ and the Holy Spirit." 
+#### "May almighty God bless you, the Father, and the Son, ⁜ and the Holy Spirit."
 
 > <sup>22</sup> The LORD spoke to Moses, saying: <sup>23</sup> Speak to Aaron and his sons, saying, Thus you shall bless the Israelites: You shall say to them, <sup>24</sup> The LORD bless you and keep you; <sup>25</sup> the LORD make his face to shine upon you, and be gracious to you; <sup>26</sup> the LORD lift up his countenance upon you, and give you peace. <sup>27</sup> So they shall put my name on the Israelites, and I will bless them (Nu 6:22–27).
 
