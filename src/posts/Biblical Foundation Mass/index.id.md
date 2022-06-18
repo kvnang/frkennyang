@@ -243,7 +243,7 @@ Sumber: Mat 6:9-13; cf. Luk 11:2-4; Mrk 14:36; Gal 4:6
 
 ### Berkat Penutup
 
-#### "Semoga Allah yang mahakuasa memberkati saudara sekalian, Bapa, dan Putra ⁜ dan Roh Kudus."
+#### "Semoga Allah yang mahakuasa memberkati saudara sekalian, Bapa, dan Putra, ⁜ dan Roh Kudus."
 
 > <sup>22</sup> TUHAN berfirman kepada Musa: <sup>23</sup> "Berbicaralah kepada Harun dan anak-anaknya: Beginilah harus kamu memberkati orang Israel, katakanlah kepada mereka: <sup>24</sup> TUHAN memberkati engkau dan melindungi engkau; <sup>25</sup> TUHAN menyinari engkau dengan wajah-Nya dan memberi engkau kasih karunia; <sup>26</sup> TUHAN menghadapkan wajah-Nya kepadamu dan memberi engkau damai sejahtera. <sup>27</sup> Demikianlah harus mereka meletakkan nama-Ku atas orang Israel, maka Aku akan memberkati mereka" (Bilangan 6:22–27).
 
