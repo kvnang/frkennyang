@@ -85,7 +85,7 @@ O Yusuf yang terberkati, / perlihatkanlah dirimu sebagai seorang bapa juga bagi 
 ### *Santo Yusuf yang Hening*
 Santo Yusuf, engkau hidup dalam keheningan dan tidak mengatakan sepatah kata pun dalam Injil. Ajarilah kami untuk berpuasa dari kata-kata yang sia-sia, menemukan kembali makna dari kata-kata yang membangun, menyemangati, menghibur, dan mendukung.
 
-Tinggalah dekat mereka yang menderita karena kata-kata yang menyakitkan, seperti umpatan dan fitnah, dan bantulah kami senantiasa untuk menyelaraskan perkataan dan perbuatan. Amin.[^9]
+Tinggallah dekat mereka yang menderita karena kata-kata yang menyakitkan, seperti umpatan dan fitnah, dan bantulah kami senantiasa untuk menyelaraskan perkataan dan perbuatan. Amin.[^9]
 
 [^1]:Scott Hahn, ed., *Catholic Bible Dictionary* (New York: Doubleday, 2009), 473.
 [^2]:Paus Fransiskus, [*Patris Corde*](http://www.dokpenkwi.org/wp-content/uploads/2020/12/Seri-Dokumen-Gerejawi-PATRIS-CORDE.pdf) (2020).
