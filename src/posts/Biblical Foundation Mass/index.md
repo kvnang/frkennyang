@@ -99,7 +99,7 @@ The Introductory Rites constitute a preparation for the Holy Mass. They “ensur
 
 ### "Alleluia"
 
-Alleluia is a transliteration of two Hebrew words meaning “Praise the Lord!” 
+'Alleluia' is a transliteration of two Hebrew words meaning “Praise the Lord!” 
 
 > Praise the LORD! Praise the LORD, O my soul! (Ps 146:1; cf. Ps 146-150).
 
