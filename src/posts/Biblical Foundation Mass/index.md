@@ -2,7 +2,7 @@
 title: The Biblical Foundation of the Catholic Mass
 featuredImage: sabina.jpg
 format: Article
-date: 2022-06-17
+date: 2022-06-20
 category:
   - Eucharist
   - Scripture
