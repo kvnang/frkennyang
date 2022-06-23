@@ -2,7 +2,7 @@
 
 - ### Pontifical University of the Holy Cross
   #### Licentiate in Dogmatic Theology
-  ##### 2020 - (in progress)
+  ##### 2020 - 2022 | summa cum laude
 - ### University of Navarra
   #### Baccalaureate in Philosophy
   ##### 2013 - 2015, 2018 - 2019 | summa cum laude
