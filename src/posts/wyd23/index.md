@@ -26,8 +26,6 @@ lang: id
 
 ![eflyer world youth day 2023 father kenny ang](wyd23_flyer.jpg)
 
-Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. Ada diskon _early-bird_ sebesar **US$200** bagi **20 pendaftar pertama** yang mendaftar paling lambat tanggal **1 Agustus 2022**.
-
 ---
 
 ## Daftar Isi
@@ -60,11 +58,7 @@ World Youth Day (WYD) 2023 di Lisbon merupakan salah satu acara utama dalam perj
 
 ## 3. Kapan sebaiknya saya mendaftar?
 
-Daftar sekarang! Pendaftaran dibuka tanggal **17 Mei 2022**. 
-
-Ada diskon _early-bird_ sebesar **US$200** bagi **20 pendaftar pertama** yang mendaftar paling lambat tanggal **1 Agustus 2022**.
-
-Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
+Daftar sekarang! Pendaftaran telah dibuka sejak tanggal **17 Mei 2022**. Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
 
 ## 4. Mengapa sebaiknya saya mendaftar sedini mungkin?
 
