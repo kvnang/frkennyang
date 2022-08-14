@@ -2,17 +2,17 @@
 title: Predestination and Free Will
 featuredImage: god.jpg
 format: Article
-date: 2022-08-15
+date: 2022-08-19
 category:
   - Theology
   - Grace
-excerpt: Article on predestination; its appearance in Scripture; exposition of theologians like Augustine, Aquinas, and Luther; Calvin's heresy of double predestination; and Catholic dogmatic affirmations; golden mean between grace and merit; the characteristics of predestination.
+excerpt: In this article, I go over the notion of predestination; its appearance in Scripture; the exposition of theologians such as Augustine, Aquinas, and Luther; Calvin's heresy of double predestination; Catholic dogmatic affirmations; the golden mean between grace and merit; and the characteristics of predestination.
 ---
 ## What is Predestination?
 
 'To predestine' (Latin, *prae* + *destinare*) means to direct or determine something beforehand. Predestination in general refers to **every decree by which God orders from eternity all temporal events, especially those influenced by human free will.** Temporal events include all historical facts (e.g., the fall of the Roman Empire) and all turning points in salvation history (e.g., the election of Mary as the Mother of God). 
 
-In particular, predestination is "**the ordering of some persons towards eternal salvation, existing in the divine mind**."[^1] Predestination as well as reprobation are parts of God's providence.[^2]
+In particular, predestination is "**the ordering of some persons towards eternal salvation, existing in the divine mind**."[^1] Both predestination and reprobation are parts of God's providence.[^2]
 
 ## Predestination in Scripture
 
