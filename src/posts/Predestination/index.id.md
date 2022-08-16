@@ -24,7 +24,7 @@ Kata kerja 'menentukan' (Inggris, *to predestine*; Yunani, *prooridzo*) secara h
 
 > Tetapi yang kami beritakan ialah hikmat Allah yang tersembunyi dan rahasia, yang sebelum dunia dijadikan, telah disediakan *[prooridzo]* Allah bagi kemuliaan kita (1Kor 2:7).
 
-> <sup>3</sup> Terpujilah Allah dan Bapa Tuhan kita Yesus Kristus yang dalam Kristus telah mengaruniakan kepada kita segala berkat rohani di dalam sorga. <sup>4</sup> Sebab di dalam Dia Allah telah memilih kita sebelum dunia dijadikan, supaya kita kudus dan tak bercacat di hadapan-Nya. <sup>5</sup> Dalam kasih Ia telah menentukan kita dari semula oleh Yesus Kristus untuk menjadi anak-anak-Nya, sesuai dengan kerelaan kehendak-Nya, <sup>6</sup> supaya terpujilah kasih karunia-Nya yang mulia, yang dikaruniakan-Nya kepada kita di dalam Dia, yang dikasihi-Nya (Ef 1:3–6).
+> <sup>3</sup> Terpujilah Allah dan Bapa Tuhan kita Yesus Kristus yang dalam Kristus telah mengaruniakan kepada kita segala berkat rohani di dalam sorga. <sup>4</sup> Sebab di dalam Dia Allah telah memilih kita sebelum dunia dijadikan, supaya kita kudus dan tak bercacat di hadapan-Nya. <sup>5</sup> Dalam kasih Ia telah menentukan *[prooridzo]* kita dari semula oleh Yesus Kristus untuk menjadi anak-anak-Nya, sesuai dengan kerelaan kehendak-Nya, <sup>6</sup> supaya terpujilah kasih karunia-Nya yang mulia, yang dikaruniakan-Nya kepada kita di dalam Dia, yang dikasihi-Nya (Ef 1:3–6).
 
 Predestinasi muncul secara konseptual, misalnya, dalam Matius 22:14, Matius 25:34, dan 1 Petrus 1:1–2.
 
