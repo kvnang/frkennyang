@@ -18,9 +18,8 @@ const FooterStyles = styled.footer`
     text-align: right;
   }
 
-  .footer-light & {
+  .page-contents & {
     background-color: var(--offwhite);
-    /* color: var(--black); */
 
     .container {
       border-color: var(--offwhite-light);

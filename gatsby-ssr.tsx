@@ -18,9 +18,7 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({
 
   const pageSlug = slugify(pathname) || 'home';
   setBodyAttributes({
-    className: `page-${pageSlug} ${
-      pageSlug === 'contents' ? 'footer-light' : ''
-    }`,
+    className: `page-${pageSlug}`,
   });
 
   const scripts = [
