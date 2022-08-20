@@ -1,10 +1,8 @@
 import React, { useContext } from 'react';
-import styled from 'styled-components';
 import { graphql, HeadProps } from 'gatsby';
 import SEO from '../components/Seo';
 import InviteForm from '../components/InviteForm';
 import LangSwitcher from '../components/LangSwitcher';
-import { breakpoints } from '../styles/breakpoints';
 import { LangContext } from '../components/LangContext';
 
 interface Props {
@@ -18,37 +16,6 @@ interface Props {
   };
 }
 
-const BodyStyles = styled.main`
-  .inner {
-    --width-xs: 12;
-    --width-md: 8;
-    --offset-md: 2;
-    --width-lg: 6;
-    --offset-lg: 3;
-  }
-
-  .section-title {
-    position: relative;
-  }
-`;
-
-const IntroStyles = styled.div`
-  position: relative;
-
-  .language-switcher {
-    margin-bottom: 1rem;
-
-    @media ${breakpoints.tabletL} {
-      position: absolute;
-      left: -3rem;
-      top: 0.5rem;
-    }
-  }
-  .text-content {
-    margin-top: 0 !important;
-  }
-`;
-
 export default function InvitePage({ data }: Props) {
   const { lang } = useContext(LangContext);
 
@@ -58,23 +25,23 @@ export default function InvitePage({ data }: Props) {
   const html = lang === 'id' && idHTML ? idHTML : enHTML;
 
   return (
-    <BodyStyles>
+    <main className="main">
       <section className="container page-p-t section-p-b">
         <div className="row">
           <div className="col inner">
-            <IntroStyles>
+            <div className="intro">
               <LangSwitcher shouldNavigate={false} vertical />
               <div
                 // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{ __html: html }}
                 className="text-content"
               />
-            </IntroStyles>
+            </div>
             <InviteForm />
           </div>
         </div>
       </section>
-    </BodyStyles>
+    </main>
   );
 }
 

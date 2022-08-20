@@ -1,0 +1,30 @@
+.main {
+  .inner {
+    --width-xs: 12;
+    --width-md: 8;
+    --offset-md: 2;
+    --width-lg: 6;
+    --offset-lg: 3;
+  }
+
+  .section-title {
+    position: relative;
+  }
+}
+
+.intro {
+  position: relative;
+
+  .language-switcher {
+    margin-bottom: 1rem;
+
+    @include breakpoint($tablet-lg) {
+      position: absolute;
+      left: -3rem;
+      top: 0.5rem;
+    }
+  }
+  .text-content {
+    margin-top: 0 !important;
+  }
+}

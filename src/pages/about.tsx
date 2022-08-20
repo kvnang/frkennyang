@@ -1,8 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import styled from 'styled-components';
 import { graphql, HeadProps } from 'gatsby';
-import { titleLine } from '../styles/Typography';
 import SEO from '../components/Seo';
 
 interface Props {
@@ -12,61 +10,6 @@ interface Props {
     };
   };
 }
-
-const AboutStyles = styled.main`
-  h2 {
-    ${titleLine()}
-  }
-`;
-
-const IntroStyles = styled.section`
-  .img {
-    --width-xs: 6;
-    --offset-xs: 0;
-    --width-sm: 3;
-    --width-md: 4;
-    --offset-md: 1;
-
-    margin-bottom: 2.5rem;
-
-    .img-inner {
-      position: relative;
-      z-index: 0;
-
-      &::before {
-        content: '';
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        z-index: -1;
-        bottom: -1rem;
-        right: -1rem;
-        background-color: var(--grey);
-        opacity: 0.25;
-      }
-    }
-  }
-  .text {
-    --width-xs: 12;
-    --offset-xs: 0;
-    --width-sm: 8;
-    --offset-sm: 1;
-    --width-md: 5;
-    --offset-md: 1;
-  }
-`;
-
-const BodyStyles = styled.section`
-  .inner {
-    --width-xs: 12;
-    --width-md: 6;
-    --offset-md: 3;
-  }
-
-  .section-title {
-    position: relative;
-  }
-`;
 
 export default function AboutPage({ data }: Props) {
   if (!data.markdownRemark?.html) {
@@ -80,8 +23,8 @@ export default function AboutPage({ data }: Props) {
   const bodyHTML = splitHTML.join('');
 
   return (
-    <AboutStyles>
-      <IntroStyles className="page-p-t section-p-b">
+    <main>
+      <section className="page-p-t section-p-b intro">
         <div className="container">
           <div className="row">
             <div className="img col">
@@ -98,8 +41,8 @@ export default function AboutPage({ data }: Props) {
             </div>
           </div>
         </div>
-      </IntroStyles>
-      <BodyStyles className="section-p-b">
+      </section>
+      <section className="section-p-b body">
         <div className="container">
           <div className="row">
             <div className="col inner">
@@ -111,8 +54,8 @@ export default function AboutPage({ data }: Props) {
             </div>
           </div>
         </div>
-      </BodyStyles>
-    </AboutStyles>
+      </section>
+    </main>
   );
 }
 

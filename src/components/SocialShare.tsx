@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -13,46 +12,9 @@ interface Props {
   label?: string;
 }
 
-const SocialShareStyles = styled.div`
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-
-  .label {
-    margin-right: 1rem;
-  }
-
-  ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: -0.75rem;
-
-    li {
-      padding: 0.25rem;
-      a {
-        display: flex;
-        padding: 0.5rem;
-        &:hover,
-        &:focus {
-          svg {
-            color: var(--gold);
-          }
-        }
-      }
-
-      svg {
-        height: 1rem;
-        width: auto;
-        transition: var(--transition);
-      }
-    }
-  }
-`;
-
 export default function SocialShare({ title, url, label }: Props) {
   return (
-    <SocialShareStyles className="post-share">
+    <div className="post-share">
       {label && <span className="label small">{label}</span>}
       <div className="list-wrapper">
         <ul>
@@ -98,6 +60,6 @@ export default function SocialShare({ title, url, label }: Props) {
           </li>
         </ul>
       </div>
-    </SocialShareStyles>
+    </div>
   );
 }

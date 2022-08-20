@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { SubmitHandler, useForm } from 'react-hook-form';
-import styled from 'styled-components';
 import { FormMessageTypes } from '../types';
 import FormSubmitButton from './FormSubmitButton';
 import { SnackbarContext } from './SnackbarContext';
@@ -14,15 +13,6 @@ interface Inputs {
   title?: string; // Honeypot
 }
 
-const FormStyles = styled.div`
-  margin-top: 3.5rem;
-
-  button[type='submit'] {
-    margin-left: auto;
-    display: block;
-  }
-`;
-
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
   const {
@@ -30,7 +20,7 @@ export default function ContactForm() {
     handleSubmit,
     reset,
     formState: { errors },
-  } = useForm();
+  } = useForm<Inputs>();
 
   const [formMessage, setFormMessage] = useState<FormMessageTypes>({
     status: 'success',
@@ -95,7 +85,7 @@ export default function ContactForm() {
   }, [formMessage, addSnackbar, removeSnackbar]);
 
   return (
-    <FormStyles>
+    <div className="contact-form">
       <form
         onSubmit={handleSubmit(onSubmit)}
         method="POST"
@@ -160,6 +150,6 @@ export default function ContactForm() {
           </div>
         </div>
       </form>
-    </FormStyles>
+    </div>
   );
 }

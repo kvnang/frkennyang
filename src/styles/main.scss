@@ -1,0 +1,37 @@
+@use 'sass:math';
+
+@import 'utilities/mixins';
+@import 'utilities/variables';
+
+@import 'elements/commons';
+@import 'elements/typography';
+@import 'elements/footer';
+@import 'elements/social-list';
+
+.page-404 {
+  @import 'pages/404';
+}
+
+.page-home {
+  @import 'pages/home';
+}
+
+.page-about {
+  @import 'pages/about';
+}
+
+.page-invite {
+  @import 'pages/invite';
+}
+
+.page-cv {
+  @import 'pages/cv';
+}
+
+.single-post {
+  @import 'pages/single-post';
+}
+
+.page-contents {
+  @import 'pages/contents';
+}
