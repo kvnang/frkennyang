@@ -1,5 +1,9 @@
 import React from 'react';
-import { connectStateResults, Pagination } from 'react-instantsearch-dom';
+import {
+  useHits,
+  Pagination,
+  UseHitsProps,
+} from 'react-instantsearch-hooks-web';
 import styled from 'styled-components';
 import PostEntry, { PostEntrySkeleton } from '../PostEntry';
 import { PostProps } from '../../types';
@@ -93,8 +97,10 @@ const PaginationStyles = styled.div`
   }
 `;
 
-const Hits = ({ searchResults }: Props) => {
-  if (!searchResults) {
+function Hits(props: UseHitsProps) {
+  const { results } = useHits(props);
+
+  if (!results) {
     return (
       <WrapperStyles>
         <ul>
@@ -105,14 +111,16 @@ const Hits = ({ searchResults }: Props) => {
       </WrapperStyles>
     );
   }
-  const { hits, nbHits, hitsPerPage } = searchResults;
+
+  const { hits, nbHits, hitsPerPage } = results;
+
   return (
     <>
       <WrapperStyles>
         <ul>
           {!!hits.length &&
             hits.map((hit) => (
-              <PostEntry key={hit.id} post={hit} format="list" />
+              <PostEntry key={hit.objectID} post={hit} format="list" />
             ))}
           {!hits.length && (
             <p>
@@ -129,6 +137,6 @@ const Hits = ({ searchResults }: Props) => {
       )}
     </>
   );
-};
+}
 
-export default connectStateResults(Hits);
+export default Hits;

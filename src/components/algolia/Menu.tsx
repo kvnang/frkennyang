@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { connectMenu } from 'react-instantsearch-dom';
+import { MenuProps, useMenu } from 'react-instantsearch-hooks-web';
 import styled from 'styled-components';
 import { LangContext } from '../LangContext';
 
@@ -59,7 +59,8 @@ const MenuStyles = styled.div`
   }
 `;
 
-const Menu = ({ items, refine }: Props) => {
+function Menu(props: MenuProps) {
+  const { refine, items } = useMenu(props);
   const { setLang } = useContext(LangContext);
   return (
     <MenuStyles className="menu">
@@ -83,6 +84,6 @@ const Menu = ({ items, refine }: Props) => {
       </ul>
     </MenuStyles>
   );
-};
+}
 
-export default connectMenu(Menu);
+export default Menu;
