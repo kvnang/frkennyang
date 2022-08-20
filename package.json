@@ -50,7 +50,6 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.34.2",
     "react-icons": "^4.4.0",
-    "react-instantsearch-dom": "^6.31.1",
     "react-instantsearch-hooks-web": "^6.31.1",
     "styled-components": "^5.3.5"
   },
@@ -63,7 +62,6 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/react-helmet": "^6.1.5",
-    "@types/react-instantsearch-dom": "^6.12.3",
     "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
