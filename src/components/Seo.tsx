@@ -61,7 +61,7 @@ export default function SEO({
   return (
     <>
       {/* Primary Meta Tags */}
-      <title>{`${seoTitle} | ${site.siteMetadata.title}`}</title>
+      <title key="document-title">{`${seoTitle} | ${site.siteMetadata.title}`}</title>
       <meta name="title" content={seoTitle} />
       <meta name="description" content={metaDescription} />
       <meta name="keywords" content={metaKeywords} />

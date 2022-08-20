@@ -616,7 +616,7 @@ export default function InviteForm() {
                     aria-invalid={!!errors.attendance}
                     {...register('attendance', { required: true })}
                   >
-                    <option value="" selected disabled>
+                    <option value="" disabled>
                       Select range
                     </option>
                     <option value="1–20">1–20</option>
@@ -640,7 +640,7 @@ export default function InviteForm() {
                     aria-invalid={!!errors.age}
                     {...register('age', { required: true })}
                   >
-                    <option value="" selected disabled>
+                    <option value="" disabled>
                       Select range
                     </option>
                     <option value="1-12">1-12</option>
