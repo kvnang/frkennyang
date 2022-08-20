@@ -1,0 +1,62 @@
+/*********************************
+SIMPLE BREAKPOINT
+*********************************/
+
+$desktop-lg: 2560px;
+$desktop-sm: 1920px;
+$laptop-lg: 1750px;
+$laptop-md: 1440px;
+$laptop-sm: 1025px;
+$tablet-lg: 1024px;
+$tablet-sm: 768px;
+$mobile-lg: 600px;
+$mobile-md: 375px;
+$mobile-sm: 320px;
+
+@mixin breakpoint($point) {
+  @if $point == 'mobile-only' {
+    @media (max-width: #{$tablet-sm - 1px}) {
+      @content;
+    }
+  } @else if $point == 'tablet-only' {
+    @media (min-width: $tablet-sm) and (max-width: #{$laptop-sm - 1px}) {
+      @content;
+    }
+  } @else if $point == 'mobile-and-tablet' {
+    @media (max-width: #{$laptop-sm - 1px}) {
+      @content;
+    }
+  } @else {
+    @media (min-width: $point) {
+      @content;
+    }
+  }
+}
+
+@mixin title-line {
+  position: relative;
+
+  &::before {
+    content: '';
+    width: calc(100% - 1rem);
+    height: 1px;
+    background: var(--grey);
+    position: absolute;
+    left: -100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@mixin inline-link {
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+  transition: color var(--transition);
+
+  &:hover,
+  &:focus {
+    color: var(--color-accent);
+  }
+}

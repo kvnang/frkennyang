@@ -1,0 +1,240 @@
+.intro {
+  background-color: var(--black);
+  position: relative;
+  z-index: 0;
+
+  .inner {
+    --width-xs: 12;
+    --width-md: 8;
+    --offset-md: 2;
+    --width-lg: 6;
+    --offset-lg: 3;
+  }
+
+  &::before {
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 200%;
+    background-color: var(--black);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.body {
+  background-color: var(--offwhite);
+
+  .inner {
+    --width-xs: 12;
+    --width-md: 8;
+    --offset-md: 2;
+    --width-lg: 6;
+    --offset-lg: 3;
+  }
+
+  .section-title {
+    position: relative;
+  }
+}
+
+.search-filter {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  max-width: 700px;
+  margin: -0.5rem -1rem;
+
+  &__search,
+  &__menu {
+    padding: 0.5rem 1rem;
+  }
+
+  &__search {
+    flex: 1;
+    min-width: 300px;
+
+    .ais-SearchBox {
+      &-form {
+        position: relative;
+
+        input[type='search'] {
+          padding-right: 3rem;
+          text-overflow: ellipsis;
+
+          &::-webkit-search-cancel-button {
+            display: none;
+          }
+        }
+        button {
+          position: absolute;
+          right: 1rem;
+          top: 50%;
+          transform: translateY(-50%);
+
+          svg {
+            fill: var(--color-accent);
+            height: 1rem;
+            width: 1rem;
+          }
+
+          &[type='reset'] {
+            right: 3rem;
+
+            svg {
+              fill: var(--white);
+              height: 0.75rem;
+              width: 0.75rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__menu {
+    min-width: 100px;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+
+    &__inner {
+      display: flex;
+      justify-content: flex-end;
+
+      ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: -0.5rem -0.75rem;
+      }
+      li {
+        margin: 0.5rem 0;
+
+        line-height: 1;
+        text-align: center;
+
+        &:not(:last-child) {
+          position: relative;
+          border-right: 1px solid var(--grey);
+        }
+
+        &:hover {
+          button {
+            opacity: 1;
+          }
+        }
+
+        &.selected {
+          button {
+            opacity: 1;
+            font-weight: 600;
+          }
+        }
+
+        button {
+          opacity: 0.75;
+          padding: 0 0.75rem;
+          text-transform: uppercase;
+          transition: opacity var(--transition);
+        }
+      }
+    }
+
+    .ais-Menu {
+      &-count {
+        display: none;
+      }
+      &-list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: -0.5rem -0.75rem;
+      }
+      &-item {
+        padding: 0 0.75rem;
+        margin: 0.5rem 0;
+        text-transform: uppercase;
+        opacity: 0.75;
+        transition: opacity var(--transition);
+        line-height: 1;
+        text-align: center;
+
+        &:not(:last-child) {
+          position: relative;
+          border-right: 1px solid var(--grey);
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+
+        &--selected {
+          opacity: 1;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+.hits-wrapper {
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: calc(var(--post-gap) * -2) calc(var(--post-gap) * -1);
+  }
+}
+
+.hits-pagination {
+  margin-top: 2.5rem;
+
+  .ais-Pagination {
+    &-list {
+      list-style: none;
+      display: flex;
+      flex-flow: wrap;
+      align-items: center;
+      padding: 0;
+      margin: -0.5rem;
+    }
+    &-item {
+      padding: 0.5rem;
+
+      &--disabled {
+        span {
+          background-color: transparent;
+          color: var(--grey);
+          pointer-events: none;
+        }
+      }
+    }
+
+    &-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      height: 2rem;
+      background-color: var(--white);
+      color: var(--black);
+      transition: var(--transition);
+
+      &:hover {
+        background-color: var(--color-accent);
+        color: var(--white);
+      }
+
+      &--selected {
+        font-weight: bold;
+        cursor: auto;
+        &,
+        &:hover {
+          color: var(--color-accent);
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
