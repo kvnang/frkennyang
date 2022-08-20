@@ -16,7 +16,7 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({
 }) => {
   setHtmlAttributes({ lang: pathname.startsWith('/id/') ? 'id' : 'en' });
 
-  const pageSlug = slugify(pathname) || 'home';
+  const pageSlug = pathname === '/' ? 'home' : slugify(pathname);
   setBodyAttributes({
     className: `page-${pageSlug}`,
   });
