@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { LangContext } from './LangContext';
-import { untrailingSlashIt } from '../utils/helpers';
+import { unleadingSlashIt, untrailingSlashIt } from '../utils/helpers';
 
 interface Props {
   children?: React.ReactNode;
@@ -73,7 +73,9 @@ export default function SEO({
       <link
         rel="alternate"
         hrefLang={lang === 'id' ? 'en' : 'id'}
-        href={`${untrailingSlashIt(siteUrl)}/${localizedPathname}`}
+        href={`${untrailingSlashIt(siteUrl)}/${unleadingSlashIt(
+          localizedPathname
+        )}`}
       />
       {/* Favicons */}
       <link rel="icon" type="image/svg+xml" href={`/${mainFavicon}.svg`} />
