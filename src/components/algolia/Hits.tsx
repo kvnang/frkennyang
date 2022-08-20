@@ -98,9 +98,11 @@ const PaginationStyles = styled.div`
 `;
 
 function Hits(props: UseHitsProps) {
-  const { results } = useHits(props);
-
-  if (!results) {
+  const p = useHits(props);
+  console.log(p);
+  const { results } = p;
+  // console.log(results);
+  if (!results?.hits?.length && !results?.processingTimeMS) {
     return (
       <WrapperStyles>
         <ul>
