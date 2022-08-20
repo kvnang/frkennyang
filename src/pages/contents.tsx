@@ -5,6 +5,7 @@ import {
   InstantSearch,
   SearchBox,
   Configure,
+  SortByProps,
   // Menu,
 } from 'react-instantsearch-hooks-web';
 import { HeadProps } from 'gatsby';
@@ -166,7 +167,17 @@ export default function ContentsPage() {
 
   return (
     <main>
-      <InstantSearch searchClient={searchClient} indexName="Posts">
+      <InstantSearch
+        searchClient={searchClient}
+        indexName="Posts"
+        initialUiState={{
+          Posts: {
+            menu: {
+              'fields.lang': lang || 'en',
+            },
+          },
+        }}
+      >
         <Configure hitsPerPage={9} />
         <IntroStyles className="page-p-t section-p-b">
           <div className="container">
@@ -182,11 +193,7 @@ export default function ContentsPage() {
                     <SearchBox placeholder="Search for articles, videos, etc..." />
                   </SearchStyles>
                   <MenuStyles className="menu">
-                    <Menu
-                      attribute="fields.lang"
-                      defaultRefinement={lang || 'en'}
-                      searchable={false}
-                    />
+                    <Menu attribute="fields.lang" sortBy={['name:asc']} />
                   </MenuStyles>
                 </SearchFilterStyles>
               </div>
