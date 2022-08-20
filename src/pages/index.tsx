@@ -1,8 +1,7 @@
-import { graphql, Link } from 'gatsby';
+import { HeadProps, Link } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
-import { Helmet } from 'react-helmet';
 import { breakpoints } from '../styles/breakpoints';
 import signature from '../assets/images/frk-signature.svg';
 import Social from '../components/Social';
@@ -243,9 +242,7 @@ const ContactStyles = styled.section`
 
 export default function HomePage() {
   return (
-    <main>
-      <SEO title="A Catholic Priest serving the Universal Church" />
-      <Helmet bodyAttributes={{ class: 'page-home' }} />
+    <main className="page-home">
       <HeroStyles>
         <div className="container">
           <div className="row">
@@ -317,5 +314,14 @@ export default function HomePage() {
         </div>
       </ContactStyles>
     </main>
+  );
+}
+
+export function Head({ location: { pathname } }: HeadProps) {
+  return (
+    <SEO
+      title="A Catholic Priest serving the Universal Church"
+      pathname={pathname}
+    />
   );
 }

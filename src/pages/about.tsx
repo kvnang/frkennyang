@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
-import { graphql } from 'gatsby';
+import { graphql, HeadProps } from 'gatsby';
 import { titleLine } from '../styles/Typography';
 import SEO from '../components/Seo';
 
@@ -81,10 +81,6 @@ export default function AboutPage({ data }: Props) {
 
   return (
     <AboutStyles>
-      <SEO
-        title="About"
-        description="Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America."
-      />
       <IntroStyles className="page-p-t section-p-b">
         <div className="container">
           <div className="row">
@@ -117,6 +113,16 @@ export default function AboutPage({ data }: Props) {
         </div>
       </BodyStyles>
     </AboutStyles>
+  );
+}
+
+export function Head({ location: { pathname } }: HeadProps) {
+  return (
+    <SEO
+      title="About"
+      description="Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America."
+      pathname={pathname}
+    />
   );
 }
 

@@ -1,11 +1,9 @@
 import { graphql, useStaticQuery, navigate } from 'gatsby';
 import React, { useContext } from 'react';
-import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router'; // eslint-disable-line import/no-unresolved
 import styled from 'styled-components';
-import { LangContext, LangType } from './LangContext';
+import { LangContext } from './LangContext';
 import { breakpoints } from '../styles/breakpoints';
-import { untrailingSlashIt } from '../utils/helpers';
 
 const LangSwitcherStyles = styled.div`
   display: inline-flex;
@@ -83,16 +81,10 @@ export default function LangSwitcher({
           path
         }
       }
-      site {
-        siteMetadata {
-          siteUrl
-        }
-      }
     }
   `);
 
   const allPosts: Array<{ path: string }> = query.allSitePage.nodes;
-  const { siteUrl } = query.site.siteMetadata;
 
   const localizedPathname = pathname.startsWith('/id/')
     ? pathname.replace('/id', '')
@@ -112,13 +104,6 @@ export default function LangSwitcher({
     <LangSwitcherStyles
       className={`language-switcher ${vertical ? 'vertical' : ''}`}
     >
-      <Helmet>
-        <link
-          rel="alternate"
-          hrefLang={lang === 'id' ? 'en' : 'id'}
-          href={`${untrailingSlashIt(siteUrl)}/${localizedPathname}`}
-        />
-      </Helmet>
       <ul>
         <li>
           <button

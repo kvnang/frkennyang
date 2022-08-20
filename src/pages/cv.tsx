@@ -1,8 +1,7 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
-import { Helmet } from 'react-helmet';
-import { graphql } from 'gatsby';
+import { graphql, HeadProps } from 'gatsby';
 import {
   Accordion,
   AccordionItem,
@@ -239,12 +238,7 @@ export default function CvPage({ data }: Props) {
   });
 
   return (
-    <main>
-      <SEO
-        title="Curriculum Vitae"
-        description="Fr. Kenny's online Curriculum Vitae features his biograhical data and educational history, as well as professional experience."
-      />
-      <Helmet bodyAttributes={{ class: 'page-cv' }} />
+    <main className="page-cv">
       <IntroStyles className="page-p-t section-p-b">
         <div className="inner">
           <div className="container">
@@ -313,6 +307,16 @@ export default function CvPage({ data }: Props) {
         </div>
       </BodyStyles>
     </main>
+  );
+}
+
+export function Head({ location: { pathname } }: HeadProps) {
+  return (
+    <SEO
+      title="Curriculum Vitae"
+      description="Fr. Kenny's online Curriculum Vitae features his biograhical data and educational history, as well as professional experience."
+      pathname={pathname}
+    />
   );
 }
 
