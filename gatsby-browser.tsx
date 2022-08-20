@@ -21,6 +21,6 @@ export const onRouteUpdate: GatsbyBrowser['onRouteUpdate'] = ({
   );
 
   // set body attribute
-  const pageSlug = slugify(pathname) || 'home';
-  document.body.className = `page-${pageSlug}`;
+  const pageSlug = pathname === '/' ? 'home' : slugify(pathname);
+  document.body.className = `page-${pageSlug} `;
 };
