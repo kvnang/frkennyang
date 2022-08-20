@@ -9,13 +9,3 @@ export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({
   element,
   props,
 }) => <Layout {...props}>{element}</Layout>;
-
-export const onRouteUpdate: GatsbyBrowser['onRouteUpdate'] = ({
-  location: { pathname },
-}) => {
-  // set html attribute
-  document.documentElement.setAttribute(
-    'lang',
-    pathname.startsWith('/id/') ? 'id' : 'en'
-  );
-};
