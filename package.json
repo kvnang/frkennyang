@@ -50,7 +50,6 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.34.2",
     "react-icons": "^4.4.0",
-    "react-instantsearch-hooks-server": "^6.31.1",
     "react-instantsearch-hooks-web": "^6.31.1",
     "styled-components": "^5.3.5"
   },
