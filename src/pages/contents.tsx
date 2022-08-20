@@ -166,7 +166,6 @@ export default function ContentsPage() {
 
   return (
     <main>
-      {/* <Helmet bodyAttributes={{ class: 'page-contents footer-light' }} /> */}
       <InstantSearch searchClient={searchClient} indexName="Posts">
         <Configure hitsPerPage={9} />
         <IntroStyles className="page-p-t section-p-b">
