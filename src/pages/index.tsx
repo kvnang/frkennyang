@@ -242,7 +242,7 @@ const ContactStyles = styled.section`
 
 export default function HomePage() {
   return (
-    <main className="page-home">
+    <main>
       <HeroStyles>
         <div className="container">
           <div className="row">

@@ -238,7 +238,7 @@ export default function CvPage({ data }: Props) {
   });
 
   return (
-    <main className="page-cv">
+    <main>
       <IntroStyles className="page-p-t section-p-b">
         <div className="inner">
           <div className="container">
