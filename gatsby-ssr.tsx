@@ -1,6 +1,7 @@
 import type { GatsbySSR } from 'gatsby';
 import React from 'react';
 import Layout from './src/components/Layout';
+import { slugify } from './src/utils/helpers';
 
 export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({
   element,
@@ -8,8 +9,20 @@ export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({
 }) => <Layout {...props}>{element}</Layout>;
 
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({
+  pathname,
+  setBodyAttributes,
   setPreBodyComponents,
+  setHtmlAttributes,
 }) => {
+  setHtmlAttributes({ lang: pathname.startsWith('/id/') ? 'id' : 'en' });
+
+  const pageSlug = slugify(pathname) || 'home';
+  setBodyAttributes({
+    className: `page-${pageSlug} ${
+      pageSlug === 'contents' ? 'footer-light' : ''
+    }`,
+  });
+
   const scripts = [
     <script
       key="preferred-lang-script"

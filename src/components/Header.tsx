@@ -1,6 +1,5 @@
 import { Link } from 'gatsby';
 import React, { MouseEvent, useEffect, useState } from 'react';
-import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { breakpoints } from '../styles/breakpoints';
 import Logo from './Logo';
@@ -185,43 +184,46 @@ export default function Header() {
     setMobileMenuActive(!mobileMenuActive);
   }
 
+  useEffect(() => {
+    if (mobileMenuActive) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+  }, [mobileMenuActive]);
+
   return (
-    <>
-      <HeaderStyles>
-        <Helmet
-          htmlAttributes={{ class: mobileMenuActive ? 'no-scroll' : '' }}
-        />
-        <div className="container">
-          <Link to="/" className="logo">
-            <Logo />
-          </Link>
-          <MenuStyles>
-            <Menu />
-          </MenuStyles>
-          <MobileMenuButtonStyles>
-            <button
-              type="button"
-              className={`menu-toggle ${mobileMenuActive ? `active` : ``}`}
-              onClick={handleMenuHamburgerClick}
-              aria-label="Toggle Mobile Menu"
-            >
-              <div className="hamburger" tabIndex={-1}>
-                <span />
-                <span />
-                <span />
-              </div>
-            </button>
-          </MobileMenuButtonStyles>
-          <MobileHeaderStyles className={mobileMenuActive ? `active` : ``}>
-            <div className="container">
-              <MobileMenuStyles>
-                <Menu setMobileMenuActive={setMobileMenuActive} isMobile />
-                <Social />
-              </MobileMenuStyles>
+    <HeaderStyles>
+      <div className="container">
+        <Link to="/" className="logo">
+          <Logo />
+        </Link>
+        <MenuStyles>
+          <Menu />
+        </MenuStyles>
+        <MobileMenuButtonStyles>
+          <button
+            type="button"
+            className={`menu-toggle ${mobileMenuActive ? `active` : ``}`}
+            onClick={handleMenuHamburgerClick}
+            aria-label="Toggle Mobile Menu"
+          >
+            <div className="hamburger" tabIndex={-1}>
+              <span />
+              <span />
+              <span />
             </div>
-          </MobileHeaderStyles>
-        </div>
-      </HeaderStyles>
-    </>
+          </button>
+        </MobileMenuButtonStyles>
+        <MobileHeaderStyles className={mobileMenuActive ? `active` : ``}>
+          <div className="container">
+            <MobileMenuStyles>
+              <Menu setMobileMenuActive={setMobileMenuActive} isMobile />
+              <Social />
+            </MobileMenuStyles>
+          </div>
+        </MobileHeaderStyles>
+      </div>
+    </HeaderStyles>
   );
 }

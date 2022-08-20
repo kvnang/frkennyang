@@ -1,5 +1,4 @@
 import React, { createContext, useEffect, useState } from 'react';
-import { Helmet } from 'react-helmet';
 
 export type LangType = 'en' | 'id';
 
@@ -42,9 +41,14 @@ export function LangProvider({ children }: any) {
     window.localStorage.setItem('lang', newLang);
   }
 
+  useEffect(() => {
+    if (lang) {
+      document.documentElement.setAttribute('lang', lang);
+    }
+  }, [lang]);
+
   return (
     <LangContext.Provider value={{ lang, setLang }}>
-      {lang && <Helmet htmlAttributes={{ lang }} />}
       {children}
     </LangContext.Provider>
   );

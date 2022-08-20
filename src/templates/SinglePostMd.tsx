@@ -1,10 +1,8 @@
-import { graphql } from 'gatsby';
+import { graphql, HeadProps } from 'gatsby';
 import React, { useContext, useEffect } from 'react';
 import getYouTubeId from 'get-youtube-id';
 import styled from 'styled-components';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import { Helmet } from 'react-helmet';
-import { MdOutlineWarning } from 'react-icons/md';
 import { formatDate } from '../utils/helpers';
 import { breakpoints } from '../styles/breakpoints';
 import LangSwitcher from '../components/LangSwitcher';
@@ -14,14 +12,17 @@ import SocialShare from '../components/SocialShare';
 import { LangContext, LangType } from '../components/LangContext';
 import { IndonesiaFlag, UsFlag } from '../components/Flags';
 
+interface DataProps {
+  post: PostProps;
+}
+
+interface PageContextProps {
+  lang: LangType;
+}
 interface Props {
   location: Location;
-  data: {
-    post: PostProps;
-  };
-  pageContext: {
-    lang: LangType;
-  };
+  data: DataProps;
+  pageContext: PageContextProps;
 }
 
 const TitleStyles = styled.div`
@@ -395,79 +396,87 @@ export default function SinglePost({
   if (post.frontmatter.date) meta.push(formatDate(post.frontmatter.date));
   if (categories?.length) meta.push(categories.join(', '));
 
+  useEffect(() => {
+    if (contentLang) {
+      document.documentElement.setAttribute(
+        'lang',
+        pageLang === contentLang ? contentLang : lang || contentLang
+      );
+    }
+  }, [contentLang]);
+
   return (
-    <>
-      <SEO
-        title={post.frontmatter.title}
-        description={
-          post.frontmatter.excerpt
-            ? post.frontmatter.excerpt
-            : post.excerpt || ''
-        }
-        image={post.frontmatter.featuredImage?.publicURL}
-      />
-      {contentLang && (
-        <Helmet
-          htmlAttributes={{
-            lang: pageLang === contentLang ? contentLang : lang || contentLang,
-          }}
-        />
-      )}
-      <SinglePostStyles className="page-p-t page-p-b">
-        <section className="container">
-          <div className="inner">
-            {post.frontmatter.lang && post.frontmatter.lang !== lang && (
-              <div className="only-available-in">
-                {post.frontmatter.lang === 'en' && <UsFlag />}
-                {post.frontmatter.lang === 'id' && <IndonesiaFlag />}
-                {lang === 'en' && (
-                  <p>
-                    This article is only available in{' '}
-                    <strong>Bahasa Indonesia</strong>.
-                  </p>
-                )}
-                {lang === 'id' && (
-                  <p>
-                    Artikel ini hanya tersedia di dalam{' '}
-                    <strong>bahasa Ingris</strong>.
-                  </p>
-                )}
-              </div>
-            )}
-            <div className="post-header">
-              <TitleStyles>
-                <LangSwitcher vertical />
-                <h1 className="post-title">{post.frontmatter.title}</h1>
-              </TitleStyles>
-              <div className="post-byline">
-                <div className="post-meta">
-                  <p>
-                    <small>{meta.join(' ∙ ')}</small>
-                  </p>
-                </div>
-                <SocialShare title={post.frontmatter.title} url={url} />
-              </div>
-            </div>
-            <div className="post-img">{featuredImage}</div>
-            <PostContentStyles className="text-content">
-              {post.html ? (
-                // eslint-disable-next-line react/no-danger
-                <div dangerouslySetInnerHTML={{ __html: post.html }} />
-              ) : (
-                ''
+    <SinglePostStyles className="page-p-t page-p-b">
+      <section className="container">
+        <div className="inner">
+          {post.frontmatter.lang && post.frontmatter.lang !== lang && (
+            <div className="only-available-in">
+              {post.frontmatter.lang === 'en' && <UsFlag />}
+              {post.frontmatter.lang === 'id' && <IndonesiaFlag />}
+              {lang === 'en' && (
+                <p>
+                  This article is only available in{' '}
+                  <strong>Bahasa Indonesia</strong>.
+                </p>
               )}
-            </PostContentStyles>
-            <div className="post-footer">
-              <SocialShare
-                title={post.frontmatter.title}
-                url={url}
-                label="Share:"
-              />
+              {lang === 'id' && (
+                <p>
+                  Artikel ini hanya tersedia di dalam{' '}
+                  <strong>bahasa Ingris</strong>.
+                </p>
+              )}
+            </div>
+          )}
+          <div className="post-header">
+            <TitleStyles>
+              <LangSwitcher vertical />
+              <h1 className="post-title">{post.frontmatter.title}</h1>
+            </TitleStyles>
+            <div className="post-byline">
+              <div className="post-meta">
+                <p>
+                  <small>{meta.join(' ∙ ')}</small>
+                </p>
+              </div>
+              <SocialShare title={post.frontmatter.title} url={url} />
             </div>
           </div>
-        </section>
-      </SinglePostStyles>
-    </>
+          <div className="post-img">{featuredImage}</div>
+          <PostContentStyles className="text-content">
+            {post.html ? (
+              // eslint-disable-next-line react/no-danger
+              <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            ) : (
+              ''
+            )}
+          </PostContentStyles>
+          <div className="post-footer">
+            <SocialShare
+              title={post.frontmatter.title}
+              url={url}
+              label="Share:"
+            />
+          </div>
+        </div>
+      </section>
+    </SinglePostStyles>
+  );
+}
+
+export function Head({
+  location: { pathname },
+  data: { post },
+  pageContext: { lang: pageLang },
+}: HeadProps<DataProps, PageContextProps>) {
+  return (
+    <SEO
+      title={post.frontmatter.title}
+      description={
+        post.frontmatter.excerpt ? post.frontmatter.excerpt : post.excerpt || ''
+      }
+      image={post.frontmatter.featuredImage?.publicURL}
+      pathname={pathname}
+    />
   );
 }
 

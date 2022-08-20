@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import { graphql } from 'gatsby';
+import { graphql, HeadProps } from 'gatsby';
 import SEO from '../components/Seo';
 import InviteForm from '../components/InviteForm';
 import LangSwitcher from '../components/LangSwitcher';
@@ -58,29 +58,33 @@ export default function InvitePage({ data }: Props) {
   const html = lang === 'id' && idHTML ? idHTML : enHTML;
 
   return (
-    <>
-      <SEO
-        title="Invite to Speak"
-        description="Fr. Kenny is open to invitation to speak at your event on dogmatic theology, faith, spirituality, and others. Fill out the online form to submit your request."
-      />
-      <BodyStyles>
-        <section className="container page-p-t section-p-b">
-          <div className="row">
-            <div className="col inner">
-              <IntroStyles>
-                <LangSwitcher shouldNavigate={false} vertical />
-                <div
-                  // eslint-disable-next-line react/no-danger
-                  dangerouslySetInnerHTML={{ __html: html }}
-                  className="text-content"
-                />
-              </IntroStyles>
-              <InviteForm />
-            </div>
+    <BodyStyles>
+      <section className="container page-p-t section-p-b">
+        <div className="row">
+          <div className="col inner">
+            <IntroStyles>
+              <LangSwitcher shouldNavigate={false} vertical />
+              <div
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{ __html: html }}
+                className="text-content"
+              />
+            </IntroStyles>
+            <InviteForm />
           </div>
-        </section>
-      </BodyStyles>
-    </>
+        </div>
+      </section>
+    </BodyStyles>
+  );
+}
+
+export function Head({ location: { pathname } }: HeadProps) {
+  return (
+    <SEO
+      title="Invite to Speak"
+      description="Fr. Kenny is open to invitation to speak at your event on dogmatic theology, faith, spirituality, and others. Fill out the online form to submit your request."
+      pathname={pathname}
+    />
   );
 }
 

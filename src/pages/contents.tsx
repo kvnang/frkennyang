@@ -6,8 +6,8 @@ import {
   SearchBox,
   Configure,
   // Menu,
-} from 'react-instantsearch-dom';
-import { Helmet } from 'react-helmet';
+} from 'react-instantsearch-hooks-web';
+import { HeadProps } from 'gatsby';
 import Menu from '../components/algolia/Menu';
 import Hits from '../components/algolia/Hits';
 import SEO from '../components/Seo';
@@ -166,11 +166,7 @@ export default function ContentsPage() {
 
   return (
     <main>
-      <SEO
-        title="Contents"
-        description="Browse Fr. Kenny's latest works, available in both English and Bahasa Indonesia."
-      />
-      <Helmet bodyAttributes={{ class: 'page-contents footer-light' }} />
+      {/* <Helmet bodyAttributes={{ class: 'page-contents footer-light' }} /> */}
       <InstantSearch searchClient={searchClient} indexName="Posts">
         <Configure hitsPerPage={9} />
         <IntroStyles className="page-p-t section-p-b">
@@ -184,11 +180,7 @@ export default function ContentsPage() {
                 </p>
                 <SearchFilterStyles>
                   <SearchStyles className="search">
-                    <SearchBox
-                      translations={{
-                        placeholder: 'Search for articles, videos, etc...',
-                      }}
-                    />
+                    <SearchBox placeholder="Search for articles, videos, etc..." />
                   </SearchStyles>
                   <MenuStyles className="menu">
                     <Menu
@@ -213,5 +205,15 @@ export default function ContentsPage() {
         </BodyStyles>
       </InstantSearch>
     </main>
+  );
+}
+
+export function Head({ location: { pathname } }: HeadProps) {
+  return (
+    <SEO
+      title="Contents"
+      description="Browse Fr. Kenny's latest works, available in both English and Bahasa Indonesia."
+      pathname={pathname}
+    />
   );
 }

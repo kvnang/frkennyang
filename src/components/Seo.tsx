@@ -1,24 +1,24 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import { useLocation } from '@reach/router'; // eslint-disable-line import/no-unresolved
+import React, { useContext } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { LangContext } from './LangContext';
+import { untrailingSlashIt } from '../utils/helpers';
 
 interface Props {
   children?: React.ReactNode;
+  pathname: string;
   title: string;
   description?: string;
   canonical?: string;
   image?: string;
-  lang?: string;
 }
 
 export default function SEO({
   children,
+  pathname,
   title,
   description,
   canonical,
   image,
-  lang,
 }: Props) {
   const { site } = useStaticQuery(graphql`
     query {
@@ -32,14 +32,13 @@ export default function SEO({
       }
     }
   `);
-  const { pathname } = useLocation() || '';
+
+  const { siteUrl } = site.siteMetadata;
 
   const metaDescription = description || site.siteMetadata.description;
   const metaKeywords = site.siteMetadata.keywords.join(', ');
-  const url = `${site.siteMetadata.siteUrl}${pathname}`;
-  const canonicalUrl = canonical
-    ? `${site.siteMetadata.siteUrl}${canonical}`
-    : url;
+  const url = `${siteUrl}${pathname}`;
+  const canonicalUrl = canonical ? `${siteUrl}${canonical}` : url;
 
   const mainFavicon =
     process.env.NODE_ENV === 'development' ? 'favicon-dev' : 'favicon';
@@ -47,21 +46,35 @@ export default function SEO({
   let cardImage;
 
   if (image) {
-    cardImage = image.includes('http')
-      ? image
-      : `${site.siteMetadata.siteUrl}${image}`;
+    cardImage = image.includes('http') ? image : `${siteUrl}${image}`;
   }
+
+  const siteName = site.siteMetadata.title;
+  const seoTitle = title || siteName;
+
+  const localizedPathname = pathname.startsWith('/id/')
+    ? pathname.replace('/id', '')
+    : `/id${pathname}`;
+
+  const { lang } = useContext(LangContext);
+
   return (
-    <Helmet titleTemplate={`%s - ${site.siteMetadata.title}`}>
+    <>
       {/* Primary Meta Tags */}
-      <title>{title || site.siteMetadata.title}</title>
-      <meta name="title" content={title || site.siteMetadata.title} />
+      <title>{`${seoTitle} | ${site.siteMetadata.title}`}</title>
+      <meta name="title" content={seoTitle} />
       <meta name="description" content={metaDescription} />
       <meta name="keywords" content={metaKeywords} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta charSet="utf-8" />
       {/* Canonical */}
       <link rel="canonical" href={canonicalUrl} />
+      {/* Language */}
+      <link
+        rel="alternate"
+        hrefLang={lang === 'id' ? 'en' : 'id'}
+        href={`${untrailingSlashIt(siteUrl)}/${localizedPathname}`}
+      />
       {/* Favicons */}
       <link rel="icon" type="image/svg+xml" href={`/${mainFavicon}.svg`} />
       <link rel="icon" href={`/${mainFavicon}.ico`} sizes="32x32" />
@@ -80,15 +93,12 @@ export default function SEO({
         property="og:image"
         content={cardImage || `${site.siteMetadata.siteUrl}/opengraph.jpg`}
       />
-      <meta property="og:title" content={title || site.siteMetadata.title} />
-      <meta property="og:site_name" content={site.siteMetadata.title} />
+      <meta property="og:title" content={seoTitle} />
+      <meta property="og:site_name" content={siteName} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
       {/* twitter */}
-      <meta
-        property="twitter:title"
-        content={title || site.siteMetadata.title}
-      />
+      <meta property="twitter:title" content={seoTitle} />
       <meta property="twitter:url" content={url} />
       <meta property="twitter:description" content={metaDescription} />
       <meta property="twitter:card" content="summary" />
@@ -97,6 +107,6 @@ export default function SEO({
         content={cardImage || `${site.siteMetadata.siteUrl}/opengraph.jpg`}
       />
       {children}
-    </Helmet>
+    </>
   );
 }
