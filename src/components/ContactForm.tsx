@@ -89,11 +89,11 @@ export default function ContactForm() {
         onSubmit={handleSubmit(onSubmit)}
         method="POST"
         name="contact"
-        // netlify-honeypot="title"
-        // data-netlify="true"
+        netlify-honeypot="title"
+        data-netlify="true"
       >
         <input type="hidden" value="contact" {...register('form-name')} />
-        <div className="form-fields">
+        {/* <div className="form-fields">
           <div className="form-field half">
             <label htmlFor="name">
               <span className="visually-hidden">Name</span>
@@ -147,7 +147,7 @@ export default function ContactForm() {
           <div className="form-field submit">
             <FormSubmitButton loading={loading} title="Send" />
           </div>
-        </div>
+        </div> */}
       </form>
     </div>
   );
