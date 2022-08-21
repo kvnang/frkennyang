@@ -37,7 +37,7 @@ export default function InvitePage({ data }: Props) {
                 className="text-content"
               />
             </div>
-            <InviteForm />
+            {/* <InviteForm /> */}
           </div>
         </div>
       </section>
