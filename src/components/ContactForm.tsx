@@ -4,14 +4,14 @@ import React from 'react';
 // import FormSubmitButton from './FormSubmitButton';
 // import { SnackbarContext } from './SnackbarContext';
 
-interface Inputs {
-  [key: string]: string | undefined;
-  'form-name': string;
-  name?: string;
-  email: string;
-  message: string;
-  title?: string; // Honeypot
-}
+// interface Inputs {
+//   [key: string]: string | undefined;
+//   'form-name': string;
+//   name?: string;
+//   email: string;
+//   message: string;
+//   title?: string; // Honeypot
+// }
 
 export default function ContactForm() {
   // const [loading, setLoading] = useState(false);
@@ -85,15 +85,15 @@ export default function ContactForm() {
 
   return (
     <div className="contact-form">
-      <form
+      {/* <form
         // onSubmit={handleSubmit(onSubmit)}
         method="POST"
         // name="contact"
         // netlify-honeypot="title"
         // data-netlify="true"
-      >
-        {/* <input type="hidden" value="contact" {...register('form-name')} /> */}
-        {/* <div className="form-fields">
+      > */}
+      {/* <input type="hidden" value="contact" {...register('form-name')} /> */}
+      {/* <div className="form-fields">
           <div className="form-field half">
             <label htmlFor="name">
               <span className="visually-hidden">Name</span>
@@ -148,7 +148,7 @@ export default function ContactForm() {
             <FormSubmitButton loading={loading} title="Send" />
           </div>
         </div> */}
-      </form>
+      {/* </form> */}
     </div>
   );
 }
