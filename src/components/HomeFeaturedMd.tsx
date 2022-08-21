@@ -5,7 +5,7 @@ import LangSwitcher from './LangSwitcher';
 import { PostProps } from '../types';
 import PostEntry from './PostEntry';
 import Carousel from './Carousel';
-import { useWindowSize } from '../hooks/useWindowSize';
+// import { useWindowSize } from '../hooks/useWindowSize';
 
 export default function HomeFeaturedMd() {
   const data = useStaticQuery(graphql`
@@ -45,7 +45,8 @@ export default function HomeFeaturedMd() {
   const posts = lang === 'id' ? postsID : postsEN;
 
   // New
-  const { width } = useWindowSize();
+  // const { width } = useWindowSize();
+  const width = 1024;
   function getItemCount(windowWidth: number) {
     if (windowWidth <= 767) {
       return 1;
