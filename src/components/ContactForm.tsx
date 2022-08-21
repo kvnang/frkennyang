@@ -65,7 +65,6 @@ export default function ContactForm() {
 
     fetch(endpoint, {
       method: 'POST',
-      // headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),
     })
@@ -90,8 +89,8 @@ export default function ContactForm() {
         onSubmit={handleSubmit(onSubmit)}
         method="POST"
         name="contact"
-        netlify-honeypot="title"
-        data-netlify="true"
+        // netlify-honeypot="title"
+        // data-netlify="true"
       >
         <input type="hidden" value="contact" {...register('form-name')} />
         <div className="form-fields">
