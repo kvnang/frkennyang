@@ -88,9 +88,9 @@ export default function ContactForm() {
       <form
         // onSubmit={handleSubmit(onSubmit)}
         method="POST"
-        name="contact"
-        netlify-honeypot="title"
-        data-netlify="true"
+        // name="contact"
+        // netlify-honeypot="title"
+        // data-netlify="true"
       >
         {/* <input type="hidden" value="contact" {...register('form-name')} /> */}
         {/* <div className="form-fields">
