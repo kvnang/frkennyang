@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { SubmitHandler, useForm } from 'react-hook-form';
+// import { SubmitHandler, useForm } from 'react-hook-form';
 import { FormMessageTypes } from '../types';
-import FormSubmitButton from './FormSubmitButton';
+// import FormSubmitButton from './FormSubmitButton';
 import { SnackbarContext } from './SnackbarContext';
 
 interface Inputs {
@@ -58,20 +58,20 @@ export default function ContactForm() {
   //     .join('&');
   // }
 
-  const onSubmit: SubmitHandler<Inputs> = (data) => {
-    setLoading(true);
+  // const onSubmit: SubmitHandler<Inputs> = (data) => {
+  //   setLoading(true);
 
-    const endpoint = `/api/submit`;
+  //   const endpoint = `/api/submit`;
 
-    fetch(endpoint, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
-    })
-      .then((response) => handleResponse(response))
-      .catch((error) => console.error(error))
-      .then(() => setLoading(false));
-  };
+  //   fetch(endpoint, {
+  //     method: 'POST',
+  //     headers: { 'Content-Type': 'application/json' },
+  //     body: JSON.stringify(data),
+  //   })
+  //     .then((response) => handleResponse(response))
+  //     .catch((error) => console.error(error))
+  //     .then(() => setLoading(false));
+  // };
 
   const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
 
