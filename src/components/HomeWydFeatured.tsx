@@ -1,93 +1,12 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { useContext, useEffect, useState } from 'react';
-import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
 import { LangContext } from './LangContext';
 import LangSwitcher from './LangSwitcher';
-import { breakpoints } from '../styles/breakpoints';
 import { PostProps } from '../types';
 import PostEntry from './PostEntry';
 import Carousel from './Carousel';
 import { useWindowSize } from '../hooks/useWindowSize';
-
-const HomeFeaturedStyles = styled.section`
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  background-color: var(--white);
-
-  .wyd {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    transform: translate(20%, -10%);
-    opacity: 0.3;
-    display: none;
-
-    @media ${breakpoints.tablet} {
-      display: block;
-    }
-
-    svg {
-      height: 120%;
-      width: auto;
-    }
-  }
-
-  .title {
-    --width-xs: 12;
-    --width-md: 10;
-    --offset-md: 1;
-
-    h2 {
-      display: flex;
-      align-items: center;
-
-      .logo {
-        margin-right: 1rem;
-        width: 4rem;
-        height: 4rem;
-      }
-    }
-  }
-
-  .posts-wrapper {
-    --width-xs: 12;
-    --width-md: 10;
-    --offset-md: 1;
-    margin-top: 2.5rem;
-  }
-
-  .posts {
-    display: flex;
-    margin: calc(var(--post-gap) * -2) calc(var(--post-gap) * -1);
-  }
-
-  .posts-carousel {
-    width: 100%;
-    max-width: 100%;
-
-    &:not(.initialized) {
-      .carousel-content > * {
-        width: 100%;
-
-        @media ${breakpoints.tablet} {
-          width: 50%;
-        }
-        @media ${breakpoints.laptop} {
-          width: 33.333%;
-        }
-      }
-    }
-  }
-`;
-
-const SwitcherLinkStyles = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
 
 export default function HomeWydFeatured() {
   const data = useStaticQuery(graphql`
@@ -150,7 +69,7 @@ export default function HomeWydFeatured() {
   }, [width]);
 
   return (
-    <HomeFeaturedStyles className="bg-light section-p-t section-p-b">
+    <section className="bg-light section-p-t section-p-b featured-section featured-section--wyd">
       <div className="wyd">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -180,9 +99,9 @@ export default function HomeWydFeatured() {
                 World Youth Day 2023
               </h2>
               <p>Special articles for the World Youth Day 2023.</p>
-              <SwitcherLinkStyles>
+              <div className="posts-language-switcher">
                 <LangSwitcher shouldNavigate={false} />
-              </SwitcherLinkStyles>
+              </div>
             </div>
           </div>
         </div>
@@ -213,6 +132,6 @@ export default function HomeWydFeatured() {
           </div>
         </div>
       </div>
-    </HomeFeaturedStyles>
+    </section>
   );
 }

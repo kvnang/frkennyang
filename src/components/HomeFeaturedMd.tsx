@@ -1,66 +1,11 @@
 import { graphql, Link, useStaticQuery } from 'gatsby';
 import React, { useContext, useEffect, useState } from 'react';
-import styled from 'styled-components';
 import { LangContext } from './LangContext';
 import LangSwitcher from './LangSwitcher';
-import { breakpoints } from '../styles/breakpoints';
 import { PostProps } from '../types';
 import PostEntry from './PostEntry';
 import Carousel from './Carousel';
 import { useWindowSize } from '../hooks/useWindowSize';
-
-const HomeFeaturedStyles = styled.section`
-  width: 100%;
-  overflow-x: hidden;
-
-  .title {
-    --width-xs: 12;
-    --width-md: 10;
-    --offset-md: 1;
-
-    .inner {
-      @media ${breakpoints.laptop} {
-        padding-left: 50%;
-      }
-    }
-  }
-
-  .posts-wrapper {
-    --width-xs: 12;
-    --width-md: 10;
-    --offset-md: 1;
-    margin-top: 2.5rem;
-  }
-
-  .posts {
-    display: flex;
-    margin: calc(var(--post-gap) * -2) calc(var(--post-gap) * -1);
-  }
-
-  .posts-carousel {
-    width: 100%;
-    max-width: 100%;
-
-    &:not(.initialized) {
-      .carousel-content > * {
-        width: 100%;
-
-        @media ${breakpoints.tablet} {
-          width: 50%;
-        }
-        @media ${breakpoints.laptop} {
-          width: 33.333%;
-        }
-      }
-    }
-  }
-`;
-
-const SwitcherLinkStyles = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
 
 export default function HomeFeaturedMd() {
   const data = useStaticQuery(graphql`
@@ -123,7 +68,7 @@ export default function HomeFeaturedMd() {
   }, [width]);
 
   return (
-    <HomeFeaturedStyles className="bg-light section-p-t section-p-b">
+    <section className="bg-light section-p-t section-p-b featured-section">
       <div className="container">
         <div className="row">
           <div className="title col">
@@ -133,12 +78,12 @@ export default function HomeFeaturedMd() {
                 Browse my latest works. Some of them are available in both
                 English and Bahasa Indonesia.
               </p>
-              <SwitcherLinkStyles>
+              <div className="posts-language-switcher">
                 <LangSwitcher shouldNavigate={false} />
                 <Link to="/contents/" className="button">
                   View All
                 </Link>
-              </SwitcherLinkStyles>
+              </div>
             </div>
           </div>
         </div>
@@ -164,6 +109,6 @@ export default function HomeFeaturedMd() {
           </div>
         </div>
       </div>
-    </HomeFeaturedStyles>
+    </section>
   );
 }
