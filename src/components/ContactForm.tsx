@@ -73,15 +73,15 @@ export default function ContactForm() {
       .then(() => setLoading(false));
   };
 
-  const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
+  // const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
 
-  useEffect(() => {
-    if (formMessage.open) {
-      addSnackbar(formMessage.message, formMessage.status);
-    } else {
-      removeSnackbar();
-    }
-  }, [formMessage, addSnackbar, removeSnackbar]);
+  // useEffect(() => {
+  //   if (formMessage.open) {
+  //     addSnackbar(formMessage.message, formMessage.status);
+  //   } else {
+  //     removeSnackbar();
+  //   }
+  // }, [formMessage, addSnackbar, removeSnackbar]);
 
   return (
     <div className="contact-form">
