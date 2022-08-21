@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { FormMessageTypes } from '../types';
 import FormSubmitButton from './FormSubmitButton';
-// import { SnackbarContext } from './SnackbarContext';
+import { SnackbarContext } from './SnackbarContext';
 
 interface Inputs {
   [key: string]: string | undefined;
@@ -73,15 +73,15 @@ export default function ContactForm() {
       .then(() => setLoading(false));
   };
 
-  // const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
+  const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
 
-  // useEffect(() => {
-  //   if (formMessage.open) {
-  //     addSnackbar(formMessage.message, formMessage.status);
-  //   } else {
-  //     removeSnackbar();
-  //   }
-  // }, [formMessage, addSnackbar, removeSnackbar]);
+  useEffect(() => {
+    if (formMessage.open) {
+      addSnackbar(formMessage.message, formMessage.status);
+    } else {
+      removeSnackbar();
+    }
+  }, [formMessage, addSnackbar, removeSnackbar]);
 
   return (
     <div className="contact-form">
@@ -92,7 +92,7 @@ export default function ContactForm() {
         netlify-honeypot="title"
         data-netlify="true"
       >
-        <input type="hidden" value="contact" {...register('form-name')} />
+        {/* <input type="hidden" value="contact" {...register('form-name')} /> */}
         {/* <div className="form-fields">
           <div className="form-field half">
             <label htmlFor="name">
