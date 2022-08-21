@@ -411,3 +411,47 @@ hr {
     }
   }
 }
+
+.form-submit-button {
+  display: inline-flex;
+  align-items: center;
+
+  svg {
+    color: var(--color-accent);
+    height: 2rem;
+    width: 2rem;
+    animation: rotate 1s ease infinite;
+
+    path {
+      fill: currentColor;
+    }
+  }
+
+  .icon {
+    height: 1rem;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    margin-bottom: 6px; // compensate button padding
+  }
+
+  &__loader {
+    height: 2rem;
+    width: 2rem;
+
+    @include breakpoint($tablet-sm) {
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      transform: translate(0, -50%);
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
