@@ -1,8 +1,8 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React from 'react';
 // import { SubmitHandler, useForm } from 'react-hook-form';
-import { FormMessageTypes } from '../types';
+// import { FormMessageTypes } from '../types';
 // import FormSubmitButton from './FormSubmitButton';
-import { SnackbarContext } from './SnackbarContext';
+// import { SnackbarContext } from './SnackbarContext';
 
 interface Inputs {
   [key: string]: string | undefined;
@@ -14,37 +14,37 @@ interface Inputs {
 }
 
 export default function ContactForm() {
-  const [loading, setLoading] = useState(false);
-  // const {
-  //   register,
-  //   handleSubmit,
-  //   reset,
-  //   formState: { errors },
-  // } = useForm<Inputs>();
+  // const [loading, setLoading] = useState(false);
+  // // const {
+  // //   register,
+  // //   handleSubmit,
+  // //   reset,
+  // //   formState: { errors },
+  // // } = useForm<Inputs>();
 
-  const [formMessage, setFormMessage] = useState<FormMessageTypes>({
-    status: 'success',
-    message: '',
-    open: false,
-  });
+  // const [formMessage, setFormMessage] = useState<FormMessageTypes>({
+  //   status: 'success',
+  //   message: '',
+  //   open: false,
+  // });
 
   // Set or Unset form message
-  function handleResponse(response: Response) {
-    if (response.ok) {
-      setFormMessage({
-        status: 'success',
-        message: `Thank you, your message has been sent! I'll get back to you as soon as possible.`,
-        open: true,
-      });
-      // reset(); // Clear form on success
-    } else {
-      setFormMessage({
-        status: 'error',
-        message: `Sorry, there's an error in sending your message. Please try again later.`,
-        open: true,
-      });
-    }
-  }
+  // function handleResponse(response: Response) {
+  //   if (response.ok) {
+  //     setFormMessage({
+  //       status: 'success',
+  //       message: `Thank you, your message has been sent! I'll get back to you as soon as possible.`,
+  //       open: true,
+  //     });
+  //     // reset(); // Clear form on success
+  //   } else {
+  //     setFormMessage({
+  //       status: 'error',
+  //       message: `Sorry, there's an error in sending your message. Please try again later.`,
+  //       open: true,
+  //     });
+  //   }
+  // }
 
   // Netlify Forms Functions
 
@@ -73,15 +73,15 @@ export default function ContactForm() {
   //     .then(() => setLoading(false));
   // };
 
-  const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
+  // const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
 
-  useEffect(() => {
-    if (formMessage.open) {
-      addSnackbar(formMessage.message, formMessage.status);
-    } else {
-      removeSnackbar();
-    }
-  }, [formMessage, addSnackbar, removeSnackbar]);
+  // useEffect(() => {
+  //   if (formMessage.open) {
+  //     addSnackbar(formMessage.message, formMessage.status);
+  //   } else {
+  //     removeSnackbar();
+  //   }
+  // }, [formMessage, addSnackbar, removeSnackbar]);
 
   return (
     <div className="contact-form">
