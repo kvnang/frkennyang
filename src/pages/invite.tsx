@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { graphql, HeadProps } from 'gatsby';
 import SEO from '../components/Seo';
-// import InviteForm from '../components/InviteForm';
+import InviteForm from '../components/InviteForm';
 import LangSwitcher from '../components/LangSwitcher';
 import { LangContext } from '../components/LangContext';
 
@@ -37,7 +37,7 @@ export default function InvitePage({ data }: Props) {
                 className="text-content"
               />
             </div>
-            {/* <InviteForm /> */}
+            <InviteForm />
           </div>
         </div>
       </section>

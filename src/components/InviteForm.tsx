@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { SubmitHandler, useForm } from 'react-hook-form';
 // import DatePicker from 'react-datepicker';
 // import DayPickerInput from 'react-day-picker/DayPickerInput';
-import { SnackbarContext } from './SnackbarContext';
+// import { SnackbarContext } from './SnackbarContext';
 import FormSubmitButton from './FormSubmitButton';
 import countries from '../utils/countries';
 import { FormMessageTypes } from '../types';
@@ -144,17 +144,17 @@ export default function InviteForm() {
       .then(() => setLoading(false));
   };
 
-  const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
+  // const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
 
-  useEffect(() => {
-    if (formMessage.open) {
-      if (formMessage.status === 'error') {
-        addSnackbar(formMessage.message, formMessage.status);
-      }
-    } else {
-      removeSnackbar();
-    }
-  }, [formMessage, addSnackbar, removeSnackbar]);
+  // useEffect(() => {
+  //   if (formMessage.open) {
+  //     if (formMessage.status === 'error') {
+  //       addSnackbar(formMessage.message, formMessage.status);
+  //     }
+  //   } else {
+  //     removeSnackbar();
+  //   }
+  // }, [formMessage, addSnackbar, removeSnackbar]);
 
   const validateIfInPersonEvent = (value: any) => {
     if (!value && getValues('eventLocation') !== 'online') {
