@@ -74,7 +74,7 @@ export default function HomePage() {
                     fatherkennyang@gmail.com
                   </a>
                 </h3>
-                {/* <ContactForm /> */}
+                <ContactForm />
               </div>
             </div>
           </div>

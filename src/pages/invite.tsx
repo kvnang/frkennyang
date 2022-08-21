@@ -30,7 +30,7 @@ export default function InvitePage({ data }: Props) {
         <div className="row">
           <div className="col inner">
             <div className="intro">
-              <LangSwitcher shouldNavigate={false} vertical />
+              {/* <LangSwitcher shouldNavigate={false} vertical /> */}
               <div
                 // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{ __html: html }}

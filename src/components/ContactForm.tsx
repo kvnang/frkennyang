@@ -1,50 +1,50 @@
-import React from 'react';
-// import { SubmitHandler, useForm } from 'react-hook-form';
-// import { FormMessageTypes } from '../types';
-// import FormSubmitButton from './FormSubmitButton';
-// import { SnackbarContext } from './SnackbarContext';
+import React, { useContext, useEffect, useState } from 'react';
+import { SubmitHandler, useForm } from 'react-hook-form';
+import { FormMessageTypes } from '../types';
+import FormSubmitButton from './FormSubmitButton';
+import { SnackbarContext } from './SnackbarContext';
 
-// interface Inputs {
-//   [key: string]: string | undefined;
-//   'form-name': string;
-//   name?: string;
-//   email: string;
-//   message: string;
-//   title?: string; // Honeypot
-// }
+interface Inputs {
+  [key: string]: string | undefined;
+  'form-name': string;
+  name?: string;
+  email: string;
+  message: string;
+  title?: string; // Honeypot
+}
 
 export default function ContactForm() {
-  // const [loading, setLoading] = useState(false);
-  // // const {
-  // //   register,
-  // //   handleSubmit,
-  // //   reset,
-  // //   formState: { errors },
-  // // } = useForm<Inputs>();
+  const [loading, setLoading] = useState(false);
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm<Inputs>();
 
-  // const [formMessage, setFormMessage] = useState<FormMessageTypes>({
-  //   status: 'success',
-  //   message: '',
-  //   open: false,
-  // });
+  const [formMessage, setFormMessage] = useState<FormMessageTypes>({
+    status: 'success',
+    message: '',
+    open: false,
+  });
 
   // Set or Unset form message
-  // function handleResponse(response: Response) {
-  //   if (response.ok) {
-  //     setFormMessage({
-  //       status: 'success',
-  //       message: `Thank you, your message has been sent! I'll get back to you as soon as possible.`,
-  //       open: true,
-  //     });
-  //     // reset(); // Clear form on success
-  //   } else {
-  //     setFormMessage({
-  //       status: 'error',
-  //       message: `Sorry, there's an error in sending your message. Please try again later.`,
-  //       open: true,
-  //     });
-  //   }
-  // }
+  function handleResponse(response: Response) {
+    if (response.ok) {
+      setFormMessage({
+        status: 'success',
+        message: `Thank you, your message has been sent! I'll get back to you as soon as possible.`,
+        open: true,
+      });
+      reset(); // Clear form on success
+    } else {
+      setFormMessage({
+        status: 'error',
+        message: `Sorry, there's an error in sending your message. Please try again later.`,
+        open: true,
+      });
+    }
+  }
 
   // Netlify Forms Functions
 
@@ -58,42 +58,43 @@ export default function ContactForm() {
   //     .join('&');
   // }
 
-  // const onSubmit: SubmitHandler<Inputs> = (data) => {
-  //   setLoading(true);
+  const onSubmit: SubmitHandler<Inputs> = (data) => {
+    setLoading(true);
 
-  //   const endpoint = `/api/submit`;
+    const endpoint = `/api/submit`;
 
-  //   fetch(endpoint, {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify(data),
-  //   })
-  //     .then((response) => handleResponse(response))
-  //     .catch((error) => console.error(error))
-  //     .then(() => setLoading(false));
-  // };
+    fetch(endpoint, {
+      method: 'POST',
+      // headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    })
+      .then((response) => handleResponse(response))
+      .catch((error) => console.error(error))
+      .then(() => setLoading(false));
+  };
 
-  // const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
+  const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
 
-  // useEffect(() => {
-  //   if (formMessage.open) {
-  //     addSnackbar(formMessage.message, formMessage.status);
-  //   } else {
-  //     removeSnackbar();
-  //   }
-  // }, [formMessage, addSnackbar, removeSnackbar]);
+  useEffect(() => {
+    if (formMessage.open) {
+      addSnackbar(formMessage.message, formMessage.status);
+    } else {
+      removeSnackbar();
+    }
+  }, [formMessage, addSnackbar, removeSnackbar]);
 
   return (
     <div className="contact-form">
-      {/* <form
-        // onSubmit={handleSubmit(onSubmit)}
+      <form
+        onSubmit={handleSubmit(onSubmit)}
         method="POST"
-        // name="contact"
-        // netlify-honeypot="title"
-        // data-netlify="true"
-      > */}
-      {/* <input type="hidden" value="contact" {...register('form-name')} /> */}
-      {/* <div className="form-fields">
+        name="contact"
+        netlify-honeypot="title"
+        data-netlify="true"
+      >
+        <input type="hidden" value="contact" {...register('form-name')} />
+        <div className="form-fields">
           <div className="form-field half">
             <label htmlFor="name">
               <span className="visually-hidden">Name</span>
@@ -147,8 +148,8 @@ export default function ContactForm() {
           <div className="form-field submit">
             <FormSubmitButton loading={loading} title="Send" />
           </div>
-        </div> */}
-      {/* </form> */}
+        </div>
+      </form>
     </div>
   );
 }
