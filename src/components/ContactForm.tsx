@@ -15,12 +15,12 @@ interface Inputs {
 
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors },
-  } = useForm<Inputs>();
+  // const {
+  //   register,
+  //   handleSubmit,
+  //   reset,
+  //   formState: { errors },
+  // } = useForm<Inputs>();
 
   const [formMessage, setFormMessage] = useState<FormMessageTypes>({
     status: 'success',
@@ -36,7 +36,7 @@ export default function ContactForm() {
         message: `Thank you, your message has been sent! I'll get back to you as soon as possible.`,
         open: true,
       });
-      reset(); // Clear form on success
+      // reset(); // Clear form on success
     } else {
       setFormMessage({
         status: 'error',
@@ -86,7 +86,7 @@ export default function ContactForm() {
   return (
     <div className="contact-form">
       <form
-        onSubmit={handleSubmit(onSubmit)}
+        // onSubmit={handleSubmit(onSubmit)}
         method="POST"
         name="contact"
         netlify-honeypot="title"
