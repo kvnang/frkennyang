@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import { graphql, HeadProps } from 'gatsby';
 import SEO from '../components/Seo';
-import InviteForm from '../components/InviteForm';
-import LangSwitcher from '../components/LangSwitcher';
+// import InviteForm from '../components/InviteForm';
+// import LangSwitcher from '../components/LangSwitcher';
 import { LangContext } from '../components/LangContext';
 
 interface Props {
@@ -31,11 +31,11 @@ export default function InvitePage({ data }: Props) {
           <div className="col inner">
             <div className="intro">
               {/* <LangSwitcher shouldNavigate={false} vertical /> */}
-              <div
+              {/* <div
                 // eslint-disable-next-line react/no-danger
                 dangerouslySetInnerHTML={{ __html: html }}
                 className="text-content"
-              />
+              /> */}
             </div>
             {/* <InviteForm /> */}
           </div>
