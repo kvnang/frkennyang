@@ -99,11 +99,13 @@ export default function HomeFeaturedMd() {
                     carouselItemCount ? 'initialized' : ''
                   }`}
                 >
-                  {/* <Carousel show={carouselItemCount || 3}>
-                    {posts.map((post: PostProps) => (
-                      <PostEntry key={post.id} post={post} showImage />
-                    ))}
-                  </Carousel> */}
+                  {!!carouselItemCount && (
+                    <Carousel show={carouselItemCount || 3}>
+                      {posts.map((post: PostProps) => (
+                        <PostEntry key={post.id} post={post} showImage />
+                      ))}
+                    </Carousel>
+                  )}
                 </div>
               </div>
             </div>
