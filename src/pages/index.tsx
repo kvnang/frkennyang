@@ -51,7 +51,7 @@ export default function HomePage() {
         </div>
       </div>
       {/* <HomeWydFeatured /> */}
-      {/* <HomeFeaturedMd /> */}
+      <HomeFeaturedMd />
       <div className="contact" id="contact">
         <div className="container">
           <div className="row">
