@@ -21,9 +21,6 @@ const config: GatsbyConfig = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-sass',
     {
-      resolve: 'gatsby-plugin-styled-components',
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
