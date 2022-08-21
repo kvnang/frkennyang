@@ -5,9 +5,9 @@ import type { PostProps } from './src/types';
 dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
 
 const config: GatsbyConfig = {
-  // flags: {
-  //   DEV_SSR: true,
-  // },
+  flags: {
+    DEV_SSR: true,
+  },
   siteMetadata: {
     title: 'Fr. Kenny Ang',
     description: `Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.`,

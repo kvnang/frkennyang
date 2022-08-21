@@ -1,4 +1,3 @@
-import 'normalize.css';
 import React, { useEffect } from 'react';
 import { PageProps } from 'gatsby';
 import Footer from './Footer';
@@ -7,7 +6,12 @@ import { SnackbarProvider } from './SnackbarContext';
 import Snackbar from './Snackbar';
 import { LangProvider } from './LangContext';
 import { slugify } from '../utils/helpers';
+
+import 'normalize.css';
 import '../styles/main.scss';
+import '@fontsource/playfair-display/700.css';
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/600.css';
 
 interface LayoutProps extends PageProps {
   children: React.ReactNode;
