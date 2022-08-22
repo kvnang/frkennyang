@@ -234,8 +234,8 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
     }
     type Frontmatter {
       title: String!
-      format: String!
-      date: Date!
+      format: String
+      date: Date @dateformat(formatString: "YYYY-MM-DD")
       youtube: String
       category: [String!]
     }
