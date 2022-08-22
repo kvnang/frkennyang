@@ -26,17 +26,12 @@ export function formatDate(
   ignoreSameYear: boolean = true,
   locale: string = 'en-US'
 ) {
-  // if (typeof window === 'undefined') {
-  //   return date;
-  // }
-
-  // const dateObject = new Date(date);
-  // const options =
-  //   ignoreSameYear && new Date().getFullYear() === dateObject.getFullYear()
-  //     ? ({ month: 'short', day: 'numeric' } as const)
-  //     : ({ year: 'numeric', month: 'short', day: 'numeric' } as const);
-  // return dateObject.toLocaleDateString(locale, options);
-  return date;
+  const dateObject = new Date(date);
+  const options =
+    ignoreSameYear && new Date().getFullYear() === dateObject.getFullYear()
+      ? ({ month: 'short', day: 'numeric' } as const)
+      : ({ year: 'numeric', month: 'short', day: 'numeric' } as const);
+  return dateObject.toLocaleDateString(locale, options);
 }
 
 export function getMinDate(daysFromToday: number) {

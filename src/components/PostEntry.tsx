@@ -3,7 +3,6 @@ import { StaticImage, GatsbyImage } from 'gatsby-plugin-image';
 import React from 'react';
 import { MdFormatAlignLeft, MdPlayArrow } from 'react-icons/md';
 import { PostProps } from '../types';
-import { formatDate } from '../utils/helpers';
 import { LangType } from './LangContext';
 
 interface SkeletonProps {
@@ -41,7 +40,7 @@ export default function PostEntry({
 
   const meta = [];
   if (post.frontmatter.date) {
-    meta.push(formatDate(post.frontmatter.date));
+    meta.push(post.frontmatter.date);
   }
   if (format === 'list' && post.frontmatter.format) {
     meta.push(post.frontmatter.format);
@@ -138,7 +137,7 @@ export const query = graphql`
     frontmatter {
       title
       format
-      date
+      date(formatString: "MMM D")
       excerpt
       featuredImage {
         childImageSharp {

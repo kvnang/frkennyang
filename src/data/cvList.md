@@ -56,6 +56,7 @@
   I focused on providing elementary music instructions to children as well as giving private piano lessons.
 
 ## Speaking Topics
+
 - ### The Purpose of Life
   ##### 22 JANUARY 2022, SINGAPORE
 - ### Forgiveness

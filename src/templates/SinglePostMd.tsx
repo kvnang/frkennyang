@@ -2,7 +2,6 @@ import { graphql, HeadProps } from 'gatsby';
 import React, { useContext, useEffect } from 'react';
 import getYouTubeId from 'get-youtube-id';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import { formatDate } from '../utils/helpers';
 import LangSwitcher from '../components/LangSwitcher';
 import { PostProps } from '../types';
 import SEO from '../components/Seo';
@@ -70,7 +69,7 @@ export default function SinglePost({
     featuredImage = '';
   }
   const meta = [];
-  if (post.frontmatter.date) meta.push(formatDate(post.frontmatter.date));
+  if (post.frontmatter.date) meta.push(post.frontmatter.date);
   if (categories?.length) meta.push(categories.join(', '));
 
   useEffect(() => {
@@ -165,7 +164,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         format
-        date
+        date(formatString: "MMM D")
         category
         youtube
         featuredImage {
