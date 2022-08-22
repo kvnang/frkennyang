@@ -43,13 +43,15 @@
     "gatsby-transformer-remark": "^5.21.0",
     "gatsby-transformer-sharp": "^4.21.0",
     "get-youtube-id": "^1.0.1",
+    "just-debounce-it": "^3.1.1",
     "mailgun-js": "^0.22.0",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.34.2",
     "react-icons": "^4.4.0",
-    "react-instantsearch-hooks-web": "^6.31.1"
+    "react-instantsearch-hooks-web": "^6.31.1",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.9",
@@ -60,6 +62,7 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/react-helmet": "^6.1.5",
+    "@types/smoothscroll-polyfill": "^0.3.1",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
     "eslint": "^8.22.0",

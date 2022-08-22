@@ -1,10 +1,10 @@
 import { graphql, Link, useStaticQuery } from 'gatsby';
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { LangContext } from './LangContext';
 import LangSwitcher from './LangSwitcher';
 import { PostProps } from '../types';
 import PostEntry from './PostEntry';
-import Carousel from './Carousel';
+import { Slider } from './Slider';
 // import { useWindowSize } from '../hooks/useWindowSize';
 
 export default function HomeFeaturedMd() {
@@ -44,29 +44,7 @@ export default function HomeFeaturedMd() {
 
   const posts = lang === 'id' ? postsID : postsEN;
 
-  // New
-  // const { width } = useWindowSize();
-  const width = 1024;
-  function getItemCount(windowWidth: number) {
-    if (windowWidth <= 767) {
-      return 1;
-    }
-    if (windowWidth <= 1024) {
-      return 2;
-    }
-    return 3;
-  }
-
-  const [carouselItemCount, setCarouselItemCount] = useState(
-    width ? getItemCount(width) : null
-  );
-
-  useEffect(() => {
-    if (width) {
-      const itemCount = getItemCount(width);
-      setCarouselItemCount(itemCount);
-    }
-  }, [width]);
+  const [ref, setRef] = useState<HTMLUListElement | null>(null);
 
   return (
     <section className="bg-light section-p-t section-p-b featured-section">
@@ -89,28 +67,12 @@ export default function HomeFeaturedMd() {
           </div>
         </div>
       </div>
-      <div style={{ position: 'relative' }}>
-        <div className="container">
-          <div className="row">
-            <div className="posts-wrapper col">
-              <div className="posts">
-                <div
-                  className={`posts-carousel ${
-                    carouselItemCount ? 'initialized' : ''
-                  }`}
-                >
-                  {!!carouselItemCount && (
-                    <Carousel show={carouselItemCount || 3}>
-                      {posts.map((post: PostProps) => (
-                        <PostEntry key={post.id} post={post} showImage />
-                      ))}
-                    </Carousel>
-                  )}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="slider-wrapper">
+        <Slider setRef={setRef}>
+          {posts.map((post: PostProps) => (
+            <PostEntry key={post.id} post={post} showImage />
+          ))}
+        </Slider>
       </div>
     </section>
   );

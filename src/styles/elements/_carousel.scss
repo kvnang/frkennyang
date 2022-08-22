@@ -1,178 +1,141 @@
-.carousel {
-  --carousel-item-width: 100%;
+:root {
+  --slider--slide-width: 100%;
+  --slider--slide-gap: 1rem;
+}
 
+.featured-section {
+  grid-template-columns:
+    [full-start]minmax(2rem, 1fr)
+    [standard-start] 3.75rem [narrow-start] minmax(1rem, 67.5rem)
+    [narrow-end] 3.75rem [standard-end] minmax(2rem, 1fr) [full-end];
+}
+
+.inline-scrollbox {
+  .inline-scrollbox-wrapper {
+  }
+
+  .slider__inner {
+    // list-style: none;
+    // padding: 0;
+    // margin: 0;
+    // grid-column: standard;
+    // display: flex;
+    // align-items: center;
+    // gap: var(--slider--slide-gap);
+  }
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
   width: 100%;
+  cursor: grab;
 
-  .carousel-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  max-width: 100%;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+
+  // hide scrollbar
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
   }
 
-  .carousel-wrapper {
-    display: flex;
-    width: 100%;
-    position: relative;
-  }
+  // Disables scroll snap on Safari 10.1+ when arrow is clicked, so that the smoothscroll polyfill works
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
+      &:global(.is-scrolling-by-click) {
+        scroll-snap-type: none;
 
-  .carousel-content-wrapper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .carousel-content {
-    display: flex;
-    transition: var(--transition);
-    transition-duration: 0.5s;
-    -ms-overflow-style: none; // hide scrollbar in IE and Edge
-    scrollbar-width: none; // hide scrollbar in Firefox
-
-    &::-webkit-scrollbar {
-      display: none; // hide scrollbar in webkit browser
-    }
-    > * {
-      flex: 0 0 var(--carousel-item-width);
-      max-width: var(--carousel-item-width);
-    }
-
-    &.show-0 {
-      display: flex;
-      flex-flow: wrap;
-      transition: none !important;
-    }
-
-    &.show-2 > * {
-      --carousel-item-width: 50%;
-    }
-
-    &.show-3 > * {
-      --carousel-item-width: 33.333%;
-    }
-
-    &.show-4 > * {
-      --carousel-item-width: 25%;
-    }
-
-    &.show-5 > * {
-      --carousel-item-width: 20%;
-    }
-  }
-
-  .arrow-wrapper {
-    position: absolute;
-    top: 0;
-    width: 4rem;
-    height: 100%;
-    z-index: 1;
-
-    @include breakpoint($laptop-sm) {
-      width: 5rem;
-    }
-
-    @include breakpoint($laptop-lg) {
-      width: 6rem;
-    }
-
-    &--next {
-      right: 0;
-
-      @include breakpoint($laptop-sm) {
-        background: var(--offwhite);
-        background: linear-gradient(
-          90deg,
-          rgba(var(--offwhite-rgb), 0) 0%,
-          rgba(var(--offwhite-rgb), 0.7) 30%,
-          rgba(var(--offwhite-rgb), 1) 70%
-        );
-      }
-    }
-
-    &--prev {
-      left: 0;
-
-      @include breakpoint($laptop-sm) {
-        background: var(--offwhite);
-        background: linear-gradient(
-          -90deg,
-          rgba(var(--offwhite-rgb), 0) 0%,
-          rgba(var(--offwhite-rgb), 0.7) 30%,
-          rgba(var(--offwhite-rgb), 1) 70%
-        );
-      }
-    }
-  }
-
-  .left-arrow-button,
-  .right-arrow-button {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    padding: 0.5rem 0.5rem;
-    color: var(--color-p);
-    transform: translate(0, -50%);
-    transition: color var(--transition);
-    background-color: rgba(255, 255, 255, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    @include breakpoint($laptop-sm) {
-      box-shadow: none;
-      background: none;
-    }
-
-    &:hover {
-      color: var(--color-accent);
-
-      &::before {
-        @include breakpoint($laptop-sm) {
-          opacity: 0.8;
+        .slider__slide {
+          scroll-snap-align: none;
         }
       }
     }
+  }
 
-    svg {
-      display: block;
-      height: auto;
-      width: 1.5rem;
+  &__col {
+    --width-xs: 12;
+    --width-md: 10;
+    --offset-md: 1;
+  }
 
-      @include breakpoint($laptop-sm) {
-        width: 2.5rem;
+  &__inner {
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    margin: 0 calc(var(--slider--slide-gap) * 0.5 * -1);
+    padding: 0;
+
+    > * {
+      scroll-snap-align: center;
+    }
+
+    &::after {
+      content: '';
+      align-self: stretch;
+      padding-inline-end: max(
+        var(--slider--slide-gap),
+        (100vw - 100%) / 2 - var(--slider--slide-gap)
+      );
+    }
+  }
+
+  &__slide {
+    padding: 0 calc(var(--slider--slide-gap) * 0.5);
+    width: var(--slider--slide-width);
+    min-width: var(--slider--slide-width);
+
+    .post-entry {
+      padding: 0;
+    }
+  }
+
+  &__arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: -1rem; // compensate for svg
+  }
+
+  &__arrow {
+    font-size: 3rem;
+    color: var(--color-accent);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    &[disabled] {
+      color: var(--color-p);
+      opacity: 0.25;
+    }
+  }
+
+  &:hover,
+  &:focus-within {
+    .slider__arrow:not([disabled]) {
+      opacity: 1;
+    }
+  }
+
+  &:not([data-slider-always-show-arrows]) {
+    @media (hover: hover) {
+      .slider__inner:hover {
+        .slider__arrow {
+          opacity: 1;
+          pointer-events: auto;
+        }
       }
     }
-
-    &::before {
-      content: '';
-      z-index: -1;
-      background-color: var(--offwhite);
-      transition: opacity var(--transition);
-      opacity: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  .left-arrow-button {
-    left: 0;
-    @include breakpoint($laptop-sm) {
-      width: 100%;
-      height: 100%;
-    }
-  }
-  .right-arrow-button {
-    right: 0;
-    @include breakpoint($laptop-sm) {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  @media (hover: none) and (pointer: coarse) {
-    .arrow-wrapper {
-      display: none;
+    @media (hover: none) and (pointer: coarse) {
+      .slider__arrow {
+        display: none;
+      }
     }
   }
 }

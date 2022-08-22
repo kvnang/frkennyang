@@ -253,33 +253,17 @@
     }
   }
 
-  .posts-wrapper {
-    --width-xs: 12;
-    --width-md: 10;
-    --offset-md: 1;
+  .slider-wrapper {
     margin-top: 2.5rem;
   }
 
-  .posts {
-    display: flex;
-    margin: calc(var(--post-gap) * -2) calc(var(--post-gap) * -1);
-  }
+  .slider {
+    @include breakpoint($tablet-sm) {
+      --slider--slide-width: 50%;
+    }
 
-  .posts-carousel {
-    width: 100%;
-    max-width: 100%;
-
-    &:not(.initialized) {
-      .carousel-content > * {
-        width: 100%;
-
-        @include breakpoint($tablet-sm) {
-          width: 50%;
-        }
-        @include breakpoint($laptop-sm) {
-          width: 33.333%;
-        }
-      }
+    @include breakpoint($laptop-sm) {
+      --slider--slide-width: 33.333%;
     }
   }
 
