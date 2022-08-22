@@ -26,6 +26,10 @@ export function formatDate(
   ignoreSameYear: boolean = true,
   locale: string = 'en-US'
 ) {
+  if (typeof window === 'undefined') {
+    return date;
+  }
+
   const dateObject = new Date(date);
   const options =
     ignoreSameYear && new Date().getFullYear() === dateObject.getFullYear()
