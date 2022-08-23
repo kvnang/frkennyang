@@ -44,6 +44,8 @@ export default function HomePage() {
                 placeholder="none"
                 objectFit="contain"
                 objectPosition="50% 100%"
+                layout="constrained"
+                width={380}
               />
             </div>
           </div>
@@ -57,7 +59,11 @@ export default function HomePage() {
           <div className="row">
             <div className="col inner section-p-t section-p-b">
               <div className="contact-img">
-                <StaticImage src="../assets/images/frk-contact.jpg" alt="" />
+                <StaticImage
+                  src="../assets/images/frk-contact.jpg"
+                  alt=""
+                  width={560}
+                />
               </div>
               <div className="form-wrapper">
                 <h2>Contact</h2>
