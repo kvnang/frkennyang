@@ -169,7 +169,7 @@ const config: GatsbyConfig = {
         enablePartialUpdates: true, // default: false
         // matchFields: ['slug', 'modified'], // Array<String> default: ['modified']
         // concurrentQueries: false, // default: true
-        // skipIndexing: process.env.BRANCH !== 'main', // default: false, useful for e.g. preview deploys or local development
+        skipIndexing: process.env.BRANCH !== 'main', // default: false, useful for e.g. preview deploys or local development
         // continueOnFailure: false, // default: false, don't fail the build if algolia indexing fails
       },
     },

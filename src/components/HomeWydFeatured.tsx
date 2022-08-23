@@ -70,8 +70,9 @@ export default function HomeWydFeatured() {
                   <StaticImage
                     src="../assets/images/wyd-2023-logo.png"
                     alt="World Youth Day 2023"
-                    layout="fullWidth"
+                    layout="constrained"
                     placeholder="none"
+                    width={64}
                   />
                 </div>
                 World Youth Day 2023
