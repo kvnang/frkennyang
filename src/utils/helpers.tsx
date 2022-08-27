@@ -17,6 +17,10 @@ export function trailingSlashIt(str: string) {
   return `${untrailingSlashIt(str)}/`;
 }
 
+export function unleadingSlashIt(str: string) {
+  return str.replace(/^\//, '');
+}
+
 export function formatDate(
   date: string,
   ignoreSameYear: boolean = true,

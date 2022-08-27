@@ -1,18 +1,28 @@
-import 'normalize.css';
 import React, { useEffect } from 'react';
+import { PageProps } from 'gatsby';
 import Footer from './Footer';
-import GlobalStyles from '../styles/GlobalStyles';
-import Typography from '../styles/Typography';
 import Header from './Header';
 import { SnackbarProvider } from './SnackbarContext';
 import Snackbar from './Snackbar';
 import { LangProvider } from './LangContext';
+import { slugify } from '../utils/helpers';
 
-interface Props {
+import 'normalize.css';
+import '../styles/main.scss';
+import '@fontsource/playfair-display/700.css';
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/600.css';
+
+interface LayoutProps extends PageProps {
   children: React.ReactNode;
 }
 
-export default function Layout({ children }: Props) {
+export default function Layout(props: LayoutProps) {
+  const {
+    children,
+    location: { pathname },
+  } = props;
+
   useEffect(() => {
     // Accessibility Features
     // Let the document know when the mouse is being used
@@ -40,22 +50,20 @@ export default function Layout({ children }: Props) {
     };
   }, []);
 
+  const pageSlug = pathname === '/' ? 'home' : slugify(pathname);
+
   return (
-    <>
-      <GlobalStyles />
-      <Typography />
-      <LangProvider>
-        <SnackbarProvider>
-          <div className="site-wrapper">
-            <div className="site">
-              <Header />
-              <div className="site-content">{children}</div>
-              <Footer />
-            </div>
+    <LangProvider>
+      <SnackbarProvider>
+        <div className={`site-wrapper page-${pageSlug}`}>
+          <div className="site">
+            <Header />
+            <div className="site-content">{children}</div>
+            <Footer />
           </div>
-          <Snackbar />
-        </SnackbarProvider>
-      </LangProvider>
-    </>
+        </div>
+        <Snackbar />
+      </SnackbarProvider>
+    </LangProvider>
   );
 }

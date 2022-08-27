@@ -1,7 +1,5 @@
 import React, { Children } from 'react';
-import styled from 'styled-components';
 import { VscChevronLeft, VscChevronRight } from 'react-icons/vsc';
-import { breakpoints } from '../styles/breakpoints';
 
 export interface ICarouselProps {
   /**
@@ -147,185 +145,6 @@ export interface ICarouselProps {
    */
   // renderDot?: (index: number, defaultClassName: string) => JSX.Element;
 }
-
-const CarouselStyles = styled.div`
-  --carousel-item-width: 100%;
-
-  width: 100%;
-
-  .carousel-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .carousel-wrapper {
-    display: flex;
-    width: 100%;
-    position: relative;
-  }
-
-  .carousel-content-wrapper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .carousel-content {
-    display: flex;
-    transition: var(--transition);
-    transition-duration: 0.5s;
-    -ms-overflow-style: none; // hide scrollbar in IE and Edge
-    scrollbar-width: none; // hide scrollbar in Firefox
-
-    &::-webkit-scrollbar {
-      display: none; // hide scrollbar in webkit browser
-    }
-    > * {
-      flex: 0 0 var(--carousel-item-width);
-      max-width: var(--carousel-item-width);
-    }
-
-    &.show-0 {
-      display: flex;
-      flex-flow: wrap;
-      transition: none !important;
-    }
-
-    &.show-2 > * {
-      --carousel-item-width: 50%;
-    }
-
-    &.show-3 > * {
-      --carousel-item-width: 33.333%;
-    }
-
-    &.show-4 > * {
-      --carousel-item-width: 25%;
-    }
-
-    &.show-5 > * {
-      --carousel-item-width: 20%;
-    }
-  }
-
-  .arrow-wrapper {
-    position: absolute;
-    top: 0;
-    width: 4rem;
-    height: 100%;
-    z-index: 1;
-
-    @media ${breakpoints.laptop} {
-      width: 5rem;
-    }
-
-    @media ${breakpoints.desktop} {
-      width: 6rem;
-    }
-
-    &--next {
-      right: 0;
-
-      @media ${breakpoints.laptop} {
-        background: var(--offwhite);
-        background: linear-gradient(
-          90deg,
-          rgba(var(--offwhite-rgb), 0) 0%,
-          rgba(var(--offwhite-rgb), 0.7) 30%,
-          rgba(var(--offwhite-rgb), 1) 70%
-        );
-      }
-    }
-
-    &--prev {
-      left: 0;
-
-      @media ${breakpoints.laptop} {
-        background: var(--offwhite);
-        background: linear-gradient(
-          -90deg,
-          rgba(var(--offwhite-rgb), 0) 0%,
-          rgba(var(--offwhite-rgb), 0.7) 30%,
-          rgba(var(--offwhite-rgb), 1) 70%
-        );
-      }
-    }
-  }
-
-  .left-arrow-button,
-  .right-arrow-button {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    padding: 0.5rem 0.5rem;
-    color: var(--color-p);
-    transform: translate(0, -50%);
-    transition: color var(--transition);
-    background-color: rgba(255, 255, 255, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    @media ${breakpoints.laptop} {
-      box-shadow: none;
-      background: none;
-    }
-
-    &:hover {
-      color: var(--color-accent);
-
-      &::before {
-        @media ${breakpoints.laptop} {
-          opacity: 0.8;
-        }
-      }
-    }
-
-    svg {
-      display: block;
-      height: auto;
-      width: 1.5rem;
-
-      @media ${breakpoints.laptop} {
-        width: 2.5rem;
-      }
-    }
-
-    &::before {
-      content: '';
-      z-index: -1;
-      background-color: var(--offwhite);
-      transition: opacity var(--transition);
-      opacity: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  .left-arrow-button {
-    left: 0;
-    @media ${breakpoints.laptop} {
-      width: 100%;
-      height: 100%;
-    }
-  }
-  .right-arrow-button {
-    right: 0;
-    @media ${breakpoints.laptop} {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  @media (hover: none) and (pointer: coarse) {
-    .arrow-wrapper {
-      display: none;
-    }
-  }
-`;
 
 function Carousel({
   children,
@@ -624,7 +443,7 @@ function Carousel({
   }, [currentIndex, show]);
 
   return (
-    <CarouselStyles>
+    <div className="carousel">
       {(show &&
         (isRepeating || currentIndex > 0) &&
         (renderPreviousButton ? (
@@ -709,7 +528,7 @@ function Carousel({
           </div>
         )} */}
       </div>
-    </CarouselStyles>
+    </div>
   );
 }
 

@@ -1,58 +1,6 @@
 import React, { CSSProperties, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import styled from 'styled-components';
 import { BsChevronDown } from 'react-icons/bs';
-
-const AccordionStyles = styled.div`
-  &:not(:last-child) {
-    margin-bottom: 2.5rem;
-  }
-`;
-
-const AccordionItemHeadStyles = styled.div`
-  padding-bottom: 1rem;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  &::before,
-  &::after {
-    content: '';
-    height: 1px;
-    width: 0;
-    background-color: var(--grey);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: var(--transition);
-  }
-
-  &::before {
-    width: 100%;
-  }
-
-  &::after {
-    z-index: 1;
-    background-color: var(--color-p);
-  }
-
-  svg {
-    margin-left: 1rem;
-    transition: var(--transition);
-    height: 1.5rem;
-    width: auto;
-  }
-
-  &.active {
-    &::after {
-      width: 100%;
-    }
-    svg {
-      transform: rotate(180deg);
-    }
-  }
-`;
 
 interface AccordionItemHeadProps {
   children?: React.ReactNode;
@@ -74,7 +22,7 @@ export function AccordionItemHead({
   }
 
   return (
-    <AccordionItemHeadStyles
+    <div
       id={`${id}`}
       className={`accordion__item__head ${
         activeAccordionItem === id ? 'active' : ''
@@ -89,7 +37,7 @@ export function AccordionItemHead({
     >
       <div>{children}</div>
       <BsChevronDown />
-    </AccordionItemHeadStyles>
+    </div>
   );
 }
 
@@ -137,7 +85,7 @@ export function AccordionItem({
   setActiveAccordionItem,
 }: AccordionItemProps) {
   return (
-    <AccordionStyles
+    <div
       className={`accordion__item ${
         activeAccordionItem === id ? 'accordion__item--active' : ''
       }`}
@@ -165,7 +113,7 @@ export function AccordionItem({
           );
         }
       })}
-    </AccordionStyles>
+    </div>
   );
 }
 
@@ -190,7 +138,7 @@ export function Accordion({ children, style }: AccordionProps) {
   }, []);
 
   return (
-    <AccordionStyles className="accordion" style={style}>
+    <div className="accordion" style={style}>
       {React.Children.map(children, (child) => {
         const id = `${child.props.id}`;
         return (
@@ -203,6 +151,6 @@ export function Accordion({ children, style }: AccordionProps) {
           </AccordionItem>
         );
       })}
-    </AccordionStyles>
+    </div>
   );
 }

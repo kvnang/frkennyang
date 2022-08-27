@@ -1,10 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
-import styled from 'styled-components';
 import { SubmitHandler, useForm } from 'react-hook-form';
-// import DatePicker from 'react-datepicker';
-// import DayPickerInput from 'react-day-picker/DayPickerInput';
 import { SnackbarContext } from './SnackbarContext';
-import { breakpoints } from '../styles/breakpoints';
 import FormSubmitButton from './FormSubmitButton';
 import countries from '../utils/countries';
 import { FormMessageTypes } from '../types';
@@ -50,7 +46,7 @@ const defaultValues = {
   alternateDate: '',
   startTime: '',
   endTime: '',
-  timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone || defaultTimeZone,
+  timeZone: '',
   organization: '',
   contactName: '',
   email: '',
@@ -74,70 +70,6 @@ const defaultValues = {
   details: '',
   title: '', // Honeypot
 };
-
-const FormStyles = styled.div`
-  /* background-color: var(--dark-grey); */
-  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.32); */
-  display: flex;
-  padding: 1.5rem 0 0;
-  margin: 2.5rem 0 0;
-  border-top: 1px solid var(--grey);
-
-  @media ${breakpoints.tablet} {
-    border: 1px solid var(--grey);
-    padding: 1.5rem;
-    margin: 2.5rem 0 0;
-  }
-
-  @media ${breakpoints.laptop} {
-    padding: 2.5rem;
-    margin: 2.5rem -2.5rem 0;
-  }
-`;
-
-const TimeZoneSelectStyles = styled.label`
-  position: relative;
-  display: inline-block;
-
-  select {
-    display: inline-block;
-    background: none;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    box-shadow: none;
-
-    &:focus {
-      + span {
-        background-color: var(--dark-grey);
-      }
-    }
-  }
-
-  span {
-    padding: 0.25rem 1.25rem 0.25rem 0.5rem;
-    font-weight: 600;
-    transition: background-color var(--transition);
-  }
-
-  &::after {
-    height: 1rem;
-    width: 1rem;
-    right: 0.25rem;
-  }
-
-  &:hover {
-    span {
-      background-color: var(--dark-grey);
-    }
-  }
-`;
 
 function formatTZ(str: string) {
   return str.replace(/_/g, ' ').replace(/\//g, ' / ');
@@ -165,6 +97,7 @@ export default function InviteForm() {
     formState: { errors },
     watch,
     getValues,
+    setValue,
   } = useForm({ defaultValues });
 
   const [formMessage, setFormMessage] = useState<FormMessageTypes>({
@@ -222,6 +155,13 @@ export default function InviteForm() {
     }
   }, [formMessage, addSnackbar, removeSnackbar]);
 
+  useEffect(() => {
+    setValue(
+      'timeZone',
+      Intl.DateTimeFormat().resolvedOptions().timeZone || defaultTimeZone
+    );
+  }, []);
+
   const validateIfInPersonEvent = (value: any) => {
     if (!value && getValues('eventLocation') !== 'online') {
       return 'Required when Type of Event is not Online';
@@ -230,7 +170,7 @@ export default function InviteForm() {
   };
 
   return (
-    <FormStyles>
+    <div className="invite-form">
       {(formMessage.open && formMessage.status === 'success' && (
         <div>
           <h2 className="h3">Thank You!</h2>
@@ -333,7 +273,10 @@ export default function InviteForm() {
               >
                 Date & Time are shown in{' '}
                 <span style={{ display: 'inline-block' }}>
-                  <TimeZoneSelectStyles className="select-wrapper">
+                  <label
+                    className="select-wrapper time-zones"
+                    htmlFor="timeZone"
+                  >
                     <select
                       id="timeZone"
                       {...register('timeZone', { required: true })}
@@ -345,7 +288,7 @@ export default function InviteForm() {
                       ))}
                     </select>
                     <span>{formatTZ(selectedTimeZone)}</span>
-                  </TimeZoneSelectStyles>{' '}
+                  </label>{' '}
                   timezone.
                 </span>
               </p>
@@ -616,7 +559,7 @@ export default function InviteForm() {
                     aria-invalid={!!errors.attendance}
                     {...register('attendance', { required: true })}
                   >
-                    <option value="" selected disabled>
+                    <option value="" disabled>
                       Select range
                     </option>
                     <option value="1–20">1–20</option>
@@ -640,7 +583,7 @@ export default function InviteForm() {
                     aria-invalid={!!errors.age}
                     {...register('age', { required: true })}
                   >
-                    <option value="" selected disabled>
+                    <option value="" disabled>
                       Select range
                     </option>
                     <option value="1-12">1-12</option>
@@ -786,6 +729,6 @@ export default function InviteForm() {
           </div>
         </form>
       )}
-    </FormStyles>
+    </div>
   );
 }

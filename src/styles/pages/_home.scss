@@ -1,0 +1,313 @@
+.hero {
+  background: radial-gradient(
+    62.87% 62.87% at 53.33% 37.13%,
+    var(--dark-grey) 0%,
+    var(--black) 55.75%
+  );
+  padding-top: 1.25rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+
+  .container {
+    position: relative;
+  }
+
+  .hero-text {
+    --width-xs: 12;
+    --width-sm: 7;
+    --width-md: 5;
+    --width-lg: 4;
+    --offset-xs: 0;
+    --offset-sm: 1;
+    --offset-md: 1;
+    --offset-lg: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+    position: relative;
+
+    @include breakpoint($tablet-sm) {
+      padding-right: 2.5rem;
+    }
+    @include breakpoint($laptop-sm) {
+      padding-right: 0;
+    }
+    @include breakpoint($laptop-md) {
+      --offset-md: 2;
+      --width-md: 4;
+    }
+
+    &::before {
+      content: none;
+      height: 200%;
+      width: 1px;
+      background-color: var(--grey);
+      position: absolute;
+      bottom: 0;
+      left: -1rem;
+      opacity: 0.5;
+
+      @include breakpoint($tablet-sm) {
+        content: '';
+      }
+    }
+
+    .button-group {
+      display: flex;
+      flex-flow: wrap;
+      margin: -0.75rem -1rem;
+      max-width: 80%;
+
+      @include breakpoint($tablet-sm) {
+        max-width: initial;
+      }
+
+      .button {
+        margin: 0.75rem 1rem;
+      }
+    }
+  }
+
+  .signature {
+    width: 50%;
+    position: absolute;
+    opacity: 0.4;
+    order: 9;
+    transform: translateY(calc(100% + 1.6rem));
+
+    @include breakpoint($tablet-sm) {
+      position: static;
+      width: 15rem;
+      min-width: 15rem;
+      margin-left: -3.5rem;
+      margin-bottom: 1.75rem;
+      opacity: 1;
+      order: 0;
+      transform: translateY(0);
+    }
+  }
+
+  .title {
+    margin-top: 0;
+  }
+
+  .hero-image {
+    --width-xs: 12;
+    --width-md: 4;
+    --offset-md: 1;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    overflow: visible;
+    margin-top: -7.5rem;
+
+    @media (min-width: 416px) {
+      margin-top: -5.5rem;
+    }
+
+    @media (min-width: 540px) {
+      margin-top: -4.5rem;
+    }
+
+    @include breakpoint($tablet-sm) {
+      margin-top: -22rem;
+    }
+
+    @include breakpoint($tablet-sm) {
+      margin-top: -34rem;
+    }
+
+    @include breakpoint($laptop-sm) {
+      margin-top: 0;
+      max-width: 400px;
+      min-width: 350px;
+    }
+
+    .gatsby-image-wrapper {
+      width: 60%;
+      transform: translateX(30%);
+
+      @include breakpoint($tablet-sm) {
+        width: 50%;
+      }
+
+      @include breakpoint($laptop-sm) {
+        width: 100%;
+
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .social {
+    right: auto;
+    left: 0;
+    display: none;
+
+    @include breakpoint($tablet-sm) {
+      display: flex;
+    }
+
+    @include breakpoint($laptop-sm) {
+      left: auto;
+      right: 0;
+    }
+  }
+}
+
+.contact {
+  @include breakpoint($laptop-md) {
+    background-color: var(--offwhite);
+    margin: -1px 0;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .inner {
+    --width-xs: 12;
+    --width-md: 10;
+    --offset-md: 1;
+    background-color: var(--black);
+
+    position: relative;
+  }
+
+  .form-wrapper {
+    @include breakpoint($laptop-md) {
+      margin-left: 40%;
+      margin-right: 10%;
+    }
+  }
+
+  .contact-img {
+    display: none;
+    width: calc(30% + 10% + 2.5vw);
+    margin-left: calc(-10% - 2.5vw);
+    position: absolute;
+    top: var(--section-padding);
+    left: 0;
+    height: calc(100% - var(--section-padding) + 4.875rem);
+    z-index: 1;
+
+    @include breakpoint($laptop-md) {
+      display: block;
+    }
+
+    @include breakpoint($laptop-lg) {
+      width: calc(30% + 5% + 2.5vw);
+      margin-left: calc(-5% - 2.5vw);
+    }
+
+    &::before {
+      content: '';
+      height: 100%;
+      width: calc(100% - 20% - 2.5vw);
+      position: absolute;
+      z-index: -1;
+      top: -1rem;
+      right: -1rem;
+      background-color: var(--grey);
+      opacity: 0.25;
+    }
+
+    .gatsby-image-wrapper {
+      height: 100%;
+    }
+  }
+
+  .social {
+    display: none;
+
+    @include breakpoint($laptop-md) {
+      display: flex;
+    }
+  }
+}
+
+.contact-form {
+  margin-top: 3.5rem;
+
+  button[type='submit'] {
+    margin-left: auto;
+    display: block;
+  }
+}
+
+.featured-section {
+  width: 100%;
+  overflow-x: hidden;
+
+  .title {
+    --width-xs: 12;
+    --width-md: 10;
+    --offset-md: 1;
+
+    .inner {
+      @include breakpoint($laptop-sm) {
+        padding-left: 50%;
+      }
+    }
+  }
+
+  .slider-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  .slider {
+    @include breakpoint($tablet-sm) {
+      --slider--slide-width: 50%;
+    }
+
+    @include breakpoint($laptop-sm) {
+      --slider--slide-width: 33.333%;
+    }
+  }
+
+  &--wyd {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--white);
+
+    .wyd {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      transform: translate(20%, -10%);
+      opacity: 0.3;
+      display: none;
+
+      @include breakpoint($tablet-sm) {
+        display: block;
+      }
+
+      svg {
+        height: 120%;
+        width: auto;
+      }
+    }
+
+    .title {
+      h2 {
+        display: flex;
+        align-items: center;
+
+        .logo {
+          margin-right: 1rem;
+          width: 4rem;
+          height: 4rem;
+        }
+      }
+    }
+  }
+}
+
+.posts-language-switcher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -8,8 +8,12 @@ export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({
 }) => <Layout {...props}>{element}</Layout>;
 
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({
+  pathname,
   setPreBodyComponents,
+  setHtmlAttributes,
 }) => {
+  setHtmlAttributes({ lang: pathname.startsWith('/id/') ? 'id' : 'en' });
+
   const scripts = [
     <script
       key="preferred-lang-script"
