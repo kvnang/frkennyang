@@ -8,6 +8,18 @@ category:
   - Grace
 excerpt: Dalam artikel ini, saya membahas konsep predestinasi; kemunculannya dalam Kitab Suci; penjelasan para teolog seperti Agustinus, Thomas Aquinas, dan Luther; bidah predestinasi ganda yang dipelopori oleh Calvin; pernyataan dogmatik Katolik; keseimbangan antara rahmat dan jasa; dan ciri-ciri predestinasi.
 ---
+
+## Daftar Isi
+
+1. [Apa Arti Predestinasi?](/id/post/predestination/#apa-arti-predestinasi)
+2. [Predestinasi dalam Kitab Suci](/id/post/predestination/#predestinasi-dalam-kitab-suci)
+3. [Predestinasi Menurut Para Teolog](/id/post/predestination/#predestinasi-menurut-para-teolog)
+4. [Bidah: Predestinasi Ganda](/id/post/predestination/#bidah-predestinasi-ganda)
+5. [Pernyataan Katolik](/id/post/predestination/#pernyataan-katolik)
+6. [Ciri-Ciri Predestinasi](/id/post/predestination/#ciri-ciri-predestinasi)
+
+---
+
 ## Apa Arti Predestinasi?
 
 'Predestinasi' (Latin, *prae* + *destinare*) artinya mengarahkan atau menentukan sesuatu terlebih dahulu. Predestinasi secara umum mengacu pada **setiap keputusan Allah yang memerintahkan dari kekekalan setiap peristiwa temporal, terutama peristiwa-peristiwa yang dipengaruhi oleh kehendak bebas manusia.** Peristiwa temporal mencakup semua fakta sejarah (misalnya, jatuhnya Kekaisaran Romawi) dan semua titik balik dalam sejarah keselamatan (misalnya, pemilihan Maria sebagai Bunda Allah).
