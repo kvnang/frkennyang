@@ -2,10 +2,7 @@ import { graphql } from 'gatsby';
 import { StaticImage, GatsbyImage } from 'gatsby-plugin-image';
 import React from 'react';
 import { MdFormatAlignLeft, MdPlayArrow } from 'react-icons/md';
-import styled from 'styled-components';
-import { breakpoints } from '../styles/breakpoints';
 import { PostProps } from '../types';
-import { formatDate } from '../utils/helpers';
 import { LangType } from './LangContext';
 
 interface SkeletonProps {
@@ -19,189 +16,6 @@ interface Props {
   format?: 'default' | 'list';
   siteLang?: LangType | null;
 }
-
-const PostStyles = styled.article`
-  padding: calc(var(--post-gap) * 2) var(--post-gap);
-
-  .post-img,
-  .post-title,
-  .post-excerpt {
-    margin-bottom: 0.5em;
-  }
-
-  .post-inner {
-    display: flex;
-    flex-direction: column;
-    transition: color var(--transition);
-
-    &:hover,
-    &:focus {
-      @media (hover: hover) {
-        color: var(--gold);
-
-        .post-img {
-          .gatsby-image-wrapper {
-            transform: translate(-0.5rem, -0.5rem);
-          }
-          .post-img-inner {
-            &::before {
-              opacity: 0.7;
-            }
-          }
-        }
-      }
-    }
-
-    &:focus {
-      color: var(--gold);
-    }
-  }
-
-  .post-details {
-    flex: 1;
-  }
-
-  .post-img {
-    .post-img-inner {
-      width: 100%;
-      height: 0;
-      position: relative;
-      padding-bottom: 56.25%;
-      z-index: 0;
-
-      &::before {
-        content: '';
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        background: var(--grey);
-        opacity: 0.2;
-        transition: var(--transition);
-      }
-
-      &.skeleton-bg {
-        &::before {
-          content: none;
-        }
-      }
-    }
-
-    .gatsby-image-wrapper {
-      width: 100%;
-      transition: transform var(--transition);
-    }
-
-    .post-format {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      height: 2.5rem;
-      width: 2.5rem;
-      background-color: var(--black);
-      padding: 0.5rem;
-      z-index: 1;
-      transform: translateZ(0);
-
-      svg {
-        color: var(--white);
-        height: 100%;
-        width: auto;
-      }
-    }
-
-    .post-lang {
-      padding: 0.25rem 0.75rem;
-      border-radius: 0.25rem;
-      background-color: var(--white);
-      position: absolute;
-      bottom: 0.5rem;
-      right: 0.5rem;
-      box-shadow: var(--shadow);
-      color: var(--black);
-    }
-  }
-
-  .post-excerpt,
-  .post-meta {
-    color: var(--black);
-  }
-
-  .post-excerpt {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .post-meta {
-    &.skeleton-bg {
-      width: 50%;
-    }
-  }
-
-  &.format-list {
-    .post-inner {
-      flex-direction: row;
-    }
-    .post-img {
-      order: 1;
-      width: 100px;
-      min-width: 100px;
-      margin-left: 1.5rem;
-      margin-bottom: 0;
-
-      @media ${breakpoints.tablet} {
-        width: 200px;
-        min-width: 200px;
-        margin-left: 1.5rem;
-      }
-    }
-    .post-title {
-      @media ${breakpoints.mobileOnly} {
-        font-size: var(--font-size-h4);
-      }
-    }
-    .post-excerpt {
-      -webkit-line-clamp: 2;
-      @media ${breakpoints.mobileOnly} {
-        display: none;
-      }
-    }
-  }
-
-  .skeleton-bg {
-    background: var(--offwhite-light);
-    position: relative;
-    overflow: hidden;
-
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background-image: linear-gradient(
-        90deg,
-        hsla(0, 100%, 100%, 0) 0,
-        hsla(0, 100%, 100%, 0.25) 30%,
-        hsla(0, 100%, 100%, 0.5) 60%,
-        hsla(0, 100%, 100%, 0) 100%
-      );
-      z-index: 1;
-      animation: shimmer 1.5s infinite;
-      transform: translateX(-100%);
-    }
-  }
-  @keyframes shimmer {
-    100% {
-      transform: translateX(100%);
-    }
-  }
-`;
 
 export default function PostEntry({
   post,
@@ -226,7 +40,7 @@ export default function PostEntry({
 
   const meta = [];
   if (post.frontmatter.date) {
-    meta.push(formatDate(post.frontmatter.date));
+    meta.push(post.frontmatter.date);
   }
   if (format === 'list' && post.frontmatter.format) {
     meta.push(post.frontmatter.format);
@@ -236,7 +50,7 @@ export default function PostEntry({
   }
 
   return (
-    <PostStyles className={`post format-${format}`}>
+    <article className={`post-entry format-${format}`}>
       <a href={`${post.fields.slug}`} className="post-inner">
         {showImage && (
           <div className="post-img">
@@ -284,7 +98,7 @@ export default function PostEntry({
           </p>
         </div>
       </a>
-    </PostStyles>
+    </article>
   );
 }
 
@@ -293,7 +107,7 @@ export function PostEntrySkeleton({
   format = 'default',
 }: SkeletonProps) {
   return (
-    <PostStyles className={`post format-${format}`}>
+    <article className={`post-entry format-${format}`}>
       <div className="post-inner">
         {showImage && (
           <div className="post-img">
@@ -312,7 +126,7 @@ export function PostEntrySkeleton({
           </p>
         </div>
       </div>
-    </PostStyles>
+    </article>
   );
 }
 
@@ -323,14 +137,15 @@ export const query = graphql`
     frontmatter {
       title
       format
-      date
+      date(formatString: "MMM D")
       excerpt
       featuredImage {
         childImageSharp {
           gatsbyImageData(
             aspectRatio: 1.777778
-            layout: FULL_WIDTH
+            layout: CONSTRAINED
             placeholder: BLURRED
+            width: 480
           )
         }
       }

@@ -1,70 +1,7 @@
 import { graphql, useStaticQuery, navigate } from 'gatsby';
 import React, { useContext } from 'react';
-import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router'; // eslint-disable-line import/no-unresolved
-import styled from 'styled-components';
-import { LangContext, LangType } from './LangContext';
-import { breakpoints } from '../styles/breakpoints';
-import { untrailingSlashIt } from '../utils/helpers';
-
-const LangSwitcherStyles = styled.div`
-  display: inline-flex;
-
-  ul {
-    list-style: none;
-    display: flex;
-    flex-flow: wrap;
-    padding: 0;
-    margin: -0.5rem -0.75rem;
-
-    li {
-      margin: 0.5rem 0;
-      padding: 0 0.75rem;
-      line-height: 1;
-      text-align: center;
-
-      &:not(:last-child) {
-        position: relative;
-        border-right: 1px solid var(--grey);
-      }
-    }
-  }
-
-  button {
-    opacity: 0.75;
-    transition: opacity var(--transition);
-
-    &[disabled] {
-      opacity: 1;
-      font-weight: 600;
-      cursor: default;
-    }
-
-    &:hover {
-      opacity: 1;
-    }
-  }
-
-  &.vertical {
-    @media ${breakpoints.tabletL} {
-      ul {
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-
-        li {
-          padding: 0.5rem 0;
-          margin: 0 0.75rem;
-
-          &:not(:last-child) {
-            border-right: 0;
-            border-bottom: 1px solid var(--grey);
-          }
-        }
-      }
-    }
-  }
-`;
+import { LangContext } from './LangContext';
 
 interface Props {
   shouldNavigate?: boolean;
@@ -83,16 +20,10 @@ export default function LangSwitcher({
           path
         }
       }
-      site {
-        siteMetadata {
-          siteUrl
-        }
-      }
     }
   `);
 
   const allPosts: Array<{ path: string }> = query.allSitePage.nodes;
-  const { siteUrl } = query.site.siteMetadata;
 
   const localizedPathname = pathname.startsWith('/id/')
     ? pathname.replace('/id', '')
@@ -109,16 +40,7 @@ export default function LangSwitcher({
   }
 
   return (
-    <LangSwitcherStyles
-      className={`language-switcher ${vertical ? 'vertical' : ''}`}
-    >
-      <Helmet>
-        <link
-          rel="alternate"
-          hrefLang={lang === 'id' ? 'en' : 'id'}
-          href={`${untrailingSlashIt(siteUrl)}/${localizedPathname}`}
-        />
-      </Helmet>
+    <div className={`language-switcher ${vertical ? 'vertical' : ''}`}>
       <ul>
         <li>
           <button
@@ -153,6 +75,6 @@ export default function LangSwitcher({
           </button>
         </li>
       </ul>
-    </LangSwitcherStyles>
+    </div>
   );
 }

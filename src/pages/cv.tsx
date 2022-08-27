@@ -1,15 +1,12 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import styled from 'styled-components';
-import { Helmet } from 'react-helmet';
-import { graphql } from 'gatsby';
+import { graphql, HeadProps } from 'gatsby';
 import {
   Accordion,
   AccordionItem,
   AccordionItemBody,
   AccordionItemHead,
 } from '../components/Accordions';
-import { breakpoints } from '../styles/breakpoints';
 import SEO from '../components/Seo';
 
 interface CvArrayProps {
@@ -46,131 +43,6 @@ interface Props {
     };
   };
 }
-
-const IntroStyles = styled.section`
-  position: relative;
-  z-index: 0;
-
-  .img {
-    --width-xs: 6;
-    --offset-xs: 0;
-    --width-sm: 3;
-    --width-md: 4;
-    --offset-md: 1;
-
-    margin-bottom: 2.5rem;
-
-    .img-inner {
-      position: relative;
-      z-index: 0;
-
-      &::before {
-        content: '';
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        z-index: -1;
-        bottom: -1rem;
-        right: -1rem;
-        background-color: var(--grey);
-        opacity: 0.25;
-      }
-    }
-  }
-  .text {
-    --width-xs: 12;
-    --offset-xs: 0;
-    --width-sm: 8;
-    --offset-sm: 1;
-    --width-md: 5;
-    --offset-md: 1;
-
-    // Different from About page
-    padding-bottom: 2.5rem;
-    position: relative;
-
-    @media ${breakpoints.laptop} {
-      padding-bottom: 4.5rem;
-    }
-
-    * {
-      color: var(--black);
-    }
-
-    &::before {
-      content: '';
-      position: absolute;
-      height: calc(100% + 7.5rem);
-      width: 200%;
-      top: -7.5rem;
-      left: -50%;
-      z-index: -1;
-      background-color: var(--offwhite);
-
-      @media ${breakpoints.tablet} {
-        height: calc(100% + 2rem);
-        width: calc(200% + 20%);
-        top: -2rem;
-        left: -20%;
-      }
-      @media ${breakpoints.laptop} {
-        height: calc(100% + 20rem);
-        width: calc(200% + 50%);
-        top: -20rem;
-        left: -50%;
-      }
-    }
-  }
-
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-`;
-
-const BodyStyles = styled.section`
-  .inner {
-    --width-xs: 12;
-    --width-md: 8;
-    --offset-md: 2;
-    --width-lg: 6;
-    --offset-lg: 3;
-  }
-
-  .section-title {
-    position: relative;
-  }
-`;
-
-const CvUListStyles = styled.ul`
-  list-style: none;
-  padding: 0;
-
-  li {
-    &:not(:last-child) {
-      margin-bottom: 1.5rem;
-    }
-  }
-
-  h4,
-  h5 {
-    margin-bottom: 0.35rem !important;
-  }
-
-  h4 {
-    span {
-      font-weight: 400;
-    }
-  }
-
-  h6 {
-    opacity: 0.8;
-  }
-
-  p {
-    color: var(--white);
-  }
-`;
 
 export default function CvPage({ data }: Props) {
   if (!data.cv?.html) {
@@ -240,12 +112,7 @@ export default function CvPage({ data }: Props) {
 
   return (
     <main>
-      <SEO
-        title="Curriculum Vitae"
-        description="Fr. Kenny's online Curriculum Vitae features his biograhical data and educational history, as well as professional experience."
-      />
-      <Helmet bodyAttributes={{ class: 'page-cv' }} />
-      <IntroStyles className="page-p-t section-p-b">
+      <section className="page-p-t section-p-b intro">
         <div className="inner">
           <div className="container">
             <div className="row">
@@ -263,8 +130,8 @@ export default function CvPage({ data }: Props) {
             </div>
           </div>
         </div>
-      </IntroStyles>
-      <BodyStyles className="section-p-b">
+      </section>
+      <section className="section-p-b body">
         <div className="container">
           <div className="row">
             <div className="col inner">
@@ -282,7 +149,7 @@ export default function CvPage({ data }: Props) {
                       <h3>{cvGroup.title}</h3>
                     </AccordionItemHead>
                     <AccordionItemBody>
-                      <CvUListStyles>
+                      <ul className="cv-list">
                         {cvGroup.items.map((cvItem, k) => (
                           <li key={`accordion-cv-li-${k}`}>
                             {(cvItem.title || cvItem.subtitle) && (
@@ -303,7 +170,7 @@ export default function CvPage({ data }: Props) {
                               )}
                           </li>
                         ))}
-                      </CvUListStyles>
+                      </ul>
                     </AccordionItemBody>
                   </AccordionItem>
                 </Accordion>
@@ -311,8 +178,18 @@ export default function CvPage({ data }: Props) {
             </div>
           </div>
         </div>
-      </BodyStyles>
+      </section>
     </main>
+  );
+}
+
+export function Head({ location: { pathname } }: HeadProps) {
+  return (
+    <SEO
+      title="Curriculum Vitae"
+      description="Fr. Kenny's online Curriculum Vitae features his biograhical data and educational history, as well as professional experience."
+      pathname={pathname}
+    />
   );
 }
 
