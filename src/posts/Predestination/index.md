@@ -8,6 +8,18 @@ category:
   - Grace
 excerpt: In this article, I go over the notion of predestination; its appearance in Scripture; the exposition of theologians such as Augustine, Aquinas, and Luther; Calvin's heresy of double predestination; Catholic dogmatic affirmations; the golden mean between grace and merit; and the characteristics of predestination.
 ---
+
+## Content
+
+1. [What is Predestination?](/post/predestination/#what-is-predestination)
+2. [Predestination in Scripture](/post/predestination/#predestination-in-scripture)
+3. [Predestination According to Theologians](/post/predestination/#predestination-according-to-theologians)
+4. [Heresy: Double Predestination](/post/predestination/#heresy-double-predestination)
+5. [Catholic Affirmations](/post/predestination/#catholic-affirmations)
+6. [Characteristics of Predestination](/post/predestination/#characteristics-of-predestination)
+
+---
+
 ## What is Predestination?
 
 'To predestine' (Latin, *prae* + *destinare*) means to direct or determine something beforehand. Predestination in general refers to **every decree by which God orders from eternity all temporal events, especially those influenced by human free will.** Temporal events include all historical facts (e.g., the fall of the Roman Empire) and all turning points in salvation history (e.g., the election of Mary as the Mother of God). 
