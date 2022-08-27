@@ -63,7 +63,7 @@ Hence, Gregorian chants are relevant for youth not just because they are in Lati
 
 I speak four languages fluently (English, Bahasa, Spanish, and Italian) and passively know two other languages (Latin and French). I do speak basic Mandarin and would like to become well-versed in it. I have also been trained in Greek and Hebrew, but I remember very little of them. I started learning German earlier this year. However, I set it aside because I had to focus on other academic tasks. I'll get back to it a.s.a.p.!
 
-![father kenny ang and father paul o'callaghan at the pontifical university of the holy cross rome italy](kenny_callaghan.jpg 'title=With the Rev. Prof. Paul O'Callaghan at my Master's Graduation in 2022 at the Pontifical University of the Holy Cross')
+![father kenny ang and father paul o'callaghan at the pontifical university of the holy cross rome italy](kenny_callaghan.jpg 'With the Rev. Prof. Paul O'Callaghan at my Master's Graduation in 2022 at the Pontifical University of the Holy Cross')
 
 ## 8. Why are you interested in learning new languages?
 
