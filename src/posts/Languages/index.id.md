@@ -65,6 +65,8 @@ Oleh karena itu, nyanyian Gregorian relevan bagi kaum muda bukan hanya karena ny
 
 Saya fasih berbicara empat bahasa (Inggris, Bahasa, Spanyol, dan Italia) dan secara pasif menguasai dua bahasa lainnya (Latin dan Prancis). Saya berbicara bahasa Mandarin dasar dan ingin menguasainya dengan baik. Saya juga telah mempelajari bahasa Yunani dan Ibrani, tetapi saya tidak terlalu mengingatnya. Saya mulai belajar bahasa Jerman awal tahun ini. Namun, saya harus mengesampingkannya karena saya perlu fokus pada tugas akademik lainnya. Saya akan kembali mempelajari bahasa Jerman sesegera mungkin!
 
+![father kenny ang and father paul o'callaghan at the pontifical university of the holy cross rome italy](kenny_callaghan.jpg 'Bersama Rev. Prof. Paul O\'Callaghan setelah wisuda gelar lisensiat (S2) tahun 2022 di Pontifical University of the Holy Cross')
+
 ### 8. Mengapa Anda tertarik mempelajari bahasa baru?
 
 Saya cukup pragmatis dalam hal mempelajari bahasa baru: saya mempelajari bahasa baru karena saya membutuhkannya.
