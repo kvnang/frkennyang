@@ -10,13 +10,11 @@ category:
 excerpt: A trip to World Youth Day 2023 in Lisbon and to other major cities in Europe such as the Vatican, Rome, Fátima, Lourdes, and Paris. This trip is led by Father Kenny Ang and organized by Seven World Tours.
 lang: id
 ---
+REGISTRATION CLOSED
 
 <div class="cta">
   <div class="cta__inner">
     <ul>
-      <li>
-        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
-      </li>
       <li>
         Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
       </li>
@@ -58,7 +56,7 @@ World Youth Day (WYD) 2023 di Lisbon merupakan salah satu acara utama dalam perj
 
 ## 3. Kapan sebaiknya saya mendaftar?
 
-Daftar sekarang! Pendaftaran telah dibuka sejak tanggal **17 Mei 2022**. Pendaftaran akan ditutup tanggal **1 April 2023** atau ketika kuota terpenuhi.
+Pendaftaran telah ditutup karena kuota telah terpenuhi.
 
 ## 4. Mengapa sebaiknya saya mendaftar sedini mungkin?
 
@@ -68,21 +66,6 @@ Jika kamu merasa tergerak untuk bergabung, penting bagimu untuk mendaftar sekara
 - *Lokasi yang lebih strategis*. Kamu juga pasti tahu bahwa, semakin cepat kita mendaftar, semakin cepat panitia dapat melakukan reservasi hotel, gereja, restoran, dll. Ingatlah bahwa WYD adalah sebuah acara massal. WYD Kraków pada tahun 2016, misalnya, dihadiri oleh [3,5 juta orang](https://edition.cnn.com/2013/07/19/world/world-youth-day-fast-facts/index.html). Kita bisa mendapatkan lokasi yang lebih strategis untuk hotel dan acara (misalnya, Misa dengan Paus, Misa di berbagai gereja di Eropa) hanya jika kita melakukan reservasi sedini mungkin. Lokasi yang lebih strategis pastinya akan memberi kita pengalaman dan kenyamanan yang lebih baik.
 - _Persiapan keuangan_. Kamu dapat mulai menabung atau menggalang dana. Kamu dapat mulai merencanakan cuti jika kamu bekerja atau bersekolah.
 - _Persiapan rohani_. Kamu dapat mulai berdoa untuk perjalanan ini, untuk dirimu sendiri, dan untuk sesama peserta. Kamu dapat mendaraskan [doa resmi untuk WYD Lisbon 2023](https://www.lisboa2023.org/en/article/prayer-for-world-youth-d), misalnya.
-
-## Register now and save money!
-
-<div class="cta">
-  <div class="cta__inner">
-    <ul>
-      <li>
-        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
-      </li>
-      <li>
-        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
-      </li>
-    </ul>
-  </div>
-</div>
 
 ## 5. Siapa yang memimpin perjalanan ini?
 
@@ -279,19 +262,4 @@ Kamu bisa mendaftar dengan mengklik tombol "REGISTER NOW" yang tersebar di halam
 - Tanda tangan digital orang tua (bagi peserta di bawah usia 18 tahun)
 
 Apabila kamu (atau orang tuamu) belum memiliki tanda tangan digital, jangan khawatir. Tanda tangan digital dapat dibuat pada saat kamu mendaftar lewat Google Form itu sendiri.
-
-## Register now and save money!
-
-<div class="cta">
-  <div class="cta__inner">
-    <ul>
-      <li>
-        <a class="button" href="https://forms.gle/KfMP3oBE9QHBZSs36" target="_blank" rel="noopener noreferrer">REGISTER NOW</a> 
-      </li>
-      <li>
-        Questions? <a href="http://wa.me/+6283896128777" target="_blank" rel="noopener noreferrer">Ask Seven World Tours</a>  
-      </li>
-    </ul>
-  </div>
-</div>
 
