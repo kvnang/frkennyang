@@ -8,26 +8,34 @@ import PostEntry from './PostEntry';
 import { Slider } from './Slider';
 
 export default function HomeWydFeatured() {
-  const data = useStaticQuery(graphql`query MdPostsQueryTwo {
-  postsEN: allMarkdownRemark(
-    limit: 12
-    sort: {frontmatter: {date: DESC}}
-    filter: {fields: {showInLang: {in: "en"}}, frontmatter: {category: {in: "WYD23"}}}
-  ) {
-    nodes {
-      ...MarkdownRemarkFields
+  const data = useStaticQuery(graphql`
+    query MdPostsQueryTwo {
+      postsEN: allMarkdownRemark(
+        limit: 12
+        sort: { frontmatter: { date: DESC } }
+        filter: {
+          fields: { showInLang: { in: "en" } }
+          frontmatter: { category: { in: "WYD23" } }
+        }
+      ) {
+        nodes {
+          ...MarkdownRemarkFields
+        }
+      }
+      postsID: allMarkdownRemark(
+        limit: 12
+        sort: { frontmatter: { date: DESC } }
+        filter: {
+          fields: { showInLang: { in: "id" } }
+          frontmatter: { category: { in: "WYD23" } }
+        }
+      ) {
+        nodes {
+          ...MarkdownRemarkFields
+        }
+      }
     }
-  }
-  postsID: allMarkdownRemark(
-    limit: 12
-    sort: {frontmatter: {date: DESC}}
-    filter: {fields: {showInLang: {in: "id"}}, frontmatter: {category: {in: "WYD23"}}}
-  ) {
-    nodes {
-      ...MarkdownRemarkFields
-    }
-  }
-}`);
+  `);
 
   const postsEN = data.postsEN.nodes;
   const postsID = data.postsID.nodes;
