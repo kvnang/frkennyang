@@ -135,6 +135,11 @@ const config: GatsbyConfig = {
                       modifiedTime
                     }
                   }
+                  internal {
+                    contentDigest
+                    type
+                    owner
+                  }
                 }
               }
             }`,
