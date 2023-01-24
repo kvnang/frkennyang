@@ -52,7 +52,7 @@ export default function HomePage() {
           <Social />
         </div>
       </div>
-      <HomeWydFeatured />
+      {/* <HomeWydFeatured /> */}
       <HomeFeaturedMd />
       <div className="contact" id="contact">
         <div className="container">
