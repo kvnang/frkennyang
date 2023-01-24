@@ -1,6 +1,9 @@
 import React, { CSSProperties, useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { LazyMotion, m } from 'framer-motion';
 import { BsChevronDown } from 'react-icons/bs';
+
+const loadFeatures = () =>
+  import('../utils/features').then((res) => res.default);
 
 interface AccordionItemHeadProps {
   children?: React.ReactNode;
@@ -53,7 +56,7 @@ export function AccordionItemBody({
   activeAccordionItem,
 }: AccordionItemBodyProps) {
   return (
-    <motion.div
+    <m.div
       id={`accordion-${id}`}
       className="accordion__item__body"
       aria-labelledby={`${id}`}
@@ -67,7 +70,7 @@ export function AccordionItemBody({
       >
         {children}
       </div>
-    </motion.div>
+    </m.div>
   );
 }
 
@@ -138,19 +141,21 @@ export function Accordion({ children, style }: AccordionProps) {
   }, []);
 
   return (
-    <div className="accordion" style={style}>
-      {React.Children.map(children, (child) => {
-        const id = `${child.props.id}`;
-        return (
-          <AccordionItem
-            id={id}
-            activeAccordionItem={activeAccordionItem}
-            setActiveAccordionItem={setActiveAccordionItem}
-          >
-            {child.props.children}
-          </AccordionItem>
-        );
-      })}
-    </div>
+    <LazyMotion features={loadFeatures}>
+      <div className="accordion" style={style}>
+        {React.Children.map(children, (child) => {
+          const id = `${child.props.id}`;
+          return (
+            <AccordionItem
+              id={id}
+              activeAccordionItem={activeAccordionItem}
+              setActiveAccordionItem={setActiveAccordionItem}
+            >
+              {child.props.children}
+            </AccordionItem>
+          );
+        })}
+      </div>
+    </LazyMotion>
   );
 }
