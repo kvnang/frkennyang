@@ -30,6 +30,9 @@
 
 ## Academic Experience
 
+- ### Pontifical University of the Holy Cross
+  #### Teaching Assistant
+  ##### OCTOBER 2022 - present, ROME
 - ### University of Ciputra
   #### Lecturer
   ##### SEPTEMBER 2019 - MAY 2020, SURABAYA
