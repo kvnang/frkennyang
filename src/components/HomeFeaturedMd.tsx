@@ -8,34 +8,26 @@ import { Slider } from './Slider';
 // import { useWindowSize } from '../hooks/useWindowSize';
 
 export default function HomeFeaturedMd() {
-  const data = useStaticQuery(graphql`
-    query MdPostsQuery {
-      postsEN: allMarkdownRemark(
-        limit: 6
-        sort: { fields: [frontmatter___date], order: DESC }
-        filter: {
-          fields: { showInLang: { eq: "en" } }
-          frontmatter: { category: { nin: "WYD23" } }
-        }
-      ) {
-        nodes {
-          ...MarkdownRemarkFields
-        }
-      }
-      postsID: allMarkdownRemark(
-        limit: 6
-        sort: { fields: [frontmatter___date], order: DESC }
-        filter: {
-          fields: { showInLang: { eq: "id" } }
-          frontmatter: { category: { nin: "WYD23" } }
-        }
-      ) {
-        nodes {
-          ...MarkdownRemarkFields
-        }
-      }
+  const data = useStaticQuery(graphql`query MdPostsQuery {
+  postsEN: allMarkdownRemark(
+    limit: 6
+    sort: {frontmatter: {date: DESC}}
+    filter: {fields: {showInLang: {eq: "en"}}, frontmatter: {category: {nin: "WYD23"}}}
+  ) {
+    nodes {
+      ...MarkdownRemarkFields
     }
-  `);
+  }
+  postsID: allMarkdownRemark(
+    limit: 6
+    sort: {frontmatter: {date: DESC}}
+    filter: {fields: {showInLang: {eq: "id"}}, frontmatter: {category: {nin: "WYD23"}}}
+  ) {
+    nodes {
+      ...MarkdownRemarkFields
+    }
+  }
+}`);
 
   const postsEN = data.postsEN.nodes;
   const postsID = data.postsID.nodes;
