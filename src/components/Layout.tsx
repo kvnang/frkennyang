@@ -14,7 +14,7 @@ import '@fontsource/montserrat/400.css';
 import '@fontsource/montserrat/600.css';
 
 interface LayoutProps extends PageProps {
-  children: React.ReactNode;
+  children: undefined;
 }
 
 export default function Layout(props: LayoutProps) {
