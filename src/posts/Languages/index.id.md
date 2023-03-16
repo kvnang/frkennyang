@@ -31,7 +31,7 @@ Untuk menjawab pertanyaan ini, kita dapat membuka 1 Korintus 14:1–25. Dari per
 1. Berbicara dalam bahasa roh adalah berbicara "kepada Allah", bukan kepada orang lain (1Kor 14:2).
 2. Berbahasa roh adalah "mengucapkan hal-hal yang rahasia" (1Kor 14:2).
 3. Mereka yang berbahasa roh "membangun dirinya sendiri," bukan gereja (1Kor 14:4).
-4. Bahasa roh seharus *tidak* diucapkan dalam konteks ibadah publik "kecuali kalau orang itu juga menafsirkannya" dan menjelaskan arti kata-kata itu kepada jemaat (1Kor 14:5). Paulus mengingatkan: "jika kamu tidak mempergunakan kata-kata yang jelas, bagaimanakah orang dapat mengerti apa yang kamu katakan? Kata-katamu sia-sia saja kamu ucapkan di udara!" (1Kor 14:9–12).
+4. Bahasa roh seharusnya *tidak* diucapkan dalam konteks ibadah publik "kecuali kalau orang itu juga menafsirkannya" dan menjelaskan arti kata-kata itu kepada jemaat (1Kor 14:5). Paulus mengingatkan: "jika kamu tidak mempergunakan kata-kata yang jelas, bagaimanakah orang dapat mengerti apa yang kamu katakan? Kata-katamu sia-sia saja kamu ucapkan di udara!" (1Kor 14:9–12).
 
 ## 3. Mengapa penting bagi umat Katolik Indonesia, terutama kaum muda, untuk belajar bahasa asing?
 
