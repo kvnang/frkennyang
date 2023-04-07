@@ -32,6 +32,8 @@ The Basilica of St. Paul Outside the Walls is **Rome’s second-largest church**
 
 -   Tomb of St. Paul (under the main altar)
 
+Note: You can gain a plenary indulgence in this Basilica. See the requirements.
+
 ## St. Paul’s Statue
 ![rome saint paul outside the walls statue quadriportico holding sword book epistles](paul-statue.jpg)
 
