@@ -25,8 +25,7 @@ The Basilica of St. Paul Outside the Walls is **Rome’s second-largest church**
 
 ## St. Paul’s Statue
 ![rome saint paul outside the walls statue quadriportico holding sword book epistles](paul-statue.jpg)
-- Date: circa 1850
-- Artist: Giuseppe Obici
+Date: circa 1850 | Artist: Giuseppe Obici
 
 This statue, standing in the Quadriportico, represents St. Paul clasping the book of his epistles which proves him, as we read at the base of the statue, “**a preacher of the Truth”** and “**a teacher of the Gentiles**.”
 
