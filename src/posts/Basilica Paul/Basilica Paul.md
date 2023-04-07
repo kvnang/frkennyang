@@ -8,6 +8,15 @@ category:
   - History
 excerpt: The Basilica of St. Paul Outside the Walls was Founded by Emperor Constantine I to honor St. Paul (beheaded in AD 67). Its highlights are Apse Mosaic (Christ the Pantocrator), Triumphal Arch Mosaic (The Apocalypse of John), Paintings of the Life of Paul, Portraits of the Popes, and the tomb of Paul.
 ---
+## Content
+
+1. [Facts](/post/basilica-paul/#facts)
+2. [St. Paul’s Statue](/post/basilica-paul/#st-pauls-statue)
+3. [Mosaic: Façade](/post/basilica-paul/#mosaic-façade)
+4. [Mosaic: Triumphal Arch](/post/basilica-paul/#mosaic-triumphal-arch)
+5. [St. Paul’s Tomb](/post/basilica-paul/#st-pauls-tomb)
+6. [Mosaic: Apse](/post/basilica-paul/#mosaic-apse)
+---
 ## Facts
 
 The Basilica of St. Paul Outside the Walls is **Rome’s second-largest church**. Founded by Emperor **Constantine I** to honor **St. Paul** (beheaded in AD 67), it was consecrated by Pope Sylvester I in 324. It was damaged in the 9th century during a **Muslim raid** and destroyed almost entirely **by fire** in 1823. It was rebuilt from 1823 to 1854, the year of its reconsecration.
