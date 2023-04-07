@@ -43,8 +43,8 @@ His right hand holds a long sword for two reasons. First, he was **beheaded by a
 
 ## Mosaic: Façade
  ![rome saint paul outside the walls mosaic facade façade](paul-facade.jpg)
-- Date: 1854–1874
-- Artist: Vatican School of Mosaics
+
+Date: 1854–1874 | Artist: Vatican School of Mosaics
 
 The façade mosaic replaced a 13th-century mosaic by Cavallini which was destroyed by fire. In the lower section, we find the **major prophets** of the Old Testament: **Isaiah**, **Jeremiah**, **Ezekiel**, and **Daniel**. They symbolize the 4,000 years that preceded the coming of the Messiah.
 
@@ -54,13 +54,15 @@ At the summit, we see **Christ enthroned**. He is flanked by the two patrons of 
 
 ## Mosaic: Triumphal Arch
 ![rome saint paul outside the walls mosaic triumphal arch doctor mundi revelation elders](paul-arch.jpg)
-- Date: 5th century
+
+Date: 5th century
 
 The triumphal arch honors St. Paul as the ***doctor mundi***, the **teacher of the world**. At the center is Christ blessing us. He is surrounded by the living creatures representing the **four evangelists** and by the **twenty-four elders** in Revelation 4. On the left side of the arch, **St. Paul points to his tomb under the altar**. On the right side stands St. Peter.
 
 ## St. Paul’s Tomb
 ![rome saint paul outside the walls tomb papal altar](paul-tomb.jpg)
-- Date: AD 67
+
+Date: AD 67
 
 In AD 61, Paul arrived in Rome to face judgment. He was **beheaded in 67**. His body was buried three kilometers away from where he was killed, in a burial area owned by a Christian woman named **Lucina**, which was already in use. Despite being a Christian, he was allowed to be buried in a **Roman cemetery** because he was a Roman citizen. His tomb soon became a place of worship and many people came to pray there, drawing strength to spread his message. A memorial was built on top of his tomb, where people continued to visit and pray during the first centuries of persecution.
 
@@ -68,8 +70,8 @@ Underneath the current Papal Altar, there is a marble tombstone that measures 2.
 
 ## Mosaic: Apse
 ![rome saint paul outside the walls mosaic apse pantocrator luke peter andrew](paul-apse.jpg)
-- Date: 13th century
-- Artist: Venetian Masters
+
+Date: 13th century | Artist: Venetian Masters
 
 Christ the ***Pantocrator*** (the Almighty) blesses us with his right hand. His three upright fingers represent the three persons of the Trinity. The two joined fingers point to the union of the divine and human natures in him.
 
