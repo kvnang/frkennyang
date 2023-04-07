@@ -75,7 +75,7 @@ Date: 13th century | Artist: Venetian Masters
 
 Christ the ***Pantocrator*** (the Almighty) blesses us with his right hand. His three upright fingers represent the three persons of the Trinity. The two joined fingers point to the union of the divine and human natures in him.
 
-Christ is also presented as our **Judge**. The book he holds contains his words of judgment: “Come, you that are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world” (Matthew 25:34). In this mosaic, Christ’s kingdom is presented in resemblance to **Eden**, as the abundance of fruited palm trees and animals suggests.
+Christ is also presented as our **Judge**. The book he holds contains his words of judgment: “*Come, you that are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world*” (Matthew 25:34). In this mosaic, Christ’s kingdom is presented in resemblance to **Eden**, as the abundance of fruited palm trees and animals suggests.
 
 From left to right stand Sts. **Luke**, **Paul**, **Peter**, and **Andrew**. Luke, having written the Acts of the Apostles, is Paul’s biographer. Peter is depicted with his characteristic curly hair and holding the keys. Andrew is the first apostle called by Christ. Let us not miss the figure holding Christ’s right foot: **Pope Honorius III** (1216–1227), who commissioned the mosaic.
 
