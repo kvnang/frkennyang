@@ -47,8 +47,6 @@ St. Peter’s Basilica is **Rome’s largest** church, spanning over 22,000 squa
 
 Note: You can gain a plenary indulgence in this Basilica. See the requirements.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BguJhRML108" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ## Michelangelo’s Pietà
 ![Rome Vatican Saint Peter Basilica Michelangelo’s Pietà Mary Jesus Golgotha](peter-pieta.jpg '©2020 Kenny Ang')
 
@@ -129,6 +127,8 @@ Date: 1657–1667 | Artist: Bernini
 Bernini’s Colonnades consist of 284 Doric columns and 88 pilasters of **travertine marble**. These columns are 13 meters tall and arranged in four rows. On top of them stand **140 statues of saints**. In Bernini's mind, these Colonnades represent **the arms of the Mother Church**, embracing all nations into her fold.
 
 ![Rome Vatican Saint Peter Basilica Square from the Dome](peter-square.jpg '©2020 Kenny Ang')
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BguJhRML108" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 [^1]:Pope Benedict XVI, Angelus (February 19, 2012).
 [^2]:It is no longer in St. Peter's Basilica since Pope Paul VI returned it to the Church of St. Andrew in Patras (Greece) in 1966.
