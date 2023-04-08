@@ -39,7 +39,7 @@ Note: You can gain a plenary indulgence in this Basilica. See the requirements.
 
 ## St. Paul’s Statue
 
-![rome saint paul outside the walls statue quadriportico holding sword book epistles](paul-statue.jpg)
+![rome saint paul outside the walls statue quadriportico holding sword book epistles](paul-statue.jpg '©2022 Kenny Ang')
 
 Date: circa 1850 | Artist: Giuseppe Obici
 
@@ -49,7 +49,7 @@ His right hand holds a long sword for two reasons. First, he was **beheaded by a
 
 ## Mosaic: Façade
 
-![rome saint paul outside the walls mosaic facade façade](paul-facade.jpg)
+![rome saint paul outside the walls mosaic facade façade](paul-facade.jpg '©2022 Kenny Ang')
 
 Date: 1854–1874 | Artist: Vatican School of Mosaics
 
@@ -61,7 +61,7 @@ At the summit, we see **Christ enthroned**. He is flanked by the two patrons of 
 
 ## Mosaic: Triumphal Arch
 
-![rome saint paul outside the walls mosaic triumphal arch doctor mundi revelation elders](paul-arch.jpg)
+![rome saint paul outside the walls mosaic triumphal arch doctor mundi revelation elders](paul-arch.jpg '©2022 Kenny Ang')
 
 Date: 5th century
 
@@ -69,7 +69,7 @@ The triumphal arch honors St. Paul as the **_doctor mundi_**, the **teacher of t
 
 ## St. Paul’s Tomb
 
-![rome saint paul outside the walls tomb papal altar](paul-tomb.jpg)
+![rome saint paul outside the walls tomb papal altar](paul-tomb.jpg '©2022 Kenny Ang')
 
 Date: AD 67
 
@@ -79,7 +79,7 @@ Underneath the current Papal Altar, there is a marble tombstone that measures 2.
 
 ## Mosaic: Apse
 
-![rome saint paul outside the walls mosaic apse pantocrator luke peter andrew](paul-apse.jpg)
+![rome saint paul outside the walls mosaic apse pantocrator luke peter andrew](paul-apse.jpg '©2023 Kenny Ang')
 
 Date: 13th century | Artist: Venetian Masters
 
