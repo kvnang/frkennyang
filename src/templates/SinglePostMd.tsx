@@ -8,6 +8,7 @@ import SEO from '../components/Seo';
 import SocialShare from '../components/SocialShare';
 import { LangContext, LangType } from '../components/LangContext';
 import { IndonesiaFlag, UsFlag } from '../components/Flags';
+import { formatDate } from '../utils/helpers';
 
 interface DataProps {
   post: PostProps;
@@ -69,7 +70,7 @@ export default function SinglePost({
     featuredImage = '';
   }
   const meta = [];
-  if (post.frontmatter.date) meta.push(post.frontmatter.date);
+  if (post.frontmatter.date) meta.push(formatDate(post.frontmatter.date));
   if (categories?.length) meta.push(categories.join(', '));
 
   useEffect(() => {
@@ -164,7 +165,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         format
-        date(formatString: "MMM D")
+        date(formatString: "YYYY-MM-DD")
         category
         youtube
         featuredImage {
