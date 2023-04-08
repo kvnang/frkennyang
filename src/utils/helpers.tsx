@@ -32,7 +32,7 @@ export function formatDate(date: string, ignoreSameYear: boolean = true) {
   // return dateObject.toLocaleDateString(locale, options);
   return format(dateObject, 'MMMM d, yyyy', {
     timeZone: 'Europe/Rome',
-    locale: 'en-US' as any,
+    // locale: 'en-US' as any,
   });
 }
 
