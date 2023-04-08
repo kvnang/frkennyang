@@ -84,7 +84,7 @@ Don’t forget to look at the **giant letters** on a gold background encircling 
 Below the four Evangelists, you see **two more inscriptions**. From Sts. Veronica to Helen, it reads in Latin: “*From here, a single faith shines throughout the world*.” From Sts. Longinus to Andrew, it says: “*From here, the unity of the priesthood is born*.”
 
 ## *Loggias* of the Relics
-![Rome Vatican Saint Peter Basilica Saint Andrew by Francois Duquesnoy](peter-andrew.jpg 'St. Andrew by Francois Duquesnoy')
+![Rome Vatican Saint Peter Basilica Saint Andrew by Francois Duquesnoy](peter-andrew.jpg 'St. Andrew by François Duquesnoy')
 
 The four statues, namely Veronica, Helen, Longinus, and Andrew, are located beneath their corresponding *loggias* (balconies). Behind them are rooms where **relics associated with these saints** are stored, **all relating to the Cross**. These relics are
 
