@@ -47,6 +47,8 @@ St. Peter’s Basilica is **Rome’s largest** church, spanning over 22,000 squa
 
 Note: You can gain a plenary indulgence in this Basilica. See the requirements.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BguJhRML108" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Michelangelo’s Pietà
 ![Rome Vatican Saint Peter Basilica Michelangelo’s Pietà Mary Jesus Golgotha](peter-pieta.jpg '©2020 Kenny Ang')
 
