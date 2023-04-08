@@ -1,3 +1,5 @@
+import { format } from 'date-fns-tz';
+
 export function slugify(text: string) {
   return text
     .toString()
@@ -21,17 +23,14 @@ export function unleadingSlashIt(str: string) {
   return str.replace(/^\//, '');
 }
 
-export function formatDate(
-  date: string,
-  ignoreSameYear: boolean = true,
-  locale: string = 'en-US'
-) {
+export function formatDate(date: string, ignoreSameYear: boolean = true) {
   const dateObject = new Date(date);
-  const options =
-    ignoreSameYear && new Date().getFullYear() === dateObject.getFullYear()
-      ? ({ month: 'short', day: 'numeric' } as const)
-      : ({ year: 'numeric', month: 'short', day: 'numeric' } as const);
-  return dateObject.toLocaleDateString(locale, options);
+  // const options =
+  //   ignoreSameYear && new Date().getFullYear() === dateObject.getFullYear()
+  //     ? ({ month: 'short', day: 'numeric' } as const)
+  //     : ({ year: 'numeric', month: 'short', day: 'numeric' } as const);
+  // return dateObject.toLocaleDateString(locale, options);
+  return format(dateObject, 'MMMM d, yyyy');
 }
 
 export function getMinDate(daysFromToday: number) {
