@@ -24,7 +24,7 @@ export default function PostEntry({
   siteLang,
 }: Props) {
   let icon;
-  switch (post.frontmatter.format.toLowerCase()) {
+  switch (post.frontmatter.format?.toLowerCase()) {
     case 'video':
       icon = <MdPlayArrow title="video" />;
       break;
