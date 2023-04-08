@@ -77,8 +77,9 @@ For more information on Markdown syntaxes, visit the following links (not everyt
 
 1. **Image dimension.** Image width should be <= 1800px for full-sized images. Images of **landscape** orientation is always preferred than portrait.
 2. **Image compression.** Try to upload images that are less than 300 KB. It's recommended to run the image through a compression tool such as [Squoosh](https://squoosh.app/) first before using them. For optimal compression, for images without transparency, compress them to MozJPEG format. If they have transparency, compress them to OxiPNG format.
-3. **Image source.** Ensure that you have the right to use all your images. If you need to use stock images, ensure that they are royalty-free, or else you might need to credit properly. For example, [Unsplash](https://unsplash.com/) has royalty-free stock images.
-4. **Image alternative text.** Ensure that images have proper alternative texts. This is crucial for the site's accessibility and SEO. Alternative text needs to be wrapped by square brackets (`[your alt text here]`) before the image source reference, for example:
+3. Thumbnail ratio: 5:2.8.
+4. **Image source.** Ensure that you have the right to use all your images. If you need to use stock images, ensure that they are royalty-free, or else you might need to credit properly. For example, [Unsplash](https://unsplash.com/) has royalty-free stock images.
+5. **Image alternative text.** Ensure that images have proper alternative texts. This is crucial for the site's accessibility and SEO. Alternative text needs to be wrapped by square brackets (`[your alt text here]`) before the image source reference, for example:
 
 ```markdown
 ![Child studying](child.jpg)
