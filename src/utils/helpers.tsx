@@ -30,7 +30,10 @@ export function formatDate(date: string, ignoreSameYear: boolean = true) {
   //     ? ({ month: 'short', day: 'numeric' } as const)
   //     : ({ year: 'numeric', month: 'short', day: 'numeric' } as const);
   // return dateObject.toLocaleDateString(locale, options);
-  return format(dateObject, 'MMMM d, yyyy');
+  return format(dateObject, 'MMMM d, yyyy', {
+    timeZone: 'Europe/Rome',
+    locale: 'en-US' as any,
+  });
 }
 
 export function getMinDate(daysFromToday: number) {
