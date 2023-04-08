@@ -64,7 +64,7 @@ Christina as Queen of Sweden: 1632–1654
 Then, there’s a somewhat underrated monument to Christina of Sweden. She is the brave **queen of Sweden who renounced her throne to become a Catholic**. Despite facing criticism from the Swedish nobility, she departed her country and resided in Rome until she passed away. A **crowned skull** below the inscription symbolizes our fleeting life and the reward for those who remain faithful.
 
 ## Tomb of John Paul II
-![Rome Vatican Saint Peter Basilica Tomb of Pope Saint John Paul II](peter-jp2.jpg)
+![Rome Vatican Saint Peter Basilica Tomb of Pope Saint John Paul II](peter-jp2.jpg '©2020 Kenny Ang')
 
 John Paul II's Papacy: 1978–2005 | Canonized: 2014
 
@@ -75,21 +75,21 @@ As you walk down the right aisle, you’ll get to the altar of **St. Sebastian**
 Our next stop is the Blessed Sacrament Chapel, **reserved for prayer**. The Tabernacle of gilded bronze was designed by Bernini. Pietro da Cortona painted the altarpiece. It depicts the **Trinity**: the Father, the Son-made-man, and the Holy Spirit who guides the Church.
 
 ## Bronze Statue of St. Peter
-![Rome Vatican Saint Peter Basilica Bronze Statue](peter-bronze.jpg)
+![Rome Vatican Saint Peter Basilica Bronze Statue](peter-bronze.jpg '©2020 Kenny Ang')
 
 Date: 5th/13th century
 
 This statue's **right toes** are worn down by the touching and kissing of countless pilgrims. During the Middle Ages, pilgrims who arrived in Rome would **touch and kiss St. Peter’s foot**: they asked him for help in getting to heaven if they were to die during the pilgrimage.
 
 ## Chair of St. Peter
-![Rome Vatican Saint Peter Basilica Chair](peter-cathedra.jpg)
+![Rome Vatican Saint Peter Basilica Chair](peter-cathedra.jpg '©2020 Kenny Ang')
 
 Date: 1657–1666 | Artist: Bernini
 
 This magnificent sculpture houses **St. Peter’s wooden throne**. This throne symbolizes Peter's **teaching authority**. It also represents "the special mission of Peter and his Successors to tend Christ’s flock, keeping it united in faith and in charity."[^1] It is flanked by statues of four Doctors or Teachers of the Church: from left to right, they are Sts. **Ambrose**, **Athanasius**, **John Chrysostom**, and **Augustine**. Above the Chair of St. Peter, an alabaster window portrays the **Holy Spirit** in the form of a dove.
 
 ## Dome
-![Rome Vatican Saint Peter Basilica Dome Michelangelo Giacomo della Porta](peter-dome.jpg)
+![Rome Vatican Saint Peter Basilica Dome Michelangelo Giacomo della Porta](peter-dome.jpg '©2020 Kenny Ang')
 
 Date: 1657–1666 | Artist: Michelangelo, Giacomo della Porta
 
@@ -100,7 +100,7 @@ Don’t forget to look at the **giant letters** on a gold background encircling 
 Below the four Evangelists, you see **two more inscriptions**. From Sts. Veronica to Helen, it reads in Latin: “*From here, a single faith shines throughout the world*.” From Sts. Longinus to Andrew, it says: “*From here, the unity of the priesthood is born*.”
 
 ## *Loggias* of the Relics
-![Rome Vatican Saint Peter Basilica Saint Andrew by Francois Duquesnoy](peter-andrew.jpg 'St. Andrew by François Duquesnoy')
+![Rome Vatican Saint Peter Basilica Saint Andrew by Francois Duquesnoy](peter-andrew.jpg 'St. Andrew by François Duquesnoy. ©2020 Kenny Ang')
 
 The four statues, namely Veronica, Helen, Longinus, and Andrew, are located beneath their corresponding *loggias* (balconies). Behind them are rooms where **relics associated with these saints** are stored, **all relating to the Cross**. These relics are
 
@@ -110,25 +110,25 @@ The four statues, namely Veronica, Helen, Longinus, and Andrew, are located bene
 - **St. Andrew's head** (above Andrew).[^2]
 
 ## Founder Saint Statues
-![Rome Vatican Saint Peter Basilica Vincent de Paul](peter-vdpaul.jpg 'St. Vincent de Paul, founder of the Congregation of the Mission')
+![Rome Vatican Saint Peter Basilica Vincent de Paul](peter-vdpaul.jpg 'St. Vincent de Paul, founder of the Congregation of the Mission. ©2020 Kenny Ang')
 
 In St. Peter’s Basilica, there are **39 statues of founders of religious orders**. You’ll identify Sts. Louis de Montfort, Ignatius Loyola, John Bosco, Philip Neri, Vincent de Paul, Teresa of Jesus, and many more. These are people who served the Church by living out and developing the charism—the special grace—they received from God. For a complete list of these statues, [click here](https://stpetersbasilica.info/Statues/Founders/FounderSaints.htm).
 
 ## Maderno's Façade
-![Rome Vatican Saint Peter Basilica Maderno Facade](peter-facade.jpg)
+![Rome Vatican Saint Peter Basilica Maderno Facade](peter-facade.jpg '©2020 Kenny Ang')
 
 Date: 1612 | Artist: Maderno
 
 The façade inscription reads: “*In honor of the Prince of Apostles, Paul V Borghese, Roman, Supreme Pontiff, in 1612, the seventh of his pontificate*.” On top of the façade stand **13 statues**: Christ the Redeemer, John the Baptist, and eleven apostles including Matthias. Peter is not there since a five-meter statue of him stands on the south side of the square. Paul’s statue stands on the opposite side.
 
 ## Bernini’s Colonnades
-![Rome Vatican Saint Peter Basilica Bernini Colonnades](peter-colonnades.jpg)
+![Rome Vatican Saint Peter Basilica Bernini Colonnades](peter-colonnades.jpg '©2020 Kenny Ang')
 
 Date: 1657–1667 | Artist: Bernini
 
 Bernini’s Colonnades consist of 284 Doric columns and 88 pilasters of **travertine marble**. These columns are 13 meters tall and arranged in four rows. On top of them stand **140 statues of saints**. In Bernini's mind, these Colonnades represent **the arms of the Mother Church**, embracing all nations into her fold.
 
-![Rome Vatican Saint Peter Basilica Square from the Dome](peter-square.jpg)
+![Rome Vatican Saint Peter Basilica Square from the Dome](peter-square.jpg '©2020 Kenny Ang')
 
 [^1]:Pope Benedict XVI, Angelus (February 19, 2012).
 [^2]:It is no longer in St. Peter's Basilica since Pope Paul VI returned it to the Church of St. Andrew in Patras (Greece) in 1966.
