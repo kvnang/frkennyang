@@ -1,4 +1,3 @@
-﻿
 ---
 title: Basilica of St. Peter in Vatican
 featuredImage: peter-front.jpg
