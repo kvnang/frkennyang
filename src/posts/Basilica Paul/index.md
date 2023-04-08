@@ -1,4 +1,4 @@
-﻿---
+---
 title: Basilica of St. Paul Outside the Walls
 featuredImage: paul-portico.jpg
 format: Article
