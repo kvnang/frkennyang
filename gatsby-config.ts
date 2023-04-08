@@ -114,7 +114,7 @@ const config: GatsbyConfig = {
                   excerpt
                   frontmatter {
                     category
-                    date(formatString: "MMM D")
+                    date(formatString: "YYYY-MM-DD")
                     format
                     title
                     youtube
