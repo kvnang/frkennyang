@@ -138,7 +138,7 @@ export const query = graphql`
     frontmatter {
       title
       format
-      date(formatString: "YYYY-MM-DD")
+      date(formatString: "YYYY-MM-DDTHH:mm:ss.SSS")
       excerpt
       featuredImage {
         childImageSharp {
