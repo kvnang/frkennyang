@@ -10,6 +10,19 @@ excerpt: St. Peter's Basilica is Rome's largest church, built in the 4th century
 ---
 ## Content
 
+1. [Facts](/post/basilica-peter/#facts)
+2. [Michelangelo’s Pietà](/post/basilica-peter/#michelangelos-pietà)
+3. [Monument to Christina of Sweden](/post/basilica-peter/#monument-to-christina-of-sweden)
+4. [Tomb of John Paul II](/post/basilica-peter/#tomb-of-john-paul-ii)
+5. [Blessed Sacrament Chapel](/post/basilica-peter/#blessed-sacrament-chapel)
+6. [Bronze Statue of St. Peter](/post/basilica-peter/#bronze-statue-of-st-peter)
+7. [Chair of St. Peter](/post/basilica-peter/#chair-of-st-peter)
+8. [Dome](/post/basilica-peter/#dome)
+9. [*Loggias* of the Relics](/post/basilica-peter/#loggias-of-the-relics)
+10. [Founder Saint Statues](/post/basilica-peter/#founder-saint-statues)
+11. [Maderno's Façade](/post/basilica-peter/#madernos-façade)
+12. [Bernini’s Colonnades](/post/basilica-peter/#berninis-colonnades)
+
 ---
 ## Facts
 Built: 319–333 | Rebuilt: 1506–1614
@@ -35,13 +48,14 @@ St. Peter’s Basilica is **Rome’s largest** church, spanning over 22,000 squa
 Note: You can gain a plenary indulgence in this Basilica. See the requirements.
 
 ## Michelangelo’s Pietà
-![Rome Vatican Saint Peter Basilica Michelangelo’s Pietà Mary Jesus Golgotha](peter-pieta.jpg)
+![Rome Vatican Saint Peter Basilica Michelangelo’s Pietà Mary Jesus Golgotha](peter-pieta.jpg '©2020 Kenny Ang')
 
 Date: 1498–1499
 
 When you enter the Basilica, directly on your right stands Michelangelo’s Pietà. It depicts **Mary sustaining Jesus's dead body at Golgotha**. Michelangelo worked on it for two years. He was only **23 years old** when he finished it. It is **the only work he ever signed**: the sash running across Mary's chest contains the Latin inscription: “Michelangelo Buonarroti the Florentine was making this.”
 
 ## Monument to Christina of Sweden
+![Rome Vatican Saint Peter Basilica Monument Christina of Sweden](peter-sweden.jpg 'Jean-Pol GRANDMONT, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons')
 
 Christina as Queen of Sweden: 1632–1654 
 
