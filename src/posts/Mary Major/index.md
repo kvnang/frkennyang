@@ -77,7 +77,11 @@ Date: 13th century | Artist: Jacopo Torriti
 
 This mosaic represents the **Coronation** of Mary. Five scenes from Mary’s life are depicted below (from left to right): the **Annunciation**, the **Nativity**, the **Dormition**, the **Adoration** of the Kings, and the **Presentation** in the Temple.
 
-In the center of the composition, both Christ and Mary, dressed in **gold**, are seated on a heavenly **throne**. Christ holds a book containing the words addressed to his Mother: "*Come my chosen one and I will place you on my throne*."[^1] is **placing a crown** on Mary's head with his right hand, while Mary turns towards him and **raises her hands** in the gesture of an **intercessor**. 
+In the center of the composition, both Christ and Mary, dressed in **gold**, are seated on a heavenly **throne**. Christ holds a book containing the words addressed to his Mother:
+
+> Come my chosen one and I will place you on my throne.[^1]
+
+He is **placing a crown** on Mary's head with his right hand, while Mary turns towards him and **raises her hands** in the gesture of an **intercessor**. 
 
 Standing from left to right are St. **Francis**, with his stigmata, followed by St. **Paul**, St. **Peter**, [**Pope Nicholas IV**](https://www.britannica.com/biography/Nicholas-IV) (a Franciscan Pontiff who commissioned the mosaic), **Cardinal Jacopo** (the archpriest of the Basilica), St. **John the Baptist**, St. **John the Evangelist**, and St. **Anthony of Padua**.
 
