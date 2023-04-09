@@ -10,6 +10,15 @@ excerpt: The Basilica of St. Mary Major is the largest church in Rome dedicated 
 ---
 ## Content
 
+1. [Facts](/post/mary-major/#facts)
+2. ["Our Lady of the Snows"](/post/mary-major/#our-lady-of-the-snows)
+3. [Triumphal Arch Mosaic](/post/mary-major/#triumphal-arch-mosaic)
+4. [Nativity Chapel](/post/mary-major/#nativity-chapel)
+5. [Apse Mosaic: Coronation of Mary](/post/mary-major/#apse-mosaic-coronation-of-mary)
+6. [*Salus Populi Romani*](/post/mary-major/#salus-populi-romani)
+7. [Statue of *Regina Pacis*](/post/mary-major/#statue-of-regina-pacis)
+8. [The First Known Nativity Scene](/post/mary-major/#the-first-known-nativity-scene)
+
 ---
 ## Facts
 
@@ -43,7 +52,7 @@ The legend goes that during the time of **Pope Liberius**, a wealthy Roman man n
 
 The first recorded mention of this supposed miracle was after the year 1000. The legend may have been implied in the *Liber Pontificalis*, which stated that Pope Liberius built the basilica near the Macellum of Livia.
 
-## Triumphal Arch Mosaic
+## Mosaic: Triumphal Arch
 ![Rome Basilica Saint Mary Major](mm-arch.jpg '©2020 Kenny Ang')
 
 Date: 5th century
@@ -52,7 +61,7 @@ The mosaics in this basilica are some of the **oldest depictions** of the Virgin
 
 The Triumphal Arch Mosaic depicts scenes from the **lives of Christ and Mary**. At the top, a **cross** symbolizing Christ is enthroned between **Peter**, **Paul**, and four animals representing **the Evangelists**. In the lower part of the mosaic, **Bethlehem** is on the left and **Jerusalem** is on the right, with twelve sheep symbolizing **Israel’s twelve tribes** and the **twelve apostles**. The façade mosaic of the [Basilica of St. Paul Outside the Walls](/post/basilica-paul/) also features these two cities.
 
-## The Nativity Chapel
+## Nativity Chapel
 ![Rome Basilica Saint Mary Major](mm-crib.jpg '©2022 Kenny Ang')
 
 Date: 7th century (with further reconstructions)
@@ -85,7 +94,7 @@ This icon shows **Jesus resting lightly on his Mother's left arm** while **bless
 
 *Salus Populi Romani* is associated with several miracles. During the pontificate of St. **Gregory the Great** (590–604), a **deadly plague** struck the people of Rome, wiping out entire families. The Pope fervently prayed to the Blessed Mother. During the Easter festivals, he carried her image in a **solemn procession**.
 
-![Rome Basilica Saint Mary Major](castel-angelo.jpg 'Mausoleum of Hadrian \(Castel Sant\'Angelo\). '©2020 Kenny Ang'')
+![Rome Basilica Saint Mary Major](castel-angelo.jpg 'Mausoleum of Hadrian \(Castel Sant\'Angelo\). ©2020 Kenny Ang')
 
 As they arrived at **Hadrian's Mausoleum** (now known as **Castel Sant'Angelo**), an angelic choir was heard singing the joyful Resurrection hymn of *Regina caeli*:
 
