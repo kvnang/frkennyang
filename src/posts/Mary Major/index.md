@@ -52,7 +52,7 @@ The legend goes that during the time of **Pope Liberius**, a wealthy Roman man n
 
 The first recorded mention of this supposed miracle was after the year 1000. The legend may have been implied in the *Liber Pontificalis*, which stated that Pope Liberius built the basilica near the Macellum of Livia.
 
-## Mosaic: Triumphal Arch
+## Triumphal Arch Mosaic
 ![Rome Basilica Saint Mary Major](mm-arch.jpg '©2020 Kenny Ang')
 
 Date: 5th century
