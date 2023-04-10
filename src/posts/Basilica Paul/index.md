@@ -95,7 +95,7 @@ The three half-circles at the top point to the Trinity. Christ the **_Pantocrato
 
 Christ is also presented as our **Judge**. The book he holds contains his words of judgment:
 
-> Come, you that are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world” (Matthew 25:34).
+> Come, you that are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world (Matthew 25:34).
 
 In this mosaic, Christ’s kingdom is presented in resemblance to **Eden**, as the abundance of fruited palm trees and animals suggests.
 
@@ -103,11 +103,11 @@ From left to right stand Sts. **Luke**, **Paul**, **Peter**, and **Andrew**. Luk
 
 The entire mosaic, especially the letters on the scrolls, highlights **Christ’s divinity**. Luke’s scroll contains his own words:
 
-> Saul became increasingly more powerful and confounded the Jews who lived in Damascus by proving that Jesus was the Messiah” (Acts 9:22).
+> Saul became increasingly more powerful and confounded the Jews who lived in Damascus by proving that Jesus was the Messiah (Acts 9:22).
 
 The scroll of Paul reads:
 
-> at the name of Jesus every knee should bend, in heaven and on earth and under the earth” (Philippians 2:10).
+> at the name of Jesus every knee should bend, in heaven and on earth and under the earth (Philippians 2:10).
 
 Peter’s contains his confession:
 
