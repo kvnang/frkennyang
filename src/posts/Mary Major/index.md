@@ -68,6 +68,8 @@ Date: 7th century (with further reconstructions)
 
 The Basilica of St. Mary Major is also called **St. Mary of the Crib** because under the altar is a crystal reliquary that houses **wooden fragments of the Crib** where baby Jesus was laid. Back in Bethlehem, the Crib was highly revered by Christians. They protected it until the **7th century** when it was brought to Rome after the **Muslims conquered the Holy Land**.
 
+![Rome Basilica Saint Mary Major](mm-pius.jpg 'Pius IX praying at Nativity Chapel. ©2022 Kenny Ang')
+
 Visitors who come to see the humble crib of the Savior are inspired by a statue of **Pope Pius IX** kneeling before the ancient wooden pieces. The statue serves as an example of his devotion to the Holy Crib, which motivated him to **commission the crypt chapel**. His coat of arms is visible above the altar as a testament to his contribution.
 
 ## Apse Mosaic: Coronation of Mary
