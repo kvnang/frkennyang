@@ -22,20 +22,21 @@ excerpt: The Basilica of St. Mary Major is the largest church in Rome dedicated 
 ---
 ## Facts
 
-Built: 352–366 | Rebuilt: 431
+Built: after 431
 
 Other names:
 - St. Mary of the Snows
 - St. Mary of the Crib
+- Liberian Basilica
 - The Bethlehem of the West
   
 The Basilica of St. Mary Major is the **largest church dedicated to Mary** in Rome. It is one of **the first churches in the world** built in Our Lady’s honor. It also has the **highest bell tower** in Rome, standing at an impressive 75 meters.
 
-The current Basilica was built following the proclamation of Christ's divinity and Mary as the Mother of God at the **Council of Ephesus** in 431. It was consecrated by Pope Sixtus III in 434. Its beautiful ceiling is **gilded with gold** brought from the American continent by Christopher Columbus.
+St. Mary Major conserves its original aspect better than other Papal Basilicas. The current Basilica was built following the proclamation of Christ's divinity and Mary as the Mother of God at the [Council of Ephesus](https://www.britannica.com/event/councils-of-Ephesus#ref343375) in 431. It was consecrated by Pope Sixtus III in 434. Its beautiful ceiling is **gilded with gold** brought from the American continent by Christopher Columbus.
 
 ### Must-Sees
 
-- Triumphal Arch Mosaic: Lives of Christ and Mary    
+- Triumphal Arch Mosaic: Christ's Infancy
 - Apse Mosaic: Coronation of Mary
 
 ### Prayer Spots
@@ -48,7 +49,7 @@ The current Basilica was built following the proclamation of Christ's divinity a
 
 This Basilica is known as the **Basilica of St. Mary of the Snows**. Why?
 
-The legend goes that during the time of **Pope Liberius**, a wealthy Roman man named **John** and his wife, who had no children, promised to give their possessions to the Virgin Mary. They prayed for guidance on how to honor her. One night, they both had a vision of the Virgin Mary and were instructed to **build a basilica** in her honor where snow fell on the **Esquiline Hill** in Rome. When snow did indeed fall, Pope Liberius marked out the exact location where the basilica was to be built. The basilica was then constructed on that very spot.
+The legend goes that during the time of **Pope Liberius**, a wealthy Roman man named **John** and his wife, who had no children, promised to give their possessions to the Virgin Mary. They prayed for guidance on how to honor her. One night, they both had a vision of the Virgin Mary and were instructed to **build a basilica** in her honor where snow fell on the **Esquiline Hill** in Rome. When snow did indeed fall on August 5, 356, Pope Liberius marked out the exact location where the basilica was to be built. The basilica was then constructed on that very spot.
 
 The first recorded mention of this supposed miracle was after the year 1000. The legend may have been implied in the *Liber Pontificalis*, which stated that Pope Liberius built the basilica near the Macellum of Livia.
 
@@ -59,7 +60,16 @@ Date: 5th century
 
 The mosaics in this basilica are some of the **oldest depictions** of the Virgin Mary. They served as **models** for future representations. Their purpose was twofold: to **glorify Mary** and to **show how the Old Testament foreshadows the New**. These mosaics were designed also to project the grandeur of Ancient Rome onto Christianity.
 
-The Triumphal Arch Mosaic depicts scenes from the **lives of Christ and Mary**. At the top, a **cross** symbolizing Christ is enthroned between **Peter**, **Paul**, and four animals representing **the Evangelists**. In the lower part of the mosaic, **Bethlehem** is on the left and **Jerusalem** is on the right, with twelve sheep symbolizing **Israel’s twelve tribes** and the **twelve apostles**. The façade mosaic of the [Basilica of St. Paul Outside the Walls](/post/basilica-paul/) also features these two cities.
+The Triumphal Arch Mosaic depicts scenes from the **Christ's infancy**. At the top, a **cross** symbolizing Christ is enthroned between **Peter**, **Paul**, and four animals representing **the Evangelists**. From top to bottom, we see:
+
+| Left                         | Right                         |
+|------------------------------|-------------------------------|
+| 1. Annunciation              | 5. Presentation at the Temple |
+| 2. Epiphany                  | 6. Flight into Egypt          |
+| 3. Massacre of Innocents     | 7. Herod and the Magi         |
+| 4. Jerusalem                 | 8. Bethlehem                  |
+
+Twelve sheep at the bottom symbolize **Israel’s twelve tribes** and the **twelve apostles**. In the façade mosaic of the [Basilica of St. Paul Outside the Walls](/post/basilica-paul/), Bethlehem and Jerusalem are also depicted (albeit in reverse order).
 
 ## Nativity Chapel
 ![Rome Basilica Saint Mary Major](mm-crib.jpg '©2022 Kenny Ang')
