@@ -93,9 +93,17 @@ Date: 1657–1666 | Artist: Michelangelo, Giacomo della Porta
 
 At over **120 meters**, this is the world’s **tallest dome**. You can actually climb over **five-hundred steps** to the top and have a remarkable view of Rome and the Vatican Gardens.
 
-Don’t forget to look at the **giant letters** on a gold background encircling the dome’s base. It is a text from Matthew 16:18, with which Jesus gave Peter the supreme authority: “*you are Peter, and on this rock I will build my church … [and] I will give you the keys of the kingdom of heaven*.”
+Don’t forget to look at the **giant letters** on a gold background encircling the dome’s base. It is a text from Matthew 16:18, with which Jesus gave Peter the supreme authority:
 
-Below the four Evangelists, you see **two more inscriptions**. From Sts. Veronica to Helen, it reads in Latin: “*From here, a single faith shines throughout the world*.” From Sts. Longinus to Andrew, it says: “*From here, the unity of the priesthood is born*.”
+> you are Peter, and on this rock I will build my church … [and] I will give you the keys of the kingdom of heaven.
+
+Below the four Evangelists, you see **two more inscriptions**. From Sts. Veronica to Helen, it reads in Latin:
+
+> From here, a single faith shines throughout the world.
+
+From Sts. Longinus to Andrew, it says:
+
+> From here, the unity of the priesthood is born.
 
 ## *Loggias* of the Relics
 ![Rome Vatican Saint Peter Basilica Saint Andrew by Francois Duquesnoy](peter-andrew.jpg 'St. Andrew by François Duquesnoy. ©2020 Kenny Ang')
@@ -117,7 +125,11 @@ In St. Peter’s Basilica, there are **39 statues of founders of religious order
 
 Date: 1612 | Artist: Maderno
 
-The façade inscription reads: “*In honor of the Prince of Apostles, Paul V Borghese, Roman, Supreme Pontiff, in 1612, the seventh of his pontificate*.” On top of the façade stand **13 statues**: Christ the Redeemer, John the Baptist, and eleven apostles including Matthias. Peter is not there since a five-meter statue of him stands on the south side of the square. Paul’s statue stands on the opposite side.
+The façade inscription reads:
+
+> In honor of the Prince of Apostles, Paul V Borghese, Roman, Supreme Pontiff, in 1612, the seventh of his pontificate.
+
+On top of the façade stand **13 statues**: Christ the Redeemer, John the Baptist, and eleven apostles including Matthias. Peter is not there since a five-meter statue of him stands on the south side of the square. Paul’s statue stands on the opposite side.
 
 ## Bernini’s Colonnades
 ![Rome Vatican Saint Peter Basilica Bernini Colonnades](peter-colonnades.jpg '©2020 Kenny Ang')
