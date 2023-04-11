@@ -24,7 +24,7 @@ excerpt: The Basilica of St. Paul Outside the Walls was Founded by Emperor Const
 
 Built: 324 | Rebuilt: 1823–1854
 
-The Basilica of St. Paul Outside the Walls is **Rome’s second-largest church**. Founded by Emperor [**Constantine I**](https://www.britannica.com/biography/Constantine-I-Roman-emperor) to honor **St. Paul** (beheaded in AD 67), it was consecrated by Pope Sylvester I in 324. It was damaged in the 9th century during a **Muslim raid** and destroyed almost entirely **by fire** in 1823. It was rebuilt from 1823 to 1854, the year of its reconsecration.
+The Basilica of St. Paul Outside the Walls is **Rome’s second-largest church**. Founded by Emperor [Constantine I](https://www.britannica.com/biography/Constantine-I-Roman-emperor) to honor **St. Paul** (beheaded in AD 67), it was consecrated by Pope Sylvester I in 324. It was damaged in the 9th century during a **Muslim raid** and destroyed almost entirely **by fire** in 1823. It was rebuilt from 1823 to 1854, the year of its reconsecration.
 
 ### Must-Sees
 
