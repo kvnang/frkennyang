@@ -1,5 +1,5 @@
-﻿---
-title: Basilica of St. John Lateran, Baptistery, and *Scala Sancta*
+---
+title: Basilica of St. John Lateran, Baptistery, and Scala Sancta
 featuredImage: jl-cover.jpg
 format: Article
 date: 2023-04-12
@@ -11,14 +11,14 @@ excerpt: The Basilica of St. John Lateran is the first public church in Rome and
 ## Content
 
 1. [Facts](/post/lateran/#facts)
-2. [Façade](/post/lateran/#facade)
-3. [The First Jubilee](/post/lateran/#facts)
-4. [Statues of the Apostles](/post/lateran/#facts)
-5. [Papal Altar and Ciborium](/post/lateran/#facts)
-6. [Last Supper Table](/post/lateran/#facts)
-7. [Apse Mosaic](/post/lateran/#facts)
-8. [Lateran Baptistery](/post/lateran/#facts)
-9. [*Scala Sancta*](/post/lateran/#facts)
+2. [Façade](/post/lateran/#façade)
+3. [The First Jubilee](/post/lateran/#the-first-jubilee)
+4. [Statues of the Apostles](/post/lateran/#statues-of-the-apostles)
+5. [Papal Altar and Ciborium](/post/lateran/#papal-altar-and-ciborium)
+6. [Last Supper Table](/post/lateran/#last-supper-table)
+7. [Apse Mosaic](/post/lateran/#apse-mosaic)
+8. [Lateran Baptistery](/post/lateran/#lateran-baptistery)
+9. [*Scala Sancta*](/post/lateran/#scala-sancta)
   
 ---
 ## Facts
