@@ -135,7 +135,9 @@ It also represents Ezekiel's vision:
 > Then he brought me back to the entrance of the temple; there, water was flowing from below the threshold of the temple … Wherever the river goes, every living creature that swarms will live, and there will be very many fish, once these waters reach there (Ezekiel 47:1, 9).
 
 Ezekiel's vision narrates the restoration of all creatures—the **new creation**. For this reason, between the streams lies the **Tree of Life**. Perching on this Tree is a **phoenix**, a bird that symbolizes **resurrection** and **regeneration**. Below the Tree, we see the **New Jerusalem**. The river at the bottom is the river **Jordan**, a symbol of **Christian baptism**.
-  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7X2HTUe2IX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Lateran Baptistery
 
 - Founder: Constantine I
@@ -181,5 +183,7 @@ The Holy Stairs *(Scala Sancta)* are a set of **28 white marble steps**, origina
 St. [Helena](https://www.britannica.com/biography/Saint-Helena), the mother of Constantine I, is credited with bringing the stairs to the Lateran Palace in the 4th century. In 1589, Pope Sixtus V relocated the steps to their current location, in front of the personal chapel of the early Popes called the *Sancta Sanctorum* (Holies of Holies).
 
 The Holy Stairs may only be climbed on the **knees**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yb9sL1FMZ7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 [^1]:See Tertullian, *De baptismo* 2, 3.
