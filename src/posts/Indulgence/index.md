@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to Gain Indulgences on a Pilgrimage
 featuredImage: rosary.jpg
 format: Article
@@ -6,7 +6,7 @@ date: 2023-04-13
 category:
   - Pilgrimage
   - Theology
-excerpt: 
+excerpt: An indulgence is the remission before God of temporal punishment for sins whose guilt is already forgiven, gained under certain conditions. It does not forgive the guilt of sin but deletes the temporal punishment due to sins. To gain indulgences, you must fulfill general conditions such as being in a state of grace and having a general intention, as well as specific conditions like detachment from sin and praying for the Pope. You must also do prescribed works, such as adoring the Blessed Sacrament, making the Way of the Cross, reciting the Marian Rosary, or visiting sacred places.
 ---
 
 ## Content
