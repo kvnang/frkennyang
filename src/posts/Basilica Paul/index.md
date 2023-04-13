@@ -59,7 +59,7 @@ Date: 1854–1874 | Artist: Vatican School of Mosaics
 
 The façade mosaic replaced a 13th-century mosaic by Cavallini which was destroyed by fire. In the lower section, we find the **major prophets** of the Old Testament: **Isaiah**, **Jeremiah**, **Ezekiel**, and **Daniel**. They symbolize the 4,000 years that preceded the coming of the Messiah.
 
-The **Sacrificial Lamb** occupies the center of the middle section. Its death produced **streams of water** flowing to **four quarters** of the world. This is the **redemption** Christ offers to all nations. The city on the left is **Bethlehem** where Christ began his earthly life. He completed it in the city on the right, **Jerusalem**. The triumphal arch of St. Mary Major also features these two cities.
+The **Sacrificial Lamb** occupies the center of the middle section. Its death produced **streams of water** flowing to **four quarters** of the world. This is the **redemption** Christ offers to all nations. The city on the left is **Bethlehem** where Christ began his earthly life. He completed it in the city on the right, **Jerusalem**. [The triumphal arch of St. Mary Major](/post/mary-major/#triumphal-arch-mosaic) also features these two cities (albeit in reverse order).
 
 At the summit, we see **Christ enthroned**, holding a book containing his words:
 
