@@ -12,9 +12,9 @@ excerpt:
 ## Content
 
 1. [What is indulgence?](/post/indulgence/#what-is-indulgence)
-2. [How to gain indulgences](/post/indulgence/#how-to-gain-indulgences)
+2. [How to gain indulgences](/post/indulgence/#how-to-gain-indulgences)  
 	[General Conditions](/post/indulgence/#general-conditions)  
-	[Prescribed Works](/post/indulgence/#prescribed-works): [Adoration of the Blessed Sacrament](), [Spiritual Communion](), [Way of the Cross](), [Rosary](), [Visiting Sacred Places]()
+	[Prescribed Works](/post/indulgence/#prescribed-works): [Adoration of the Blessed Sacrament](/post/indulgence/#adoration-of-the-blessed-sacrament), [Spiritual Communion](/post/indulgence/#spiritual-communion), [Way of the Cross](/post/indulgence/#way-of-the-cross), [Rosary](/post/indulgence/#rosary), [Visiting Sacred Places](/post/indulgence/#visiting-sacred-places)
 
 ---
 One of the most misunderstood topics in the Catholic faith is indulgence. What is it? How can you get it? Find out in this article.
