@@ -69,7 +69,7 @@ The Triumphal Arch Mosaic depicts scenes from the **Christ's infancy**. At the t
 | 3. Massacre of Innocents     | 7. Herod and the Magi         |
 | 4. Jerusalem                 | 8. Bethlehem                  |
 
-Twelve sheep at the bottom symbolize **Israel’s twelve tribes** and the **twelve apostles**. In the façade mosaic of the [Basilica of St. Paul Outside the Walls](/post/basilica-paul/), Bethlehem and Jerusalem are also depicted (albeit in reverse order).
+Twelve sheep at the bottom symbolize **Israel’s twelve tribes** and the **twelve apostles**. In [the façade mosaic of the Basilica of St. Paul Outside the Walls](/post/basilica-paul/#mosaic-façade), Bethlehem and Jerusalem are also depicted (albeit in reverse order).
 
 ## Nativity Chapel
 ![Rome Basilica Saint Mary Major](mm-crib.jpg '©2022 Kenny Ang')
