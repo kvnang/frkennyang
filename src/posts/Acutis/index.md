@@ -24,7 +24,7 @@ Despite his parents not being religious, Carlo had a strong **devotion to Our Lo
 
 Carlo's love and reverence for the Eucharist were exceptional and he **never missed daily Mass**. He even documented Eucharistic miracles all over the world and, being a “**computer genius**,” created a display and website to share his findings. Carlo believed that if people knew Jesus was truly in the Eucharist, they would turn to God.
 
-![Carlo Acutis Assisi Santa Maria Maggiore casket relics remains](acutis-assisi.jpg 'Dobroš, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons')
+![Carlo Acutis Assisi Santa Maria Maggiore casket relics remains](acutis-assisi.jpg 'Carlo Acutis's tomb at the Church of Saint Mary Major in Assisi. By Dobroš, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons.')
 
 Since he knew that **he would die young**, Carlo **never wasted time** and dedicated most of his time to good works, including helping children, the elderly, and the poor. He also became a **catechist** as soon as he was confirmed at age eleven and stood sponsor for a migrant who got baptized. He was **popular at school** and befriended children who were unhappy at home, defended the disabled, and treated girls with purity. He fearlessly defended his Catholic faith, including his pro-life views, in class.
 
