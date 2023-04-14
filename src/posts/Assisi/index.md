@@ -1,4 +1,4 @@
-﻿---
+---
 title: Basilica of St. Francis of Assisi
 featuredImage: basilica-assisi1.jpg
 format: Article
