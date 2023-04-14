@@ -43,9 +43,8 @@ St. Peter’s Basilica is **Rome’s largest** church, spanning over 22,000 squa
 ### Prayer Spots
 - Tomb of St. John Paul II (Chapel of St. Sebastian)
 - Chapel of the Blessed Sacrament  
-- Bronze Statue of St. Peter (c. 1200)  
-
-Note: You can gain a plenary indulgence in this Basilica. See the requirements.
+- Bronze Statue of St. Peter (c. 1200)
+- You can gain a plenary indulgence in this Basilica. See the [requirements](/post/indulgence/).
 
 ## Michelangelo’s Pietà
 ![Rome Vatican Saint Peter Basilica Michelangelo’s Pietà Mary Jesus Golgotha](peter-pieta.jpg '©2020 Kenny Ang')
