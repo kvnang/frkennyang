@@ -6,9 +6,9 @@ date: 2023-04-13
 category:
   - Pilgrimage
   - History
-excerpt: The Church of Saint Mary Major in Assisi, Italy is a place of pilgrimage as it houses the remains of Blessed Carlo Acutis, who attended daily Mass there. Carlo was a computer genius with exceptional love and reverence for the Eucharist, and dedicated his time to good works and defending his Catholic faith. He was diagnosed with leukemia at age 15 and remained calm, offering his sufferings for the Church and his own entry into heaven. Carlo's mother believes he was chosen to be an example for young people.
+excerpt: The Church of St. Mary Major in Assisi, Italy is a place of pilgrimage as it houses the remains of Blessed Carlo Acutis, who attended daily Mass there. Carlo was a computer genius with exceptional love and reverence for the Eucharist, and dedicated his time to good works and defending his Catholic faith. He was diagnosed with leukemia at age 15 and remained calm, offering his sufferings for the Church and his own entry into heaven. Carlo's mother believes he was chosen to be an example for young people.
 ---
-The **Church of Saint Mary Major** is situated in Assisi, central Italy. Being the place where [St. Francis](https://www.britannica.com/biography/Saint-Francis-of-Assisi) took off his luxurious garments in front of his father Pietro di Bernardone, it is also referred to as the **Sanctuary of the Spoliation** (Renunciation or Stripping). It is a place of pilgrimage also because it houses the remains of the Blessed Carlo Acutis. He used to attend the Eucharistic celebration at this church every day.[^1]
+The **Church of St. Mary Major** is situated in Assisi, central Italy. Being the place where [St. Francis](https://www.britannica.com/biography/Saint-Francis-of-Assisi) took off his luxurious garments in front of his father Pietro di Bernardone, it is also referred to as the **Sanctuary of the Spoliation** (Renunciation or Stripping). It is a place of pilgrimage also because it houses the remains of the Blessed Carlo Acutis. He used to attend the Eucharistic celebration at this church every day.[^1]
 
 ## Life of Carlo Acutis
 
