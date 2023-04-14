@@ -1,5 +1,5 @@
 ---
-title: The Pilgrim\'s Guide
+title: The Pilgrim's Guide
 featuredImage: map.jpg
 format: Article
 date: 2023-04-14
