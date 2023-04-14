@@ -36,8 +36,7 @@ The Basilica of St. Paul Outside the Walls is **Rome’s second-largest church**
 ### Prayer Spots
 
 - Tomb of St. Paul (under the main altar)
-
-Note: You can gain a plenary indulgence in this Basilica. See the requirements.
+- You can gain a plenary indulgence in this Basilica. See the [requirements](/post/indulgence/).
 
 ## St. Paul’s Statue
 
