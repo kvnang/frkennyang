@@ -31,10 +31,8 @@ excerpt: The Basilica of St. Francis of Assisi, located in the town of Assisi in
 - Damaged by earthquake: 1997
 - Restored: 1999
 
-### Must-Sees
-
 ### Prayer Spots
-
+- Tomb of St. Francis
 
 ## Life of St. Francis
 
