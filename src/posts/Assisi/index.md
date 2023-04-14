@@ -11,6 +11,17 @@ excerpt: The Basilica of St. Francis of Assisi, located in the town of Assisi in
 ## Content
 
 1. [Facts](/post/assisi/#facts)
+2. [Life of St. Francis](/post/assisi/#life-of-st-francis)
+3. [The Basilica(s)](/post/assisi/#the-basilicas)
+4. [Lower Basilica](/post/assisi/#lower-basilica)  
+  [Tomb of St. Francis](/post/assisi/#tomb-of-st-francis)  
+  [St. Mary Magdalene](/post/assisi/#st-mary-magdalene)  
+  [Cimabue's Majesty](/post/assisi/#cimabues-majesty-right-transept)  
+  [Ceiling Above the High Altar](/post/assisi/#ceiling-above-the-high-altar)  
+  [The Passion](/post/assisi/#the-passion-left-transept)  
+5. [Upper Basilica](/post/assisi/#upper-basilica)  
+  [Cimabue's Frescoes](/post/assisi/#cimabues-frescoes)  
+  [Life of St. Francis](/post/assisi/#life-of-st-francis-1)
 ---
 ## Facts
 
