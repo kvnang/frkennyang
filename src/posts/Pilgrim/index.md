@@ -1,4 +1,4 @@
-﻿---
+---
 title: The Pilgrim's Guide
 featuredImage: map.jpg
 format: Article
@@ -14,7 +14,7 @@ excerpt: This is a guide for pilgrims in Europe.
 2. [Basilica of St. Peter in Vatican](/post/basilica-peter/)
 3. [Basilica of St. Mary Major](/post/mary-major/)
 4. [Basilica of St. John Lateran, Baptistery, Scala Sancta](/post/lateran/)
-5. [Colosseum and Trevi Fountain](/post/colosseum/)
+5. [Colosseum & Trevi Fountain](/post/colosseum/)
 
 ## Assisi
 6. [Basilica of St. Francis of Assisi](/post/assisi/)
