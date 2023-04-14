@@ -1,5 +1,5 @@
 ---
-title: Basilica of St. John Lateran, Baptistery, and Scala Sancta
+title: Basilica of St. John Lateran, Baptistery, Scala Sancta
 featuredImage: jl-cover.jpg
 format: Article
 date: 2023-04-12
