@@ -10,14 +10,14 @@ excerpt: Bernadette Soubirous was born in Lourdes, France, in 1844. At 14, she h
 ---
 ## Content
 
-1. [Life of Bernadette](/post/bernadette/#facts)
-2. [Pilgrimage Route](/post/bernadette/#facts)  
-		[Boly Mill](/post/bernadette/#facts)  
-		[Sacred Heart Parish](/post/bernadette/#facts)  
-		[The Dungeon](/post/bernadette/#facts)  
-		[The Hospice](/post/bernadette/#facts)  
-		[Old Presbytery](/post/bernadette/#facts)  
-		[Lacadé Mill](/post/bernadette/#facts)
+1. [Life of Bernadette](/post/bernadette/#life-of-bernadette)
+2. [Pilgrimage Route](/post/bernadette/#pilgrimage-route)  
+		[Boly Mill](/post/bernadette/#boly-mill)  
+		[Sacred Heart Parish](/post/bernadette/#sacred-heart-parish)  
+		[The Dungeon](/post/bernadette/#the-dungeon)  
+		[The Hospice](/post/bernadette/#the-hospice)  
+		[Old Presbytery](/post/bernadette/#old-presbytery)  
+		[Lacadé Mill](/post/bernadette/#lacadé-mill)
 ---
 ## Life of Bernadette
 
