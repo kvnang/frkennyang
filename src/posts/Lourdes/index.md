@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lourdes & Gestures of Pilgrims
 featuredImage: lourdes.jpg
 format: Article
