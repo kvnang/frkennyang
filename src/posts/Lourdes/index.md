@@ -6,8 +6,9 @@ date: 2023-04-16
 category:
   - Pilgrimage
   - History
-excerpt: Lourdes is a town in France that attracts over 6 million visitors per year, with over 80,000 sick pilgrims visiting to seek healing. Lourdes is known for the apparitions of Mary to 14-year-old Bernadette Soubirous in 1858. Mary appeared to Bernadette 18 times between February 11 and July 16, 1858, at Massabielle Grotto. Mary's message was summarized in three words: prayer, penance, and conversion. Three gestures are performed by pilgrims at Lourdes: touching the rock, drinking and washing in the spring, and lighting a candle. These actions are identical to the ones Bernadette performed during the apparitions.
+excerpt: Lourdes is a town in France that attracts over 6 million visitors per year, with over 80,000 sick pilgrims visiting to seek healing. Lourdes is known for the apparitions of Mary to 14-year-old Bernadette Soubirous in 1858. Mary appeared to Bernadette 18 times between February 11 and July 16, 1858, at Massabielle Grotto. Mary's message was summarized in three words: prayer, penance, and conversion. Three gestures performed by pilgrims at Lourdes are touching the rock, drinking and washing in the spring, and lighting a candle. These actions are identical to the ones Bernadette performed during the apparitions.
 ---
+
 ## Content
 
 1. [Facts](/post/lourdes/#facts)
@@ -18,6 +19,7 @@ excerpt: Lourdes is a town in France that attracts over 6 million visitors per y
 		[Touch the Rock](/post/lourdes/#touch-the-rock)  
 		[Drink and Wash](/post/lourdes/#drink-and-wash)  
 		[Light a Candle](/post/lourdes/#light-a-candle)  
+
 ---
 
 ## Facts
@@ -92,8 +94,8 @@ Prayer for pilgrims:
 
 > O Mary, Our Lady of Lourdes, you here, present in this Grotto and you hear the prayers of all your children. Some you comfort, others you help discover their vocation by giving them the strength to say ‘yes.’ Today, like Bernadette, I too am entering this holy place following this great crowd of people from every nation and every language. As the Mother of Jesus and Mother of the Church, you see each one as a unique individual. Cast your gaze upon me and let the light of your Son dwell in and soothe my heart.
 > 
-> Hail Mary …
-> Our Lady of Lourdes, pray for us!
+> Hail Mary …  
+> Our Lady of Lourdes, pray for us!  
 > Saint Bernadette, pray for us!”
 
 ---
@@ -166,8 +168,8 @@ Prayer for pilgrims:
 
 > Jesus, “Light from light, true God from true God." Bernadette told us: “I saw a small young lady enveloped in light who looked at me and smiled”. This light of your Immaculate Mother is the reflection of your Light, You the conqueror of evil, sin and death! You, the Risen Christ! Today I place my candle in this burner. Today or later it will burn in your presence. May it illuminate my joy, my gratitude, my thanksgiving, your forgiveness and your immense mercy. May it clear my doubts, extinguish my pain, my hurt, my suffering, my lost cause! It also symbolises my most secret thoughts, wishes and desires. May the storms of life not extinguish the flame of love! May I become like Him burning with love for You and for my brothers and sisters! You, who live and reign for ever and ever. Amen.
 >
-> Hail Mary …
-> Our Lady of Lourdes, pray for us!
+> Hail Mary …  
+> Our Lady of Lourdes, pray for us!  
 > Saint Bernadette, pray for us!”
 
 ---
