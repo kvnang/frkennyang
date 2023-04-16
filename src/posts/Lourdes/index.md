@@ -62,7 +62,7 @@ When people rejected Christ, God sent his Mother. This might be an explanation o
 
 ## Message of Lourdes
 
-We can summarize the message of Lourdes in three words: **prayer**, **penance**, and **conversion**. In her 8th apparition, Mary said:
+We can summarize the message of Lourdes in three words: **prayer, penance, and conversion**. In her 8th apparition, Mary said:
 
 > Penance! Penance! Penance! Pray to God for sinners. Kiss the ground as an act of penance for sinners!
 
