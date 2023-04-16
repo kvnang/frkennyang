@@ -22,6 +22,7 @@ excerpt: This is a guide for pilgrims in Europe.
 
 ## Lourdes
 8. [In the Footsteps of Bernadette](/post/bernadette/)
+9. [Lourdes & Gestures of Pilgrims](/post/lourdes/)
 
 ---
 
