@@ -74,9 +74,9 @@ Penance and Prayer. Penance means conversion—a turning toward God and toward o
 
 What should we do at Lourdes? Pilgrims here perform three gestures:
 
-1. [touching the rock](),
-2. [drinking and washing in the spring](), and
-3. [lighting a candle]().
+1. [touching the rock](/post/lourdes/#touch-the-rock),
+2. [drinking and washing in the spring](/post/lourdes/#drink-and-wash), and
+3. [lighting a candle](/post/lourdes/#light-a-candle).
 
 These actions are identical to the ones Bernadette performed during the apparitions.
 
