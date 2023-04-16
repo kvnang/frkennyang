@@ -179,6 +179,7 @@ export const pageQuery = graphql`
           }
           publicURL
         }
+        excerpt
         lang
       }
       excerpt
