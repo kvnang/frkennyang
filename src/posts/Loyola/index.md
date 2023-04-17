@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ignatius of Loyola's House and Sanctuary
 featuredImage: loyola.jpg
 format: Article
@@ -11,9 +11,9 @@ excerpt: Ignatius of Loyola, founder of the Jesuits, was born in Azpeitia in 149
 
 ## Content
 
-1. [Life of St. Ignatius](/post/loyola/#facts)
-2. [Sanctuary of Loyola](/post/loyola/#facts)
-3. [Chapel of Conversion](/post/loyola/#facts)
+1. [Life of St. Ignatius](/post/loyola/#life-of-st-ignatius)
+2. [Sanctuary of Loyola](/post/loyola/#sanctuary-of-loyola)
+3. [Chapel of Conversion](/post/loyola/#chapel-of-conversion)
 
 ---
 
@@ -25,7 +25,7 @@ Ignatius of Loyola, originally named Iñigo de Oñaz y Loyola, was a **Spanish n
 
 During the defense of Pamplona against the French, Ignatius suffered a **severe leg injury from a cannonball** on May 20, 1521. This marked the end of the first part of his life, during which he admits he was "a man given to worldly pleasures."
 
-After Ignatius received medical treatment in Pamplona, he was taken back to his family's castle in Loyola in June 1521 to recover in a room (now called the [Chapel of Conversion](/post/loyola/chapel-of-conversion)). With limited reading material available, he read a book about the **life of Christ** and another on the **lives of saints**, which had introductions by a Cistercian monk who viewed serving God as a holy form of knighthood. This idea had a deep impact on Ignatius and he decided to **follow the saints' austerities** as a form of penance. This moment was a **profound turning point** in his life.
+After Ignatius received medical treatment in Pamplona, he was taken back to his family's castle in Loyola in June 1521 to recover in a room (now called the [Chapel of Conversion](/post/loyola/#chapel-of-conversion)). With limited reading material available, he read a book about the **life of Christ** and another on the **lives of saints**, which had introductions by a Cistercian monk who viewed serving God as a holy form of knighthood. This idea had a deep impact on Ignatius and he decided to **follow the saints' austerities** as a form of penance. This moment was a **profound turning point** in his life.
 
 In February 1522, Ignatius left his family to go on a pilgrimage to Montserrat in northeastern Spain, where he **confessed his sins** for three days, **hung his sword and dagger** near the statue of the Virgin Mary, and spent a night praying in sackcloth. Ignatius authored *The Spiritual Exercises* between 1522 and 1524, which is a collection of Christian prayers, meditations, and contemplations.
 
