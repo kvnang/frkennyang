@@ -20,9 +20,12 @@ excerpt: This is a guide for pilgrims in Europe.
 6. [Basilica of St. Francis of Assisi](/post/assisi/)
 7. [Church of St. Mary Major (Carlo Acutis)](/post/acutis/)
 
+## Loyola
+8. [Ignatius of Loyola's House and Sanctuary](/post/loyola/)
+
 ## Lourdes
-8. [In the Footsteps of Bernadette](/post/bernadette/)
-9. [Lourdes & Gestures of Pilgrims](/post/lourdes/)
+9. [In the Footsteps of Bernadette](/post/bernadette/)
+10. [Lourdes & Gestures of Pilgrims](/post/lourdes/)
 
 ---
 
