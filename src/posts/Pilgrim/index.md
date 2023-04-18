@@ -2,7 +2,7 @@
 title: A Guide for Pilgrims
 featuredImage: map.jpg
 format: Article
-date: 2023-04-14
+date: 2023-05-30
 category:
   - Pilgrimage
   - History
