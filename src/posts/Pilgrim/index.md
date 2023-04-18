@@ -21,7 +21,7 @@ excerpt: This is a guide for pilgrims in Europe.
 7. [Church of St. Mary Major (Carlo Acutis)](/post/acutis/)
 
 ## Loyola
-8. [Ignatius of Loyola's House and Sanctuary](/post/loyola/)
+8. [Ignatius of Loyola's House & Sanctuary](/post/loyola/)
 
 ## Fatima
 
