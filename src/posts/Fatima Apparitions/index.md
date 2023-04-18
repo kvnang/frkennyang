@@ -1,6 +1,6 @@
-﻿---
+---
 title: The Apparitions and Secret of Fatima
-featuredImage: fatima.jpg
+featuredImage: mary.jpg
 format: Article
 date: 2023-04-18
 category:
@@ -11,10 +11,10 @@ excerpt: Fatima, a small town in Portugal, became a significant pilgrimage site 
 
 ## Content
 
-1. [Facts]()
-2. [Apparitions]()
-3. [Message]()
-4. [Secret]()
+1. [Facts](/post/fatima-apparitions/#facts)
+2. [Apparitions](/post/fatima-apparitions/#apparitions)
+3. [Message](/post/fatima-apparitions/#message)
+4. [Secret](/post/fatima-apparitions/#secret)
 
 ---
 
@@ -23,7 +23,7 @@ excerpt: Fatima, a small town in Portugal, became a significant pilgrimage site 
 - Apparitions: 1917
 - 13,212 inhabitants (2021)
 - 6 million visitors per year
-- 3 [places of worship]()
+- 3 [places of worship](/post/fatima-pilgrimage/#places-of-worship)
 
 ## Apparitions
 
