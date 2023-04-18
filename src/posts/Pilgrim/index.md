@@ -23,9 +23,14 @@ excerpt: This is a guide for pilgrims in Europe.
 ## Loyola
 8. [Ignatius of Loyola's House and Sanctuary](/post/loyola/)
 
+## Fatima
+
+9. [The Apparitions and Secret of Fatima](/post/fatima-apparitions/)
+10. [Fatima Pilgrimage Customs and Route](/post/fatima-pilgrimage/)
+
 ## Lourdes
-9. [In the Footsteps of Bernadette](/post/bernadette/)
-10. [Lourdes & Gestures of Pilgrims](/post/lourdes/)
+11. [In the Footsteps of Bernadette](/post/bernadette/)
+12. [Lourdes & Gestures of Pilgrims](/post/lourdes/)
 
 ---
 
