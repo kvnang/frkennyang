@@ -25,8 +25,8 @@ excerpt: This is a guide for pilgrims in Europe.
 
 ## Fatima
 
-9. [The Apparitions and Secret of Fatima](/post/fatima-apparitions/)
-10. [Fatima Pilgrimage Customs and Route](/post/fatima-pilgrimage/)
+9. [The Apparitions & Secret of Fatima](/post/fatima-apparitions/)
+10. [Fatima Pilgrimage Customs & Route](/post/fatima-pilgrimage/)
 
 ## Lourdes
 11. [In the Footsteps of Bernadette](/post/bernadette/)
