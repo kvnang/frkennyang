@@ -1,5 +1,5 @@
 ---
-title: Ignatius of Loyola's House and Sanctuary
+title: Ignatius of Loyola's House & Sanctuary
 featuredImage: loyola.jpg
 format: Article
 date: 2023-04-17
