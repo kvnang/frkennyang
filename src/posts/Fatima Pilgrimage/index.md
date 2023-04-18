@@ -1,5 +1,5 @@
 ---
-title: Fatima Pilgrimage Customs and Route
+title: Fatima Pilgrimage Customs & Route
 featuredImage: fatima2.jpg
 format: Article
 date: 2023-04-18
