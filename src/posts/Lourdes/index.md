@@ -24,9 +24,10 @@ excerpt: Lourdes is a town in France that attracts over 6 million visitors per y
 
 ## Facts
 
-- 13,389 inhabitants (2017)
+- Apparitions: 1858
 - 7,000 cases of unexplained cures
 - 70 cures recognized as miraculous
+- 13,389 inhabitants (2017)
 - 6 million visitors per year
 - over 80,000 sick pilgrims per year
 - 189 hotels[^1]
