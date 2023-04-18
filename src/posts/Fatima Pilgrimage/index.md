@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fatima Pilgrimage Customs and Route
 featuredImage: fatima2.jpg
 format: Article
@@ -11,16 +11,16 @@ excerpt: Fatima is a significant pilgrimage site, attracting around 6 million vi
 
 ## Content
 
-1. [Places of Worship]()  
-		[*Capelinha*]()  
-		[Basilica of Our Lady of the Rosary]()  
-		[Basilica of the Holy Trinity]()  
-2. [Customs]()
-		[Crawling on the Knees]()  
-		[Waving White Handkerchiefs]()  
-3. [Pilgrimage Route]()
-		[Homes of the Shepherds]()  
-		[*Via Sacra*]()  
+1. [Places of Worship](/post/fatima-pilgrimage/#places-of-worship)  
+		[*Capelinha*](/post/fatima-pilgrimage/#capelinha)  
+		[Basilica of Our Lady of the Rosary](/post/fatima-pilgrimage/#basilica-of-our-lady-of-the-rosary)  
+		[Basilica of the Holy Trinity](/post/fatima-pilgrimage/#basilica-of-the-holy-trinity)  
+2. [Customs](/post/fatima-pilgrimage/#customs)  
+		[Crawling on the Knees](/post/fatima-pilgrimage/#crawling-on-the-knees)  
+		[Waving White Handkerchiefs](/post/fatima-pilgrimage/#waving-white-handkerchiefs)  
+3. [Pilgrimage Route](/post/fatima-pilgrimage/#pilgrimage-route)  
+		[Homes of the Shepherds](/post/fatima-pilgrimage/#homes-of-the-shepherds)  
+		[*Via Sacra*](/post/fatima-pilgrimage/#via-sacra)  
 
 ---
 
