@@ -35,7 +35,7 @@ Pope **Pius XI** authenticated her visions and the veneration of Mary as Our Lad
 
 ## Pilgrimage Route
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1G1hRK70UbMJGQYo1LbhrxZCVz3ZXLs0&ehbc=2E312F" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1JuirENfTQPWU5ESejpk_Zm-ENx8Bnzw&ehbc=2E312F" width="640" height="480"></iframe>
 
 To follow in Bernadette's footsteps in Lourdes, we can explore the following places.
 
