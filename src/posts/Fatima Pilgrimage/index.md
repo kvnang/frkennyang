@@ -64,7 +64,6 @@ The tradition of waving white handkerchiefs signifies devotion and love towards 
 
 ## Pilgrimage Route
 
-
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1OIn4CbaGixVM9xzllOfzlCv1snWEbb4&ehbc=2E312F" width="640" height="480"></iframe>
 
 ### Homes of the Shepherds
