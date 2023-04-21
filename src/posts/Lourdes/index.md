@@ -1,5 +1,5 @@
 ---
-title: Lourdes & Gestures of Pilgrims
+title: Lourdes Apparitions & Message
 featuredImage: lourdes.jpg
 format: Article
 date: 2023-04-16
