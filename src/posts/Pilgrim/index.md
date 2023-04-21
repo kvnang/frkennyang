@@ -37,7 +37,7 @@ excerpt: This is a guide for pilgrims in Europe.
 
 ## Lourdes
 13. [In the Footsteps of Bernadette](/post/bernadette/)
-14. [Lourdes & Gestures of Pilgrims](/post/lourdes/)
+14. [Lourdes Apparitions & Message](/post/lourdes/)
 
 ## Paris
 15. [Sacred Heart Basilica of Montmartre](/post/montmartre/)
