@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sacred Heart Basilica of Montmartre
 featuredImage: montmartre.jpg
 format: Article
@@ -65,7 +65,7 @@ The Sacred Heart Basilica stands tall at **Montmartre**, the highest point in Pa
 
 ## Apse Mosaic
 
-The main artwork in the basilica is a big mosaic in the apse, called “**The Triumph of the Sacred Heart of Jesus**.” It was made by Luc-Olivier Merson and is one of the largest mosaics in the world. **Jesus** stands with open arms, offering his heart, with **Mary** and St. **Michael** beside him. St. Michael is the protector of France and the Church. St. **Joan of Arc** kneels below him and presents a crown to Jesus. Pope **Leo XIII** offers Christ a globe, which represents the world.
+The main artwork in the basilica is a big mosaic in the apse, called “**The Triumph of the Sacred Heart of Jesus**.” It was made by Luc-Olivier Merson and is one of the largest mosaics in the world. **Jesus** stands with open arms, offering his heart, with **Mary** and St. **Michael** beside him. St. Michael is the protector of France and the Church. St. **Joan of Arc** kneels below him and and a personification of France presents a crown to Jesus. Pope **Leo XIII** offers Christ a globe, which represents the world.
 
 ![Triumph of the Sacred Heart of Jesus Montmartre Paris France](triumph.jpg 'Triumph of the Sacred Heart of Jesus. © Peter Potrowl, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons')
 
