@@ -9,7 +9,7 @@ category:
 excerpt: This is a guide for pilgrims in Europe.
 ---
 ## Links
-- Download our [Choir Book](/post/pilgrim/WYD23-Choir-Book.pdf).
+- Download our [Choir Book](https://drive.google.com/file/d/1XVzUoAE01rkFNcrUScNY7zFLEHllhIRJ/view?usp=sharing).
 
 ## Rome
 1. [Basilica of St. Paul Outside the Walls](/post/basilica-paul/)
