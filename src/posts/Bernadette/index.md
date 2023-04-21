@@ -1,6 +1,6 @@
 ---
 title: In the Footsteps of Bernadette Soubirous
-featuredImage: bernadette.jpg
+featuredImage: bernadette.jpeg
 format: Article
 date: 2023-04-15
 category:
@@ -32,7 +32,7 @@ Bernadette Soubirous was the eldest of nine children from a poor family. She suf
 
 Between February 11 and July 16, 1858, at the age of 14, she had a series of **visions of the Virgin Mary in the nearby Massabielle Grotto**. During the visions, Mary identified herself as "**the Immaculate Conception**," among other messages and affirmations. She instructed Bernadette to **build a chapel** there. Bernadette transmitted Mary's messages faithfully but tried to **escape public attention** by entering a local boarding school run by the Sisters of Charity of Nevers.
 
-![Massabielle Grotto Bernadette Soubirous apparitions Virgin Mary Lourdes](grotto.jpg 'Massabielle Grotto')
+![Massabielle Grotto Bernadette Soubirous apparitions Virgin Mary Lourdes](grotto.jpeg 'Massabielle Grotto')
 
 In 1866, Bernadette was granted admission into the **novitiate in the motherhouse at Nevers**, where she completed her religious instruction and **spent her remaining years in prayer and seclusion**. Despite constant **sickness and pain**, she was known for her kindliness, holiness, and wit. She died willingly accepting her great sufferings in faithful fulfillment of **Our Lady's request for penance**.
 
@@ -100,7 +100,7 @@ Prayer for pilgrims:
 > Our Lady of Lourdes, pray for us!
 > Saint Bernadette, pray for us!”
 
-![Pilgrims touching the rock of Massabielle Grotto Lourdes France](rock.jpg 'Pilgrims touching the rock of Massabielle Grotto')
+![Pilgrims touching the rock of Massabielle Grotto Lourdes France](rock.jpeg 'Pilgrims touching the rock of Massabielle Grotto')
 
 Mary appeared to [Bernadette](/post/bernadette/) 18 times between February 18 and July 16, 1858, in this Grotto. During Bernadette's time, the Grotto was dirty, hidden, and cold. Pigs used to seek refuge there. Our Lady's white attire, symbolizing her purity, stood out in this obscurity.
 
@@ -172,7 +172,7 @@ Prayer for pilgrims:
 > Our Lady of Lourdes, pray for us!
 > Saint Bernadette, pray for us!”
 
-![Candles lighted by pilgrims at Lourdes France](light.jpg 'Candles lighted by pilgrims at Lourdes')
+![Candles lighted by pilgrims at Lourdes France](light.jpeg 'Candles lighted by pilgrims at Lourdes')
 
 Every pilgrim in Lourdes carries a candle in the procession. Near the Grotto, over 700 tons of candles burn each year for you and those who cannot come. There are several reasons why people bring and light candles at Lourdes.
 
