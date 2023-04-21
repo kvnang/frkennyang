@@ -32,6 +32,8 @@ Bernadette Soubirous was the eldest of nine children from a poor family. She suf
 
 Between February 11 and July 16, 1858, at the age of 14, she had a series of **visions of the Virgin Mary in the nearby Massabielle Grotto**. During the visions, Mary identified herself as "**the Immaculate Conception**," among other messages and affirmations. She instructed Bernadette to **build a chapel** there. Bernadette transmitted Mary's messages faithfully but tried to **escape public attention** by entering a local boarding school run by the Sisters of Charity of Nevers.
 
+![Massabielle Grotto Bernadette Soubirous apparitions Virgin Mary Lourdes](grotto.jpeg 'Massabielle Grotto')
+
 In 1866, Bernadette was granted admission into the **novitiate in the motherhouse at Nevers**, where she completed her religious instruction and **spent her remaining years in prayer and seclusion**. Despite constant **sickness and pain**, she was known for her kindliness, holiness, and wit. She died willingly accepting her great sufferings in faithful fulfillment of **Our Lady's request for penance**.
 
 Pope **Pius XI** authenticated her visions and the veneration of Mary as Our Lady of Lourdes. He also canonized Bernadette. The chapel of the St. Gildard convent in Nevers houses her incorrupt body.
