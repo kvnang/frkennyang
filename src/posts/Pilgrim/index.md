@@ -20,17 +20,22 @@ excerpt: This is a guide for pilgrims in Europe.
 6. [Basilica of St. Francis of Assisi](/post/assisi/)
 7. [Church of St. Mary Major (Carlo Acutis)](/post/acutis/)
 
-## Loyola
-8. [Ignatius of Loyola's House & Sanctuary](/post/loyola/)
+## Lisbon
+
+8. [Cathedral of St. Mary Major](/post/lisbon-cathedral/)
+9. [Church of St. Anthony](/post/lisbon-anthony/)
 
 ## Fatima
 
-9. [The Apparitions & Secret of Fatima](/post/fatima-apparitions/)
-10. [Fatima Pilgrimage Customs & Route](/post/fatima-pilgrimage/)
+10. [The Apparitions & Secret of Fatima](/post/fatima-apparitions/)
+11. [Fatima Pilgrimage Customs & Route](/post/fatima-pilgrimage/)
+
+## Loyola
+12. [Ignatius of Loyola's House & Sanctuary](/post/loyola/)
 
 ## Lourdes
-11. [In the Footsteps of Bernadette](/post/bernadette/)
-12. [Lourdes & Gestures of Pilgrims](/post/lourdes/)
+13. [In the Footsteps of Bernadette](/post/bernadette/)
+14. [Lourdes & Gestures of Pilgrims](/post/lourdes/)
 
 ---
 
