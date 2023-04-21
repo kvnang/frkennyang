@@ -1,6 +1,6 @@
 ---
 title: Lourdes Apparitions & Message
-featuredImage: lourdes.jpg
+featuredImage: lourdes.jpeg
 format: Article
 date: 2023-04-16
 category:
@@ -29,19 +29,19 @@ excerpt: Lourdes is a town in France that attracts over 6 million visitors per y
 - 189 hotels[^1]
 - 3 basilicas: Basilica of the Immaculate Conception (consecrated in 1876), Basilica of Our Lady of the Rosary (consecrated in 1901), and Basilica of Saint Pius X (consecrated in 1958).
 
-![View from the Basilica of the Immaculate Conception Lourdes France](lourdes-square.jpg 'View from the Basilica of the Immaculate Conception')
+![View from the Basilica of the Immaculate Conception Lourdes France](lourdes-square.jpeg 'View from the Basilica of the Immaculate Conception')
 
 ## Apparitions
 
 Date: February 11–July 16, 1858
 
-![Massabielle Grotto Lourdes France](grotto.jpg 'Massabielle Grotto')
+![Massabielle Grotto Lourdes France](grotto.jpeg 'Massabielle Grotto')
 
 Mary appeared at **Massabielle Grotto** 18 times between February 11 and July 16, 1858, to 14-year-old [Bernadette Soubirous](/post/bernadette/). On February 11, Bernadette was gathering firewood along the bank of the River Gave when Mary appeared to her as a beautiful young girl of around 17 years old. Bernadette described Mary as
 
 > dressed in a white robe, girded at the waist with a blue ribbon. She wore upon her head a white veil which gave just a glimpse of hair. Her feet were bare but covered by the last folds of her robe and a yellow rose was upon each of them. She held on her right arm a rosary of white beads with a chain of gold shining like the two roses on her feet.
 
-![Bernadette Soubirous kneeling with rosary in her hands](bernadette.jpg 'St. Bernadette Soubirous in 1861')
+![Bernadette Soubirous kneeling with rosary in her hands](bernadette.jpeg 'St. Bernadette Soubirous in 1861')
 
 ## Historical Background
 
@@ -59,7 +59,7 @@ You may ask: why France? Russian theology teaches that
 
 When people rejected Christ, God sent his Mother. This might be an explanation of why Mary repeatedly came to France in the wake of the French Revolution.
 
-![The place where Mary stood at Massabielle Grotto with the inscription of her message I am the Immaculate Conception Lourdes France](mary.jpg 'The place where Mary stood at Massabielle Grotto')
+![The place where Mary stood at Massabielle Grotto with the inscription of her message I am the Immaculate Conception Lourdes France](mary.jpeg 'The place where Mary stood at Massabielle Grotto')
 
 ## Message of Lourdes
 
