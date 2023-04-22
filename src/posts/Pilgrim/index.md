@@ -6,9 +6,10 @@ date: 2023-05-30
 category:
   - Pilgrimage
   - History
-excerpt: This is a guide for pilgrims in Europe.
+excerpt: This is a guide for my World Youth Day 2023 Pilgrimage group.
 ---
 ## Links
+- Download our [Packing List](https://drive.google.com/file/d/1fOrdZOxcSaumpO23C7yQRYQn1n6zlS3O/view?usp=sharing)
 - Download our [Choir Book](https://drive.google.com/file/d/1XVzUoAE01rkFNcrUScNY7zFLEHllhIRJ/view?usp=sharing)
 - Learn our [Mass Songs](https://youtube.com/playlist?list=PL7SL2Bxc7Yp_VT9B_ZVoVW1bamP84xjrS)
 
