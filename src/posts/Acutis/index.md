@@ -45,6 +45,6 @@ He died on October 12. Some of his last words were to a nurse who offered to wak
 
 ## Prayer for His Canonization
 
-O God our Father, we thank you for giving us Carlo, a model of life for young people, and a message of love for all. You made him fall in love with your son Jesus, making the Eucharist his “highway to heaven.” You gave him Mary as a beloved mother, and you made him, through the Rosary, a cantor of her tenderness. Receive his prayer for us. Look above all upon the poor, whom he loved and assisted. Grant me too, through his intercession, the grace that I need … *(mention your intention)*. And make our joy full, raising Carlo among the saints of your Church, so that his smile shines again for us to the glory of your name. Amen.
+> O God our Father, we thank you for giving us Carlo, a model of life for young people, and a message of love for all. You made him fall in love with your son Jesus, making the Eucharist his “highway to heaven.” You gave him Mary as a beloved mother, and you made him, through the Rosary, a cantor of her tenderness. Receive his prayer for us. Look above all upon the poor, whom he loved and assisted. Grant me too, through his intercession, the grace that I need … *(mention your intention)*. And make our joy full, raising Carlo among the saints of your Church, so that his smile shines again for us to the glory of your name. Amen.
 
 [^1]:Cover picture by Dobroš, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons.
