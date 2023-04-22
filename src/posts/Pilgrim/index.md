@@ -10,6 +10,7 @@ excerpt: This is a guide for my World Youth Day 2023 Pilgrimage group.
 ---
 ## Links
 - Download our [Packing List](https://drive.google.com/file/d/1fOrdZOxcSaumpO23C7yQRYQn1n6zlS3O/view?usp=sharing)
+- Check out these [product recommendations](/post/packing/)
 - Download our [Choir Book](https://drive.google.com/file/d/1XVzUoAE01rkFNcrUScNY7zFLEHllhIRJ/view?usp=sharing)
 - Learn our [Mass Songs](https://youtube.com/playlist?list=PL7SL2Bxc7Yp_VT9B_ZVoVW1bamP84xjrS)
 
