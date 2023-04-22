@@ -10,7 +10,8 @@ excerpt: If you're preparing for a pilgrimage, it's important to pack wisely to 
 If you're preparing for a pilgrimage, it's important to pack wisely to ensure a fulfilling and comfortable journey. In this article, I've curated a list of essential items that will enhance your pilgrimage experience, all of which are included in my comprehensive [Packing List](https://drive.google.com/file/d/1fOrdZOxcSaumpO23C7yQRYQn1n6zlS3O/view?usp=sharing).
 
 - [dry bag (for wet clothes)](https://shopee.co.id/SEA-TO-SUMMIT-ULTRA-SIL-DRY-SACK-8L-i.19260065.11887578848?sp_atk=5f7e06f9-cc5c-4323-9bf2-e776c9fbef41&xptdk=5f7e06f9-cc5c-4323-9bf2-e776c9fbef41)
-- [electrical adapter (Indonesia to Italy)](https://shopee.co.id/Colokan-3-pin-UK-US-EU-AU-to-Italy-Travel-AC-Adapter-Plug-Converter-travel-universal-i.7414001.1443767109?sp_atk=328e4172-2d14-4963-8b50-3d1f58c07667&xptdk=328e4172-2d14-4963-8b50-3d1f58c07667)
+- [universal adapter](https://shopee.co.id/Universal-Adapter-AUKEY-PA-TA01-With-USB-C-USB-A-Port-501426-i.614879723.20142434101?sp_atk=953e3845-e732-4334-b06e-e158a130282f&xptdk=953e3845-e732-4334-b06e-e158a130282f)
+	- [adapter (Indonesia to Italy)](https://shopee.co.id/Colokan-3-pin-UK-US-EU-AU-to-Italy-Travel-AC-Adapter-Plug-Converter-travel-universal-i.7414001.1443767109?sp_atk=328e4172-2d14-4963-8b50-3d1f58c07667&xptdk=328e4172-2d14-4963-8b50-3d1f58c07667)
 - [collapsible bottle](https://shopee.co.id/product/820921504/20832195752?d_id=a799d&utm_content=34n1zeSxtUzLNpkRB1uyuUK2bVjm)
 - [travel cutlery set](https://shopee.co.id/portable-chopstik-sendok-garpu-set-i.9981002.13132105618?sp_atk=8b3fa55a-f8fa-4fba-a86a-8364aa0d1d89&xptdk=8b3fa55a-f8fa-4fba-a86a-8364aa0d1d89)
 - pants (convertible/zip-off)
