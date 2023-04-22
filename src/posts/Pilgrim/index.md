@@ -1,4 +1,4 @@
----
+﻿---
 title: A Guide for Pilgrims
 featuredImage: map.jpg
 format: Article
@@ -52,3 +52,4 @@ excerpt: This is a guide for my World Youth Day 2023 Pilgrimage group.
 > — Pope Benedict XVI
 
 [^1]:Pope Benedict XVI, Meeting with the Clergy of the Diocese of Bolzano-Bressanone (August 6, 2008), https://www.vatican.va/content/benedict-xvi/en/speeches/2008/august/documents/hf_ben-xvi_spe_20080806_clero-bressanone.html.
+
