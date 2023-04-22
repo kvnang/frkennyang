@@ -13,6 +13,7 @@ If you're preparing for a pilgrimage, it's important to pack wisely to ensure a 
 - [universal adapter](https://shopee.co.id/Universal-Adapter-AUKEY-PA-TA01-With-USB-C-USB-A-Port-501426-i.614879723.20142434101?sp_atk=953e3845-e732-4334-b06e-e158a130282f&xptdk=953e3845-e732-4334-b06e-e158a130282f)
 	- [adapter (Indonesia to Italy)](https://shopee.co.id/Colokan-3-pin-UK-US-EU-AU-to-Italy-Travel-AC-Adapter-Plug-Converter-travel-universal-i.7414001.1443767109?sp_atk=328e4172-2d14-4963-8b50-3d1f58c07667&xptdk=328e4172-2d14-4963-8b50-3d1f58c07667)
 - [collapsible bottle](https://shopee.co.id/product/820921504/20832195752?d_id=a799d&utm_content=34n1zeSxtUzLNpkRB1uyuUK2bVjm)
+- [toiletry bottles](https://shopee.co.id/product/130885242/15815603011?d_id=a74de&utm_content=349PkReUNa4pgA5SGBmVAeau47cb)
 - [travel cutlery set](https://shopee.co.id/portable-chopstik-sendok-garpu-set-i.9981002.13132105618?sp_atk=8b3fa55a-f8fa-4fba-a86a-8364aa0d1d89&xptdk=8b3fa55a-f8fa-4fba-a86a-8364aa0d1d89)
 - pants (convertible/zip-off)
 	- [men](https://www.columbiasportswear.id/collections/mens-convertible-pant/products/mens-blood-and-guts-iii-conv)
