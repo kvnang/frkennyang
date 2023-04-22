@@ -19,7 +19,8 @@ If you're preparing for a pilgrimage, it's important to pack wisely to ensure a 
 - [earplugs](https://shopee.co.id/Penutup-Telinga-Ear-Plug-Pelindung-Penyumbat-Kuping-Peredam-Suara-Safety-EarPlug-i.436088651.16866689277?sp_atk=03dbc0df-3067-4afe-b83b-7c046dee9672&xptdk=03dbc0df-3067-4afe-b83b-7c046dee9672)
 - sunscreen SPF50
 	- [Cerave](https://shopee.co.id/CeraVe-Hydrating-Mineral-Sunscreen-Face-Lotion-SPF-30-75-ML-i.27668873.20616149362?sp_atk=26eb616a-d5e2-48be-bc51-372759e0cd2b&xptdk=26eb616a-d5e2-48be-bc51-372759e0cd2b)
-	- [Somethinc](https://shopee.co.id/-New-SOMETHINC-Holyshield!-UV-Watery-Sunscreen-Gel-SPF-50-PA-Sunscreen-Sensasi-Salju-i.101585010.20863032182?sp_atk=638f048f-d59a-4e54-9ba9-4c5c52ba32ac&xptdk=638f048f-d59a-4e54-9ba9-4c5c52ba32ac)
+	- [Somethinc](https://shopee.co.id/product/195455930/14483006210?d_id=a74de&utm_content=349PkReUNYCNnrbyFPFxHqfXSVRR)
+	- [Skintific](https://shopee.co.id/product/457706720/18370976008?d_id=a74de&utm_content=349PkReUNYGg1EcdpSRnbYLGNsr7)
 	- [Dew It (Spray)](https://shopee.co.id/Sunscreen-Spray-SPF-50-Vit-C-Dew-It-Sunscreen-Mist-Tabir-surya-transparan-sweatproof-waterproof-atasi-kulit-kusam-dan-belang-i.310918784.19848150293?sp_atk=21cbc6a9-d53b-4011-aa40-02e4a0dad1b6&xptdk=21cbc6a9-d53b-4011-aa40-02e4a0dad1b6)
 	- [Dew It (Stick)](https://shopee.co.id/Sunscreen-SPF-50-PA-Dew-It-Face-Sun-Stick-Non-comedogenic-tabir-surya-hybrid-UVA-UVB-protection-24-gr-i.310918784.11615628058?sp_atk=49192c7e-d888-45b4-9084-5dcfc893705f&xptdk=49192c7e-d888-45b4-9084-5dcfc893705f)
 - aloe vera
