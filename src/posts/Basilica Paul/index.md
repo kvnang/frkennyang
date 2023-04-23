@@ -62,7 +62,7 @@ The **Sacrificial Lamb** occupies the center of the middle section. Its death pr
 
 At the summit, we see **Christ enthroned**, holding a book containing his words:
 
-> My sheep hear my voice … [and] I give them eternal life" (John 10:27–28).
+> My sheep hear my voice … [and] I give them eternal life (John 10:27–28).
 
 He is flanked by the two patrons of Rome, **Peter** and **Paul**. In the earlier 13th-century mosaic, Paul stood at Christ’s right. However, the current one inverts the saints’ position: now **Peter** occupies the **place of honor at the right side of Christ**. This modification echoes the proclamation of **papal infallibility** by the First Vatican Council (1870), four years prior to the completion of this façade. This is a salient example of how **art reflects doctrine**.
 
