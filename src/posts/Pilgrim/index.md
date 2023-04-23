@@ -32,7 +32,7 @@ excerpt: This is a guide for my World Youth Day 2023 Pilgrimage group.
 
 ## Fatima
 
-10. [The Apparitions & Secret of Fatima](/post/fatima-apparitions/)
+10. [Apparitions & Secret of Fatima](/post/fatima-apparitions/)
 11. [Fatima Pilgrimage Customs & Route](/post/fatima-pilgrimage/)
 
 ## Loyola
