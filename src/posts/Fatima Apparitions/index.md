@@ -1,5 +1,5 @@
 ---
-title: The Apparitions & Secret of Fatima
+title: Apparitions & Secret of Fatima
 featuredImage: mary.jpg
 format: Article
 date: 2023-04-18
