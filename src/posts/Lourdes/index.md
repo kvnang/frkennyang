@@ -55,7 +55,7 @@ Following the French Revolution, a series of apparitions of Our Lady took place 
 
 You may ask: why France? Russian theology teaches that
 
-> when the world would fight against the Savior, he would send ̉his Mother to save us.
+> when the world would fight against the Savior, he would send his Mother to save us.
 
 When people rejected Christ, God sent his Mother. This might be an explanation of why Mary repeatedly came to France in the wake of the French Revolution.
 
