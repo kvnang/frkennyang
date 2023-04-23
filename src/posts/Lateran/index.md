@@ -17,8 +17,10 @@ excerpt: The Basilica of St. John Lateran is the first public church in Rome and
 5. [Papal Altar and Ciborium](/post/lateran/#papal-altar-and-ciborium)
 6. [Last Supper Table](/post/lateran/#last-supper-table)
 7. [Apse Mosaic](/post/lateran/#apse-mosaic)
-8. [Lateran Baptistery](/post/lateran/#lateran-baptistery)
-9. [*Scala Sancta*](/post/lateran/#scala-sancta)
+8. [Lateran Baptistery](/post/lateran/#lateran-baptistery)  
+    [Catechesis on Baptism](/post/lateran/#catechesis-on-baptism)  
+    [Renewal of Baptismal Promises](/post/lateran/#renewal-of-baptismal-promises)  
+10. [*Scala Sancta*](/post/lateran/#scala-sancta)
   
 ---
 ## Facts
@@ -173,6 +175,37 @@ Engraved on the architrave is the **catechesis of Sixtus III** on baptism:
 7.  There is no barrier between those who are reborn and made one / by the one font, the one Spirit, and the one faith.
     
 8.  Let neither the number nor the kind of their sins terrify anyone; / once reborn in this water, they will be holy.
+
+### Renewal of Baptismal Promises
+
+Priest: Dear brothers and sisters through the Paschal Mystery we have been buried with Christ in Baptism, so that we may walk with him in newness of life. Let us renew the promises of Holy Baptism, by which we once renounced Satan and his works and promised to serve God in the holy Catholic Church. And so I ask you:
+
+Priest: Do you renounce Satan?  
+All: **I do.**
+
+Priest: And all his works?  
+All: **I do.**
+
+Priest: And all his empty show?  
+All: **I do.**
+
+Priest: Do you believe in God, the Father almighty, Creator of heaven and earth?  
+All: **I do.**
+
+Priest: Do you believe in Jesus Christ, his only Son, our Lord, who was born of the Virgin Mary, suffered death and was buried, rose again from the dead and is seated at the right hand of the Father?  
+All: **I do.**
+
+Priest: Do you believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting?  
+All: **I do.**
+
+Priest: And may almighty God, the Father of our Lord Jesus Christ, who has given us new birth by water and the Holy Spirit and bestowed on us forgiveness of our sins, keep us by his grace, in Christ Jesus our Lord, for eternal life.  
+All: **Amen.**
+
+The Priest sprinkles the people with the blessed water, while all sing:
+
+> Syukur kepada-Mu, Tuhan, sumber segala rahmat. / Meski kami tanpa jasa, Kau-pilih dan Kau-angkat. / Dosa kami Kau-ampuni. Kau-beri hidup ilahi, kami jadi putra-Mu. 
+> 
+> Kami hendak mengikuti jejak Yesus Sang Abdi: / mengamalkan cinta bakti di masyarakat kami. / Syukur kepada-Mu, Tuhan, atas baptis yang mulia, tanda rahmat dan iman.
 
 ## *Scala Sancta*
 
