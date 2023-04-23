@@ -39,8 +39,8 @@ excerpt: This is a guide for my World Youth Day 2023 Pilgrimage group.
 12. [Ignatius of Loyola's House & Sanctuary](/post/loyola/)
 
 ## Lourdes
-13. [In the Footsteps of Bernadette](/post/bernadette/)
-14. [Lourdes Apparitions & Message](/post/lourdes/)
+13. [Lourdes Apparitions & Message](/post/lourdes/)
+14. [In the Footsteps of Bernadette](/post/bernadette/)
 
 ## Paris
 15. [Sacred Heart Basilica of Montmartre](/post/montmartre/)
