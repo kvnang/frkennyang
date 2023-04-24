@@ -37,7 +37,7 @@ Preparing for a pilgrimage requires a holistic approach that encompasses our sou
 - Tips: Consider stopping eating your favorite food or skipping a meal each week as a form of fasting.
 
 ### 5. Learn about the places you will visit.
-- Read my articles.
+- Read [my articles](/post/pilgrim/).
 
 ### 6. Leave work behind.
 - Leave work behind and arrange everything before the trip begins. This is important for maintaining your focus during the pilgrimage.
