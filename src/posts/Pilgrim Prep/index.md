@@ -20,11 +20,11 @@ Preparing for a pilgrimage requires a holistic approach that encompasses our sou
 
 ### 2. Keep a prayer journal
 - Reflect on Luke 1:39—"Mary arose and went with haste."
-- Ask yourself questions such as:
-		- What comes to mind when you read Luke 1:39?
-		- How are you like Mary in this verse?
-		- What does this verse mean to you?
-		- Why did you decide to make this pilgrimage?
+- Ask yourself questions such as:  
+	- What comes to mind when you read Luke 1:39?  
+	- How are you like Mary in this verse?  
+	- What does this verse mean to you?  
+	- Why did you decide to make this pilgrimage?  
 
 ### 3. Collect prayer intentions
 - Ask friends and family members, "How can I pray for you during my pilgrimage?" Write down the intentions in your journal.
@@ -33,8 +33,8 @@ Preparing for a pilgrimage requires a holistic approach that encompasses our sou
 
 ### 4. Practice sacrifice
 - Offer up any worries or stress you have to God. For example, if packing is difficult, make it a small sacrifice to offer up to God.
-- Try fasting to help you think about God and offer up your daily problems to him. This can also prepare you for any hunger or impatience you may feel during your pilgrimage.
-- Tips: Consider stopping eating your favorite food or skipping a meal each week as a form of fasting.
+- Try fasting to help you think about God and offer up your daily problems to him. This can also prepare you for any hunger or impatience you may feel during your pilgrimage.  
+	- Consider stopping eating your favorite food or skipping a meal each week as a form of fasting.
 
 ### 5. Learn about the places you will visit
 - Read [my articles](/post/pilgrim/).
