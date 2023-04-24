@@ -62,7 +62,10 @@ Preparing for a pilgrimage requires a holistic approach that encompasses our sou
 - Download our [Packing List](https://drive.google.com/file/d/1fOrdZOxcSaumpO23C7yQRYQn1n6zlS3O/view?usp=sharing).
 - Check out some [recommended products](/post/packing/).
 
-### 10. Arrange your phone data plan. There are three options:
+### 10. Arrange your phone data plan.
+
+There are three options:
+
 - Prepaid SIM card  
 	- Read [this article](https://thesavvybackpacker.com/how-to-buy-sim-card-europe-data-plan/).  
 	- Avoid “global” SIM cards.  
