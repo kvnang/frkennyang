@@ -94,7 +94,7 @@ Gestures:
 - Maintain silence.
 - Upon entering the Grotto, make the sign of the Cross.
 - Contemplate the spring.
-- Touch or kiss the rock.
+- Touch and/or kiss the rock.
 - Say your prayer intention to Our Lady.
 - When leaving the Grotto, bow in silence before the statue of Our Lady.
 
