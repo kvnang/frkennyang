@@ -56,15 +56,15 @@ The Soubirous family faced difficult times, with François (Bernadette's father)
 
 On February 11, 1858, Bernadette went to the Massabielle Grotto from the Dungeon to collect dry wood. It was there that she saw Our Lady 18 times.
 
+### Old Presbytery
+
+On March 2, 1858, Bernadette went to the Presbytery to meet with Father [Dominique Peyramale](https://en.wikipedia.org/wiki/Dominique_Peyramale), the priest of Lourdes. She shared with him the words the Virgin had spoken to her, "**I am the Immaculate Conception**." Today, a plate commemorates this event and part of the wall and door that Bernadette used to enter the garden are still preserved.
+
 ### The Hospice
 
 The Sisters of Charity of Nevers established the old hospice adjacent to the current Hospital Centre of Lourdes in 1834. When Bernadette returned from Bartrès in 1858 at the age of 13, she was unable to read or write. Therefore, she attended the school for girls from the countryside created by the Sisters of Nevers.
 
 On June 3, 1858, Bernadette received her **first communion** in the hospice's chapel.
-
-### Old Presbytery
-
-On March 2, 1858, Bernadette went to the Presbytery to meet with Father [Dominique Peyramale](https://en.wikipedia.org/wiki/Dominique_Peyramale), the priest of Lourdes. She shared with him the words the Virgin had spoken to her, "**I am the Immaculate Conception**." Today, a plate commemorates this event and part of the wall and door that Bernadette used to enter the garden are still preserved.
 
 ### Lacadé Mill
 
