@@ -70,6 +70,14 @@ On March 2, 1858, Bernadette went to the Presbytery to meet with Father [Dominiq
 
 The Lacadé Mill *(Maison Paternelle)* became the **home of Bernadette's parents** after the 1858 apparitions. Inside, you can see the furniture, objects, and pictures that belonged to the Soubirous family. The house is still managed by Bernadette's descendants.
 
+### Nevers (1866--1879)
+
+On July 7, 1866, Bernadette, along with the Superior from Lourdes and two other girls, entered the Mother House in Nevers, also known as "**St. Gildard**." The following day, in front of 300 Sisters, **Bernadette recounted her apparition story for the last time** while still wearing her Pyrenean attire. She then started her religious training and made her first commitment to religious life on October 30, 1867, along with 44 novices.
+
+Bernadette spent **13 years** in Saint Gildard and held various roles such as **assistant-nurse**, **nurse-in-charge of the infirmary**, and **sacristan**. Despite often being unwell herself, she remained available for any task required of her with her joyful personality.
+
+She spent extended periods in the infirmary due to a **knee tumor** and **lung tuberculosis**. Bernadette ultimately passed away on April 16, 1879, at 35 years old and was laid to rest in St. Joseph's Chapel in the heart of the garden.
+
 ## Gestures at the Sanctuary
 
 What should we do at Lourdes? Pilgrims here perform three gestures:
@@ -83,11 +91,11 @@ These actions are identical to the ones Bernadette performed during the appariti
 ### Touch the Rock
 
 Gestures:
-- Maintain silence
+- Maintain silence.
 - Upon entering the Grotto, make the sign of the Cross.
-- Contemplate the spring
-- Touch or kiss the rock
-- Say your prayer intention to Our Lady
+- Contemplate the spring.
+- Touch or kiss the rock.
+- Say your prayer intention to Our Lady.
 - When leaving the Grotto, bow in silence before the statue of Our Lady.
 
 Prayer for pilgrims:
@@ -96,7 +104,7 @@ Prayer for pilgrims:
 > 
 > Hail Mary …
 > Our Lady of Lourdes, pray for us!
-> Saint Bernadette, pray for us!”
+> Saint Bernadette, pray for us!
 
 ![Pilgrims touching the rock of Massabielle Grotto Lourdes France](rock.jpeg 'Pilgrims touching the rock of Massabielle Grotto')
 
@@ -131,9 +139,9 @@ Jesus also built his Church on Peter, the rock:
 ### Drink and Wash
 
 Gestures:
-- Recite the Creed
-- Drink from the palm of your hand
-- Puts water on your face
+- Recite the Creed.
+- Drink from the palm of your hand.
+- Puts water on your face.
 
 ---
 
@@ -160,7 +168,7 @@ The water that flows from Massabielle Grotto is not holy water, but rather ordin
 ### Light a Candle
 
 Gestures:
-- Light and place a candle in the Chapels of Light
+- Light and place a candle in the Chapels of Light.
 
 Prayer for pilgrims:
 
@@ -168,7 +176,7 @@ Prayer for pilgrims:
 >
 > Hail Mary …
 > Our Lady of Lourdes, pray for us!
-> Saint Bernadette, pray for us!”
+> Saint Bernadette, pray for us!
 
 ![Candles lighted by pilgrims at Lourdes France](light.jpeg 'Candles lighted by pilgrims at Lourdes')
 
