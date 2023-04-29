@@ -47,7 +47,7 @@ Preparing for a pilgrimage requires a holistic approach that encompasses our sou
 
 ### 7. Start a walking plan
 - Expect to walk 10-15 km a day during the pilgrimage.
-- Practic walking at least 10 km a day, at least 4 months before departure.
+- Practice walking at least 10 km a day, at least 4 months before departure.
 
 ### 8. Prepare your feet
 - Get a good pair of walking shoes.
