@@ -15,9 +15,10 @@ excerpt: Bernadette Soubirous was born in Lourdes, France, in 1844. At 14, she h
 		[Boly Mill](/post/bernadette/#boly-mill)  
 		[Sacred Heart Parish](/post/bernadette/#sacred-heart-parish)  
 		[The Dungeon](/post/bernadette/#the-dungeon)  
+		[Old Presbytery](/post/bernadette/#old-presbytery)
 		[The Hospice](/post/bernadette/#the-hospice)  
-		[Old Presbytery](/post/bernadette/#old-presbytery)  
 		[Lacadé Mill](/post/bernadette/#lacadé-mill)
+		[Nevers](/post/bernadette/#nevers-1866-1879)
 3. [Gestures at the Sanctuary](/post/bernadette/#gestures-at-the-sanctuary)  
 		[Touch the Rock](/post/bernadette/#touch-the-rock)  
 		[Drink and Wash](/post/bernadette/#drink-and-wash)  
@@ -70,7 +71,7 @@ On June 3, 1858, Bernadette received her **first communion** in the hospice's ch
 
 The Lacadé Mill *(Maison Paternelle)* became the **home of Bernadette's parents** after the 1858 apparitions. Inside, you can see the furniture, objects, and pictures that belonged to the Soubirous family. The house is still managed by Bernadette's descendants.
 
-### Nevers (1866--1879)
+### Nevers (1866–1879)
 
 On July 7, 1866, Bernadette, along with the Superior from Lourdes and two other girls, entered the Mother House in Nevers, also known as "**St. Gildard**." The following day, in front of 300 Sisters, **Bernadette recounted her apparition story for the last time** while still wearing her Pyrenean attire. She then started her religious training and made her first commitment to religious life on October 30, 1867, along with 44 novices.
 
@@ -102,9 +103,9 @@ Prayer for pilgrims:
 
 > O Mary, Our Lady of Lourdes, you here, present in this Grotto and you hear the prayers of all your children. Some you comfort, others you help discover their vocation by giving them the strength to say ‘yes.’ Today, like Bernadette, I too am entering this holy place following this great crowd of people from every nation and every language. As the Mother of Jesus and Mother of the Church, you see each one as a unique individual. Cast your gaze upon me and let the light of your Son dwell in and soothe my heart.
 > 
-> Hail Mary …
-> Our Lady of Lourdes, pray for us!
-> Saint Bernadette, pray for us!
+> Hail Mary …  
+> Our Lady of Lourdes, pray for us!  
+> Saint Bernadette, pray for us!  
 
 ![Pilgrims touching the rock of Massabielle Grotto Lourdes France](rock.jpeg 'Pilgrims touching the rock of Massabielle Grotto')
 
@@ -174,9 +175,9 @@ Prayer for pilgrims:
 
 > Jesus, “Light from light, true God from true God." Bernadette told us: “I saw a small young lady enveloped in light who looked at me and smiled”. This light of your Immaculate Mother is the reflection of your Light, You the conqueror of evil, sin and death! You, the Risen Christ! Today I place my candle in this burner. Today or later it will burn in your presence. May it illuminate my joy, my gratitude, my thanksgiving, your forgiveness and your immense mercy. May it clear my doubts, extinguish my pain, my hurt, my suffering, my lost cause! It also symbolises my most secret thoughts, wishes and desires. May the storms of life not extinguish the flame of love! May I become like Him burning with love for You and for my brothers and sisters! You, who live and reign for ever and ever. Amen.
 >
-> Hail Mary …
-> Our Lady of Lourdes, pray for us!
-> Saint Bernadette, pray for us!
+> Hail Mary …  
+> Our Lady of Lourdes, pray for us!  
+> Saint Bernadette, pray for us!  
 
 ![Candles lighted by pilgrims at Lourdes France](light.jpeg 'Candles lighted by pilgrims at Lourdes')
 
