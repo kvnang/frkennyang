@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Playfair_Display, Montserrat } from "next/font/google";
 import "@/styles/globals.css";
 import "@/styles/main.scss";
-import { LangType } from "@/types";
+import type { LangType } from "@/types";
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
@@ -41,12 +41,12 @@ export default function RootLayout({
       className={`${montserrat.variable} ${playfairDisplay.variable}`}
     >
       <head>
-        <script
+        {/* <script
           key="cf-analytics"
           defer
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon='{"token": "5e4d44f2777e44d184490c0732ba7473"}'
-        />
+        /> */}
       </head>
       <body className="font-sans antialiased text-body bg-bg">
         <div className="">

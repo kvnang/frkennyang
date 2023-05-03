@@ -1,11 +1,8 @@
-@use 'sass:math';
+@use "sass:math";
 
-@import 'utilities/mixins';
-@import 'utilities/variables';
+@import "utilities/mixins";
+@import "utilities/variables";
 
-@import 'elements/commons';
-// @import 'elements/typography';
-// @import 'elements/header';
-// @import 'elements/footer';
-@import 'elements/carousel';
-@import 'elements/snackbar';
+@import "elements/commons";
+@import "elements/carousel";
+@import "elements/snackbar";
