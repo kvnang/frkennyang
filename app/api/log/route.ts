@@ -1,5 +1,7 @@
-import { NextResponse } from 'next/server';
-import * as sheets from '@googleapis/sheets';
+import { NextResponse } from "next/server";
+import { getGoogleAuthToken } from "@/lib/googleAuth";
+
+export const runtime = "edge";
 
 // Sample Request
 // {
@@ -53,7 +55,7 @@ export async function POST(request: Request) {
   const body = await request.json();
 
   if (!body) {
-    return NextResponse.json({ error: 'No body' }, { status: 400 });
+    return NextResponse.json({ error: "No body" }, { status: 400 });
   }
 
   const googleClientEmail = process.env.GOOGLE_CLIENT_EMAIL;
@@ -62,7 +64,7 @@ export async function POST(request: Request) {
 
   if (!googleClientEmail || !googlePrivateKey || !googleSpreadsheetID) {
     return NextResponse.json(
-      { error: 'Google API not configured' },
+      { error: "Google API not configured" },
       { status: 400 }
     );
   }
@@ -71,35 +73,26 @@ export async function POST(request: Request) {
 
   if (
     (data && !Object.keys(data).length) ||
-    formName !== 'contact' ||
-    formName !== 'invite'
+    formName !== "contact" ||
+    formName !== "invite"
   ) {
     return NextResponse.json(
-      { error: 'Sorry, this email cannot be sent.' },
+      { error: "Sorry, this email cannot be sent." },
       { status: 400 }
     );
   }
 
-  const auth = new sheets.auth.GoogleAuth({
-    credentials: {
-      client_email: googleClientEmail,
-      private_key: googlePrivateKey.replace(/\\n/g, '\n'),
-    },
-    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
-  });
-
-  // const authClient = await auth.getClient();
-
-  const client = sheets.sheets({
-    version: 'v4',
-    auth,
-  });
+  const token = await getGoogleAuthToken(
+    googleClientEmail,
+    googlePrivateKey.replace(/\\n/g, "\n"),
+    "https://www.googleapis.com/auth/spreadsheets"
+  );
 
   let values: string[][] = [];
-  if (formName === 'contact') {
+  if (formName === "contact") {
     values = [[createdAt, data.name, data.email, data.message]];
   }
-  if (formName === 'invite') {
+  if (formName === "invite") {
     values = [
       [
         createdAt,
@@ -142,35 +135,39 @@ export async function POST(request: Request) {
     return;
   }
 
-  const sheetsRequest = {
-    auth, // auth object
-    spreadsheetId: googleSpreadsheetID, // spreadsheet id
-    range: `${formName}!A:B`, // sheet name and range of cells
-    valueInputOption: 'USER_ENTERED', // The information will be passed according to what the usere passes in as date, number or text
-    resource: {
-      values,
-    },
-  };
+  // request to google sheets via REST API
+  const sheetsRes1 = await fetch(
+    `https://sheets.googleapis.com/v4/spreadsheets/${googleSpreadsheetID}/values/${formName}!A:B:append?valueInputOption=USER_ENTERED`,
+    {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({
+        values,
+      }),
+    }
+  );
 
-  // Log to Kevin's db for record
-  const sheetsRequest2 = {
-    auth, // auth object
-    spreadsheetId: `1YMmY5v4opqH1ZXQPYvkAVrMmZTByzG2aaXdO7e9jShY`, // spreadsheet id
-    range: `${formName}!A:B`, // sheet name and range of cells
-    valueInputOption: 'USER_ENTERED', // The information will be passed according to what the usere passes in as date, number or text
-    resource: {
-      values,
-    },
-  };
+  const sheetsRes2 = await fetch(
+    `https://sheets.googleapis.com/v4/spreadsheets/1YMmY5v4opqH1ZXQPYvkAVrMmZTByzG2aaXdO7e9jShY/values/${formName}!A:B:append?valueInputOption=USER_ENTERED`,
+    {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({
+        values,
+      }),
+    }
+  );
 
   try {
     // Log to Kenny's DB
-    const response = (await client.spreadsheets.values.append(sheetsRequest))
-      .data;
+    const response = await sheetsRes1.json();
+    const response2 = await sheetsRes2.json();
 
     // Log to Kevin's DB
-    await client.spreadsheets.values.append(sheetsRequest2);
-
     return NextResponse.json(response);
   } catch (err) {
     console.error(err);

@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.2.32",
-    "@googleapis/sheets": "^4.0.2",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
     "@next/mdx": "^13.3.4",
