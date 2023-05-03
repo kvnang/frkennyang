@@ -7,29 +7,32 @@ category:
   - Pilgrimage
 excerpt: Preparing our soul, body, and pack for pilgrimage is crucial for a meaningful and successful pilgrimage. By improving our prayer routine, collecting prayer intentions, and practicing sacrifice, we can strengthen our spiritual preparation. Learning about the places we will visit and preparing our body through a walking plan and proper footwear can help us physically endure the trip. It is also important to pack light, bringing only the essentials and avoiding items we cannot afford to lose, and to arrange our phone data plan in advance. By leaving work behind and setting up an out-of-office message, we can maintain our focus on the pilgrimage. Overall, by preparing ourselves holistically, we can fully embrace the journey and experience the transformative power of pilgrimage.
 ---
+
 Preparing for a pilgrimage requires a holistic approach that encompasses our soul, body, and pack. Taking the time to prepare each aspect is essential to ensure a meaningful journey. By following the practical tips in this article, you will be able to embark on a pilgrimage with a clear and focused mind, a strong and healthy body, and a well-prepared pack.
 
 ## Prepare Your Soul
 
-### 1. Improve your prayer routine
+### 1. Clarify your purpose
+Why did you join this pilgrimage? Please [read this article](/post/pilgrim-purpose/) to make sure we all have the same goal.
+
+### 2. Improve your prayer routine
 - Pray a daily rosary.
 - Read the Gospels for 10 minutes each day.
 - Spend 15 minutes in silent prayer. Talk to Jesus about your life, the pilgrimage, or the Gospel passage you read.
 - Pray daily for our pilgrimage group.
 - Ask others to pray for you.
 
-### 2. Keep a prayer journal
+### 3. Keep a prayer journal
 - Reflect on Luke 1:39—"Mary arose and went with haste."
 - Ask yourself questions such as:  
 	- What comes to mind when you read Luke 1:39?  
 	- How are you like Mary in this verse?  
 	- What does this verse mean to you?  
 	- Why did you decide to make this pilgrimage?  
-
-### 3. Collect prayer intentions
-- Ask friends and family members, "How can I pray for you during my pilgrimage?" Write down the intentions in your journal.
-- Create a social media poll, asking something like, "I'm going on a pilgrimage in August. How can I pray for you while I'm there?"
-- Send postcards to people you prayed for during the pilgrimage. You can buy a postcard in Fatima and write something like, "I prayed for you at Fatima!"
+- Collect prayer intentions.  
+	- Ask friends and family members, "How can I pray for you during my pilgrimage?" Write down the intentions in your journal.  
+	- Create a social media poll, asking something like, "I'm going on a pilgrimage in August. How can I pray for you while I'm there?"  
+	- Send postcards to people you prayed for during the pilgrimage. You can buy a postcard in Fatima and write something like, "I prayed for you at Fatima!"  
 
 ### 4. Practice sacrifice
 - Offer up any worries or stress you have to God. For example, if packing is difficult, make it a small sacrifice to offer up to God.
