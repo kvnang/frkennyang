@@ -1,4 +1,4 @@
-﻿---
+---
 title: Discovering Your Life Purpose Through a Pilgrimage
 featuredImage: moses.jpg
 format: Article
