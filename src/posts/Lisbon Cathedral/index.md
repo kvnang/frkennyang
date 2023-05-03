@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cathedral of St. Mary Major in Lisbon
 featuredImage: se-lisboa.jpg
 format: Article

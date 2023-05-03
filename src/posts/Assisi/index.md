@@ -8,6 +8,7 @@ category:
   - History
 excerpt: The Basilica of St. Francis of Assisi, located in the town of Assisi in central Italy, is the mother church of the Roman Catholic Order of Friars Minor Conventual and is one of the most important places of pilgrimage in Italy. It is a Papal minor basilica and a UNESCO World Heritage Site. The Basilica consists of two churches (Upper and Lower) and a crypt where St. Francis is buried. These two churches or basilicas house works by the best late medieval painters such as Cimabue and Giotto.
 ---
+
 ## Content
 
 1. [Facts](/post/assisi/#facts)
@@ -21,7 +22,9 @@ excerpt: The Basilica of St. Francis of Assisi, located in the town of Assisi in
     [The Passion](/post/assisi/#the-passion-left-transept)  
 5. [Upper Basilica](/post/assisi/#upper-basilica)  
     [Cimabue's Frescoes](/post/assisi/#cimabues-frescoes)  
-    [Life of St. Francis](/post/assisi/#life-of-st-francis-1)
+    [Life of St. Francis](/post/assisi/#life-of-st-francis-1)  
+6. [Peace Prayer of St. Francis](/post/assisi/#peace-prayer-of-st-francis)
+
 ---
 ## Facts
 
@@ -110,3 +113,9 @@ The most famous fresco from the cycle is the "**Stigmatization of St. Francis**"
 ![Giotto Renunciation of Worldly Goods Upper Basilica Saint Francis Assisi](giotto-renounce.jpg 'Giotto, Renunciation of Worldly Goods (1295)')
 
 Another noteworthy fresco is Francis's "**Renunciation of Worldly Goods**" (no. 5). The figures in the fresco are divided into two groups: one represents **Francis's father**, symbolizing the past, while the other depicts **Francis with his hand raised towards God**, representing the future.
+
+## Peace Prayer of St. Francis
+
+> Lord, make me an instrument of your peace. Where there is hatred, let me sow love; where there is injury, pardon; where there is error, the truth; where there is doubt, the faith; where there is despair, hope; where there is darkness, light; and where there is sadness, joy.
+> 
+> O Divine Master, grant that I may not so much seek to be consoled, as to console; to be understood, as to understand; to be loved as to love. For it is in giving that we receive, it is in pardoning that we are pardoned, and it is in dying that we are born to eternal life. Amen.

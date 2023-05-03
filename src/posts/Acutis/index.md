@@ -1,4 +1,4 @@
-﻿---
+---
 title: Carlo Acutis and Assisi
 featuredImage: acutis.jpg
 format: Article
@@ -7,6 +7,13 @@ category:
   - Pilgrimage
   - History
 excerpt: The Church of St. Mary Major in Assisi, Italy is a place of pilgrimage as it houses the remains of Blessed Carlo Acutis, who attended daily Mass there. Carlo was a computer genius with exceptional love and reverence for the Eucharist, and dedicated his time to good works and defending his Catholic faith. He was diagnosed with leukemia at age 15 and remained calm, offering his sufferings for the Church and his own entry into heaven. Carlo's mother believes he was chosen to be an example for young people.
+---
+
+## Content
+
+1. [Life of Carlo Acutis](/post/acutis/#life-of-carlo-acutis)
+2. [Prayer for His Canonization](/post/acutis/#prayer-for-his-canonization)
+
 ---
 The **Church of St. Mary Major** is situated in Assisi, central Italy. Being the place where [St. Francis](https://www.britannica.com/biography/Saint-Francis-of-Assisi) took off his luxurious garments in front of his father Pietro di Bernardone, it is also referred to as the **Sanctuary of the Spoliation** (Renunciation or Stripping). It is a place of pilgrimage also because it houses the remains of the Blessed Carlo Acutis. He used to attend the Eucharistic celebration at this church every day.[^1]
 
@@ -35,5 +42,9 @@ Since he knew that **he would die young**, Carlo **never wasted time** and dedic
 In early October 2006, Carlo became ill and was **diagnosed with leukemia**. He immediately offered his sufferings for the Pope, the Church, and his own direct entry into heaven. Carlo remained calm and said he was happy to die because **he had lived his life without wasting a minute on things that do not please God**.
 
 He died on October 12. Some of his last words were to a nurse who offered to wake his mother since he was suffering. Carlo refused and said his mother was tired and would only worry even more. Carlo's mother believes that God chose him to be an example for young people in this period of history.
+
+## Prayer for His Canonization
+
+> O God our Father, we thank you for giving us Carlo, a model of life for young people, and a message of love for all. You made him fall in love with your son Jesus, making the Eucharist his “highway to heaven.” You gave him Mary as a beloved mother, and you made him, through the Rosary, a cantor of her tenderness. Receive his prayer for us. Look above all upon the poor, whom he loved and assisted. Grant me too, through his intercession, the grace that I need … *(mention your intention)*. And make our joy full, raising Carlo among the saints of your Church, so that his smile shines again for us to the glory of your name. Amen.
 
 [^1]:Cover picture by Dobroš, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons.

@@ -15,9 +15,10 @@ excerpt: Bernadette Soubirous was born in Lourdes, France, in 1844. At 14, she h
 		[Boly Mill](/post/bernadette/#boly-mill)  
 		[Sacred Heart Parish](/post/bernadette/#sacred-heart-parish)  
 		[The Dungeon](/post/bernadette/#the-dungeon)  
+		[Old Presbytery](/post/bernadette/#old-presbytery)
 		[The Hospice](/post/bernadette/#the-hospice)  
-		[Old Presbytery](/post/bernadette/#old-presbytery)  
-		[Lacadé Mill](/post/bernadette/#lacadé-mill)
+		[Lacadé Mill](/post/bernadette/#lacadé-mill)  
+		[Nevers](/post/bernadette/#nevers-18661879)
 3. [Gestures at the Sanctuary](/post/bernadette/#gestures-at-the-sanctuary)  
 		[Touch the Rock](/post/bernadette/#touch-the-rock)  
 		[Drink and Wash](/post/bernadette/#drink-and-wash)  
@@ -31,8 +32,6 @@ Born: Lourdes, 1844 | Died: Nevers, 1879 | Canonized: 1933
 Bernadette Soubirous was the eldest of nine children from a poor family. She suffered from frail health. Her father was a miller.
 
 Between February 11 and July 16, 1858, at the age of 14, she had a series of **visions of the Virgin Mary in the nearby Massabielle Grotto**. During the visions, Mary identified herself as "**the Immaculate Conception**," among other messages and affirmations. She instructed Bernadette to **build a chapel** there. Bernadette transmitted Mary's messages faithfully but tried to **escape public attention** by entering a local boarding school run by the Sisters of Charity of Nevers.
-
-![Massabielle Grotto Bernadette Soubirous apparitions Virgin Mary Lourdes](grotto.jpg 'Massabielle Grotto')
 
 In 1866, Bernadette was granted admission into the **novitiate in the motherhouse at Nevers**, where she completed her religious instruction and **spent her remaining years in prayer and seclusion**. Despite constant **sickness and pain**, she was known for her kindliness, holiness, and wit. She died willingly accepting her great sufferings in faithful fulfillment of **Our Lady's request for penance**.
 
@@ -58,19 +57,27 @@ The Soubirous family faced difficult times, with François (Bernadette's father)
 
 On February 11, 1858, Bernadette went to the Massabielle Grotto from the Dungeon to collect dry wood. It was there that she saw Our Lady 18 times.
 
+### Old Presbytery
+
+On March 2, 1858, Bernadette went to the Presbytery to meet with Father [Dominique Peyramale](https://en.wikipedia.org/wiki/Dominique_Peyramale), the priest of Lourdes. She shared with him the words the Virgin had spoken to her, "**I am the Immaculate Conception**." Today, a plate commemorates this event and part of the wall and door that Bernadette used to enter the garden are still preserved.
+
 ### The Hospice
 
 The Sisters of Charity of Nevers established the old hospice adjacent to the current Hospital Centre of Lourdes in 1834. When Bernadette returned from Bartrès in 1858 at the age of 13, she was unable to read or write. Therefore, she attended the school for girls from the countryside created by the Sisters of Nevers.
 
 On June 3, 1858, Bernadette received her **first communion** in the hospice's chapel.
 
-### Old Presbytery
-
-On March 2, 1858, Bernadette went to the Presbytery to meet with Father [Dominique Peyramale](https://en.wikipedia.org/wiki/Dominique_Peyramale), the priest of Lourdes. She shared with him the words the Virgin had spoken to her, "**I am the Immaculate Conception**." Today, a plate commemorates this event and part of the wall and door that Bernadette used to enter the garden are still preserved.
-
 ### Lacadé Mill
 
 The Lacadé Mill *(Maison Paternelle)* became the **home of Bernadette's parents** after the 1858 apparitions. Inside, you can see the furniture, objects, and pictures that belonged to the Soubirous family. The house is still managed by Bernadette's descendants.
+
+### Nevers (1866–1879)
+
+On July 7, 1866, Bernadette, along with the Superior from Lourdes and two other girls, entered the Mother House in Nevers, also known as "**St. Gildard**." The following day, in front of 300 Sisters, **Bernadette recounted her apparition story for the last time** while still wearing her Pyrenean attire. She then started her religious training and made her first commitment to religious life on October 30, 1867, along with 44 novices.
+
+Bernadette spent **13 years** in Saint Gildard and held various roles such as **assistant-nurse**, **nurse-in-charge of the infirmary**, and **sacristan**. Despite often being unwell herself, she remained available for any task required of her with her joyful personality.
+
+She spent extended periods in the infirmary due to a **knee tumor** and **lung tuberculosis**. Bernadette ultimately passed away on April 16, 1879, at 35 years old and was laid to rest in St. Joseph's Chapel in the heart of the garden.
 
 ## Gestures at the Sanctuary
 
@@ -85,20 +92,20 @@ These actions are identical to the ones Bernadette performed during the appariti
 ### Touch the Rock
 
 Gestures:
-- Maintain silence
+- Maintain silence.
 - Upon entering the Grotto, make the sign of the Cross.
-- Contemplate the spring
-- Touch or kiss the rock
-- Say your prayer intention to Our Lady
+- Contemplate the spring.
+- Touch and/or kiss the rock.
+- Say your prayer intention to Our Lady.
 - When leaving the Grotto, bow in silence before the statue of Our Lady.
 
 Prayer for pilgrims:
 
 > O Mary, Our Lady of Lourdes, you here, present in this Grotto and you hear the prayers of all your children. Some you comfort, others you help discover their vocation by giving them the strength to say ‘yes.’ Today, like Bernadette, I too am entering this holy place following this great crowd of people from every nation and every language. As the Mother of Jesus and Mother of the Church, you see each one as a unique individual. Cast your gaze upon me and let the light of your Son dwell in and soothe my heart.
 > 
-> Hail Mary …
-> Our Lady of Lourdes, pray for us!
-> Saint Bernadette, pray for us!”
+> Hail Mary …  
+> Our Lady of Lourdes, pray for us!  
+> Saint Bernadette, pray for us!  
 
 ![Pilgrims touching the rock of Massabielle Grotto Lourdes France](rock.jpeg 'Pilgrims touching the rock of Massabielle Grotto')
 
@@ -133,9 +140,9 @@ Jesus also built his Church on Peter, the rock:
 ### Drink and Wash
 
 Gestures:
-- Recite the Creed
-- Drink from the palm of your hand
-- Puts water on your face
+- Recite the Creed.
+- Drink from the palm of your hand.
+- Puts water on your face.
 
 ---
 
@@ -162,15 +169,15 @@ The water that flows from Massabielle Grotto is not holy water, but rather ordin
 ### Light a Candle
 
 Gestures:
-- Light and place a candle in the Chapels of Light
+- Light and place a candle in the Chapels of Light.
 
 Prayer for pilgrims:
 
 > Jesus, “Light from light, true God from true God." Bernadette told us: “I saw a small young lady enveloped in light who looked at me and smiled”. This light of your Immaculate Mother is the reflection of your Light, You the conqueror of evil, sin and death! You, the Risen Christ! Today I place my candle in this burner. Today or later it will burn in your presence. May it illuminate my joy, my gratitude, my thanksgiving, your forgiveness and your immense mercy. May it clear my doubts, extinguish my pain, my hurt, my suffering, my lost cause! It also symbolises my most secret thoughts, wishes and desires. May the storms of life not extinguish the flame of love! May I become like Him burning with love for You and for my brothers and sisters! You, who live and reign for ever and ever. Amen.
 >
-> Hail Mary …
-> Our Lady of Lourdes, pray for us!
-> Saint Bernadette, pray for us!”
+> Hail Mary …  
+> Our Lady of Lourdes, pray for us!  
+> Saint Bernadette, pray for us!  
 
 ![Candles lighted by pilgrims at Lourdes France](light.jpeg 'Candles lighted by pilgrims at Lourdes')
 

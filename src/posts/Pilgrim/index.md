@@ -6,10 +6,14 @@ date: 2023-05-30
 category:
   - Pilgrimage
   - History
-excerpt: This is a guide for pilgrims in Europe.
+excerpt: This is a guide for my World Youth Day 2023 Pilgrimage group.
 ---
 ## Links
+- Prepare yourself with [this guide](/post/pilgrim-prep/)
+- Download our [Packing List](https://drive.google.com/file/d/1fOrdZOxcSaumpO23C7yQRYQn1n6zlS3O/view?usp=sharing)
+  - [Recommended Products](/post/packing/)
 - Download our [Choir Book](https://drive.google.com/file/d/1XVzUoAE01rkFNcrUScNY7zFLEHllhIRJ/view?usp=sharing)
+- Learn our [Mass Songs](https://youtube.com/playlist?list=PL7SL2Bxc7Yp_VT9B_ZVoVW1bamP84xjrS)
 
 ## Rome
 1. [Basilica of St. Paul Outside the Walls](/post/basilica-paul/)
@@ -29,15 +33,15 @@ excerpt: This is a guide for pilgrims in Europe.
 
 ## Fatima
 
-10. [The Apparitions & Secret of Fatima](/post/fatima-apparitions/)
+10. [Apparitions & Secret of Fatima](/post/fatima-apparitions/)
 11. [Fatima Pilgrimage Customs & Route](/post/fatima-pilgrimage/)
 
 ## Loyola
 12. [Ignatius of Loyola's House & Sanctuary](/post/loyola/)
 
 ## Lourdes
-13. [In the Footsteps of Bernadette](/post/bernadette/)
-14. [Lourdes Apparitions & Message](/post/lourdes/)
+13. [Lourdes Apparitions & Message](/post/lourdes/)
+14. [In the Footsteps of Bernadette](/post/bernadette/)
 
 ## Paris
 15. [Sacred Heart Basilica of Montmartre](/post/montmartre/)
@@ -49,3 +53,4 @@ excerpt: This is a guide for pilgrims in Europe.
 > — Pope Benedict XVI
 
 [^1]:Pope Benedict XVI, Meeting with the Clergy of the Diocese of Bolzano-Bressanone (August 6, 2008), https://www.vatican.va/content/benedict-xvi/en/speeches/2008/august/documents/hf_ben-xvi_spe_20080806_clero-bressanone.html.
+

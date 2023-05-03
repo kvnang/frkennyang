@@ -14,9 +14,10 @@ excerpt: The Basilica of St. Paul Outside the Walls was Founded by Emperor Const
 1. [Facts](/post/basilica-paul/#facts)
 2. [St. Paul’s Statue](/post/basilica-paul/#st-pauls-statue)
 3. [Mosaic: Façade](/post/basilica-paul/#mosaic-façade)
-4. [Mosaic: Triumphal Arch](/post/basilica-paul/#mosaic-triumphal-arch)
-5. [St. Paul’s Tomb](/post/basilica-paul/#st-pauls-tomb)
-6. [Mosaic: Apse](/post/basilica-paul/#mosaic-apse)
+4. [Portraits of All Popes](/post/basilica-paul/#portraits-of-all-popes)
+5. [Mosaic: Triumphal Arch](/post/basilica-paul/#mosaic-triumphal-arch)
+6. [St. Paul’s Tomb](/post/basilica-paul/#st-pauls-tomb)
+7. [Mosaic: Apse](/post/basilica-paul/#mosaic-apse)
 
 ---
 
@@ -62,9 +63,13 @@ The **Sacrificial Lamb** occupies the center of the middle section. Its death pr
 
 At the summit, we see **Christ enthroned**, holding a book containing his words:
 
-> My sheep hear my voice … [and] I give them eternal life" (John 10:27–28).
+> My sheep hear my voice … [and] I give them eternal life (John 10:27–28).
 
 He is flanked by the two patrons of Rome, **Peter** and **Paul**. In the earlier 13th-century mosaic, Paul stood at Christ’s right. However, the current one inverts the saints’ position: now **Peter** occupies the **place of honor at the right side of Christ**. This modification echoes the proclamation of **papal infallibility** by the First Vatican Council (1870), four years prior to the completion of this façade. This is a salient example of how **art reflects doctrine**.
+
+## Portraits of All Popes
+
+This Basilica boasts a series of 266 mosaic portraits depicting every pope from Peter to Francis. The portraits are arranged as a frieze that winds around the church, starting in the right transept and ending in the far right aisle.
 
 ## Mosaic: Triumphal Arch
 
