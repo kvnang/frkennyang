@@ -1,0 +1,40 @@
+// .footer {
+//   p {
+//     text-align: right;
+//   }
+
+//   .page-contents & {
+//     background-color: var(--offwhite);
+
+//     .container {
+//       border-color: var(--offwhite-light);
+//     }
+
+//     a,
+//     a:hover,
+//     a:focus {
+//       color: var(--black);
+//     }
+//   }
+
+//   .page-home & {
+//     @include breakpoint($laptop-sm) {
+//       background-color: var(--offwhite);
+
+//       a,
+//       a:hover,
+//       a:focus {
+//         color: var(--black);
+//       }
+//       .container {
+//         border-top: 0;
+//       }
+//     }
+
+//     .col {
+//       --width-xs: 12;
+//       --width-md: 10;
+//       --offset-md: 1;
+//     }
+//   }
+// }
