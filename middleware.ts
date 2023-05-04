@@ -106,7 +106,7 @@ export async function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     // Skip all internal paths (_next)
-    "/((?!api|_next/|favicon.ico|favicon-|assets|images/).*)",
+    "/((?!api|_next/|favicon.ico|favicon-|assets|images/|studio).*)",
     // Optional: only run on root (/) URL
     // '/'
   ],
