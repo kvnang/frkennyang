@@ -36,4 +36,5 @@ If you're preparing for a pilgrimage, it's important to pack wisely to ensure a 
 	- [camping mat](https://shopee.co.id/product/79161787/1410240062?d_id=a799d&utm_content=34n1zeSxtLbfC5fATL7h9zMAu17u)
 	- [foldable mat](https://shopee.co.id/product/119157255/15445078544?d_id=a799d&utm_content=34n1zeSxtMg7q7jGwnVU9FuE1t5V)
 	- [sleeping pad](https://shopee.co.id/product/28051852/5518960586?d_id=a799d&utm_content=34n1zeSxtLvKKfDxGF2Av7izU935)
-	- [inflatable mattress](https://shopee.co.id/product/66732651/2736771780?d_id=a799d&utm_content=34n1zeSxtMRNkgW43xUPpACLrWR5)
+	- [inflatable mattress (fills up by itself)](https://shopee.co.id/product/119157255/6368805970?d_id=828f9&utm_content=44XwxFeWhFPRsvCbTQAAQiyhhud9)  
+	- [inflatable mattress (foot pumping)](https://shopee.co.id/product/377595611/13930549747?d_id=828f9&utm_content=44XwxFeWhFMr6DosmRtKSh2rfZFu)
