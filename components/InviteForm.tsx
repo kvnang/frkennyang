@@ -1,16 +1,16 @@
-'use client';
+"use client";
 
-import React, { useContext, useEffect, useState } from 'react';
-import { SubmitHandler, useForm } from 'react-hook-form';
-import { SnackbarContext } from './SnackbarContext';
-import FormSubmitButton from './FormSubmitButton';
-import countries from '@/utils/countries';
-import { FormMessageTypes } from '@/types';
-import { timeZones } from '@/utils/timeZones';
+import React, { useContext, useEffect, useState } from "react";
+import { SubmitHandler, useForm } from "react-hook-form";
+import { SnackbarContext } from "./SnackbarContext";
+import FormSubmitButton from "./FormSubmitButton";
+import countries from "@/utils/countries";
+import { FormMessageTypes } from "@/types";
+import { timeZones } from "@/utils/timeZones";
 
 interface Inputs {
   [key: string]: any;
-  'form-name': string;
+  "form-name": string;
   date: string;
   alternateDate?: string;
   startTime: string;
@@ -40,41 +40,41 @@ interface Inputs {
   title?: string; // Honeypot
 }
 
-const defaultTimeZone = 'Europe/Rome';
+const defaultTimeZone = "Europe/Rome";
 
 const defaultValues = {
-  'form-name': 'invite',
-  date: '',
-  alternateDate: '',
-  startTime: '',
-  endTime: '',
-  timeZone: '',
-  organization: '',
-  contactName: '',
-  email: '',
-  phone: '',
-  eventLocation: 'online',
-  venue: '',
-  venueCapacity: '',
-  addressStreet: '',
-  addressStreet2: '',
-  addressCity: '',
-  addressState: '',
-  addressZip: '',
-  addressCountry: 'Indonesia',
-  airport: '',
-  attendance: '',
-  age: '',
-  diocese: '',
-  topic: '',
-  eventType: '',
-  hasSpokenBefore: 'no',
-  details: '',
-  title: '', // Honeypot
+  "form-name": "invite",
+  date: "",
+  alternateDate: "",
+  startTime: "",
+  endTime: "",
+  timeZone: "",
+  organization: "",
+  contactName: "",
+  email: "",
+  phone: "",
+  eventLocation: "online",
+  venue: "",
+  venueCapacity: "",
+  addressStreet: "",
+  addressStreet2: "",
+  addressCity: "",
+  addressState: "",
+  addressZip: "",
+  addressCountry: "Indonesia",
+  airport: "",
+  attendance: "",
+  age: "",
+  diocese: "",
+  topic: "",
+  eventType: "",
+  hasSpokenBefore: "no",
+  details: "",
+  title: "", // Honeypot
 };
 
 function formatTZ(str: string) {
-  return str.replace(/_/g, ' ').replace(/\//g, ' / ');
+  return str.replace(/_/g, " ").replace(/\//g, " / ");
 }
 
 function validateDate(value: string) {
@@ -86,7 +86,7 @@ function validateDate(value: string) {
   const date = new Date(`${value}T00:00:00`);
   return todayDate.getTime() < date.getTime()
     ? true
-    : 'Please select a future date';
+    : "Please select a future date";
 }
 
 export default function InviteForm() {
@@ -103,26 +103,26 @@ export default function InviteForm() {
   } = useForm({ defaultValues });
 
   const [formMessage, setFormMessage] = useState<FormMessageTypes>({
-    status: 'success',
-    message: '',
+    status: "success",
+    message: "",
     open: false,
   });
 
-  const eventLocation = watch('eventLocation');
-  const selectedTimeZone = watch('timeZone');
+  const eventLocation = watch("eventLocation");
+  const selectedTimeZone = watch("timeZone");
 
   // Set or Unset form message
   function handleResponse(response: Response) {
     if (response.ok) {
       setFormMessage({
-        status: 'success',
+        status: "success",
         message: `Thank you. Your message has been sent. We will respond to your message as soon as possible.`,
         open: true,
       });
       reset(); // Clear form on success
     } else {
       setFormMessage({
-        status: 'error',
+        status: "error",
         message: `Sorry, there's an error in sending your message. Please try again later.`,
         open: true,
       });
@@ -135,9 +135,9 @@ export default function InviteForm() {
     const endpoint = `/api/submit`;
 
     fetch(endpoint, {
-      method: 'POST',
+      method: "POST",
       // headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      headers: { 'Content-Type': 'application/json' },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     })
       .then((response) => handleResponse(response))
@@ -149,7 +149,7 @@ export default function InviteForm() {
 
   useEffect(() => {
     if (formMessage.open) {
-      if (formMessage.status === 'error') {
+      if (formMessage.status === "error") {
         addSnackbar(formMessage.message, formMessage.status);
       }
     } else {
@@ -159,21 +159,21 @@ export default function InviteForm() {
 
   useEffect(() => {
     setValue(
-      'timeZone',
+      "timeZone",
       Intl.DateTimeFormat().resolvedOptions().timeZone || defaultTimeZone
     );
   }, []);
 
   const validateIfInPersonEvent = (value: any) => {
-    if (!value && getValues('eventLocation') !== 'online') {
-      return 'Required when Type of Event is not Online';
+    if (!value && getValues("eventLocation") !== "online") {
+      return "Required when Type of Event is not Online";
     }
     return true;
   };
 
   return (
     <div className="flex pt-6 mt-10 border-t border-gray md:border md:p-6 lg:p-10 lg:-mx-10">
-      {(formMessage.open && formMessage.status === 'success' && (
+      {(formMessage.open && formMessage.status === "success" && (
         <div>
           <h2 className="h3">Thank You!</h2>
           <p>
@@ -189,7 +189,7 @@ export default function InviteForm() {
           netlify-honeypot="title"
           data-netlify="true"
         >
-          <input type="hidden" value="invite" {...register('form-name')} />
+          <input type="hidden" value="invite" {...register("form-name")} />
           <div className="form-fields">
             <div className="form-field heading">
               <h2 className="h3">Event Date</h2>
@@ -207,14 +207,14 @@ export default function InviteForm() {
                   // min={minDateYMD}
                   required
                   aria-invalid={!!errors.date}
-                  {...register('date', {
+                  {...register("date", {
                     required: true,
                     validate: {
                       minDate: (value) => validateDate(value),
                     },
                   })}
                 />
-                {errors?.date?.type === 'minDate' && (
+                {errors?.date?.type === "minDate" && (
                   <p className="form-error" role="alert">
                     {errors.date.message}
                   </p>
@@ -229,14 +229,14 @@ export default function InviteForm() {
                   id="alternate-date"
                   // min={minDateYMD}
                   aria-invalid={!!errors.alternateDate}
-                  {...register('alternateDate', {
+                  {...register("alternateDate", {
                     validate: {
                       minDate: (value) => validateDate(value),
                     },
                   })}
                 />
               </label>
-              {errors?.alternateDate?.type === 'minDate' && (
+              {errors?.alternateDate?.type === "minDate" && (
                 <p className="form-error" role="alert">
                   {errors.alternateDate.message}
                 </p>
@@ -251,7 +251,7 @@ export default function InviteForm() {
                   required
                   placeholder="Start Time"
                   aria-invalid={!!errors.startTime}
-                  {...register('startTime', { required: true })}
+                  {...register("startTime", { required: true })}
                 />
               </label>
             </div>
@@ -264,16 +264,16 @@ export default function InviteForm() {
                   required
                   placeholder="End Time"
                   aria-invalid={!!errors.endTime}
-                  {...register('endTime', { required: true })}
+                  {...register("endTime", { required: true })}
                 />
               </label>
             </div>
             <div className="form-field">
               <p
                 className="form-description small"
-                style={{ textAlign: 'right' }}
+                style={{ textAlign: "right" }}
               >
-                Date & Time are shown in{' '}
+                Date & Time are shown in{" "}
                 <span className="inline-block">
                   <label
                     className="select-wrapper relative inline-block group"
@@ -282,7 +282,7 @@ export default function InviteForm() {
                     <select
                       id="timeZone"
                       className="inline-block bg-none p-0 absolute top-0 left-0 w-full h-full opacity-0 overflow-hidden whitespace-nowrap shadow-none peer"
-                      {...register('timeZone', { required: true })}
+                      {...register("timeZone", { required: true })}
                     >
                       {timeZones.map((tz) => (
                         <option key={tz} value={tz}>
@@ -294,7 +294,7 @@ export default function InviteForm() {
                       {formatTZ(selectedTimeZone)}
                     </span>
                     <div className="h-4 w-4 right-1"></div>
-                  </label>{' '}
+                  </label>{" "}
                   timezone.
                 </span>
               </p>
@@ -312,7 +312,7 @@ export default function InviteForm() {
                   autoComplete="organization"
                   required
                   aria-invalid={!!errors.organization}
-                  {...register('organization', { required: true })}
+                  {...register("organization", { required: true })}
                 />
               </label>
             </div>
@@ -326,7 +326,7 @@ export default function InviteForm() {
                   autoComplete="name"
                   required
                   aria-invalid={!!errors.contactName}
-                  {...register('contactName', { required: true })}
+                  {...register("contactName", { required: true })}
                 />
               </label>
             </div>
@@ -340,7 +340,7 @@ export default function InviteForm() {
                   autoComplete="email"
                   required
                   aria-invalid={!!errors.email}
-                  {...register('email', { required: true })}
+                  {...register("email", { required: true })}
                 />
               </label>
             </div>
@@ -354,7 +354,7 @@ export default function InviteForm() {
                   autoComplete="tel"
                   required
                   aria-invalid={!!errors.phone}
-                  {...register('phone', { required: true })}
+                  {...register("phone", { required: true })}
                 />
               </label>
             </div>
@@ -376,7 +376,7 @@ export default function InviteForm() {
                       id="event-location-online"
                       value="online"
                       required
-                      {...register('eventLocation', {
+                      {...register("eventLocation", {
                         required: true,
                       })}
                     />
@@ -388,7 +388,7 @@ export default function InviteForm() {
                       id="event-location-in-person"
                       value="in-person"
                       required
-                      {...register('eventLocation', {
+                      {...register("eventLocation", {
                         required: true,
                       })}
                     />
@@ -397,7 +397,7 @@ export default function InviteForm() {
                 </div>
               </fieldset>
             </div>
-            {eventLocation !== 'online' && (
+            {eventLocation !== "online" && (
               <>
                 <div className="form-field half">
                   <label htmlFor="venue">
@@ -408,7 +408,7 @@ export default function InviteForm() {
                       placeholder="Venue"
                       required
                       aria-invalid={!!errors.venue}
-                      {...register('venue', {
+                      {...register("venue", {
                         validate: {
                           required: (value) => validateIfInPersonEvent(value),
                         },
@@ -424,7 +424,7 @@ export default function InviteForm() {
                       id="venue-capacity"
                       placeholder="Venue Capacity"
                       aria-invalid={!!errors.venueCapacity}
-                      {...register('venueCapacity')}
+                      {...register("venueCapacity")}
                     />
                   </label>
                 </div>
@@ -437,7 +437,7 @@ export default function InviteForm() {
                       placeholder="Street *"
                       required
                       aria-invalid={!!errors.addressStreet}
-                      {...register('addressStreet', {
+                      {...register("addressStreet", {
                         validate: {
                           required: (value) => validateIfInPersonEvent(value),
                         },
@@ -455,7 +455,7 @@ export default function InviteForm() {
                       id="venue-address-street-2"
                       placeholder="Street Line 2"
                       aria-invalid={!!errors.addressStreet2}
-                      {...register('addressStreet2')}
+                      {...register("addressStreet2")}
                     />
                   </label>
                 </div>
@@ -468,7 +468,7 @@ export default function InviteForm() {
                       placeholder="City *"
                       required
                       aria-invalid={!!errors.addressCity}
-                      {...register('addressCity')}
+                      {...register("addressCity")}
                     />
                   </label>
                 </div>
@@ -481,7 +481,7 @@ export default function InviteForm() {
                       placeholder="State / Province *"
                       required
                       aria-invalid={!!errors.addressState}
-                      {...register('addressState', {
+                      {...register("addressState", {
                         validate: {
                           required: (value) => validateIfInPersonEvent(value),
                         },
@@ -498,7 +498,7 @@ export default function InviteForm() {
                       placeholder="ZIP / Postal Code *"
                       required
                       aria-invalid={!!errors.addressZip}
-                      {...register('addressZip', {
+                      {...register("addressZip", {
                         validate: {
                           required: (value) => validateIfInPersonEvent(value),
                         },
@@ -514,7 +514,7 @@ export default function InviteForm() {
                         id="venue-address-country"
                         required
                         aria-invalid={!!errors.addressCountry}
-                        {...register('addressCountry', {
+                        {...register("addressCountry", {
                           validate: {
                             required: (value) => validateIfInPersonEvent(value),
                           },
@@ -538,7 +538,7 @@ export default function InviteForm() {
                       placeholder="Nearest Major Airport *"
                       required
                       aria-invalid={!!errors.airport}
-                      {...register('airport', {
+                      {...register("airport", {
                         validate: {
                           required: (value) => validateIfInPersonEvent(value),
                         },
@@ -557,7 +557,7 @@ export default function InviteForm() {
                     id="attendance"
                     required
                     aria-invalid={!!errors.attendance}
-                    {...register('attendance', { required: true })}
+                    {...register("attendance", { required: true })}
                   >
                     <option value="" disabled>
                       Select range
@@ -581,7 +581,7 @@ export default function InviteForm() {
                     id="age"
                     required
                     aria-invalid={!!errors.age}
-                    {...register('age', { required: true })}
+                    {...register("age", { required: true })}
                   >
                     <option value="" disabled>
                       Select range
@@ -606,7 +606,7 @@ export default function InviteForm() {
                   placeholder="Diocese"
                   required
                   aria-invalid={!!errors.diocese}
-                  {...register('diocese', { required: true })}
+                  {...register("diocese", { required: true })}
                 />
               </label>
             </div>
@@ -619,17 +619,17 @@ export default function InviteForm() {
                   placeholder="Specify the requested topic as best as you can; e.g. “Friendship according to the Bible,” instead of just “Friendship”"
                   required
                   aria-invalid={!!errors.topic}
-                  {...register('topic', { required: true })}
+                  {...register("topic", { required: true })}
                 />
               </label>
               <p
                 className="form-description small"
-                style={{ textAlign: 'right' }}
+                style={{ textAlign: "right" }}
               >
-                To see Fr. Kenny's past teaching topics, see{' '}
+                To see Fr. Kenny’s past teaching topics, see{" "}
                 <a
                   href="/cv/#speaking-topics"
-                  style={{ display: 'inline-block' }}
+                  style={{ display: "inline-block" }}
                   target="_blank"
                 >
                   Curriculum Vitae
@@ -645,7 +645,7 @@ export default function InviteForm() {
                     id="event-type"
                     required
                     aria-invalid={!!errors.eventType}
-                    {...register('eventType', { required: true })}
+                    {...register("eventType", { required: true })}
                   >
                     <option value="" disabled>
                       Select Event Type
@@ -680,7 +680,7 @@ export default function InviteForm() {
                       id="has-spoken-before-yes"
                       value="yes"
                       required
-                      {...register('hasSpokenBefore', {
+                      {...register("hasSpokenBefore", {
                         required: true,
                       })}
                     />
@@ -692,7 +692,7 @@ export default function InviteForm() {
                       id="has-spoken-before-no"
                       value="no"
                       required
-                      {...register('hasSpokenBefore', {
+                      {...register("hasSpokenBefore", {
                         required: true,
                       })}
                     />
@@ -708,18 +708,18 @@ export default function InviteForm() {
                   id="details"
                   placeholder="Tell us about your event."
                   aria-invalid={!!errors.details}
-                  {...register('details')}
+                  {...register("details")}
                 />
               </label>
             </div>
-            <div style={{ display: 'none' }}>
+            <div style={{ display: "none" }}>
               <label htmlFor="title">
-                Don’t fill this out if you’re human:{' '}
+                Don’t fill this out if you’re human:{" "}
                 <input
                   type="text"
                   autoComplete="false"
                   tabIndex={-1}
-                  {...register('title')}
+                  {...register("title")}
                 />
               </label>
             </div>

@@ -1,8 +1,5 @@
-import React, { useContext } from "react";
-// import SEO from '../components/Seo';
+import * as React from "react";
 import InviteForm from "@/components/InviteForm";
-import LangSwitcher from "@/components/LangSwitcher";
-import { LangContext } from "@/components/LangContext";
 import PageContent from "./invite.md";
 import PageContentId from "./invite.id.md";
 

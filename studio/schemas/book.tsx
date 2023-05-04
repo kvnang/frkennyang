@@ -1,25 +1,26 @@
-import {defineType} from 'sanity'
-import type {PreviewProps} from 'sanity'
+import { defineType } from "sanity";
+import type { PreviewProps } from "sanity";
 
 function Preview(
   props: PreviewProps & {
-    url?: string | null
-    bookTitle?: string | null
-    bookDescription?: string | null
+    url?: string | null;
+    bookTitle?: string | null;
+    bookAuthor?: string | null;
+    bookDescription?: string | null;
   }
 ) {
-  const {url, bookTitle, bookAuthor, renderDefault} = props
+  const { url, bookTitle, bookAuthor, renderDefault } = props;
 
   if (!bookTitle) {
-    return <div>Missing Book Title</div>
+    return <div>Missing Book Title</div>;
   }
 
   return (
     <div>
       {/* 👇 Renders the default preview UI */}
-      {renderDefault({...props, title: 'Book'})}
+      {renderDefault({ ...props, title: "Book" })}
       {/* 👇 Renders the book preview below */}
-      <div style={{display: 'flex', padding: 8}}>
+      <div style={{ display: "flex", padding: 8 }}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -28,7 +29,7 @@ function Preview(
           stroke="currentColor"
           width={20}
           height={20}
-          style={{flexShrink: 0, marginRight: '0.5rem'}}
+          style={{ flexShrink: 0, marginRight: "0.5rem" }}
         >
           <path
             stroke-linecap="round"
@@ -37,54 +38,54 @@ function Preview(
           />
         </svg>
         <div>
-          {bookTitle && <div style={{fontWeight: 'bold'}}>{bookTitle}</div>}
-          {bookAuthor && <div style={{fontSize: '0.8rem'}}>{bookAuthor}</div>}
+          {bookTitle && <div style={{ fontWeight: "bold" }}>{bookTitle}</div>}
+          {bookAuthor && <div style={{ fontSize: "0.8rem" }}>{bookAuthor}</div>}
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default defineType({
-  name: 'book',
-  type: 'object',
-  title: 'Book',
+  name: "book",
+  type: "object",
+  title: "Book",
   fields: [
     {
-      name: 'url',
-      type: 'url',
-      title: 'Book URL',
+      name: "url",
+      type: "url",
+      title: "Book URL",
     },
     {
-      name: 'bookTitle',
-      type: 'string',
-      title: 'Title',
+      name: "bookTitle",
+      type: "string",
+      title: "Title",
     },
     {
-      name: 'bookAuthor',
-      type: 'string',
-      title: 'Author',
+      name: "bookAuthor",
+      type: "string",
+      title: "Author",
     },
     {
-      name: 'bookDescription',
-      type: 'text',
-      title: 'Description',
+      name: "bookDescription",
+      type: "text",
+      title: "Description",
     },
     {
-      name: 'bookImage',
-      type: 'image',
-      title: 'Image',
+      name: "bookImage",
+      type: "image",
+      title: "Image",
     },
   ],
   preview: {
     select: {
-      url: 'url',
-      bookTitle: 'bookTitle',
-      bookAuthor: 'bookAuthor',
-      bookDescription: 'bookDescription',
+      url: "url",
+      bookTitle: "bookTitle",
+      bookAuthor: "bookAuthor",
+      bookDescription: "bookDescription",
     },
   },
   components: {
     preview: Preview,
   },
-})
+});

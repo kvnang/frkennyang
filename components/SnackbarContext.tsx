@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useState } from "react";
 
 interface SnackbarProps {
   message?: string;
@@ -30,7 +30,7 @@ export function SnackbarProvider({ children }: ProviderProps) {
   const contextValue = {
     snackbar,
     addSnackbar: useCallback(
-      (message, status) => addSnackbar(message, status),
+      (message: string, status: string) => addSnackbar(message, status),
       []
     ),
     removeSnackbar: useCallback(() => removeSnackbar(), []),

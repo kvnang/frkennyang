@@ -1,9 +1,9 @@
-import { AnimatePresence, LazyMotion, m } from 'framer-motion';
-import React, { useContext, useEffect } from 'react';
-import { SnackbarContext } from './SnackbarContext';
+import { AnimatePresence, LazyMotion, m } from "framer-motion";
+import React, { useContext, useEffect } from "react";
+import { SnackbarContext } from "./SnackbarContext";
 
 const loadFeatures = () =>
-  import('../app/utils/features').then((res) => res.default);
+  import("@/utils/features").then((res) => res.default);
 
 export default function Snackbar() {
   const { snackbar, addSnackbar, removeSnackbar } = useContext(SnackbarContext);

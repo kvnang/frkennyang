@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import React, { useContext, useEffect, useState } from 'react';
-import { SubmitHandler, useForm } from 'react-hook-form';
-import { FormMessageTypes } from '../../src/types';
-import FormSubmitButton from './FormSubmitButton';
-import { SnackbarContext } from './SnackbarContext';
+import React, { useContext, useEffect, useState } from "react";
+import { SubmitHandler, useForm } from "react-hook-form";
+import { type FormMessageTypes } from "@/types";
+import FormSubmitButton from "./FormSubmitButton";
+import { SnackbarContext } from "./SnackbarContext";
 
 interface Inputs {
   [key: string]: string | undefined;
-  'form-name': string;
+  "form-name": string;
   name?: string;
   email: string;
   message: string;
@@ -25,8 +25,8 @@ export default function ContactForm() {
   } = useForm<Inputs>();
 
   const [formMessage, setFormMessage] = useState<FormMessageTypes>({
-    status: 'success',
-    message: '',
+    status: "success",
+    message: "",
     open: false,
   });
 
@@ -34,14 +34,14 @@ export default function ContactForm() {
   function handleResponse(response: Response) {
     if (response.ok) {
       setFormMessage({
-        status: 'success',
+        status: "success",
         message: `Thank you, your message has been sent! I'll get back to you as soon as possible.`,
         open: true,
       });
       reset(); // Clear form on success
     } else {
       setFormMessage({
-        status: 'error',
+        status: "error",
         message: `Sorry, there's an error in sending your message. Please try again later.`,
         open: true,
       });
@@ -66,9 +66,9 @@ export default function ContactForm() {
     const endpoint = `/api/submit`;
 
     fetch(endpoint, {
-      method: 'POST',
+      method: "POST",
       // headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      headers: { 'Content-Type': 'application/json' },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     })
       .then((response) => handleResponse(response))
@@ -95,7 +95,7 @@ export default function ContactForm() {
         netlify-honeypot="title"
         data-netlify="true"
       >
-        <input type="hidden" value="contact" {...register('form-name')} />
+        <input type="hidden" value="contact" {...register("form-name")} />
         <div className="form-fields">
           <div className="form-field half">
             <label htmlFor="name">
@@ -106,7 +106,7 @@ export default function ContactForm() {
                 autoComplete="name"
                 placeholder="Name"
                 aria-invalid={!!errors.name}
-                {...register('name')}
+                {...register("name")}
               />
             </label>
           </div>
@@ -120,7 +120,7 @@ export default function ContactForm() {
                 autoComplete="email"
                 required
                 aria-invalid={!!errors.email}
-                {...register('email', { required: true })}
+                {...register("email", { required: true })}
               />
             </label>
           </div>
@@ -132,18 +132,18 @@ export default function ContactForm() {
                 placeholder="Message *"
                 required
                 aria-invalid={!!errors.message}
-                {...register('message', { required: true })}
+                {...register("message", { required: true })}
               />
             </label>
           </div>
-          <div style={{ display: 'none' }}>
+          <div style={{ display: "none" }}>
             <label htmlFor="title">
-              Don’t fill this out if you’re human:{' '}
+              Don’t fill this out if you’re human:{" "}
               <input
                 type="text"
                 autoComplete="false"
                 tabIndex={-1}
-                {...register('title')}
+                {...register("title")}
               />
             </label>
           </div>

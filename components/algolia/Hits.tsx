@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 import {
   useHits,
   Pagination,
   UseHitsProps,
-} from 'react-instantsearch-hooks-web';
-import PostEntry, { PostEntrySkeleton } from '../PostEntry';
+} from "react-instantsearch-hooks-web";
+import { PostEntry, PostEntrySkeleton } from "@/components/PostEntry";
+import { type PostEntryProps } from "@/types";
 
 function Hits(props: UseHitsProps) {
   const { results } = useHits(props);
@@ -28,11 +29,12 @@ function Hits(props: UseHitsProps) {
         <ul>
           {!!hits.length &&
             hits.map((hit) => (
+              // @ts-expect-error
               <PostEntry key={hit.objectID} post={hit} format="list" />
             ))}
           {!hits.length && (
             <p>
-              There's nothing found based on your search. Please modify your
+              There’s nothing found based on your search. Please modify your
               search parameter.
             </p>
           )}

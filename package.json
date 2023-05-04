@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ts": "tsc --noEmit"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.2.32",
@@ -56,6 +57,7 @@
     "@types/mailgun-js": "^0.22.13",
     "@types/mdx": "^2.0.5",
     "@types/negotiator": "^0.6.1",
+    "@types/smoothscroll-polyfill": "^0.3.1",
     "mdx": "^0.3.1",
     "sass": "^1.62.1"
   }

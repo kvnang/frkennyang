@@ -1,9 +1,10 @@
-'use client';
+"use client";
 
-import { usePreview } from '@/lib/sanity.preview';
-import { SinglePost, query } from '../page';
-import { LangType } from '@/types';
-import { getDictionary } from '@/lib/dictionaries';
+import { usePreview } from "@/lib/sanity.preview";
+import { SinglePost } from "../SinglePost";
+import { query } from "../query";
+import { LangType } from "@/types";
+import { getDictionary } from "@/lib/dictionaries";
 
 export function PreviewClient({
   token,

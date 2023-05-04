@@ -18,6 +18,7 @@ specifiers:
   '@types/node': 18.16.3
   '@types/react': 18.2.0
   '@types/react-dom': 18.2.1
+  '@types/smoothscroll-polyfill': ^0.3.1
   '@types/styled-components': ^5.1.26
   algoliasearch: ^4.17.0
   autoprefixer: 10.4.14
@@ -97,6 +98,7 @@ devDependencies:
   '@types/mailgun-js': 0.22.13
   '@types/mdx': 2.0.5
   '@types/negotiator': 0.6.1
+  '@types/smoothscroll-polyfill': 0.3.1
   mdx: 0.3.1
   sass: 1.62.1
 
@@ -1927,6 +1929,10 @@ packages:
   /@types/shallow-equals/1.0.0:
     resolution: {integrity: sha512-XtGSj7GYPfJwaklDtMEONj+kmpyCP8OLYoPqp/ROM8BL1VaF2IgYbxiEKfLvOyHN7c2d1KAFYzy6EIu8CSFt1A==}
     dev: false
+
+  /@types/smoothscroll-polyfill/0.3.1:
+    resolution: {integrity: sha512-+KkHw4y+EyeCtVXET7woHUhIbfWFCflc0E0mZnSV+ZdjPQeHt/9KPEuT7gSW/kFQ8O3EG30PLO++YhChDt8+Ag==}
+    dev: true
 
   /@types/speakingurl/13.0.3:
     resolution: {integrity: sha512-nBHZAaNTEw1YG3ROL7HtTp7HjW8HD7DuFYbWoonUKTZHj7eyOt4vPzyMcc3+xgWNv7xi2rziaiBXHIq6wBeyrw==}

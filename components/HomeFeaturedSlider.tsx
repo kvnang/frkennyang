@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import * as React from 'react';
-import { Slider } from './Slider';
-import { PostEntry } from './PostEntry';
-import { PostEntryProps } from '@/../src/types';
+import * as React from "react";
+import { Slider } from "./Slider";
+import { PostEntry } from "./PostEntry";
+import { PostEntryProps } from "@/types";
 
 export function HomeFeaturedSlider({ posts }: { posts: any[] }) {
   const [ref, setRef] = React.useState<HTMLUListElement | null>(null);
