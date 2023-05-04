@@ -22,7 +22,7 @@ export default function HomePage() {
       <div
         className="pt-5 flex items-end"
         style={{
-          background: `radial-gradient(63% 63% at 53% 37%, var(--dark-grey) 0%, var(--black) 56%)`,
+          background: `radial-gradient(63% 63% at 53% 37%, var(--dark-grey) 0%, var(--darker-gray) 56%)`,
         }}
       >
         <div className="container overflow-hidden">
@@ -87,7 +87,7 @@ export default function HomePage() {
         <div className="container">
           <div className="relative z-0">
             <div className="grid grid-cols-12 gap-x-4">
-              <div className="bg-black col-span-full lg:col-span-10 lg:col-start-2 relative pt-section">
+              <div className="bg-darker-gray col-span-full lg:col-span-10 lg:col-start-2 relative pt-section">
                 <div className="grid grid-cols-10 gap-x-4">
                   <div className="hidden xl:flex col-span-3">
                     <div className="flex-1 -ml-[calc(35%+var(--container-padding))]">

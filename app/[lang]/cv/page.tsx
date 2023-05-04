@@ -1,8 +1,8 @@
-import * as React from 'react';
-import Image from 'next/image';
-import cvImage from '@/assets/images/frk-cv.jpg';
-import CvContent from './cv.md';
-import { Accordions } from './Accordions';
+import * as React from "react";
+import Image from "next/image";
+import cvImage from "@/assets/images/frk-cv.jpg";
+import CvContent from "./cv.md";
+import { Accordions } from "./Accordions";
 
 export default function CvPage() {
   return (
@@ -18,7 +18,7 @@ export default function CvPage() {
             </div>
           </div>
           <div className="col-span-full md:col-span-7 md:col-start-6 lg:col-span-5 lg:col-start-7">
-            <div className="md:pt-section pb-10 relative lg:pb-16 text-black h-full">
+            <div className="md:pt-section pb-10 relative lg:pb-16 text-darker-gray h-full">
               <div className="absolute h-[calc(100%+6rem)] md:h-full -top-24 md:top-0 w-screen -left-container -z-10 bg-off-white md:-left-1/2"></div>
               <div className="prose prose-black">
                 <CvContent />

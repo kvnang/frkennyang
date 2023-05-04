@@ -1,4 +1,4 @@
-export type LangType = 'en' | 'id';
+export type LangType = "en" | "id";
 
 export interface FormMessageTypes {
   status: string;
@@ -8,6 +8,7 @@ export interface FormMessageTypes {
 
 export interface PostEntryProps {
   _id: string;
+  _score?: number;
   title: {
     en: string;
     id?: string;

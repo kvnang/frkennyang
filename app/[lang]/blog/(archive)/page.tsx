@@ -1,20 +1,34 @@
-import client from '@/lib/sanity.client';
-import { PostEntry } from '@/components/PostEntry';
-import { BlogList } from './BlogList';
+import client from "@/lib/sanity.client";
+import { PostEntry } from "@/components/PostEntry";
+import { BlogList } from "./BlogList";
+import { query, queryWithSearch } from "./query";
 
 export default async function BlogPage({
   params,
+  searchParams,
 }: {
-  params: { category?: string | null };
+  params: { category?: string };
+  searchParams: { q?: string };
 }) {
-  const category = params.category || '';
+  const category = params.category || "";
+  const q = searchParams.q || "";
 
-  const posts = await client.fetch(
-    `*[_type == "post" && ($category == '' || $category in categories[]->slug.current)] | order(publishedAt desc) {
-      _id, title, slug, excerpt, publishedAt, format->{title}, categories[]->{title}, excerpt, "mainImageUrl": mainImage.asset->url
-    }`,
-    { category }
-  );
+  const posts = q
+    ? await client.fetch(queryWithSearch, {
+        searchQuery: q,
+        category,
+        lastScore: null,
+        lastId: null,
+        perPage: 10,
+      })
+    : await client.fetch(query, {
+        category,
+        lastPublishedAt: null,
+        lastId: null,
+        perPage: 10,
+      });
+
+  if (!posts) return null;
 
   const featuredPost = posts.slice(0, 1)[0];
   const recentPosts = posts.slice(1, 10);
@@ -30,7 +44,11 @@ export default async function BlogPage({
         />
       </div>
       <div>
-        <BlogList initialData={recentPosts} />
+        <BlogList
+          params={params}
+          searchParams={searchParams}
+          initialData={recentPosts}
+        />
       </div>
     </>
   );

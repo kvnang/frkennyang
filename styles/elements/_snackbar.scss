@@ -13,7 +13,7 @@
     backdrop-filter: blur(10px);
     padding: 1rem 2rem 1rem 1rem;
     position: relative;
-    border-bottom: 3px solid var(--grey);
+    border-bottom: 3px solid var(--gray);
     box-shadow: var(--box-shadow);
   }
 
@@ -31,7 +31,7 @@
   }
 
   p {
-    color: var(--black);
+    color: var(--darker-gray);
   }
 
   .close {
@@ -41,7 +41,7 @@
     padding: 0.5rem;
     font-size: 1.5rem;
     line-height: 0.75;
-    color: var(--black);
+    color: var(--darker-gray);
     transition: var(--transition);
 
     &:hover {

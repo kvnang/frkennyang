@@ -3,19 +3,23 @@
 @tailwind utilities;
 
 :root {
-  --black: #2f2f2f;
-  --dark-grey: #3f3f3f;
-  --medium-grey: #6f6f6f;
+  --black: #000;
+  --darker-gray-2: #1f1f1f;
+  --darker-gray: #2f2f2f;
+  --dark-gray: #3f3f3f;
+  --medium-gray: #6f6f6f;
+  --gray: #a9a9a9;
+  --light-gray: #d3d3d3;
+
   --gold: #e2a93a;
   --white: #fff;
   --offwhite: #f5f2ed;
   --offwhite-rgb: 245, 242, 237;
   --offwhite-light: #ddd4c5;
-  --grey: #a9a9a9;
   --color-p: var(--offwhite);
   --color-p-light: var(--offwhite);
   --color-p-bright: var(--white);
-  --color-bg: var(--black);
+  --color-bg: var(--darker-gray);
   --color-accent: var(--gold);
   --color-error: #f05d5e;
   --color-success: #7dce82;
@@ -119,14 +123,6 @@
   }
 }
 
-body.page-contents {
-  --color-bg: var(--offwhite);
-}
-
-body.page-contents .header {
-  background-color: var(--black);
-}
-
 @import "./elements/skeleton.css";
 
 @layer utilities {
@@ -138,7 +134,7 @@ body.page-contents .header {
     content: "";
     width: calc(100% - 1rem);
     height: 1px;
-    background: var(--grey);
+    background: var(--gray);
     position: absolute;
     left: -100%;
     top: 50%;

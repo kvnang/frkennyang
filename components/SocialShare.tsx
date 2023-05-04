@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import {
   FaFacebookF,
   FaLinkedinIn,
   FaTwitter,
   FaWhatsapp,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 interface Props {
   title?: string;
@@ -24,7 +24,7 @@ export default function SocialShare({ title, url, label }: Props) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Share on Facebook"
-              className="p-2 inline-flex items-center justify-center"
+              className="p-2 inline-flex items-center justify-center transition-colors hover:text-accent"
             >
               <FaFacebookF />
             </a>
@@ -35,7 +35,7 @@ export default function SocialShare({ title, url, label }: Props) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Share on Twitter"
-              className="p-2 inline-flex items-center justify-center"
+              className="p-2 inline-flex items-center justify-center transition-colors hover:text-accent"
             >
               <FaTwitter />
             </a>
@@ -46,7 +46,7 @@ export default function SocialShare({ title, url, label }: Props) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Share on LinkedIn"
-              className="p-2 inline-flex items-center justify-center"
+              className="p-2 inline-flex items-center justify-center transition-colors hover:text-accent"
             >
               <FaLinkedinIn />
             </a>
@@ -57,7 +57,7 @@ export default function SocialShare({ title, url, label }: Props) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Share on WhatsApp"
-              className="p-2 inline-flex items-center justify-center"
+              className="p-2 inline-flex items-center justify-center transition-colors hover:text-accent"
             >
               <FaWhatsapp />
             </a>

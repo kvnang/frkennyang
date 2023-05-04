@@ -1,18 +1,35 @@
-'use client';
+"use client";
 
-import * as React from 'react';
-import { PostEntry } from '@/components/PostEntry';
-import type { PostEntryProps } from '@/types';
-import client from '@/lib/sanity.client';
+import * as React from "react";
+import { PostEntry } from "@/components/PostEntry";
+import type { PostEntryProps } from "@/types";
+import client from "@/lib/sanity.client";
+import { query, queryWithSearch } from "./query";
+import { Button } from "@/components/Button";
 
-export function BlogList({ initialData }: { initialData?: PostEntryProps[] }) {
+export function BlogList({
+  params,
+  searchParams,
+  initialData,
+}: {
+  params: { category?: string };
+  searchParams: { q?: string };
+  initialData?: PostEntryProps[];
+}) {
+  const q = searchParams.q || "";
+
   const lastIdRef = React.useRef(
     !!initialData?.length ? initialData[initialData.length - 1]._id : null
   );
+
   const lastPublishedAtRef = React.useRef(
     !!initialData?.length
       ? initialData[initialData.length - 1].publishedAt
       : null
+  );
+
+  const lastScoreRef = React.useRef(
+    !!initialData?.length ? initialData[initialData.length - 1]._score : null
   );
 
   const [posts, setPosts] = React.useState(initialData || []);
@@ -22,18 +39,27 @@ export function BlogList({ initialData }: { initialData?: PostEntryProps[] }) {
       return [];
     }
 
-    const results = await client.fetch(
-      `*[_type == "post" && (
-        publishedAt > $lastPublishedAt
-        || (publishedAt == $lastPublishedAt && _id > $lastId)
-      )] | order(publishedAt) [0...10] {
-        _id, title, slug, excerpt, publishedAt, format->{title}, categories[]->{title}, excerpt, "mainImageUrl": mainImage.asset->url
-      }`,
-      { lastPublishedAt: lastPublishedAtRef.current, lastId: lastIdRef.current }
-    );
+    const results = q
+      ? await client.fetch(queryWithSearch, {
+          searchQuery: q,
+          category: params.category || "",
+          lastScore: lastScoreRef.current,
+          lastId: lastIdRef.current,
+          perPage: 9,
+        })
+      : await client.fetch(query, {
+          category: params.category || "",
+          lastPublishedAt: lastPublishedAtRef.current,
+          lastId: lastIdRef.current,
+          perPage: 9,
+        });
 
     if (results.length > 0) {
-      lastPublishedAtRef.current = results[results.length - 1].publishedAt;
+      if (q) {
+        lastScoreRef.current = results[results.length - 1]._score;
+      } else {
+        lastPublishedAtRef.current = results[results.length - 1].publishedAt;
+      }
       lastIdRef.current = results[results.length - 1]._id;
     } else {
       lastIdRef.current = null; // Reached the end
@@ -57,9 +83,11 @@ export function BlogList({ initialData }: { initialData?: PostEntryProps[] }) {
           ))}
         </div>
       )}
-      <div className="mt-8 flex justify-center">
-        <button onClick={handleLoadMoreClick}>Load More</button>
-      </div>
+      {lastIdRef.current && (
+        <div className="mt-12 flex justify-center">
+          <Button onClick={handleLoadMoreClick}>Load More</Button>
+        </div>
+      )}
     </div>
   );
 }

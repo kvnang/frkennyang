@@ -63,7 +63,7 @@ export default function Header({ params }: { params: { lang: LangType } }) {
         </div>
       </div>
       <div
-        className={`fixed top-0 left-0 w-full h-full z-20 bg-black backdrop-blur-md transition-all ${
+        className={`fixed top-0 left-0 w-full h-full z-20 bg-darker-gray backdrop-blur-md transition-all ${
           mobileMenuActive
             ? `opacity-100 pointer-events-auto translate-x-0 visible`
             : `opacity-0 pointer-events-none -translate-x-4 hidden`

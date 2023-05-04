@@ -9,6 +9,7 @@ import Link from "next/link";
 import { ArrowLongLeftIcon } from "@heroicons/react/24/outline";
 import { TableOfContents } from "./TableOfContents";
 import { getDictionary } from "@/lib/dictionaries";
+import getYouTubeID from "get-youtube-id";
 
 export type FetchPostProps = Omit<PostProps, "content"> & {
   contentEn: any[];
@@ -21,15 +22,72 @@ const myPortableTextComponents: PortableTextComponents = {
       const { width, height } = value.asset.metadata.dimensions;
 
       return (
-        <Image
-          src={value.asset.url}
-          alt={value.alt}
-          width={width}
-          height={height}
-          blurDataURL={value.asset.metadata.lqip}
-          placeholder="blur"
-        />
+        <figure>
+          <Image
+            src={value.asset.url}
+            alt={value.alt}
+            width={width}
+            height={height}
+            blurDataURL={value.asset.metadata.lqip}
+            placeholder="blur"
+          />
+          {value.caption && (
+            <figcaption className="text-sm text-left opacity-80 text-body">
+              {value.caption}
+            </figcaption>
+          )}
+        </figure>
       );
+    },
+    book: ({ value }) => {
+      const { bookTitle, bookAuthor, bookDescription, bookImage, url } = value;
+      return (
+        <div className="not-prose">
+          <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col sm:flex-row border-2 bg-dark-gray border-dark-gray hover:border-medium-gray transition-colors"
+          >
+            <div className="shrink-0 w-full sm:w-36 bg-darker-gray flex items-center justify-center p-4">
+              <Image
+                src={bookImage.asset.url}
+                alt={bookTitle}
+                width={bookImage.asset.metadata.dimensions.width}
+                height={bookImage.asset.metadata.dimensions.height}
+                blurDataURL={bookImage.asset.metadata.lqip}
+                placeholder="blur"
+                className="w-24 sm:w-32 shadow-md"
+              />
+            </div>
+            <div className="flex-1 p-6">
+              <div className="mb-4">
+                <h4 className="text-base font-semibold mb-1">{bookTitle}</h4>
+                <div className="text-sm opacity-80">{bookAuthor}</div>
+              </div>
+              <p className="text-sm">{bookDescription}</p>
+            </div>
+          </a>
+        </div>
+      );
+    },
+    youtube: ({ value }) => {
+      const videoId = getYouTubeID(value.url);
+      return (
+        <div className="w-full relative pb-[56.25%]">
+          <iframe
+            className="absolute top-0 left-0 w-full h-full border-0"
+            src={`https://www.youtube-nocookie.com/embed/${videoId}`}
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+      );
+    },
+    html: ({ value }) => {
+      const code = value.code;
+      return <div dangerouslySetInnerHTML={{ __html: code }} />;
     },
   },
 
@@ -66,6 +124,11 @@ const myPortableTextComponents: PortableTextComponents = {
     ),
     h3: ({ children, ...props }) => (
       <h3 id={`_heading-ref-${props.value._key}`}>{children}</h3>
+    ),
+    blockquote: ({ children, ...props }) => (
+      <blockquote className="bg-darker-gray-2 py-4 lg:py-8 shadow-md">
+        {children}
+      </blockquote>
     ),
   },
 };

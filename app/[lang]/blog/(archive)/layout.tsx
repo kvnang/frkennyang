@@ -1,7 +1,8 @@
-import * as React from 'react';
-import client from '@/lib/sanity.client';
-import { Categories } from './Categories';
-import { LangType } from '@/types';
+import * as React from "react";
+import client from "@/lib/sanity.client";
+import { Categories } from "./Categories";
+import { LangType } from "@/types";
+import { Search } from "./Search";
 
 export default async function BlogLayout({
   children,
@@ -32,7 +33,9 @@ export default async function BlogLayout({
                   </React.Suspense>
                 </div>
                 <div className="p-2 max-w-full">
-                  <input type="search" placeholder="Search Articles" />
+                  <React.Suspense fallback={null}>
+                    <Search params={params} />
+                  </React.Suspense>
                 </div>
               </div>
             </div>

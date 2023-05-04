@@ -22,8 +22,8 @@ input[type='time'],
 textarea,
 select {
   appearance: none;
-  background: var(--dark-grey);
-  border: 1px solid var(--dark-grey);
+  background: var(--dark-gray);
+  border: 1px solid var(--dark-gray);
   border-radius: 0;
   padding: 0.75rem 1.25rem;
   color: var(--color-p);
@@ -32,7 +32,7 @@ select {
   line-height: 1.5;
 
   &::placeholder {
-    color: var(--grey);
+    color: var(--gray);
     transition: var(--transition);
   }
 
@@ -44,13 +44,13 @@ select {
     }
   }
 
-  &[aria-invalid='true'] {
+  &[aria-invalid="true"] {
     border: 1px solid var(--color-error);
   }
 }
 
-input[type='date'],
-input[type='time'] {
+input[type="date"],
+input[type="time"] {
   min-height: 3.25em; // iOS Safari Bug
   &::-webkit-calendar-picker-indicator {
     /* opacity: 0; */
@@ -72,7 +72,7 @@ input[type='time'] {
   position: relative;
 
   &::after {
-    content: '';
+    content: "";
     pointer-events: none;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath fill='%23fff' d='M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z'/%3E%3C/svg%3E");
     background-position: center center;
@@ -93,7 +93,7 @@ input[type='time'] {
 }
 
 select:invalid {
-  color: var(--grey);
+  color: var(--gray);
 }
 
 textarea {
@@ -105,8 +105,8 @@ fieldset {
   border: 0;
   padding: 0;
 
-  &[aria-invalid='true'] {
-    input[type='radio'] + span::before {
+  &[aria-invalid="true"] {
+    input[type="radio"] + span::before {
       background-color: var(--color-error);
     }
   }
@@ -129,7 +129,7 @@ fieldset {
   }
 }
 
-input[type='radio'] {
+input[type="radio"] {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
@@ -144,11 +144,11 @@ input[type='radio'] {
 
     &::before,
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       height: 1em;
       width: 1em;
-      background-color: var(--dark-grey);
+      background-color: var(--dark-gray);
       border-radius: 50%;
       top: 0.125em;
       left: 0;
@@ -174,13 +174,13 @@ input[type='radio'] {
   }
 }
 
-input[type='radio'],
-input[type='checkbox'] {
+input[type="radio"],
+input[type="checkbox"] {
   &:focus-visible + span::before {
     outline: 5px auto Highlight;
     outline: 5px auto -webkit-focus-ring-color;
   }
-  &[aria-invalid='true'] + span::before {
+  &[aria-invalid="true"] + span::before {
     background-color: var(--color-error);
   }
 }
