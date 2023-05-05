@@ -48,6 +48,7 @@ module.exports = {
     },
     extend: {
       screens: {
+        xs: "375px",
         "3xl": "1750px",
       },
       fontFamily: {

@@ -3,6 +3,7 @@ import {
   TableOfContentsInner,
   type HeadingBlock,
 } from "./TableOfContentsInner";
+import { ListBulletIcon } from "@heroicons/react/24/outline";
 
 export function TableOfContents({
   label,
@@ -40,11 +41,8 @@ export function TableOfContents({
   }, [] as HeadingBlock[]);
 
   return (
-    <div>
-      <h2 className="text-base font-bold mb-4">{label}</h2>
-      <div className="flex">
-        <TableOfContentsInner headings={groupedHeadings} />
-      </div>
+    <div className="w-full">
+      <TableOfContentsInner label={label} headings={groupedHeadings} />
     </div>
   );
 }

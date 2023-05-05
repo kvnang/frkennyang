@@ -239,7 +239,7 @@ export function SinglePost({
               )}
             </div>
           </div>
-          <div className="col-span-full lg:col-span-8 xl:col-span-7 xl:col-start-2">
+          <div className="col-span-full lg:col-span-8 xl:col-span-7 xl:col-start-2 order-1 lg:order-none">
             {/* {post.frontmatter.lang && post.frontmatter.lang !== lang && (
             <div className="only-available-in">
               {post.frontmatter.lang === 'en' && <UsFlag />}
@@ -289,21 +289,23 @@ export function SinglePost({
               </div>
             </main>
           </div>
-          <div className="col-span-12 lg:col-span-4 xl:col-span-3">
-            <aside className="pl-8 ml-4 border-l border-l-medium-gray sticky top-12">
-              <section className="mb-10 last:mb-0">
-                <TableOfContents
-                  label={dictionary.blog.toc}
-                  content={content}
-                />
-              </section>
-              <section className="mb-10 last:mb-0">
-                <SocialShare
-                  title={title}
-                  url={`/post/${dictionary}`}
-                  label="Share this article"
-                />
-              </section>
+          <div className="col-span-12 lg:col-span-4 xl:col-span-3 mb-section lg:mb-0">
+            <aside className="flex lg:pl-8 lg:ml-4 lg:border-l lg:border-l-medium-gray lg:sticky lg:top-12">
+              <div className="flex-1 flex flex-wrap -my-4 -mx-2">
+                <section className="py-4 px-2 basis-full xs:flex-1 lg:basis-full">
+                  <TableOfContents
+                    label={dictionary.blog.toc}
+                    content={content}
+                  />
+                </section>
+                <section className="py-4 px-2 lg:basis-full">
+                  <SocialShare
+                    title={title}
+                    url={`/post/${dictionary}`}
+                    label="Share this article"
+                  />
+                </section>
+              </div>
             </aside>
           </div>
         </div>

@@ -15,7 +15,11 @@ interface Props {
 export default function SocialShare({ title, url, label }: Props) {
   return (
     <div>
-      {label && <div className="text-base font-semibold mb-4">{label}</div>}
+      {label && (
+        <div className="text-base font-semibold mb-4 hidden lg:block">
+          {label}
+        </div>
+      )}
       <div>
         <ul className="flex flex-wrap -m-2">
           <li>
