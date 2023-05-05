@@ -301,7 +301,7 @@ export function SinglePost({
                 <section className="py-4 px-2 lg:basis-full">
                   <SocialShare
                     title={title}
-                    url={`/post/${dictionary}`}
+                    url={`/${params.lang}/blog/${post.slug}`}
                     label="Share this article"
                   />
                 </section>
