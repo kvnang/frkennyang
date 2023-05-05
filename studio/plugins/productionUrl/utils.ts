@@ -1,5 +1,4 @@
-import type { SanityClient } from "@sanity/client";
-import { createClient } from "next-sanity";
+import type { SanityClient } from "next-sanity";
 
 // updated within the hour, if it's older it'll create a new secret or return null
 const query = (ttl: number) =>
@@ -8,7 +7,7 @@ const query = (ttl: number) =>
 const tag = "preview.secret";
 
 export async function getSecret(
-  client: ReturnType<typeof createClient>,
+  client: SanityClient,
   id: `${string}.${string}`,
   createIfNotExists?: true | (() => string)
 ): Promise<string | null> {

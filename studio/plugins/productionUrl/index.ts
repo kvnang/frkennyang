@@ -32,6 +32,8 @@ export const productionUrl = definePlugin<{
         const url = new URL("/api/draft", location.origin);
 
         const client = getClient({ apiVersion });
+
+        // @ts-expect-error
         const secret = await getSecret(client, previewSecretId, true);
         if (secret) {
           url.searchParams.set("secret", secret);
