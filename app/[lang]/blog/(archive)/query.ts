@@ -5,7 +5,7 @@ export const query = `*[_type == "post"
   )] 
   | order(publishedAt desc) 
   [0...$perPage] {
-  _id, title, slug, excerpt, publishedAt, format->{title}, categories[]->{title}, excerpt, "mainImageUrl": mainImage.asset->url
+  _id, title, slug, excerpt, publishedAt, format->{title}, categories[]->{title}, excerpt, "mainImage": mainImage.asset->
 }`;
 
 export const queryWithSearch = `*[_type == "post" && ($category == '' || $category in categories[]->slug.current)]
@@ -16,5 +16,5 @@ export const queryWithSearch = `*[_type == "post" && ($category == '' || $catego
   [_score > 0]
   | order(_score desc) 
   [0...$perPage] {
-  _id, _score, title, slug, excerpt, publishedAt, format->{title}, categories[]->{title}, excerpt, "mainImageUrl": mainImage.asset->url
+  _id, _score, title, slug, excerpt, publishedAt, format->{title}, categories[]->{title}, excerpt, "mainImage": mainImage.asset->
 }`;

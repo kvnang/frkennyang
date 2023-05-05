@@ -75,8 +75,10 @@ export function PostEntry({
             <div className="w-full h-0 relative pb-[56.25%] z-0 group-hover:shadow-md transition-all">
               <div className="w-full h-full absolute top-0 left-0 bg-gray opacity-20 transition-all"></div>
               <Image
-                src={post.mainImageUrl || placeholderImage}
+                src={post.mainImage?.url || placeholderImage}
                 alt={post.title.en}
+                placeholder="blur"
+                blurDataURL={post.mainImage?.metadata?.lqip}
                 fill
               />
             </div>
