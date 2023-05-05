@@ -8,6 +8,9 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { IndonesiaFlag, UsFlag } from "./Flags";
 
+const removeTrailingSlash = (str: string) =>
+  str.endsWith("/") ? str.slice(0, -1) : str;
+
 export function LanguageSwitcherInner({
   params,
 }: {
@@ -16,7 +19,7 @@ export function LanguageSwitcherInner({
   const pathname = usePathname();
 
   // Remove locale from pathname
-  const pathnameWithoutLocale = pathname.replace(`/${params.lang}/`, "/");
+  const pathnameWithoutLocale = pathname.replace(/^\/(en|id)/, "");
 
   return (
     <Menu className="relative" as="div">
@@ -39,7 +42,9 @@ export function LanguageSwitcherInner({
                   `flex items-center px-4 py-1.5 whitespace-nowrap transition-colors`,
                   active ? "bg-medium-gray" : ""
                 )}
-                href={`/en${pathnameWithoutLocale}`}
+                href={
+                  pathnameWithoutLocale ? `/en/${pathnameWithoutLocale}` : `/en`
+                }
               >
                 <div className="mr-2 shrink-0 rounded-full">
                   <UsFlag className="w-4 h-4 rounded-full" />
@@ -63,7 +68,9 @@ export function LanguageSwitcherInner({
                 className={`flex items-center px-4 py-1.5 whitespace-nowrap transition-colors ${
                   active ? "bg-medium-gray" : ""
                 }`}
-                href={`/id${pathnameWithoutLocale}`}
+                href={
+                  pathnameWithoutLocale ? `/id/${pathnameWithoutLocale}` : `/id`
+                }
               >
                 <div className="mr-2 shrink-0 rounded-full">
                   <IndonesiaFlag className="w-4 h-4 rounded-full" />
