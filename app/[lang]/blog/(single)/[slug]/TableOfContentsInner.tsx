@@ -82,6 +82,11 @@ export function TableOfContentsInner({
                       <a
                         href={`#_heading-ref-${_key}`}
                         className="inline-block py-1.5 text-gray hover:text-white data-[state=active]:text-accent data-[state=active]:translate-x-1 transition-all"
+                        data-state={
+                          activeSection === `_heading-ref-${_key}`
+                            ? "active"
+                            : ""
+                        }
                       >
                         <PortableText
                           value={children}

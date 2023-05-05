@@ -1,3 +1,4 @@
+import * as React from "react";
 import client from "@/lib/sanity.client";
 import { PostEntry } from "@/components/PostEntry";
 import { BlogList } from "./BlogList";

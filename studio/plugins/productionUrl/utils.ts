@@ -1,13 +1,14 @@
-import type { SanityClient } from '@sanity/client';
+import type { SanityClient } from "@sanity/client";
+import { createClient } from "next-sanity";
 
 // updated within the hour, if it's older it'll create a new secret or return null
 const query = (ttl: number) =>
   /* groq */ `*[_id == $id && dateTime(_updatedAt) > dateTime(now()) - ${ttl}][0].secret`;
 
-const tag = 'preview.secret';
+const tag = "preview.secret";
 
 export async function getSecret(
-  client: SanityClient,
+  client: ReturnType<typeof createClient>,
   id: `${string}.${string}`,
   createIfNotExists?: true | (() => string)
 ): Promise<string | null> {
@@ -33,7 +34,7 @@ export async function getSecret(
       return newSecret;
     } catch (err) {
       console.error(
-        'Failed to create a new preview secret. Ensure the `client` has a `token` specified that has `write` permissions.',
+        "Failed to create a new preview secret. Ensure the `client` has a `token` specified that has `write` permissions.",
         err
       );
     }

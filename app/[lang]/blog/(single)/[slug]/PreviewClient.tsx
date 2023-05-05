@@ -1,8 +1,8 @@
 "use client";
 
 import { usePreview } from "@/lib/sanity.preview";
-import { SinglePost } from "../SinglePost";
-import { query } from "../query";
+import { SinglePost } from "./SinglePost";
+import { query } from "./query";
 import { LangType } from "@/types";
 import { getDictionary } from "@/lib/dictionaries";
 

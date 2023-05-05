@@ -2,12 +2,12 @@ export function resolveHref(
   documentType?: string,
   slug?: string
 ): string | undefined {
-  const lang = 'en';
+  const lang = "en";
   switch (documentType) {
-    case 'post':
-      return slug ? `/${lang}/blog/${slug}/preview` : undefined;
+    case "post":
+      return slug ? `/${lang}/blog/${slug}` : undefined;
     default:
-      console.warn('Invalid document type:', documentType);
+      console.warn("Invalid document type:", documentType);
       return undefined;
   }
 }
