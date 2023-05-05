@@ -1,5 +1,6 @@
 import { defineField, defineType } from "sanity";
 import { baseLanguage } from "./locale";
+import { formatDate } from "@/utils/helpers";
 
 export default defineType({
   name: "post",
@@ -53,7 +54,7 @@ export default defineType({
     defineField({
       name: "intro",
       title: "Intro",
-      type: "localeBlockContent",
+      type: "localeBlockContentSimple",
     }),
     defineField({
       name: "content",
@@ -65,12 +66,12 @@ export default defineType({
   preview: {
     select: {
       title: baseLanguage ? `title.${baseLanguage.id}` : "title",
-      author: "author.name",
+      publishedAt: "publishedAt",
       media: "mainImage",
     },
-    // prepare(selection) {
-    //   const {author} = selection
-    //   return {...selection, subtitle: author && `by ${author}`}
-    // },
+    prepare(selection) {
+      const { publishedAt } = selection;
+      return { ...selection, subtitle: publishedAt && formatDate(publishedAt) };
+    },
   },
 });

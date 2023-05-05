@@ -1,3 +1,5 @@
+import { SanityImageAssetDocument } from "@sanity/client";
+
 export type LangType = "en" | "id";
 
 export interface FormMessageTypes {
@@ -19,7 +21,7 @@ export interface PostEntryProps {
   };
   slug: { current: string };
   publishedAt: string;
-  mainImageUrl?: string;
+  mainImage?: SanityImageAssetDocument;
   categories: { title: string; slug: { current: string } }[];
   format: { title: string };
 }
@@ -37,6 +39,10 @@ export interface PostProps extends PostEntryProps {
   // parent?: {
   //   modifiedTime?: string;
   // };
+  intro: {
+    en: any[];
+    id?: any[];
+  };
   content: {
     en: any[];
     id?: any[];

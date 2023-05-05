@@ -7,6 +7,7 @@ import FormSubmitButton from "./FormSubmitButton";
 import countries from "@/utils/countries";
 import { FormMessageTypes } from "@/types";
 import { timeZones } from "@/utils/timeZones";
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 interface Inputs {
   [key: string]: any;
@@ -276,12 +277,12 @@ export default function InviteForm() {
                 Date & Time are shown in{" "}
                 <span className="inline-block">
                   <label
-                    className="select-wrapper relative inline-block group"
+                    className="relative inline-flex items-center group"
                     htmlFor="timeZone"
                   >
                     <select
                       id="timeZone"
-                      className="inline-block bg-none p-0 absolute top-0 left-0 w-full h-full opacity-0 overflow-hidden whitespace-nowrap shadow-none peer"
+                      className="inline-block bg-none !p-0 absolute top-0 left-0 w-full h-full opacity-0 overflow-hidden whitespace-nowrap shadow-none peer"
                       {...register("timeZone", { required: true })}
                     >
                       {timeZones.map((tz) => (
@@ -293,7 +294,9 @@ export default function InviteForm() {
                     <span className="py-1 pr-5 pl-2 font-semibold transition-colors peer-focus:bg-dark-gray group-hover:bg-dark-gray">
                       {formatTZ(selectedTimeZone)}
                     </span>
-                    <div className="h-4 w-4 right-1"></div>
+                    <div className="absolute h-4 w-4 right-0 top-1/2 -translate-y-1/2 flex items-center justify-center">
+                      <ChevronDownIcon className="h-3 w-3" />
+                    </div>
                   </label>{" "}
                   timezone.
                 </span>

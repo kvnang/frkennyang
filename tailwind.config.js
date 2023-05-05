@@ -35,6 +35,7 @@ module.exports = {
       active: "var(--color-active)",
       accent: "var(--color-accent)",
       "off-white": "var(--offwhite)",
+      error: "var(--color-error)",
     },
     fontSize: {
       sm: "var(--font-size-sm)",

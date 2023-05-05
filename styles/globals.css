@@ -60,6 +60,12 @@
   --post-gap: 0.5rem;
   --menu-gap: 0.75rem;
   --menu-gap-v: 0.5rem;
+
+  /* Forms */
+  --form-field-gap: 0.5rem;
+  --radio-spacing-h: 0.75rem;
+  --input-radio-checkbox-size: 1.25em;
+  --input-radio-checkbox-gap: 0.5rem;
 }
 
 @screen sm {
@@ -123,9 +129,10 @@
   }
 }
 
-@import "./elements/skeleton.css";
-
 @layer utilities {
+  @import "./elements/skeleton.css";
+  @import "./elements/forms.css";
+
   .title-line {
     position: relative;
   }

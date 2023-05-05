@@ -11,7 +11,9 @@ import { TableOfContents } from "./TableOfContents";
 import { getDictionary } from "@/lib/dictionaries";
 import getYouTubeID from "get-youtube-id";
 
-export type FetchPostProps = Omit<PostProps, "content"> & {
+export type FetchPostProps = Omit<PostProps, "content" | "intro"> & {
+  introEn: any[];
+  introId: any[];
   contentEn: any[];
   contentId: any[];
 };
@@ -144,6 +146,10 @@ export function SinglePost({
 }) {
   const normalizedPost: PostProps = {
     ...post,
+    intro: {
+      en: post.introEn,
+      id: post.introId,
+    },
     content: {
       en: post.contentEn,
       id: post.contentId,
@@ -164,9 +170,25 @@ export function SinglePost({
     params.lang === "id" && normalizedPost.content.id
       ? normalizedPost.content.id
       : normalizedPost.content.en;
+  const intro =
+    params.lang === "id" && normalizedPost.intro.id
+      ? normalizedPost.intro.id
+      : normalizedPost.intro.en;
+
+  const dominantColor = post.mainImage?.metadata.palette?.dominant?.background;
 
   return (
-    <div className="pt-page mb-section">
+    <div className="pt-page mb-section relative z-0">
+      <div
+        className="absolute -z-10 h-64 lg:h-72 top-0 bg-gradient-to-b from-bg to-bg opacity-20 w-full left-0"
+        style={
+          {
+            "--tw-gradient-from": `${
+              dominantColor || "var(--color-accent)"
+            } var(--tw-gradient-from-position)`,
+          } as React.CSSProperties
+        }
+      />
       <section className="container">
         <div className="grid grid-cols-12 gap-x-4">
           <div className="col-span-full xl:col-span-10 xl:col-start-2 mb-section">
@@ -189,7 +211,7 @@ export function SinglePost({
                         <Link
                           key={category.title}
                           href={`/${params.lang}/blog/category/${category.slug.current}`}
-                          className="text-sm rounded-full px-3 py-1 bg-dark-gray m-1"
+                          className="text-sm rounded-full px-3 py-1 bg-dark-gray m-1 border border-darker-gray hover:bg-darker-gray"
                         >
                           {category.title}
                         </Link>
@@ -210,12 +232,11 @@ export function SinglePost({
             {/* <LangSwitcher vertical /> */}
             <div className="prose max-w-5xl" style={{ maxWidth: "none" }}>
               <h1 className="max-w-prose">{title}</h1>
-              <h3 className="max-w-prose font-normal">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                neque ratione aliquid, ut consequatur a libero officiis! Eum a
-                facilis repellat nesciunt neque eius autem quis. Voluptatum
-                voluptatibus culpa autem?
-              </h3>
+              {intro && (
+                <h3 className="max-w-prose font-normal">
+                  <PortableText value={intro}></PortableText>
+                </h3>
+              )}
             </div>
           </div>
           <div className="col-span-full lg:col-span-8 xl:col-span-7 xl:col-start-2">
@@ -238,10 +259,16 @@ export function SinglePost({
             </div>
           )} */}
             <main>
-              {post.mainImageUrl && (
+              {post.mainImage && (
                 <div className="mb-10">
                   <div className="relative w-full pb-[56.25%] overflow-hidden">
-                    <Image src={post.mainImageUrl} alt={title} fill />
+                    <Image
+                      src={post.mainImage.url}
+                      priority
+                      alt={title}
+                      fill
+                      sizes="(min-width: 1024px) 62vw, (min-width: 1280px) 56vw, (min-width: 1750px) 962px, 95vw"
+                    />
                   </div>
                 </div>
               )}
@@ -263,7 +290,7 @@ export function SinglePost({
             </main>
           </div>
           <div className="col-span-12 lg:col-span-4 xl:col-span-3">
-            <aside className="pl-8 ml-4 border-l border-l-gray sticky top-12">
+            <aside className="pl-8 ml-4 border-l border-l-medium-gray sticky top-12">
               <section className="mb-10 last:mb-0">
                 <TableOfContents
                   label={dictionary.blog.toc}
