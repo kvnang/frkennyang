@@ -1,18 +1,15 @@
-import React from 'react';
-import AboutFrKenny from './about-fr-kenny.md';
-import AboutWebsite from './about-website.md';
-import Image from 'next/image';
-import bioImage from '@/assets/images/frk-bio.jpg';
+import AboutFrKenny from "./about-fr-kenny.md";
+import AboutWebsite from "./about-website.md";
+import Image from "next/image";
+import bioImage from "@/assets/images/frk-bio.jpg";
+import { getMetadata } from "@/lib/metadata";
 
-// export function Head({ location: { pathname } }: HeadProps) {
-//   return (
-//     <SEO
-//       title="About"
-//       description="Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America."
-//       pathname={pathname}
-//     />
-//   );
-// }
+export const metadata = getMetadata({
+  pathname: "/about",
+  title: "About",
+  description:
+    "Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.",
+});
 
 const components = {
   h2: ({ children }: { children?: React.ReactNode }) => (

@@ -6,6 +6,44 @@ import { query } from "./query";
 import { SinglePost, type FetchPostProps } from "./SinglePost";
 import { draftMode } from "next/headers";
 import { Preview } from "./Preview";
+import { getMetadata } from "@/lib/metadata";
+
+async function getPost(slug: string) {
+  const posts = (await client.fetch(query, {
+    slug,
+  })) as FetchPostProps[];
+
+  const post = posts?.[0];
+
+  return post;
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: LangType; slug: string };
+}) {
+  const post = await getPost(params.slug);
+
+  if (!post) return {};
+
+  const title =
+    params.lang === "id" && post.title.id ? post.title.id : post.title.en;
+  const excerpt =
+    params.lang === "id" && post.excerpt.id ? post.excerpt.id : post.excerpt.en;
+
+  return getMetadata({
+    pathname: `/${params.lang}/blog/${params.slug}`,
+    title,
+    description: excerpt,
+    image: post.mainImage?.url
+      ? {
+          url: post.mainImage.url,
+          alt: title,
+        }
+      : undefined,
+  });
+}
 
 export default async function SinglePostPage({
   params,
@@ -25,30 +63,9 @@ export default async function SinglePostPage({
     );
   }
 
-  const posts = (await client.fetch(query, {
-    slug: params.slug,
-  })) as FetchPostProps[];
-
-  const post = posts[0];
+  const post = await getPost(params.slug);
 
   if (!post) return null;
 
   return <SinglePost post={post} params={params} dictionary={dictionary} />;
 }
-
-// export function Head({
-//   location: { pathname },
-//   data: { post },
-//   pageContext: { lang: pageLang },
-// }: HeadProps<DataProps, PageContextProps>) {
-//   return (
-//     <SEO
-//       title={post.frontmatter.title}
-//       description={
-//         post.frontmatter.excerpt ? post.frontmatter.excerpt : post.excerpt || ''
-//       }
-//       image={post.frontmatter.featuredImage?.publicURL}
-//       pathname={pathname}
-//     />
-//   );
-// }

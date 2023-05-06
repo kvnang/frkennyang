@@ -4,6 +4,7 @@ import { Playfair_Display, Montserrat } from "next/font/google";
 import "@/styles/globals.css";
 import "@/styles/main.scss";
 import type { LangType } from "@/types";
+import { defaultMetadata } from "@/lib/metadata";
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
@@ -19,10 +20,7 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 });
 
-export const metadata = {
-  title: "Fr. Kenny Ang",
-  description: `Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.`,
-};
+export const metadata = defaultMetadata;
 
 export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "id" }];

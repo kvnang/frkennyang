@@ -1,8 +1,15 @@
-import * as React from "react";
 import Image from "next/image";
 import cvImage from "@/assets/images/frk-cv.jpg";
 import CvContent from "./cv.md";
 import { Accordions } from "./Accordions";
+import { getMetadata } from "@/lib/metadata";
+
+export const metadata = getMetadata({
+  pathname: "/cv",
+  title: "Curriculum Vitae",
+  description:
+    "Fr. Kenny's online Curriculum Vitae features his biograhical data and educational history, as well as professional experience.",
+});
 
 export default function CvPage() {
   return (
@@ -37,28 +44,3 @@ export default function CvPage() {
     </main>
   );
 }
-
-// export function Head({ location: { pathname } }: HeadProps) {
-//   return (
-//     <SEO
-//       title="Curriculum Vitae"
-//       description="Fr. Kenny's online Curriculum Vitae features his biograhical data and educational history, as well as professional experience."
-//       pathname={pathname}
-//     />
-//   );
-// }
-
-// export const query = graphql`
-//   query {
-//     cv: markdownRemark(
-//       fields: { collection: { eq: "data" }, slug: { eq: "/cv/" } }
-//     ) {
-//       html
-//     }
-//     cvList: markdownRemark(
-//       fields: { collection: { eq: "data" }, slug: { eq: "/cvList/" } }
-//     ) {
-//       htmlAst
-//     }
-//   }
-// `;

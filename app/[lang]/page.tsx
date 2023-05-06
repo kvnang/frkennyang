@@ -7,22 +7,13 @@ import signature from "@/assets/images/frk-signature.svg";
 import contactImage from "@/assets/images/frk-contact.jpg";
 import { ButtonLink } from "@/components/Button";
 
-// export function Head({ location: { pathname } }: HeadProps) {
-//   return (
-//     <SEO
-//       title="A Catholic Priest serving the Universal Church"
-//       pathname={pathname}
-//     />
-//   );
-// }
-
 export default function HomePage() {
   return (
     <main>
       <div
         className="pt-5 flex items-end"
         style={{
-          background: `radial-gradient(63% 63% at 53% 37%, var(--dark-grey) 0%, var(--darker-gray) 56%)`,
+          background: `radial-gradient(63% 63% at 53% 37%, var(--dark-gray) 0%, var(--darker-gray) 56%)`,
         }}
       >
         <div className="container overflow-hidden">

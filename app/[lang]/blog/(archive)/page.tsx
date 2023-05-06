@@ -3,6 +3,31 @@ import client from "@/lib/sanity.client";
 import { PostEntry } from "@/components/PostEntry";
 import { BlogList } from "./BlogList";
 import { query, queryWithSearch } from "./query";
+import { getMetadata } from "@/lib/metadata";
+import { type LangType } from "@/types";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: LangType; category?: string };
+}) {
+  const category = params.category
+    ? await client.fetch(
+        `*[_type == "category" && slug.current == $slug] {
+      title
+    }[0]`,
+        {
+          slug: params.category,
+        }
+      )
+    : null;
+
+  return getMetadata({
+    title: category ? `${category.title} | Blog` : "Blog",
+    pathname: `/${params.lang}/blog`,
+    description: `Browse Fr. Kenny's latest works, available in both English and Bahasa Indonesia.`,
+  });
+}
 
 export default async function BlogPage({
   params,

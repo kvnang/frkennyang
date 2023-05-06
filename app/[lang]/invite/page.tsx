@@ -1,7 +1,14 @@
-import * as React from "react";
 import InviteForm from "@/components/InviteForm";
 import PageContent from "./invite.md";
 import PageContentId from "./invite.id.md";
+import { getMetadata } from "@/lib/metadata";
+
+export const metadata = getMetadata({
+  pathname: "/invite",
+  title: "Invite to Speak",
+  description:
+    "Fr. Kenny is open to invitation to speak at your event on dogmatic theology, faith, spirituality, and others. Fill out the online form to submit your request.",
+});
 
 export default function InvitePage({ params }: { params: { lang: string } }) {
   return (
@@ -21,13 +28,3 @@ export default function InvitePage({ params }: { params: { lang: string } }) {
     </main>
   );
 }
-
-// export function Head({ location: { pathname } }: HeadProps) {
-//   return (
-//     <SEO
-//       title="Invite to Speak"
-//       description="Fr. Kenny is open to invitation to speak at your event on dogmatic theology, faith, spirituality, and others. Fill out the online form to submit your request."
-//       pathname={pathname}
-//     />
-//   );
-// }
