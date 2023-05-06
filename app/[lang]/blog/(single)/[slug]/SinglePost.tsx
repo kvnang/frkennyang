@@ -233,9 +233,11 @@ export function SinglePost({
             <div className="prose max-w-5xl" style={{ maxWidth: "none" }}>
               <h1 className="max-w-prose">{title}</h1>
               {intro && (
-                <h3 className="max-w-prose font-normal">
-                  <PortableText value={intro}></PortableText>
-                </h3>
+                <div className="max-w-4xl">
+                  <div className="font-normal text-md">
+                    <PortableText value={intro}></PortableText>
+                  </div>
+                </div>
               )}
             </div>
           </div>

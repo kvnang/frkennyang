@@ -1,9 +1,8 @@
-import { defineCliConfig } from 'sanity/cli';
-import { projectId, dataset } from '@/lib/sanity.api';
+import { defineCliConfig } from "sanity/cli";
 
 export default defineCliConfig({
   api: {
-    projectId,
-    dataset,
+    projectId: "rpmhgo5d",
+    dataset: "production",
   },
 });
