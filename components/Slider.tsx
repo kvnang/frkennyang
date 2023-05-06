@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react';
-import smoothscroll from 'smoothscroll-polyfill';
-import { MdChevronRight, MdChevronLeft } from 'react-icons/md';
-import debounce from 'just-debounce-it';
+import React, { useEffect, useRef, useState } from "react";
+import smoothscroll from "smoothscroll-polyfill";
+import { MdChevronRight, MdChevronLeft } from "react-icons/md";
+import debounce from "just-debounce-it";
 
-if (typeof window !== 'undefined') {
+if (typeof window !== "undefined") {
   smoothscroll.polyfill();
 }
 
@@ -11,34 +11,36 @@ export function SlideArrow({
   direction,
   sliderInnerRef,
 }: {
-  direction: 'next' | 'prev';
+  direction: "next" | "prev";
   sliderInnerRef: HTMLUListElement | null;
 }) {
   const [disabled, setDisabled] = useState(false);
 
-  const updateArrowState = () => {
-    const sliderInner = sliderInnerRef;
+  const updateArrowState = React.useCallback(() => {
+    () => {
+      const sliderInner = sliderInnerRef;
 
-    if (!sliderInner) {
-      return;
-    }
+      if (!sliderInner) {
+        return;
+      }
 
-    const { scrollWidth, clientWidth, scrollLeft } = sliderInner;
-    const errorMargin = 5; // sometimes clientWidth + scrollLeft won't ever add up to scrollWidth
+      const { scrollWidth, clientWidth, scrollLeft } = sliderInner;
+      const errorMargin = 5; // sometimes clientWidth + scrollLeft won't ever add up to scrollWidth
 
-    const hasNext = scrollWidth - errorMargin > clientWidth + scrollLeft;
-    const hasPrev = scrollLeft > 0;
+      const hasNext = scrollWidth - errorMargin > clientWidth + scrollLeft;
+      const hasPrev = scrollLeft > 0;
 
-    if (direction === 'next') {
-      setDisabled(!hasNext);
-    }
+      if (direction === "next") {
+        setDisabled(!hasNext);
+      }
 
-    if (direction === 'prev') {
-      setDisabled(!hasPrev);
-    }
+      if (direction === "prev") {
+        setDisabled(!hasPrev);
+      }
 
-    sliderInner.classList.remove('is-scrolling-by-click');
-  };
+      sliderInner.classList.remove("is-scrolling-by-click");
+    };
+  }, [direction, sliderInnerRef]);
 
   const handleClick = () => {
     const sliderInner = sliderInnerRef;
@@ -47,7 +49,7 @@ export function SlideArrow({
       return;
     }
 
-    sliderInner.classList.add('is-scrolling-by-click');
+    sliderInner.classList.add("is-scrolling-by-click");
 
     const allSlides = sliderInner.children;
 
@@ -59,15 +61,15 @@ export function SlideArrow({
 
     const { scrollLeft } = sliderInner;
 
-    if (direction === 'next') {
+    if (direction === "next") {
       sliderInner.scrollTo({
         left: scrollLeft + allSlides[currentSlideIndex].clientWidth,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
-    } else if (direction === 'prev') {
+    } else if (direction === "prev") {
       sliderInner.scrollTo({
         left: scrollLeft - allSlides[previousSlideIndex].clientWidth,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
   };
@@ -78,42 +80,53 @@ export function SlideArrow({
   useEffect(() => {
     const sliderInner = sliderInnerRef;
 
-    sliderInner?.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', handleWindowResize);
+    sliderInner?.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleWindowResize);
 
     updateArrowState();
 
     return () => {
-      sliderInner?.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleWindowResize);
+      sliderInner?.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleWindowResize);
     };
-  }, [sliderInnerRef]);
+  }, [sliderInnerRef, handleScroll, handleWindowResize, updateArrowState]);
 
   useEffect(() => {
     const sliderInner = sliderInnerRef;
 
     return () => {
-      sliderInner?.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleWindowResize);
+      sliderInner?.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleWindowResize);
     };
-  }, []);
+  }, [handleScroll, handleWindowResize, sliderInnerRef]);
 
   return (
     <button
       type="button"
       onClick={handleClick}
       disabled={disabled}
-      className="slider__arrow"
-      aria-label={direction === 'next' ? 'Next' : 'Previous'}
+      className="text-[3rem] text-accent inline-flex items-center justify-center disabled:text-body disabled:opacity-25 disabled:pointer-events-none"
+      aria-label={direction === "next" ? "Next" : "Previous"}
     >
-      {direction === 'next' && <MdChevronRight />}
-      {direction === 'prev' && <MdChevronLeft />}
+      {direction === "next" && <MdChevronRight />}
+      {direction === "prev" && <MdChevronLeft />}
     </button>
   );
 }
 
 export function Slide({ children }: { children: React.ReactNode }) {
-  return <li className="slider__slide">{children}</li>;
+  return (
+    <li
+      className="slider__slide snap-center"
+      style={{
+        padding: `0 calc(var(--slider--slide-gap) * 0.5)`,
+        width: `var(--slider--slide-width)`,
+        minWidth: `var(--slider--slide-width)`,
+      }}
+    >
+      {children}
+    </li>
+  );
 }
 
 export function Slider({
@@ -121,26 +134,42 @@ export function Slider({
   setRef,
 }: {
   children: React.ReactNode;
-  setRef?: React.Dispatch<React.SetStateAction<HTMLUListElement | null>>;
+  setRef?: React.Dispatch<React.SetStateAction<HTMLDivElement | null>>;
 }) {
-  const ref = useRef<HTMLUListElement>(null);
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (ref.current && typeof setRef !== 'undefined') {
+    if (ref.current && typeof setRef !== "undefined") {
       setRef(ref.current);
     }
-  }, [ref]);
+  }, [ref, setRef]);
 
   return (
-    <div className="slider">
-      <div className="container">
-        <div className="row">
-          <div className="slider__col col">
-            <ul ref={ref} className="slider__inner">
-              {React.Children.map(children, (child, index) => (
-                <Slide>{child}</Slide>
-              ))}
-            </ul>
+    <div className="relative">
+      <div
+        ref={ref}
+        className="relative flex justify-center w-full max-w-full cursor-grab overflow-x-scroll overscroll-x-contain snap-mandatory"
+      >
+        <div className="container">
+          <div className="grid grid-cols-12 gap-x-4">
+            <div className="col-span-full lg:col-span-10 lg:col-start-2">
+              <ul
+                className="flex items-start"
+                style={{
+                  margin: "0 calc(var(--slider--slide-gap) * 0.5 * -1)",
+                }}
+              >
+                {React.Children.map(children, (child, index) => (
+                  <Slide>{child}</Slide>
+                ))}
+                <div
+                  className="self-stretch"
+                  style={{
+                    paddingInlineEnd: `max(var(--slider--slide-gap), (100vw - 100%) / 2 - var(--slider--slide-gap))`,
+                  }}
+                ></div>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

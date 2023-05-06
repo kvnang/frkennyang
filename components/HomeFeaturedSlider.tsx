@@ -6,7 +6,7 @@ import { PostEntry } from "./PostEntry";
 import { PostEntryProps } from "@/types";
 
 export function HomeFeaturedSlider({ posts }: { posts: any[] }) {
-  const [ref, setRef] = React.useState<HTMLUListElement | null>(null);
+  const [_, setRef] = React.useState<HTMLDivElement | null>(null);
 
   return (
     <div style={{}}>

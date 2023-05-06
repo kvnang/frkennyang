@@ -66,6 +66,10 @@
   --radio-spacing-h: 0.75rem;
   --input-radio-checkbox-size: 1.25em;
   --input-radio-checkbox-gap: 0.5rem;
+
+  /* Slider */
+  --slider--slide-width: 100%;
+  --slider--slide-gap: 1rem;
 }
 
 @screen sm {
@@ -84,6 +88,7 @@
     --font-size-h3: 1.563rem;
     --post-gap: 0.5rem;
     --container-padding: 2rem;
+    --slider--slide-width: 50%;
   }
 }
 
@@ -94,6 +99,7 @@
     --gutter: 20px;
     --container-width: 95vw;
     --container-padding: 2.5rem;
+    --slider--slide-width: 33.333%;
   }
 }
 
@@ -146,5 +152,14 @@
     left: -100%;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
   }
 }

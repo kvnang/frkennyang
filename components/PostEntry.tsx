@@ -1,7 +1,6 @@
 import * as React from "react";
 import { MdFormatAlignLeft, MdPlayArrow } from "react-icons/md";
-import { PostEntryProps } from "@/types";
-import { LangType } from "./LangContext";
+import type { PostEntryProps, LangType } from "@/types";
 import { formatDate } from "@/utils/helpers";
 import Image from "next/image";
 import placeholderImage from "@/assets/images/placeholder.jpg";
