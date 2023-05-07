@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, ResolvedMetadata } from "next";
 
 const protocol =
   process.env.NEXT_PUBLIC_URL || process.env.NEXT_PUBLIC_VERCEL_URL
@@ -37,23 +37,27 @@ export const defaultMetadata: Metadata = {
   metadataBase: baseUrl ? new URL(baseUrl) : undefined,
 };
 
-export const getMetadata = ({
-  pathname = "/",
-  title,
-  description,
-  image,
-}: {
-  pathname?: string;
-  title?: string;
-  description?: string;
-  image?: {
-    url: string;
-    alt?: string;
-  };
-}) => ({
+export const getMetadata = (
+  {
+    pathname = "/",
+    title,
+    description,
+    image,
+  }: {
+    pathname?: string;
+    title?: string;
+    description?: string;
+    image?: {
+      url: string;
+      alt?: string;
+    };
+  },
+  parent: ResolvedMetadata
+): Metadata => ({
   title,
   description,
   openGraph: {
+    ...parent.openGraph,
     title,
     description,
     url: pathname,
@@ -66,16 +70,21 @@ export const getMetadata = ({
             alt: image.alt,
           },
         ]
-      : undefined,
+      : parent.openGraph?.images,
   },
   twitter: {
-    url: pathname,
+    ...parent.twitter,
+    site: parent.twitter?.site || undefined,
+    siteId: parent.twitter?.siteId || undefined,
+    creator: parent.twitter?.creator || undefined,
+    creatorId: parent.twitter?.creatorId || undefined,
+    title,
     description,
     images: image
       ? {
           url: image.url,
           alt: "Fr. Kenny Ang",
         }
-      : undefined,
+      : parent.twitter?.images,
   },
 });

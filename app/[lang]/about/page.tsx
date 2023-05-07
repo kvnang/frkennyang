@@ -3,13 +3,23 @@ import AboutWebsite from "./about-website.md";
 import Image from "next/image";
 import bioImage from "@/assets/images/frk-bio.jpg";
 import { getMetadata } from "@/lib/metadata";
+import { type ResolvingMetadata } from "next";
+import { type LangType } from "@/types";
 
-export const metadata = getMetadata({
-  pathname: "/about",
-  title: "About",
-  description:
-    "Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.",
-});
+export async function generateMetadata(
+  { params }: { params: { lang: LangType } },
+  parent: ResolvingMetadata
+) {
+  return getMetadata(
+    {
+      title: "About",
+      pathname: "/about",
+      description:
+        "Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.",
+    },
+    await parent
+  );
+}
 
 const components = {
   h2: ({ children }: { children?: React.ReactNode }) => (

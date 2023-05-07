@@ -7,6 +7,7 @@ import { SinglePost, type FetchPostProps } from "./SinglePost";
 import { draftMode } from "next/headers";
 import { Preview } from "./Preview";
 import { getMetadata } from "@/lib/metadata";
+import { type ResolvingMetadata } from "next";
 
 async function getPost(slug: string) {
   const posts = (await client.fetch(query, {
@@ -18,31 +19,37 @@ async function getPost(slug: string) {
   return post;
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { lang: LangType; slug: string };
-}) {
+export async function generateMetadata(
+  {
+    params,
+  }: {
+    params: { lang: LangType; slug: string };
+  },
+  parent: ResolvingMetadata
+) {
   const post = await getPost(params.slug);
 
-  if (!post) return {};
+  if (!post) return getMetadata({}, await parent);
 
   const title =
     params.lang === "id" && post.title.id ? post.title.id : post.title.en;
   const excerpt =
     params.lang === "id" && post.excerpt.id ? post.excerpt.id : post.excerpt.en;
 
-  return getMetadata({
-    pathname: `/${params.lang}/blog/${params.slug}`,
-    title,
-    description: excerpt,
-    image: post.mainImage?.url
-      ? {
-          url: post.mainImage.url,
-          alt: title,
-        }
-      : undefined,
-  });
+  return getMetadata(
+    {
+      pathname: `/${params.lang}/blog/${params.slug}`,
+      title,
+      description: excerpt,
+      image: post.mainImage?.url
+        ? {
+            url: post.mainImage.url,
+            alt: title,
+          }
+        : undefined,
+    },
+    await parent
+  );
 }
 
 export default async function SinglePostPage({

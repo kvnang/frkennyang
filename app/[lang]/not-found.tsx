@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function NotFoundPage() {
   return (
@@ -21,13 +21,3 @@ export default function NotFoundPage() {
     </main>
   );
 }
-
-// export function Head({ location: { pathname } }: HeadProps) {
-//   return (
-//     <SEO
-//       title="404 Page Not Found"
-//       description="The page you are looking for does not exist."
-//       pathname={pathname}
-//     />
-//   );
-// }

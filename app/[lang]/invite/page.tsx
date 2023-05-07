@@ -2,13 +2,23 @@ import InviteForm from "@/components/InviteForm";
 import PageContent from "./invite.md";
 import PageContentId from "./invite.id.md";
 import { getMetadata } from "@/lib/metadata";
+import { type LangType } from "@/types";
+import { type ResolvingMetadata } from "next";
 
-export const metadata = getMetadata({
-  pathname: "/invite",
-  title: "Invite to Speak",
-  description:
-    "Fr. Kenny is open to invitation to speak at your event on dogmatic theology, faith, spirituality, and others. Fill out the online form to submit your request.",
-});
+export async function generateMetadata(
+  { params }: { params: { lang: LangType } },
+  parent: ResolvingMetadata
+) {
+  return getMetadata(
+    {
+      title: "Invite to Speak",
+      pathname: "/invite",
+      description:
+        "Fr. Kenny is open to invitation to speak at your event on dogmatic theology, faith, spirituality, and others. Fill out the online form to submit your request.",
+    },
+    await parent
+  );
+}
 
 export default function InvitePage({ params }: { params: { lang: string } }) {
   return (

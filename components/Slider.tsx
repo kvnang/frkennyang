@@ -148,7 +148,7 @@ export function Slider({
     <div className="relative">
       <div
         ref={ref}
-        className="relative flex justify-center w-full max-w-full cursor-grab overflow-x-scroll overscroll-x-contain snap-mandatory"
+        className="relative flex justify-center w-full max-w-full cursor-grab overflow-x-scroll overscroll-x-contain snap-mandatory no-scrollbar"
       >
         <div className="container">
           <div className="grid grid-cols-12 gap-x-4">

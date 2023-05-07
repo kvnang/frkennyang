@@ -5,12 +5,16 @@ import { BlogList } from "./BlogList";
 import { query, queryWithSearch } from "./query";
 import { getMetadata } from "@/lib/metadata";
 import { type LangType } from "@/types";
+import { type ResolvingMetadata } from "next";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { lang: LangType; category?: string };
-}) {
+export async function generateMetadata(
+  {
+    params,
+  }: {
+    params: { lang: LangType; category?: string };
+  },
+  parent: ResolvingMetadata
+) {
   const category = params.category
     ? await client.fetch(
         `*[_type == "category" && slug.current == $slug] {
@@ -22,11 +26,14 @@ export async function generateMetadata({
       )
     : null;
 
-  return getMetadata({
-    title: category ? `${category.title} | Blog` : "Blog",
-    pathname: `/${params.lang}/blog`,
-    description: `Browse Fr. Kenny's latest works, available in both English and Bahasa Indonesia.`,
-  });
+  return getMetadata(
+    {
+      title: category ? `${category.title} | Blog` : "Blog",
+      pathname: `/${params.lang}/blog`,
+      description: `Browse Fr. Kenny's latest works, available in both English and Bahasa Indonesia.`,
+    },
+    await parent
+  );
 }
 
 export default async function BlogPage({

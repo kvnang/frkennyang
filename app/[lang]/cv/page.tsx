@@ -3,13 +3,23 @@ import cvImage from "@/assets/images/frk-cv.jpg";
 import CvContent from "./cv.md";
 import { Accordions } from "./Accordions";
 import { getMetadata } from "@/lib/metadata";
+import { type LangType } from "@/types";
+import { type ResolvingMetadata } from "next";
 
-export const metadata = getMetadata({
-  pathname: "/cv",
-  title: "Curriculum Vitae",
-  description:
-    "Fr. Kenny's online Curriculum Vitae features his biograhical data and educational history, as well as professional experience.",
-});
+export async function generateMetadata(
+  { params }: { params: { lang: LangType } },
+  parent: ResolvingMetadata
+) {
+  return getMetadata(
+    {
+      title: "Curriculum Vitae",
+      pathname: "/cv",
+      description:
+        "Fr. Kenny's online Curriculum Vitae features his biograhical data and educational history, as well as professional experience.",
+    },
+    await parent
+  );
+}
 
 export default function CvPage() {
   return (
