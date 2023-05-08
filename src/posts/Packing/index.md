@@ -37,4 +37,6 @@ If you're preparing for a pilgrimage, it's important to pack wisely to ensure a 
 - sleeping mat
 	- [camping mat](https://shopee.co.id/product/79161787/1410240062?d_id=a799d&utm_content=34n1zeSxtLbfC5fATL7h9zMAu17u)
 	- [foldable mat](https://shopee.co.id/product/119157255/15445078544?d_id=a799d&utm_content=34n1zeSxtMg7q7jGwnVU9FuE1t5V)
-	- [sleeping pad](https://shopee.co.id/product/170734575/20667793623?d_id=a799d&utm_content=34n1zeSyWeMeuJ8xbEBYhNdJLtmM)
+	- [sleeping pad (with built-in pump)](https://shopee.co.id/product/170734575/20667793623?d_id=a799d&utm_content=34n1zeSyWeMeuJ8xbEBYhNdJLtmM)
+	- [sleeping pad (lighter and smaller, but without built-in pump)](https://shopee.co.id/product/28051852/5518960586?d_id=a799d&utm_content=34n1zeSxtLvKKfDxGF2Av7izU935)
+	- [small pump](https://shopee.co.id/POMPA-MATRAS-KASUR-ANGIN-NATUREHIKE-NH19Q033-D-INFLATABLE-AIR-BAG-WATERPROOF-BAG-AIR-PUMP-POMPA-ANGIN-MULTIFUNGSI-SLEEPING-PAD-i.66732651.2736771780?sp_atk=72aa8421-085f-4153-b1d9-bc51ccd0876b&xptdk=72aa8421-085f-4153-b1d9-bc51ccd0876b)
