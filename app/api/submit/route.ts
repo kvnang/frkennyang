@@ -1,6 +1,8 @@
-import { NextResponse } from 'next/server';
-import mailgun from 'mailgun-js';
-import { zonedTimeToUtc, utcToZonedTime, format } from 'date-fns-tz';
+import { NextResponse } from "next/server";
+import { zonedTimeToUtc, utcToZonedTime, format } from "date-fns-tz";
+import { submitLog } from "./log";
+
+export const runtime = "edge";
 
 interface MJMLResponseBodyProps {
   errors?: string[];
@@ -12,7 +14,7 @@ interface MJMLResponseBodyProps {
 }
 
 function toTitleCase(str: string) {
-  const result = str.replace(/([A-Z])/g, ' $1');
+  const result = str.replace(/([A-Z])/g, " $1");
   const finalResult = result.charAt(0).toUpperCase() + result.slice(1);
   return finalResult;
 }
@@ -22,39 +24,37 @@ export async function POST(request: Request) {
 
   if (!body) {
     return NextResponse.json(
-      { error: 'Form data is required' },
+      { error: "Form data is required" },
       { status: 400 }
     );
   }
 
   const mailgunApiKey = process.env.MAILGUN_API_KEY;
   const mailgunDomain = process.env.MAILGUN_DOMAIN;
-  const recipientEmail = process.env.RECIPIENT_EMAIL;
+  const recipientEmail =
+    process.env.NODE_ENV === "development"
+      ? "ka@kevinang.com"
+      : process.env.RECIPIENT_EMAIL;
 
   if (!mailgunApiKey || !mailgunDomain) {
     return NextResponse.json(
-      { error: 'Mailgun API is not configured' },
+      { error: "Mailgun API is not configured" },
       { status: 400 }
     );
   }
 
   if (!recipientEmail) {
     return NextResponse.json(
-      { error: 'Recipient Email not defined' },
+      { error: "Recipient Email not defined" },
       { status: 400 }
     );
   }
 
-  const mg = mailgun({
-    apiKey: mailgunApiKey,
-    domain: mailgunDomain,
-  });
-
-  const { 'form-name': formName, title, ...rawData } = body; // title is honeypot on both forms
+  const { "form-name": formName, title, ...rawData } = body; // title is honeypot on both forms
 
   if (!formName || title) {
     return NextResponse.json(
-      { error: 'Sorry ... beep bop ... this email cannot be sent.' },
+      { error: "Sorry ... beep bop ... this email cannot be sent." },
       { status: 400 }
     );
   }
@@ -62,10 +62,10 @@ export async function POST(request: Request) {
   // format dates
 
   if (!rawData || !Object.keys(rawData).length) {
-    return NextResponse.json({ error: 'No data to be sent' }, { status: 400 });
+    return NextResponse.json({ error: "No data to be sent" }, { status: 400 });
   }
 
-  const localTimeZone = 'Europe/Rome';
+  const localTimeZone = "Europe/Rome";
   let data: { [key: string]: any } = {};
 
   if (
@@ -85,17 +85,17 @@ export async function POST(request: Request) {
     const localStartDateUTC = utcToZonedTime(utcStartDate, localTimeZone);
     const localEndDateUTC = utcToZonedTime(utcEndDate, localTimeZone);
 
-    const localDate = format(localStartDateUTC, 'yyyy-MM-dd', {
+    const localDate = format(localStartDateUTC, "yyyy-MM-dd", {
       timeZone: localTimeZone,
     });
-    const localStartTime = format(localStartDateUTC, 'HH:mm', {
+    const localStartTime = format(localStartDateUTC, "HH:mm", {
       timeZone: localTimeZone,
     });
-    const localEndTime = format(localEndDateUTC, 'HH:mm', {
+    const localEndTime = format(localEndDateUTC, "HH:mm", {
       timeZone: localTimeZone,
     });
 
-    let localAlternateDate = '';
+    let localAlternateDate = "";
 
     if (rawData.alternateDate) {
       const utcAlternateDate = zonedTimeToUtc(
@@ -107,7 +107,7 @@ export async function POST(request: Request) {
         localTimeZone
       );
 
-      localAlternateDate = format(localAlternateDateUTC, 'yyyy-MM-dd', {
+      localAlternateDate = format(localAlternateDateUTC, "yyyy-MM-dd", {
         timeZone: localTimeZone,
       });
     }
@@ -124,17 +124,15 @@ export async function POST(request: Request) {
     data = rawData;
   }
 
-  // Log to Google Sheet
-  await fetch(new URL('/api/log', new URL(request.url).origin), {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      // id: body.id,
-      form_name: formName,
+  try {
+    await submitLog({
       data,
+      form_name: formName,
       created_at: new Date(),
-    }),
-  });
+    });
+  } catch (error) {
+    console.error(error);
+  }
 
   const mjml = `
   <mjml>
@@ -212,7 +210,7 @@ export async function POST(request: Request) {
                     data[key]
                   }</tr>`
               )
-              .join('\n')}
+              .join("\n")}
           </mj-table>
         </mj-column>
       </mj-section>
@@ -226,18 +224,18 @@ export async function POST(request: Request) {
   `;
 
   if (!process.env.MJML_APPLICATION_ID || !process.env.MJML_SECRET_KEY) {
-    console.log('MJML_APPLICATION_ID or MJML_SECRET_KEY not set');
+    console.log("MJML_APPLICATION_ID or MJML_SECRET_KEY not set");
   }
 
   try {
     const mjmlResponse: Response = await fetch(
-      'https://api.mjml.io/v1/render',
+      "https://api.mjml.io/v1/render",
       {
-        method: 'POST',
+        method: "POST",
         headers: {
           Authorization: `Basic ${Buffer.from(
             `${process.env.MJML_APPLICATION_ID}:${process.env.MJML_SECRET_KEY}`
-          ).toString('base64')}`,
+          ).toString("base64")}`,
         },
         body: JSON.stringify({ mjml }),
       }
@@ -248,14 +246,14 @@ export async function POST(request: Request) {
     const mailOptions: {
       from: string;
       to: string;
-      'h:Reply-To'?: string;
+      "h:Reply-To"?: string;
       subject: string;
       html?: string;
       text?: string;
     } = {
       from: `"Fr. Kenny Ang - Web Notification" <noreply@${process.env.MAILGUN_DOMAIN}>`,
       to: recipientEmail,
-      'h:Reply-To': data.email || '',
+      "h:Reply-To": data.email || "",
       subject: `New form submission: ${toTitleCase(formName)} Form`,
     };
 
@@ -265,20 +263,24 @@ export async function POST(request: Request) {
       console.error(htmlOutput.message);
       mailOptions.text = `${Object.keys(data)
         .map((key) => `${key}: ${data[key]}`)
-        .join('\n')}`;
+        .join("\n")}`;
     }
 
-    mg.messages().send(mailOptions, (error, body) => {
-      if (error) {
-        console.log(error);
-      } else {
-        console.log(body);
+    const res = await fetch(
+      `https://api.mailgun.net/v3/${mailgunDomain}/messages`,
+      {
+        method: "POST",
+        headers: {
+          Authorization: "Basic " + btoa("api:" + mailgunApiKey),
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams(mailOptions).toString(),
       }
-    });
+    );
+
+    return NextResponse.json({ success: res.ok });
   } catch (e) {
     console.log(e);
     throw new Error(`MJML / Mailgun API Error ${e}`);
-  } finally {
-    return NextResponse.json({ success: true });
   }
 }

@@ -9,7 +9,6 @@ const host =
   process.env.NEXT_PUBLIC_VERCEL_URL ||
   "localhost:3000";
 const baseUrl = `${protocol}://${host}`;
-
 const defaultDescription =
   "Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.";
 
@@ -70,7 +69,20 @@ export const getMetadata = (
             alt: image.alt,
           },
         ]
-      : parent.openGraph?.images,
+      : parent.openGraph?.images?.filter((i) => {
+          // URL must be URL object or string
+          if (typeof i === "string" || i instanceof URL) {
+            return true;
+          }
+
+          if (!i.url) {
+            return false;
+          }
+          if (typeof i.url !== "string" && !(i.url instanceof URL)) {
+            return false;
+          }
+          return true;
+        }),
   },
   twitter: {
     ...parent.twitter,
@@ -85,6 +97,16 @@ export const getMetadata = (
           url: image.url,
           alt: "Fr. Kenny Ang",
         }
-      : parent.twitter?.images,
+      : parent.twitter?.images?.filter((i) => {
+          // URL must be URL object or string
+          if (!i.url) {
+            return false;
+          }
+          if (typeof i.url !== "string" && !(i.url instanceof URL)) {
+            return false;
+          }
+          return true;
+        }),
   },
+  metadataBase: baseUrl ? new URL(baseUrl) : undefined,
 });
