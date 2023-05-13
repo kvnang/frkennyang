@@ -3,7 +3,7 @@
 import * as React from "react";
 import { PostEntry } from "@/components/PostEntry";
 import type { PostEntryProps } from "@/types";
-import client from "@/lib/sanity.client";
+import { clientFetch } from "@/lib/sanity.client";
 import { query, queryWithSearch } from "./query";
 import { Button } from "@/components/Button";
 
@@ -40,14 +40,14 @@ export function BlogList({
     }
 
     const results = q
-      ? await client.fetch(queryWithSearch, {
+      ? await clientFetch(queryWithSearch, {
           searchQuery: q,
           category: params.category || "",
           lastScore: lastScoreRef.current,
           lastId: lastIdRef.current,
           perPage: 9,
         })
-      : await client.fetch(query, {
+      : await clientFetch(query, {
           category: params.category || "",
           lastPublishedAt: lastPublishedAtRef.current,
           lastId: lastIdRef.current,

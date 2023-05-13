@@ -1,5 +1,5 @@
 import * as React from "react";
-import client from "@/lib/sanity.client";
+import { clientFetch } from "@/lib/sanity.client";
 import { Categories } from "./Categories";
 import { LangType } from "@/types";
 import { Search } from "./Search";
@@ -11,7 +11,7 @@ export default async function BlogLayout({
   children: React.ReactNode;
   params: { lang: LangType };
 }) {
-  const categories = await client.fetch(`
+  const categories = await clientFetch(`
   *[_type == "category"] {
     _id, 
     title, 

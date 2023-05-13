@@ -1,5 +1,5 @@
 import * as React from "react";
-import client from "@/lib/sanity.client";
+import { clientFetch } from "@/lib/sanity.client";
 import { PostEntry } from "@/components/PostEntry";
 import { BlogList } from "./BlogList";
 import { query, queryWithSearch } from "./query";
@@ -16,7 +16,7 @@ export async function generateMetadata(
   parent: ResolvingMetadata
 ) {
   const category = params.category
-    ? await client.fetch(
+    ? await clientFetch(
         `*[_type == "category" && slug.current == $slug] {
       title
     }[0]`,
@@ -47,14 +47,14 @@ export default async function BlogPage({
   const q = searchParams.q || "";
 
   const posts = q
-    ? await client.fetch(queryWithSearch, {
+    ? await clientFetch(queryWithSearch, {
         searchQuery: q,
         category,
         lastScore: null,
         lastId: null,
         perPage: 10,
       })
-    : await client.fetch(query, {
+    : await clientFetch(query, {
         category,
         lastPublishedAt: null,
         lastId: null,
@@ -78,11 +78,13 @@ export default async function BlogPage({
       </div>
       {recentPosts.length > 0 && (
         <div>
-          <BlogList
-            params={params}
-            searchParams={searchParams}
-            initialData={recentPosts}
-          />
+          <React.Suspense fallback={null}>
+            <BlogList
+              params={params}
+              searchParams={searchParams}
+              initialData={recentPosts}
+            />
+          </React.Suspense>
         </div>
       )}
     </>

@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { LangType } from "@/types";
-import client from "@/lib/sanity.client";
+import { clientFetch } from "@/lib/sanity.client";
 import { getDictionary } from "@/lib/dictionaries";
 import { query } from "./query";
 import { SinglePost, type FetchPostProps } from "./SinglePost";
@@ -10,7 +10,7 @@ import { getMetadata } from "@/lib/metadata";
 import { type ResolvingMetadata } from "next";
 
 async function getPost(slug: string) {
-  const posts = (await client.fetch(query, {
+  const posts = (await clientFetch(query, {
     slug,
   })) as FetchPostProps[];
 

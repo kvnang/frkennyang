@@ -294,13 +294,13 @@ export function SinglePost({
           <div className="col-span-12 lg:col-span-4 xl:col-span-3 mb-section lg:mb-0">
             <aside className="flex lg:pl-8 lg:ml-4 lg:border-l lg:border-l-medium-gray lg:sticky lg:top-12">
               <div className="flex-1 flex flex-wrap -my-4 -mx-2">
-                <section className="py-4 px-2 basis-full xs:flex-1 lg:basis-full">
+                <section className="py-4 px-2 basis-full xs:flex-1 lg:basis-full empty:hidden">
                   <TableOfContents
                     label={dictionary.blog.toc}
                     content={content}
                   />
                 </section>
-                <section className="py-4 px-2 lg:basis-full">
+                <section className="py-4 px-2 lg:basis-full empty:hidden">
                   <SocialShare
                     title={title}
                     url={`/${params.lang}/blog/${post.slug}`}

@@ -40,6 +40,8 @@ export function TableOfContents({
     return acc;
   }, [] as HeadingBlock[]);
 
+  if (!groupedHeadings.length) return null;
+
   return (
     <div className="w-full">
       <TableOfContentsInner label={label} headings={groupedHeadings} />

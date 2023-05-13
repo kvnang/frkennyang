@@ -1,10 +1,10 @@
-import client from "@/lib/sanity.client";
+import { clientFetch } from "@/lib/sanity.client";
 import { HomeFeaturedSlider } from "./HomeFeaturedSlider";
 import { ButtonLink } from "./Button";
 
 export async function HomeFeatured() {
   // Fetch data from Sanity, for posts that have featured image
-  const posts = await client.fetch(`
+  const posts = await clientFetch(`
     *[_type == "post" && mainImage != null] | order(publishedAt desc) {
       _id, title, slug, excerpt, publishedAt, format->{title}, categories[]->{title}, excerpt, "mainImage": mainImage.asset->
     }[0...8]
