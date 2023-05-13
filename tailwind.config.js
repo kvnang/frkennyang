@@ -3,10 +3,12 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     container: {
       center: true,
@@ -75,6 +77,8 @@ module.exports = {
             "--tw-prose-quotes": "var(--color-p)",
             "--tw-prose-quote-borders": "var(--medium-gray)",
             a: {
+              textDecorationColor: theme("colors.accent"),
+              textUnderlineOffset: "0.25em",
               "&:hover": {
                 color: theme("colors.accent"),
               },

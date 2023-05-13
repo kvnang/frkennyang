@@ -4,6 +4,7 @@ import { Playfair_Display, Montserrat } from "next/font/google";
 import "@/styles/globals.css";
 import type { LangType } from "@/types";
 import { defaultMetadata } from "@/lib/metadata";
+import { Toaster } from "react-hot-toast";
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
@@ -46,13 +47,12 @@ export default function RootLayout({
         /> */}
       </head>
       <body className="font-sans antialiased text-body bg-bg">
-        <div className="">
-          <div className="bg-bg flex flex-col min-h-screen">
-            <Header params={params} />
-            <div className="flex-1">{children}</div>
-            <Footer params={params} />
-          </div>
+        <div className="bg-bg flex flex-col min-h-screen">
+          <Header params={params} />
+          <div className="flex-1">{children}</div>
+          <Footer params={params} />
         </div>
+        <Toaster toastOptions={{}} />
       </body>
     </html>
   );

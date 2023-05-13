@@ -23,8 +23,8 @@ export function LanguageSwitcherInner({
 
   return (
     <Menu className="relative" as="div">
-      <Menu.Button className="rounded-full p-1 flex hover:bg-medium-gray transition-colors">
-        <GlobeAltIcon className="w-5 h-5" title="Change Language" />
+      <Menu.Button className="w-12 h-12 flex items-center justify-center rounded-full hover:bg-medium-gray transition-colors">
+        <GlobeAltIcon className="w-6 h-6" title="Change Language" />
       </Menu.Button>
       <Transition
         enter="transition duration-100 ease-out"
@@ -39,7 +39,7 @@ export function LanguageSwitcherInner({
             {({ active }) => (
               <Link
                 className={clsx(
-                  `flex items-center px-4 py-1.5 whitespace-nowrap transition-colors`,
+                  `flex items-center px-4 py-2 whitespace-nowrap transition-colors`,
                   active ? "bg-medium-gray" : ""
                 )}
                 href={
@@ -65,7 +65,7 @@ export function LanguageSwitcherInner({
           <Menu.Item>
             {({ active }) => (
               <Link
-                className={`flex items-center px-4 py-1.5 whitespace-nowrap transition-colors ${
+                className={`flex items-center px-4 py-2 whitespace-nowrap transition-colors ${
                   active ? "bg-medium-gray" : ""
                 }`}
                 href={

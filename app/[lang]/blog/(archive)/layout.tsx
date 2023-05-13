@@ -12,13 +12,13 @@ export default async function BlogLayout({
   params: { lang: LangType };
 }) {
   const categories = await clientFetch(`
-  *[_type == "category"] {
-    _id, 
-    title, 
-    slug,
-    "count": count(*[_type == "post" && references(^._id)])
-  } | order(count desc) [0...5]
-`);
+    *[_type == "category"] {
+      _id,
+      title,
+      slug,
+      "count": count(*[_type == "post" && references(^._id)])
+    } | order(count desc) [0...5]
+  `);
 
   return (
     <main>
@@ -32,7 +32,7 @@ export default async function BlogLayout({
                     <Categories categories={categories} params={params} />
                   </React.Suspense>
                 </div>
-                <div className="p-2 max-w-full">
+                <div className="p-2 basis-full max-w-full sm:basis-auto">
                   <React.Suspense fallback={null}>
                     <Search params={params} />
                   </React.Suspense>

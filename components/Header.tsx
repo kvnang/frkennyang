@@ -50,7 +50,7 @@ export default function Header({ params }: { params: { lang: LangType } }) {
             <nav className="hidden lg:flex w-full justify-end">
               <Menu params={params} />
             </nav>
-            <div className="ml-6">
+            <div className="ml-6 mr-4 lg:mr-0">
               <LanguageSwitcher params={params} />
             </div>
             <div className="flex items-center lg:hidden relative z-30">

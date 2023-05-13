@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { PostEntry } from "@/components/PostEntry";
+import { PostEntry, PostEntrySkeleton } from "@/components/PostEntry";
 import type { LangType, PostEntryProps } from "@/types";
 import { clientFetch } from "@/lib/sanity.client";
 import { query, queryWithSearch } from "./query";
@@ -14,11 +14,11 @@ export function BlogList({
   lang,
 }: {
   params: { category?: string };
-  searchParams: { q?: string };
+  searchParams?: { q?: string };
   initialData?: PostEntryProps[];
   lang: LangType;
 }) {
-  const q = searchParams.q || "";
+  const q = searchParams?.q || "";
 
   const lastIdRef = React.useRef(
     !!initialData?.length ? initialData[initialData.length - 1]._id : null
@@ -90,6 +90,18 @@ export function BlogList({
           <Button onClick={handleLoadMoreClick}>Load More</Button>
         </div>
       )}
+    </div>
+  );
+}
+
+export function BlogListSkeleton() {
+  return (
+    <div className="grid md:grid-cols-3 gap-x-4 gap-y-8">
+      {[...Array(9)].map((_, i) => (
+        <div key={i}>
+          <PostEntrySkeleton showImage />
+        </div>
+      ))}
     </div>
   );
 }

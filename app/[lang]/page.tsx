@@ -38,7 +38,7 @@ export default function HomePage({ params }: { params: { lang: LangType } }) {
                       Check them out!
                     </p>
                   </div>
-                  <div className="flex flex-wrap -mx-4 -my-3 max-w-[80%] md:max-w-none">
+                  <div className="flex flex-wrap -mx-4 -my-3 max-w-[90%] md:max-w-none">
                     <div className="mx-4 my-3">
                       <ButtonLink href="/about" className="button">
                         Read My Bio
@@ -53,7 +53,7 @@ export default function HomePage({ params }: { params: { lang: LangType } }) {
                 </div>
               </div>
               <div className="col-span-12 md:col-span-4 md:col-start-9 xl:col-span-3 xl:col-start-9">
-                <div className="h-full flex justify-end items-end -mt-8 md:mt-0">
+                <div className="h-[calc(100%+2rem)] flex justify-end items-end -mt-8 md:h-full md:mt-0">
                   <div className="w-3/5 -mr-[20%] md:w-[130%] md:-mr-[30%] lg:mr-0 lg:w-full">
                     <Image
                       src={heroImage}

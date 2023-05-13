@@ -70,7 +70,7 @@ export function TableOfContentsInner({
       <h2 className="text-base font-bold mb-4 hidden lg:block">{label}</h2>
       <button
         type="button"
-        className="flex items-center justify-between py-2 px-4 bg-dark-gray w-full lg:hidden text-left"
+        className="flex items-center justify-between py-3 px-4 bg-dark-gray w-full lg:hidden text-left"
         onClick={() => setIsToggled(!isToggled)}
       >
         {label}

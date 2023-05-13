@@ -64,7 +64,7 @@ export const TwitterIcon = ({ className }: { className?: string }) => (
   <svg
     stroke="currentColor"
     fill="currentColor"
-    stroke-width="0"
+    strokeWidth="0"
     viewBox="0 0 512 512"
     className={className || ""}
     height="1em"
@@ -79,7 +79,7 @@ export const LinkedinIcon = ({ className }: { className?: string }) => (
   <svg
     stroke="currentColor"
     fill="currentColor"
-    stroke-width="0"
+    strokeWidth="0"
     viewBox="0 0 448 512"
     className={className || ""}
     height="1em"

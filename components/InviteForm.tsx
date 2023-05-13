@@ -1,13 +1,13 @@
 "use client";
 
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
-import { SnackbarContext } from "./SnackbarContext";
 import FormSubmitButton from "./FormSubmitButton";
 import countries from "@/utils/countries";
 import { FormMessageTypes } from "@/types";
 import { timeZones } from "@/utils/timeZones";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
+import { toast } from "react-hot-toast";
 
 interface Inputs {
   [key: string]: any;
@@ -146,17 +146,13 @@ export default function InviteForm() {
       .then(() => setLoading(false));
   };
 
-  const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
-
   useEffect(() => {
     if (formMessage.open) {
       if (formMessage.status === "error") {
-        addSnackbar(formMessage.message, formMessage.status);
+        toast.error(formMessage.message || "Error sending message");
       }
-    } else {
-      removeSnackbar();
     }
-  }, [formMessage, addSnackbar, removeSnackbar]);
+  }, [formMessage]);
 
   useEffect(() => {
     setValue(

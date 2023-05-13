@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { type FormMessageTypes } from "@/types";
 import FormSubmitButton from "./FormSubmitButton";
-import { SnackbarContext } from "./SnackbarContext";
+import { toast } from "react-hot-toast";
 
 interface Inputs {
   [key: string]: string | undefined;
@@ -48,18 +48,6 @@ export default function ContactForm() {
     }
   }
 
-  // Netlify Forms Functions
-
-  // Encode data
-  // function encode(data: Inputs) {
-  //   return Object.keys(data)
-  //     .map(
-  //       (key) =>
-  //         `${encodeURIComponent(key)}=${encodeURIComponent(data[key] || '')}`
-  //     )
-  //     .join('&');
-  // }
-
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     setLoading(true);
 
@@ -76,15 +64,16 @@ export default function ContactForm() {
       .then(() => setLoading(false));
   };
 
-  const { addSnackbar, removeSnackbar } = useContext(SnackbarContext);
-
   useEffect(() => {
     if (formMessage.open) {
-      addSnackbar(formMessage.message, formMessage.status);
-    } else {
-      removeSnackbar();
+      if (formMessage.status === "success") {
+        toast.success(formMessage.message || "Message sent!");
+      }
+      if (formMessage.status === "error") {
+        toast.error(formMessage.message || "Error sending message!");
+      }
     }
-  }, [formMessage, addSnackbar, removeSnackbar]);
+  }, [formMessage]);
 
   return (
     <div>

@@ -7,6 +7,7 @@ import Link from "next/link";
 
 interface SkeletonProps {
   showImage?: boolean;
+  showExcerpt?: boolean;
   format?: "default" | "list" | "featured";
 }
 
@@ -75,11 +76,11 @@ export function PostEntry({
           </div>
         )}
         <div className="flex-1">
-          <p className="mb-2 opacity-80">
+          <p className="mb-1 opacity-80">
             <small>{meta.join(" ∙ ")}</small>
           </p>
           <h3
-            className={`font-semibold mb-[0.5em] last:mb-0 ${
+            className={`font-semibold mb-[0.25em] last:mb-0 ${
               format === "featured" ? "text-lg" : "text-md"
             }`}
           >
@@ -103,7 +104,7 @@ export function PostEntry({
                 overflow: "hidden",
               }}
             >
-              <p>{post.excerpt.en || ""}</p>
+              <p className="opacity-80">{post.excerpt.en || ""}</p>
             </div>
           )}
         </div>
@@ -114,44 +115,53 @@ export function PostEntry({
 
 export function PostEntrySkeleton({
   showImage = true,
+  showExcerpt,
   format = "default",
 }: SkeletonProps) {
   return (
     <article>
       <div
         className={`relative z-0 flex group ${
-          format === "list" ? "" : "flex-col"
+          format === "list" || format === "featured"
+            ? "flex-col md:flex-row"
+            : "flex-col"
         }`}
       >
         {showImage && (
           <div
             className={`${
               format === "list" ? "order-1 w-24 md:w-48 shrink-0 ml-6" : "mb-4"
+            } ${
+              format === "featured"
+                ? "w-full md:w-[32rem] md:max-w-[50%] shrink-0 md:mr-10"
+                : ""
             }`}
           >
-            <div className="skeleton-bg" />
+            <div className="w-full h-0 relative pb-[56.25%] z-0 group-hover:shadow-md transition-all skeleton-bg" />
           </div>
         )}
         <div className="flex-1">
+          <p className="mb-1 opacity-80">
+            <small className="block w-24 max-w-full skeleton-bg">&nbsp;</small>
+          </p>
           <h3
-            className={`text-md font-semibold mb-[0.5em] skeleton-bg ${
+            className={`text-md font-semibold mb-[0.5em] w-96 max-w-full skeleton-bg ${
               format === "featured" ? "text-lg" : "text-md"
             }`}
           >
             &nbsp;
           </h3>
-          <div
-            className={`mb-[0.5em] ${
-              format === "list" ? "max-md:hidden" : ""
-            } skeleton-bg`}
-          >
-            &nbsp;
-            <br />
-            &nbsp;
-          </div>
-          <p className="skeleton-bg w-1/2">
-            <small>&nbsp;</small>
-          </p>
+          {showExcerpt && (
+            <div
+              className={`mb-[0.5em] ${
+                format === "list" ? "max-md:hidden" : ""
+              }`}
+            >
+              <p className="skeleton-bg mb-0.5 w-full">&nbsp;</p>
+              <p className="skeleton-bg mb-0.5 w-full">&nbsp;</p>
+              <p className="skeleton-bg mb-0.5 w-2/3">&nbsp;</p>
+            </div>
+          )}
         </div>
       </div>
     </article>
