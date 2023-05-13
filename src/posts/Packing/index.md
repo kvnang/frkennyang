@@ -19,6 +19,8 @@ If you're preparing for a pilgrimage, it's important to pack wisely to ensure a 
 - [travel cutlery set](https://shopee.co.id/portable-chopstik-sendok-garpu-set-i.9981002.13132105618?sp_atk=8b3fa55a-f8fa-4fba-a86a-8364aa0d1d89&xptdk=8b3fa55a-f8fa-4fba-a86a-8364aa0d1d89)
 - pants (convertible/zip-off)
 	- [men](https://www.columbiasportswear.id/collections/mens-convertible-pant/products/mens-blood-and-guts-iii-conv)
+	- [women](https://shopee.co.id/product/6004878/10442216866?d_id=095e6&utm_content=34n1zeSyUS1rKS2dUuLhyNfTh2TR)
+	- [unisex](https://shopee.co.id/product/619065541/15348881850?d_id=095e6&utm_content=34n1zeSyUS3rG6qeFHacfWJnVG95)
 - [earplugs](https://shopee.co.id/Penutup-Telinga-Ear-Plug-Pelindung-Penyumbat-Kuping-Peredam-Suara-Safety-EarPlug-i.436088651.16866689277?sp_atk=03dbc0df-3067-4afe-b83b-7c046dee9672&xptdk=03dbc0df-3067-4afe-b83b-7c046dee9672)
 - sunscreen SPF50
 	- [Cerave](https://shopee.co.id/CeraVe-Hydrating-Mineral-Sunscreen-Face-Lotion-SPF-30-75-ML-i.27668873.20616149362?sp_atk=26eb616a-d5e2-48be-bc51-372759e0cd2b&xptdk=26eb616a-d5e2-48be-bc51-372759e0cd2b)
@@ -35,5 +37,6 @@ If you're preparing for a pilgrimage, it's important to pack wisely to ensure a 
 - sleeping mat
 	- [camping mat](https://shopee.co.id/product/79161787/1410240062?d_id=a799d&utm_content=34n1zeSxtLbfC5fATL7h9zMAu17u)
 	- [foldable mat](https://shopee.co.id/product/119157255/15445078544?d_id=a799d&utm_content=34n1zeSxtMg7q7jGwnVU9FuE1t5V)
-	- [sleeping pad](https://shopee.co.id/product/28051852/5518960586?d_id=a799d&utm_content=34n1zeSxtLvKKfDxGF2Av7izU935)
-	- [inflatable mattress](https://shopee.co.id/product/66732651/2736771780?d_id=a799d&utm_content=34n1zeSxtMRNkgW43xUPpACLrWR5)
+	- [sleeping pad (with built-in pump)](https://shopee.co.id/product/170734575/20667793623?d_id=a799d&utm_content=34n1zeSyWeMeuJ8xbEBYhNdJLtmM)
+	- [sleeping pad (lighter and smaller, but without built-in pump)](https://shopee.co.id/product/28051852/5518960586?d_id=a799d&utm_content=34n1zeSxtLvKKfDxGF2Av7izU935)
+	- [small pump](https://shopee.co.id/POMPA-MATRAS-KASUR-ANGIN-NATUREHIKE-NH19Q033-D-INFLATABLE-AIR-BAG-WATERPROOF-BAG-AIR-PUMP-POMPA-ANGIN-MULTIFUNGSI-SLEEPING-PAD-i.66732651.2736771780?sp_atk=72aa8421-085f-4153-b1d9-bc51ccd0876b&xptdk=72aa8421-085f-4153-b1d9-bc51ccd0876b)

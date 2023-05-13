@@ -12,7 +12,7 @@ excerpt: This is a guide for my World Youth Day 2023 Pilgrimage group.
 - Prepare yourself with [this guide](/post/pilgrim-prep/)
 - Download our [Packing List](https://drive.google.com/file/d/1fOrdZOxcSaumpO23C7yQRYQn1n6zlS3O/view?usp=sharing)
   - [Recommended Products](/post/packing/)
-- Download our [Choir Book](https://drive.google.com/file/d/1XVzUoAE01rkFNcrUScNY7zFLEHllhIRJ/view?usp=sharing)
+- Download our [Choir Book](https://drive.google.com/file/d/1NWL_y4z82QjA61W-3UmJ0_C0ar_Sivs1/view?usp=sharing)
 - Learn our [Mass Songs](https://youtube.com/playlist?list=PL7SL2Bxc7Yp_VT9B_ZVoVW1bamP84xjrS)
 
 ## Rome
