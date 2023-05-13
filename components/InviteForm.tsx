@@ -159,7 +159,7 @@ export default function InviteForm() {
       "timeZone",
       Intl.DateTimeFormat().resolvedOptions().timeZone || defaultTimeZone
     );
-  }, []);
+  }, [setValue]);
 
   const validateIfInPersonEvent = (value: any) => {
     if (!value && getValues("eventLocation") !== "online") {
