@@ -6,8 +6,9 @@ import heroImage from "@/assets/images/frk-halfbody.png";
 import signature from "@/assets/images/frk-signature.svg";
 import contactImage from "@/assets/images/frk-contact.jpg";
 import { ButtonLink } from "@/components/Button";
+import type { LangType } from "@/types";
 
-export default function HomePage() {
+export default function HomePage({ params }: { params: { lang: LangType } }) {
   return (
     <main>
       <div
@@ -73,7 +74,7 @@ export default function HomePage() {
         </div>
       </div>
       {/* @ts-expect-error */}
-      <HomeFeatured />
+      <HomeFeatured lang={params.lang} />
       <div id="contact" className="xl:bg-off-white">
         <div className="container">
           <div className="relative z-0">

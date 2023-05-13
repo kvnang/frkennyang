@@ -1,14 +1,8 @@
 import type { Metadata, ResolvedMetadata } from "next";
+import { BASE_URL } from "./constants";
 
-const protocol =
-  process.env.NEXT_PUBLIC_URL || process.env.NEXT_PUBLIC_VERCEL_URL
-    ? "https"
-    : "http";
-const host =
-  process.env.NEXT_PUBLIC_URL ||
-  process.env.NEXT_PUBLIC_VERCEL_URL ||
-  "localhost:3000";
-const baseUrl = `${protocol}://${host}`;
+const baseUrl = BASE_URL;
+
 const defaultDescription =
   "Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.";
 

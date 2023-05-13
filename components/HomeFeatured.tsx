@@ -1,8 +1,9 @@
 import { clientFetch } from "@/lib/sanity.client";
 import { HomeFeaturedSlider } from "./HomeFeaturedSlider";
 import { ButtonLink } from "./Button";
+import type { LangType } from "@/types";
 
-export async function HomeFeatured() {
+export async function HomeFeatured({ lang }: { lang: LangType }) {
   // Fetch data from Sanity, for posts that have featured image
   const posts = await clientFetch(`
     *[_type == "post" && mainImage != null] | order(publishedAt desc) {
@@ -39,7 +40,7 @@ export async function HomeFeatured() {
         </div>
       </div>
       <div className="mt-10">
-        <HomeFeaturedSlider posts={posts} />
+        <HomeFeaturedSlider posts={posts} lang={lang} />
       </div>
     </section>
   );

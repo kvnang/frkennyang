@@ -3,16 +3,28 @@
 import * as React from "react";
 import { Slider } from "./Slider";
 import { PostEntry } from "./PostEntry";
-import { PostEntryProps } from "@/types";
+import type { LangType, PostEntryProps } from "@/types";
 
-export function HomeFeaturedSlider({ posts }: { posts: any[] }) {
+export function HomeFeaturedSlider({
+  posts,
+  lang,
+}: {
+  posts: PostEntryProps[];
+  lang: LangType;
+}) {
   const [_, setRef] = React.useState<HTMLDivElement | null>(null);
 
   return (
     <div style={{}}>
       <Slider setRef={setRef}>
         {posts.map((post: PostEntryProps) => (
-          <PostEntry key={post._id} post={post} showImage showExcerpt />
+          <PostEntry
+            key={post._id}
+            post={post}
+            showImage
+            showExcerpt
+            lang={lang}
+          />
         ))}
       </Slider>
     </div>

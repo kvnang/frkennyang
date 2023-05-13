@@ -175,8 +175,8 @@ export default function InviteForm() {
   return (
     <div className="flex pt-6 mt-10 border-t border-gray md:border md:p-6 lg:p-10 lg:-mx-10">
       {(formMessage.open && formMessage.status === "success" && (
-        <div>
-          <h2 className="h3">Thank You!</h2>
+        <div className="prose">
+          <h3>Thank You!</h3>
           <p>
             Your invitation has been sent. Fr. Kenny will get back to you as
             soon as possible.
@@ -193,15 +193,15 @@ export default function InviteForm() {
           <input type="hidden" value="invite" {...register("form-name")} />
           <div className="form-fields">
             <div className="form-field heading">
-              <h2 className="h3">Event Date</h2>
-              {/* <p className="small">
-                Note: You will only be able to propose dates beyond{' '}
-                {daysFromToday.toString()} days from today.
-              </p> */}
+              <h2 className="h3 text-md font-semibold">Event Date</h2>
             </div>
             <div className="form-field half">
               <label htmlFor="date">
-                <span>Date *</span>
+                <div className="mb-1">
+                  <span>
+                    Date <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <input
                   type="date"
                   id="date"
@@ -224,7 +224,9 @@ export default function InviteForm() {
             </div>
             <div className="form-field half">
               <label htmlFor="alternate-date">
-                <span>Potential Alternate Date</span>
+                <div className="mb-1">
+                  <span>Potential Alternate Date</span>
+                </div>
                 <input
                   type="date"
                   id="alternate-date"
@@ -245,7 +247,11 @@ export default function InviteForm() {
             </div>
             <div className="form-field half">
               <label htmlFor="start-time">
-                <span>Start Time *</span>
+                <div className="mb-1">
+                  <span>
+                    Start Time <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <input
                   type="time"
                   id="start-time"
@@ -258,7 +264,11 @@ export default function InviteForm() {
             </div>
             <div className="form-field half">
               <label htmlFor="end-time">
-                <span>End Time *</span>
+                <div className="mb-1">
+                  <span>
+                    End Time <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <input
                   type="time"
                   id="end-time"
@@ -270,10 +280,7 @@ export default function InviteForm() {
               </label>
             </div>
             <div className="form-field">
-              <p
-                className="form-description small"
-                style={{ textAlign: "right" }}
-              >
+              <div className="form-description small text-right">
                 Date & Time are shown in{" "}
                 <span className="inline-block">
                   <label
@@ -300,14 +307,18 @@ export default function InviteForm() {
                   </label>{" "}
                   timezone.
                 </span>
-              </p>
+              </div>
             </div>
             <div className="form-field heading">
-              <h2 className="h3">Contact Information</h2>
+              <h2 className="h3 text-md font-semibold">Contact Information</h2>
             </div>
             <div className="form-field half">
               <label htmlFor="organization">
-                <span>Organization *</span>
+                <div className="mb-1">
+                  <span>
+                    Organization <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <input
                   type="text"
                   id="organization"
@@ -321,7 +332,11 @@ export default function InviteForm() {
             </div>
             <div className="form-field half">
               <label htmlFor="name">
-                <span>Contact Name *</span>
+                <div className="mb-1">
+                  <span>
+                    Contact Name <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <input
                   type="text"
                   id="name"
@@ -335,7 +350,11 @@ export default function InviteForm() {
             </div>
             <div className="form-field half">
               <label htmlFor="email">
-                <span>Email *</span>
+                <div className="mb-1">
+                  <span>
+                    Email <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <input
                   type="email"
                   id="email"
@@ -349,7 +368,11 @@ export default function InviteForm() {
             </div>
             <div className="form-field half">
               <label htmlFor="phone">
-                <span>Phone (WhatsApp) *</span>
+                <div className="mb-1">
+                  <span>
+                    Phone (WhatsApp) <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <input
                   type="tel"
                   id="phone"
@@ -362,7 +385,7 @@ export default function InviteForm() {
               </label>
             </div>
             <div className="form-field heading">
-              <h2 className="h3">Event Details</h2>
+              <h2 className="h3 text-md font-semibold">Event Details</h2>
             </div>
             <div className="form-field">
               <fieldset
@@ -404,7 +427,11 @@ export default function InviteForm() {
               <>
                 <div className="form-field half">
                   <label htmlFor="venue">
-                    <span>Venue *</span>
+                    <div className="mb-1">
+                      <span>
+                        Venue <abbr title="required">*</abbr>
+                      </span>
+                    </div>
                     <input
                       type="text"
                       id="venue"
@@ -421,7 +448,9 @@ export default function InviteForm() {
                 </div>
                 <div className="form-field half">
                   <label htmlFor="venue-capacity">
-                    <span>Venue Capacity</span>
+                    <div className="mb-1">
+                      <span>Venue Capacity</span>
+                    </div>
                     <input
                       type="number"
                       id="venue-capacity"
@@ -433,7 +462,9 @@ export default function InviteForm() {
                 </div>
                 <div className="form-field">
                   <label htmlFor="venue-address-street">
-                    <span>Venue Address</span>
+                    <div className="mb-1">
+                      <span>Venue Address</span>
+                    </div>
                     <input
                       type="text"
                       id="venue-address-street"
@@ -554,7 +585,12 @@ export default function InviteForm() {
             )}
             <div className="form-field half">
               <label htmlFor="attendance">
-                <span>Expected Attendance (Persons) *</span>
+                <div className="mb-1">
+                  <span>
+                    Expected Attendance (Persons){" "}
+                    <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <div className="select-wrapper">
                   <select
                     id="attendance"
@@ -565,12 +601,12 @@ export default function InviteForm() {
                     <option value="" disabled>
                       Select range
                     </option>
-                    <option value="1–20">1–20</option>
-                    <option value="21–50">21–50</option>
-                    <option value="51–100">51–100</option>
-                    <option value="101–300">101–300</option>
-                    <option value="301–500">301–500</option>
-                    <option value="501–1000">501–1000</option>
+                    <option value="1-20">1-20</option>
+                    <option value="21-50">21-50</option>
+                    <option value="51-100">51-100</option>
+                    <option value="101-300">101-300</option>
+                    <option value="301-500">301-500</option>
+                    <option value="501-1000">501-1000</option>
                     <option value="> 1000">&gt; 1000</option>
                   </select>
                 </div>
@@ -578,7 +614,11 @@ export default function InviteForm() {
             </div>
             <div className="form-field half">
               <label htmlFor="age">
-                <span>Average Age of Participants *</span>
+                <div className="mb-1">
+                  <span>
+                    Average Age of Participants <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <div className="select-wrapper">
                   <select
                     id="age"
@@ -602,7 +642,11 @@ export default function InviteForm() {
             </div>
             <div className="form-field half">
               <label htmlFor="diocese">
-                <span>Diocese *</span>
+                <div className="mb-1">
+                  <span>
+                    Diocese <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <input
                   type="text"
                   id="diocese"
@@ -616,7 +660,11 @@ export default function InviteForm() {
             <div className="form-field" />
             <div className="form-field">
               <label htmlFor="topic">
-                <span>Topic Requested *</span>
+                <div className="mb-1">
+                  <span>
+                    Topic Requested <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <textarea
                   id="topic"
                   placeholder="Specify the requested topic as best as you can; e.g. “Friendship according to the Bible,” instead of just “Friendship”"
@@ -642,7 +690,11 @@ export default function InviteForm() {
             </div>
             <div className="form-field half">
               <label htmlFor="event-type">
-                <span>Event Type *</span>
+                <div className="mb-1">
+                  <span>
+                    Event Type <abbr title="required">*</abbr>
+                  </span>
+                </div>
                 <div className="select-wrapper">
                   <select
                     id="event-type"
@@ -706,7 +758,9 @@ export default function InviteForm() {
             </div>
             <div className="form-field">
               <label htmlFor="details">
-                <span>Other Details</span>
+                <div className="mb-1">
+                  <span>Other Details</span>
+                </div>
                 <textarea
                   id="details"
                   placeholder="Tell us about your event."

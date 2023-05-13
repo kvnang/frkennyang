@@ -40,7 +40,7 @@ export default async function BlogPage({
   params,
   searchParams,
 }: {
-  params: { category?: string };
+  params: { lang: LangType; category?: string };
   searchParams: { q?: string };
 }) {
   const category = params.category || "";
@@ -74,17 +74,17 @@ export default async function BlogPage({
           showImage
           format="featured"
           showExcerpt
+          lang={params.lang}
         />
       </div>
       {recentPosts.length > 0 && (
         <div>
-          <React.Suspense fallback={null}>
-            <BlogList
-              params={params}
-              searchParams={searchParams}
-              initialData={recentPosts}
-            />
-          </React.Suspense>
+          <BlogList
+            params={params}
+            searchParams={searchParams}
+            initialData={recentPosts}
+            lang={params.lang}
+          />
         </div>
       )}
     </>

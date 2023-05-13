@@ -1,5 +1,4 @@
 import * as React from "react";
-import { MdFormatAlignLeft, MdPlayArrow } from "react-icons/md";
 import type { PostEntryProps, LangType } from "@/types";
 import { formatDate } from "@/utils/helpers";
 import Image from "next/image";
@@ -16,26 +15,18 @@ export function PostEntry({
   showImage = true,
   showExcerpt,
   format = "default",
-  siteLang,
+  lang,
 }: {
   post: PostEntryProps;
   showImage?: boolean;
   showExcerpt?: boolean;
   format?: "default" | "list" | "featured";
-  siteLang?: LangType | null;
+  lang?: LangType | null;
 }) {
-  let icon;
+  // No need for icon for now as all post formats seem to be Article
+  // const icon = null;
 
-  switch (format.toLowerCase()) {
-    case "video":
-      icon = <MdPlayArrow className="w-full h-full" title="video" />;
-      break;
-    case "article":
-      icon = <MdFormatAlignLeft className="w-full h-full" title="article" />;
-      break;
-    default:
-      icon = "";
-  }
+  const title = lang === "id" && post.title.id ? post.title.id : post.title.en;
 
   // const onlyAvailableInLabel =
   //   post.fields.lang === 'en' ? 'Only in' : 'Hanya dalam bahasa';
@@ -93,11 +84,11 @@ export function PostEntry({
             }`}
           >
             <Link
-              href={`/blog/${post.slug?.current}`}
+              href={`/${lang}/blog/${post.slug?.current}`}
               className="hover:text-accent transition-colors"
             >
               <div className="absolute top-0 left-0 w-full h-full z-10"></div>
-              {post.title.en}
+              {title}
             </Link>
           </h3>
           {showExcerpt && (
@@ -166,32 +157,3 @@ export function PostEntrySkeleton({
     </article>
   );
 }
-
-// export const query = graphql`
-//   fragment MarkdownRemarkFields on MarkdownRemark {
-//     id
-//     excerpt
-//     frontmatter {
-//       title
-//       format
-//       date(formatString: "YYYY-MM-DDTHH:mm:ss.SSS")
-//       excerpt
-//       featuredImage {
-//         childImageSharp {
-//           gatsbyImageData(
-//             aspectRatio: 1.777778
-//             layout: CONSTRAINED
-//             placeholder: BLURRED
-//             width: 480
-//           )
-//         }
-//       }
-//       lang
-//     }
-//     fields {
-//       slug
-//       lang
-//     }
-//     timeToRead
-//   }
-// `;

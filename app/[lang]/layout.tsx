@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Playfair_Display, Montserrat } from "next/font/google";
 import "@/styles/globals.css";
-import "@/styles/main.scss";
 import type { LangType } from "@/types";
 import { defaultMetadata } from "@/lib/metadata";
 

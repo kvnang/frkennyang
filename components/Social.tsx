@@ -1,11 +1,4 @@
-import React from "react";
-import {
-  // FaFacebookF,
-  // FaLinkedinIn,
-  // FaTwitter,
-  FaInstagram,
-  FaYoutube,
-} from "react-icons/fa";
+import { InstagramIcon, YoutubeIcon } from "./SocialIcons";
 
 type SocialProps = {
   dark?: boolean;
@@ -31,7 +24,7 @@ export default function Social({ dark, className = "" }: SocialProps) {
               dark ? "text-darker-gray" : "text-white"
             }`}
           >
-            <FaYoutube className="h-5 w-5" title="YouTube" />
+            <YoutubeIcon className="h-5 w-5" />
           </a>
         </li>
         <li className="p-3.5">
@@ -43,7 +36,7 @@ export default function Social({ dark, className = "" }: SocialProps) {
               dark ? "text-darker-gray" : "text-white"
             }`}
           >
-            <FaInstagram className="h-5 w-5" title="Instagram" />
+            <InstagramIcon className="h-5 w-5" />
           </a>
         </li>
       </ul>

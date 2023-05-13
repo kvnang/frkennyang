@@ -10,6 +10,7 @@ import { ArrowLongLeftIcon } from "@heroicons/react/24/outline";
 import { TableOfContents } from "./TableOfContents";
 import { getDictionary } from "@/lib/dictionaries";
 import getYouTubeID from "get-youtube-id";
+import { BASE_URL } from "@/lib/constants";
 
 export type FetchPostProps = Omit<PostProps, "content" | "intro"> & {
   introEn: any[];
@@ -303,7 +304,10 @@ export function SinglePost({
                 <section className="py-4 px-2 lg:basis-full empty:hidden">
                   <SocialShare
                     title={title}
-                    url={`/${params.lang}/blog/${post.slug}`}
+                    url={new URL(
+                      `/${params.lang}/blog/${post.slug.current}`,
+                      BASE_URL
+                    ).toString()}
                     label="Share this article"
                   />
                 </section>

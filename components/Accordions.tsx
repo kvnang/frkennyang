@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-import React, { CSSProperties, useEffect, useState } from 'react';
-import { LazyMotion, m } from 'framer-motion';
-import { BsChevronDown } from 'react-icons/bs';
+import React, { CSSProperties, useEffect, useState } from "react";
+import { LazyMotion, m } from "framer-motion";
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 const loadFeatures = () =>
-  import('@/utils/features').then((res) => res.default);
+  import("@/utils/features").then((res) => res.default);
 
 interface AccordionItemHeadProps {
   children?: React.ReactNode;
@@ -21,7 +21,7 @@ export function AccordionItemHead({
   setActiveAccordionItem,
 }: AccordionItemHeadProps) {
   function handleClick() {
-    if (typeof setActiveAccordionItem === 'function') {
+    if (typeof setActiveAccordionItem === "function") {
       setActiveAccordionItem(activeAccordionItem === id ? null : id);
     }
   }
@@ -30,7 +30,7 @@ export function AccordionItemHead({
     <div
       id={`${id}`}
       className={`group pb-4 relative flex items-center justify-between ${
-        activeAccordionItem === id ? 'active' : ''
+        activeAccordionItem === id ? "active" : ""
       }`}
       aria-controls={`accordion-${id}`}
       aria-expanded={activeAccordionItem === id}
@@ -38,12 +38,12 @@ export function AccordionItemHead({
       // onKeyDown={() => handleClick()}
       role="button"
       tabIndex={0}
-      style={{ cursor: 'pointer' }}
+      style={{ cursor: "pointer" }}
     >
       <div className="h-[1px] absolute bottom-0 left-0 transition-transform origin-left w-full bg-gray scale-x-100"></div>
       <div className="h-[1px] absolute bottom-0 left-0 transition-transform origin-left w-full bg-body scale-x-0 group-aria-expanded:scale-x-100"></div>
       <div>{children}</div>
-      <BsChevronDown className="ml-4 transition-transform h-6 w-6 group-aria-expanded:rotate-180" />
+      <ChevronDownIcon className="ml-4 transition-transform h-6 w-6 group-aria-expanded:rotate-180" />
     </div>
   );
 }
@@ -65,12 +65,12 @@ export function AccordionItemBody({
       className="accordion__item__body"
       aria-labelledby={`${id}`}
       role="region"
-      animate={{ height: activeAccordionItem === id ? 'auto' : '0' }}
-      style={{ overflow: 'hidden', height: 0 }}
+      animate={{ height: activeAccordionItem === id ? "auto" : "0" }}
+      style={{ overflow: "hidden", height: 0 }}
     >
       <div
         className="accordion__item__body__inner"
-        style={{ paddingTop: '1rem' }}
+        style={{ paddingTop: "1rem" }}
       >
         {children}
       </div>
@@ -94,7 +94,7 @@ export function AccordionItem({
   return (
     <div
       className={`mb-10 last:mb-0 ${
-        activeAccordionItem === id ? 'accordion__item--active' : ''
+        activeAccordionItem === id ? "accordion__item--active" : ""
       }`}
     >
       {React.Children.map(children, (child) => {
@@ -135,7 +135,7 @@ export function Accordion({ children, style }: AccordionProps) {
   );
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       const { hash } = window.location;
       if (hash) {
         const hashId = hash.substr(1);

@@ -1,7 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import * as React from "react";
 import smoothscroll from "smoothscroll-polyfill";
-import { MdChevronRight, MdChevronLeft } from "react-icons/md";
 import debounce from "just-debounce-it";
+import { useDraggable } from "react-use-draggable-scroll";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 
 if (typeof window !== "undefined") {
   smoothscroll.polyfill();
@@ -14,7 +15,7 @@ export function SlideArrow({
   direction: "next" | "prev";
   sliderInnerRef: HTMLUListElement | null;
 }) {
-  const [disabled, setDisabled] = useState(false);
+  const [disabled, setDisabled] = React.useState(false);
 
   const updateArrowState = React.useCallback(() => {
     () => {
@@ -77,7 +78,7 @@ export function SlideArrow({
   const handleWindowResize = debounce(() => updateArrowState(), 500);
   const handleScroll = debounce(() => updateArrowState(), 250);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const sliderInner = sliderInnerRef;
 
     sliderInner?.addEventListener("scroll", handleScroll);
@@ -91,7 +92,7 @@ export function SlideArrow({
     };
   }, [sliderInnerRef, handleScroll, handleWindowResize, updateArrowState]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const sliderInner = sliderInnerRef;
 
     return () => {
@@ -108,8 +109,8 @@ export function SlideArrow({
       className="text-[3rem] text-accent inline-flex items-center justify-center disabled:text-body disabled:opacity-25 disabled:pointer-events-none"
       aria-label={direction === "next" ? "Next" : "Previous"}
     >
-      {direction === "next" && <MdChevronRight />}
-      {direction === "prev" && <MdChevronLeft />}
+      {direction === "next" && <ChevronRightIcon />}
+      {direction === "prev" && <ChevronLeftIcon />}
     </button>
   );
 }
@@ -136,9 +137,13 @@ export function Slider({
   children: React.ReactNode;
   setRef?: React.Dispatch<React.SetStateAction<HTMLDivElement | null>>;
 }) {
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = React.useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
+  const { events } = useDraggable(
+    ref as React.MutableRefObject<HTMLDivElement>
+  );
+
+  React.useEffect(() => {
     if (ref.current && typeof setRef !== "undefined") {
       setRef(ref.current);
     }
@@ -149,6 +154,7 @@ export function Slider({
       <div
         ref={ref}
         className="relative flex justify-center w-full max-w-full cursor-grab overflow-x-scroll overscroll-x-contain snap-mandatory no-scrollbar"
+        {...events}
       >
         <div className="container">
           <div className="grid grid-cols-12 gap-x-4">

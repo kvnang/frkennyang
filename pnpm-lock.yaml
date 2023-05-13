@@ -40,8 +40,8 @@ specifiers:
   react: ^18.2.0
   react-dom: 18.2.0
   react-hook-form: ^7.43.9
-  react-icons: ^4.8.0
   react-instantsearch-hooks-web: ^6.43.0
+  react-use-draggable-scroll: ^0.4.7
   sanity: ^3.10.3
   sass: ^1.62.1
   server-only: ^0.0.1
@@ -84,8 +84,8 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hook-form: 7.43.9_react@18.2.0
-  react-icons: 4.8.0_react@18.2.0
   react-instantsearch-hooks-web: 6.43.0_jkqj3263ob3etl7pry73ztmn6q
+  react-use-draggable-scroll: 0.4.7_react@18.2.0
   sanity: 3.10.3_nyu2l34sc6xx7f4uchx2ttbcci
   server-only: 0.0.1
   smoothscroll-polyfill: 0.4.4
@@ -6910,14 +6910,6 @@ packages:
       react: 18.2.0
     dev: false
 
-  /react-icons/4.8.0_react@18.2.0:
-    resolution: {integrity: sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg==}
-    peerDependencies:
-      react: '*'
-    dependencies:
-      react: 18.2.0
-    dev: false
-
   /react-instantsearch-hooks-web/6.43.0_jkqj3263ob3etl7pry73ztmn6q:
     resolution: {integrity: sha512-B6QYzYn74JELtA0FB7u3k+WzB8ZQ5mMiN7j6E6z6s7TJpTcie4Gi94h/OXf7h+O+sr1/v5psnngvWSqVFVZ2zA==}
     peerDependencies:
@@ -6992,6 +6984,15 @@ packages:
     resolution: {integrity: sha512-ywYLSjNkxKHiZOqNlso9PZByNEY+FTyh3C+7uuziK0xFXu9xzdyfHwg4S9iyiRRoPCR4k2LqaBBsWVmSBwCWYQ==}
     dependencies:
       prop-types: 15.8.1
+    dev: false
+
+  /react-use-draggable-scroll/0.4.7_react@18.2.0:
+    resolution: {integrity: sha512-6gCxGPO9WV5dIsBaDrgUKBaac8CY07PkygcArfajijYSNDwAq0girDRjaBuF1+lRqQryoLFQfpVaV2u/Yh6CrQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: '>=16'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react/18.2.0:

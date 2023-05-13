@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { PostEntry } from "@/components/PostEntry";
-import type { PostEntryProps } from "@/types";
+import type { LangType, PostEntryProps } from "@/types";
 import { clientFetch } from "@/lib/sanity.client";
 import { query, queryWithSearch } from "./query";
 import { Button } from "@/components/Button";
@@ -11,10 +11,12 @@ export function BlogList({
   params,
   searchParams,
   initialData,
+  lang,
 }: {
   params: { category?: string };
   searchParams: { q?: string };
   initialData?: PostEntryProps[];
+  lang: LangType;
 }) {
   const q = searchParams.q || "";
 
@@ -77,8 +79,8 @@ export function BlogList({
       {!!posts?.length && (
         <div className="grid md:grid-cols-3 gap-x-4 gap-y-8">
           {posts.map((post) => (
-            <div key={post._id} className="">
-              <PostEntry post={post} showImage />
+            <div key={post._id}>
+              <PostEntry post={post} showImage lang={lang} />
             </div>
           ))}
         </div>

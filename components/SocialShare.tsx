@@ -1,10 +1,10 @@
-import React from "react";
+import * as React from "react";
 import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaTwitter,
-  FaWhatsapp,
-} from "react-icons/fa";
+  FacebookIcon,
+  LinkedinIcon,
+  TwitterIcon,
+  WhatsappIcon,
+} from "./SocialIcons";
 
 interface Props {
   title?: string;
@@ -24,46 +24,52 @@ export default function SocialShare({ title, url, label }: Props) {
         <ul className="flex flex-wrap -m-2">
           <li>
             <a
-              href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+                url
+              )}`}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Share on Facebook"
               className="p-2 inline-flex items-center justify-center transition-colors hover:text-accent"
             >
-              <FaFacebookF />
+              <FacebookIcon className="w-5 h-5" />
             </a>
           </li>
           <li>
             <a
-              href={`http://twitter.com/share?text=${title}&url=${url}`}
+              href={`http://twitter.com/share?text=${encodeURIComponent(
+                title || ""
+              )}&url=${encodeURIComponent(url)}`}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Share on Twitter"
               className="p-2 inline-flex items-center justify-center transition-colors hover:text-accent"
             >
-              <FaTwitter />
+              <TwitterIcon className="w-5 h-5" />
             </a>
           </li>
           <li>
             <a
-              href={`https://www.linkedin.com/shareArticle?mini=true&url=${url}`}
+              href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
+                url
+              )}`}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Share on LinkedIn"
               className="p-2 inline-flex items-center justify-center transition-colors hover:text-accent"
             >
-              <FaLinkedinIn />
+              <LinkedinIcon className="w-5 h-5" />
             </a>
           </li>
           <li>
             <a
-              href={`https://wa.me/?text=${url}`}
+              href={`https://wa.me/?text=${encodeURIComponent(url)}`}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Share on WhatsApp"
               className="p-2 inline-flex items-center justify-center transition-colors hover:text-accent"
             >
-              <FaWhatsapp />
+              <WhatsappIcon className="w-5 h-5" />
             </a>
           </li>
         </ul>
