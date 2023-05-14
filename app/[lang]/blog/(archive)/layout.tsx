@@ -33,9 +33,7 @@ export default async function BlogLayout({
                   </React.Suspense>
                 </div>
                 <div className="p-2 basis-full max-w-full sm:basis-auto">
-                  <React.Suspense fallback={null}>
-                    <Search params={params} />
-                  </React.Suspense>
+                  <Search params={params} />
                 </div>
               </div>
             </div>

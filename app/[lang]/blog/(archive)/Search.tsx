@@ -1,17 +1,16 @@
 "use client";
 
 import * as React from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+// import { useSearchParams } from "next/navigation";
 import { clientFetch } from "@/lib/sanity.client";
 import { queryWithSearch } from "./query";
 import debounce from "just-debounce-it";
 import type { LangType, PostEntryProps } from "@/types";
 import Link from "next/link";
-import post from "@/studio/schemas/post";
 
 export function Search({ params }: { params: { lang: string } }) {
   // const router = useRouter();
-  const q = useSearchParams().get("q") || "";
+  // const q = useSearchParams().get("q") || "";
   const [results, setResults] = React.useState<PostEntryProps[]>([]);
   const [loading, setLoading] = React.useState(true);
 
@@ -55,7 +54,6 @@ export function Search({ params }: { params: { lang: string } }) {
           type="search"
           placeholder="Search Articles"
           name="q"
-          defaultValue={q}
           onInput={(e) => {
             setLoading(true);
             onInput(e);
