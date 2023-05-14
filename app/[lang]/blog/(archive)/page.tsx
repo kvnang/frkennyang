@@ -38,28 +38,26 @@ export async function generateMetadata(
 
 export default async function BlogPage({
   params,
-  searchParams,
 }: {
   params: { lang: LangType; category?: string };
   searchParams: { q?: string };
 }) {
   const category = params.category || "";
-  const q = searchParams.q || "";
 
-  const posts = q
-    ? await clientFetch(queryWithSearch, {
-        searchQuery: q,
-        category,
-        lastScore: null,
-        lastId: null,
-        perPage: 10,
-      })
-    : await clientFetch(query, {
-        category,
-        lastPublishedAt: null,
-        lastId: null,
-        perPage: 10,
-      });
+  const posts = await clientFetch(query, {
+    category,
+    lastPublishedAt: null,
+    lastId: null,
+    perPage: 10,
+  });
+
+  // await clientFetch(queryWithSearch, {
+  //   searchQuery: q,
+  //   category,
+  //   lastScore: null,
+  //   lastId: null,
+  //   perPage: 10,
+  // })
 
   if (!posts) return null;
 
@@ -81,7 +79,7 @@ export default async function BlogPage({
         <div>
           <BlogList
             params={params}
-            searchParams={searchParams}
+            // searchParams={searchParams}
             initialData={recentPosts}
             lang={params.lang}
           />

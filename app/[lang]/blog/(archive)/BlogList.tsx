@@ -9,16 +9,16 @@ import { Button } from "@/components/Button";
 
 export function BlogList({
   params,
-  searchParams,
+  // searchParams,
   initialData,
   lang,
 }: {
   params: { category?: string };
-  searchParams?: { q?: string };
+  // searchParams?: { q?: string };
   initialData?: PostEntryProps[];
   lang: LangType;
 }) {
-  const q = searchParams?.q || "";
+  // const q = searchParams?.q || "";
 
   const lastIdRef = React.useRef(
     !!initialData?.length ? initialData[initialData.length - 1]._id : null
@@ -41,27 +41,27 @@ export function BlogList({
       return [];
     }
 
-    const results = q
-      ? await clientFetch(queryWithSearch, {
-          searchQuery: q,
-          category: params.category || "",
-          lastScore: lastScoreRef.current,
-          lastId: lastIdRef.current,
-          perPage: 9,
-        })
-      : await clientFetch(query, {
-          category: params.category || "",
-          lastPublishedAt: lastPublishedAtRef.current,
-          lastId: lastIdRef.current,
-          perPage: 9,
-        });
+    const results = await clientFetch(query, {
+      category: params.category || "",
+      lastPublishedAt: lastPublishedAtRef.current,
+      lastId: lastIdRef.current,
+      perPage: 9,
+    });
+
+    // await clientFetch(queryWithSearch, {
+    //   searchQuery: q,
+    //   category: params.category || "",
+    //   lastScore: lastScoreRef.current,
+    //   lastId: lastIdRef.current,
+    //   perPage: 9,
+    // })
 
     if (results.length > 0) {
-      if (q) {
-        lastScoreRef.current = results[results.length - 1]._score;
-      } else {
-        lastPublishedAtRef.current = results[results.length - 1].publishedAt;
-      }
+      // if (q) {
+      //   lastScoreRef.current = results[results.length - 1]._score;
+      // } else {
+      lastPublishedAtRef.current = results[results.length - 1].publishedAt;
+      // }
       lastIdRef.current = results[results.length - 1]._id;
     } else {
       lastIdRef.current = null; // Reached the end
