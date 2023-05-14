@@ -12,7 +12,7 @@ export function Search({ params }: { params: { lang: string } }) {
   // const router = useRouter();
   // const q = useSearchParams().get("q") || "";
   const [results, setResults] = React.useState<PostEntryProps[]>([]);
-  const [loading, setLoading] = React.useState(true);
+  const [loading, setLoading] = React.useState(false);
 
   const search = async (q: string) => {
     if (!q) {
@@ -55,7 +55,9 @@ export function Search({ params }: { params: { lang: string } }) {
           placeholder="Search Articles"
           name="q"
           onInput={(e) => {
-            setLoading(true);
+            if (e.currentTarget.value) {
+              setLoading(true);
+            }
             onInput(e);
           }}
         />
