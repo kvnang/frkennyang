@@ -104,7 +104,9 @@ export function PostEntry({
                 overflow: "hidden",
               }}
             >
-              <p className="opacity-80">{post.excerpt.en || ""}</p>
+              <p className="opacity-80">
+                {post.excerpt[lang as LangType] || post.excerpt.en || ""}
+              </p>
             </div>
           )}
         </div>
