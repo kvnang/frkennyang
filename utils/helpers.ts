@@ -24,15 +24,19 @@ export function unleadingSlashIt(str: string) {
 }
 
 export function formatDate(date: string, ignoreSameYear: boolean = true) {
-  const locale = "en-US";
   const dateObject = new Date(date);
   const options =
     ignoreSameYear && new Date().getFullYear() === dateObject.getFullYear()
-      ? ({ month: "short", day: "numeric" } as const)
-      : ({ year: "numeric", month: "short", day: "numeric" } as const);
-  return dateObject.toLocaleDateString(locale, options);
-  // return format(dateObject, 'MMMM d, yyyy', {
-  //   timeZone: 'Europe/Rome',
+      ? ({ timeZone: "UTC", month: "short", day: "numeric" } as const)
+      : ({
+          timeZone: "UTC",
+          year: "numeric",
+          month: "short",
+          day: "numeric",
+        } as const);
+  return dateObject.toLocaleDateString("en-US", options);
+  // return format(dateObject, "MMMM d, yyyy", {
+  //   timeZone: "Europe/Rome",
   //   // locale: 'en-US' as any,
   // });
 }

@@ -19,6 +19,7 @@ export function BlogList({
   lang: LangType;
 }) {
   // const q = searchParams?.q || "";
+  console.log(initialData);
 
   const lastIdRef = React.useRef(
     !!initialData?.length ? initialData[initialData.length - 1]._id : null
