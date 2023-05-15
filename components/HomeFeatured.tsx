@@ -24,7 +24,7 @@ export async function HomeFeatured({ lang }: { lang: LangType }) {
         <div className="grid grid-cols-12 gap-x-4">
           <div className="col-span-full lg:col-span-10 lg:col-start-2">
             <div className="lg:pl-[50%]">
-              <div className="prose prose-black mb-10">
+              <div className="prose prose-black mb-8">
                 <h2 className="title-line">Featured Contents</h2>
                 <p>
                   Browse my latest works. Some of them are available in both

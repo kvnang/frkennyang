@@ -61,6 +61,7 @@ export default function HomePage({ params }: { params: { lang: LangType } }) {
                       alt="Fr. Kenny Ang"
                       className="w-full"
                       priority
+                      sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 30vw, (min-width: 768px) 40vw, 60vw"
                     />
                   </div>
                 </div>
