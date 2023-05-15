@@ -23,7 +23,10 @@ export function LanguageSwitcherInner({
 
   return (
     <Menu className="relative" as="div">
-      <Menu.Button className="w-12 h-12 flex items-center justify-center rounded-full hover:bg-medium-gray transition-colors">
+      <Menu.Button
+        className="w-12 h-12 flex items-center justify-center rounded-full hover:bg-medium-gray transition-colors"
+        aria-label="Change Language"
+      >
         <GlobeAltIcon className="w-6 h-6" title="Change Language" />
       </Menu.Button>
       <Transition

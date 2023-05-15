@@ -29,9 +29,10 @@ export default function HomePage({ params }: { params: { lang: LangType } }) {
                     className="max-md:w-1/2 max-md:absolute max-md:opacity-40 max-md:order-9 max-md:translate-y-[calc(100%+1.6rem)] w-60 md:-ml-14 md:mb-7"
                     width="240"
                     height="202"
+                    priority
                   />
                   <div className="mb-6 prose">
-                    <h1 className="">Heaven is your final destination.</h1>
+                    <h1>Heaven is your final destination.</h1>
                     <p>
                       <strong>Hi, I’m Father Kenny.</strong> As a priest, I
                       provide you with resources to help you grow in your faith.
@@ -57,13 +58,9 @@ export default function HomePage({ params }: { params: { lang: LangType } }) {
                   <div className="w-3/5 -mr-[20%] md:w-[130%] md:-mr-[30%] lg:mr-0 lg:w-full">
                     <Image
                       src={heroImage}
-                      alt=""
+                      alt="Fr. Kenny Ang"
                       className="w-full"
-                      // placeholder="none"
-                      // objectFit="contain"
-                      // objectPosition="50% 100%"
-                      // layout="constrained"
-                      // width={380}
+                      priority
                     />
                   </div>
                 </div>

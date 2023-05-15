@@ -5,6 +5,7 @@ import "@/styles/globals.css";
 import type { LangType } from "@/types";
 import { defaultMetadata } from "@/lib/metadata";
 import { Toaster } from "react-hot-toast";
+import Script from "next/script";
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
@@ -39,9 +40,9 @@ export default function RootLayout({
       className={`${montserrat.variable} ${playfairDisplay.variable}`}
     >
       <head>
-        <script
+        <Script
+          strategy="lazyOnload"
           key="cf-analytics"
-          defer
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon='{"token": "5e4d44f2777e44d184490c0732ba7473"}'
         />

@@ -168,12 +168,12 @@ export function Slider({
                 {React.Children.map(children, (child, index) => (
                   <Slide>{child}</Slide>
                 ))}
-                <div
+                <li
                   className="self-stretch"
                   style={{
                     paddingInlineEnd: `max(var(--slider--slide-gap), (100vw - 100%) / 2 - var(--slider--slide-gap))`,
                   }}
-                ></div>
+                ></li>
               </ul>
             </div>
           </div>
