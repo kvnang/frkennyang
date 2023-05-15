@@ -60,7 +60,8 @@ export async function POST(request: Request) {
   const mailgunApiKey = process.env.MAILGUN_API_KEY;
   const mailgunDomain = process.env.MAILGUN_DOMAIN;
   const recipientEmail =
-    process.env.NODE_ENV === "development"
+    process.env.NODE_ENV === "development" ||
+    process.env.NEXT_PUBLIC_VERCEL_ENV !== "production"
       ? "ka@kevinang.com"
       : process.env.RECIPIENT_EMAIL;
 

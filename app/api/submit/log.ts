@@ -73,7 +73,8 @@ export async function submitLog(body: Record<string, any>) {
 
   // request to google sheets via REST API
   const endpoint =
-    process.env.NODE_ENV === "development"
+    process.env.NODE_ENV === "development" ||
+    process.env.NEXT_PUBLIC_VERCEL_ENV !== "production"
       ? `https://sheets.googleapis.com/v4/spreadsheets/1YMmY5v4opqH1ZXQPYvkAVrMmZTByzG2aaXdO7e9jShY/values/${formName}!A:B:append?valueInputOption=USER_ENTERED`
       : `https://sheets.googleapis.com/v4/spreadsheets/${googleSpreadsheetID}/values/${formName}!A:B:append?valueInputOption=USER_ENTERED`;
 
