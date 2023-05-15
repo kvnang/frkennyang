@@ -71,8 +71,8 @@ export default async function BlogPage({
           <BlogList
             params={params}
             initialData={{
-              posts: recentPosts.slice(0, 10),
-              hasMore: recentPosts.length > 10,
+              posts: recentPosts,
+              hasMore: posts.length > 10,
             }}
             lang={params.lang}
           />
