@@ -79,16 +79,11 @@ export async function POST(request: Request) {
     );
   }
 
-  const { "form-name": formName, title, ...rawData } = body; // title is honeypot on both forms
-
-  if (!formName || title) {
-    return NextResponse.json(
-      { error: "Sorry ... beep bop ... this email cannot be sent." },
-      { status: 400 }
-    );
-  }
-
-  // format dates
+  const {
+    "form-name": formName,
+    "cf-turnstile-response": _,
+    ...rawData
+  } = body;
 
   if (!rawData || !Object.keys(rawData).length) {
     return NextResponse.json({ error: "No data to be sent" }, { status: 400 });
