@@ -1,90 +1,53 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { SubmitHandler, useForm } from "react-hook-form";
-import { type FormMessageTypes } from "@/types";
+import * as React from "react";
 import FormSubmitButton from "./FormSubmitButton";
 import { toast } from "react-hot-toast";
-
-interface Inputs {
-  [key: string]: string | undefined;
-  "form-name": string;
-  name?: string;
-  email: string;
-  message: string;
-  title?: string; // Honeypot
-}
+import { useTurnstile } from "@/hooks/useTurnstile";
+import { Turnstile } from "./Turnstile";
 
 export default function ContactForm() {
-  const [loading, setLoading] = useState(false);
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors },
-  } = useForm<Inputs>();
+  const [loading, setLoading] = React.useState(false);
 
-  const [formMessage, setFormMessage] = useState<FormMessageTypes>({
-    status: "success",
-    message: "",
-    open: false,
-  });
-
-  // Set or Unset form message
-  function handleResponse(response: Response) {
-    if (response.ok) {
-      setFormMessage({
-        status: "success",
-        message: `Thank you, your message has been sent! I'll get back to you as soon as possible.`,
-        open: true,
-      });
-      reset(); // Clear form on success
-    } else {
-      setFormMessage({
-        status: "error",
-        message: `Sorry, there's an error in sending your message. Please try again later.`,
-        open: true,
-      });
-    }
-  }
-
-  const onSubmit: SubmitHandler<Inputs> = (data) => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    const form = e.currentTarget;
+    e.preventDefault();
     setLoading(true);
 
-    const endpoint = `/api/submit`;
+    const formData = new FormData(form);
+    const formObject = Object.fromEntries(formData.entries());
 
-    fetch(endpoint, {
+    const endpoint = form.action;
+
+    const response = await fetch(endpoint, {
       method: "POST",
-      // headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    })
-      .then((response) => handleResponse(response))
-      .catch((error) => console.error(error))
-      .then(() => setLoading(false));
-  };
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formObject as Record<string, string>),
+    });
 
-  useEffect(() => {
-    if (formMessage.open) {
-      if (formMessage.status === "success") {
-        toast.success(formMessage.message || "Message sent!");
-      }
-      if (formMessage.status === "error") {
-        toast.error(formMessage.message || "Error sending message!");
-      }
+    if (response.ok) {
+      toast.success(
+        `Thank you, your message has been sent! I'll get back to you as soon as possible.`
+      );
+      form.reset();
+    } else {
+      toast.error(
+        `Sorry, there's an error in sending your message. Please try again later.`
+      );
     }
-  }, [formMessage]);
+
+    setLoading(false);
+  };
 
   return (
     <div>
       <form
-        onSubmit={handleSubmit(onSubmit)}
+        action="/api/submit"
+        onSubmit={onSubmit}
         method="POST"
         name="contact"
-        netlify-honeypot="title"
-        data-netlify="true"
       >
-        <input type="hidden" value="contact" {...register("form-name")} />
+        <input type="hidden" value="contact" name="form-name" />
         <div className="form-fields">
           <div className="form-field half">
             <label htmlFor="name">
@@ -94,8 +57,8 @@ export default function ContactForm() {
                 id="name"
                 autoComplete="name"
                 placeholder="Name"
-                aria-invalid={!!errors.name}
-                {...register("name")}
+                // aria-invalid={!!errors.name}
+                name="name"
               />
             </label>
           </div>
@@ -108,8 +71,8 @@ export default function ContactForm() {
                 placeholder="Email *"
                 autoComplete="email"
                 required
-                aria-invalid={!!errors.email}
-                {...register("email", { required: true })}
+                // aria-invalid={!!errors.email}
+                name="email"
               />
             </label>
           </div>
@@ -120,8 +83,8 @@ export default function ContactForm() {
                 id="message"
                 placeholder="Message *"
                 required
-                aria-invalid={!!errors.message}
-                {...register("message", { required: true })}
+                // aria-invalid={!!errors.message}
+                name="message"
               />
             </label>
           </div>
@@ -132,12 +95,19 @@ export default function ContactForm() {
                 type="text"
                 autoComplete="false"
                 tabIndex={-1}
-                {...register("title")}
+                name="title"
               />
             </label>
           </div>
-          <div className="form-field submit flex justify-end">
-            <FormSubmitButton loading={loading} title="Send" />
+          <div className="form-field">
+            <div className="flex flex-wrap justify-between items-start -m-2">
+              <div className="p-2">
+                <Turnstile loading={loading} />
+              </div>
+              <div className="p-2 ml-auto">
+                <FormSubmitButton loading={loading} title="Send" />
+              </div>
+            </div>
           </div>
         </div>
       </form>

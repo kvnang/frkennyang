@@ -266,14 +266,14 @@ export function SinglePost({
           )} */}
             <main>
               {post.mainImage && (
-                <div className="mb-10">
+                <div className="-mx-container mb-10 lg:mx-0">
                   <div className="relative w-full pb-[56.25%] overflow-hidden">
                     <Image
                       src={post.mainImage.url}
                       priority
                       alt={title}
                       fill
-                      sizes="(min-width: 1024px) 62vw, (min-width: 1280px) 56vw, (min-width: 1750px) 962px, 95vw"
+                      sizes="(min-width: 1024px) 62vw, (min-width: 1280px) 56vw, (min-width: 1750px) 962px, 100vw"
                     />
                   </div>
                 </div>
@@ -304,7 +304,7 @@ export function SinglePost({
                     content={content}
                   />
                 </section>
-                <section className="py-4 px-2 lg:basis-full empty:hidden">
+                <section className="py-4 px-2 ml-auto lg:ml-0 lg:basis-full empty:hidden">
                   <SocialShare
                     title={title}
                     url={new URL(

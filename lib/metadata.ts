@@ -102,5 +102,12 @@ export const getMetadata = (
           return true;
         }),
   },
+  alternates: {
+    canonical: new URL(pathname, baseUrl).toString(),
+    languages: {
+      id: new URL(`/id${pathname}`, baseUrl).toString(),
+      en: new URL(`/en${pathname}`, baseUrl).toString(),
+    },
+  },
   metadataBase: baseUrl ? new URL(baseUrl) : undefined,
 });

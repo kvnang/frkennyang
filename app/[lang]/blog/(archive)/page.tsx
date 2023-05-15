@@ -40,7 +40,6 @@ export default async function BlogPage({
   params,
 }: {
   params: { lang: LangType; category?: string };
-  searchParams: { q?: string };
 }) {
   const category = params.category || "";
 
@@ -48,16 +47,8 @@ export default async function BlogPage({
     category,
     lastPublishedAt: null,
     lastId: null,
-    perPage: 10,
+    perPage: 11, // Fetch 11 but only show 10
   });
-
-  // await clientFetch(queryWithSearch, {
-  //   searchQuery: q,
-  //   category,
-  //   lastScore: null,
-  //   lastId: null,
-  //   perPage: 10,
-  // })
 
   if (!posts) return null;
 
@@ -79,8 +70,10 @@ export default async function BlogPage({
         <div>
           <BlogList
             params={params}
-            // searchParams={searchParams}
-            initialData={recentPosts}
+            initialData={{
+              posts: recentPosts.slice(0, 10),
+              hasMore: recentPosts.length > 10,
+            }}
             lang={params.lang}
           />
         </div>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import cvImage from "@/assets/images/frk-cv.jpg";
 import CvContent from "./cv.md";
-import { Accordions } from "./Accordions";
+import { CvListSection } from "./CvListSection";
 import { getMetadata } from "@/lib/metadata";
 import { type LangType } from "@/types";
 import { type ResolvingMetadata } from "next";
@@ -44,13 +44,8 @@ export default function CvPage() {
           </div>
         </div>
       </section>
-      <section className="container pb-section">
-        <div className="grid grid-cols-12 gap-x-4">
-          <div className="col-span-12 lg:col-span-8 lg:col-start-3 xl:col-span-6 xl:col-start-4">
-            <Accordions />
-          </div>
-        </div>
-      </section>
+      {/* @ts-expect-error */}
+      <CvListSection />
     </main>
   );
 }

@@ -72,31 +72,20 @@ export async function submitLog(body: Record<string, any>) {
   }
 
   // request to google sheets via REST API
-  const sheetsRes1 = await fetch(
-    `https://sheets.googleapis.com/v4/spreadsheets/${googleSpreadsheetID}/values/${formName}!A:B:append?valueInputOption=USER_ENTERED`,
-    {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-      body: JSON.stringify({
-        values,
-      }),
-    }
-  );
+  const endpoint =
+    process.env.NODE_ENV === "development"
+      ? `https://sheets.googleapis.com/v4/spreadsheets/1YMmY5v4opqH1ZXQPYvkAVrMmZTByzG2aaXdO7e9jShY/values/${formName}!A:B:append?valueInputOption=USER_ENTERED`
+      : `https://sheets.googleapis.com/v4/spreadsheets/${googleSpreadsheetID}/values/${formName}!A:B:append?valueInputOption=USER_ENTERED`;
 
-  const sheetsRes2 = await fetch(
-    `https://sheets.googleapis.com/v4/spreadsheets/1YMmY5v4opqH1ZXQPYvkAVrMmZTByzG2aaXdO7e9jShY/values/${formName}!A:B:append?valueInputOption=USER_ENTERED`,
-    {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-      body: JSON.stringify({
-        values,
-      }),
-    }
-  );
+  const sheetsRes = await fetch(endpoint, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify({
+      values,
+    }),
+  });
 
-  return sheetsRes1;
+  return sheetsRes;
 }

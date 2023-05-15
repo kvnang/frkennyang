@@ -1,5 +1,3 @@
-import { format } from "date-fns-tz";
-
 export function slugify(text: string) {
   return text
     .toString()
@@ -35,10 +33,6 @@ export function formatDate(date: string, ignoreSameYear: boolean = true) {
           day: "numeric",
         } as const);
   return dateObject.toLocaleDateString("en-US", options);
-  // return format(dateObject, "MMMM d, yyyy", {
-  //   timeZone: "Europe/Rome",
-  //   // locale: 'en-US' as any,
-  // });
 }
 
 export function getMinDate(daysFromToday: number) {

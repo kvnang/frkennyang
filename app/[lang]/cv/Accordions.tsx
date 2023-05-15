@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
 import {
   Accordion,
   AccordionItem,
   AccordionItemBody,
   AccordionItemHead,
-} from '@/components/Accordions';
-import { cvList } from './cvList';
+} from "@/components/Accordions";
+import type { CvListType } from "./cvList";
 
-export function Accordions() {
+export function Accordions({ cvList }: { cvList: CvListType }) {
   return (
     <>
       {cvList.map((cvGroup, j) => (
@@ -20,11 +20,11 @@ export function Accordions() {
             <AccordionItemBody>
               <ul>
                 {cvGroup.items.map((cvItem, k) => {
-                  const title = 'title' in cvItem ? cvItem.title : '';
-                  const subtitle = 'subtitle' in cvItem ? cvItem.subtitle : '';
-                  const meta = 'meta' in cvItem ? cvItem.meta : '';
+                  const title = "title" in cvItem ? cvItem.title : "";
+                  const subtitle = "subtitle" in cvItem ? cvItem.subtitle : "";
+                  const meta = "meta" in cvItem ? cvItem.meta : "";
                   const description =
-                    'description' in cvItem ? cvItem.description : '';
+                    "description" in cvItem ? cvItem.description : "";
 
                   return (
                     <li key={`accordion-cv-li-${k}`} className="mb-6 last:mb-0">

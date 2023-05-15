@@ -137,9 +137,9 @@ abbr[title="required"] {
   @apply mt-6 first:mt-0;
 }
 
-.form-field.submit {
+/* .form-field.submit {
   @apply flex justify-end;
-}
+} */
 
 .form-error {
   color: var(--color-error);

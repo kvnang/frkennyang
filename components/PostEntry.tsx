@@ -70,6 +70,7 @@ export function PostEntry({
                 alt={post.title.en}
                 placeholder="blur"
                 blurDataURL={post.mainImage?.metadata?.lqip}
+                sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 92vw"
                 fill
               />
             </div>

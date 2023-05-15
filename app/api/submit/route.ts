@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { zonedTimeToUtc, utcToZonedTime, format } from "date-fns-tz";
 import { submitLog } from "./log";
+import { turnstileVerify } from "@/lib/turnstile";
 
 export const runtime = "edge";
 
@@ -20,12 +21,39 @@ function toTitleCase(str: string) {
 }
 
 export async function POST(request: Request) {
-  const body = await request.json();
+  const contentType = request.headers.get("content-type");
+  let body: Record<string, any> = {};
+
+  if (contentType?.includes("application/json")) {
+    body = await request.json();
+  } else if (contentType?.includes("x-www-form-urlencoded")) {
+    const formData = await request.formData();
+    body = {};
+    formData.forEach((value, key) => {
+      body[key] = value;
+    });
+  }
 
   if (!body) {
     return NextResponse.json(
       { error: "Form data is required" },
       { status: 400 }
+    );
+  }
+
+  // Turnstile validation
+  const token = body["cf-turnstile-response"];
+  const outcome = await turnstileVerify(request, token);
+
+  if (!outcome.success) {
+    return new Response(
+      JSON.stringify({ error: "Turnstile validation failed" }),
+      {
+        status: 400,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
     );
   }
 

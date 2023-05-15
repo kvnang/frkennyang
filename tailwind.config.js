@@ -86,10 +86,12 @@ module.exports = {
             h1: {
               fontFamily: theme("fontFamily.serif").join(", "),
               fontSize: theme("fontSize.2xl"),
+              marginTop: "1.5em",
             },
             h2: {
               fontFamily: theme("fontFamily.serif").join(", "),
               fontSize: theme("fontSize.xl"),
+              marginTop: "1.5em",
             },
             blockquote: {
               // color: theme('colors.gray.500'),
