@@ -266,13 +266,15 @@ export function SinglePost({
           )} */}
             <main>
               {post.mainImage && (
-                <div className="-mx-container mb-10 lg:mx-0">
+                <div className="-mx-container mb-10 lg:mx-0 ">
                   <div className="relative w-full pb-[56.25%] overflow-hidden">
                     <Image
                       src={post.mainImage.url}
                       priority
                       alt={title}
                       fill
+                      blurDataURL={post.mainImage.metadata.lqip}
+                      placeholder="blur"
                       sizes="(min-width: 1024px) 62vw, (min-width: 1280px) 56vw, (min-width: 1750px) 962px, 100vw"
                     />
                   </div>
