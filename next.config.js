@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    appDir: true,
     mdxRs: true,
   },
   images: {
@@ -11,6 +10,7 @@ const nextConfig = {
         hostname: "cdn.sanity.io",
       },
     ],
+    formats: ["image/avif", "image/webp"],
   },
   async redirects() {
     return [
