@@ -151,5 +151,8 @@ export default defineType({
     defineArrayMember({
       type: "book",
     }),
+    defineArrayMember({
+      type: "table",
+    }),
   ],
 });

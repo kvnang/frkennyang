@@ -93,6 +93,56 @@ const myPortableTextComponents: PortableTextComponents = {
       const code = value.code;
       return <div dangerouslySetInnerHTML={{ __html: code }} />;
     },
+    table: ({ value }) => {
+      const { rows } = value as { rows: { cells: any[]; _key: string }[] };
+      const headRow = rows.slice(0, 1)[0];
+      const bodyRows = rows.slice(1);
+
+      return (
+        <div>
+          <table className="w-full border-collapse">
+            <thead>
+              <tr>
+                {headRow.cells.map((cell) => {
+                  return (
+                    <th
+                      key={cell._key}
+                      className="border border-medium-gray text-left p-4 align-top"
+                    >
+                      <div className="prose">
+                        <PortableText
+                          components={myPortableTextComponents}
+                          value={cell.text}
+                        />
+                      </div>
+                    </th>
+                  );
+                })}
+              </tr>
+            </thead>
+            <tbody>
+              {bodyRows.map((row) => (
+                <tr key={row._key}>
+                  {row.cells.map((cell) => (
+                    <td
+                      key={cell._key}
+                      className="border border-medium-gray text-left p-4 align-top"
+                    >
+                      <div className="prose">
+                        <PortableText
+                          components={myPortableTextComponents}
+                          value={cell.text}
+                        />
+                      </div>
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+    },
   },
 
   marks: {
