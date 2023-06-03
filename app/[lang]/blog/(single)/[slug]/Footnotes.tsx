@@ -8,31 +8,21 @@ export function Footnotes({
 }) {
   const blocks = content;
 
-  // const notes = blocks
-  //   // filter out everything that's not a text block
-  //   .filter(({ _type }) => _type === "block")
-  //   // make an array of the mark definitions of those blocks
-  //   .reduce((acc, curr) => {
-  //     return [...acc, ...curr.markDefs];
-  //   }, [])
-  //   // find all the footnote mark definitions
-  //   .filter(({ _type }: { _type: string }) => _type === "footnote");
-
-  // console.log(blocks, notes);
-
   const notes = [];
 
   for (const block of blocks) {
-    const type = block._type;
-    if (!["block", "table"].includes(type)) {
+    if (!["block", "table"].includes(block._type)) {
       continue;
     }
 
-    if (type === "table") {
+    if (block._type === "table") {
       // Traverse the table cells
       for (const row of block.rows) {
         for (const cell of row.cells) {
           for (const child of cell.text) {
+            if (!["block"].includes(child._type)) {
+              continue;
+            }
             const markDefs = child.markDefs;
             if (markDefs) {
               for (const markDef of markDefs) {
@@ -44,7 +34,7 @@ export function Footnotes({
           }
         }
       }
-    } else {
+    } else if (block._type === "block") {
       // Traverse the block text
       for (const markDef of block.markDefs) {
         if (markDef._type === "footnote") {
