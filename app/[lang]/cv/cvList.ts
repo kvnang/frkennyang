@@ -6,6 +6,11 @@ export const cvList = [
     items: [
       {
         title: "Pontifical University of the Holy Cross",
+        subtitle: "Doctor of Sacred Theology",
+        meta: "2022 - 2024 | summa cum laude",
+      },
+      {
+        title: "Pontifical University of the Holy Cross",
         subtitle: "Licentiate in Dogmatic Theology",
         meta: "2020 - 2022 | summa cum laude",
       },
