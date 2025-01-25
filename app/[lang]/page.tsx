@@ -34,9 +34,7 @@ export default function HomePage({ params }: { params: { lang: LangType } }) {
                   <div className="mb-6 prose">
                     <h1>Heaven is your final destination.</h1>
                     <p>
-                      <strong>Hi, I’m Father Kenny.</strong> As a priest, I
-                      provide you with resources to help you grow in your faith.
-                      Check them out!
+                      <strong>Hi, I’m Father Kenny.</strong> Thanks for stopping by! This site is here to provide tools and insights to support your faith journey—feel free to explore!
                     </p>
                   </div>
                   <div className="flex flex-wrap -mx-4 -my-3 max-w-[90%] md:max-w-none">
