@@ -1,5 +1,5 @@
 ## About This Website
 
-After over a year on several social media platforms, I realized that they could only do so much. Before long, I wished I had a home on the internet where I could express my thoughts more thoroughly in order to better proclaim Christ to my contemporaries.
+After spending over a year on various social media platforms, I came to realize their limitations. I wanted a space where I could share my thoughts more deeply and better proclaim Christ to those around me.
 
-This is the exact purpose of this personal website. It was elegantly created in 2021 by [Kevin Ang](https://www.kevinang.com/), who had developed websites and brandings for scores of institutions within the Catholic Church and beyond.
+That’s why I created this personal website. It was beautifully designed in 2021 by [Kevin Ang](https://www.kevinang.com/), a professional developer with extensive experience working with Catholic institutions and beyond.
