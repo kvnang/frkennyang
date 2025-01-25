@@ -1,9 +1,9 @@
 # About Fr. Kenny
 
-I enjoy traveling. Sometimes huge crowds unsettle me. As an early bird, socializing in the evening is not my forte. I dislike noise, but I love learning new things. Don’t invite me to hike mountains, though. Why would a person ascend a mountain only to find herself having to climb it down (which is the worst part)? But that’s just me.
+I love traveling, though I’m not a fan of huge crowds—they can unsettle me. As an early bird, socializing in the evening isn’t my strong suit. I cherish quiet moments and the joy of learning new things, but please don’t ask me to hike mountains! Climbing up is one thing, but the descent? That’s a different story altogether.
 
-I’m a Catholic priest of the Diocese of Surabaya. Raised in [Jakarta](https://www.indonesia.travel/id/en/destinations/java/dki-jakarta), I’ve lived in Indonesia, the United States, Spain, and Italy. I first sensed my priestly vocation as I was mesmerized by the beauty of Catholic faith expressed in the [_Catechism of the Catholic Church_](https://www.usccb.org/sites/default/files/flipbooks/catechism/).
+I’m a Catholic priest, raised in Jakarta, with a life that has taken me to Indonesia, the United States, Spain, and Italy. My priestly vocation began to take shape as I marveled at the beauty of the Catholic faith, especially as presented in the Catechism of the Catholic Church.
 
-Teaching is my passion. It encourages me to keep researching. If I didn’t have to teach, perhaps I wouldn’t study as hard. Since my diaconal ordination in 2018, I’ve had the privilege of [speaking to numerous groups](/cv/#speaking-topics) from Indonesia, Singapore, and the United States. By helping you know and love your faith more deeply, I dream of bringing you closer to God, your ultimate source of happiness.
+Teaching is my greatest passion—it drives me to keep researching and deepening my understanding. Without the need to teach, I doubt I’d study with the same vigor. Since 2018, I’ve been privileged to speak to groups in Indonesia, Singapore, and the United States. My hope is to help you know and love your faith more deeply, drawing you closer to God, the ultimate source of happiness.
 
-On the side, I play [pipe organ](https://www.youtube.com/watch?v=hygsiL9X_BY) and take photos. I’m currently based in Rome, where I work on a thesis on [St. Thomas Aquinas](https://www.youtube.com/watch?v=iahnzFgpbtQ), “the wisest among the saints and the saintliest among the wise” (Cardinal Bessarion).
+In my free time, I enjoy playing the pipe organ and capturing moments through photography. Currently, I’m based in Rome.
