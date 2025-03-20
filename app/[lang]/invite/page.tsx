@@ -20,7 +20,12 @@ export async function generateMetadata(
   );
 }
 
-export default function InvitePage({ params }: { params: { lang: string } }) {
+export default async function InvitePage({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
   return (
     <main className="page-invite">
       <section className="container pt-page pb-section">
@@ -28,7 +33,7 @@ export default function InvitePage({ params }: { params: { lang: string } }) {
           <div className="col-span-full lg:col-span-8 lg:col-start-3 xl:col-span-6 xl:col-start-4">
             <div className="relative">
               <div className="prose">
-                {params.lang === "id" ? <PageContentId /> : <PageContent />}
+                {lang === "id" ? <PageContentId /> : <PageContent />}
               </div>
             </div>
             <InviteForm />

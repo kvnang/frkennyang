@@ -3,8 +3,6 @@ import { fromZonedTime, format, toZonedTime } from "date-fns-tz";
 import { submitLog } from "./log";
 import { turnstileVerify } from "@/lib/turnstile";
 
-export const runtime = "edge";
-
 interface MJMLResponseBodyProps {
   errors?: string[];
   html?: string;
