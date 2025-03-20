@@ -18,7 +18,7 @@ export const productionUrl = definePlugin<{
   }
   if (!previewSecretId.includes(".")) {
     throw new TypeError(
-      "`previewSecretId` must contain a `.` to ensure it can only be queried by authenticated users"
+      "`previewSecretId` must contain a `.` to ensure it can only be queried by authenticated users",
     );
   }
   if (!_types || _types.length === 0) {
@@ -33,7 +33,6 @@ export const productionUrl = definePlugin<{
 
         const client = getClient({ apiVersion });
 
-        // @ts-expect-error
         const secret = await getSecret(client, previewSecretId, true);
         if (secret) {
           url.searchParams.set("secret", secret);

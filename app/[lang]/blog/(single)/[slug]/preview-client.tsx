@@ -1,20 +1,25 @@
 "use client";
 
-import { usePreview } from "@/lib/sanity.preview";
 import { SinglePost } from "./SinglePost";
 import { query } from "./query";
 import { LangType } from "@/types";
 import { getDictionary } from "@/lib/dictionaries";
+import { useLiveQuery } from "next-sanity/preview";
 
 export function PreviewClient({
-  token,
+  initialData,
   params,
   dictionary,
 }: {
-  token: string;
+  initialData: any;
   params: { lang: LangType; slug: string };
   dictionary: Awaited<ReturnType<typeof getDictionary>>;
 }) {
-  const data = usePreview(token, query, { slug: params.slug });
+  const [data, loading] = useLiveQuery(initialData, query);
+
+  if (loading) {
+    return <>Loading...</>;
+  }
+
   return <SinglePost post={data[0]} params={params} dictionary={dictionary} />;
 }

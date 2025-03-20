@@ -31,7 +31,7 @@ export async function GET(request: Request) {
   if (!token) {
     return new Response(
       "A secret is provided but there is no `SANITY_API_READ_TOKEN` environment variable setup.",
-      { status: 401 }
+      { status: 401 },
     );
   }
 
@@ -43,18 +43,18 @@ export async function GET(request: Request) {
 
   const href = resolveHref(
     searchParams.get("documentType") as string,
-    searchParams.get("slug") as string
+    searchParams.get("slug") as string,
   );
 
   if (!href) {
     return new Response(
       "Unable to resolve preview URL based on the current document type and slug",
-      { status: 400 }
+      { status: 400 },
     );
   }
 
   // Enable Draft Mode by setting the cookie
-  draftMode().enable();
+  (await draftMode()).enable();
 
   // Redirect to the path from the fetched post
   // We don't redirect to searchParams.slug as that might lead to open redirect vulnerabilities

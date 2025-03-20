@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { zonedTimeToUtc, utcToZonedTime, format } from "date-fns-tz";
+import { fromZonedTime, format, toZonedTime } from "date-fns-tz";
 import { submitLog } from "./log";
 import { turnstileVerify } from "@/lib/turnstile";
 
@@ -37,7 +37,7 @@ export async function POST(request: Request) {
   if (!body) {
     return NextResponse.json(
       { error: "Form data is required" },
-      { status: 400 }
+      { status: 400 },
     );
   }
 
@@ -53,7 +53,7 @@ export async function POST(request: Request) {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
   }
 
@@ -68,14 +68,14 @@ export async function POST(request: Request) {
   if (!mailgunApiKey || !mailgunDomain) {
     return NextResponse.json(
       { error: "Mailgun API is not configured" },
-      { status: 400 }
+      { status: 400 },
     );
   }
 
   if (!recipientEmail) {
     return NextResponse.json(
       { error: "Recipient Email not defined" },
-      { status: 400 }
+      { status: 400 },
     );
   }
 
@@ -98,16 +98,16 @@ export async function POST(request: Request) {
     rawData.endTime &&
     rawData.timeZone
   ) {
-    const utcStartDate = zonedTimeToUtc(
+    const utcStartDate = fromZonedTime(
       `${rawData.date} ${rawData.startTime}`,
-      rawData.timeZone
+      rawData.timeZone,
     );
-    const utcEndDate = zonedTimeToUtc(
+    const utcEndDate = fromZonedTime(
       `${rawData.date} ${rawData.endTime}`,
-      rawData.timeZone
+      rawData.timeZone,
     );
-    const localStartDateUTC = utcToZonedTime(utcStartDate, localTimeZone);
-    const localEndDateUTC = utcToZonedTime(utcEndDate, localTimeZone);
+    const localStartDateUTC = toZonedTime(utcStartDate, localTimeZone);
+    const localEndDateUTC = toZonedTime(utcEndDate, localTimeZone);
 
     const localDate = format(localStartDateUTC, "yyyy-MM-dd", {
       timeZone: localTimeZone,
@@ -122,13 +122,13 @@ export async function POST(request: Request) {
     let localAlternateDate = "";
 
     if (rawData.alternateDate) {
-      const utcAlternateDate = zonedTimeToUtc(
+      const utcAlternateDate = fromZonedTime(
         `${rawData.alternateDate} ${rawData.startTime}`,
-        rawData.timeZone
+        rawData.timeZone,
       );
-      const localAlternateDateUTC = utcToZonedTime(
+      const localAlternateDateUTC = toZonedTime(
         utcAlternateDate,
-        localTimeZone
+        localTimeZone,
       );
 
       localAlternateDate = format(localAlternateDateUTC, "yyyy-MM-dd", {
@@ -232,7 +232,7 @@ export async function POST(request: Request) {
                 (key) =>
                   `<tr><td><strong>${toTitleCase(key)}</strong></td><td>${
                     data[key]
-                  }</tr>`
+                  }</tr>`,
               )
               .join("\n")}
           </mj-table>
@@ -258,11 +258,11 @@ export async function POST(request: Request) {
         method: "POST",
         headers: {
           Authorization: `Basic ${Buffer.from(
-            `${process.env.MJML_APPLICATION_ID}:${process.env.MJML_SECRET_KEY}`
+            `${process.env.MJML_APPLICATION_ID}:${process.env.MJML_SECRET_KEY}`,
           ).toString("base64")}`,
         },
         body: JSON.stringify({ mjml }),
-      }
+      },
     );
 
     const htmlOutput = (await mjmlResponse.json()) as MJMLResponseBodyProps;
@@ -299,7 +299,7 @@ export async function POST(request: Request) {
           "Content-Type": "application/x-www-form-urlencoded",
         },
         body: new URLSearchParams(mailOptions).toString(),
-      }
+      },
     );
 
     return NextResponse.json({ success: res.ok });

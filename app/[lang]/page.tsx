@@ -8,7 +8,10 @@ import contactImage from "@/assets/images/frk-contact.jpg";
 import { ButtonLink } from "@/components/Button";
 import type { LangType } from "@/types";
 
-export default function HomePage({ params }: { params: { lang: LangType } }) {
+export default async function HomePage(props: {
+  params: Promise<{ lang: LangType }>;
+}) {
+  const params = await props.params;
   return (
     <main>
       <div
@@ -20,13 +23,13 @@ export default function HomePage({ params }: { params: { lang: LangType } }) {
         <div className="container overflow-hidden">
           <div className="relative">
             <div className="grid grid-cols-12 gap-x-4">
-              <div className="col-span-12 md:col-span-7 md:col-start-2 lg:col-span-5 lg:col-start-2 2xl:col-span-4 2xl:col-start-3">
+              <div className="col-span-12 lg:col-span-5 lg:col-start-2 2xl:col-span-4 2xl:col-start-3">
                 <div className="flex flex-col justify-end mb-[10%] relative md:pr-10 lg:pr-0">
                   <div className="h-[200%] w-[1px] bg-gray absolute bottom-0 -left-4 opacity-50 hidden md:block" />
                   <Image
                     src={signature}
                     alt="Fr. Kenny Ang"
-                    className="max-md:w-1/2 max-md:absolute max-md:opacity-40 max-md:order-9 max-md:translate-y-[calc(100%+1.6rem)] w-60 md:-ml-14 md:mb-7"
+                    className="max-lg:w-1/2 max-lg:absolute max-lg:opacity-40 max-lg:order-9 max-lg:translate-y-[calc(100%+3rem)] w-60 lg:-ml-14 lg:mb-7"
                     width="240"
                     height="202"
                     priority
@@ -34,7 +37,9 @@ export default function HomePage({ params }: { params: { lang: LangType } }) {
                   <div className="mb-6 prose">
                     <h1>Heaven is your final destination.</h1>
                     <p>
-                      <strong>Hi, I’m Father Kenny.</strong> Thanks for stopping by! This site is here to provide tools and insights to support your faith journey—feel free to explore!
+                      <strong>Hi, I’m Father Kenny.</strong> Thanks for stopping
+                      by! This site is here to provide tools and insights to
+                      support your faith journey—feel free to explore!
                     </p>
                   </div>
                   <div className="flex flex-wrap -mx-4 -my-3 max-w-[90%] md:max-w-none">
@@ -51,7 +56,7 @@ export default function HomePage({ params }: { params: { lang: LangType } }) {
                   </div>
                 </div>
               </div>
-              <div className="col-span-12 md:col-span-4 md:col-start-9 xl:col-span-3 xl:col-start-9">
+              <div className="col-span-12 md:col-span-5 md:col-start-8 xl:col-span-4 xl:col-start-8">
                 <div className="h-[calc(100%+2rem)] flex justify-end items-end -mt-8 md:h-full md:mt-0">
                   <div className="w-3/5 -mr-[20%] md:w-[130%] md:-mr-[30%] lg:mr-0 lg:w-full">
                     <Image
@@ -69,7 +74,6 @@ export default function HomePage({ params }: { params: { lang: LangType } }) {
           </div>
         </div>
       </div>
-      {/* @ts-expect-error */}
       <HomeFeatured lang={params.lang} />
       <div id="contact" className="xl:bg-off-white">
         <div className="container">

@@ -6,8 +6,8 @@ import { type LangType } from "@/types";
 import { type ResolvingMetadata } from "next";
 
 export async function generateMetadata(
-  { params }: { params: { lang: LangType } },
-  parent: ResolvingMetadata
+  { params }: { params: Promise<{ lang: LangType }> },
+  parent: ResolvingMetadata,
 ) {
   return getMetadata(
     {
@@ -16,7 +16,7 @@ export async function generateMetadata(
       description:
         "Fr. Kenny is open to invitation to speak at your event on dogmatic theology, faith, spirituality, and others. Fill out the online form to submit your request.",
     },
-    await parent
+    await parent,
   );
 }
 

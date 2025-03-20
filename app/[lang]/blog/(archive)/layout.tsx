@@ -6,11 +6,12 @@ import { Search } from "./Search";
 
 export default async function BlogLayout({
   children,
-  params,
+  params: _params,
 }: {
   children: React.ReactNode;
-  params: { lang: LangType };
+  params: Promise<{ lang: LangType }>;
 }) {
+  const params = await _params;
   const categories = await clientFetch(`
     *[_type == "category"] {
       _id,

@@ -5,9 +5,10 @@ import { getDictionary } from "@/lib/dictionaries";
 import { query } from "./query";
 import { SinglePost, type FetchPostProps } from "./SinglePost";
 import { draftMode } from "next/headers";
-import { Preview } from "./Preview";
 import { getMetadata } from "@/lib/metadata";
 import { type ResolvingMetadata } from "next";
+import PreviewProvider from "./preview-provider";
+import { PreviewClient } from "./preview-client";
 
 async function getPost(slug: string) {
   const posts = (await clientFetch(query, {
@@ -20,13 +21,12 @@ async function getPost(slug: string) {
 }
 
 export async function generateMetadata(
-  {
-    params,
-  }: {
-    params: { lang: LangType; slug: string };
+  props: {
+    params: Promise<{ lang: LangType; slug: string }>;
   },
-  parent: ResolvingMetadata
+  parent: ResolvingMetadata,
 ) {
+  const params = await props.params;
   const post = await getPost(params.slug);
 
   if (!post) return getMetadata({}, await parent);
@@ -48,31 +48,34 @@ export async function generateMetadata(
           }
         : undefined,
     },
-    await parent
+    await parent,
   );
 }
 
-export default async function SinglePostPage({
-  params,
-}: {
-  params: { lang: LangType; slug: string };
+export default async function SinglePostPage(props: {
+  params: Promise<{ lang: LangType; slug: string }>;
 }) {
-  const isDraft = draftMode().isEnabled;
-  const token = process.env.SANITY_API_READ_TOKEN;
-
-  const dictionary = await getDictionary(params.lang as LangType);
-
-  if (isDraft && token) {
-    return (
-      <>
-        <Preview token={token} params={params} dictionary={dictionary} />
-      </>
-    );
-  }
-
+  const params = await props.params;
+  const preview = (await draftMode()).isEnabled
+    ? { token: process.env.SANITY_API_READ_TOKEN }
+    : undefined;
   const post = await getPost(params.slug);
 
   if (!post) return null;
+
+  const dictionary = await getDictionary(params.lang as LangType);
+
+  if (preview?.token) {
+    return (
+      <PreviewProvider token={preview.token}>
+        <PreviewClient
+          initialData={post}
+          params={params}
+          dictionary={dictionary}
+        />
+      </PreviewProvider>
+    );
+  }
 
   return <SinglePost post={post} params={params} dictionary={dictionary} />;
 }

@@ -8,13 +8,12 @@ import { type LangType } from "@/types";
 import { type ResolvingMetadata } from "next";
 
 export async function generateMetadata(
-  {
-    params,
-  }: {
-    params: { lang: LangType; category?: string };
+  props: {
+    params: Promise<{ lang: LangType; category?: string }>;
   },
-  parent: ResolvingMetadata
+  parent: ResolvingMetadata,
 ) {
+  const params = await props.params;
   const category = params.category
     ? await clientFetch(
         `*[_type == "category" && slug.current == $slug] {
@@ -22,7 +21,7 @@ export async function generateMetadata(
     }[0]`,
         {
           slug: params.category,
-        }
+        },
       )
     : null;
 
@@ -32,15 +31,14 @@ export async function generateMetadata(
       pathname: `/${params.lang}/blog`,
       description: `Browse Fr. Kenny's latest works, available in both English and Bahasa Indonesia.`,
     },
-    await parent
+    await parent,
   );
 }
 
-export default async function BlogPage({
-  params,
-}: {
-  params: { lang: LangType; category?: string };
+export default async function BlogPage(props: {
+  params: Promise<{ lang: LangType; category?: string }>;
 }) {
+  const params = await props.params;
   const category = params.category || "";
 
   const posts = await clientFetch(query, {

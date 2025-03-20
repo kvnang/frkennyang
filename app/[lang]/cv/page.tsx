@@ -7,8 +7,8 @@ import { type LangType } from "@/types";
 import { type ResolvingMetadata } from "next";
 
 export async function generateMetadata(
-  { params }: { params: { lang: LangType } },
-  parent: ResolvingMetadata
+  { params }: { params: Promise<{ lang: LangType }> },
+  parent: ResolvingMetadata,
 ) {
   return getMetadata(
     {
@@ -17,7 +17,7 @@ export async function generateMetadata(
       description:
         "Fr. Kenny's online Curriculum Vitae features his biograhical data and educational history, as well as professional experience.",
     },
-    await parent
+    await parent,
   );
 }
 
@@ -44,7 +44,6 @@ export default function CvPage() {
           </div>
         </div>
       </section>
-      {/* @ts-expect-error */}
       <CvListSection />
     </main>
   );

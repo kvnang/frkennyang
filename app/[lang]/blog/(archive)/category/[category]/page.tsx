@@ -5,20 +5,15 @@ import BlogPage, {
 import { ResolvingMetadata } from "next";
 
 export async function generateMetadata(
-  {
-    params,
-  }: {
-    params: { lang: LangType; category?: string };
+  props: {
+    params: Promise<{ lang: LangType; category?: string }>;
   },
-  parent: ResolvingMetadata
+  parent: ResolvingMetadata,
 ) {
-  return blogPageGenerateMetadata({ params }, parent);
+  return blogPageGenerateMetadata({ params: props.params }, parent);
 }
-export default async function BlogCategoryPage({
-  params,
-}: {
-  params: { category: string };
+export default async function BlogCategoryPage(props: {
+  params: Promise<{ lang: LangType; category: string }>;
 }) {
-  // @ts-expect-error
-  return <BlogPage params={params} />;
+  return <BlogPage params={props.params} />;
 }

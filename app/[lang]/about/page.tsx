@@ -7,8 +7,8 @@ import { type ResolvingMetadata } from "next";
 import { type LangType } from "@/types";
 
 export async function generateMetadata(
-  { params }: { params: { lang: LangType } },
-  parent: ResolvingMetadata
+  { params }: { params: Promise<{ lang: LangType }> },
+  parent: ResolvingMetadata,
 ) {
   return getMetadata(
     {
@@ -17,7 +17,7 @@ export async function generateMetadata(
       description:
         "Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.",
     },
-    await parent
+    await parent,
   );
 }
 

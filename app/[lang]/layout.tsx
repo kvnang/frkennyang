@@ -27,16 +27,18 @@ export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "id" }];
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-  params,
+  params: _params,
 }: {
   children: React.ReactNode;
-  params: { lang: LangType };
+  params: Promise<{ lang: LangType }>;
 }) {
+  const params = await _params;
+  const { lang } = params;
   return (
     <html
-      lang={params.lang}
+      lang={lang}
       className={`${montserrat.variable} ${playfairDisplay.variable}`}
     >
       <head>

@@ -1,14 +1,3 @@
-export function arrayBufferToBase64Url(buffer: ArrayBuffer) {
-  var binary = "";
-  var bytes = new Uint8Array(buffer);
-  var len = bytes.byteLength;
-  for (var i = 0; i < len; i++) {
-    binary += String.fromCharCode(bytes[i]);
-  }
-
-  return btoa(binary).replace(/=/g, "").replace(/\+/g, "-").replace(/\//g, "_");
-}
-
 /**
  * Get a Google auth token given service user credentials. This function
  * is a very slightly modified version of the one found at
@@ -25,14 +14,28 @@ export function arrayBufferToBase64Url(buffer: ArrayBuffer) {
 export async function getGoogleAuthToken(
   user: string,
   key: string,
-  scope: string
-): Promise<string | undefined> {
+  scope: string,
+): Promise<string> {
   function objectToBase64url(object: object) {
     return arrayBufferToBase64Url(
-      new TextEncoder().encode(JSON.stringify(object))
+      new TextEncoder().encode(
+        JSON.stringify(object),
+      ) as unknown as ArrayBuffer,
     );
   }
+  function arrayBufferToBase64Url(buffer: ArrayBuffer) {
+    let binary = "";
+    const bytes = new Uint8Array(buffer);
+    const len = bytes.byteLength;
+    for (let i = 0; i < len; i++) {
+      binary += String.fromCharCode(bytes[i]);
+    }
 
+    return btoa(binary)
+      .replace(/=/g, "")
+      .replace(/\+/g, "-")
+      .replace(/\//g, "_");
+  }
   function str2ab(str: string) {
     const buf = new ArrayBuffer(str.length);
     const bufView = new Uint8Array(buf);
@@ -56,12 +59,12 @@ export async function getGoogleAuthToken(
         hash: { name: "SHA-256" },
       },
       false,
-      ["sign"]
+      ["sign"],
     );
     const binarySignature = await crypto.subtle.sign(
       { name: "RSASSA-PKCS1-V1_5" },
       signer,
-      buf
+      buf,
     );
     return arrayBufferToBase64Url(binarySignature);
   }
@@ -93,8 +96,10 @@ export async function getGoogleAuthToken(
       body: body,
     });
     const oauth = (await response.json()) as any;
-    return oauth.access_token;
+    return oauth.access_token as string;
   } catch (err) {
     console.log("ERROR", err, JSON.stringify(err));
   }
+
+  return "";
 }
