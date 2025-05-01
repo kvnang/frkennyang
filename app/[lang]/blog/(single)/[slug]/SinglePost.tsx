@@ -34,6 +34,7 @@ const myPortableTextComponents: PortableTextComponents = {
             height={height}
             blurDataURL={value.asset.metadata.lqip}
             placeholder="blur"
+            unoptimized
           />
           {value.caption && (
             <figcaption className="text-sm text-left opacity-80 text-body">
@@ -62,6 +63,7 @@ const myPortableTextComponents: PortableTextComponents = {
                 blurDataURL={bookImage.asset.metadata.lqip}
                 placeholder="blur"
                 className="w-24 sm:w-32 shadow-md"
+                unoptimized
               />
             </div>
             <div className="flex-1 p-6">
@@ -326,6 +328,7 @@ export function SinglePost({
                       blurDataURL={post.mainImage.metadata.lqip}
                       placeholder="blur"
                       sizes="(min-width: 1024px) 62vw, (min-width: 1280px) 56vw, (min-width: 1750px) 962px, 100vw"
+                      unoptimized
                     />
                   </div>
                 </div>
@@ -361,7 +364,7 @@ export function SinglePost({
                     title={title}
                     url={new URL(
                       `/${params.lang}/blog/${post.slug.current}`,
-                      BASE_URL
+                      BASE_URL,
                     ).toString()}
                     label="Share this article"
                   />
