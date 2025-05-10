@@ -84,12 +84,12 @@ module.exports = {
               },
             },
             h1: {
-              fontFamily: theme("fontFamily.serif").join(", "),
+              fontFamily: theme("fontFamily.serif"),
               fontSize: theme("fontSize.2xl"),
               marginTop: "1.5em",
             },
             h2: {
-              fontFamily: theme("fontFamily.serif").join(", "),
+              fontFamily: theme("fontFamily.serif"),
               fontSize: theme("fontSize.xl"),
               marginTop: "1.5em",
             },
