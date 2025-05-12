@@ -15,7 +15,7 @@ export interface HeadingBlock {
 
 const components: PortableTextComponents = {
   types: {
-    span: ({ value: { text, marks }, ...props }) => {
+    span: ({ value: { text, marks } }) => {
       if (marks?.includes("em")) {
         return <em>{text}</em>;
       } else if (marks?.includes("strong")) {

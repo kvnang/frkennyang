@@ -39,7 +39,7 @@ export function PostEntry({
   // if (format === 'list' && post.format) {
   //   meta.push(post.format);
   // }
-  const categories = post.categories;
+  // const categories = post.categories;
   // if (post.timeToRead) {
   //   meta.push(`${post.timeToRead.toString()} min read`);
   // }

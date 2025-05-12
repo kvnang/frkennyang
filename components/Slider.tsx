@@ -18,29 +18,27 @@ export function SlideArrow({
   const [disabled, setDisabled] = React.useState(false);
 
   const updateArrowState = React.useCallback(() => {
-    () => {
-      const sliderInner = sliderInnerRef;
+    const sliderInner = sliderInnerRef;
 
-      if (!sliderInner) {
-        return;
-      }
+    if (!sliderInner) {
+      return;
+    }
 
-      const { scrollWidth, clientWidth, scrollLeft } = sliderInner;
-      const errorMargin = 5; // sometimes clientWidth + scrollLeft won't ever add up to scrollWidth
+    const { scrollWidth, clientWidth, scrollLeft } = sliderInner;
+    const errorMargin = 5; // sometimes clientWidth + scrollLeft won't ever add up to scrollWidth
 
-      const hasNext = scrollWidth - errorMargin > clientWidth + scrollLeft;
-      const hasPrev = scrollLeft > 0;
+    const hasNext = scrollWidth - errorMargin > clientWidth + scrollLeft;
+    const hasPrev = scrollLeft > 0;
 
-      if (direction === "next") {
-        setDisabled(!hasNext);
-      }
+    if (direction === "next") {
+      setDisabled(!hasNext);
+    }
 
-      if (direction === "prev") {
-        setDisabled(!hasPrev);
-      }
+    if (direction === "prev") {
+      setDisabled(!hasPrev);
+    }
 
-      sliderInner.classList.remove("is-scrolling-by-click");
-    };
+    sliderInner.classList.remove("is-scrolling-by-click");
   }, [direction, sliderInnerRef]);
 
   const handleClick = () => {
@@ -55,7 +53,7 @@ export function SlideArrow({
     const allSlides = sliderInner.children;
 
     const currentSlideIndex = Array.from(allSlides).findIndex(
-      (el) => el.getBoundingClientRect().left > 0
+      (el) => el.getBoundingClientRect().left > 0,
     );
     const previousSlideIndex =
       currentSlideIndex === 0 ? allSlides.length - 1 : currentSlideIndex - 1;
@@ -140,7 +138,7 @@ export function Slider({
   const ref = React.useRef<HTMLDivElement>(null);
 
   const { events } = useDraggable(
-    ref as React.MutableRefObject<HTMLDivElement>
+    ref as React.MutableRefObject<HTMLDivElement>,
   );
 
   React.useEffect(() => {
@@ -165,7 +163,7 @@ export function Slider({
                   margin: "0 calc(var(--slider--slide-gap) * 0.5 * -1)",
                 }}
               >
-                {React.Children.map(children, (child, index) => (
+                {React.Children.map(children, (child) => (
                   <Slide>{child}</Slide>
                 ))}
                 <li

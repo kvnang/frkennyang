@@ -22,7 +22,7 @@ export function Accordions({ cvList }: { cvList: CvListType }) {
                 {cvGroup.items.map((cvItem, k) => {
                   const title = "title" in cvItem ? cvItem.title : "";
                   const subtitle = "subtitle" in cvItem ? cvItem.subtitle : "";
-                  const meta = "meta" in cvItem ? cvItem.meta : "";
+                  // const meta = "meta" in cvItem ? cvItem.meta : "";
                   const description =
                     "description" in cvItem ? cvItem.description : "";
 
@@ -39,7 +39,7 @@ export function Accordions({ cvList }: { cvList: CvListType }) {
                           ) : null}
                         </h4>
                       )}
-                      {meta && <h6 className="opacity-80">{meta}</h6>}
+                      {/* {meta ? <h6 className="opacity-80">{meta}</h6> : null} */}
                       {description && /\S/.test(description) && (
                         <div className="prose prose-white mt-2">
                           <p className="text-sm">{description}</p>

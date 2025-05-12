@@ -4,7 +4,7 @@ import { ArrowUpRightIcon, LandmarkIcon, MapPinIcon } from "lucide-react";
 import { TableOfContentsInner } from "../blog/(single)/[slug]/TableOfContentsInner";
 import { slugify } from "@/utils/helpers";
 
-const getOrcidToken = async () => {
+export const getOrcidToken = async () => {
   const obj = {
     client_id: process.env.ORCID_CLIENT_ID,
     client_secret: process.env.ORCID_CLIENT_SECRET,
@@ -149,7 +149,7 @@ export async function CvListSection() {
         title: work.title.title.value,
         subtitle: work["journal-title"].value,
         date: [date],
-        meta: work.url.value,
+        link: work.url.value,
         description: subtitle,
         badges: [titleCase(typeString || "")],
       };
@@ -193,6 +193,7 @@ export async function CvListSection() {
                           "badges" in cvItem ? cvItem.badges : null;
                         const active =
                           "active" in cvItem ? cvItem.active : false;
+                        const link = "link" in cvItem ? cvItem.link : null;
 
                         return (
                           <li
@@ -241,6 +242,11 @@ export async function CvListSection() {
                                         </span>
                                       </div>
                                     ) : null}
+                                  </div>
+                                ) : null}
+                                {link ? (
+                                  <div>
+                                    <UrlMeta>{link}</UrlMeta>
                                   </div>
                                 ) : null}
                               </div>
@@ -309,10 +315,10 @@ function UrlMeta({ children }: { children: string }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center hover:underline"
+      className="inline-flex items-center opacity-80 hover:opacity-100 transition-colors"
     >
       {host}
-      <ArrowUpRightIcon className="size-3.5 ml-1.5" />
+      <ArrowUpRightIcon className="size-3.5 ml-1.5 text-accent" />
     </a>
   );
 }

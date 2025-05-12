@@ -11,7 +11,7 @@ interface AccordionItemHeadProps {
   children?: React.ReactNode;
   id?: string;
   activeAccordionItem?: string | null;
-  setActiveAccordionItem?: Function;
+  setActiveAccordionItem?: (v: string | null | undefined) => void;
 }
 
 export function AccordionItemHead({
@@ -82,7 +82,7 @@ interface AccordionItemProps {
   children?: any;
   id?: string;
   activeAccordionItem?: string | null;
-  setActiveAccordionItem?: Function;
+  setActiveAccordionItem?: (v: string | null | undefined) => void;
 }
 
 export function AccordionItem({
@@ -131,7 +131,7 @@ interface AccordionProps {
 
 export function Accordion({ children, style }: AccordionProps) {
   const [activeAccordionItem, setActiveAccordionItem] = useState<string | null>(
-    null
+    null,
   );
 
   useEffect(() => {

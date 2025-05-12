@@ -2,7 +2,7 @@ import * as React from "react";
 import { clientFetch } from "@/lib/sanity.client";
 import { PostEntry } from "@/components/PostEntry";
 import { BlogList } from "./BlogList";
-import { query, queryWithSearch } from "./query";
+import { query } from "./query";
 import { getMetadata } from "@/lib/metadata";
 import { type LangType } from "@/types";
 import { type ResolvingMetadata } from "next";

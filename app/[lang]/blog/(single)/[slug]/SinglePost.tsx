@@ -1,7 +1,6 @@
 import * as React from "react";
 import type { PostProps, LangType } from "@/types";
 import SocialShare from "@/components/SocialShare";
-import { formatDate } from "@/utils/helpers";
 import Image from "next/image";
 import { PortableText, type PortableTextComponents } from "@portabletext/react";
 import { Footnotes } from "./Footnotes";
@@ -12,6 +11,7 @@ import { getDictionary } from "@/lib/dictionaries";
 import getYouTubeID from "get-youtube-id";
 import { BASE_URL } from "@/lib/constants";
 import Balancer from "react-wrap-balancer";
+import { formatDate } from "@/utils/helpers";
 
 export type FetchPostProps = Omit<PostProps, "content" | "intro"> & {
   introEn: any[];
@@ -22,7 +22,7 @@ export type FetchPostProps = Omit<PostProps, "content" | "intro"> & {
 
 const myPortableTextComponents: PortableTextComponents = {
   types: {
-    image: ({ value, isInline }) => {
+    image: ({ value }) => {
       const { width, height } = value.asset.metadata.dimensions;
 
       return (
@@ -148,7 +148,7 @@ const myPortableTextComponents: PortableTextComponents = {
   },
 
   marks: {
-    footnote: ({ text, value, markKey, ...rest }) => {
+    footnote: ({ text, value, markKey, ..._rest }) => {
       return (
         <a id={`footnote-ref-${value._key}`} href={`#footnote-${value._key}`}>
           {text}
@@ -182,7 +182,10 @@ const myPortableTextComponents: PortableTextComponents = {
       <h3 id={`_heading-ref-${props.value._key}`}>{children}</h3>
     ),
     blockquote: ({ children, ...props }) => (
-      <blockquote className="bg-darker-gray-2 py-4 lg:py-8 shadow-md">
+      <blockquote
+        className="bg-darker-gray-2 py-4 lg:py-8 shadow-md"
+        {...props}
+      >
         {children}
       </blockquote>
     ),
@@ -337,7 +340,7 @@ export function SinglePost({
                 <PortableText
                   value={content}
                   components={myPortableTextComponents}
-                  onMissingComponent={(message, options) => {
+                  onMissingComponent={() => {
                     // myErrorLogger.report(message, {
                     //   // eg `someUnknownType`
                     //   type: options.type,

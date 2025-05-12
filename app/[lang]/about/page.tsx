@@ -7,7 +7,7 @@ import { type ResolvingMetadata } from "next";
 import { type LangType } from "@/types";
 
 export async function generateMetadata(
-  { params }: { params: Promise<{ lang: LangType }> },
+  { params: _ }: { params: Promise<{ lang: LangType }> },
   parent: ResolvingMetadata,
 ) {
   return getMetadata(

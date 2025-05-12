@@ -3,7 +3,6 @@
 import * as React from "react";
 import FormSubmitButton from "./FormSubmitButton";
 import { toast } from "react-hot-toast";
-import { useTurnstile } from "@/hooks/useTurnstile";
 import { Turnstile } from "./Turnstile";
 
 export default function ContactForm() {
@@ -27,12 +26,12 @@ export default function ContactForm() {
 
     if (response.ok) {
       toast.success(
-        `Thank you, your message has been sent! I'll get back to you as soon as possible.`
+        `Thank you, your message has been sent! I'll get back to you as soon as possible.`,
       );
       form.reset();
     } else {
       toast.error(
-        `Sorry, there's an error in sending your message. Please try again later.`
+        `Sorry, there's an error in sending your message. Please try again later.`,
       );
     }
 
