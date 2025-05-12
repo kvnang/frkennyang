@@ -262,7 +262,10 @@ export async function CvListSection() {
                               {date ? (
                                 <div className="text-right grid grid-cols-1 gap-0.5 items-start font-normal opacity-80 shrink-0 py-1">
                                   {date.map((d, i) => (
-                                    <span key={i} className="whitespace-nowrap">
+                                    <span
+                                      key={i}
+                                      className="whitespace-nowrap font-mono text-base"
+                                    >
                                       {d}
                                     </span>
                                   ))}

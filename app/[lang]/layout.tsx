@@ -1,6 +1,11 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Montserrat, Inter, DM_Serif_Display } from "next/font/google";
+import {
+  Montserrat,
+  Inter,
+  DM_Serif_Display,
+  Geist_Mono,
+} from "next/font/google";
 import type { LangType } from "@/types";
 import { defaultMetadata } from "@/lib/metadata";
 import { Toaster } from "react-hot-toast";
@@ -28,6 +33,12 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+const geistMono = Geist_Mono({
+  subsets: ["latin"],
+  weight: "variable",
+  variable: "--font-geist-mono",
+});
+
 export const metadata = defaultMetadata;
 
 export async function generateStaticParams() {
@@ -46,7 +57,7 @@ export default async function RootLayout({
   return (
     <html
       lang={lang}
-      className={`${montserrat.variable} ${dmSerifDisplay.variable} ${inter.variable}`}
+      className={`${montserrat.variable} ${dmSerifDisplay.variable} ${inter.variable} ${geistMono.variable}`}
     >
       <head>
         <Script

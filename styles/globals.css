@@ -59,6 +59,7 @@
 
   --font-serif: var(--font-dm-serif-display);
   --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
 }
 
 @utility title-line {
