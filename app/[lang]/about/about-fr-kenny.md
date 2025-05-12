@@ -1,9 +1,7 @@
 # About Fr. Kenny
 
-I love traveling, though I’m not a fan of huge crowds—they can unsettle me. As an early bird, socializing in the evening isn’t my strong suit. I cherish quiet moments and the joy of learning new things, but please don’t ask me to hike mountains! Climbing up is one thing, but the descent? That’s a different story altogether.
+I was born and raised in Jakarta, and over the years I’ve lived in Indonesia, the United States, Spain, and now Italy. My path to the priesthood took shape gradually, drawn by the truth and beauty of the Catholic faith. I was ordained in 2019 for the Diocese of Surabaya. Since then, I’ve had the chance to give talks and lead sessions in Indonesia, Singapore, the United States, and Italy.
 
-I’m a Catholic priest, raised in Jakarta, with a life that has taken me to Indonesia, the United States, Spain, and Italy. My priestly vocation began to take shape as I marveled at the beauty of the Catholic faith, especially as presented in the Catechism of the Catholic Church.
+Teaching is what drives me. It pushes me to keep learning and to think more carefully. I doubt I’d study as much—or as seriously—without it. My hope is to help people grow in their understanding of the faith and to come closer to God, who is the source of real joy.
 
-Teaching is my greatest passion—it drives me to keep researching and deepening my understanding. Without the need to teach, I doubt I’d study with the same vigor. Since 2018, I’ve been privileged to speak to groups in Indonesia, Singapore, and the United States. My hope is to help you know and love your faith more deeply, drawing you closer to God, the ultimate source of happiness.
-
-In my free time, I enjoy playing the pipe organ and capturing moments through photography. Currently, I’m based in Rome.
+In my free time, I enjoy reading thought-provoking books, playing the pipe organ, and capturing moments through photography. These days, I make my home in the Eternal City.
