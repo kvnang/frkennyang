@@ -59,7 +59,7 @@ export function PostEntry({
               format === "list" ? "order-1 w-24 md:w-48 shrink-0 ml-6" : "mb-4"
             } ${
               format === "featured"
-                ? "w-full md:w-[32rem] md:max-w-[50%] shrink-0 md:mr-10"
+                ? "w-full md:w-lg md:max-w-[50%] shrink-0 md:mr-10"
                 : ""
             }`}
           >
@@ -136,7 +136,7 @@ export function PostEntrySkeleton({
               format === "list" ? "order-1 w-24 md:w-48 shrink-0 ml-6" : "mb-4"
             } ${
               format === "featured"
-                ? "w-full md:w-[32rem] md:max-w-[50%] shrink-0 md:mr-10"
+                ? "w-full md:w-lg md:max-w-[50%] shrink-0 md:mr-10"
                 : ""
             }`}
           >

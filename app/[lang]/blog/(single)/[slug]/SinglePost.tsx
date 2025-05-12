@@ -234,7 +234,7 @@ export function SinglePost({
   return (
     <div className="pt-page mb-section relative z-0">
       <div
-        className="absolute -z-10 h-64 lg:h-72 top-0 bg-gradient-to-b from-bg to-bg opacity-20 w-full left-0"
+        className="absolute -z-10 h-64 lg:h-72 top-0 bg-linear-to-b from-bg to-bg opacity-20 w-full left-0"
         style={
           {
             "--tw-gradient-from": `${

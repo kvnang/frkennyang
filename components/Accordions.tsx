@@ -40,8 +40,8 @@ export function AccordionItemHead({
       tabIndex={0}
       style={{ cursor: "pointer" }}
     >
-      <div className="h-[1px] absolute bottom-0 left-0 transition-transform origin-left w-full bg-gray scale-x-100"></div>
-      <div className="h-[1px] absolute bottom-0 left-0 transition-transform origin-left w-full bg-body scale-x-0 group-aria-expanded:scale-x-100"></div>
+      <div className="h-px absolute bottom-0 left-0 transition-transform origin-left w-full bg-gray scale-x-100"></div>
+      <div className="h-px absolute bottom-0 left-0 transition-transform origin-left w-full bg-body scale-x-0 group-aria-expanded:scale-x-100"></div>
       <div>{children}</div>
       <ChevronDownIcon className="ml-4 transition-transform h-6 w-6 group-aria-expanded:rotate-180" />
     </div>

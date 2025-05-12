@@ -36,11 +36,12 @@ export function TableOfContentsInner({
   label: string;
   headings: HeadingBlock[];
 }) {
+  console.log(headings);
   const [activeSection, setActiveSection] = React.useState<string | null>(null);
 
   const handleScroll = () => {
     const sections = document.querySelectorAll<HTMLElement>(
-      "main [id^=_heading-ref-]"
+      "main [id^=_heading-ref-]",
     );
     const scrollPosition = window.scrollY;
 
@@ -79,7 +80,7 @@ export function TableOfContentsInner({
       <div
         className={clsx(
           `p-4 bg-dark-gray border-t border-medium-gray lg:border-none lg:bg-transparent lg:p-0 lg:flex`,
-          isToggled ? `flex` : `hidden`
+          isToggled ? `flex` : `hidden`,
         )}
       >
         <ol className="text-sm -my-1.5">

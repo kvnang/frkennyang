@@ -25,7 +25,7 @@ export default async function HomePage(props: {
             <div className="grid grid-cols-12 gap-x-4">
               <div className="col-span-12 lg:col-span-5 lg:col-start-2 2xl:col-span-4 2xl:col-start-3">
                 <div className="flex flex-col justify-end mb-[10%] relative md:pr-10 lg:pr-0">
-                  <div className="h-[200%] w-[1px] bg-gray absolute bottom-0 -left-4 opacity-50 hidden md:block" />
+                  <div className="h-[200%] w-px bg-gray absolute bottom-0 -left-4 opacity-50 hidden md:block" />
                   <Image
                     src={signature}
                     alt="Fr. Kenny Ang"
