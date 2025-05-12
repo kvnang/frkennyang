@@ -193,7 +193,8 @@ export async function CvListSection() {
                           "badges" in cvItem ? cvItem.badges : null;
                         const active =
                           "active" in cvItem ? cvItem.active : false;
-                        const link = "link" in cvItem ? cvItem.link : null;
+                        const link =
+                          "link" in cvItem ? (cvItem.link as string) : null;
 
                         return (
                           <li
