@@ -40,17 +40,7 @@ export const cvList = [
       },
     ],
   },
-  {
-    title: "Languages",
-    items: [
-      { title: "English", badges: ["Reading", "Speaking", "Writing"] },
-      { title: "Spanish", badges: ["Reading", "Speaking", "Writing"] },
-      { title: "Italian", badges: ["Reading", "Speaking", "Writing"] },
-      { title: "Bahasa Indonesia", badges: ["Reading", "Speaking", "Writing"] },
-      { title: "Latin", badges: ["Reading"] },
-      { title: "French", badges: ["Reading"] },
-    ],
-  },
+
   {
     title: "Academic Experience",
     items: [
@@ -103,214 +93,6 @@ export const cvList = [
         location: "Jakarta, Indonesia",
         description: `I focused on providing elementary music instructions to children as well as giving private piano lessons.`,
       },
-    ],
-  },
-  {
-    title: "Speaking Topics",
-    items: [
-      {
-        title: "The Purpose of Life",
-        date: ["22 Jan 2022"],
-        location: "Singapore",
-      },
-      { title: "Forgiveness", date: ["11 Nov 2021"], location: "Singapore" },
-      {
-        title: "Mary in Today’s World",
-        date: ["25 Oct 2021"],
-        location: "Surabaya",
-      },
-      {
-        title: "Abortion according to Catholic Morality",
-        date: ["23 Oct 2021"],
-        location: "Surabaya",
-      },
-      {
-        title: "Rosary: Why and How to Pray It",
-        date: ["16 Oct 2021"],
-        location: "Jakarta",
-      },
-      {
-        title: "Chastity and Contraception",
-        date: ["11 Oct 2021"],
-        location: "Jakarta",
-      },
-      {
-        title: "Seven Anti-Catholic Myths",
-        date: ["24 Sep 2021"],
-        location: "Jakarta",
-      },
-      {
-        title: "Seven Habits of Prayer",
-        date: ["23 Sep 2021"],
-        location: "Singapore",
-      },
-      {
-        title: "Extra Ecclesiam Nulla Salus",
-        date: ["15 Sep 2021"],
-        location: "Surabaya",
-      },
-      {
-        title: "Growing in Faith",
-        location: "Singapore",
-        date: ["14 Sep 2021"],
-      },
-      { title: "Antichrist", location: "Jakarta", date: ["10 Sep 2021"] },
-      { title: "Prosperity Gospel", location: "Jakarta", date: ["5 Sep 2021"] },
-      {
-        title: "The Ninth and Tenth Commandments",
-        location: "Jakarta",
-        date: ["7 Aug 2021"],
-      },
-      {
-        title: "Christian Poverty and Detachment",
-        location: "Jakarta",
-        date: ["22 Jul 2021"],
-      },
-      {
-        title: "Second Vatican Council",
-        location: "Surabaya",
-        date: ["21 Jul 2021"],
-      },
-      {
-        title: "The Fifth Commandment",
-        location: "Jakarta",
-        date: ["10 Jul 2021"],
-      },
-      { title: "The Trinity", location: "Singapore", date: ["18 Jul 2020"] },
-      { title: "The Holy Spirit", location: "Surabaya", date: ["27 MAY 2020"] },
-      {
-        title: "Catholicism vs. Protestantism",
-        location: "22 MAY 2020, JAKARTA",
-      },
-      { title: "The Problem of Evil", location: "11 MAY 2020, CALIFORNIA" },
-      {
-        title: "The Divine Mercy",
-        location: "Surabaya",
-        date: ["15 APRIL 2020"],
-      },
-      {
-        title: "The Way of the Cross",
-        location: "Surabaya",
-        date: ["7 MARCH 2020"],
-      },
-      { title: "New Age", location: "Surabaya", date: ["4 MARCH 2020"] },
-      { title: "Priestly Vocation", location: "13 FEBRUARY 2020, JAKARTA" },
-      {
-        title: "God’s Existence",
-        location: "Surabaya",
-        date: ["27 JANUARY 2020"],
-      },
-      {
-        title: "The Eucharist",
-        location: "Surabaya",
-        date: ["7 DECEMBER 2019"],
-      },
-      {
-        title: "On the “Our Father”",
-        location: "Surabaya",
-        date: ["21 Nov 2019"],
-      },
-      { title: "Purgatory", location: "Surabaya", date: ["20 Nov 2019"] },
-      {
-        title: "Liturgical Items and Vestments",
-        location: "Surabaya",
-        date: ["27 OCTOBER 2019"],
-      },
-      {
-        title: "Aquinas: Life and Teaching",
-        location: "Surabaya",
-        date: ["26 OCTOBER 2019"],
-      },
-      {
-        title: "History and Content of the CCC",
-        location: "Surabaya",
-        date: ["19 SEPTEMBER 2019"],
-      },
-      {
-        title: "Christian Family",
-        location: "Surabaya",
-        date: ["31 Aug 2019"],
-      },
-      {
-        title: "Reasons to be a Catholic",
-        location: "Surabaya",
-        date: ["3 JULY 2019"],
-      },
-      { title: "Sins", location: "Surabaya", date: ["22 JULY 2019"] },
-      { title: "Christology", location: "Jakarta", date: ["29 Jun 2019"] },
-      { title: "The Last Things", location: "Surabaya", date: ["12 MAY 2019"] },
-      {
-        title: "The Sacrament of Baptism",
-        location: "Surabaya",
-        date: ["11 APRIL 2019"],
-      },
-      {
-        title: "Human Passions",
-        location: "Surabaya",
-        date: ["16 MARCH 2019"],
-      },
-      { title: "Superstition", location: "Surabaya", date: ["14 MARCH 2019"] },
-      {
-        title: "Biblical Covenants",
-        location: "Surabaya",
-        date: ["13 FEBRUARY 2019"],
-      },
-      {
-        title: "Christian Prayer",
-        location: "Surabaya",
-        date: ["13 FEBRUARY 2019"],
-      },
-      {
-        title: "“Adoro te devote”",
-        location: "Surabaya",
-        date: ["1 FEBRUARY 2019"],
-      },
-      {
-        title: "The Sacrament of Confession",
-        location: "Surabaya",
-        date: ["7 DECEMBER 2018"],
-      },
-      {
-        title: "History of the Church",
-        location: "Surabaya",
-        date: ["21 Nov 2018"],
-      },
-      {
-        title: "Holy Communion",
-        location: "Surabaya",
-        date: ["13 Nov 2018"],
-      },
-      {
-        title: "Our Lady of Torreciudad",
-        location: "Surabaya",
-        date: ["Oct 14, 2018"],
-      },
-      {
-        title: "Marian Devotion",
-        location: "Surabaya",
-        date: ["Oct 11, 2018"],
-      },
-      {
-        title: "Queen of Rosary",
-        location: "Surabaya",
-        date: ["Oct 5, 2018"],
-      },
-      {
-        title: "Pipe Organs 101",
-        location: "Surabaya",
-        date: ["Sep 30, 2018"],
-      },
-    ],
-  },
-  {
-    title: "Areas of Interest",
-    items: [
-      { title: "St. Thomas Aquinas" },
-      { title: "Theology of Creation" },
-      { title: "Medieval Philosophy and Theology" },
-      { title: "Apologetics and Catechesis" },
-      { title: "Pipe Organ" },
-      { title: "Renaissance Art" },
     ],
   },
   {
@@ -383,6 +165,17 @@ export const cvList = [
         location: "Missouri, USA",
         description: `I assisted the Director in preparing and carrying out Missouri Western State University’s Catholic Newman Center's programs, such as summer fundraising and dinner after Sunday Mass.`,
       },
+    ],
+  },
+  {
+    title: "Languages",
+    items: [
+      { title: "English", badges: ["Reading", "Speaking", "Writing"] },
+      { title: "Spanish", badges: ["Reading", "Speaking", "Writing"] },
+      { title: "Italian", badges: ["Reading", "Speaking", "Writing"] },
+      { title: "Bahasa Indonesia", badges: ["Reading", "Speaking", "Writing"] },
+      { title: "Latin", badges: ["Reading"] },
+      { title: "French", badges: ["Reading"] },
     ],
   },
 ];

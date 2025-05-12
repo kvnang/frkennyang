@@ -71,6 +71,7 @@ const config: Config = {
               paddingLeft: "1rem",
               paddingRight: "1rem",
               borderLeftWidth: "0.25rem",
+              quotes: "none",
               "@media (min-width: 1024px)": {
                 paddingLeft: "2rem",
                 paddingRight: "2rem",
@@ -84,6 +85,7 @@ const config: Config = {
             "--tw-prose-body": "var(--dark-gray)",
             "--tw-prose-headings": "var(--dark-gray)",
             "--tw-prose-bold": "var(--darker-gray)",
+            "--tw-prose-quotes": "var(--dark-gray)",
           },
         },
       }),

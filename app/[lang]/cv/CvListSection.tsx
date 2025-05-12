@@ -58,7 +58,7 @@ interface ExternalId {
 }
 
 export async function CvListSection() {
-  const { cvList } = await import("./cvList");
+  const { cvList: _cvList } = await import("./cvList");
   const data = await getOrcidData();
 
   const works = data["activities-summary"].works as {
@@ -128,7 +128,7 @@ export async function CvListSection() {
     }>;
   };
 
-  cvList.push({
+  const worksItem = {
     title: "Works",
     items: works.group.map((w) => {
       const work = w["work-summary"][0];
@@ -154,7 +154,15 @@ export async function CvListSection() {
         badges: [titleCase(typeString || "")],
       };
     }),
-  });
+  };
+
+  const worksIndex = 1;
+
+  const cvList = [
+    ..._cvList.slice(0, worksIndex),
+    worksItem,
+    ..._cvList.slice(worksIndex),
+  ];
 
   return (
     <section className="container pb-section">
