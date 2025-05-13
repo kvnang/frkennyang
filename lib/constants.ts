@@ -10,3 +10,4 @@ const host =
 export const BASE_URL = `${protocol}://${host}`;
 
 export const ORCID_ID = `0000-0001-6563-8863`;
+export const CV_UPDATED_AT = `2025-03-15`;

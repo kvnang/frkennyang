@@ -1,4 +1,4 @@
-import { ORCID_ID } from "@/lib/constants";
+import { CV_UPDATED_AT, ORCID_ID } from "@/lib/constants";
 import { getFontURL } from "@/lib/load-font";
 import { CvSection } from "@/types";
 import {
@@ -29,6 +29,9 @@ const styles = StyleSheet.create({
     // marginBottom: 10,
     // flexGrow: 1,
   },
+  mono: {
+    fontFamily: "Geist Mono",
+  },
 });
 
 const MyDocument = ({ data }: { data: CvSection[] }) => {
@@ -37,25 +40,49 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
       <Page
         size="A4"
         style={{
-          paddingTop: 40,
+          paddingTop: 10,
           paddingBottom: 40,
           fontSize: 11,
           lineHeight: 1.4,
           fontFamily: "Inter",
         }}
       >
-        {/* <View fixed>
-          <Text>Kenny Ang</Text>
-        </View> */}
+        <View
+          style={{
+            ...styles.section,
+            marginBottom: 10,
+            paddingVertical: 10,
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+          }}
+          fixed
+        >
+          <Text style={{ fontSize: 9, color: "#666", ...styles.mono }}>
+            Kenny Ang / Curriculum Vitæ
+          </Text>
+          <Text style={{ fontSize: 9, color: "#666", ...styles.mono }}>
+            Updated{" "}
+            {new Date(`${CV_UPDATED_AT}T12:00:00Z`).toLocaleDateString(
+              "en-US",
+              {
+                month: "short",
+                year: "numeric",
+                day: "numeric",
+              },
+            )}
+          </Text>
+        </View>
         <View style={{ ...styles.section, marginBottom: 40 }}>
           <Text
             style={{
               fontSize: 24,
               fontWeight: 400,
               fontFamily: "DM Serif Display",
+              textTransform: "uppercase",
             }}
           >
-            CURRICULUM VITÆ
+            Curriculum Vitæ
           </Text>
         </View>
         <View style={{ ...styles.section }}>
@@ -94,7 +121,7 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
               </Link>
             </Text>
             <Text>
-              ORCID <Text style={{ fontFamily: "Geist Mono" }}>{ORCID_ID}</Text>
+              ORCID <Text style={{ ...styles.mono }}>{ORCID_ID}</Text>
             </Text>
           </View>
         </View>
@@ -147,12 +174,11 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                             key={badge}
                             style={{
                               fontSize: 9,
-                              backgroundColor: "#e3e3e3",
-                              lineHeight: 1.125,
-                              paddingTop: 2,
-                              paddingBottom: 2,
-                              paddingRight: 4,
-                              paddingLeft: 4,
+                              backgroundColor: "#f3f3f3",
+                              color: "#666",
+                              lineHeight: 1.25,
+                              paddingVertical: 2,
+                              paddingHorizontal: 4,
                             }}
                           >
                             <Text>{badge}</Text>
@@ -188,7 +214,7 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                   </View>
                   {item.date ? (
                     <View style={{ paddingTop: 1, paddingBottom: 1 }}>
-                      <Text style={{ fontFamily: "Geist Mono", fontSize: 9 }}>
+                      <Text style={{ ...styles.mono, fontSize: 9 }}>
                         {item.date.map((d) => d).join(", ")}
                       </Text>
                     </View>

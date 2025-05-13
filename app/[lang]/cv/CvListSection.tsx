@@ -3,6 +3,7 @@ import { ArrowUpRightIcon, LandmarkIcon, MapPinIcon } from "lucide-react";
 import { TableOfContentsInner } from "../blog/(single)/[slug]/TableOfContentsInner";
 import { slugify } from "@/utils/helpers";
 import { getCvList } from "./cvList";
+import { ButtonLink } from "@/components/Button";
 
 export async function CvListSection() {
   const cvList = await getCvList();
@@ -131,8 +132,8 @@ export async function CvListSection() {
           </div>
         </div>
         <div className="max-lg:-order-1 py-4">
-          <nav className="lg:sticky lg:top-4 lg:border-l lg:border-l-gray lg:pl-8">
-            <div className="w-full">
+          <div className="lg:sticky lg:top-12 lg:border-l lg:border-l-medium-gray lg:pl-8 grid grid-cols-1 gap-8">
+            <nav className="w-full">
               <TableOfContentsInner
                 label={"Contents"}
                 headings={cvList.map((item, i) => {
@@ -152,8 +153,17 @@ export async function CvListSection() {
                   };
                 })}
               />
+            </nav>
+            <div>
+              <ButtonLink
+                href="/cv/download/pdf"
+                className="inline-flex items-center"
+                target="_blank"
+              >
+                Download PDF <ArrowUpRightIcon className="size-4 ml-2" />
+              </ButtonLink>
             </div>
-          </nav>
+          </div>
         </div>
       </div>
     </section>

@@ -1,3 +1,10 @@
+import clsx, { ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
 export function slugify(text: string) {
   return text
     .toString()
@@ -37,7 +44,7 @@ export function formatDate(date: string, ignoreSameYear: boolean = true) {
 
 export function getMinDate(daysFromToday: number) {
   const minDate = new Date(
-    new Date().getTime() + daysFromToday * 24 * 60 * 60 * 1000
+    new Date().getTime() + daysFromToday * 24 * 60 * 60 * 1000,
   );
   const dd = String(minDate.getDate()).padStart(2, "0");
   const mm = String(minDate.getMonth() + 1).padStart(2, "0"); // January is 0!
