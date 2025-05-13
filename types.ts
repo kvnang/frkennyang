@@ -48,3 +48,20 @@ export interface PostProps extends PostEntryProps {
     id?: any[];
   };
 }
+
+export interface CvSection {
+  title: string;
+  items: Array<CvItem>;
+}
+
+export interface CvItem {
+  title: string;
+  subtitle?: string;
+  institution?: string;
+  location?: string;
+  date?: string[];
+  link?: string;
+  description?: string;
+  badges?: string[];
+  active?: boolean;
+}

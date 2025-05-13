@@ -1,5 +1,4 @@
 import { Config } from "tailwindcss";
-import defaultTheme from "tailwindcss/defaultTheme";
 
 const config: Config = {
   // content: [
@@ -10,16 +9,6 @@ const config: Config = {
   //   hoverOnlyWhenSupported: true,
   // },
   theme: {
-    // container: {
-    //   center: true,
-    //   padding: "var(--container-padding)",
-    //   screens: {
-    //     xs: "100%",
-    //     md: "100%",
-    //     lg: "100%",
-    //     xl: "100%",
-    //   },
-    // },
     fontSize: {
       sm: "var(--font-size-sm)",
       base: "var(--font-size-base)",

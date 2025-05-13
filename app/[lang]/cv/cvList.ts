@@ -1,40 +1,51 @@
-export type CvListType = typeof cvList;
+import { titleCase } from "@/studio/plugins/productionUrl/utils";
+import { CvSection } from "@/types";
 
-export const cvList = [
+export type CvListType = Awaited<ReturnType<typeof getCvList>>;
+
+interface ExternalId {
+  "external-id-type": "doi" | string;
+  /** @example "10.12775/BPTh.2025.001" */
+  "external-id-value": string;
+  "external-id-normalized": {
+    value: string;
+    transient: boolean;
+  };
+  "external-id-normalized-error": null;
+  "external-id-url": { value: string };
+  "external-id-relationship": "self" | string;
+}
+
+const baseCvList: Array<CvSection> = [
   {
     title: "Education",
     items: [
       {
         title: "Doctor of Sacred Theology",
-        subtitle: null,
         institution: "Pontifical University of the Holy Cross",
         date: ["2022 – 2024"],
         badges: ["Summa cum laude"],
       },
       {
         title: "Licentiate in Dogmatic Theology",
-        subtitle: null,
         institution: "Pontifical University of the Holy Cross",
         date: ["2020 – 2022"],
         badges: ["Summa cum laude"],
       },
       {
         title: "Baccalaureate in Philosophy",
-        subtitle: null,
         institution: "University of Navarra",
         date: ["2013 – 2015", "2018 – 2019"],
         badges: ["Summa cum laude"],
       },
       {
         title: "Baccalaureate in Theology",
-        subtitle: null,
         institution: "University of Navarra",
         date: ["2015 – 2018"],
         badges: ["Summa cum laude"],
       },
       {
         title: `Piano Performance`,
-        subtitle: null,
         institution: "Missouri Western State University",
         date: ["2010 – 2012"],
       },
@@ -179,3 +190,153 @@ export const cvList = [
     ],
   },
 ];
+
+export const getOrcidToken = async () => {
+  const obj = {
+    client_id: process.env.ORCID_CLIENT_ID,
+    client_secret: process.env.ORCID_CLIENT_SECRET,
+    grant_type: "client_credentials",
+    scope: "/read-public",
+  };
+  const formData = new URLSearchParams();
+
+  Object.keys(obj).map((key) => {
+    formData.append(key, obj[key as keyof typeof obj] as string);
+  });
+  const authRes = await fetch("https://orcid.org/oauth/token", {
+    method: "POST",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    body: formData,
+  });
+  return await authRes.json();
+};
+
+const getOrcidData = async () => {
+  const ORCID_ID = `0000-0001-6563-8863`;
+
+  // const tok = await getOrcidToken();
+  // console.log(tok);
+
+  const url = `https://pub.orcid.org/v3.0/${ORCID_ID}/record`;
+  const res = await fetch(url, {
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${process.env.ORCID_CLIENT_ACCESS_TOKEN}`,
+    },
+  });
+  console.log(res);
+  const json = await res.json();
+  return json;
+};
+
+export const getCvList = async () => {
+  const data = await getOrcidData();
+
+  const works = data["activities-summary"].works as {
+    "last-modified-date": { value: number };
+    group: Array<{
+      "last-modified-date": { value: number };
+      "external-ids": {
+        "external-id": Array<ExternalId>;
+      };
+      "work-summary": Array<{
+        "put-code": number;
+        "created-date": { value: number };
+        "last-modified-date": { value: number };
+        source: {
+          "source-orcid": null;
+          "source-client-id": {
+            uri: string;
+            path: string;
+            host: "orcid.org" | null;
+          };
+          "source-name": {
+            value: "Crossref" | null;
+          };
+          "assertion-origin-orcid": null;
+          "assertion-origin-client-id": null;
+          "assertion-origin-name": null;
+        };
+        title: {
+          title: {
+            value: string;
+          };
+          subtitle: string | null;
+          "translated-title": string | null;
+        };
+        "external-ids": {
+          "external-id": Array<ExternalId>;
+        };
+        url: {
+          value: string;
+        };
+        type:
+          | "journal-article"
+          | "magazine-article"
+          | "conference-paper"
+          | "conference-presentation"
+          | "book"
+          | "book-review"
+          | null;
+        "publication-date": {
+          year: {
+            value: string | null;
+          } | null;
+          month: {
+            value: string | null;
+          } | null;
+          day: {
+            value: string | null;
+          } | null;
+        };
+        "journal-title": {
+          value: string;
+        };
+        visibility: "public";
+        path: string;
+        "display-index": string;
+      }>;
+    }>;
+  };
+
+  const worksItem: CvSection = {
+    title: "Works",
+    items: works.group.map((w) => {
+      const work = w["work-summary"][0];
+
+      const pubDate = work["publication-date"];
+      const ymd = `${pubDate.year?.value || new Date().getFullYear()}-${pubDate.month?.value || "01"}-${pubDate.day?.value || "01"}`;
+      const date = new Date(ymd).toLocaleDateString("en-US", {
+        year: "numeric",
+        month: pubDate.month?.value ? "short" : undefined,
+        day: pubDate.day?.value ? "numeric" : undefined,
+      });
+
+      const subtitle = work.title.subtitle || "";
+      const type = work.type;
+      const typeString = type?.replace(/\-/g, " ");
+
+      return {
+        title: work.title.title.value,
+        subtitle: work["journal-title"].value,
+        date: [date],
+        link: work.url.value,
+        description: subtitle,
+        badges: [titleCase(typeString || "")],
+      };
+    }),
+  };
+
+  const worksIndex = 1;
+
+  const cvList = [
+    ...baseCvList.slice(0, worksIndex),
+    worksItem,
+    ...baseCvList.slice(worksIndex),
+  ];
+
+  return cvList;
+};
