@@ -227,7 +227,6 @@ const getOrcidData = async () => {
       Authorization: `Bearer ${process.env.ORCID_CLIENT_ACCESS_TOKEN}`,
     },
   });
-  console.log(res);
   const json = await res.json();
   return json;
 };

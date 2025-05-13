@@ -37,10 +37,12 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
       <Page size="A4" style={{ padding: 40 }}>
         <View style={styles.page}>
           <View style={{ ...styles.section, marginBottom: 20 }}>
-            <Text style={{ fontSize: 24 }}>CURRICULUM VITÆ</Text>
+            <Text style={{ fontSize: 24, fontWeight: 600 }}>
+              CURRICULUM VITÆ
+            </Text>
           </View>
           <View style={styles.section}>
-            <Text style={{ fontSize: 16 }}>Kenny Ang</Text>
+            <Text style={{ fontSize: 16, fontWeight: 600 }}>Kenny Ang</Text>
           </View>
           <View style={{ ...styles.section }}>
             <Text>Pontifical University of the Holy Cross</Text>
