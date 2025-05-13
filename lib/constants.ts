@@ -8,3 +8,5 @@ const host =
   "localhost:3000";
 
 export const BASE_URL = `${protocol}://${host}`;
+
+export const ORCID_ID = `0000-0001-6563-8863`;

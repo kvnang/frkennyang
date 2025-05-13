@@ -1,3 +1,4 @@
+import { ORCID_ID } from "@/lib/constants";
 import { titleCase } from "@/studio/plugins/productionUrl/utils";
 import { CvSection } from "@/types";
 
@@ -215,8 +216,6 @@ export const getOrcidToken = async () => {
 };
 
 const getOrcidData = async () => {
-  const ORCID_ID = `0000-0001-6563-8863`;
-
   // const tok = await getOrcidToken();
   // console.log(tok);
 
