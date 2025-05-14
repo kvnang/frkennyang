@@ -26,6 +26,7 @@ const baseCvList: Array<CvSection> = [
         institution: "Pontifical University of the Holy Cross",
         date: ["2022 – 2024"],
         badges: ["Summa cum laude"],
+        description: `Title: Aquinas and the Biblical Grounds of the Doctrine of Creation: An Analysis of Thomas Aquinas’s Creation Theology in the Light of His References to Scripture`,
       },
       {
         title: "Licentiate in Dogmatic Theology",

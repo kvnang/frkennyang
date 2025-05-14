@@ -187,6 +187,13 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                         </Text>
                       </View>
                     ) : null}
+                    {item.description ? (
+                      <View>
+                        <Text style={{ fontSize: 9, color: "#666" }}>
+                          {item.description}
+                        </Text>
+                      </View>
+                    ) : null}
                   </View>
                   {item.date ? (
                     <View style={{ paddingTop: 1, paddingBottom: 1 }}>
@@ -223,7 +230,7 @@ function Colophon() {
     >
       <Text
         style={{
-          fontSize: 9,
+          fontSize: 7,
           color: "#666",
           textTransform: "uppercase",
           ...styles.mono,
@@ -233,7 +240,7 @@ function Colophon() {
       </Text>
       <Text
         style={{
-          fontSize: 9,
+          fontSize: 7,
           color: "#666",
           textTransform: "uppercase",
           ...styles.mono,
