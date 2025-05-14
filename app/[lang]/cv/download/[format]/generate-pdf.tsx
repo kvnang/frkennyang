@@ -40,52 +40,28 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
       <Page
         size="A4"
         style={{
-          paddingTop: 10,
+          paddingTop: 40,
           paddingBottom: 40,
+          margin: 0,
           fontSize: 11,
           lineHeight: 1.4,
           fontFamily: "Inter",
         }}
       >
-        <View
-          style={{
-            ...styles.section,
-            marginBottom: 10,
-            paddingVertical: 10,
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-between",
-          }}
-          fixed
-        >
-          <Text style={{ fontSize: 9, color: "#666", ...styles.mono }}>
-            Kenny Ang / Curriculum Vitæ
-          </Text>
-          <Text style={{ fontSize: 9, color: "#666", ...styles.mono }}>
-            Updated{" "}
-            {new Date(`${CV_UPDATED_AT}T12:00:00Z`).toLocaleDateString(
-              "en-US",
-              {
-                month: "short",
-                year: "numeric",
-                day: "numeric",
-              },
-            )}
-          </Text>
-        </View>
         <View style={{ ...styles.section, marginBottom: 40 }}>
           <Text
             style={{
-              fontSize: 24,
+              fontSize: 32,
               fontWeight: 400,
               fontFamily: "DM Serif Display",
-              textTransform: "uppercase",
+              // textTransform: "uppercase",
             }}
           >
-            Curriculum Vitæ
+            {/* Curriculum Vitæ */}
+            Kenny Ang
           </Text>
         </View>
-        <View style={{ ...styles.section }}>
+        {/* <View style={{ ...styles.section }}>
           <Text
             style={{
               fontSize: 20,
@@ -95,7 +71,7 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
           >
             Kenny Ang
           </Text>
-        </View>
+        </View> */}
         <View
           style={{
             ...styles.section,
@@ -224,10 +200,55 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
             </View>
           </View>
         ))}
+        <Colophon />
       </Page>
     </Document>
   );
 };
+
+function Colophon() {
+  return (
+    <View
+      style={{
+        ...styles.section,
+        position: "absolute",
+        bottom: 0,
+        left: 0,
+        paddingVertical: 0,
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-between",
+      }}
+      fixed
+    >
+      <Text
+        style={{
+          fontSize: 9,
+          color: "#666",
+          textTransform: "uppercase",
+          ...styles.mono,
+        }}
+      >
+        Kenny Ang / Curriculum Vitæ
+      </Text>
+      <Text
+        style={{
+          fontSize: 9,
+          color: "#666",
+          textTransform: "uppercase",
+          ...styles.mono,
+        }}
+      >
+        Updated{" "}
+        {new Date(`${CV_UPDATED_AT}T12:00:00Z`).toLocaleDateString("en-US", {
+          month: "short",
+          year: "numeric",
+          day: "numeric",
+        })}
+      </Text>
+    </View>
+  );
+}
 
 export async function generatePdf({ data }: { data: CvSection[] }) {
   Font.register({
