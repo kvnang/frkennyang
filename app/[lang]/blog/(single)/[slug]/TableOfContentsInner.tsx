@@ -36,7 +36,6 @@ export function TableOfContentsInner({
   label: string;
   headings: HeadingBlock[];
 }) {
-  console.log(headings);
   const [activeSection, setActiveSection] = React.useState<string | null>(null);
 
   const handleScroll = () => {
