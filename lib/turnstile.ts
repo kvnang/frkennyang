@@ -28,13 +28,13 @@ interface TurnstileResponse {
   cdata: string;
 }
 
-const TEST_SECRET_KEY_PASS = "1x0000000000000000000000000000000AA";
-const TEST_SECRET_KEY_FAIL = "2x0000000000000000000000000000000AA";
-const TEST_SECRET_KEY_ERROR = "3x0000000000000000000000000000000AA"; // Yields a “token already spent” error
+// const TEST_SECRET_KEY_PASS = "1x0000000000000000000000000000000AA";
+// const TEST_SECRET_KEY_FAIL = "2x0000000000000000000000000000000AA";
+// const TEST_SECRET_KEY_ERROR = "3x0000000000000000000000000000000AA"; // Yields a “token already spent” error
 
 export const turnstileVerify = async (
   request: Request,
-  token?: string | null
+  token?: string | null,
 ) => {
   // Turnstile injects a token in "cf-turnstile-response".
   const ip =

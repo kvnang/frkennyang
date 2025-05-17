@@ -222,7 +222,7 @@ export default function InviteForm() {
                     <select
                       ref={timeZoneSelectRef}
                       id="timeZone"
-                      className="inline-block bg-none !p-0 absolute top-0 left-0 w-full h-full opacity-0 overflow-hidden whitespace-nowrap shadow-none peer"
+                      className="inline-block bg-none p-0! absolute top-0 left-0 w-full h-full opacity-0 overflow-hidden whitespace-nowrap shadow-none peer"
                       name="timeZone"
                       required
                       onChange={(e) => setSelectedTimeZone(e.target.value)}

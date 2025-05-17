@@ -11,7 +11,7 @@ interface AccordionItemHeadProps {
   children?: React.ReactNode;
   id?: string;
   activeAccordionItem?: string | null;
-  setActiveAccordionItem?: Function;
+  setActiveAccordionItem?: (v: string | null) => void;
 }
 
 export function AccordionItemHead({
@@ -22,7 +22,7 @@ export function AccordionItemHead({
 }: AccordionItemHeadProps) {
   function handleClick() {
     if (typeof setActiveAccordionItem === "function") {
-      setActiveAccordionItem(activeAccordionItem === id ? null : id);
+      setActiveAccordionItem(activeAccordionItem === id ? null : id || null);
     }
   }
 
@@ -40,8 +40,8 @@ export function AccordionItemHead({
       tabIndex={0}
       style={{ cursor: "pointer" }}
     >
-      <div className="h-[1px] absolute bottom-0 left-0 transition-transform origin-left w-full bg-gray scale-x-100"></div>
-      <div className="h-[1px] absolute bottom-0 left-0 transition-transform origin-left w-full bg-body scale-x-0 group-aria-expanded:scale-x-100"></div>
+      <div className="h-px absolute bottom-0 left-0 transition-transform origin-left w-full bg-gray scale-x-100"></div>
+      <div className="h-px absolute bottom-0 left-0 transition-transform origin-left w-full bg-body scale-x-0 group-aria-expanded:scale-x-100"></div>
       <div>{children}</div>
       <ChevronDownIcon className="ml-4 transition-transform h-6 w-6 group-aria-expanded:rotate-180" />
     </div>
@@ -82,7 +82,7 @@ interface AccordionItemProps {
   children?: any;
   id?: string;
   activeAccordionItem?: string | null;
-  setActiveAccordionItem?: Function;
+  setActiveAccordionItem?: (v: string | null) => void;
 }
 
 export function AccordionItem({
@@ -131,7 +131,7 @@ interface AccordionProps {
 
 export function Accordion({ children, style }: AccordionProps) {
   const [activeAccordionItem, setActiveAccordionItem] = useState<string | null>(
-    null
+    null,
   );
 
   useEffect(() => {

@@ -15,7 +15,7 @@ export interface HeadingBlock {
 
 const components: PortableTextComponents = {
   types: {
-    span: ({ value: { text, marks }, ...props }) => {
+    span: ({ value: { text, marks } }) => {
       if (marks?.includes("em")) {
         return <em>{text}</em>;
       } else if (marks?.includes("strong")) {
@@ -40,7 +40,7 @@ export function TableOfContentsInner({
 
   const handleScroll = () => {
     const sections = document.querySelectorAll<HTMLElement>(
-      "main [id^=_heading-ref-]"
+      "main [id^=_heading-ref-]",
     );
     const scrollPosition = window.scrollY;
 
@@ -79,7 +79,7 @@ export function TableOfContentsInner({
       <div
         className={clsx(
           `p-4 bg-dark-gray border-t border-medium-gray lg:border-none lg:bg-transparent lg:p-0 lg:flex`,
-          isToggled ? `flex` : `hidden`
+          isToggled ? `flex` : `hidden`,
         )}
       >
         <ol className="text-sm -my-1.5">

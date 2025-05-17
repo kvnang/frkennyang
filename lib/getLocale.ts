@@ -7,9 +7,9 @@ export function getLocale(request: Request) {
     "accept-language": headers.get("accept-language") || "",
   };
 
-  let languages = new Negotiator({ headers: negotiatorHeaders }).languages();
-  let locales = ["en", "id"];
-  let defaultLocale = "en";
+  const languages = new Negotiator({ headers: negotiatorHeaders }).languages();
+  const locales = ["en", "id"];
+  const defaultLocale = "en";
 
   return match(languages, locales, defaultLocale);
 }

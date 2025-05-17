@@ -1,6 +1,4 @@
-import { defineArrayMember, defineConfig } from "sanity";
-import { deskTool } from "sanity/desk";
-// import { visionTool } from '@sanity/vision';
+import { defineConfig } from "sanity";
 import {
   projectId,
   dataset,
@@ -11,6 +9,7 @@ import { schemaTypes } from "@/studio/schemas";
 import { productionUrl } from "@/studio/plugins/productionUrl";
 import post from "@/studio/schemas/post";
 import { portableTable } from "@bitfo/sanity-plugin-portable-table";
+import { structureTool } from "sanity/structure";
 
 const PREVIEWABLE_DOCUMENT_TYPES: string[] = [post.name];
 
@@ -21,7 +20,7 @@ export default defineConfig({
   projectId,
   dataset,
   plugins: [
-    deskTool(),
+    structureTool(),
     // visionTool(),
     productionUrl({
       apiVersion,

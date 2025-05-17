@@ -3,7 +3,6 @@ import {
   TableOfContentsInner,
   type HeadingBlock,
 } from "./TableOfContentsInner";
-import { ListBulletIcon } from "@heroicons/react/24/outline";
 
 export function TableOfContents({
   label,

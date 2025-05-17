@@ -1,17 +1,23 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Playfair_Display, Montserrat } from "next/font/google";
-import "@/styles/globals.css";
+import {
+  Montserrat,
+  Inter,
+  DM_Serif_Display,
+  Geist_Mono,
+} from "next/font/google";
 import type { LangType } from "@/types";
 import { defaultMetadata } from "@/lib/metadata";
 import { Toaster } from "react-hot-toast";
 import Script from "next/script";
 
-const playfairDisplay = Playfair_Display({
+import "@/styles/globals.css";
+
+const dmSerifDisplay = DM_Serif_Display({
   subsets: ["latin"],
-  weight: ["700"],
+  weight: ["400"],
   display: "swap",
-  variable: "--font-playfair-display",
+  variable: "--font-dm-serif-display",
 });
 
 const montserrat = Montserrat({
@@ -19,6 +25,18 @@ const montserrat = Montserrat({
   weight: ["400", "600"],
   display: "swap",
   variable: "--font-montserrat",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: "variable",
+  variable: "--font-inter",
+});
+
+const geistMono = Geist_Mono({
+  subsets: ["latin"],
+  weight: "variable",
+  variable: "--font-geist-mono",
 });
 
 export const metadata = defaultMetadata;
@@ -39,7 +57,7 @@ export default async function RootLayout({
   return (
     <html
       lang={lang}
-      className={`${montserrat.variable} ${playfairDisplay.variable}`}
+      className={`${montserrat.variable} ${dmSerifDisplay.variable} ${inter.variable} ${geistMono.variable}`}
     >
       <head>
         <Script

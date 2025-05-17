@@ -6,6 +6,7 @@ import format from "./format";
 import youtube from "./youtube";
 import book from "./book";
 import html from "./html";
+import cv from "./cv";
 import {
   localeString,
   localeText,
@@ -19,6 +20,7 @@ export const schemaTypes = [
   localeBlockContent,
   localeBlockContentSimple,
   post,
+  cv,
   category,
   format,
   blockContent,

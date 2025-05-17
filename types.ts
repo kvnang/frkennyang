@@ -1,4 +1,5 @@
 import { SanityImageAssetDocument } from "@sanity/client";
+import { TypedObject } from "@sanity/types";
 
 export type LangType = "en" | "id";
 
@@ -47,4 +48,21 @@ export interface PostProps extends PostEntryProps {
     en: any[];
     id?: any[];
   };
+}
+
+export interface CvSection {
+  title: { en: string };
+  items: Array<CvItem>;
+}
+
+export interface CvItem {
+  title: { en: string };
+  subtitle?: { en: string };
+  institution?: { en: string };
+  location?: { en: string };
+  date?: string;
+  link?: string;
+  description?: { en: TypedObject[] };
+  badges?: string[];
+  active?: boolean;
 }

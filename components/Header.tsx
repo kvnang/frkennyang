@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import React, { MouseEvent, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "./Logo";
 import Menu from "./Menu";
 import Social from "./Social";
@@ -25,11 +25,6 @@ export default function Header({ params }: { params: { lang: LangType } }) {
       }
     });
   });
-
-  function handleMenuHamburgerClick(e: MouseEvent) {
-    e.preventDefault();
-    setMobileMenuActive(!mobileMenuActive);
-  }
 
   useEffect(() => {
     if (mobileMenuActive) {

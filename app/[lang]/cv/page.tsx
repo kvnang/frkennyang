@@ -1,13 +1,15 @@
 import Image from "next/image";
 import cvImage from "@/assets/images/frk-cv.jpg";
-import CvContent from "./cv.md";
+// import CvContent from "./cv.md";
 import { CvListSection } from "./CvListSection";
 import { getMetadata } from "@/lib/metadata";
 import { type LangType } from "@/types";
 import { type ResolvingMetadata } from "next";
+import { getCvList } from "./cvList";
+import { PortableText } from "next-sanity";
 
 export async function generateMetadata(
-  { params }: { params: Promise<{ lang: LangType }> },
+  { params: _ }: { params: Promise<{ lang: LangType }> },
   parent: ResolvingMetadata,
 ) {
   return getMetadata(
@@ -21,7 +23,9 @@ export async function generateMetadata(
   );
 }
 
-export default function CvPage() {
+export default async function CvPage() {
+  const data = await getCvList();
+
   return (
     <main className="page-cv">
       <section className="container pt-page pb-section relative z-0 overflow-hidden">
@@ -38,13 +42,19 @@ export default function CvPage() {
             <div className="md:pt-section pb-10 relative lg:pb-16 text-darker-gray h-full">
               <div className="absolute h-[calc(100%+6rem)] md:h-full -top-24 md:top-0 w-screen -left-container -z-10 bg-off-white md:-left-1/2"></div>
               <div className="prose prose-black">
-                <CvContent />
+                <h1>Curriculum Vitae</h1>
+                {data.intro?.en ? (
+                  <PortableText
+                    value={data.intro.en}
+                    components={{}}
+                  ></PortableText>
+                ) : null}
               </div>
             </div>
           </div>
         </div>
       </section>
-      <CvListSection />
+      <CvListSection sections={data.sections || []} />
     </main>
   );
 }

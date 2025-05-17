@@ -8,9 +8,6 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { IndonesiaFlag, UsFlag } from "./Flags";
 
-const removeTrailingSlash = (str: string) =>
-  str.endsWith("/") ? str.slice(0, -1) : str;
-
 export function LanguageSwitcherInner({
   params,
 }: {
@@ -43,7 +40,7 @@ export function LanguageSwitcherInner({
               <Link
                 className={clsx(
                   `flex items-center px-4 py-2 whitespace-nowrap transition-colors`,
-                  active ? "bg-medium-gray" : ""
+                  active ? "bg-medium-gray" : "",
                 )}
                 href={
                   pathnameWithoutLocale ? `/en/${pathnameWithoutLocale}` : `/en`
@@ -57,7 +54,7 @@ export function LanguageSwitcherInner({
                     active || params.lang === "en"
                       ? "opacity-100"
                       : "opacity-80",
-                    params.lang === "en" ? "font-bold" : ""
+                    params.lang === "en" ? "font-bold" : "",
                   )}
                 >
                   English
@@ -83,7 +80,7 @@ export function LanguageSwitcherInner({
                     active || params.lang === "id"
                       ? "opacity-100"
                       : "opacity-80",
-                    params.lang === "id" ? "font-bold" : ""
+                    params.lang === "id" ? "font-bold" : "",
                   )}
                 >
                   Bahasa Indonesia

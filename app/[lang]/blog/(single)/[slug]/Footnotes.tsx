@@ -49,7 +49,7 @@ export function Footnotes({
   return (
     <div className="pt-6 mt-6 border-t border-gray text-sm">
       <ol>
-        {notes.map(({ _key, text, ...rest }: { _key: string; text: any }) => {
+        {notes.map(({ _key, text }: { _key: string; text: any }) => {
           return (
             // the _key is what markKey refers to in the main text component
             <li id={`footnote-${_key}`} key={_key}>
