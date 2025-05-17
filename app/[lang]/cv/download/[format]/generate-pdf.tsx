@@ -12,6 +12,8 @@ import {
   Font,
 } from "@react-pdf/renderer";
 
+const BASE_FONT_SIZE = 10;
+
 // Create styles
 const styles = StyleSheet.create({
   page: {
@@ -25,9 +27,6 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     paddingRight: 40,
     paddingLeft: 40,
-    // marginTop: 10,
-    // marginBottom: 10,
-    // flexGrow: 1,
   },
   mono: {
     fontFamily: "Geist Mono",
@@ -43,7 +42,7 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
           paddingTop: 40,
           paddingBottom: 40,
           margin: 0,
-          fontSize: 11,
+          fontSize: BASE_FONT_SIZE,
           lineHeight: 1.4,
           fontFamily: "Inter",
         }}
@@ -51,7 +50,7 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
         <View style={{ ...styles.section, marginBottom: 40 }}>
           <Text
             style={{
-              fontSize: 32,
+              fontSize: BASE_FONT_SIZE * 3,
               fontWeight: 400,
               fontFamily: "DM Serif Display",
               // textTransform: "uppercase",
