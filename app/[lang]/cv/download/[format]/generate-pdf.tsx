@@ -97,7 +97,12 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                 </Link>
               </Text>
               <Text>
-                ORCID <Text style={{ ...styles.mono }}>{ORCID_ID}</Text>
+                <Link
+                  href={`https://orcid.org/${ORCID_ID}`}
+                  style={{ color: "#444" }}
+                >
+                  ORCID <Text style={{ ...styles.mono }}>{ORCID_ID}</Text>
+                </Link>
               </Text>
             </View>
           </View>

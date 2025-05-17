@@ -8,7 +8,6 @@ import Link from "next/link";
 import { ArrowLongLeftIcon } from "@heroicons/react/24/outline";
 import { TableOfContents } from "./TableOfContents";
 import { getDictionary } from "@/lib/dictionaries";
-import getYouTubeID from "get-youtube-id";
 import { BASE_URL } from "@/lib/constants";
 import Balancer from "react-wrap-balancer";
 import { formatDate } from "@/utils/helpers";
