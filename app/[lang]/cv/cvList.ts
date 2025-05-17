@@ -1,8 +1,11 @@
 import { ORCID_ID } from "@/lib/constants";
+import { clientFetch } from "@/lib/sanity.client";
 import { titleCase } from "@/studio/plugins/productionUrl/utils";
 import { CvSection } from "@/types";
+import { query } from "./query";
+import { TypedObject } from "@sanity/types";
 
-export type CvListType = Awaited<ReturnType<typeof getCvList>>;
+export type CvListType = Awaited<ReturnType<typeof getWorksSection>>;
 
 interface ExternalId {
   "external-id-type": "doi" | string;
@@ -19,176 +22,361 @@ interface ExternalId {
 
 export const baseCvList: Array<CvSection> = [
   {
-    title: "Education",
+    title: { en: "Education" },
     items: [
       {
-        title: "Doctor of Sacred Theology",
-        institution: "Pontifical University of the Holy Cross",
-        date: ["2022 – 2024"],
+        title: { en: "Doctor of Sacred Theology" },
+        institution: { en: "Pontifical University of the Holy Cross" },
+        date: "2022 – 2024",
         badges: ["Summa cum laude"],
-        description: `Title: Aquinas and the Biblical Grounds of the Doctrine of Creation: An Analysis of Thomas Aquinas’s Creation Theology in the Light of His References to Scripture`,
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`Title: Aquinas and the Biblical Grounds of the Doctrine of Creation: An Analysis of Thomas Aquinas’s Creation Theology in the Light of His References to Scripture`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Licentiate in Dogmatic Theology",
-        institution: "Pontifical University of the Holy Cross",
-        date: ["2020 – 2022"],
+        title: { en: "Licentiate in Dogmatic Theology" },
+        institution: { en: "Pontifical University of the Holy Cross" },
+        date: "2020 – 2022",
         badges: ["Summa cum laude"],
       },
       {
-        title: "Baccalaureate in Philosophy",
-        institution: "University of Navarra",
-        date: ["2013 – 2015", "2018 – 2019"],
+        title: { en: "Baccalaureate in Philosophy" },
+        institution: { en: "University of Navarra" },
+        date: "2013 – 2015 | 2018 – 2019",
         badges: ["Summa cum laude"],
       },
       {
-        title: "Baccalaureate in Theology",
-        institution: "University of Navarra",
-        date: ["2015 – 2018"],
+        title: { en: "Baccalaureate in Theology" },
+        institution: { en: "University of Navarra" },
+        date: "2015 – 2018",
         badges: ["Summa cum laude"],
       },
       {
-        title: `Piano Performance`,
-        institution: "Missouri Western State University",
-        date: ["2010 – 2012"],
+        title: { en: `Piano Performance` },
+        institution: { en: "Missouri Western State University" },
+        date: "2010 – 2012",
       },
     ],
   },
 
   {
-    title: "Academic Experience",
+    title: { en: "Academic Experience" },
     items: [
       {
-        title: "Teaching Assistant",
-        institution: "Pontifical University of the Holy Cross",
-        date: ["Since Oct 2022"],
-        location: "Rome, Italy",
+        title: { en: "Teaching Assistant" },
+        institution: { en: "Pontifical University of the Holy Cross" },
+        date: "Since Oct 2022",
+        location: { en: "Rome, Italy" },
         active: true,
       },
       {
-        title: "Lecturer",
-        institution: "University of Ciputra",
-        date: ["Sep 2019 – May 2020"],
-        location: "Surabaya, Indonesia",
-        description: `I taught Philosophy of Religion, both in English and in Bahasa Indonesia, to junior students of different majors.`,
+        title: { en: "Lecturer" },
+        institution: { en: "University of Ciputra" },
+        date: "Sep 2019 – May 2020",
+        location: { en: "Surabaya, Indonesia" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I taught Philosophy of Religion, both in English and in Bahasa Indonesia, to junior students of different majors.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Lecturer",
-        institution: "Katolisitas Study Group",
-        date: ["Jul 2019 – May 2020"],
-        location: "Jakarta, Indonesia",
-        description: `I taught St. Thomas Aquinas’ Summa Theologiae to a group of catechists.`,
+        title: { en: "Lecturer" },
+        institution: { en: "Katolisitas Study Group" },
+        date: "Jul 2019 – May 2020",
+        location: { en: "Jakarta, Indonesia" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I taught St. Thomas Aquinas’ Summa Theologiae to a group of catechists.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Lecturer",
-        institution: "St. John Vianney Spiritual Year Seminary",
-        date: ["Aug 2018 – Jun 2020"],
-        location: "Surabaya, Indonesia",
-        description: `I taught Introduction to Sacred Scripture course to seminarians.`,
+        title: { en: "Lecturer" },
+        institution: { en: "St. John Vianney Spiritual Year Seminary" },
+        date: "Aug 2018 – Jun 2020",
+        location: { en: "Surabaya, Indonesia" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I taught Introduction to Sacred Scripture course to seminarians.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Translator",
-        institution: "University of Navarra",
-        date: ["Sep 2014 – Jul 2020"],
-        location: "Surabaya, Indonesia",
-        description: `I collaborated with some professors and the editors of Scripta Theologica journal of theology on the translation of abstracts and articles from Spanish to English, as well as on the revision thereof.`,
+        title: { en: "Translator" },
+        institution: { en: "University of Navarra" },
+        date: "Sep 2014 – Jul 2020",
+        location: { en: "Surabaya, Indonesia" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I collaborated with some professors and the editors of Scripta Theologica journal of theology on the translation of abstracts and articles from Spanish to English, as well as on the revision thereof.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Lab Coordinator",
-        institution: "Missouri Western State University",
-        date: ["Mar — Dec 2011"],
-        location: "Missouri, USA",
-        description: `In this University's Department of English and Modern Languages, I administered placement tests for incoming freshmen, organized teaching materials for Reading 095 faculty members, and assisted the director in putting together the end-of-semester report. Finally, I composed a Reading 095 Lab Coordinator Manual for future use.`,
+        title: { en: "Lab Coordinator" },
+        institution: { en: "Missouri Western State University" },
+        date: "Mar — Dec 2011",
+        location: { en: "Missouri, USA" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`In this University's Department of English and Modern Languages, I administered placement tests for incoming freshmen, organized teaching materials for Reading 095 faculty members, and assisted the director in putting together the end-of-semester report. Finally, I composed a Reading 095 Lab Coordinator Manual for future use.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Piano Instructor",
-        institution: "Concerto Music School",
-        date: ["2008 – 2010"],
-        location: "Jakarta, Indonesia",
-        description: `I focused on providing elementary music instructions to children as well as giving private piano lessons.`,
+        title: { en: "Piano Instructor" },
+        institution: { en: "Concerto Music School" },
+        date: "2008 – 2010",
+        location: { en: "Jakarta, Indonesia" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I focused on providing elementary music instructions to children as well as giving private piano lessons.`",
+                },
+              ],
+            },
+          ],
+        },
       },
     ],
   },
   {
-    title: "Pastoral Experience",
+    title: { en: "Pastoral Experience" },
     items: [
       {
-        title: "Associate Priest",
-        institution: "Parish of Santo Yakobus",
-        date: ["Jun 2019 – Jul 2020"],
-        location: "Surabaya",
-        description: `I administered the sacraments, preached, and imparted catechesis to parishioners of different age groups. I was in charge of St. John Paul II’s Chapel attached to the parish. I also regularly gave talks to a group of young married couples.`,
+        title: { en: "Associate Priest" },
+        institution: { en: "Parish of Santo Yakobus" },
+        date: "Jun 2019 – Jul 2020",
+        location: { en: "Surabaya" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I administered the sacraments, preached, and imparted catechesis to parishioners of different age groups. I was in charge of St. John Paul II’s Chapel attached to the parish. I also regularly gave talks to a group of young married couples.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Chaplain",
-        subtitle: "Pilgrimage to Holy Land",
-        date: ["Oct 2029"],
-        location: "Israel",
-        description: `I accompanied a group of thirteen pilgrims from Indonesia. I celebrated Mass daily, gave meditations, and provided doctrinal as well as historical explanations of the places we visited.`,
+        title: { en: "Chaplain" },
+        subtitle: { en: "Pilgrimage to Holy Land" },
+        date: "Oct 2029",
+        location: { en: "Israel" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I accompanied a group of thirteen pilgrims from Indonesia. I celebrated Mass daily, gave meditations, and provided doctrinal as well as historical explanations of the places we visited.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Spiritual Director",
-        institution: "St. Vincent de Paul’s Catholic Hospital’s Nursing School",
-        date: ["Feb – May 2019"],
-        location: "Surabaya",
-        description: `I gave a series of recollections and catechesis classes to Catholic students at St. Vincent de Paul’s Catholic Hospital’s Nursing School.`,
+        title: { en: "Spiritual Director" },
+        institution: {
+          en: "St. Vincent de Paul’s Catholic Hospital’s Nursing School",
+        },
+        date: "Feb – May 2019",
+        location: { en: "Surabaya" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I gave a series of recollections and catechesis classes to Catholic students at St. Vincent de Paul’s Catholic Hospital’s Nursing School.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Transitional Deacon",
-        institution: "Cathedral of the Sacred Heart",
-        location: "Surabaya",
-        date: ["Sep 2018 – May 2019"],
+        title: { en: "Transitional Deacon" },
+        institution: { en: "Cathedral of the Sacred Heart" },
+        location: { en: "Surabaya" },
+        date: "Sep 2018 – May 2019",
       },
     ],
   },
   {
-    title: "Volunteer Experience",
+    title: { en: "Volunteer Experience" },
     items: [
       {
-        title: "Organist",
-        institution: "Clínica Universidad de Navarra",
-        date: ["Sep 2016 – Jun 2018"],
-        location: "Pamplona, Spain",
-        description: `I helped the University of Navarra's chaplain for English-speaking students, Fr. José Alviar, organize the choir for the Mass celebrated in English on Sundays during the entire school year.`,
+        title: { en: "Organist" },
+        institution: { en: "Clínica Universidad de Navarra" },
+        date: "Sep 2016 – Jun 2018",
+        location: { en: "Pamplona, Spain" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I helped the University of Navarra's chaplain for English-speaking students, Fr. José Alviar, organize the choir for the Mass celebrated in English on Sundays during the entire school year.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Pilgrim Guide",
-        institution: "Shrine of Torreciudad",
-        date: ["Jul 2017"],
-        location: "Huesca, Spain",
-        description: `I toured the pilgrims around the Shrine and gave them succinct historical explanations of this pilgrimage site. I also assisted the staff at the Information Service Center in attending to the needs of the visitors.`,
+        title: { en: "Pilgrim Guide" },
+        institution: { en: "Shrine of Torreciudad" },
+        date: "Jul 2017",
+        location: { en: "Huesca, Spain" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I toured the pilgrims around the Shrine and gave them succinct historical explanations of this pilgrimage site. I also assisted the staff at the Information Service Center in attending to the needs of the visitors.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Caretaker",
-        institution: "Centro de Apoio a Deficientes João Paulo II",
-        date: ["Jun 2017"],
-        location: "Fátima, Portugal",
-        description: `I took care of those living with mental illnesses by changing their soiled bedding, feeding them, taking them out for a walk, and entertaining them.`,
+        title: { en: "Caretaker" },
+        institution: { en: "Centro de Apoio a Deficientes João Paulo II" },
+        date: "Jun 2017",
+        location: { en: "Fátima, Portugal" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I took care of those living with mental illnesses by changing their soiled bedding, feeding them, taking them out for a walk, and entertaining them.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Organist",
-        institution: "Catholic Newman Center",
-        date: ["2010 – 2011"],
-        location: "Missouri, USA",
-        description: `I selected the hymns and accompanied the assembly in Sunday Masses celebrated at Missouri Western State University’s Catholic Newman Center.`,
+        title: { en: "Organist" },
+        institution: { en: "Catholic Newman Center" },
+        date: "2010 – 2011",
+        location: { en: "Missouri, USA" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I selected the hymns and accompanied the assembly in Sunday Masses celebrated at Missouri Western State University’s Catholic Newman Center.`",
+                },
+              ],
+            },
+          ],
+        },
       },
       {
-        title: "Vice President",
-        institution: "Catholic Newman Center",
-        date: ["2010 – 2011"],
-        location: "Missouri, USA",
-        description: `I assisted the Director in preparing and carrying out Missouri Western State University’s Catholic Newman Center's programs, such as summer fundraising and dinner after Sunday Mass.`,
+        title: { en: "Vice President" },
+        institution: { en: "Catholic Newman Center" },
+        date: "2010 – 2011",
+        location: { en: "Missouri, USA" },
+        description: {
+          en: [
+            {
+              _type: "block",
+              children: [
+                {
+                  _type: "span",
+                  text: "`I assisted the Director in preparing and carrying out Missouri Western State University’s Catholic Newman Center's programs, such as summer fundraising and dinner after Sunday Mass.`",
+                },
+              ],
+            },
+          ],
+        },
       },
     ],
   },
   {
-    title: "Languages",
+    title: { en: "Languages" },
     items: [
-      { title: "English", badges: ["Reading", "Speaking", "Writing"] },
-      { title: "Spanish", badges: ["Reading", "Speaking", "Writing"] },
-      { title: "Italian", badges: ["Reading", "Speaking", "Writing"] },
-      { title: "Bahasa Indonesia", badges: ["Reading", "Speaking", "Writing"] },
-      { title: "Latin", badges: ["Reading"] },
-      { title: "French", badges: ["Reading"] },
+      { title: { en: "English" }, badges: ["Reading", "Speaking", "Writing"] },
+      { title: { en: "Spanish" }, badges: ["Reading", "Speaking", "Writing"] },
+      { title: { en: "Italian" }, badges: ["Reading", "Speaking", "Writing"] },
+      {
+        title: { en: "Bahasa Indonesia" },
+        badges: ["Reading", "Speaking", "Writing"],
+      },
+      { title: { en: "Latin" }, badges: ["Reading"] },
+      { title: { en: "French" }, badges: ["Reading"] },
     ],
   },
 ];
@@ -231,7 +419,7 @@ const getOrcidData = async () => {
   return json;
 };
 
-export const getCvList = async () => {
+export const getWorksSection = async () => {
   const data = await getOrcidData();
 
   const works = data["activities-summary"].works as {
@@ -301,8 +489,9 @@ export const getCvList = async () => {
     }>;
   };
 
-  const worksItem: CvSection = {
-    title: "Works",
+  const worksItem: CvSection & { _key: string } = {
+    _key: "_orcid-works",
+    title: { en: "Works" },
     items: works.group.map((w) => {
       const work = w["work-summary"][0];
 
@@ -319,23 +508,50 @@ export const getCvList = async () => {
       const typeString = type?.replace(/\-/g, " ");
 
       return {
-        title: work.title.title.value,
-        subtitle: work["journal-title"].value,
-        date: [date],
+        title: { en: work.title.title.value },
+        subtitle: { en: work["journal-title"].value },
+        date: date,
         link: work.url.value,
-        description: subtitle,
+        description: {
+          en: [
+            { _type: "block", children: [{ _type: "span", text: subtitle }] },
+          ],
+        },
         badges: [titleCase(typeString || "")],
       };
     }),
   };
 
-  const worksIndex = 1;
+  return worksItem;
+};
 
-  const cvList = [
-    ...baseCvList.slice(0, worksIndex),
-    worksItem,
-    ...baseCvList.slice(worksIndex),
+async function getCv() {
+  const cv = (await clientFetch(query)) as {
+    _id: string;
+    title: string;
+    intro?: { en?: TypedObject[] };
+    sections?: Array<
+      {
+        _key: string;
+      } & CvSection
+    >;
+  };
+  return cv;
+}
+
+export async function getCvList() {
+  const worksSection = await getWorksSection();
+  const data = await getCv();
+  const cmsSections = data.sections || [];
+
+  const worksIndex = 1;
+  const combinedSections = [
+    ...cmsSections.slice(0, worksIndex),
+    worksSection,
+    ...cmsSections.slice(worksIndex),
   ];
 
-  return cvList;
-};
+  data.sections = combinedSections;
+
+  return data;
+}

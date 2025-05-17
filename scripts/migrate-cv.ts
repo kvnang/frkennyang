@@ -12,7 +12,7 @@ async function main() {
           en: item.title,
         },
         subtitle: item.subtitle ? { en: item.subtitle } : undefined,
-        date: item.date?.join(", "),
+        date: item.date,
         institution: item.institution ? { en: item.institution } : undefined,
         location: item.location ? { en: item.location } : undefined,
         badges: item.badges,

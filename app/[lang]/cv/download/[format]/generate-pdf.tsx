@@ -110,7 +110,7 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
           </View> */}
         </View>
         {data.map((section) => (
-          <View style={{ ...styles.section }} key={section.title}>
+          <View style={{ ...styles.section }} key={section.title.en}>
             <Text
               style={{
                 marginBottom: 8,
@@ -120,7 +120,7 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                 fontFamily: "DM Serif Display",
               }}
             >
-              {section.title}
+              {section.title.en}
             </Text>
             <View style={{ display: "flex", flexDirection: "column", gap: 12 }}>
               {section.items.map((item, index) => (
@@ -143,7 +143,7 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                     }}
                   >
                     <Text style={{ fontWeight: 600, marginBottom: -2 }}>
-                      {item.title}
+                      {item.title.en}
                     </Text>
                     {item.badges?.length ? (
                       <View
@@ -170,10 +170,10 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                         ))}
                       </View>
                     ) : null}
-                    {item.location || item.institution ? (
+                    {item.location?.en || item.institution?.en ? (
                       <View>
                         <Text style={{ fontSize: 9 }}>
-                          {[item.institution, item.location]
+                          {[item.institution?.en, item.location?.en]
                             .filter(Boolean)
                             .join(" / ")}
                         </Text>
@@ -182,7 +182,7 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                     {item.subtitle ? (
                       <View>
                         <Text style={{ fontSize: 9, fontStyle: "italic" }}>
-                          {item.subtitle}
+                          {item.subtitle.en}
                         </Text>
                       </View>
                     ) : null}
@@ -195,10 +195,23 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                         </Text>
                       </View>
                     ) : null}
-                    {item.description ? (
+                    {item.description?.en ? (
                       <View>
                         <Text style={{ fontSize: 9, color: "#666" }}>
-                          {item.description}
+                          {item.description.en
+                            .map((b) => {
+                              if (b._type === "block") {
+                                return (b.children as any)
+                                  ?.map((c: any) => {
+                                    if (c._type === "span") {
+                                      return c.text;
+                                    }
+                                    return null;
+                                  })
+                                  .join("");
+                              }
+                            })
+                            .join(" ")}
                         </Text>
                       </View>
                     ) : null}
@@ -206,7 +219,7 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                   {item.date ? (
                     <View style={{ paddingTop: 1, paddingBottom: 1 }}>
                       <Text style={{ ...styles.mono, fontSize: 9 }}>
-                        {item.date.map((d) => d).join(", ")}
+                        {item.date}
                       </Text>
                     </View>
                   ) : null}

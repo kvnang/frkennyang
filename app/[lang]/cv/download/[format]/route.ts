@@ -46,7 +46,7 @@ export async function GET(
   }
 
   if (format === "pdf") {
-    const buffer = await generatePdf({ data: cvList });
+    const buffer = await generatePdf({ data: cvList.sections || [] });
     return new Response(buffer, {
       headers: {
         "Content-Type": "application/pdf",

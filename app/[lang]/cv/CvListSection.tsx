@@ -2,51 +2,47 @@ import { Badge } from "@/components/Badge";
 import { ArrowUpRightIcon, LandmarkIcon, MapPinIcon } from "lucide-react";
 import { TableOfContentsInner } from "../blog/(single)/[slug]/TableOfContentsInner";
 import { slugify } from "@/utils/helpers";
-import { getCvList } from "./cvList";
 import { ButtonLink } from "@/components/Button";
+import { CvSection } from "@/types";
+import { PortableText } from "@portabletext/react";
 
-export async function CvListSection() {
-  const cvList = await getCvList();
-
+export async function CvListSection({
+  sections,
+}: {
+  sections: Array<CvSection & { _key: string }>;
+}) {
   return (
     <section className="container pb-section">
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_12rem] gap-x-8 max-w-6xl mx-auto">
         <div className="">
           <div className="grid grid-cols-1 gap-16">
-            {cvList.map((cvGroup, j) => (
+            {sections.map((cvGroup, j) => (
               <div key={`accordion-${j}`}>
                 <div
                   key={`accordion-cv-${j}`}
-                  id={cvGroup.title}
+                  id={cvGroup.title?.en || j.toString()}
                   className="grid grid-cols-1 gap-8"
                 >
                   <div>
                     <h3
-                      id={`_heading-ref-${slugify(cvGroup.title)}`}
+                      id={`_heading-ref-${slugify(cvGroup.title?.en || j.toString())}`}
                       className="text-xl font-serif"
                     >
-                      {cvGroup.title}
+                      {cvGroup.title?.en}
                     </h3>
                   </div>
                   <div>
                     <ul className="grid grid-cols-1 gap-8">
                       {cvGroup.items.map((cvItem, k) => {
-                        const title = "title" in cvItem ? cvItem.title : "";
-                        const subtitle =
-                          "subtitle" in cvItem ? cvItem.subtitle : "";
-                        const description =
-                          "description" in cvItem ? cvItem.description : "";
-                        const institution =
-                          "institution" in cvItem ? cvItem.institution : "";
-                        const location =
-                          "location" in cvItem ? cvItem.location : "";
-                        const date = "date" in cvItem ? cvItem.date : null;
-                        const badges =
-                          "badges" in cvItem ? cvItem.badges : null;
-                        const active =
-                          "active" in cvItem ? cvItem.active : false;
-                        const link =
-                          "link" in cvItem ? (cvItem.link as string) : null;
+                        const title = cvItem.title?.en;
+                        const subtitle = cvItem.subtitle?.en;
+                        const description = cvItem.description?.en;
+                        const institution = cvItem.institution?.en;
+                        const location = cvItem.location?.en;
+                        const date = cvItem.date;
+                        const badges = cvItem.badges;
+                        const active = cvItem.active;
+                        const link = cvItem.link;
 
                         return (
                           <li
@@ -105,22 +101,22 @@ export async function CvListSection() {
                               </div>
                               {date ? (
                                 <div className="text-right grid grid-cols-1 gap-0.5 items-start font-normal opacity-80 shrink-0 py-1">
-                                  {date.map((d, i) => (
+                                  {date.split(" | ").map((d, i) => (
                                     <span
                                       key={i}
                                       className="whitespace-nowrap font-mono text-base"
                                     >
-                                      {d}
+                                      {d.trim()}
                                     </span>
                                   ))}
                                 </div>
                               ) : null}
                             </div>
-                            {description && /\S/.test(description) && (
+                            {description ? (
                               <div className="prose prose-white opacity-80 prose-sm max-w-3xl">
-                                <p>{description}</p>
+                                <PortableText value={description} />
                               </div>
-                            )}
+                            ) : null}
                           </li>
                         );
                       })}
@@ -134,25 +130,27 @@ export async function CvListSection() {
         <div className="max-lg:-order-1 py-4">
           <div className="lg:sticky lg:top-12 lg:border-l lg:border-l-medium-gray lg:pl-8 grid grid-cols-1 gap-8">
             <nav className="w-full">
-              <TableOfContentsInner
-                label={"Contents"}
-                headings={cvList.map((item, i) => {
-                  return {
-                    _key: `${slugify(item.title)}`,
-                    _type: "block",
-                    children: [
-                      {
-                        text: item.title,
-                        _key: `${i}-child`,
-                        _type: "span",
-                        marks: [],
-                      },
-                    ],
-                    style: "",
-                    // subheadings?: HeadingBlock[];
-                  };
-                })}
-              />
+              {sections?.length ? (
+                <TableOfContentsInner
+                  label={"Contents"}
+                  headings={sections?.map((item, i) => {
+                    return {
+                      _key: `${slugify(item.title.en)}`,
+                      _type: "block",
+                      children: [
+                        {
+                          text: item.title.en,
+                          _key: `${i}-child`,
+                          _type: "span",
+                          marks: [],
+                        },
+                      ],
+                      style: "",
+                      // subheadings?: HeadingBlock[];
+                    };
+                  })}
+                />
+              ) : null}
             </nav>
             <div>
               <ButtonLink
