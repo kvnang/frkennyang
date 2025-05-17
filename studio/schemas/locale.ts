@@ -1,3 +1,5 @@
+import { FieldsetDefinition } from "@sanity/types";
+
 const supportedLanguages = [
   { id: "en", title: "English", isDefault: true },
   { id: "id", title: "Bahasa Indonesia" },
@@ -5,11 +7,14 @@ const supportedLanguages = [
 
 const baseLanguage = supportedLanguages.find((l) => l.isDefault);
 
-const fieldsets = [
+const fieldsets: Array<FieldsetDefinition> = [
   {
     title: "Translations",
     name: "translations",
-    options: { collapsible: true },
+    options: {
+      collapsible: true,
+      collapsed: true,
+    },
   },
 ];
 
@@ -18,7 +23,7 @@ const getFields = (type: string) =>
     title: lang.title,
     name: lang.id,
     type,
-    fieldset: lang.isDefault ? null : "translations",
+    fieldset: lang.isDefault ? undefined : "translations",
   }));
 
 const localeString = {

@@ -17,7 +17,7 @@ interface ExternalId {
   "external-id-relationship": "self" | string;
 }
 
-const baseCvList: Array<CvSection> = [
+export const baseCvList: Array<CvSection> = [
   {
     title: "Education",
     items: [
