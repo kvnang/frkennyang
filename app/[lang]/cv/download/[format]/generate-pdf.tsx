@@ -76,30 +76,38 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
           style={{
             ...styles.section,
             display: "flex",
-            flexDirection: "column",
+            flexDirection: "row",
             gap: 8,
           }}
         >
-          <View>
-            <Text style={{ fontWeight: 600 }}>
-              Pontifical University of the Holy Cross
-            </Text>
-            <Text>Via dei Farnesi 83, Rome 00186, Italy</Text>
+          <View style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+            <View>
+              <Text style={{ fontWeight: 600 }}>
+                Pontifical University of the Holy Cross
+              </Text>
+              <Text>Via dei Farnesi 83, Rome 00186, Italy</Text>
+            </View>
+            <View>
+              <Text>k.ang@pusc.it</Text>
+              <Text>
+                <Link
+                  href="https://www.fatherkenny.com"
+                  style={{ color: "#444" }}
+                >
+                  www.fatherkenny.com
+                </Link>
+              </Text>
+              <Text>
+                ORCID <Text style={{ ...styles.mono }}>{ORCID_ID}</Text>
+              </Text>
+            </View>
           </View>
-          <View>
-            <Text>k.ang@pusc.it</Text>
-            <Text>
-              <Link
-                href="https://www.fatherkenny.com"
-                style={{ color: "#444" }}
-              >
-                www.fatherkenny.com
-              </Link>
-            </Text>
-            <Text>
-              ORCID <Text style={{ ...styles.mono }}>{ORCID_ID}</Text>
-            </Text>
-          </View>
+          {/* <View style={{ width: 120, height: 120 }}>
+            <Image
+              src="https://fatherkenny.com/logo.jpg"
+              style={{ width: 120, height: 120 }}
+            />
+          </View> */}
         </View>
         {data.map((section) => (
           <View style={{ ...styles.section }} key={section.title}>
