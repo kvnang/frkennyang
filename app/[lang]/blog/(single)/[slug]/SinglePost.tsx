@@ -2,7 +2,7 @@ import * as React from "react";
 import type { PostProps, LangType } from "@/types";
 import SocialShare from "@/components/SocialShare";
 import Image from "next/image";
-import { PortableText, type PortableTextComponents } from "@portabletext/react";
+import { PortableText } from "@portabletext/react";
 import { Footnotes } from "./Footnotes";
 import Link from "next/link";
 import { ArrowLongLeftIcon } from "@heroicons/react/24/outline";
