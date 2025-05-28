@@ -8,6 +8,10 @@ export async function POST(req: NextRequest) {
     return new Response("Tag is required", { status: 400 });
   }
 
+  const payload = await req.json();
+
+  console.log(payload);
+
   revalidateTag(tag);
   return new Response("OK", { status: 200 });
 }
