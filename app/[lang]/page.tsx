@@ -35,16 +35,14 @@ export default async function HomePage(props: {
                     priority
                   />
                   <div className="mb-6 prose">
-                    <h1>Heaven is your final destination.</h1>
+                    <h1>Towards Our Eternal Home.</h1>
                     <p>
-                      <strong>Hi, I’m Father Kenny.</strong> Thanks for stopping
-                      by! This site is here to provide tools and insights to
-                      support your faith journey—feel free to explore!
+                      Welcome. I'm Father Kenny. This site is designed to offer resources and insights to enrich your journey of faith. Please feel free to explore at your leisure.
                     </p>
                   </div>
                   <div className="flex flex-wrap -mx-4 -my-3 max-w-[90%] md:max-w-none">
                     <div className="mx-4 my-3">
-                      <ButtonLink href="/about" className="button">
+                      <ButtonLink href="/cv" className="button">
                         Read My Bio
                       </ButtonLink>
                     </div>
