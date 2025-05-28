@@ -1,11 +1,12 @@
 import { cn } from "@/utils/helpers";
+import * as React from "react";
 
 type SocialProps = {
   dark?: boolean;
   className?: string;
 };
 
-const SOCIAL = [
+const SOCIAL: { name: string; href: string; icon: React.JSX.Element }[] = [
   {
     name: "YouTube",
     href: "https://www.youtube.com/channel/UCcjDuwzBBR7pvcuRjlJi48A",
