@@ -35,7 +35,7 @@ export default async function HomePage(props: {
                     priority
                   />
                   <div className="mb-6 prose">
-                    <h1>Towards Our Eternal Home.</h1>
+                    <h1>Towards Our Eternal Home</h1>
                     <p>
                       Welcome. I'm Father Kenny. This site is designed to offer resources and insights to enrich your journey of faith. Please feel free to explore at your leisure.
                     </p>
