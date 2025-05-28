@@ -20,7 +20,11 @@ export async function generateMetadata(
       title
     }[0]`,
         { slug: params.category },
-        { next: { tags: ["posts", `posts:category-${params.category}`] } },
+        {
+          next: {
+            tags: ["categories"],
+          },
+        },
       )
     : null;
 
