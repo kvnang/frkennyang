@@ -37,7 +37,7 @@ export default async function HomePage(props: {
                   <div className="mb-6 prose">
                     <h1>Towards Our Eternal Home</h1>
                     <p>
-                      Welcome. I'm Father Kenny. This site is designed to offer resources and insights to enrich your journey of faith. Please feel free to explore at your leisure.
+                      Welcome. I’m Father Kenny. This site is designed to offer resources and insights to enrich your journey of faith. Please feel free to explore at your leisure.
                     </p>
                   </div>
                   <div className="flex flex-wrap -mx-4 -my-3 max-w-[90%] md:max-w-none">
