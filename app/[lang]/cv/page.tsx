@@ -6,7 +6,7 @@ import { getMetadata } from "@/lib/metadata";
 import { type LangType } from "@/types";
 import { type ResolvingMetadata } from "next";
 import { getCvList } from "./cvList";
-import { PortableText } from "next-sanity";
+import { CvPortableText } from "./cv-portable-text";
 
 export async function generateMetadata(
   { params: _ }: { params: Promise<{ lang: LangType }> },
@@ -44,10 +44,7 @@ export default async function CvPage() {
               <div className="prose prose-black">
                 <h1>Curriculum Vitae</h1>
                 {data.intro?.en ? (
-                  <PortableText
-                    value={data.intro.en}
-                    components={{}}
-                  ></PortableText>
+                  <CvPortableText value={data.intro.en} />
                 ) : null}
               </div>
             </div>

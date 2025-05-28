@@ -4,7 +4,7 @@ import { TableOfContentsInner } from "../blog/(single)/[slug]/TableOfContentsInn
 import { slugify } from "@/utils/helpers";
 import { ButtonLink } from "@/components/Button";
 import { CvSection } from "@/types";
-import { PortableText } from "@portabletext/react";
+import { CvPortableText } from "./cv-portable-text";
 
 export async function CvListSection({
   sections,
@@ -114,7 +114,7 @@ export async function CvListSection({
                             </div>
                             {description ? (
                               <div className="prose prose-white opacity-80 prose-sm max-w-3xl">
-                                <PortableText value={description} />
+                                <CvPortableText value={description} />
                               </div>
                             ) : null}
                           </li>
