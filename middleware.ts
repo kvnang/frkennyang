@@ -10,7 +10,8 @@ export async function middleware(request: NextRequest) {
   // Handle i18n
 
   const pathnameIsMissingLocale = locales.every(
-    (locale) => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
+    (locale) =>
+      !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,
   );
 
   // Redirect if there is no locale
@@ -20,7 +21,7 @@ export async function middleware(request: NextRequest) {
     // e.g. incoming request is /products
     // The new URL is now /en-US/products
     return NextResponse.redirect(
-      new URL(`/${locale}/${pathname}`, request.url)
+      new URL(`/${locale}/${pathname}`, request.url),
     );
   }
 }
@@ -29,7 +30,7 @@ export async function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     // Skip all internal paths (_next)
-    "/((?!api|_next/|favicon.ico|favicon-|assets|images/|studio).*)",
+    "/((?!api|_next/|favicon.ico|favicon-|assets|images/|studio|webhook).*)",
     // Optional: only run on root (/) URL
     // '/'
   ],
