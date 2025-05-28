@@ -11,9 +11,11 @@ import PreviewProvider from "./preview-provider";
 import { PreviewClient } from "./preview-client";
 
 async function getPost(slug: string) {
-  const posts = (await clientFetch(query, {
-    slug,
-  })) as FetchPostProps[];
+  const posts = (await clientFetch(
+    query,
+    { slug },
+    { next: { tags: ["post", `post:${slug}`] } },
+  )) as FetchPostProps[];
 
   const post = posts?.[0];
 

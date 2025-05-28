@@ -18,13 +18,17 @@ export function Search({ params }: { params: { lang: string } }) {
     if (!q) {
       setResults([]);
     } else {
-      const results = await clientFetch(queryWithSearch, {
-        searchQuery: q,
-        category: "",
-        lastScore: null,
-        lastId: null,
-        perPage: 9,
-      });
+      const results = await clientFetch(
+        queryWithSearch,
+        {
+          searchQuery: q,
+          category: "",
+          lastScore: null,
+          lastId: null,
+          perPage: 9,
+        },
+        { next: { revalidate: 300 } },
+      );
       setResults(results);
     }
     setLoading(false);

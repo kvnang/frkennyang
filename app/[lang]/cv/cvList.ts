@@ -526,7 +526,7 @@ export const getWorksSection = async () => {
 };
 
 async function getCv() {
-  const cv = (await clientFetch(query)) as {
+  const cv = (await clientFetch(query, {}, { next: { tags: ["cv"] } })) as {
     _id: string;
     title: string;
     intro?: { en?: TypedObject[] };

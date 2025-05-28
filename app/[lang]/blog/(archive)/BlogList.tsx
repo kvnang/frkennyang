@@ -25,17 +25,17 @@ export function BlogList({
   const initialHasMore = initialData ? initialData.hasMore : true;
 
   const lastIdRef = React.useRef(
-    !!initialPosts?.length ? initialPosts[initialPosts.length - 1]._id : null
+    !!initialPosts?.length ? initialPosts[initialPosts.length - 1]._id : null,
   );
 
   const lastPublishedAtRef = React.useRef(
     !!initialPosts?.length
       ? initialPosts[initialPosts.length - 1].publishedAt
-      : null
+      : null,
   );
 
   const [posts, setPosts] = React.useState<PostEntryProps[]>(
-    initialPosts || []
+    initialPosts || [],
   );
   const [hasMore, setHasMore] = React.useState<boolean>(initialHasMore);
 
@@ -44,12 +44,18 @@ export function BlogList({
       return [];
     }
 
-    const results = await clientFetch(query, {
-      category: params.category || "",
-      lastPublishedAt: lastPublishedAtRef.current,
-      lastId: lastIdRef.current,
-      perPage: 10, // Fetch 10, but only show 9 to check if there are more
-    });
+    const results = await clientFetch(
+      query,
+      {
+        category: params.category || "",
+        lastPublishedAt: lastPublishedAtRef.current,
+        lastId: lastIdRef.current,
+        perPage: 10, // Fetch 10, but only show 9 to check if there are more
+      },
+      {
+        next: { revalidate: 300 },
+      },
+    );
 
     // await clientFetch(queryWithSearch, {
     //   searchQuery: q,

@@ -12,14 +12,18 @@ export default async function BlogLayout({
   params: Promise<{ lang: LangType }>;
 }) {
   const params = await _params;
-  const categories = await clientFetch(`
+  const categories = await clientFetch(
+    `
     *[_type == "category"] {
       _id,
       title,
       slug,
       "count": count(*[_type == "post" && references(^._id)])
     } | order(count desc) [0...5]
-  `);
+  `,
+    {},
+    { next: { tags: ["categories"] } },
+  );
 
   return (
     <main>

@@ -19,9 +19,8 @@ export async function generateMetadata(
         `*[_type == "category" && slug.current == $slug] {
       title
     }[0]`,
-        {
-          slug: params.category,
-        },
+        { slug: params.category },
+        { next: { tags: ["posts", `posts:category-${params.category}`] } },
       )
     : null;
 
@@ -41,12 +40,16 @@ export default async function BlogPage(props: {
   const params = await props.params;
   const category = params.category || "";
 
-  const posts = await clientFetch(query, {
-    category,
-    lastPublishedAt: null,
-    lastId: null,
-    perPage: 11, // Fetch 11 but only show 10
-  });
+  const posts = await clientFetch(
+    query,
+    {
+      category,
+      lastPublishedAt: null,
+      lastId: null,
+      perPage: 11, // Fetch 11 but only show 10
+    },
+    { next: { revalidate: 30 } },
+  );
 
   if (!posts) return null;
 
