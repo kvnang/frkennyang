@@ -15,7 +15,7 @@ export function PreviewClient({
   params: { lang: LangType; slug: string };
   dictionary: Awaited<ReturnType<typeof getDictionary>>;
 }) {
-  const [data, loading] = useLiveQuery(initialData, query);
+  const [data, loading] = useLiveQuery(initialData, query, params);
 
   if (loading) {
     return <>Loading...</>;
