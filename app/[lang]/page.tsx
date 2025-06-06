@@ -105,11 +105,11 @@ export default async function HomePage(props: {
                         </div>
                         <h3 className="text-md font-serif">
                           <ButtonLink
-                            href="mailto:fatherkennyang@gmail.com"
+                            href="mailto:contact@fatherkenny.com"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            fatherkennyang@gmail.com
+                            contact@fatherkenny.com
                           </ButtonLink>
                         </h3>
                       </div>
