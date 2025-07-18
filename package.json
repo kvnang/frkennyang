@@ -44,6 +44,7 @@
     "react-is": "^19.0.0",
     "react-use-draggable-scroll": "^0.4.7",
     "react-wrap-balancer": "^1.1.1",
+    "resend": "^4.5.2",
     "sanity": "^3.90.0",
     "server-only": "^0.0.1",
     "smoothscroll-polyfill": "^0.4.4",

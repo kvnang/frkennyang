@@ -16,8 +16,9 @@ export function PreviewClient({
   dictionary: Awaited<ReturnType<typeof getDictionary>>;
 }) {
   const [data, loading] = useLiveQuery(initialData, query, params);
+  const post = data?.[0];
 
-  if (loading) {
+  if (loading || !post) {
     return <>Loading...</>;
   }
 

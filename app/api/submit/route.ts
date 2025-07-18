@@ -1,3 +1,4 @@
+import { Resend } from "resend";
 import { NextResponse } from "next/server";
 import { fromZonedTime, format, toZonedTime } from "date-fns-tz";
 import { submitLog } from "./log";
@@ -57,18 +58,14 @@ export async function POST(request: Request) {
 
   const mailgunApiKey = process.env.MAILGUN_API_KEY;
   const mailgunDomain = process.env.MAILGUN_DOMAIN;
+
+  const resend = new Resend(process.env.RESEND_API_KEY!);
+
   const recipientEmail =
     process.env.NODE_ENV === "development" ||
     process.env.NEXT_PUBLIC_VERCEL_ENV !== "production"
       ? "ka@kevinang.com"
       : process.env.RECIPIENT_EMAIL;
-
-  if (!mailgunApiKey || !mailgunDomain) {
-    return NextResponse.json(
-      { error: "Mailgun API is not configured" },
-      { status: 400 },
-    );
-  }
 
   if (!recipientEmail) {
     return NextResponse.json(
@@ -287,6 +284,13 @@ export async function POST(request: Request) {
         .map((key) => `${key}: ${data[key]}`)
         .join("\n")}`;
     }
+
+    // resend.emails.send({
+    //   from: 'onboarding@resend.dev',
+    //   to: 'fatherkenny@kevinang.com',
+    //   subject: 'Hello World',
+    //   html: '<p>Congrats on sending your <strong>first email</strong>!</p>'
+    // });
 
     const res = await fetch(
       `https://api.mailgun.net/v3/${mailgunDomain}/messages`,
