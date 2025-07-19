@@ -1,4 +1,4 @@
-import { Resend } from "resend";
+// import { Resend } from "resend";
 import { NextResponse } from "next/server";
 import { fromZonedTime, format, toZonedTime } from "date-fns-tz";
 import { submitLog } from "./log";
@@ -59,7 +59,7 @@ export async function POST(request: Request) {
   const mailgunApiKey = process.env.MAILGUN_API_KEY;
   const mailgunDomain = process.env.MAILGUN_DOMAIN;
 
-  const resend = new Resend(process.env.RESEND_API_KEY!);
+  // const resend = new Resend(process.env.RESEND_API_KEY!);
 
   const recipientEmail =
     process.env.NODE_ENV === "development" ||
