@@ -5,11 +5,17 @@ import type { LangType } from "@/types";
 
 export async function HomeFeatured({ lang }: { lang: LangType }) {
   // Fetch data from Sanity, for posts that have featured image
-  const posts = await clientFetch(`
+  const posts = await clientFetch(
+    `
     *[_type == "post" && mainImage != null] | order(publishedAt desc) {
       _id, title, slug, excerpt, publishedAt, format->{title}, categories[]->{title}, excerpt, "mainImage": mainImage.asset->
     }[0...8]
-  `);
+  `,
+    {},
+    {
+      next: { tags: ["posts"] },
+    },
+  );
 
   // const postsEN = data.postsEN.nodes;
   // const postsID = data.postsID.nodes;
