@@ -10,8 +10,6 @@ export async function POST(req: NextRequest) {
 
   const payload = await req.json();
 
-  console.log(payload);
-
   if (
     payload.slug &&
     payload.slug.current &&
@@ -22,5 +20,6 @@ export async function POST(req: NextRequest) {
   }
 
   revalidateTag(tag);
+
   return new Response("OK", { status: 200 });
 }

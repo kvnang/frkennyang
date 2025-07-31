@@ -13,7 +13,7 @@ export async function HomeFeatured({ lang }: { lang: LangType }) {
   `,
     {},
     {
-      next: { tags: ["post"] },
+      next: { tags: ["posts"] },
     },
   );
 
