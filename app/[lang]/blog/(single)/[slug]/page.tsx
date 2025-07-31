@@ -14,7 +14,7 @@ async function getPost(slug: string) {
   const posts = (await clientFetch(
     query,
     { slug },
-    { next: { tags: ["post", `post:${slug}`] } },
+    { next: { tags: ["post", `post:${slug}`], revalidate: 300 } },
   )) as FetchPostProps[];
 
   const post = posts?.[0];
