@@ -4,15 +4,15 @@ import { BASE_URL } from "./constants";
 const baseUrl = BASE_URL;
 
 const defaultDescription =
-  "Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.";
+  "Father Kenny Ang is a Catholic priest, author, and professor of theology specializing in Thomistic thought. He has published a book and numerous scholarly articles.";
 
 export const defaultMetadata: Metadata = {
   title: {
-    default: "A Catholic Priest serving the Universal Church | Fr. Kenny Ang",
+    default: "Priest, Professor, & Author | Fr. Kenny Ang",
     template: "%s | Fr. Kenny Ang",
   },
   description: defaultDescription,
-  keywords: ["catholic", "priest", "indonesia"],
+  keywords: ["catholic", "priest", "professor"],
   creator: "Fr. Kenny Ang",
   openGraph: {
     title: "Fr. Kenny Ang",
