@@ -459,7 +459,7 @@ export const getWorksSection = async () => {
         };
         url: {
           value: string;
-        };
+        } | null;
         type:
           | "journal-article"
           | "magazine-article"
@@ -511,7 +511,7 @@ export const getWorksSection = async () => {
         title: { en: work.title.title.value },
         subtitle: { en: work["journal-title"].value },
         date: date,
-        link: work.url.value,
+        link: work.url?.value,
         description: {
           en: [
             { _type: "block", children: [{ _type: "span", text: subtitle }] },
