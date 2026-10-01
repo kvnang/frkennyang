@@ -207,8 +207,17 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
                               if (b._type === "block") {
                                 return (b.children as any)
                                   ?.map((c: any) => {
-                                    if (c._type === "span") {
-                                      return c.text;
+                                    if (c._type === "span" && "text" in c) {
+                                      if (typeof c.text === "string") {
+                                        return c.text;
+                                      }
+
+                                      if (
+                                        "value" in c.text &&
+                                        typeof c.text.value === "string"
+                                      ) {
+                                        return c.text.value;
+                                      }
                                     }
                                     return null;
                                   })
