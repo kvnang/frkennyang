@@ -32,10 +32,6 @@ export async function HomeFeatured({ lang }: { lang: LangType }) {
             <div className="lg:pl-[50%]">
               <div className="prose prose-black mb-8">
                 <h2 className="title-line">Featured Contents</h2>
-                <p>
-                  Browse my latest works. Some of them are available in both
-                  English and Bahasa Indonesia.
-                </p>
               </div>
               <div className="flex justify-between items-center">
                 {/* <LangSwitcher shouldNavigate={false} /> */}
