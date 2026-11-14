@@ -1,6 +1,5 @@
 import { cn } from "@/utils/helpers";
 import * as React from "react";
-import Image from "next/image";
 import puscIcon from "@/assets/images/pusc.svg";
 
 type SocialProps = {
