@@ -4,11 +4,11 @@ import { BASE_URL } from "./constants";
 const baseUrl = BASE_URL;
 
 const defaultDescription =
-  "Fr. Kenny Ang is a Catholic priest, author, and professor of theology specializing in Thomistic thought. He has published a book and numerous scholarly articles.";
+  "Writings, talks, and resources on theology and the Catholic faith, from Fr. Kenny Ang, a priest and theologian based in Rome.";
 
 export const defaultMetadata: Metadata = {
   title: {
-    default: "Priest, Professor, & Author | Fr. Kenny Ang",
+    default: "Fr. Kenny Ang | Theology & the Catholic Faith",
     template: "%s | Fr. Kenny Ang",
   },
   description: defaultDescription,
