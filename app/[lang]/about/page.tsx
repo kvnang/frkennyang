@@ -19,12 +19,6 @@ export async function generateMetadata(
   );
 }
 
-const components = {
-  h2: ({ children }: { children?: React.ReactNode }) => (
-    <h2 className="title-line">{children}</h2>
-  ),
-};
-
 export default function AboutPage() {
   return (
     <main>
@@ -39,7 +33,7 @@ export default function AboutPage() {
             </div>
             <div className="col-span-12 md:col-span-8 md:col-start-5 lg:col-span-5 lg:col-start-7">
               <div className="prose">
-                <AboutWebsite components={components} />
+                <AboutWebsite />
               </div>
             </div>
           </div>
