@@ -1,4 +1,3 @@
-import AboutFrKenny from "./about-fr-kenny.md";
 import AboutWebsite from "./about-website.md";
 import Image from "next/image";
 import bioImage from "@/assets/images/frk-bio.jpg";
@@ -14,8 +13,7 @@ export async function generateMetadata(
     {
       title: "About",
       pathname: "/about",
-      description:
-        "Fr. Kenny Ang is a Catholic priest from Indonesia who was ordained in 2019 and has spoken in numerous occasions across Asia and America.",
+      description: "About this website.",
     },
     await parent,
   );
@@ -40,17 +38,6 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="col-span-12 md:col-span-8 md:col-start-5 lg:col-span-5 lg:col-start-7">
-              <div className="prose">
-                <AboutFrKenny />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="pb-section">
-        <div className="container">
-          <div className="grid grid-cols-12 gap-x-4">
-            <div className="col-span-full lg:col-span-6 lg:col-start-4">
               <div className="prose">
                 <AboutWebsite components={components} />
               </div>
