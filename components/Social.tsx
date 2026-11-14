@@ -12,7 +12,23 @@ const SOCIAL: { name: string; href: string; icon: React.JSX.Element }[] = [
   {
     name: "PUSC",
     href: "https://docenti.pusc.it/k.ang",
-    icon: <Image src={puscIcon} alt="PUSC" width={20} height={20} />,
+    icon: (
+      <span
+        role="img"
+        aria-label="PUSC"
+        className="block size-6 bg-current transition-colors"
+        style={{
+          maskImage: `url(${puscIcon.src})`,
+          WebkitMaskImage: `url(${puscIcon.src})`,
+          maskSize: "contain",
+          WebkitMaskSize: "contain",
+          maskRepeat: "no-repeat",
+          WebkitMaskRepeat: "no-repeat",
+          maskPosition: "center",
+          WebkitMaskPosition: "center",
+        }}
+      />
+    ),
   },
   {
     name: "ORCID",
