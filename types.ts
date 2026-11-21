@@ -53,6 +53,8 @@ export interface PostProps extends PostEntryProps {
 export interface CvSection {
   title: { en: string };
   items: Array<CvItem>;
+   /** Optional groups shown under the section heading (e.g. Works). */
+  subsections?: Array<{ title: { en: string }; items: Array<CvItem> }>;
 }
 
 export interface CvItem {
