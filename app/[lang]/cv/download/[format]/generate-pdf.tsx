@@ -1,4 +1,4 @@
-import { CV_UPDATED_AT, ORCID_ID } from "@/lib/constants";
+import { ORCID_ID } from "@/lib/constants";
 import { getFontURL } from "@/lib/load-font";
 import { CvSection } from "@/types";
 import {
@@ -33,7 +33,13 @@ const styles = StyleSheet.create({
   },
 });
 
-const MyDocument = ({ data }: { data: CvSection[] }) => {
+const MyDocument = ({
+  data,
+  updatedAt,
+}: {
+  data: CvSection[];
+  updatedAt: string;
+}) => {
   return (
     <Document>
       <Page
@@ -241,13 +247,13 @@ const MyDocument = ({ data }: { data: CvSection[] }) => {
             </View>
           </View>
         ))}
-        <Colophon />
+        <Colophon updatedAt={updatedAt} />
       </Page>
     </Document>
   );
 };
 
-function Colophon() {
+function Colophon({ updatedAt }: { updatedAt: string }) {
   return (
     <View
       style={{
@@ -281,7 +287,7 @@ function Colophon() {
         }}
       >
         Updated{" "}
-        {new Date(`${CV_UPDATED_AT}T12:00:00Z`).toLocaleDateString("en-US", {
+        {new Date(`${updatedAt}T12:00:00Z`).toLocaleDateString("en-US", {
           month: "short",
           year: "numeric",
           day: "numeric",
@@ -291,7 +297,13 @@ function Colophon() {
   );
 }
 
-export async function generatePdf({ data }: { data: CvSection[] }) {
+export async function generatePdf({
+  data,
+  updatedAt,
+}: {
+  data: CvSection[];
+  updatedAt: string;
+}) {
   Font.register({
     family: "Inter",
     fonts: [
@@ -317,6 +329,8 @@ export async function generatePdf({ data }: { data: CvSection[] }) {
     ],
   });
 
-  const buffer = await renderToBuffer(<MyDocument data={data} />);
+  const buffer = await renderToBuffer(
+    <MyDocument data={data} updatedAt={updatedAt} />,
+  );
   return buffer;
 }
