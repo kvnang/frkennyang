@@ -1,7 +1,6 @@
 import { ORCID_ID } from "@/lib/constants";
 import { clientFetch } from "@/lib/sanity.client";
-import { titleCase } from "@/studio/plugins/productionUrl/utils";
-import { CvSection } from "@/types";
+import { CvItem, CvSection } from "@/types";
 import { query } from "./query";
 import { TypedObject } from "@sanity/types";
 
@@ -460,14 +459,8 @@ export const getWorksSection = async () => {
         url: {
           value: string;
         } | null;
-        type:
-          | "journal-article"
-          | "magazine-article"
-          | "conference-paper"
-          | "conference-presentation"
-          | "book"
-          | "book-review"
-          | null;
+        /** ORCID work type, e.g. "book", "edited-book", "book-chapter" */
+        type: string | null;
         "publication-date": {
           year: {
             value: string | null;
@@ -489,37 +482,88 @@ export const getWorksSection = async () => {
     }>;
   };
 
+  // ORCID labels these two volumes "book", but they are edited volumes.
+  // Numbers are the ORCID "put-code" of each work.
+  const EDITED_BOOK_PUT_CODES = [226165847, 226167870];
+
+  const entries = works.group.map((w) => {
+    const work = w["work-summary"][0];
+
+    const pubDate = work["publication-date"];
+    const ymd = `${pubDate.year?.value || new Date().getFullYear()}-${pubDate.month?.value || "01"}-${pubDate.day?.value || "01"}`;
+    const dateObj = new Date(ymd);
+    const date = dateObj.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: pubDate.month?.value ? "short" : undefined,
+      day: pubDate.day?.value ? "numeric" : undefined,
+    });
+
+    const subtitle = work.title.subtitle || "";
+
+    const item: CvItem = {
+      title: { en: work.title.title.value },
+      subtitle: { en: work["journal-title"].value },
+      date: date,
+      link: work.url?.value,
+      description: {
+        en: [{ _type: "block", children: [{ _type: "span", text: subtitle }] }],
+      },
+    };
+
+    return {
+      type: EDITED_BOOK_PUT_CODES.includes(work["put-code"])
+        ? "edited-book"
+        : work.type,
+      time: dateObj.getTime(),
+      item,
+    };
+  });
+
+  // Each subsection collects one or more ORCID work types. Order here is the
+  // order on the page; empty subsections are skipped automatically.
+  const groups: Array<{ title: string; types: string[] }> = [
+    { title: "Books", types: ["book"] },
+    { title: "Edited Books", types: ["edited-book"] },
+    { title: "Book Chapters", types: ["book-chapter"] },
+    { title: "Journal Articles", types: ["journal-article"] },
+    { title: "Book Reviews", types: ["book-review"] },
+    {
+      title: "Popular Articles",
+      types: ["magazine-article", "newspaper-article", "newsletter-article"],
+    },
+    {
+      title: "Conference Papers & Presentations",
+      types: [
+        "conference-paper",
+        "conference-presentation",
+        "conference-abstract",
+        "conference-poster",
+      ],
+    },
+  ];
+  const knownTypes = groups.flatMap((g) => g.types);
+
+  const toItems = (list: typeof entries) =>
+    [...list].sort((a, b) => b.time - a.time).map((e) => e.item); // newest first
+
+  const subsections = [
+    ...groups.map((g) => ({
+      title: { en: g.title },
+      items: toItems(entries.filter((e) => e.type && g.types.includes(e.type))),
+    })),
+    {
+      title: { en: "Other Works" },
+      items: toItems(
+        entries.filter((e) => !e.type || !knownTypes.includes(e.type)),
+      ),
+    },
+  ].filter((s) => s.items.length > 0);
+
   const worksItem: CvSection & { _key: string } = {
     _key: "_orcid-works",
     title: { en: "Works" },
-    items: works.group.map((w) => {
-      const work = w["work-summary"][0];
-
-      const pubDate = work["publication-date"];
-      const ymd = `${pubDate.year?.value || new Date().getFullYear()}-${pubDate.month?.value || "01"}-${pubDate.day?.value || "01"}`;
-      const date = new Date(ymd).toLocaleDateString("en-US", {
-        year: "numeric",
-        month: pubDate.month?.value ? "short" : undefined,
-        day: pubDate.day?.value ? "numeric" : undefined,
-      });
-
-      const subtitle = work.title.subtitle || "";
-      const type = work.type;
-      const typeString = type?.replace(/\-/g, " ");
-
-      return {
-        title: { en: work.title.title.value },
-        subtitle: { en: work["journal-title"].value },
-        date: date,
-        link: work.url?.value,
-        description: {
-          en: [
-            { _type: "block", children: [{ _type: "span", text: subtitle }] },
-          ],
-        },
-        badges: [titleCase(typeString || "")],
-      };
-    }),
+    items: [],
+    subsections,
   };
 
   return worksItem;
