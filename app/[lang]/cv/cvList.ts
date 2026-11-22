@@ -521,18 +521,24 @@ export const getWorksSection = async () => {
 
   // Each subsection collects one or more ORCID work types. Order here is the
   // order on the page; empty subsections are skipped automatically.
-  const groups: Array<{ title: string; types: string[] }> = [
-    { title: "Books", types: ["book"] },
-    { title: "Edited Books", types: ["edited-book"] },
-    { title: "Book Chapters", types: ["book-chapter"] },
-    { title: "Journal Articles", types: ["journal-article"] },
-    { title: "Book Reviews", types: ["book-review"] },
+  const groups: Array<{ title: string; badge: string; types: string[] }> = [
+    { title: "Books", badge: "Book", types: ["book"] },
+    { title: "Edited Books", badge: "Edited Book", types: ["edited-book"] },
+    { title: "Book Chapters", badge: "Book Chapter", types: ["book-chapter"] },
+    {
+      title: "Journal Articles",
+      badge: "Journal Article",
+      types: ["journal-article"],
+    },
+    { title: "Book Reviews", badge: "Book Review", types: ["book-review"] },
     {
       title: "Popular Articles",
+      badge: "Magazine Article",
       types: ["magazine-article", "newspaper-article", "newsletter-article"],
     },
     {
       title: "Conference Papers & Presentations",
+      badge: "Conference",
       types: [
         "conference-paper",
         "conference-presentation",
@@ -546,23 +552,35 @@ export const getWorksSection = async () => {
   const toItems = (list: typeof entries) =>
     [...list].sort((a, b) => b.time - a.time).map((e) => e.item); // newest first
 
-  const subsections = [
+  const grouped = [
     ...groups.map((g) => ({
-      title: { en: g.title },
+      title: g.title,
+      badge: g.badge,
       items: toItems(entries.filter((e) => e.type && g.types.includes(e.type))),
     })),
     {
-      title: { en: "Other Works" },
+      title: "Other Works",
+      badge: "",
       items: toItems(
         entries.filter((e) => !e.type || !knownTypes.includes(e.type)),
       ),
     },
-  ].filter((s) => s.items.length > 0);
+  ].filter((g) => g.items.length > 0);
+
+  // The web page uses `subsections`. The PDF download reads the flat `items`
+  // list instead, so we fill that too (with a type badge on each entry).
+  const subsections = grouped.map((g) => ({
+    title: { en: g.title },
+    items: g.items,
+  }));
+  const flatItems = grouped.flatMap((g) =>
+    g.items.map((item) => ({ ...item, badges: g.badge ? [g.badge] : [] })),
+  );
 
   const worksItem: CvSection & { _key: string } = {
     _key: "_orcid-works",
     title: { en: "Works" },
-    items: [],
+    items: flatItems,
     subsections,
   };
 
