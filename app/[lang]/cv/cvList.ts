@@ -1,4 +1,4 @@
-import { ORCID_ID } from "@/lib/constants";
+import { CV_UPDATED_AT, ORCID_ID } from "@/lib/constants";
 import { clientFetch } from "@/lib/sanity.client";
 import { CvItem, CvSection } from "@/types";
 import { query } from "./query";
@@ -450,7 +450,7 @@ export const getWorksSection = async () => {
           title: {
             value: string;
           };
-          subtitle: string | null;
+          subtitle: { value: string } | null;
           "translated-title": string | null;
         };
         "external-ids": {
@@ -498,16 +498,23 @@ export const getWorksSection = async () => {
       day: pubDate.day?.value ? "numeric" : undefined,
     });
 
-    const subtitle = work.title.subtitle || "";
+    // ORCID keeps the subtitle separate from the title; show them together.
+    const mainTitle = work.title.title.value.trim();
+    const subtitle = work.title.subtitle?.value?.trim();
+    const title = subtitle
+      ? `${mainTitle}${/[?!.:]$/.test(mainTitle) ? "" : ":"} ${subtitle}`
+      : mainTitle;
+
+    // Journal, publisher, or (for chapters) the book it appears in.
+    const container = work["journal-title"]?.value;
 
     const item: CvItem = {
-      title: { en: work.title.title.value },
-      subtitle: { en: work["journal-title"].value },
+      title: { en: title },
+      subtitle: container
+        ? { en: work.type === "book-chapter" ? `In: ${container}` : container }
+        : undefined,
       date: date,
       link: work.url?.value,
-      description: {
-        en: [{ _type: "block", children: [{ _type: "span", text: subtitle }] }],
-      },
     };
 
     return {
@@ -584,7 +591,11 @@ export const getWorksSection = async () => {
     subsections,
   };
 
-  return worksItem;
+  return {
+    section: worksItem,
+    /** When the ORCID works list last changed (milliseconds). */
+    updatedAt: works["last-modified-date"]?.value ?? 0,
+  };
 };
 
 async function getCv() {
@@ -594,6 +605,7 @@ async function getCv() {
     { next: { tags: ["cv"], revalidate: 300 } },
   )) as {
     _id: string;
+    _updatedAt?: string;
     title: string;
     intro?: { en?: TypedObject[] };
     sections?: Array<
@@ -606,18 +618,44 @@ async function getCv() {
 }
 
 export async function getCvList() {
-  const worksSection = await getWorksSection();
+  const { section: worksSection, updatedAt: orcidUpdatedAt } =
+    await getWorksSection();
   const data = await getCv();
-  const cmsSections = data.sections || [];
+  const allSections = data.sections || [];
+
+  // "Forthcoming Works" is edited in the CMS, but shown as the first
+  // subsection of Works.
+  const isForthcoming = (s: CvSection) =>
+    /^forthcoming/i.test(s.title?.en ?? "");
+  const forthcoming = allSections.find(isForthcoming);
+  const cmsSections = allSections.filter((s) => !isForthcoming(s));
+
+  const works: CvSection & { _key: string } = forthcoming
+    ? {
+        ...worksSection,
+        items: [...forthcoming.items, ...worksSection.items],
+        subsections: [
+          { title: { en: "Forthcoming" }, items: forthcoming.items },
+          ...(worksSection.subsections || []),
+        ],
+      }
+    : worksSection;
 
   const worksIndex = 1;
-  const combinedSections = [
+  const sections = [
     ...cmsSections.slice(0, worksIndex),
-    worksSection,
+    works,
     ...cmsSections.slice(worksIndex),
   ];
 
-  data.sections = combinedSections;
+  // "Last updated" = whichever changed most recently: the CMS or ORCID.
+  const latest = Math.max(
+    data._updatedAt ? new Date(data._updatedAt).getTime() : 0,
+    orcidUpdatedAt,
+  );
+  const updatedAt = latest
+    ? new Date(latest).toISOString().split("T")[0]
+    : CV_UPDATED_AT;
 
-  return data;
+  return { ...data, sections, updatedAt };
 }
