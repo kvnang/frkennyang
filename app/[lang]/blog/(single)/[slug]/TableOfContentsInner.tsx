@@ -32,9 +32,12 @@ const components: PortableTextComponents = {
 export function TableOfContentsInner({
   label,
   headings,
+  collapseSubheadings = false,
 }: {
   label: string;
   headings: HeadingBlock[];
+  /** Only show a heading's subheadings while you are reading that part. */
+  collapseSubheadings?: boolean;
 }) {
   const [activeSection, setActiveSection] = React.useState<string | null>(null);
 
@@ -84,6 +87,12 @@ export function TableOfContentsInner({
       >
         <ol className="text-sm -my-1.5">
           {headings.map(({ _key, children, subheadings }) => {
+            const showSubheadings =
+              !collapseSubheadings ||
+              activeSection === `_heading-ref-${_key}` ||
+              !!subheadings?.some(
+                (s) => activeSection === `_heading-ref-${s._key}`,
+              );
             return (
               // the _key is what markKey refers to in the main text component
               <li id={`_heading-${_key}`} key={_key}>
@@ -96,7 +105,7 @@ export function TableOfContentsInner({
                 >
                   <PortableText value={children} components={components} />
                 </a>
-                {subheadings && (
+                {subheadings && showSubheadings && (
                   <ol className="pl-4">
                     {subheadings.map(({ _key, children }) => {
                       return (
