@@ -59,7 +59,7 @@ export async function CvListSection({
           </div>
         </div>
         <div className="max-lg:-order-1 py-4">
-          <div className="lg:sticky lg:top-12 lg:border-l lg:border-l-medium-gray lg:pl-8 grid grid-cols-1 gap-8">
+          <div className="lg:sticky lg:top-12 lg:max-h-[calc(100vh-6rem)] lg:overflow-x-hidden lg:overflow-y-auto lg:border-l lg:border-l-medium-gray lg:pl-8 grid grid-cols-1 gap-8">
             <nav className="w-full">
               {sections?.length ? (
                 <TableOfContentsInner
@@ -77,9 +77,22 @@ export async function CvListSection({
                         },
                       ],
                       style: "",
-                      // subheadings?: HeadingBlock[];
+                      subheadings: item.subsections?.map((sub, si) => ({
+                        _key: slugify(sub.title.en),
+                        _type: "block",
+                        children: [
+                          {
+                            text: sub.title.en,
+                            _key: `${i}-${si}-child`,
+                            _type: "span",
+                            marks: [],
+                          },
+                        ],
+                        style: "",
+                      })),
                     };
                   })}
+                  collapseSubheadings
                 />
               ) : null}
             </nav>
@@ -192,10 +205,21 @@ function CvItemList({
   );
 }
 
+// Friendlier names for common link targets; anything else shows its domain.
+const LINK_LABELS: Array<[domain: string, label: string]> = [
+  ["doi.org", "DOI"],
+  ["researchgate.net", "ResearchGate"],
+  ["academia.edu", "Academia.edu"],
+  ["orcid.org", "ORCID"],
+];
+
 function UrlMeta({ children }: { children: string }) {
   const url = children;
   const urlObject = new URL(url);
-  const host = urlObject.host.replace(/^www./, "");
+  const host = urlObject.host.replace(/^www\./, "");
+  const label =
+    LINK_LABELS.find(([d]) => host === d || host.endsWith(`.${d}`))?.[1] ??
+    host;
 
   return (
     <a
@@ -204,7 +228,7 @@ function UrlMeta({ children }: { children: string }) {
       rel="noopener noreferrer"
       className="inline-flex items-center opacity-80 hover:opacity-100 transition-colors"
     >
-      {host}
+      {label}
       <ArrowUpRightIcon className="size-3.5 ml-1.5 text-accent" />
     </a>
   );
