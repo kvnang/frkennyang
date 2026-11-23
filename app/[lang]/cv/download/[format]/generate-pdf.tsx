@@ -1,6 +1,6 @@
 import { ORCID_ID } from "@/lib/constants";
 import { getFontURL } from "@/lib/load-font";
-import { CvSection } from "@/types";
+import { CvItem, CvSection } from "@/types";
 import {
   renderToBuffer,
   Document,
@@ -133,117 +133,37 @@ const MyDocument = ({
               {section.title.en}
             </Text>
             <View style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-              {section.items.map((item, index) => (
-                <View
-                  key={index}
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    justifyContent: "space-between",
-                    gap: 16,
-                  }}
-                  wrap={false}
-                >
-                  <View
-                    style={{
-                      flex: 1,
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: 4,
-                    }}
-                  >
-                    <Text style={{ fontWeight: 600, marginBottom: -2 }}>
-                      {item.title.en}
-                    </Text>
-                    {item.badges?.length ? (
-                      <View
-                        style={{
-                          display: "flex",
-                          flexDirection: "row",
-                          gap: 2,
-                        }}
-                      >
-                        {item.badges.map((badge) => (
-                          <View
-                            key={badge}
-                            style={{
-                              fontSize: 9,
-                              backgroundColor: "#f3f3f3",
-                              color: "#666",
-                              lineHeight: 1.25,
-                              paddingVertical: 2,
-                              paddingHorizontal: 4,
-                            }}
-                          >
-                            <Text>{badge}</Text>
-                          </View>
-                        ))}
-                      </View>
-                    ) : null}
-                    {item.location?.en || item.institution?.en ? (
-                      <View>
-                        <Text style={{ fontSize: 9 }}>
-                          {[item.institution?.en, item.location?.en]
-                            .filter(Boolean)
-                            .join(" / ")}
-                        </Text>
-                      </View>
-                    ) : null}
-                    {item.subtitle ? (
-                      <View>
-                        <Text style={{ fontSize: 9, fontStyle: "italic" }}>
-                          {item.subtitle.en}
-                        </Text>
-                      </View>
-                    ) : null}
-                    {item.link ? (
-                      <View>
-                        <Text style={{ fontSize: 9, marginTop: -4 }}>
-                          <Link href={item.link} style={{ color: "#444" }}>
-                            {new URL(item.link).hostname}
-                          </Link>
-                        </Text>
-                      </View>
-                    ) : null}
-                    {item.description?.en ? (
-                      <View>
-                        <Text style={{ fontSize: 9, color: "#666" }}>
-                          {item.description.en
-                            .map((b) => {
-                              if (b._type === "block") {
-                                return (b.children as any)
-                                  ?.map((c: any) => {
-                                    if (c._type === "span" && "text" in c) {
-                                      if (typeof c.text === "string") {
-                                        return c.text;
-                                      }
-
-                                      if (
-                                        "value" in c.text &&
-                                        typeof c.text.value === "string"
-                                      ) {
-                                        return c.text.value;
-                                      }
-                                    }
-                                    return null;
-                                  })
-                                  .join("");
-                              }
-                            })
-                            .join(" ")}
-                        </Text>
-                      </View>
-                    ) : null}
-                  </View>
-                  {item.date ? (
-                    <View style={{ paddingTop: 1, paddingBottom: 1 }}>
-                      <Text style={{ ...styles.mono, fontSize: 9 }}>
-                        {item.date}
-                      </Text>
+              {section.subsections?.length
+                ? section.subsections.map((sub) => (
+                    <View key={sub.title.en} style={{ marginTop: 6 }}>
+                      {sub.items.map((item, index) => (
+                        <View
+                          key={index}
+                          style={{ marginTop: index === 0 ? 0 : 12 }}
+                          wrap={false}
+                        >
+                          {index === 0 ? (
+                            <Text
+                              style={{
+                                fontSize: 12,
+                                fontWeight: 600,
+                                marginBottom: 8,
+                                paddingBottom: 3,
+                                borderBottomWidth: 0.5,
+                                borderBottomColor: "#bbb",
+                              }}
+                            >
+                              {sub.title.en}
+                            </Text>
+                          ) : null}
+                          <PdfItem item={item} hideBadges />
+                        </View>
+                      ))}
                     </View>
-                  ) : null}
-                </View>
-              ))}
+                  ))
+                : section.items.map((item, index) => (
+                    <PdfItem key={index} item={item} />
+                  ))}
             </View>
           </View>
         ))}
@@ -252,6 +172,123 @@ const MyDocument = ({
     </Document>
   );
 };
+
+function PdfItem({
+  item,
+  hideBadges = false,
+}: {
+  item: CvItem;
+  hideBadges?: boolean;
+}) {
+  return (
+    <View
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        gap: 16,
+      }}
+      wrap={false}
+    >
+      <View
+        style={{
+          flex: 1,
+          display: "flex",
+          flexDirection: "column",
+          gap: 4,
+        }}
+      >
+        <Text style={{ fontWeight: 600, marginBottom: -2 }}>
+          {item.title.en}
+        </Text>
+        {!hideBadges && item.badges?.length ? (
+          <View
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: 2,
+            }}
+          >
+            {item.badges.map((badge) => (
+              <View
+                key={badge}
+                style={{
+                  fontSize: 9,
+                  backgroundColor: "#f3f3f3",
+                  color: "#666",
+                  lineHeight: 1.25,
+                  paddingVertical: 2,
+                  paddingHorizontal: 4,
+                }}
+              >
+                <Text>{badge}</Text>
+              </View>
+            ))}
+          </View>
+        ) : null}
+        {item.location?.en || item.institution?.en ? (
+          <View>
+            <Text style={{ fontSize: 9 }}>
+              {[item.institution?.en, item.location?.en]
+                .filter(Boolean)
+                .join(" / ")}
+            </Text>
+          </View>
+        ) : null}
+        {item.subtitle ? (
+          <View>
+            <Text style={{ fontSize: 9, fontStyle: "italic" }}>
+              {item.subtitle.en}
+            </Text>
+          </View>
+        ) : null}
+        {item.link ? (
+          <View>
+            <Text style={{ fontSize: 9, marginTop: -4 }}>
+              <Link href={item.link} style={{ color: "#444" }}>
+                {new URL(item.link).hostname}
+              </Link>
+            </Text>
+          </View>
+        ) : null}
+        {item.description?.en ? (
+          <View>
+            <Text style={{ fontSize: 9, color: "#666" }}>
+              {item.description.en
+                .map((b) => {
+                  if (b._type === "block") {
+                    return (b.children as any)
+                      ?.map((c: any) => {
+                        if (c._type === "span" && "text" in c) {
+                          if (typeof c.text === "string") {
+                            return c.text;
+                          }
+
+                          if (
+                            "value" in c.text &&
+                            typeof c.text.value === "string"
+                          ) {
+                            return c.text.value;
+                          }
+                        }
+                        return null;
+                      })
+                      .join("");
+                  }
+                })
+                .join(" ")}
+            </Text>
+          </View>
+        ) : null}
+      </View>
+      {item.date ? (
+        <View style={{ paddingTop: 1, paddingBottom: 1 }}>
+          <Text style={{ ...styles.mono, fontSize: 9 }}>{item.date}</Text>
+        </View>
+      ) : null}
+    </View>
+  );
+}
 
 function Colophon({ updatedAt }: { updatedAt: string }) {
   return (
