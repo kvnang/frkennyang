@@ -33,7 +33,7 @@ pnpm dev
 pnpm preview  # Build and run the production Worker locally
 ```
 
-Before running `pnpm preview` or building for deployment, set `NEXT_PUBLIC_URL` to the public hostname without `https://`, set `NEXT_PUBLIC_TURNSTILE_SITE_KEY`, and provide `ORCID_CLIENT_ACCESS_TOKEN` so Next.js can prerender the CV. Next.js reads build values from the environment or an ignored `.env.local` file. Use an ignored `.dev.vars` file for local Worker runtime values, including the ORCID token. The project build script removes OpenNext's generated copy of the dotenv values so that the deployed Worker reads its runtime settings from Cloudflare bindings.
+Before running `pnpm preview` or building for deployment, set `NEXT_PUBLIC_URL` to the public hostname without `https://` and set `NEXT_PUBLIC_TURNSTILE_SITE_KEY`. Next.js reads build values from the environment or an ignored `.env.local` file. In Cloudflare Workers Builds, set those values under **Settings → Build → Build variables and secrets**. The CV can prerender from ORCID's public endpoint without a token. An optional `ORCID_CLIENT_ACCESS_TOKEN` gives a higher ORCID usage quota. Use an ignored `.dev.vars` file for local Worker runtime values. The project build script removes OpenNext's generated copy of the dotenv values so that the deployed Worker reads its runtime settings from Cloudflare bindings.
 
 ### Deploy to the fatherkenny.com account
 
@@ -48,7 +48,7 @@ Before running `pnpm preview` or building for deployment, set `NEXT_PUBLIC_URL` 
 
    | Integration | Runtime values |
    | --- | --- |
-   | CV and downloads | `ORCID_CLIENT_ACCESS_TOKEN` |
+   | CV and downloads | Optional `ORCID_CLIENT_ACCESS_TOKEN` |
    | Sanity draft preview | `SANITY_API_READ_TOKEN`, optionally `SANITY_REQUIRE_PREVIEW_SECRET` |
    | Forms | `TURNSTILE_SECRET_KEY`, `MAILGUN_API_KEY`, `MAILGUN_DOMAIN`, `MJML_APPLICATION_ID`, `MJML_SECRET_KEY`, `RECIPIENT_EMAIL` |
    | Google Sheets logging | `GOOGLE_CLIENT_EMAIL`, `GOOGLE_PRIVATE_KEY`, `GOOGLE_SPREADSHEET_ID` |

@@ -404,21 +404,24 @@ export const getOrcidToken = async () => {
 };
 
 const getOrcidData = async () => {
-  // const tok = await getOrcidToken();
-  // console.log(tok);
-
   const url = `https://pub.orcid.org/v3.0/${ORCID_ID}/record`;
-  const res = await fetch(url, {
-    headers: {
-      Accept: "application/json",
-      Authorization: `Bearer ${process.env.ORCID_CLIENT_ACCESS_TOKEN}`,
-    },
+  const headers = { Accept: "application/json" };
+  const token = process.env.ORCID_CLIENT_ACCESS_TOKEN?.trim();
+  let res = await fetch(url, {
+    headers: token ? { ...headers, Authorization: `Bearer ${token}` } : headers,
   });
+
+  // This CV only uses public data, which ORCID also serves anonymously.
+  if (token && res.status === 401) {
+    // Drain the error body before retrying so Next's cloned response can finish.
+    await res.arrayBuffer();
+    res = await fetch(url, { headers });
+  }
+
   if (!res.ok) {
     throw new Error(`ORCID record request failed (${res.status})`);
   }
-  const json = await res.json();
-  return json;
+  return res.json();
 };
 
 export const getWorksSection = async () => {
