@@ -1,4 +1,4 @@
-import { createClient } from "next-sanity";
+import { createClient } from "@sanity/client";
 import { projectId, dataset, useCdn, apiVersion } from "./sanity.api";
 import { cache } from "react";
 

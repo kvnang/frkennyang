@@ -17,7 +17,20 @@ export async function GET(
   }
 
   const { format } = await params;
-  if (format !== "docx" && format !== "pdf" && format !== "html") {
+  if (format === "pdf") {
+    const [{ renderPrintableCv }, { getCvList }] = await Promise.all([
+      import("@/app/[lang]/cv/download/[format]/print-cv"),
+      import("@/app/[lang]/cv/cvList"),
+    ]);
+    const { sections, updatedAt } = await getCvList();
+    return new Response(
+      await renderPrintableCv({ data: sections, updatedAt }),
+      {
+        headers: { "Content-Type": "text/html; charset=utf-8" },
+      },
+    );
+  }
+  if (format !== "docx" && format !== "html") {
     return new Response(null, { status: 404 });
   }
   return renderCvDownload(format);

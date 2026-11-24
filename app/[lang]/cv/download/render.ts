@@ -1,4 +1,4 @@
-export async function renderCvDownload(format: "pdf" | "docx" | "html") {
+export async function renderCvDownload(format: "docx" | "html") {
   const lastUpdated = new Date().toISOString().split("T")[0];
   const filename = `kennyang_cv_${lastUpdated}`;
 
@@ -30,28 +30,10 @@ export async function renderCvDownload(format: "pdf" | "docx" | "html") {
     });
   }
 
-  if (format === "pdf") {
-    const [{ generatePdf }, { getCvList }] = await Promise.all([
-      import("./[format]/generate-pdf"),
-      import("../cvList"),
-    ]);
-    const cvList = await getCvList();
-    const buffer = await generatePdf({
-      data: cvList.sections || [],
-      updatedAt: cvList.updatedAt,
-    });
-    return new Response(buffer, {
-      headers: {
-        "Content-Type": "application/pdf",
-        "Content-Disposition": `inline; filename=${filename}.pdf`,
-      },
-    });
-  }
-
   const { generateDocx } = await import("./[format]/generate-docx");
   const buffer = await generateDocx();
 
-  return new Response(buffer, {
+  return new Response(new Uint8Array(buffer), {
     headers: {
       "Content-Type":
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",

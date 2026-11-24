@@ -15,11 +15,11 @@ export async function POST(req: NextRequest) {
     payload.slug.current &&
     typeof payload.slug.current === "string"
   ) {
-    revalidateTag(`${tag}:${payload.slug.current}`);
+    revalidateTag(`${tag}:${payload.slug.current}`, { expire: 0 });
     return new Response("OK", { status: 200 });
   }
 
-  revalidateTag(tag);
+  revalidateTag(tag, { expire: 0 });
 
   return new Response("OK", { status: 200 });
 }

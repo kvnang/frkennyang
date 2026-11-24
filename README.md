@@ -21,16 +21,18 @@ Fr. Kenny Ang's [personal website](https://www.fatherkenny.com) built with Next.
 
 ## Cloudflare deployment
 
-The site runs on Cloudflare Workers using OpenNext. The Worker uses Workers KV for the Next.js incremental cache and Durable Objects for revalidation and on-demand CV rendering. The CV download URLs serve build-time files as a fallback if rendering fails. The `X-CV-Source` response header reports `durable-object` or `static-fallback`. Studio renders in the browser, and images load directly from static assets or the Sanity CDN to fit the Workers Free CPU budget.
+The site runs on Cloudflare Workers using OpenNext. The Worker uses Workers KV for the Next.js incremental cache and Durable Objects for revalidation and on-demand CV rendering. The PDF uses the `BROWSER` binding and is refreshed on the first request after one hour. If a refresh fails, the Worker serves the last successful PDF or returns HTTP 503 with `Retry-After` when no PDF has been generated yet. HTML and DOCX still fall back to build-time files. The `X-CV-Source` response header reports `durable-object` or `static-fallback` for successful downloads. Studio renders in the browser, and images load directly from static assets or the Sanity CDN to fit the Workers Free CPU budget.
 
 ### Local development
 
-Use Node.js 22.12 or newer and the pnpm version in `package.json`.
+Use a Node.js version listed in `package.json` and the pinned pnpm version.
 
 ```sh
 pnpm install --frozen-lockfile
 pnpm dev
 pnpm preview  # Build and run the production Worker locally
+pnpm lint     # Oxlint
+pnpm format   # Oxfmt
 ```
 
 Before running `pnpm preview` or building for deployment, set `NEXT_PUBLIC_URL` to the public hostname without `https://` and set `NEXT_PUBLIC_TURNSTILE_SITE_KEY`. Next.js reads build values from the environment or an ignored `.env.local` file. In Cloudflare Workers Builds, set those values under **Settings → Build → Build variables and secrets**. The CV can prerender from ORCID's public endpoint without a token. An optional `ORCID_CLIENT_ACCESS_TOKEN` gives a higher ORCID usage quota. Use an ignored `.dev.vars` file for local Worker runtime values. The project build script removes OpenNext's generated copy of the dotenv values so that the deployed Worker reads its runtime settings from Cloudflare bindings.
@@ -56,6 +58,10 @@ Before running `pnpm preview` or building for deployment, set `NEXT_PUBLIC_URL` 
 3. Test the Worker on `workers.dev`, including the home page, blog, Studio, images, and `/en/cv/download/pdf`. For Studio on the temporary hostname, add that origin to the Sanity project's CORS settings. For a form smoke test, authorize the test hostname in Turnstile. Forms default to the existing test recipient and test spreadsheet. Set `FORM_SUBMISSIONS_LIVE=true` on the Worker when ready to use the production recipient and spreadsheet.
 
 See the [OpenNext deployment guide](https://opennext.js.org/cloudflare/get-started), [Workers limits](https://developers.cloudflare.com/workers/platform/limits/), and [Workers secrets guide](https://developers.cloudflare.com/workers/configuration/secrets/).
+
+### Branch previews
+
+Use `pnpm run deploy:preview` from the branch to publish a Worker Preview. In Workers Builds, keep `main` as the production branch and use `pnpm run deploy:preview` as the Preview command. The `previews` block sets up Browser Run, a KV namespace shared by branch previews, and branch-specific Durable Object storage. It keeps live form submissions disabled. [Cloudflare Worker Previews](https://developers.cloudflare.com/workers/previews/get-started/)
 
 ### Connect `www.fatherkenny.com`
 

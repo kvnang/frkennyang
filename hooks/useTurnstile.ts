@@ -7,10 +7,6 @@ declare global {
   }
 }
 
-const TEST_SITE_KEY_PASS = "1x00000000000000000000AA";
-const TEST_SITE_KEY_BLOCK = "2x00000000000000000000AB";
-const TEST_SITE_KEY_CHALLENGE = "3x00000000000000000000FF";
-
 export function useTurnstile() {
   const turnstileRef = React.useRef<HTMLDivElement>(null);
   const turnstileInputRef = React.useRef<HTMLInputElement>(null);

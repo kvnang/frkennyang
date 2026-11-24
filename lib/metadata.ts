@@ -45,7 +45,7 @@ export const getMetadata = (
       alt?: string;
     };
   },
-  parent: ResolvedMetadata
+  parent: ResolvedMetadata,
 ): Metadata => ({
   title,
   description,
@@ -72,9 +72,6 @@ export const getMetadata = (
           if (!i.url) {
             return false;
           }
-          if (typeof i.url !== "string" && !(i.url instanceof URL)) {
-            return false;
-          }
           return true;
         }),
   },
@@ -94,9 +91,6 @@ export const getMetadata = (
       : parent.twitter?.images?.filter((i) => {
           // URL must be URL object or string
           if (!i.url) {
-            return false;
-          }
-          if (typeof i.url !== "string" && !(i.url instanceof URL)) {
             return false;
           }
           return true;

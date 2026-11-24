@@ -7,7 +7,7 @@ import {
   useCdn,
 } from "@/lib/sanity.api";
 import { resolveHref } from "@/lib/sanity.links";
-import { createClient } from "next-sanity";
+import { createClient } from "@sanity/client";
 import { getSecret } from "@/studio/plugins/productionUrl/utils";
 
 const _client = createClient({ projectId, dataset, apiVersion, useCdn });

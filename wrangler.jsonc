@@ -8,6 +8,9 @@
   "preview_urls": false,
   "keep_vars": true,
   "minify": true,
+  "browser": {
+    "binding": "BROWSER",
+  },
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS",
@@ -54,5 +57,35 @@
   ],
   "vars": {
     "FORM_SUBMISSIONS_LIVE": "true",
+  },
+  "previews": {
+    "vars": {
+      "FORM_SUBMISSIONS_LIVE": "false",
+    },
+    "browser": {
+      "binding": "BROWSER",
+    },
+    "kv_namespaces": [
+      {
+        "binding": "NEXT_INC_CACHE_KV",
+        "id": "46bdf38283d04367b205a2309c5c3b40",
+      },
+    ],
+    "durable_objects": {
+      "bindings": [
+        {
+          "name": "NEXT_CACHE_DO_QUEUE",
+          "class_name": "DOQueueHandler",
+        },
+        {
+          "name": "NEXT_TAG_CACHE_DO_SHARDED",
+          "class_name": "DOShardedTagCache",
+        },
+        {
+          "name": "CV_RENDERER",
+          "class_name": "CvRenderer",
+        },
+      ],
+    },
   },
 }

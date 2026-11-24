@@ -7,9 +7,9 @@ function Preview(
     bookTitle?: string | null;
     bookAuthor?: string | null;
     bookDescription?: string | null;
-  }
+  },
 ) {
-  const { url, bookTitle, bookAuthor, renderDefault } = props;
+  const { bookTitle, bookAuthor, renderDefault } = props;
 
   if (!bookTitle) {
     return <div>Missing Book Title</div>;

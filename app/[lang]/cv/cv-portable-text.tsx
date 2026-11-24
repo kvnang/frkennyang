@@ -1,4 +1,4 @@
-import { PortableText } from "next-sanity";
+import { PortableText } from "@portabletext/react";
 import Link from "next/link";
 
 export function CvPortableText(

@@ -1,10 +1,10 @@
 "use client";
 
-import { LiveQueryProvider } from "next-sanity/preview";
-import { suspend } from "suspend-react";
+import { LiveQueryProvider } from "@sanity/preview-kit";
+import { createClient } from "@sanity/preview-kit/client";
+import { apiVersion, dataset, projectId, useCdn } from "@/lib/sanity.api";
 
-// suspend-react cache is global, so we use a unique key to avoid collisions
-const UniqueKey = Symbol("lib/sanity.client");
+const client = createClient({ apiVersion, dataset, projectId, useCdn });
 
 export default function PreviewProvider({
   children,
@@ -13,7 +13,6 @@ export default function PreviewProvider({
   children: React.ReactNode;
   token: string;
 }) {
-  const { client } = suspend(() => import("@/lib/sanity.client"), [UniqueKey]);
   if (!token) throw new TypeError("Missing token");
 
   return (

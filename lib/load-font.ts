@@ -51,5 +51,9 @@ export async function loadFont({
   text?: string;
 }) {
   const fontURL = await getFontURL({ family, weight, text });
-  return fetch(fontURL).then((res) => res.arrayBuffer());
+  const response = await fetch(fontURL);
+  if (!response.ok) {
+    throw new Error(`Could not load ${family} font (${response.status})`);
+  }
+  return response.arrayBuffer();
 }

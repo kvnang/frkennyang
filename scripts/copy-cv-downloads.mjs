@@ -4,7 +4,7 @@ import { dirname, join } from "node:path";
 // Keep prerendered responses available when on-demand rendering fails.
 const headers = [];
 for (const lang of ["en", "id"]) {
-  for (const format of ["docx", "pdf", "html"]) {
+  for (const format of ["docx", "html"]) {
     const route = `${lang}/cv/download/${format}`;
     const source = join(".next/server/app", route);
     const asset = join(".open-next/assets", route);

@@ -4,7 +4,7 @@ import { SinglePost } from "./SinglePost";
 import { query } from "./query";
 import { LangType } from "@/types";
 import { getDictionary } from "@/lib/dictionaries";
-import { useLiveQuery } from "next-sanity/preview";
+import { useLiveQuery } from "@sanity/preview-kit";
 
 export function PreviewClient({
   initialData,

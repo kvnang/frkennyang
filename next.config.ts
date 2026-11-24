@@ -3,8 +3,8 @@ import { NextConfig } from "next";
 import nextMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
-  // OpenNext selects Yoga's workerd export when bundling the Node server.
-  serverExternalPackages: ["yoga-layout"],
+  // Bundle the Sanity SDK once in OpenNext instead of in each SSR entry point.
+  serverExternalPackages: ["sanity"],
   experimental: {
     mdxRs: true,
   },
