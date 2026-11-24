@@ -9,17 +9,19 @@ export async function POST(req: NextRequest) {
   }
 
   const payload = await req.json();
+  // Keep serving cached articles while OpenNext regenerates them in the background.
+  const profile = tag === "post" ? "max" : { expire: 0 };
 
   if (
     payload.slug &&
     payload.slug.current &&
     typeof payload.slug.current === "string"
   ) {
-    revalidateTag(`${tag}:${payload.slug.current}`, { expire: 0 });
+    revalidateTag(`${tag}:${payload.slug.current}`, profile);
     return new Response("OK", { status: 200 });
   }
 
-  revalidateTag(tag, { expire: 0 });
+  revalidateTag(tag, profile);
 
   return new Response("OK", { status: 200 });
 }

@@ -1,4 +1,4 @@
-import * as React from "react";
+import { cache } from "react";
 import type { LangType } from "@/types";
 import { clientFetch } from "@/lib/sanity.client";
 import { getDictionary } from "@/lib/dictionaries";
@@ -7,10 +7,10 @@ import { SinglePost, type FetchPostProps } from "./SinglePost";
 import { draftMode } from "next/headers";
 import { getMetadata } from "@/lib/metadata";
 import { type ResolvingMetadata } from "next";
-import PreviewProvider from "./preview-provider";
-import { PreviewClient } from "./preview-client";
 
-async function getPost(slug: string) {
+export const revalidate = 300;
+
+const getPost = cache(async (slug: string) => {
   const posts = (await clientFetch(
     query,
     { slug },
@@ -20,6 +20,19 @@ async function getPost(slug: string) {
   const post = posts?.[0];
 
   return post;
+});
+
+const getPublishedSlugs = cache(async () =>
+  clientFetch<string[]>(
+    '*[_type == "post" && defined(slug.current) && !(_id in path("drafts.**"))].slug.current',
+    {},
+    { next: { tags: ["post"], revalidate } },
+  ),
+);
+
+export async function generateStaticParams() {
+  const slugs = await getPublishedSlugs();
+  return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata(
@@ -68,6 +81,9 @@ export default async function SinglePostPage(props: {
   const dictionary = await getDictionary(params.lang as LangType);
 
   if (preview?.token) {
+    const [{ default: PreviewProvider }, { PreviewClient }] = await Promise.all(
+      [import("./preview-provider"), import("./preview-client")],
+    );
     return (
       <PreviewProvider token={preview.token}>
         <PreviewClient

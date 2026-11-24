@@ -58,6 +58,18 @@
   "vars": {
     "FORM_SUBMISSIONS_LIVE": "true",
   },
+  // OpenNext's cache seeding command reads Wrangler environments. Target the
+  // same KV namespace as the hosted Previews without writing to production KV.
+  "env": {
+    "preview-cache": {
+      "kv_namespaces": [
+        {
+          "binding": "NEXT_INC_CACHE_KV",
+          "id": "46bdf38283d04367b205a2309c5c3b40",
+        },
+      ],
+    },
+  },
   "previews": {
     "vars": {
       "FORM_SUBMISSIONS_LIVE": "false",

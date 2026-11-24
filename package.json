@@ -13,7 +13,7 @@
     "build:worker": "opennextjs-cloudflare build && node scripts/strip-worker-build-env.mjs && node scripts/copy-cv-downloads.mjs",
     "preview": "pnpm run build:worker && opennextjs-cloudflare preview",
     "deploy": "pnpm run build:worker && opennextjs-cloudflare deploy",
-    "deploy:preview": "pnpm run build:worker && wrangler preview --ignore-base-config",
+    "deploy:preview": "pnpm run build:worker && opennextjs-cloudflare populateCache remote --env preview-cache && wrangler preview --ignore-base-config",
     "lint": "oxlint",
     "format": "oxfmt --write",
     "format:check": "oxfmt --check",

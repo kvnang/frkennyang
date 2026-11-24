@@ -13,7 +13,17 @@ import Balancer from "react-wrap-balancer";
 import { formatDate } from "@/utils/helpers";
 import { PostPortableText } from "./PostPortableText";
 
-export type FetchPostProps = Omit<PostProps, "content" | "intro"> & {
+export type FetchPostProps = Omit<
+  PostProps,
+  "content" | "intro" | "mainImage"
+> & {
+  mainImage?: {
+    url: string;
+    metadata: {
+      lqip?: string;
+      palette?: { dominant?: { background: string } };
+    };
+  } | null;
   introEn: any[];
   introId: any[];
   contentEn: any[];
@@ -29,36 +39,12 @@ export function SinglePost({
   params: { lang: LangType };
   dictionary: Awaited<ReturnType<typeof getDictionary>>;
 }) {
-  const normalizedPost: PostProps = {
-    ...post,
-    intro: {
-      en: post.introEn,
-      id: post.introId,
-    },
-    content: {
-      en: post.contentEn,
-      id: post.contentId,
-    },
-  };
+  const { categories, publishedAt } = post;
+  const inIndonesian = params.lang === "id";
 
-  const categories = normalizedPost.categories;
-  const meta = [];
-  if (normalizedPost.publishedAt)
-    meta.push(formatDate(normalizedPost.publishedAt));
-  if (categories?.length) meta.push(categories.map((c) => c.title).join(", "));
-
-  const title =
-    params.lang === "id" && normalizedPost.title.id
-      ? normalizedPost.title.id
-      : normalizedPost.title.en;
-  const content =
-    params.lang === "id" && normalizedPost.content.id
-      ? normalizedPost.content.id
-      : normalizedPost.content.en;
-  const intro =
-    params.lang === "id" && normalizedPost.intro.id
-      ? normalizedPost.intro.id
-      : normalizedPost.intro.en;
+  const title = (inIndonesian && post.title.id) || post.title.en;
+  const content = (inIndonesian && post.contentId) || post.contentEn;
+  const intro = (inIndonesian && post.introId) || post.introEn;
 
   const dominantColor = post.mainImage?.metadata.palette?.dominant?.background;
 
@@ -105,10 +91,10 @@ export function SinglePost({
                   </div>
                 )}
                 {/* Date */}
-                {!!post.publishedAt && (
+                {!!publishedAt && (
                   <div className="p-2">
                     <div className="text-gray text-sm">
-                      {formatDate(post.publishedAt)}
+                      {formatDate(publishedAt)}
                     </div>
                   </div>
                 )}
