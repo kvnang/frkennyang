@@ -1,6 +1,6 @@
 {
-  "name": "next",
-  "version": "0.1.0",
+  "name": "frkennyang",
+  "version": "0.1.1",
   "private": true,
   "packageManager": "pnpm@12.23.0",
   "engines": {
