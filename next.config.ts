@@ -3,10 +3,13 @@ import { NextConfig } from "next";
 import nextMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
+  // OpenNext selects Yoga's workerd export when bundling the Node server.
+  serverExternalPackages: ["yoga-layout"],
   experimental: {
     mdxRs: true,
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",

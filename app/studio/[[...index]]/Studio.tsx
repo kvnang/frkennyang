@@ -1,10 +1,16 @@
 'use client';
 
-import { NextStudio } from 'next-sanity/studio';
+import dynamic from "next/dynamic";
 
-import config from '@/sanity.config';
-
-export function Studio() {
-  //  Supports the same props as `import {Studio} from 'sanity'`, `config` is required
-  return <NextStudio config={config} />;
-}
+export const Studio = dynamic(
+  async () => {
+    const [{ NextStudio }, { default: config }] = await Promise.all([
+      import("next-sanity/studio"),
+      import("@/sanity.config"),
+    ]);
+    return function StudioClient() {
+      return <NextStudio config={config} />;
+    };
+  },
+  { ssr: false },
+);

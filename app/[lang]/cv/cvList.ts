@@ -410,10 +410,13 @@ const getOrcidData = async () => {
   const url = `https://pub.orcid.org/v3.0/${ORCID_ID}/record`;
   const res = await fetch(url, {
     headers: {
-      "Content-Type": "application/json",
+      Accept: "application/json",
       Authorization: `Bearer ${process.env.ORCID_CLIENT_ACCESS_TOKEN}`,
     },
   });
+  if (!res.ok) {
+    throw new Error(`ORCID record request failed (${res.status})`);
+  }
   const json = await res.json();
   return json;
 };

@@ -1,17 +1,18 @@
 import * as React from "react";
 import { clientFetch } from "@/lib/sanity.client";
 import { Categories } from "./Categories";
-import { LangType } from "@/types";
+import { notFound } from "next/navigation";
 import { Search } from "./Search";
 
 export default async function BlogLayout({
   children,
-  params: _params,
+  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: LangType }>;
+  params: Promise<{ lang: string }>;
 }) {
-  const params = await _params;
+  const { lang } = await params;
+  if (lang !== "en" && lang !== "id") notFound();
   const categories = await clientFetch(
     `
     *[_type == "category"] {
@@ -34,11 +35,11 @@ export default async function BlogLayout({
               <div className="flex items-center justify-between flex-wrap-reverse -m-2">
                 <div className="p-2 max-w-full">
                   <React.Suspense fallback={null}>
-                    <Categories categories={categories} params={params} />
+                    <Categories categories={categories} params={{ lang }} />
                   </React.Suspense>
                 </div>
                 <div className="p-2 basis-full max-w-full sm:basis-auto">
-                  <Search params={params} />
+                  <Search params={{ lang }} />
                 </div>
               </div>
             </div>

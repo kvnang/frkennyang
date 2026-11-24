@@ -6,8 +6,8 @@ import {
   DM_Serif_Display,
   Geist_Mono,
 } from "next/font/google";
-import type { LangType } from "@/types";
 import { defaultMetadata } from "@/lib/metadata";
+import { notFound } from "next/navigation";
 import { Toaster } from "react-hot-toast";
 import Script from "next/script";
 
@@ -47,13 +47,13 @@ export async function generateStaticParams() {
 
 export default async function RootLayout({
   children,
-  params: _params,
+  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: LangType }>;
+  params: Promise<{ lang: string }>;
 }) {
-  const params = await _params;
-  const { lang } = params;
+  const { lang } = await params;
+  if (lang !== "en" && lang !== "id") notFound();
   return (
     <html
       lang={lang}
@@ -69,9 +69,9 @@ export default async function RootLayout({
       </head>
       <body className="font-sans antialiased text-body bg-bg">
         <div className="bg-bg flex flex-col min-h-screen">
-          <Header params={params} />
+          <Header params={{ lang }} />
           <div className="flex-1">{children}</div>
-          <Footer params={params} />
+          <Footer params={{ lang }} />
         </div>
         <Toaster
           toastOptions={{

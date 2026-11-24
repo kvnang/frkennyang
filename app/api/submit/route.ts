@@ -63,7 +63,7 @@ export async function POST(request: Request) {
 
   const recipientEmail =
     process.env.NODE_ENV === "development" ||
-    process.env.NEXT_PUBLIC_VERCEL_ENV !== "production"
+    process.env.FORM_SUBMISSIONS_LIVE !== "true"
       ? "ka@kevinang.com"
       : process.env.RECIPIENT_EMAIL;
 

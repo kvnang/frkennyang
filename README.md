@@ -1,9 +1,10 @@
 # Fr. Kenny Ang
 
-Fr. Kenny Ang's [personal website](https://www.fatherkenny.com) built on React + Gatsby.
+Fr. Kenny Ang's [personal website](https://www.fatherkenny.com) built with Next.js and Sanity.
 
 ## Table of Contents
 
+- [Cloudflare deployment](#cloudflare-deployment)
 - [Updating Posts](#updating-posts)
 - [Writing a Post](#writing-a-post)
   - [Front Matter](#front-matter)
@@ -17,6 +18,50 @@ Fr. Kenny Ang's [personal website](https://www.fatherkenny.com) built on React +
   - [Book Component](#book-component)
 - [Forms](#forms)
 - [Web Analytics](#web-analytics)
+
+## Cloudflare deployment
+
+The site runs on Cloudflare Workers using OpenNext. The Worker uses Workers KV for the Next.js incremental cache and Durable Objects for revalidation and on-demand CV rendering. The CV download URLs serve build-time files as a fallback if rendering fails. The `X-CV-Source` response header reports `durable-object` or `static-fallback`. Studio renders in the browser, and images load directly from static assets or the Sanity CDN to fit the Workers Free CPU budget.
+
+### Local development
+
+Use Node.js 22.12 or newer and the pnpm version in `package.json`.
+
+```sh
+pnpm install --frozen-lockfile
+pnpm dev
+pnpm preview  # Build and run the production Worker locally
+```
+
+Before running `pnpm preview` or building for deployment, set `NEXT_PUBLIC_URL` to the public hostname without `https://`, set `NEXT_PUBLIC_TURNSTILE_SITE_KEY`, and provide `ORCID_CLIENT_ACCESS_TOKEN` so Next.js can prerender the CV. Next.js reads build values from the environment or an ignored `.env.local` file. Use an ignored `.dev.vars` file for local Worker runtime values, including the ORCID token. The project build script removes OpenNext's generated copy of the dotenv values so that the deployed Worker reads its runtime settings from Cloudflare bindings.
+
+### Deploy to the fatherkenny.com account
+
+1. Sign in with `pnpm exec wrangler login` and check the account with `pnpm exec wrangler whoami`. Use the **Kenny Ang** account, which owns the `fatherkenny.com` zone and the KV namespace configured in `wrangler.jsonc`.
+
+   ```sh
+   CLOUDFLARE_ACCOUNT_ID=c35b0a650b17ce7a5753adf0016a3704 \
+     NEXT_PUBLIC_URL=www.fatherkenny.com pnpm run deploy
+   ```
+
+2. Add the Worker runtime values through **Settings → Variables and Secrets**, or use `pnpm exec wrangler secret bulk /path/to/worker-secrets.json` with an untracked JSON file. Keep the public Turnstile site key in the build environment.
+
+   | Integration | Runtime values |
+   | --- | --- |
+   | CV and downloads | `ORCID_CLIENT_ACCESS_TOKEN` |
+   | Sanity draft preview | `SANITY_API_READ_TOKEN`, optionally `SANITY_REQUIRE_PREVIEW_SECRET` |
+   | Forms | `TURNSTILE_SECRET_KEY`, `MAILGUN_API_KEY`, `MAILGUN_DOMAIN`, `MJML_APPLICATION_ID`, `MJML_SECRET_KEY`, `RECIPIENT_EMAIL` |
+   | Google Sheets logging | `GOOGLE_CLIENT_EMAIL`, `GOOGLE_PRIVATE_KEY`, `GOOGLE_SPREADSHEET_ID` |
+
+3. Test the Worker on `workers.dev`, including the home page, blog, Studio, images, and `/en/cv/download/pdf`. For Studio on the temporary hostname, add that origin to the Sanity project's CORS settings. For a form smoke test, authorize the test hostname in Turnstile. Forms default to the existing test recipient and test spreadsheet. Set `FORM_SUBMISSIONS_LIVE=true` on the Worker when ready to use the production recipient and spreadsheet.
+
+See the [OpenNext deployment guide](https://opennext.js.org/cloudflare/get-started), [Workers limits](https://developers.cloudflare.com/workers/platform/limits/), and [Workers secrets guide](https://developers.cloudflare.com/workers/configuration/secrets/).
+
+### Connect `www.fatherkenny.com`
+
+1. Verify the deployment on `https://frkennyang.kenny-ang.workers.dev` and record the existing Vercel CNAME settings so you can restore them.
+2. In the zone's DNS settings, remove the conflicting `www` CNAME at cutover. In the Worker's **Settings → Domains & Routes → Add → Custom Domain**, attach `www.fatherkenny.com`. Cloudflare manages DNS and TLS for the new binding. [Worker Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)
+3. Verify HTTPS and the downloads on `www.fatherkenny.com`. To roll back, remove the Worker Custom Domain and restore the previous CNAME.
 
 ## Updating Posts
 
