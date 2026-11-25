@@ -8,13 +8,13 @@ import { draftMode } from "next/headers";
 import { getMetadata } from "@/lib/metadata";
 import { type ResolvingMetadata } from "next";
 
-export const revalidate = 300;
+export const revalidate = false;
 
 const getPost = cache(async (slug: string) => {
   const posts = (await clientFetch(
     query,
     { slug },
-    { next: { tags: ["post", `post:${slug}`], revalidate: 300 } },
+    { next: { tags: ["post", `post:${slug}`], revalidate } },
   )) as FetchPostProps[];
 
   const post = posts?.[0];

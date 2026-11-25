@@ -1,11 +1,18 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "frkennyang",
+  "account_id": "7ea3718fc0fd423e23c700b0ee874b57",
   "main": "worker.mjs",
   "compatibility_date": "2026-11-24",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "workers_dev": true,
   "preview_urls": true,
+  "routes": [
+    {
+      "pattern": "fatherkenny-origin.kevinang.com/*",
+      "zone_name": "kevinang.com",
+    },
+  ],
   "keep_vars": true,
   "minify": true,
   "browser": {
@@ -26,7 +33,7 @@
   "kv_namespaces": [
     {
       "binding": "NEXT_INC_CACHE_KV",
-      "id": "94c36ec6f0ef430b889d7e57dcb5c8a7",
+      "id": "2f9aa03d4d1742b88ca58dea9a7eccc0",
     },
   ],
   "durable_objects": {
@@ -65,7 +72,7 @@
       "kv_namespaces": [
         {
           "binding": "NEXT_INC_CACHE_KV",
-          "id": "46bdf38283d04367b205a2309c5c3b40",
+          "id": "8bbf0e5c577847d9ba21e8f89b7f96c0",
         },
       ],
     },
@@ -80,7 +87,7 @@
     "kv_namespaces": [
       {
         "binding": "NEXT_INC_CACHE_KV",
-        "id": "46bdf38283d04367b205a2309c5c3b40",
+        "id": "8bbf0e5c577847d9ba21e8f89b7f96c0",
       },
     ],
     "durable_objects": {

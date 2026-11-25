@@ -37,13 +37,12 @@ pnpm format   # Oxfmt
 
 Before running `pnpm preview` or building for deployment, set `NEXT_PUBLIC_URL` to the public hostname without `https://` and set `NEXT_PUBLIC_TURNSTILE_SITE_KEY`. Next.js reads build values from the environment or an ignored `.env.local` file. In Cloudflare Workers Builds, set those values under **Settings → Build → Build variables and secrets**. The CV can prerender from ORCID's public endpoint without a token. An optional `ORCID_CLIENT_ACCESS_TOKEN` gives a higher ORCID usage quota. Use an ignored `.dev.vars` file for local Worker runtime values. The project build script removes OpenNext's generated copy of the dotenv values so that the deployed Worker reads its runtime settings from Cloudflare bindings.
 
-### Deploy to the fatherkenny.com account
+### Deploy to the Kevin Ang account
 
-1. Sign in with `pnpm exec wrangler login` and check the account with `pnpm exec wrangler whoami`. Use the **Kenny Ang** account, which owns the `fatherkenny.com` zone and the KV namespace configured in `wrangler.jsonc`.
+1. Sign in with `pnpm exec wrangler login` and check that you have access to the **Kevin Ang** account with `pnpm exec wrangler whoami`. The account and its production and preview KV namespaces are pinned in `wrangler.jsonc`.
 
    ```sh
-   CLOUDFLARE_ACCOUNT_ID=c35b0a650b17ce7a5753adf0016a3704 \
-     NEXT_PUBLIC_URL=www.fatherkenny.com pnpm run deploy
+   NEXT_PUBLIC_URL=www.fatherkenny.com pnpm run deploy
    ```
 
 2. Add the Worker runtime values through **Settings → Variables and Secrets**, or use `pnpm exec wrangler secret bulk /path/to/worker-secrets.json` with an untracked JSON file. Keep the public Turnstile site key in the build environment.
@@ -65,9 +64,9 @@ Use `pnpm run deploy:preview` from the branch to publish a Worker Preview. In Wo
 
 ### Connect `www.fatherkenny.com`
 
-1. Verify the deployment on `https://frkennyang.kenny-ang.workers.dev` and record the existing Vercel CNAME settings so you can restore them.
-2. In the zone's DNS settings, remove the conflicting `www` CNAME at cutover. In the Worker's **Settings → Domains & Routes → Add → Custom Domain**, attach `www.fatherkenny.com`. Cloudflare manages DNS and TLS for the new binding. [Worker Custom Domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/)
-3. Verify HTTPS and the downloads on `www.fatherkenny.com`. To roll back, remove the Worker Custom Domain and restore the previous CNAME.
+1. In the Kevin Ang account, `kevinang.com` serves `www.fatherkenny.com` as a Cloudflare for SaaS Custom Hostname. The shared fallback is `saas.kevinang.com`, and the app-specific target `fatherkenny-origin.kevinang.com` routes to `frkennyang` via the production route in `wrangler.jsonc`. [Worker as a SaaS origin](https://developers.cloudflare.com/cloudflare-for-platforms/cloudflare-for-saas/start/advanced-settings/worker-as-origin/)
+2. In the Kenny Ang account, the proxied `www` CNAME points to `fatherkenny-origin.kevinang.com`. The proxied apex serves the existing redirect to `www.fatherkenny.com`, preserving the path and query string. The registration stays in the Kenny Ang account.
+3. Verify HTTPS, the apex redirect, and the downloads on `www.fatherkenny.com`.
 
 ## Updating Posts
 
